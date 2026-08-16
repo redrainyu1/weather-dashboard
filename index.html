@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>天气预报市场 - Polymarket</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: #0f1117; color: #e0e0e0; padding: 20px;
+  }
+  .container { max-width: 960px; margin: 0 auto; }
+  h1 { 
+    text-align: center; margin-bottom: 8px; color: #fff; font-size: 22px; 
+    display: flex; align-items: center; justify-content: center; gap: 10px;
+  }
+  .sub { text-align: center; color: #888; margin-bottom: 20px; font-size: 13px; }
+  
+  .toolbar {
+    display: flex; gap: 10px; margin-bottom: 16px; flex-wrap: wrap; align-items: center;
+  }
+  .toolbar input {
+    flex: 1; min-width: 200px; padding: 8px 12px; border-radius: 6px;
+    border: 1px solid #333; background: #1a1d27; color: #e0e0e0; font-size: 14px;
+  }
+  .toolbar button, .toolbar select {
+    padding: 8px 16px; border-radius: 6px; border: 1px solid #333; cursor: pointer;
+    font-size: 14px; background: #1a1d27; color: #e0e0e0;
+  }
+  .btn-refresh { background: #2563eb !important; color: #fff !important; border: none !important; font-weight: 500; }
+  .btn-refresh:hover { background: #1d4ed8 !important; }
+  
+  table {
+    width: 100%; border-collapse: collapse; font-size: 14px;
+    border: 1px solid #222; border-radius: 8px; overflow: hidden;
+  }
+  th, td {
+    padding: 10px 14px; text-align: left; border-bottom: 1px solid #1a1d27;
+  }
+  th {
+    background: #1a1d27; color: #999; font-weight: 600; font-size: 11px;
+    text-transform: uppercase; letter-spacing: 0.5px; position: sticky; top: 0;
+  }
+  th.sortable { cursor: pointer; user-select: none; }
+  th.sortable:hover { color: #fff; }
+  th.sortable::after { content: ' \2195'; opacity: 0.3; }
+  tr:hover { background: rgba(255,255,255,0.03); }
+  
+  .city { font-weight: 600; color: #fff; }
+  .date { color: #aaa; font-size: 12px; }
+  
+  .pred-temp { font-weight: 700; font-size: 16px; }
+  .pred-temp.h { color: #fdba74; }
+  .pred-temp.l { color: #93c5fd; }
+  .pred-prob { font-size: 12px; color: #22c55e; margin-left: 4px; }
+  
+  .na { color: #444; font-style: italic; font-size: 12px; }
+  
+  /* Temperature bar */
+  .temp-bar-wrap { margin: 4px 0; display: flex; gap: 1px; height: 6px; border-radius: 3px; overflow: hidden; max-width: 200px; }
+  .temp-bar-seg { transition: width 0.3s; }
+  .temp-bar-seg.exact { background: #3b82f6; }
+  .temp-bar-seg.edge { background: #374151; }
+  
+  .temp-list { font-size: 11px; color: #666; margin-top: 2px; }
+  .temp-list span { margin-right: 6px; }
+  .temp-list .hi { color: #22c55e; font-weight: 600; }
+  
+  .loading { text-align: center; padding: 40px; color: #888; }
+  .empty { text-align: center; padding: 20px; color: #555; }
+  .update-time { text-align: center; color: #555; margin-top: 20px; font-size: 12px; }
+  
+  /* Stats bar */
+  .stats { display: flex; gap: 20px; margin-bottom: 12px; font-size: 12px; color: #888; flex-wrap: wrap; }
+  .stats strong { color: #ccc; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fdba74" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+    天气预报市场
+  </h1>
+  <p class="sub" id="subtitle">数据来源 Polymarket · 概率即价格</p>
+  
+  <div class="toolbar">
+    <input type="text" id="filter" placeholder="搜索城市名称..." oninput="render()">
+    <select id="dateFilter" onchange="render()">
+      <option value="all">全部日期</option>
+    </select>
+    <button class="btn-refresh" onclick="loadData()">刷新数据</button>
+  </div>
+  
+  <div class="stats" id="stats"></div>
+  
+  <table id="table">
+    <thead>
+      <tr>
+        <th class="sortable" onclick="sortBy('city')">城市</th>
+        <th class="sortable" onclick="sortBy('date')">日期</th>
+        <th>最高温度预测</th>
+        <th>概率</th>
+        <th>最低温度预测</th>
+        <th>概率</th>
+      </tr>
+    </thead>
+    <tbody id="tbody">
+      <tr><td colspan="6" class="loading">加载中...</td></tr>
+    </tbody>
+  </table>
+  
+  <p class="update-time" id="updateTime"></p>
+</div>
+
+<script>
+let allData = { rows: [] };
+let sortField = 'city';
+let sortAsc = true;
+
+async function loadData() {
+  document.getElementById('subtitle').textContent = '加载中...';
+  document.getElementById('tbody').innerHTML = '<tr><td colspan="6" class="loading">加载中...</td></tr>';
+  try {
+    const resp = await fetch('data.json?' + Date.now());
+    allData = await resp.json();
+    
+    // Build date filter
+    const dates = [...new Set(allData.rows.map(r => r.date_display).filter(d => d))].sort();
+    const sel = document.getElementById('dateFilter');
+    sel.innerHTML = '<option value="all">全部日期 (' + dates.length + '个)</option>' +
+      dates.map(d => '<option value="' + d + '">' + d + '</option>').join('');
+    
+    document.getElementById('subtitle').textContent = 
+      '共 ' + allData.count + ' 个城市 · ' + allData.rows.length + ' 行 · 数据来源 Polymarket';
+    document.getElementById('updateTime').textContent = 
+      '数据时间: ' + (allData.updated_at || '--').replace('T', ' ').substring(0, 19);
+    
+    render();
+  } catch(e) {
+    document.getElementById('tbody').innerHTML = 
+      '<tr><td colspan="6" class="loading">加载失败: ' + e.message + '<br>请先运行 fetch_data.py 生成 data.json</td></tr>';
+  }
+}
+
+function sortBy(field) {
+  if (sortField === field) sortAsc = !sortAsc;
+  else { sortField = field; sortAsc = true; }
+  render();
+}
+
+function render() {
+  const filter = (document.getElementById('filter').value || '').toLowerCase();
+  const dateFilter = document.getElementById('dateFilter').value;
+  
+  let rows = allData.rows.filter(r => {
+    if (filter && !r.city.toLowerCase().includes(filter)) return false;
+    if (dateFilter !== 'all' && r.date_display !== dateFilter) return false;
+    return true;
+  });
+  
+  // Sort
+  rows.sort((a, b) => {
+    let va, vb;
+    if (sortField === 'city') { va = a.city; vb = b.city; }
+    else { va = a.date; vb = b.date; }
+    return sortAsc ? va.localeCompare(vb) : vb.localeCompare(va);
+  });
+  
+  // Stats
+  const withHigh = rows.filter(r => r.highest && r.highest.predicted_temp).length;
+  const withLow = rows.filter(r => r.lowest && r.lowest.predicted_temp).length;
+  document.getElementById('stats').innerHTML = 
+    '<span>筛选结果: <strong>' + rows.length + '</strong> 行</span>' +
+    '<span>有最高预测: <strong>' + withHigh + '</strong></span>' +
+    '<span>有最低预测: <strong>' + withLow + '</strong></span>';
+  
+  if (rows.length === 0) {
+    document.getElementById('tbody').innerHTML = 
+      '<tr><td colspan="6" class="empty">无匹配数据</td></tr>';
+    return;
+  }
+  
+  let html = '';
+  for (const row of rows) {
+    html += buildRow(row);
+  }
+  document.getElementById('tbody').innerHTML = html;
+}
+
+function buildRow(row) {
+  const h = row.highest;
+  const l = row.lowest;
+  
+  return '<tr>' +
+    '<td class="city">' + esc(row.city) + '</td>' +
+    '<td class="date">' + esc(row.date_display) + '</td>' +
+    buildTempCell(h, 'h') +
+    buildProbCell(h) +
+    buildTempCell(l, 'l') +
+    buildProbCell(l) +
+    '</tr>';
+}
+
+function buildTempCell(data, cls) {
+  if (!data || !data.predicted_temp) return '<td class="na">—</td>';
+  const temps = (data.markets || [])
+    .filter(m => m.temp_type === 'exact' && m.temp)
+    .map(m => '<span class="' + (m.temp === data.predicted_temp ? 'hi' : '') + '">' + esc(m.temp) + '</span>')
+    .join(' ');
+  return '<td>' +
+    '<span class="pred-temp ' + cls + '">' + esc(data.predicted_temp) + '</span>' +
+    '<div class="temp-bar-wrap">' + buildBar(data) + '</div>' +
+    '<div class="temp-list">' + temps + '</div>' +
+    '</td>';
+}
+
+function buildBar(data) {
+  const markets = (data.markets || []).filter(m => m.temp_type === 'exact');
+  if (!markets.length) return '';
+  const maxProb = Math.max(...markets.map(m => m.yes_pct || 0), 1);
+  return markets.map(m => 
+    '<span class="temp-bar-seg exact" style="width:' + Math.max((m.yes_pct || 0) / maxProb * 100, 2) + '%" title="' + esc(m.temp) + ': ' + (m.yes_pct||0).toFixed(1) + '%"></span>'
+  ).join('');
+}
+
+function buildProbCell(data) {
+  if (!data || !data.predicted_prob) return '<td class="na">—</td>';
+  const pct = data.predicted_prob.toFixed(1);
+  const cls = data.predicted_prob >= 50 ? 'color:#22c55e' : 'color:#eab308';
+  return '<td><span style="font-weight:700;font-size:16px;' + cls + '">' + pct + '%</span></td>';
+}
+
+function esc(s) { return s ? s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;') : ''; }
+
+loadData();
+</script>
+</body>
+</html>

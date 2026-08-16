@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>天气预报市场 - Polymarket</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0f1117; color: #e0e0e0; padding: 20px; }
+  .container { max-width: 1000px; margin: 0 auto; }
+  h1 { text-align: center; margin-bottom: 4px; color: #fff; font-size: 22px; }
+  .sub { text-align: center; color: #888; margin-bottom: 20px; font-size: 13px; }
+  .toolbar { display: flex; gap: 10px; margin-bottom: 16px; flex-wrap: wrap; align-items: center; }
+  .toolbar input { flex: 1; min-width: 150px; padding: 8px 12px; border-radius: 6px; border: 1px solid #333; background: #1a1d27; color: #e0e0e0; font-size: 14px; }
+  .toolbar select { padding: 8px 12px; border-radius: 6px; border: 1px solid #333; background: #1a1d27; color: #e0e0e0; font-size: 13px; cursor: pointer; }
+  .btn-refresh { padding: 8px 16px; border-radius: 6px; background: #2563eb; color: #fff; border: none; cursor: pointer; font-weight: 500; }
+  .btn-refresh:hover { background: #1d4ed8; }
+  .btn-refresh:disabled { opacity: 0.5; cursor: not-allowed; }
+  .btn-fix { padding: 8px 16px; border-radius: 6px; background: #dc2626; color: #fff; border: none; cursor: pointer; font-weight: 500; display: none; }
+  .btn-fix:hover { background: #b91c1c; }
+  .btn-fix:disabled { opacity: 0.5; cursor: not-allowed; }
+  .missing-info { font-size: 11px; color: #f87171; margin-left: 8px; display: none; }
+  .card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 9px; }
+  .period-title { grid-column: 1 / -1; display: flex; align-items: baseline; gap: 8px; margin: 6px 0 2px; padding: 5px 10px; background: #1a1d27; border-radius: 6px; }
+  .period-title:first-child { margin-top: 0; }
+  .period-name { color: #fff; font-weight: 700; font-size: 14px; }
+  .period-range { color: #666; font-size: 10px; }
+  .card { background: #161a24; border: 1px solid #242833; border-radius: 8px; padding: 7px 9px; cursor: pointer; transition: background 0.15s, border-color 0.15s; min-width: 0; }
+  .card:hover { background: #1c2130; }
+  .card.verified { background: rgba(34,197,94,0.12); border-color: rgba(34,197,94,0.45); }
+  .card-head { display: flex; align-items: center; gap: 6px; margin-bottom: 3px; }
+  .card-head .city-name { flex: 1 1 auto; min-width: 0; font-weight: 700; color: #fff; font-size: 15px; text-decoration: none; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-head .city-name:hover { color: #60a5fa; }
+  .card-head .city-cn { color: #9aa0ac; font-size: 12px; font-weight: 400; }
+  .card-sub { display: flex; align-items: center; gap: 6px; margin-bottom: 3px; }
+  .card-icao { font-size: 10px; color: #777; text-decoration: none; white-space: nowrap; }
+  .card-icao:hover { color: #60a5fa; }
+  .card-heat { font-size: 10px; color: #ef4444; font-weight: 600; margin-left: 8px; white-space: nowrap; }
+  .card-date { margin-left: auto; font-size: 11px; color: #aaa; white-space: nowrap; }
+  .fav-star { color: #555; font-size: 13px; cursor: pointer; user-select: none; }
+  .fav-star.active { color: #f59e0b; }
+  .fav-star:hover { color: #f59e0b; }
+  .edit-btn { color: #555; font-size: 12px; cursor: pointer; user-select: none; padding: 0 2px; }
+  .edit-btn:hover { color: #60a5fa; }
+  .card-row { display: flex; align-items: baseline; gap: 5px; font-size: 12px; min-width: 0; }
+  .card-row .lbl { color: #888; font-size: 10px; flex: 0 0 auto; }
+  .temp.h { color: #fdba74; font-weight: 700; font-size: 16px; }
+  .temp.l { color: #93c5fd; font-weight: 700; font-size: 16px; }
+  .pct { font-size: 10px; font-weight: 600; }
+  .pct.hi { color: #22c55e; }
+  .pct.lo { color: #eab308; }
+  .peak { font-size: 9px; color: #8a8a8a; margin-left: auto; white-space: nowrap; }
+  .mods { display: flex; flex-wrap: wrap; gap: 2px 8px; font-size: 10px; color: #777; margin: 2px 0 4px; }
+  .acc-line { font-size: 9px; font-weight: 600; margin: 1px 0 1px; }
+.acc-btn { font-size: 10px; color: #93c5fd; background: #1f2937; border: 1px solid #374151; border-radius: 4px; padding: 1px 5px; cursor: pointer; margin-left: 4px; }
+.acc-btn:hover { background: #2563eb; color: #fff; }
+  .mods a { color: #8a8a8a; text-decoration: none; }
+  .mods a:hover { color: #fff; }
+  .mods .miss { color: #c44; }
+  .na { color: #444; font-style: italic; font-size: 12px; }
+  .stats { display: flex; gap: 16px; margin-bottom: 12px; font-size: 12px; color: #888; flex-wrap: wrap; }
+  .stats strong { color: #ccc; }
+  .errors { background: rgba(239,68,68,0.1); border: 1px solid rgba(239,68,68,0.3); border-radius: 6px; padding: 8px 12px; margin-bottom: 12px; font-size: 12px; color: #f87171; display: none; }
+  .errors.show { display: block; }
+  .errors summary { cursor: pointer; font-weight: 600; }
+  .errors ul { margin-top: 4px; padding-left: 20px; }
+  .loading { text-align: center; padding: 40px; color: #888; font-size: 13px; }
+  .modal { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.6); z-index: 100; align-items: center; justify-content: center; }
+  .modal-box { background: #1a1d27; border: 1px solid #333; border-radius: 10px; padding: 20px 24px; width: 420px; max-width: 92vw; }
+  .modal-box h3 { color: #fff; font-size: 16px; margin-bottom: 14px; }
+  .modal-box label { display: block; color: #999; font-size: 11px; margin: 10px 0 4px; }
+  .modal-box input { width: 100%; padding: 7px 10px; border-radius: 6px; border: 1px solid #333; background: #11141c; color: #e0e0e0; font-size: 13px; }
+  .modal-btns { display: flex; gap: 10px; margin-top: 16px; }
+  .acc-summary { display: flex; gap: 24px; flex-wrap: wrap; background: #1a1d27; border-radius: 8px; padding: 12px 16px; font-size: 13px; }
+  .acc-summary .item { color: #999; }
+  .acc-summary .item strong { display: block; color: #fff; font-size: 20px; margin-top: 2px; }
+  .acc-table { width: 100%; border-collapse: collapse; font-size: 12px; }
+  .acc-table th, .acc-table td { padding: 5px 10px; border-bottom: 1px solid #1a1d27; text-align: left; }
+  .acc-table th { background: #1a1d27; color: #999; cursor: pointer; user-select: none; }
+  .acc-table th:hover { color: #fff; }
+  .acc-table tr:hover td { background: rgba(255,255,255,0.03); }
+  .acc-detail { font-size: 11px; color: #888; max-height: 300px; overflow-y: auto; background: #1a1d27; border-radius: 8px; padding: 8px 12px; }
+  .acc-detail div { padding: 2px 0; border-bottom: 1px solid #161a24; }
+  .acc-detail .err-pos { color: #f59e0b; }
+  .acc-detail .err-neg { color: #60a5fa; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>天气预报市场</h1>
+  <p class="sub">GFS · GEM · ICON · meteoblue · RP5 | 数据来源 Polymarket</p>
+  
+  <div class="toolbar">
+    <input type="text" id="filter" placeholder="搜索城市..." oninput="render()">
+    <select id="dateFilter" onchange="render()"><option value="all">全部日期</option></select>
+    <button class="btn-refresh" id="btnRefresh" onclick="doRefresh()">刷新数据</button>
+    <button class="btn-fix" id="btnFix" onclick="doFix()">修复缺失</button>
+    <span class="missing-info" id="missingInfo"></span>
+    <select id="favFilter" onchange="render()" style="margin-left:auto">
+      <option value="all">全部城市</option>
+      <option value="fav">收藏城市</option>
+    </select>
+    <select id="sortSel" onchange="sortBySel()">
+      <option value="city">按城市排序</option>
+      <option value="date">按日期排序</option>
+    </select>
+    <button class="btn-refresh" id="btnAcc" onclick="toggleAcc()" style="background:#7c3aed">准确度</button>
+    <select id="histDate" onchange="loadHistory()" style="width:110px">
+      <option value="">最新数据</option>
+    </select>
+  </div>
+  
+  <div class="errors" id="errors"><summary>抓取错误</summary><ul id="errorList"></ul></div>
+  <div class="stats" id="stats"></div>
+  
+  <div class="card-grid" id="cardGrid"><div class="loading">加载中...</div></div>
+  
+  <div id="accPanel" style="display:none">
+    <div class="acc-summary" id="accSummary"></div>
+    <div style="font-size:11px;color:#666;margin-top:8px" id="accNote"></div>
+    <div style="margin:10px 0;display:flex;gap:8px">
+      <button class="btn-refresh" id="accAll" onclick="accPeriod('')" style="background:#374151">全部时段</button>
+      <button class="btn-refresh" id="accMorning" onclick="accPeriod('morning')" style="background:#7c3aed">早上预测 (6-12时)</button>
+<button class="btn-refresh" id="accMeteo" style="background:#2563eb">METEO</button>
+      <span style="font-size:11px;color:#888;align-self:center" id="accPeriodInfo"></span>
+    </div>
+    <h3 style="color:#fff;margin:14px 0 8px;font-size:15px">每城市 <span style="color:#666;font-size:11px">点击城市弹出具体数据</span></h3>
+    <table class="acc-table">
+      <thead><tr><th onclick="accSortBy('city')">城市</th><th onclick="accSortBy('n')">样本</th><th onclick="accSortBy('mae')">平均误差 MAE</th><th onclick="accSortBy('hit1')">±1°C 命中</th></tr></thead>
+      <tbody id="accTbody"></tbody>
+    </table>
+    <h3 style="color:#fff;margin:14px 0 8px;font-size:15px">逐日明细 <span style="color:#666;font-size:11px" id="accRowsInfo"></span></h3>
+    <div class="acc-detail" id="accDetail"></div>
+  </div>
+  
+  <div class="modal" id="accModal" onclick="if(event.target===this)closeAccModal()">
+    <div class="modal-box">
+      <h3 id="accModalTitle" style="margin-bottom:10px"></h3>
+      <div id="accModalBody" style="max-height:60vh;overflow-y:auto;font-size:13px;color:#ccc;line-height:1.9"></div>
+      <div class="modal-btns">
+        <button class="btn-refresh" onclick="closeAccModal()">关闭</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="editModal" onclick="if(event.target===this)closeModal()">
+    <div class="modal-box">
+      <h3 id="editTitle"></h3>
+      <label>城市链接</label><input id="inLink" type="text" placeholder="留空恢复默认">
+      <label>机场代码 (ICAO)</label><input id="inIcao" type="text" placeholder="如 LFPB">
+      <label>METEO 链接</label><input id="inMeteo" type="text" placeholder="留空恢复默认">
+      <label>RP5 链接</label><input id="inRp5" type="text" placeholder="留空恢复默认">
+      <div class="modal-btns">
+        <button class="btn-refresh" onclick="saveEdit()">保存</button>
+        <button class="btn-fix" style="display:inline-block" onclick="closeModal()">取消</button>
+      </div>
+    </div>
+  </div>
+  
+  <p class="update-time" id="updateTime"></p>
+</div>
+
+<script>
+var ALL_DATA = { rows: [] };
+var VERIFIED = {};
+var FAVORITES = {};
+var LINKS = {};
+var ICAOS = {};
+var METEO_URLS = {};
+var RP5_URLS = {};
+var ACC_ALL = null;
+var ACC_MORN = null;
+var accPeriodSel = '';
+var accModelSel = 'meteo';
+var accSortField = 'mae', accSortAsc = true;
+var sortField = 'city', sortAsc = true;
+
+function toggleAcc() {
+  var panel = document.getElementById('accPanel');
+  var btn = document.getElementById('btnAcc');
+  if (panel.style.display === 'none') {
+    panel.style.display = 'block';
+    document.getElementById('cardGrid').style.display = 'none';
+    btn.textContent = '返回卡片';
+    if (!ACC_ALL && !ACC_MORN) loadAcc();
+  } else {
+    panel.style.display = 'none';
+    document.getElementById('cardGrid').style.display = 'grid';
+    btn.textContent = '准确度';
+  }
+}
+
+function pickAcc() { return accPeriodSel && ACC_MORN ? ACC_MORN : ACC_ALL; }
+
+function loadAcc() {
+  document.getElementById('accSummary').innerHTML = '<span class="item">加载中...</span>';
+  Promise.all([
+    fetch('/api/accuracy').then(function(r) { return r.json(); }),
+    fetch('/api/accuracy?period=morning').then(function(r) { return r.json(); })
+  ]).then(function(rs) {
+    ACC_ALL = (rs[0] && rs[0].status !== 'not_found') ? rs[0] : null;
+    ACC_MORN = (rs[1] && rs[1].status !== 'not_found') ? rs[1] : null;
+    if (!ACC_ALL && !ACC_MORN) {
+      document.getElementById('accSummary').innerHTML = '<span class="item" style="color:#f87171">准确度数据未生成，请先运行 accuracy.py</span>';
+      return;
+    }
+    renderAcc();
+    render();
+    if (pendingAccCity) {
+      var pc = pendingAccCity;
+      pendingAccCity = '';
+      accPick(pc);
+    }
+  }).catch(function() {
+    document.getElementById('accSummary').innerHTML = '<span class="item" style="color:#f87171">准确度数据未生成，请先运行 accuracy.py</span>';
+  });
+}
+
+function accPeriod(p) {
+  accPeriodSel = p;
+  document.getElementById('accAll').style.background = p ? '#374151' : '#2563eb';
+  document.getElementById('accMorning').style.background = p ? '#7c3aed' : '#374151';
+  renderAcc();
+  render();
+}
+
+function renderAcc() {
+  var d = pickAcc();
+  if (!d) return;
+  document.getElementById('accNote').textContent = '数据口径：仅统计比最高温出现时刻至少早1小时的预测（峰时刻取自 Wunderground / NOAA METAR 逐时观测）';
+  document.getElementById('accSummary').innerHTML =
+    '<span class="item">样本<strong>' + d.n + '</strong></span>' +
+    '<span class="item">平均误差<strong>' + d.mae + '°C</strong></span>' +
+    '<span class="item">偏差<strong style="color:' + (d.bias > 0 ? '#f59e0b' : '#60a5fa') + '">' + (d.bias > 0 ? '+' : '') + d.bias + '°C</strong></span>' +
+    '<span class="item">±1°C 命中<strong style="color:#22c55e">' + d.hit1 + '%</strong></span>' +
+    '<span class="item">±2°C 命中<strong>' + d.hit2 + '%</strong></span>';
+  var cities = d.cities.slice();
+  cities.sort(function(a, b) {
+    var va = a[accSortField], vb = b[accSortField];
+    if (typeof va === 'string') return accSortAsc ? va.localeCompare(vb) : vb.localeCompare(va);
+    return accSortAsc ? va - vb : vb - va;
+  });
+  var html = '';
+  for (var i = 0; i < cities.length; i++) {
+    var c = cities[i];
+    var color = c.mae <= 1 ? '#22c55e' : (c.mae <= 2 ? '#eab308' : '#f87171');
+    html += '<tr onclick="accPick(\'' + c.city.replace(/'/g, "\\'") + '\')"><td>' + esc(c.city) + '</td><td>' + c.n + '</td><td style="color:' + color + ';font-weight:600">' + c.mae + '°C</td><td>' + (c.hit1 != null ? c.hit1 + '%' : '—') + '</td></tr>';
+  }
+  document.getElementById('accTbody').innerHTML = html;
+  document.getElementById('accRowsInfo').textContent = '(' + d.rows.length + ' 条)';
+  renderAccRows(d.rows);
+}
+
+function renderAccRows(rows) {
+  var rhtml = '';
+  for (var i = 0; i < rows.length; i++) {
+    var r = rows[i];
+    var cls = r.err > 0 ? 'err-pos' : (r.err < 0 ? 'err-neg' : '');
+    rhtml += '<div>' + esc(r.date_display) + ' ' + esc(r.city) + (r.time ? ' <span style="color:#777;font-size:10px">' + esc(r.time) + '</span>' : '') + ' &nbsp;预测 ' + r.meteo + '° &nbsp;实际 ' + r.actual + '° &nbsp;<span class="' + cls + '">' + (r.err > 0 ? '+' : '') + r.err + '°</span></div>';
+  }
+  document.getElementById('accDetail').innerHTML = rhtml;
+}
+
+function accPick(city) {
+  var d = pickAcc();
+  if (!d) return;
+  var sel = null;
+  for (var i = 0; i < d.cities.length; i++) if (d.cities[i].city === city) sel = d.cities[i];
+  if (!sel) return;
+  var rows = [];
+  for (var i = 0; i < d.rows.length; i++) if (d.rows[i].city === city) rows.push(d.rows[i]);
+  var color = sel.mae <= 1 ? '#22c55e' : (sel.mae <= 2 ? '#eab308' : '#f87171');
+  document.getElementById('accModalTitle').innerHTML =
+    esc(city) + ' <span style="color:#666;font-size:12px">' + (d.period_name || '全部时段') + '</span>' +
+    '<div style="font-size:12px;color:#aaa;margin-top:6px;font-weight:normal">样本 ' + sel.n +
+    ' &nbsp;平均误差 <span style="color:' + color + ';font-weight:600">' + sel.mae + '°C</span>' +
+    ' &nbsp;±1°C命中 <span style="color:#22c55e;font-weight:600">' + (sel.hit1 != null ? sel.hit1 + '%' : '—') + '</span>' +
+    ' &nbsp;偏差 <span style="color:' + (sel.bias > 0 ? '#f59e0b' : '#60a5fa') + '">' + (sel.bias > 0 ? '+' : '') + sel.bias + '°C</span>' +
+    ' &nbsp;<span style="color:#666">预测=METEO 实际=Polymarket结算</span></div>';
+  if (!rows.length) {
+    document.getElementById('accModalBody').innerHTML = '<span style="color:#888">该城市暂无已结算样本</span>';
+  } else {
+    var ph = '';
+    if (sel.periods) {
+      var order = ['06-09', '09-12', '12-15', '15-18', '18-21', '21-24', '其他'];
+      ph = '<div style="font-size:12px;color:#aaa;margin:8px 0 2px">各时段预测准确率（快照时刻）：</div><table style="width:100%;border-collapse:collapse;font-size:12px">' +
+        '<tr style="border-bottom:1px solid #374151"><td style="padding:2px 0;color:#888">时段</td><td style="text-align:right;color:#888">样本</td><td style="text-align:right;color:#888">±1°C命中</td><td style="text-align:right;color:#888">平均误差</td></tr>';
+      for (var i = 0; i < order.length; i++) {
+        var b = order[i];
+        var v = sel.periods[b];
+        if (!v) continue;
+        var isBest = (b === sel.best_period);
+        var bc = v.mae <= 1 ? '#22c55e' : (v.mae <= 2 ? '#eab308' : '#f87171');
+        ph += '<tr style="border-bottom:1px solid #1a1d27' + (isBest ? ';background:#3a2f00' : '') + '">' +
+          '<td style="padding:3px 0">' + (isBest ? '<span style="color:#fbbf24;font-weight:600">★ ' : '') + b + (isBest ? '</span>' : '') +
+          (v.n < 3 ? ' <span style="color:#666">(样本少)</span>' : '') + '</td>' +
+          '<td style="text-align:right;color:#666">' + v.n + '个</td>' +
+          '<td style="text-align:right;color:#22c55e">' + (v.hit1 != null ? v.hit1 + '%' : '—') + '</td>' +
+          '<td style="text-align:right;color:' + bc + ';font-weight:600">平均误差 ' + v.mae + '°</td></tr>';
+      }
+      ph += '</table>';
+    }
+    var rhtml = ph + '<div style="font-size:12px;color:#aaa;margin:6px 0 2px">逐日明细：</div>';
+    for (var i = 0; i < rows.length; i++) {
+      var r = rows[i];
+      var cls = r.err > 0 ? 'err-pos' : (r.err < 0 ? 'err-neg' : '');
+      rhtml += '<div style="border-bottom:1px solid #1a1d27;padding:4px 0">' +
+        '<span style="color:#aaa">' + esc(r.date_display) + '</span>' +
+        (r.time ? ' <span style="color:#666;font-size:11px">' + esc(r.time) + '</span>' : '') +
+        ' &nbsp;预测 <span style="color:#60a5fa;font-weight:600">' + r.meteo + '°</span>' +
+        ' &nbsp;实际 <span style="color:#22c55e;font-weight:600">' + r.actual + '°</span>' +
+        ' &nbsp;<span class="' + cls + '">' + (r.err > 0 ? '+' : '') + r.err + '°</span></div>';
+    }
+    document.getElementById('accModalBody').innerHTML = rhtml;
+  }
+  document.getElementById('accModal').style.display = 'flex';
+}
+
+function closeAccModal() {
+  document.getElementById('accModal').style.display = 'none';
+}
+
+function accSortBy(f) {
+  if (accSortField === f) accSortAsc = !accSortAsc; else { accSortField = f; accSortAsc = true; }
+  renderAcc();
+}
+
+async function loadData() {
+  try {
+    var resp = await fetch('/api/data');
+    var json = await resp.json();
+    
+    if (json.data) {
+      ALL_DATA = json.data;
+      document.getElementById('updateTime').textContent = '数据: ' + (json.updated_at || '').replace('T', ' ').substring(0, 16);
+      loadHistoryList();
+      loadAcc();
+      // Auto-refresh check every 60s
+      setTimeout(autoCheck, 60000);
+      
+      if (json.errors && json.errors.length) {
+        document.getElementById('errors').classList.add('show');
+        document.getElementById('errorList').innerHTML = json.errors.map(function(e) { return '<li>' + e + '</li>'; }).join('');
+      } else {
+        document.getElementById('errors').classList.remove('show');
+      }
+      
+      document.getElementById('btnRefresh').disabled = false;
+      document.getElementById('btnRefresh').textContent = '刷新数据';
+      buildDateFilter();
+      render();
+      checkMissing();
+    } else {
+      // Still loading, poll
+      document.getElementById('cardGrid').innerHTML = '<div class="loading">首次加载中... (状态: ' + (json.status || 'loading') + ')</div>';
+      document.getElementById('btnRefresh').disabled = true;
+      setTimeout(loadData, 2000);
+    }
+  } catch(e) {
+    document.getElementById('cardGrid').innerHTML = '<div class="loading">加载失败: ' + e.message + '</div>';
+    document.getElementById('btnRefresh').disabled = false;
+    document.getElementById('btnRefresh').textContent = '刷新数据';
+  }
+}
+
+function doRefresh() {
+  document.getElementById('btnRefresh').disabled = true;
+  document.getElementById('btnRefresh').textContent = '刷新中...';
+  document.getElementById('cardGrid').innerHTML = '<div class="loading">刷新中...</div>';
+  
+  fetch('/api/refresh', { method: 'POST' }).then(function() {
+    setTimeout(loadData, 2000);
+  });
+}
+
+function buildDateFilter() {
+  var dates = [], seen = {};
+  for (var i = 0; i < ALL_DATA.rows.length; i++) {
+    var d = ALL_DATA.rows[i].date_display;
+    if (d && !seen[d]) { seen[d] = true; dates.push(d); }
+  }
+  dates.sort();
+  var sel = document.getElementById('dateFilter');
+  sel.innerHTML = '<option value="all">全部日期</option>';
+  for (var j = 0; j < dates.length; j++) {
+    var opt = document.createElement('option');
+    opt.value = dates[j]; opt.textContent = dates[j]; sel.appendChild(opt);
+  }
+}
+
+function sortBy(f) { if (sortField === f) sortAsc = !sortAsc; else { sortField = f; sortAsc = true; } render(); }
+function sortBySel() {
+  var v = document.getElementById('sortSel').value;
+  if (sortField === v) sortAsc = !sortAsc; else { sortField = v; sortAsc = true; }
+  render();
+}
+
+function render() {
+  var filter = (document.getElementById('filter').value || '').toLowerCase();
+  var dateFilter = document.getElementById('dateFilter').value;
+  var favFilter = document.getElementById('favFilter').value;
+  
+  var rows = [];
+  for (var i = 0; i < ALL_DATA.rows.length; i++) {
+    var r = ALL_DATA.rows[i];
+    if (filter && r.city.toLowerCase().indexOf(filter) === -1) continue;
+    if (dateFilter !== 'all' && r.date_display !== dateFilter) continue;
+    if (favFilter === 'fav' && !FAVORITES[r.city]) continue;
+    rows.push(r);
+  }
+  
+  var groups = {}, order = [];
+  for (var i = 0; i < rows.length; i++) {
+    var c = rows[i].city;
+    if (!groups[c]) { groups[c] = []; order.push(c); }
+    groups[c].push(rows[i]);
+  }
+  
+  order.sort(function(a, b) {
+    if (sortField === 'city') return sortAsc ? a.localeCompare(b) : b.localeCompare(a);
+    var da = groups[a][0].date, db = groups[b][0].date;
+    return sortAsc ? da.localeCompare(db) : db.localeCompare(da);
+  });
+  
+  for (var i = 0; i < order.length; i++) {
+    groups[order[i]].sort(function(a, b) { return sortAsc ? a.date.localeCompare(b.date) : b.date.localeCompare(a.date); });
+  }
+  
+  var totalLines = 0;
+  for (var i = 0; i < order.length; i++) totalLines += groups[order[i]].length;
+  document.getElementById('stats').innerHTML = '<span>城市: <strong>' + order.length + '</strong></span><span>卡片: <strong>' + totalLines + '</strong></span>';
+  
+  var PERIODS = [
+    { name: '凌晨', range: '0-4时' },
+    { name: '早上', range: '5-11时' },
+    { name: '中午', range: '12-13时' },
+    { name: '下午', range: '14-18时' },
+    { name: '晚上', range: '19-23时' },
+    { name: '无数据', range: '' }
+  ];
+  function peakHourOf(r) {
+    var h = r.highest;
+    if (!h || !h.forecasts) return null;
+    for (var i = 0; i < h.forecasts.length; i++) {
+      if (h.forecasts[i].max_hour_bj != null) return h.forecasts[i].max_hour_bj;
+    }
+    return null;
+  }
+  function periodOf(r) {
+    var h = peakHourOf(r);
+    if (h == null) return 5;
+    if (h >= 0 && h < 5) return 0;
+    if (h >= 5 && h < 12) return 1;
+    if (h >= 12 && h < 14) return 2;
+    if (h >= 14 && h < 19) return 3;
+    return 4;
+  }
+  
+  var cards = [];
+  for (var i = 0; i < order.length; i++) {
+    var city = order[i];
+    var cityRows = groups[city];
+    var isV = !!VERIFIED[city];
+    var link = LINKS[city] || '';
+    var h0 = cityRows[0].highest || cityRows[0].lowest;
+    if (!link && h0 && h0.slug) link = 'https://polymarket.com/event/' + h0.slug;
+    var icao = ICAOS[city] || cityRows[0].icao || '';
+    var isFav = !!FAVORITES[city];
+    var ck = city.replace(/'/g, "\\'");
+    for (var j = 0; j < cityRows.length; j++) {
+      var r = cityRows[j];
+      cards.push({ r: r, p: periodOf(r), isV: isV, link: link, icao: icao, isFav: isFav, ck: ck, city: city });
+    }
+  }
+  cards.sort(function(a, b) { return a.p - b.p; });
+  
+  var html = '';
+  var curP = -1;
+  for (var i = 0; i < cards.length; i++) {
+    var c = cards[i], r = c.r;
+    if (c.p !== curP) {
+      html += '<div class="period-title"><span class="period-name">' + PERIODS[c.p].name + '</span><span class="period-range">' + PERIODS[c.p].range + '</span></div>';
+      curP = c.p;
+    }
+    html += '<div class="card' + (c.isV ? ' verified' : '') + '" onclick="toggleVerify(\'' + c.ck + '\')">' +
+      '<div class="card-head">' +
+      (c.link ? '<a class="city-name" href="' + c.link + '" target="_blank" rel="noopener" onclick="event.stopPropagation()">' + esc(c.city) + (r.city_cn ? ' <span class="city-cn">' + esc(r.city_cn) + '</span>' : '') + '</a>' : '<span class="city-name">' + esc(c.city) + (r.city_cn ? ' <span class="city-cn">' + esc(r.city_cn) + '</span>' : '') + '</span>') +
+      '<span class="fav-star' + (c.isFav ? ' active' : '') + '" onclick="event.stopPropagation();toggleFav(\'' + c.ck + '\')">' + (c.isFav ? '\u2605' : '\u2606') + '</span>' +
+      '<span class="edit-btn" title="修改信息" onclick="event.stopPropagation();editCityLink(\'' + c.ck + '\')">\u270e</span>' +
+      '</div><div class="card-sub">' +
+      (c.icao ? '<a class="card-icao" href="https://www.checkwx.com/weather/' + c.icao + '/metar" target="_blank" rel="noopener" onclick="event.stopPropagation()">' + esc(c.icao) + '</a>' : '') +
+      (r.wind_heat ? '<span class="card-heat" title="利于升温的风向">\u5347\u6e29 ' + esc(r.wind_heat) + '</span>' : '') +
+      '<span class="card-date" title="当地正午 = 北京时间 ' + (r.noon_bj != null ? (r.noon_bj < 10 ? '0' : '') + r.noon_bj + ':00' : '未知') + '">' + esc(r.date_display) + '</span></div>' +
+      cardRow(r.highest, 'h') + modsRow(r.highest, c.city) +
+      timeRow(r) +
+      '</div>';
+  }
+  document.getElementById('cardGrid').innerHTML = html || '<div class="loading">无匹配数据</div>';
+}
+
+function cardRow(d, cls) {
+  var lbl = (cls === 'h') ? '最高' : '最低';
+  if (!d) return '<div class="card-row"><span class="lbl">' + lbl + '</span><span class="na">--</span></div>';
+  var pt = d.predicted_temp, pp = d.predicted_prob;
+  var color = pp != null ? (pp >= 50 ? ' hi' : ' lo') : '';
+  return '<div class="card-row">' +
+    '<span class="lbl">' + lbl + '</span>' +
+    (pt ? '<span class="temp ' + cls + '">' + esc(pt) + '</span>' : '<span class="na">--</span>') +
+    (pp != null ? '<span class="pct' + color + '">' + pp.toFixed(1) + '%</span>' : '') +
+    '</div>';
+}
+
+function timeRow(r) {
+  var parts = [];
+  if (r.noon_bj != null) {
+    var n = (r.noon_bj < 10 ? '0' : '') + r.noon_bj + ':00';
+    parts.push('<span class="lbl">\u6b63\u5348</span><span class="peak">' + n + '</span>');
+  }
+  if (r.highest && r.highest.forecasts) {
+    for (var i = 0; i < r.highest.forecasts.length; i++) {
+      var f = r.highest.forecasts[i];
+      if (f.max_hour_bj != null) {
+        var h = f.max_hour_bj;
+        parts.push('<span class="lbl" style="margin-left:8px">\u5cf0</span><span class="peak">' + (h < 10 ? '0' : '') + h + ':00</span>');
+        break;
+      }
+    }
+  }
+  if (!parts.length) return '';
+  return '<div class="card-row">' + parts.join('') + '</div>';
+}
+
+var pendingAccCity = '';
+function accPickCard(city) {
+  if (ACC_ALL && ACC_MORN) { accPick(city); return; }
+  pendingAccCity = city;
+  loadAcc();
+}
+
+function modsRow(d, city) {
+  if (!d || !d.forecasts || !d.forecasts.length) return '';
+  var parts = [];
+  for (var i = 0; i < d.forecasts.length; i++) {
+    var f = d.forecasts[i];
+    if (f.model !== 'METEO' && f.model !== 'RP5') continue;
+    var missing = (f.temp == null);
+    var url = f.url;
+    if (f.model === 'METEO' && METEO_URLS[city]) url = METEO_URLS[city];
+    if (f.model === 'RP5' && RP5_URLS[city]) url = RP5_URLS[city];
+    if (url) {
+      parts.push('<a href="' + url + '" target="_blank" rel="noopener" onclick="event.stopPropagation()" title="' + esc(f.model) + '预报页">' + esc(f.model) + (missing ? ' --' : ' ' + f.temp) + '</a>');
+    } else {
+      parts.push(missing ? '<span class="miss">' + esc(f.model) + ' --</span>' : '<span>' + esc(f.model) + ' ' + f.temp + '</span>');
+    }
+  }
+  var ck = city.replace(/'/g, "\\'");
+  var acc = pickAcc();
+  var bcol = '#3b82f6';
+  if (acc) {
+    var mae = null;
+    for (var k = 0; k < acc.cities.length; k++) if (acc.cities[k].city === city) { mae = acc.cities[k].mae; break; }
+    if (mae != null && mae < 0.5) bcol = '#22c55e';
+    else if (mae != null && mae <= 1) bcol = '#8b5cf6';
+  }
+  return '<div class="mods">' + parts.join('') + '<button class="acc-btn" style="background:' + bcol + ';color:#fff;border-color:' + bcol + '" title="该城市准确度（预测 vs 结算），平均误差 ' + (mae != null ? mae + '°' : '--') + '" onclick="event.stopPropagation();accPickCard(\'' + ck + '\')">准确度</button></div>';
+}
+
+function esc(s) { return s ? s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;') : ''; }
+
+function toggleVerify(city) {
+  VERIFIED[city] = !VERIFIED[city];
+  try { localStorage.setItem('mb_verified', JSON.stringify(VERIFIED)); } catch(e) {}
+  render();
+}
+
+function toggleFav(city) {
+  FAVORITES[city] = !FAVORITES[city];
+  try { localStorage.setItem('mb_favorites', JSON.stringify(FAVORITES)); } catch(e) {}
+  render();
+}
+
+var editCity = '';
+function editCityLink(city) {
+  editCity = city;
+  document.getElementById('editTitle').textContent = '修改 ' + city;
+  document.getElementById('inLink').value = LINKS[city] || '';
+  document.getElementById('inIcao').value = ICAOS[city] || '';
+  document.getElementById('inMeteo').value = METEO_URLS[city] || '';
+  document.getElementById('inRp5').value = RP5_URLS[city] || '';
+  document.getElementById('editModal').style.display = 'flex';
+}
+function closeModal() { document.getElementById('editModal').style.display = 'none'; }
+function saveEdit() {
+  var g = function(id) { return document.getElementById(id).value.trim(); };
+  var link = g('inLink'), icao = g('inIcao').toUpperCase(), me = g('inMeteo'), rp = g('inRp5');
+  if (link) LINKS[editCity] = link; else delete LINKS[editCity];
+  if (icao) ICAOS[editCity] = icao; else delete ICAOS[editCity];
+  if (me) METEO_URLS[editCity] = me; else delete METEO_URLS[editCity];
+  if (rp) RP5_URLS[editCity] = rp; else delete RP5_URLS[editCity];
+  try {
+    localStorage.setItem('mb_links', JSON.stringify(LINKS));
+    localStorage.setItem('mb_icao', JSON.stringify(ICAOS));
+    localStorage.setItem('mb_meteo', JSON.stringify(METEO_URLS));
+    localStorage.setItem('mb_rp5', JSON.stringify(RP5_URLS));
+  } catch(e) {}
+  closeModal();
+  render();
+}
+
+var refreshing = false;
+
+function autoCheck() {
+  fetch('/api/data').then(function(r) { return r.json(); }).then(function(json) {
+    if (json.data) {
+      if (json.data.updated_at !== ALL_DATA.updated_at) {
+        ALL_DATA = json.data;
+        buildDateFilter();
+        render();
+        checkMissing();
+      }
+      if (!refreshing) {
+        var age = (Date.now() - new Date(String(json.data.updated_at).replace(' ', 'T')).getTime()) / 60000;
+        if (age > 45) {
+          refreshing = true;
+          document.getElementById('btnRefresh').textContent = '后台更新中...';
+          fetch('/api/refresh', { method: 'POST' }).then(function() {
+            setTimeout(function() { refreshing = false; loadData(); }, 2000);
+          }).catch(function() { refreshing = false; });
+        }
+      }
+    }
+    setTimeout(autoCheck, 60000);
+  }).catch(function() {
+    setTimeout(autoCheck, 60000);
+  });
+}
+
+function loadHistoryList() {
+  fetch('/api/history').then(function(r) { return r.json(); }).then(function(json) {
+    var sel = document.getElementById('histDate');
+    sel.innerHTML = '<option value="">最新数据</option>';
+    for (var i = 0; i < json.dates.length; i++) {
+      var opt = document.createElement('option');
+      opt.value = json.dates[i]; opt.textContent = json.dates[i]; sel.appendChild(opt);
+    }
+  });
+}
+
+function loadHistory() {
+  var date = document.getElementById('histDate').value;
+  if (!date) { loadData(); return; }
+  fetch('/api/data/' + date).then(function(r) { return r.json(); }).then(function(json) {
+    if (json.data) {
+      ALL_DATA = json.data;
+      document.getElementById('updateTime').textContent = '历史数据: ' + date;
+    }
+    buildDateFilter();
+    render();
+  });
+}
+
+function checkMissing() {
+  var missingMet = 0, missingRp5 = 0;
+  var cities = {};
+  for (var i = 0; i < ALL_DATA.rows.length; i++) {
+    var r = ALL_DATA.rows[i];
+    for (var k in {highest:1, lowest:1}) {
+      var obj = r[k];
+      if (!obj || !obj.forecasts) continue;
+      var hasMet = false, hasRp5 = false;
+      for (var j = 0; j < obj.forecasts.length; j++) {
+        var f = obj.forecasts[j];
+        if (f.temp != null && f.model === 'METEO') hasMet = true;
+        if (f.temp != null && f.model === 'RP5') hasRp5 = true;
+      }
+      if (!hasMet) { missingMet++; cities[r.city] = 1; }
+      if (!hasRp5) { missingRp5++; cities[r.city] = 1; }
+    }
+  }
+  
+  var info = [];
+  if (missingMet) info.push('METEO缺' + missingMet + '个');
+  if (missingRp5) info.push('RP5缺' + missingRp5 + '个');
+  
+  var fixBtn = document.getElementById('btnFix');
+  var infoEl = document.getElementById('missingInfo');
+  
+  if (info.length) {
+    fixBtn.style.display = 'inline-block';
+    infoEl.style.display = 'inline';
+    infoEl.textContent = info.join(', ') + ' (' + Object.keys(cities).length + '城市)';
+  } else {
+    fixBtn.style.display = 'none';
+    infoEl.style.display = 'none';
+  }
+}
+
+function doFix() {
+  var btn = document.getElementById('btnFix');
+  btn.disabled = true;
+  btn.textContent = '后台修复中...';
+  document.getElementById('stats').innerHTML = document.getElementById('stats').innerHTML + ' | <span style="color:#f59e0b">后台修复中...</span>';
+  
+  fetch('/api/fix', { method: 'POST' }).then(function() {
+    // Poll every 5 seconds until data is updated
+    var oldTime = ALL_DATA.updated_at || '';
+    var check = function() {
+      fetch('/api/data').then(function(r) { return r.json(); }).then(function(json) {
+        if (json.data && json.data.updated_at !== oldTime) {
+          ALL_DATA = json.data;
+          document.getElementById('btnFix').disabled = false;
+          document.getElementById('btnFix').textContent = '修复缺失';
+          buildDateFilter();
+          render();
+          checkMissing();
+        } else {
+          setTimeout(check, 5000);
+        }
+      });
+    };
+    setTimeout(check, 5000);
+  });
+}
+
+try { VERIFIED = JSON.parse(localStorage.getItem('mb_verified') || '{}'); } catch(e) { VERIFIED = {}; }
+try { FAVORITES = JSON.parse(localStorage.getItem('mb_favorites') || '{}'); } catch(e) { FAVORITES = {}; }
+try { LINKS = JSON.parse(localStorage.getItem('mb_links') || '{}'); } catch(e) { LINKS = {}; }
+try { ICAOS = JSON.parse(localStorage.getItem('mb_icao') || '{}'); } catch(e) { ICAOS = {}; }
+try { METEO_URLS = JSON.parse(localStorage.getItem('mb_meteo') || '{}'); } catch(e) { METEO_URLS = {}; }
+try { RP5_URLS = JSON.parse(localStorage.getItem('mb_rp5') || '{}'); } catch(e) { RP5_URLS = {}; }
+loadData();
+</script>
+</body>
+</html>

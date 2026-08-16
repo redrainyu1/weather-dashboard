@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:media="http://search.yahoo.com/mrss/"
+    xmlns:fh="http://purl.org/syndication/history/1.0"
+    xmlns:fa="http://purl.org/atompub/age/1.0">
+
+    <id>http://rp5.ru</id>
+    <title xml:lang="en">Weather in Beijing, Peking</title>
+    <subtitle>Weather in Beijing, Peking. One-week weather forecast in Beijing, Peking. One-day weather forecast in Beijing, Peking.</subtitle>
+    <updated>2026-07-18T09:00:00+00:00</updated>
+    <link rel="self" href="http://rp5.ru/rss/11820/en"/>
+    <author>
+        <name>RP5</name>
+        <email>support@rp5.ru</email>
+        <uri>http://rp5.ru/docs/about/en</uri>
+    </author>
+    <generator>http://rp5.ru</generator>
+    <category xml:lang="en" term="Weather"/>
+    <logo>http://rp5.ru/images/en/logo.png</logo>
+    <rights xml:lang="en">Copyright © Raspisaniye Pogodi Ltd., 2004-2026</rights>
+    <fh:incremental>false</fh:incremental>
+    <fa:max-age>10800000</fa:max-age>
+    <entry>
+      <id>http://rp5.ru/11820/en#time_2026-07-18T09:00:00+00:00</id>
+      <updated>2026-07-18T09:00:00+00:00</updated>
+      <published>2026-07-18T09:00:00+00:00</published>
+      <category xml:lang="en" term="Weather"/>
+      <title xml:lang="en">At 17:00 at the weather station it was +28.1 °C, feels like +31 °C</title>
+      <link href="http://rp5.ru/11820/en"/>
+      <summary xml:lang="en"> low air pressure, light breeze (2 m/s) blowing from the south-west with gusts up to 6 m/s. Rain. Tomorrow at 08:00 in Beijing / Peking we expect +25°C, without precipitation, light air.</summary>
+   </entry>
+</feed>

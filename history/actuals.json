@@ -1,0 +1,1302 @@
+{
+ "highest-temperature-in-amsterdam-on-august-10-2026": {
+  "temp": 23.0,
+  "peak_off_h": 4.416666666666668
+ },
+ "highest-temperature-in-amsterdam-on-august-11-2026": {
+  "temp": 22.0,
+  "peak_off_h": 5.916666666666668
+ },
+ "highest-temperature-in-amsterdam-on-august-12-2026": {
+  "temp": 28.0,
+  "peak_off_h": 5.916666666666668
+ },
+ "highest-temperature-in-amsterdam-on-august-14-2026": {
+  "temp": 34.0,
+  "peak_off_h": 3.916666666666666
+ },
+ "highest-temperature-in-amsterdam-on-august-15-2026": {
+  "temp": 23.0,
+  "peak_off_h": 4.916666666666668
+ },
+ "highest-temperature-in-ankara-on-august-10-2026": {
+  "temp": 31.0,
+  "peak_off_h": 5.833333333333332
+ },
+ "highest-temperature-in-ankara-on-august-11-2026": {
+  "temp": 32.0,
+  "peak_off_h": 5.333333333333332
+ },
+ "highest-temperature-in-ankara-on-august-12-2026": {
+  "temp": 32.0,
+  "peak_off_h": 5.833333333333332
+ },
+ "highest-temperature-in-ankara-on-august-14-2026": {
+  "temp": 27.0,
+  "peak_off_h": 5.833333333333332
+ },
+ "highest-temperature-in-ankara-on-august-15-2026": {
+  "temp": 26.0,
+  "peak_off_h": 5.333333333333332
+ },
+ "highest-temperature-in-atlanta-on-august-10-2026": {
+  "temp": 95.0,
+  "peak_off_h": 3.6500000000000004
+ },
+ "highest-temperature-in-atlanta-on-august-11-2026": {
+  "temp": 93.0,
+  "peak_off_h": 2.583333333333334
+ },
+ "highest-temperature-in-atlanta-on-august-12-2026": {
+  "temp": 93.0,
+  "peak_off_h": 6.866666666666667
+ },
+ "highest-temperature-in-atlanta-on-august-14-2026": {
+  "temp": 95.0,
+  "peak_off_h": 0.8666666666666671
+ },
+ "highest-temperature-in-atlanta-on-august-15-2026": {
+  "temp": 95.0,
+  "peak_off_h": 4.866666666666667
+ },
+ "highest-temperature-in-austin-on-august-10-2026": {
+  "temp": 97.0,
+  "peak_off_h": 4.883333333333333
+ },
+ "highest-temperature-in-austin-on-august-11-2026": {
+  "temp": 101.0,
+  "peak_off_h": 3.883333333333333
+ },
+ "highest-temperature-in-austin-on-august-12-2026": {
+  "temp": 101.0,
+  "peak_off_h": 5.883333333333333
+ },
+ "highest-temperature-in-austin-on-august-14-2026": {
+  "temp": 97.0,
+  "peak_off_h": 4.883333333333333
+ },
+ "highest-temperature-in-austin-on-august-15-2026": {
+  "temp": 103.0,
+  "peak_off_h": 4.883333333333333
+ },
+ "highest-temperature-in-beijing-on-august-10-2026": {
+  "temp": 32.0,
+  "peak_off_h": 4.0
+ },
+ "highest-temperature-in-beijing-on-august-11-2026": {
+  "temp": 33.0,
+  "peak_off_h": 2.5
+ },
+ "highest-temperature-in-beijing-on-august-12-2026": {
+  "temp": 27.0,
+  "peak_off_h": 5.0
+ },
+ "highest-temperature-in-beijing-on-august-14-2026": {
+  "temp": 32.0,
+  "peak_off_h": 5.0
+ },
+ "highest-temperature-in-beijing-on-august-15-2026": {
+  "temp": 29.0,
+  "peak_off_h": 5.5
+ },
+ "highest-temperature-in-buenos-aires-on-august-10-2026": {
+  "temp": 13.0,
+  "peak_off_h": 3.0
+ },
+ "highest-temperature-in-buenos-aires-on-august-11-2026": {
+  "temp": 12.0,
+  "peak_off_h": 4.0
+ },
+ "highest-temperature-in-buenos-aires-on-august-12-2026": {
+  "temp": 12.0,
+  "peak_off_h": 4.0
+ },
+ "highest-temperature-in-buenos-aires-on-august-14-2026": {
+  "temp": 14.0,
+  "peak_off_h": 5.0
+ },
+ "highest-temperature-in-buenos-aires-on-august-15-2026": {
+  "temp": 16.0,
+  "peak_off_h": 5.0
+ },
+ "highest-temperature-in-busan-on-august-10-2026": {
+  "temp": 32.0,
+  "peak_off_h": 1.0
+ },
+ "highest-temperature-in-busan-on-august-11-2026": {
+  "temp": 31.0,
+  "peak_off_h": 3.0
+ },
+ "highest-temperature-in-busan-on-august-12-2026": {
+  "temp": 31.0,
+  "peak_off_h": 1.0
+ },
+ "highest-temperature-in-busan-on-august-14-2026": {
+  "temp": 32.0,
+  "peak_off_h": 3.0
+ },
+ "highest-temperature-in-busan-on-august-15-2026": {
+  "temp": 32.0,
+  "peak_off_h": 4.0
+ },
+ "highest-temperature-in-cape-town-on-august-10-2026": {
+  "temp": 15.0,
+  "peak_off_h": 3.0
+ },
+ "highest-temperature-in-cape-town-on-august-11-2026": {
+  "temp": 20.0,
+  "peak_off_h": 3.0
+ },
+ "highest-temperature-in-cape-town-on-august-12-2026": {
+  "temp": 23.0,
+  "peak_off_h": 5.0
+ },
+ "highest-temperature-in-cape-town-on-august-14-2026": {
+  "temp": 17.0,
+  "peak_off_h": 5.0
+ },
+ "highest-temperature-in-cape-town-on-august-15-2026": {
+  "temp": 17.0,
+  "peak_off_h": 5.0
+ },
+ "highest-temperature-in-chengdu-on-august-10-2026": {
+  "temp": 36.0,
+  "peak_off_h": 4.0
+ },
+ "highest-temperature-in-chengdu-on-august-11-2026": {
+  "temp": 35.0,
+  "peak_off_h": 0.0
+ },
+ "highest-temperature-in-chengdu-on-august-12-2026": {
+  "temp": 38.0,
+  "peak_off_h": 4.0
+ },
+ "highest-temperature-in-chengdu-on-august-14-2026": {
+  "temp": 37.0,
+  "peak_off_h": 5.0
+ },
+ "highest-temperature-in-chengdu-on-august-15-2026": {
+  "temp": 37.0,
+  "peak_off_h": 5.0
+ },
+ "highest-temperature-in-chicago-on-august-10-2026": {
+  "temp": 87.0,
+  "peak_off_h": 2.8499999999999996
+ },
+ "highest-temperature-in-chicago-on-august-11-2026": {
+  "temp": 81.0,
+  "peak_off_h": 5.233333333333334
+ },
+ "highest-temperature-in-chicago-on-august-12-2026": {
+  "temp": 83.0,
+  "peak_off_h": 4.850000000000001
+ },
+ "highest-temperature-in-chicago-on-august-14-2026": {
+  "temp": 81.0,
+  "peak_off_h": 1.7833333333333332
+ },
+ "highest-temperature-in-chicago-on-august-15-2026": {
+  "temp": 79.0,
+  "peak_off_h": 10.850000000000001
+ },
+ "highest-temperature-in-chongqing-on-august-10-2026": {
+  "temp": 34.0,
+  "peak_off_h": 2.0
+ },
+ "highest-temperature-in-chongqing-on-august-11-2026": {
+  "temp": 35.0,
+  "peak_off_h": 3.0
+ },
+ "highest-temperature-in-chongqing-on-august-12-2026": {
+  "temp": 36.0,
+  "peak_off_h": 5.0
+ },
+ "highest-temperature-in-chongqing-on-august-14-2026": {
+  "temp": 36.0,
+  "peak_off_h": 3.0
+ },
+ "highest-temperature-in-chongqing-on-august-15-2026": {
+  "temp": 36.0,
+  "peak_off_h": 5.0
+ },
+ "highest-temperature-in-dallas-on-august-10-2026": {
+  "temp": 99.0,
+  "peak_off_h": 3.883333333333333
+ },
+ "highest-temperature-in-dallas-on-august-11-2026": {
+  "temp": 99.0,
+  "peak_off_h": 6.883333333333333
+ },
+ "highest-temperature-in-dallas-on-august-12-2026": {
+  "temp": 101.0,
+  "peak_off_h": 6.883333333333333
+ },
+ "highest-temperature-in-dallas-on-august-14-2026": {
+  "temp": 101.0,
+  "peak_off_h": 3.883333333333333
+ },
+ "highest-temperature-in-dallas-on-august-15-2026": {
+  "temp": 101.0,
+  "peak_off_h": 5.883333333333333
+ },
+ "highest-temperature-in-dallas-on-august-9-2026": {
+  "temp": 99.0,
+  "peak_off_h": 5.883333333333333
+ },
+ "highest-temperature-in-denver-on-august-10-2026": {
+  "temp": 97.0,
+  "peak_off_h": 2.966666666666667
+ },
+ "highest-temperature-in-denver-on-august-11-2026": {
+  "temp": 95.0,
+  "peak_off_h": 3.966666666666667
+ },
+ "highest-temperature-in-denver-on-august-12-2026": {
+  "temp": 93.0,
+  "peak_off_h": 1.9666666666666668
+ },
+ "highest-temperature-in-denver-on-august-14-2026": {
+  "temp": 87.0,
+  "peak_off_h": 0.9666666666666668
+ },
+ "highest-temperature-in-denver-on-august-15-2026": {
+  "temp": 83.0,
+  "peak_off_h": 1.9666666666666668
+ },
+ "highest-temperature-in-guangzhou-on-august-10-2026": {
+  "temp": 37.0,
+  "peak_off_h": 3.0
+ },
+ "highest-temperature-in-guangzhou-on-august-11-2026": {
+  "temp": 37.0,
+  "peak_off_h": 5.0
+ },
+ "highest-temperature-in-guangzhou-on-august-12-2026": {
+  "temp": 39.0,
+  "peak_off_h": 3.0
+ },
+ "highest-temperature-in-guangzhou-on-august-14-2026": {
+  "temp": 34.0,
+  "peak_off_h": 0.5
+ },
+ "highest-temperature-in-guangzhou-on-august-15-2026": {
+  "temp": 35.0,
+  "peak_off_h": 4.0
+ },
+ "highest-temperature-in-helsinki-on-august-10-2026": {
+  "temp": 23.0,
+  "peak_off_h": 1.333333333333334
+ },
+ "highest-temperature-in-helsinki-on-august-11-2026": {
+  "temp": 18.0,
+  "peak_off_h": 0.3333333333333339
+ },
+ "highest-temperature-in-helsinki-on-august-12-2026": {
+  "temp": 17.0,
+  "peak_off_h": 6.833333333333332
+ },
+ "highest-temperature-in-helsinki-on-august-14-2026": {
+  "temp": 20.0,
+  "peak_off_h": 5.833333333333332
+ },
+ "highest-temperature-in-helsinki-on-august-15-2026": {
+  "temp": 23.0,
+  "peak_off_h": 4.833333333333332
+ },
+ "highest-temperature-in-houston-on-august-10-2026": {
+  "temp": 87.0,
+  "peak_off_h": 0.8833333333333329
+ },
+ "highest-temperature-in-houston-on-august-11-2026": {
+  "temp": 93.0,
+  "peak_off_h": 5.883333333333333
+ },
+ "highest-temperature-in-houston-on-august-12-2026": {
+  "temp": 95.0,
+  "peak_off_h": 1.8833333333333329
+ },
+ "highest-temperature-in-houston-on-august-14-2026": {
+  "temp": 93.0,
+  "peak_off_h": 3.883333333333333
+ },
+ "highest-temperature-in-houston-on-august-15-2026": {
+  "temp": 97.0,
+  "peak_off_h": 3.883333333333333
+ },
+ "highest-temperature-in-jeddah-on-august-10-2026": {
+  "temp": 41.0,
+  "peak_off_h": 2.0
+ },
+ "highest-temperature-in-jeddah-on-august-11-2026": {
+  "temp": 40.0,
+  "peak_off_h": 5.0
+ },
+ "highest-temperature-in-jeddah-on-august-12-2026": {
+  "temp": 39.0,
+  "peak_off_h": 6.0
+ },
+ "highest-temperature-in-jeddah-on-august-14-2026": {
+  "temp": 39.0,
+  "peak_off_h": 5.0
+ },
+ "highest-temperature-in-jeddah-on-august-15-2026": {
+  "temp": 40.0,
+  "peak_off_h": 2.0
+ },
+ "highest-temperature-in-jinan-on-august-10-2026": {
+  "temp": 26.0,
+  "peak_off_h": 4.0
+ },
+ "highest-temperature-in-jinan-on-august-11-2026": {
+  "temp": 26.0,
+  "peak_off_h": 5.0
+ },
+ "highest-temperature-in-jinan-on-august-12-2026": {
+  "temp": 26.0,
+  "peak_off_h": -1.0
+ },
+ "highest-temperature-in-jinan-on-august-14-2026": {
+  "temp": 26.0,
+  "peak_off_h": 4.0
+ },
+ "highest-temperature-in-jinan-on-august-15-2026": {
+  "temp": 26.0,
+  "peak_off_h": 4.0
+ },
+ "highest-temperature-in-karachi-on-august-10-2026": {
+  "temp": 33.0,
+  "peak_off_h": 3.5
+ },
+ "highest-temperature-in-karachi-on-august-11-2026": {
+  "temp": 32.0,
+  "peak_off_h": 4.5
+ },
+ "highest-temperature-in-karachi-on-august-12-2026": {
+  "temp": 33.0,
+  "peak_off_h": 3.0
+ },
+ "highest-temperature-in-karachi-on-august-14-2026": {
+  "temp": 32.0,
+  "peak_off_h": 2.5
+ },
+ "highest-temperature-in-karachi-on-august-15-2026": {
+  "temp": 32.0,
+  "peak_off_h": 0.5
+ },
+ "highest-temperature-in-kuala-lumpur-on-august-10-2026": {
+  "temp": 34.0,
+  "peak_off_h": 3.5
+ },
+ "highest-temperature-in-kuala-lumpur-on-august-11-2026": {
+  "temp": 32.0,
+  "peak_off_h": 3.5
+ },
+ "highest-temperature-in-kuala-lumpur-on-august-12-2026": {
+  "temp": 34.0,
+  "peak_off_h": 2.5
+ },
+ "highest-temperature-in-kuala-lumpur-on-august-14-2026": {
+  "temp": 33.0,
+  "peak_off_h": 3.5
+ },
+ "highest-temperature-in-kuala-lumpur-on-august-15-2026": {
+  "temp": 34.0,
+  "peak_off_h": 5.0
+ },
+ "highest-temperature-in-london-on-august-10-2026": {
+  "temp": 26.0,
+  "peak_off_h": 5.333333333333332
+ },
+ "highest-temperature-in-london-on-august-11-2026": {
+  "temp": 24.0,
+  "peak_off_h": 3.333333333333334
+ },
+ "highest-temperature-in-london-on-august-12-2026": {
+  "temp": 30.0,
+  "peak_off_h": 5.333333333333332
+ },
+ "highest-temperature-in-london-on-august-14-2026": {
+  "temp": 34.0,
+  "peak_off_h": 5.833333333333332
+ },
+ "highest-temperature-in-london-on-august-15-2026": {
+  "temp": 26.0,
+  "peak_off_h": 3.333333333333334
+ },
+ "highest-temperature-in-los-angeles-on-august-10-2026": {
+  "temp": 79.0,
+  "peak_off_h": 2.883333333333333
+ },
+ "highest-temperature-in-los-angeles-on-august-11-2026": {
+  "temp": 81.0,
+  "peak_off_h": -1.1166666666666671
+ },
+ "highest-temperature-in-los-angeles-on-august-12-2026": {
+  "temp": 77.0,
+  "peak_off_h": 3.883333333333333
+ },
+ "highest-temperature-in-los-angeles-on-august-14-2026": {
+  "temp": 79.0,
+  "peak_off_h": 0.8833333333333329
+ },
+ "highest-temperature-in-los-angeles-on-august-15-2026": {
+  "temp": 77.0,
+  "peak_off_h": 3.883333333333333
+ },
+ "highest-temperature-in-lucknow-on-august-10-2026": {
+  "temp": 32.0,
+  "peak_off_h": 4.5
+ },
+ "highest-temperature-in-lucknow-on-august-11-2026": {
+  "temp": 34.0,
+  "peak_off_h": 4.5
+ },
+ "highest-temperature-in-lucknow-on-august-12-2026": {
+  "temp": 35.0,
+  "peak_off_h": 4.5
+ },
+ "highest-temperature-in-lucknow-on-august-14-2026": {
+  "temp": 34.0,
+  "peak_off_h": 3.5
+ },
+ "highest-temperature-in-lucknow-on-august-15-2026": {
+  "temp": 35.0,
+  "peak_off_h": 3.0
+ },
+ "highest-temperature-in-madrid-on-august-10-2026": {
+  "temp": 37.0,
+  "peak_off_h": 7.0
+ },
+ "highest-temperature-in-madrid-on-august-11-2026": {
+  "temp": 36.0,
+  "peak_off_h": 6.5
+ },
+ "highest-temperature-in-madrid-on-august-12-2026": {
+  "temp": 38.0,
+  "peak_off_h": 7.5
+ },
+ "highest-temperature-in-madrid-on-august-14-2026": {
+  "temp": 39.0,
+  "peak_off_h": 5.5
+ },
+ "highest-temperature-in-madrid-on-august-15-2026": {
+  "temp": 30.0,
+  "peak_off_h": 7.0
+ },
+ "highest-temperature-in-madrid-on-august-9-2026": {
+  "temp": 37.0,
+  "peak_off_h": 7.0
+ },
+ "highest-temperature-in-manila-on-august-10-2026": {
+  "temp": 32.0,
+  "peak_off_h": 0.0
+ },
+ "highest-temperature-in-manila-on-august-11-2026": {
+  "temp": 31.0,
+  "peak_off_h": 2.0
+ },
+ "highest-temperature-in-manila-on-august-12-2026": {
+  "temp": 30.0,
+  "peak_off_h": -3.0
+ },
+ "highest-temperature-in-manila-on-august-14-2026": {
+  "temp": 28.0,
+  "peak_off_h": 3.0
+ },
+ "highest-temperature-in-manila-on-august-15-2026": {
+  "temp": 31.0,
+  "peak_off_h": 4.0
+ },
+ "highest-temperature-in-mexico-city-on-august-10-2026": {
+  "temp": 25.0,
+  "peak_off_h": 1.1999999999999993
+ },
+ "highest-temperature-in-mexico-city-on-august-11-2026": {
+  "temp": 25.0,
+  "peak_off_h": 3.75
+ },
+ "highest-temperature-in-mexico-city-on-august-12-2026": {
+  "temp": 25.0,
+  "peak_off_h": 4.75
+ },
+ "highest-temperature-in-mexico-city-on-august-14-2026": {
+  "temp": 26.0,
+  "peak_off_h": 2.75
+ },
+ "highest-temperature-in-mexico-city-on-august-15-2026": {
+  "temp": 26.0,
+  "peak_off_h": 3.6833333333333336
+ },
+ "highest-temperature-in-miami-on-august-10-2026": {
+  "temp": 93.0,
+  "peak_off_h": 5.883333333333333
+ },
+ "highest-temperature-in-miami-on-august-11-2026": {
+  "temp": 93.0,
+  "peak_off_h": 2.883333333333333
+ },
+ "highest-temperature-in-miami-on-august-12-2026": {
+  "temp": 93.0,
+  "peak_off_h": 1.8833333333333329
+ },
+ "highest-temperature-in-miami-on-august-14-2026": {
+  "temp": 95.0,
+  "peak_off_h": 4.883333333333333
+ },
+ "highest-temperature-in-miami-on-august-15-2026": {
+  "temp": 93.0,
+  "peak_off_h": 3.883333333333333
+ },
+ "highest-temperature-in-milan-on-august-10-2026": {
+  "temp": 34.0,
+  "peak_off_h": 6.333333333333332
+ },
+ "highest-temperature-in-milan-on-august-11-2026": {
+  "temp": 36.0,
+  "peak_off_h": 5.833333333333332
+ },
+ "highest-temperature-in-milan-on-august-12-2026": {
+  "temp": 36.0,
+  "peak_off_h": 2.833333333333334
+ },
+ "highest-temperature-in-milan-on-august-14-2026": {
+  "temp": 34.0,
+  "peak_off_h": 4.833333333333332
+ },
+ "highest-temperature-in-milan-on-august-15-2026": {
+  "temp": 34.0,
+  "peak_off_h": 5.833333333333332
+ },
+ "highest-temperature-in-munich-on-august-10-2026": {
+  "temp": 34.0,
+  "peak_off_h": 4.333333333333332
+ },
+ "highest-temperature-in-munich-on-august-11-2026": {
+  "temp": 31.0,
+  "peak_off_h": 3.833333333333334
+ },
+ "highest-temperature-in-munich-on-august-12-2026": {
+  "temp": 30.0,
+  "peak_off_h": 5.833333333333332
+ },
+ "highest-temperature-in-munich-on-august-14-2026": {
+  "temp": 33.0,
+  "peak_off_h": 5.833333333333332
+ },
+ "highest-temperature-in-munich-on-august-15-2026": {
+  "temp": 35.0,
+  "peak_off_h": 4.833333333333332
+ },
+ "highest-temperature-in-nyc-on-august-10-2026": {
+  "temp": 91.0,
+  "peak_off_h": 3.8499999999999996
+ },
+ "highest-temperature-in-nyc-on-august-11-2026": {
+  "temp": 87.0,
+  "peak_off_h": 3.5999999999999996
+ },
+ "highest-temperature-in-nyc-on-august-12-2026": {
+  "temp": 87.0,
+  "peak_off_h": 5.850000000000001
+ },
+ "highest-temperature-in-nyc-on-august-14-2026": {
+  "temp": 87.0,
+  "peak_off_h": 2.8499999999999996
+ },
+ "highest-temperature-in-nyc-on-august-15-2026": {
+  "temp": 85.0,
+  "peak_off_h": 5.850000000000001
+ },
+ "highest-temperature-in-nyc-on-august-9-2026": {
+  "temp": 91.0,
+  "peak_off_h": 3.8499999999999996
+ },
+ "highest-temperature-in-panama-city-on-august-10-2026": {
+  "temp": 33.0,
+  "peak_off_h": 4.0
+ },
+ "highest-temperature-in-panama-city-on-august-11-2026": {
+  "temp": 33.0,
+  "peak_off_h": 3.1833333333333336
+ },
+ "highest-temperature-in-panama-city-on-august-12-2026": {
+  "temp": 33.0,
+  "peak_off_h": 2.0
+ },
+ "highest-temperature-in-panama-city-on-august-14-2026": {
+  "temp": 33.0,
+  "peak_off_h": 1.0
+ },
+ "highest-temperature-in-panama-city-on-august-15-2026": {
+  "temp": 32.0,
+  "peak_off_h": 2.0
+ },
+ "highest-temperature-in-paris-on-august-10-2026": {
+  "temp": 32.0,
+  "peak_off_h": 6.0
+ },
+ "highest-temperature-in-paris-on-august-11-2026": {
+  "temp": 32.0,
+  "peak_off_h": 6.5
+ },
+ "highest-temperature-in-paris-on-august-12-2026": {
+  "temp": 35.0,
+  "peak_off_h": 7.5
+ },
+ "highest-temperature-in-paris-on-august-14-2026": {
+  "temp": 39.0,
+  "peak_off_h": 5.5
+ },
+ "highest-temperature-in-paris-on-august-15-2026": {
+  "temp": 31.0,
+  "peak_off_h": 7.0
+ },
+ "highest-temperature-in-paris-on-august-9-2026": {
+  "temp": 33.0,
+  "peak_off_h": 8.0
+ },
+ "highest-temperature-in-qingdao-on-august-10-2026": {
+  "temp": 31.0,
+  "peak_off_h": 3.0
+ },
+ "highest-temperature-in-qingdao-on-august-11-2026": {
+  "temp": 31.0,
+  "peak_off_h": 3.0
+ },
+ "highest-temperature-in-qingdao-on-august-12-2026": {
+  "temp": 32.0,
+  "peak_off_h": 1.0
+ },
+ "highest-temperature-in-qingdao-on-august-14-2026": {
+  "temp": 33.0,
+  "peak_off_h": 3.0
+ },
+ "highest-temperature-in-qingdao-on-august-15-2026": {
+  "temp": 31.0,
+  "peak_off_h": 2.0
+ },
+ "highest-temperature-in-san-francisco-on-august-10-2026": {
+  "temp": 73.0,
+  "peak_off_h": 2.9333333333333336
+ },
+ "highest-temperature-in-san-francisco-on-august-11-2026": {
+  "temp": 77.0,
+  "peak_off_h": 2.9333333333333336
+ },
+ "highest-temperature-in-san-francisco-on-august-12-2026": {
+  "temp": 73.0,
+  "peak_off_h": 2.9333333333333336
+ },
+ "highest-temperature-in-san-francisco-on-august-14-2026": {
+  "temp": 71.0,
+  "peak_off_h": 3.9333333333333336
+ },
+ "highest-temperature-in-san-francisco-on-august-15-2026": {
+  "temp": 69.0,
+  "peak_off_h": 2.9333333333333336
+ },
+ "highest-temperature-in-sao-paulo-on-august-10-2026": {
+  "temp": 18.0,
+  "peak_off_h": 1.0
+ },
+ "highest-temperature-in-sao-paulo-on-august-11-2026": {
+  "temp": 18.0,
+  "peak_off_h": 3.0
+ },
+ "highest-temperature-in-sao-paulo-on-august-12-2026": {
+  "temp": 24.0,
+  "peak_off_h": 5.0
+ },
+ "highest-temperature-in-sao-paulo-on-august-14-2026": {
+  "temp": 26.0,
+  "peak_off_h": 4.0
+ },
+ "highest-temperature-in-sao-paulo-on-august-15-2026": {
+  "temp": 22.0,
+  "peak_off_h": 5.0
+ },
+ "highest-temperature-in-sao-paulo-on-august-9-2026": {
+  "temp": 26.0,
+  "peak_off_h": 1.0
+ },
+ "highest-temperature-in-seattle-on-august-10-2026": {
+  "temp": 75.0,
+  "peak_off_h": 6.883333333333333
+ },
+ "highest-temperature-in-seattle-on-august-11-2026": {
+  "temp": 79.0,
+  "peak_off_h": 5.883333333333333
+ },
+ "highest-temperature-in-seattle-on-august-12-2026": {
+  "temp": 79.0,
+  "peak_off_h": 4.883333333333333
+ },
+ "highest-temperature-in-seattle-on-august-14-2026": {
+  "temp": 77.0,
+  "peak_off_h": 5.883333333333333
+ },
+ "highest-temperature-in-seattle-on-august-15-2026": {
+  "temp": 75.0,
+  "peak_off_h": 5.883333333333333
+ },
+ "highest-temperature-in-seoul-on-august-10-2026": {
+  "temp": 33.0,
+  "peak_off_h": 3.0
+ },
+ "highest-temperature-in-seoul-on-august-11-2026": {
+  "temp": 32.0,
+  "peak_off_h": 1.5
+ },
+ "highest-temperature-in-seoul-on-august-12-2026": {
+  "temp": 32.0,
+  "peak_off_h": 4.0
+ },
+ "highest-temperature-in-seoul-on-august-14-2026": {
+  "temp": 30.0,
+  "peak_off_h": 5.5
+ },
+ "highest-temperature-in-seoul-on-august-15-2026": {
+  "temp": 28.0,
+  "peak_off_h": 1.5
+ },
+ "highest-temperature-in-seoul-on-august-9-2026": {
+  "temp": 33.0,
+  "peak_off_h": 4.0
+ },
+ "highest-temperature-in-shanghai-on-august-10-2026": {
+  "temp": 28.0,
+  "peak_off_h": 11.5
+ },
+ "highest-temperature-in-shanghai-on-august-11-2026": {
+  "temp": 29.0,
+  "peak_off_h": 3.0
+ },
+ "highest-temperature-in-shanghai-on-august-12-2026": {
+  "temp": 27.0,
+  "peak_off_h": 10.5
+ },
+ "highest-temperature-in-shanghai-on-august-14-2026": {
+  "temp": 28.0,
+  "peak_off_h": 6.0
+ },
+ "highest-temperature-in-shanghai-on-august-15-2026": {
+  "temp": 31.0,
+  "peak_off_h": 1.0
+ },
+ "highest-temperature-in-shanghai-on-august-9-2026": {
+  "temp": 28.0,
+  "peak_off_h": 10.5
+ },
+ "highest-temperature-in-shenzhen-on-august-10-2026": {
+  "temp": 36.0,
+  "peak_off_h": 4.0
+ },
+ "highest-temperature-in-shenzhen-on-august-11-2026": {
+  "temp": 37.0,
+  "peak_off_h": 3.0
+ },
+ "highest-temperature-in-shenzhen-on-august-12-2026": {
+  "temp": 36.0,
+  "peak_off_h": 4.0
+ },
+ "highest-temperature-in-shenzhen-on-august-14-2026": {
+  "temp": 30.0,
+  "peak_off_h": -3.0
+ },
+ "highest-temperature-in-shenzhen-on-august-15-2026": {
+  "temp": 32.0,
+  "peak_off_h": 3.0
+ },
+ "highest-temperature-in-shenzhen-on-august-9-2026": {
+  "temp": 36.0,
+  "peak_off_h": 5.0
+ },
+ "highest-temperature-in-singapore-on-august-10-2026": {
+  "temp": 32.0,
+  "peak_off_h": 4.0
+ },
+ "highest-temperature-in-singapore-on-august-11-2026": {
+  "temp": 33.0,
+  "peak_off_h": 3.5
+ },
+ "highest-temperature-in-singapore-on-august-12-2026": {
+  "temp": 32.0,
+  "peak_off_h": 5.5
+ },
+ "highest-temperature-in-singapore-on-august-14-2026": {
+  "temp": 33.0,
+  "peak_off_h": 4.5
+ },
+ "highest-temperature-in-singapore-on-august-15-2026": {
+  "temp": 33.0,
+  "peak_off_h": 4.5
+ },
+ "highest-temperature-in-taipei-on-august-10-2026": {
+  "temp": 36.0,
+  "peak_off_h": 1.6500000000000004
+ },
+ "highest-temperature-in-taipei-on-august-11-2026": {
+  "temp": 35.0,
+  "peak_off_h": 1.1999999999999993
+ },
+ "highest-temperature-in-taipei-on-august-12-2026": {
+  "temp": 36.0,
+  "peak_off_h": 0.0
+ },
+ "highest-temperature-in-taipei-on-august-14-2026": {
+  "temp": 37.0,
+  "peak_off_h": 0.0
+ },
+ "highest-temperature-in-taipei-on-august-15-2026": {
+  "temp": 36.0,
+  "peak_off_h": 0.5
+ },
+ "highest-temperature-in-taipei-on-august-9-2026": {
+  "temp": 29.0,
+  "peak_off_h": 8.5
+ },
+ "highest-temperature-in-tokyo-on-august-10-2026": {
+  "temp": 30.0,
+  "peak_off_h": 2.0
+ },
+ "highest-temperature-in-tokyo-on-august-11-2026": {
+  "temp": 32.0,
+  "peak_off_h": 1.5
+ },
+ "highest-temperature-in-tokyo-on-august-12-2026": {
+  "temp": 29.0,
+  "peak_off_h": 2.5
+ },
+ "highest-temperature-in-tokyo-on-august-14-2026": {
+  "temp": 31.0,
+  "peak_off_h": 3.0
+ },
+ "highest-temperature-in-tokyo-on-august-15-2026": {
+  "temp": 29.0,
+  "peak_off_h": -1.5
+ },
+ "highest-temperature-in-toronto-on-august-10-2026": {
+  "temp": 29.0,
+  "peak_off_h": 6.0
+ },
+ "highest-temperature-in-toronto-on-august-11-2026": {
+  "temp": 29.0,
+  "peak_off_h": 4.0
+ },
+ "highest-temperature-in-toronto-on-august-12-2026": {
+  "temp": 27.0,
+  "peak_off_h": 0.0
+ },
+ "highest-temperature-in-toronto-on-august-14-2026": {
+  "temp": 27.0,
+  "peak_off_h": 1.0
+ },
+ "highest-temperature-in-toronto-on-august-15-2026": {
+  "temp": 24.0,
+  "peak_off_h": 6.0
+ },
+ "highest-temperature-in-warsaw-on-august-10-2026": {
+  "temp": 32.0,
+  "peak_off_h": 5.0
+ },
+ "highest-temperature-in-warsaw-on-august-11-2026": {
+  "temp": 22.0,
+  "peak_off_h": 4.5
+ },
+ "highest-temperature-in-warsaw-on-august-12-2026": {
+  "temp": 22.0,
+  "peak_off_h": 7.0
+ },
+ "highest-temperature-in-warsaw-on-august-14-2026": {
+  "temp": 26.0,
+  "peak_off_h": 5.5
+ },
+ "highest-temperature-in-warsaw-on-august-15-2026": {
+  "temp": 30.0,
+  "peak_off_h": 6.0
+ },
+ "highest-temperature-in-wellington-on-august-10-2026": {
+  "temp": 15.0,
+  "peak_off_h": -1.0
+ },
+ "highest-temperature-in-wellington-on-august-11-2026": {
+  "temp": 12.0,
+  "peak_off_h": 4.0
+ },
+ "highest-temperature-in-wellington-on-august-12-2026": {
+  "temp": 14.0,
+  "peak_off_h": 2.0
+ },
+ "highest-temperature-in-wellington-on-august-14-2026": {
+  "temp": 13.0,
+  "peak_off_h": -1.5
+ },
+ "highest-temperature-in-wellington-on-august-15-2026": {
+  "temp": 13.0,
+  "peak_off_h": 1.0
+ },
+ "highest-temperature-in-wellington-on-august-16-2026": {
+  "temp": 10.0,
+  "peak_off_h": -9.0
+ },
+ "highest-temperature-in-wellington-on-august-9-2026": {
+  "temp": 14.0,
+  "peak_off_h": 4.0
+ },
+ "highest-temperature-in-wuhan-on-august-10-2026": {
+  "temp": 29.0,
+  "peak_off_h": 0.0
+ },
+ "highest-temperature-in-wuhan-on-august-11-2026": {
+  "temp": 29.0,
+  "peak_off_h": 6.0
+ },
+ "highest-temperature-in-wuhan-on-august-12-2026": {
+  "temp": 28.0,
+  "peak_off_h": 6.0
+ },
+ "highest-temperature-in-wuhan-on-august-14-2026": {
+  "temp": 30.0,
+  "peak_off_h": 3.0
+ },
+ "highest-temperature-in-wuhan-on-august-15-2026": {
+  "temp": 28.0,
+  "peak_off_h": 4.0
+ },
+ "highest-temperature-in-zhengzhou-on-august-10-2026": {
+  "temp": 32.0,
+  "peak_off_h": 3.0
+ },
+ "highest-temperature-in-zhengzhou-on-august-11-2026": {
+  "temp": 26.0,
+  "peak_off_h": -9.0
+ },
+ "highest-temperature-in-zhengzhou-on-august-12-2026": {
+  "temp": 25.0,
+  "peak_off_h": -11.0
+ },
+ "highest-temperature-in-zhengzhou-on-august-14-2026": {
+  "temp": 29.0,
+  "peak_off_h": 6.0
+ },
+ "highest-temperature-in-zhengzhou-on-august-15-2026": {
+  "temp": 31.0,
+  "peak_off_h": 5.0
+ },
+ "highest-temperature-in-amsterdam-on-august-13-2026": {
+  "temp": 33.0,
+  "peak_off_h": 5.916666666666668
+ },
+ "highest-temperature-in-ankara-on-august-13-2026": {
+  "temp": 30.0,
+  "peak_off_h": 5.833333333333332
+ },
+ "highest-temperature-in-atlanta-on-august-13-2026": {
+  "temp": 95.0,
+  "peak_off_h": 3.866666666666667
+ },
+ "highest-temperature-in-atlanta-on-august-8-2026": {
+  "temp": 91.0,
+  "peak_off_h": 6.866666666666667
+ },
+ "highest-temperature-in-atlanta-on-august-9-2026": {
+  "temp": 91.0,
+  "peak_off_h": 4.866666666666667
+ },
+ "highest-temperature-in-austin-on-august-13-2026": {
+  "temp": 103.0,
+  "peak_off_h": 3.883333333333333
+ },
+ "highest-temperature-in-beijing-on-august-13-2026": {
+  "temp": 30.0,
+  "peak_off_h": 0.0
+ },
+ "highest-temperature-in-buenos-aires-on-august-13-2026": {
+  "temp": 10.0,
+  "peak_off_h": 10.0
+ },
+ "highest-temperature-in-busan-on-august-13-2026": {
+  "temp": 32.0,
+  "peak_off_h": 1.0
+ },
+ "highest-temperature-in-busan-on-august-9-2026": {
+  "temp": 32.0,
+  "peak_off_h": 3.0
+ },
+ "highest-temperature-in-cape-town-on-august-13-2026": {
+  "temp": 28.0,
+  "peak_off_h": 3.0
+ },
+ "highest-temperature-in-chengdu-on-august-13-2026": {
+  "temp": 36.0,
+  "peak_off_h": 4.0
+ },
+ "highest-temperature-in-chicago-on-august-13-2026": {
+  "temp": 79.0,
+  "peak_off_h": -0.8000000000000007
+ },
+ "highest-temperature-in-chongqing-on-august-13-2026": {
+  "temp": 36.0,
+  "peak_off_h": 5.0
+ },
+ "highest-temperature-in-dallas-on-august-13-2026": {
+  "temp": 101.0,
+  "peak_off_h": 5.883333333333333
+ },
+ "highest-temperature-in-denver-on-august-13-2026": {
+  "temp": 81.0,
+  "peak_off_h": 2.966666666666667
+ },
+ "highest-temperature-in-guangzhou-on-august-13-2026": {
+  "temp": 35.0,
+  "peak_off_h": 3.5
+ },
+ "highest-temperature-in-helsinki-on-august-13-2026": {
+  "temp": 19.0,
+  "peak_off_h": 5.333333333333332
+ },
+ "highest-temperature-in-houston-on-august-13-2026": {
+  "temp": 95.0,
+  "peak_off_h": 3.883333333333333
+ },
+ "highest-temperature-in-jeddah-on-august-13-2026": {
+  "temp": 39.0,
+  "peak_off_h": 5.0
+ },
+ "highest-temperature-in-jinan-on-august-13-2026": {
+  "temp": 26.0,
+  "peak_off_h": 2.0
+ },
+ "highest-temperature-in-karachi-on-august-13-2026": {
+  "temp": 33.0,
+  "peak_off_h": 4.0
+ },
+ "highest-temperature-in-kuala-lumpur-on-august-13-2026": {
+  "temp": 33.0,
+  "peak_off_h": 3.5
+ },
+ "highest-temperature-in-london-on-august-13-2026": {
+  "temp": 34.0,
+  "peak_off_h": 4.833333333333332
+ },
+ "highest-temperature-in-los-angeles-on-august-13-2026": {
+  "temp": 77.0,
+  "peak_off_h": 1.8833333333333329
+ },
+ "highest-temperature-in-lucknow-on-august-13-2026": {
+  "temp": 35.0,
+  "peak_off_h": 2.0
+ },
+ "highest-temperature-in-madrid-on-august-13-2026": {
+  "temp": 40.0,
+  "peak_off_h": 5.5
+ },
+ "highest-temperature-in-manila-on-august-13-2026": {
+  "temp": 28.0,
+  "peak_off_h": -2.0
+ },
+ "highest-temperature-in-mexico-city-on-august-13-2026": {
+  "temp": 26.0,
+  "peak_off_h": 2.75
+ },
+ "highest-temperature-in-miami-on-august-13-2026": {
+  "temp": 95.0,
+  "peak_off_h": 0.8833333333333329
+ },
+ "highest-temperature-in-miami-on-august-9-2026": {
+  "temp": 93.0,
+  "peak_off_h": 3.883333333333333
+ },
+ "highest-temperature-in-milan-on-august-13-2026": {
+  "temp": 35.0,
+  "peak_off_h": 5.833333333333332
+ },
+ "highest-temperature-in-munich-on-august-13-2026": {
+  "temp": 31.0,
+  "peak_off_h": 5.333333333333332
+ },
+ "highest-temperature-in-nyc-on-august-13-2026": {
+  "temp": 87.0,
+  "peak_off_h": 4.850000000000001
+ },
+ "highest-temperature-in-nyc-on-august-8-2026": {
+  "temp": 91.0,
+  "peak_off_h": 2.8499999999999996
+ },
+ "highest-temperature-in-panama-city-on-august-13-2026": {
+  "temp": 34.0,
+  "peak_off_h": 0.0
+ },
+ "highest-temperature-in-paris-on-august-13-2026": {
+  "temp": 38.0,
+  "peak_off_h": 6.0
+ },
+ "highest-temperature-in-qingdao-on-august-13-2026": {
+  "temp": 29.0,
+  "peak_off_h": 5.0
+ },
+ "highest-temperature-in-san-francisco-on-august-13-2026": {
+  "temp": 71.0,
+  "peak_off_h": 3.9333333333333336
+ },
+ "highest-temperature-in-sao-paulo-on-august-13-2026": {
+  "temp": 30.0,
+  "peak_off_h": 4.0
+ },
+ "highest-temperature-in-seattle-on-august-13-2026": {
+  "temp": 81.0,
+  "peak_off_h": 3.883333333333333
+ },
+ "highest-temperature-in-seoul-on-august-13-2026": {
+  "temp": 31.0,
+  "peak_off_h": 5.5
+ },
+ "highest-temperature-in-shanghai-on-august-13-2026": {
+  "temp": 29.0,
+  "peak_off_h": 3.0
+ },
+ "highest-temperature-in-shenzhen-on-august-13-2026": {
+  "temp": 36.0,
+  "peak_off_h": 1.0
+ },
+ "highest-temperature-in-singapore-on-august-13-2026": {
+  "temp": 32.0,
+  "peak_off_h": 4.5
+ },
+ "highest-temperature-in-taipei-on-august-13-2026": {
+  "temp": 36.0,
+  "peak_off_h": 0.0
+ },
+ "highest-temperature-in-tokyo-on-august-13-2026": {
+  "temp": 28.0,
+  "peak_off_h": 2.0
+ },
+ "highest-temperature-in-tokyo-on-august-9-2026": {
+  "temp": 33.0,
+  "peak_off_h": 3.0
+ },
+ "highest-temperature-in-toronto-on-august-13-2026": {
+  "temp": 28.0,
+  "peak_off_h": 6.0
+ },
+ "highest-temperature-in-toronto-on-august-8-2026": {
+  "temp": 30.0,
+  "peak_off_h": 2.0
+ },
+ "highest-temperature-in-toronto-on-august-9-2026": {
+  "temp": 27.0,
+  "peak_off_h": 5.0
+ },
+ "highest-temperature-in-warsaw-on-august-13-2026": {
+  "temp": 23.0,
+  "peak_off_h": 6.0
+ },
+ "highest-temperature-in-wellington-on-august-13-2026": {
+  "temp": 15.0,
+  "peak_off_h": 1.5
+ },
+ "highest-temperature-in-wuhan-on-august-13-2026": {
+  "temp": 26.0,
+  "peak_off_h": -2.0
+ },
+ "highest-temperature-in-zhengzhou-on-august-13-2026": {
+  "temp": 27.0,
+  "peak_off_h": 2.0
+ },
+ "highest-temperature-in-istanbul-on-august-10-2026": {
+  "temp": 28.0,
+  "peak_bj": "2026-08-16 02:20"
+ },
+ "highest-temperature-in-istanbul-on-august-11-2026": {
+  "temp": 27.0,
+  "peak_bj": "2026-08-16 02:20"
+ },
+ "highest-temperature-in-istanbul-on-august-13-2026": {
+  "temp": 27.0,
+  "peak_bj": "2026-08-16 02:20"
+ },
+ "highest-temperature-in-istanbul-on-august-14-2026": {
+  "temp": 27.0,
+  "peak_bj": "2026-08-16 02:20"
+ },
+ "highest-temperature-in-istanbul-on-august-15-2026": {
+  "temp": 27.0,
+  "peak_bj": "2026-08-16 02:20"
+ },
+ "highest-temperature-in-moscow-on-august-10-2026": {
+  "temp": 24.0,
+  "peak_bj": "2026-08-17 06:30"
+ },
+ "highest-temperature-in-moscow-on-august-11-2026": {
+  "temp": 26.0,
+  "peak_bj": "2026-08-17 06:30"
+ },
+ "highest-temperature-in-moscow-on-august-12-2026": {
+  "temp": 18.0,
+  "peak_bj": "2026-08-17 06:30"
+ },
+ "highest-temperature-in-moscow-on-august-13-2026": {
+  "temp": 14.0,
+  "peak_bj": "2026-08-17 06:30"
+ },
+ "highest-temperature-in-moscow-on-august-14-2026": {
+  "temp": 18.0,
+  "peak_bj": "2026-08-17 06:30"
+ },
+ "highest-temperature-in-moscow-on-august-15-2026": {
+  "temp": 20.0,
+  "peak_bj": "2026-08-17 06:30"
+ },
+ "highest-temperature-in-tel-aviv-on-august-10-2026": {
+  "temp": 34.0,
+  "peak_bj": "2026-08-17 00:50"
+ },
+ "highest-temperature-in-tel-aviv-on-august-11-2026": {
+  "temp": 35.0,
+  "peak_bj": "2026-08-17 00:50"
+ },
+ "highest-temperature-in-tel-aviv-on-august-12-2026": {
+  "temp": 35.0,
+  "peak_bj": "2026-08-17 00:50"
+ },
+ "highest-temperature-in-tel-aviv-on-august-13-2026": {
+  "temp": 34.0,
+  "peak_bj": "2026-08-17 00:50"
+ },
+ "highest-temperature-in-tel-aviv-on-august-14-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-08-17 00:50"
+ },
+ "highest-temperature-in-tel-aviv-on-august-15-2026": {
+  "temp": 33.0,
+  "peak_bj": "2026-08-17 00:50"
+ },
+ "highest-temperature-in-istanbul-on-august-12-2026": {
+  "temp": 28.0,
+  "peak_bj": "2026-08-12 07:20"
+ },
+ "highest-temperature-in-hong-kong-on-august-10-2026": {
+  "temp": 35.0,
+  "peak_bj": "2026-08-10 00:30"
+ },
+ "highest-temperature-in-hong-kong-on-august-11-2026": {
+  "temp": 35.0,
+  "peak_bj": "2026-08-11 02:00"
+ },
+ "highest-temperature-in-hong-kong-on-august-12-2026": {
+  "temp": 34.0,
+  "peak_bj": "2026-08-12 01:30"
+ },
+ "highest-temperature-in-hong-kong-on-august-13-2026": {
+  "temp": 33.0,
+  "peak_bj": "2026-08-13 08:00"
+ },
+ "highest-temperature-in-hong-kong-on-august-9-2026": {
+  "temp": 36.0,
+  "peak_bj": "2026-08-09 00:00"
+ },
+ "highest-temperature-in-istanbul-on-august-9-2026": {
+  "temp": 27.0,
+  "peak_bj": "2026-08-09 07:20"
+ }
+}

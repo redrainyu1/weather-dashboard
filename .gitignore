@@ -1,0 +1,9 @@
+# 本地敏感/缓存文件，不上传 GitHub
+.env
+*.log
+weather_page_cache.html
+venv/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
