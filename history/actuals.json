@@ -1630,5 +1630,29 @@
  "highest-temperature-in-paris-on-august-17-2026": {
   "temp": 29.0,
   "peak_bj": "2026-08-17 22:30"
+ },
+ "highest-temperature-in-ankara-on-august-17-2026": {
+  "temp": 27.0,
+  "peak_bj": "2026-08-17 18:50"
+ },
+ "highest-temperature-in-helsinki-on-august-17-2026": {
+  "temp": 22.0,
+  "peak_bj": "2026-08-17 19:50"
+ },
+ "highest-temperature-in-istanbul-on-august-17-2026": {
+  "temp": 25.0,
+  "peak_bj": "2026-08-17 23:20"
+ },
+ "highest-temperature-in-moscow-on-august-17-2026": {
+  "temp": 23.0,
+  "peak_bj": "2026-08-17 22:00"
+ },
+ "highest-temperature-in-munich-on-august-17-2026": {
+  "temp": 27.0,
+  "peak_bj": "2026-08-17 17:50"
+ },
+ "highest-temperature-in-tel-aviv-on-august-17-2026": {
+  "temp": 31.0,
+  "peak_bj": "2026-08-17 20:50"
  }
 }
