@@ -605,31 +605,7 @@ function saveEdit() {
 
 var refreshing = false;
 
-function autoCheck() {
-  fetch('/api/data').then(function(r) { return r.json(); }).then(function(json) {
-    if (json.data) {
-      if (json.data.updated_at !== ALL_DATA.updated_at) {
-        ALL_DATA = json.data;
-        buildDateFilter();
-        render();
-        checkMissing();
-      }
-      if (!refreshing) {
-        var age = (Date.now() - new Date(String(json.data.updated_at).replace(' ', 'T')).getTime()) / 60000;
-        if (age > 45) {
-          refreshing = true;
-          document.getElementById('btnRefresh').textContent = '后台更新中...';
-          fetch('/api/refresh', { method: 'POST' }).then(function() {
-            setTimeout(function() { refreshing = false; loadData(); }, 2000);
-          }).catch(function() { refreshing = false; });
-        }
-      }
-    }
-    setTimeout(autoCheck, 60000);
-  }).catch(function() {
-    setTimeout(autoCheck, 60000);
-  });
-}
+function autoCheck() {}  // 纯手动模式：数据只在点击"刷新数据"时更新
 
 function loadHistoryList() {
   fetch('/api/history').then(function(r) { return r.json(); }).then(function(json) {
