@@ -301,8 +301,6 @@ async def main():
     errs = [r["err"] for r in rows]
     mae = sum(abs_errs) / len(abs_errs)
     bias = sum(errs) / len(errs)
-    p1 = sum(1 for e in abs_errs if e <= 1) / len(abs_errs) * 100
-    p2 = sum(1 for e in abs_errs if e <= 2) / len(abs_errs) * 100
 
     by_city = defaultdict(list)
     for r in rows:
@@ -319,15 +317,13 @@ async def main():
             periods[b]["errs"].append(abs(x["err"]))
         pstat = {}
         for b, v in periods.items():
-            pstat[b] = {"n": v["n"], "mae": round(sum(v["errs"]) / len(v["errs"]), 2),
-                        "hit1": round(sum(1 for e in v["errs"] if e <= 1) / len(v["errs"]) * 100, 1)}
+            pstat[b] = {"n": v["n"], "mae": round(sum(v["errs"]) / len(v["errs"]), 2)}
         best = None
         for b, v in pstat.items():
-            if v["n"] >= 3 and (best is None or v["hit1"] > pstat[best]["hit1"]):
+            if v["n"] >= 3 and (best is None or pstat[b]["mae"] < pstat[best]["mae"]):
                 best = b
         city_stats.append({"city": city, "n": len(lst),
                            "mae": round(sum(ae) / len(ae), 2),
-                           "hit1": round(sum(1 for e in ae if e <= 1) / len(ae) * 100, 1),
                            "periods": pstat, "best_period": best})
 
     report = {
@@ -335,18 +331,16 @@ async def main():
         "n": len(rows),
         "mae": round(mae, 2),
         "bias": round(bias, 2),
-        "hit1": round(p1, 1),
-        "hit2": round(p2, 1),
         "rows": rows,
         "cities": city_stats,
     }
     with open(os.path.join(SCRIPT_DIR, out_file), "w", encoding="utf-8") as f:
         json.dump(report, f, ensure_ascii=False, indent=1)
 
-    print(f"\n[{args.model.upper()}] 样本 {report['n']} | MAE {report['mae']}°C | 偏差 {report['bias']:+.1f}°C | ±1°C命中 {report['hit1']}% | ±2°C命中 {report['hit2']}%")
+    print(f"\n[{args.model.upper()}] 样本 {report['n']} | MAE {report['mae']}°C | 偏差 {report['bias']:+.1f}°C")
     print("\n=== 每城市 ===")
     for c in city_stats:
-        print(f"{c['city']:15s} n={c['n']:2d} MAE={c['mae']:4.2f} hit1={c['hit1']:5.1f}%")
+        print(f"{c['city']:15s} n={c['n']:2d} MAE={c['mae']:4.2f}")
 
 if __name__ == "__main__":
     asyncio.run(main())
