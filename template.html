@@ -254,7 +254,7 @@ function renderAccRows(rows) {
   for (var i = 0; i < rows.length; i++) {
     var r = rows[i];
     var cls = r.err > 0 ? 'err-pos' : (r.err < 0 ? 'err-neg' : '');
-    rhtml += '<div>' + esc(r.date_display) + ' ' + esc(r.city) + ' &nbsp;预测于 ' + (r.snap_date ? esc(r.snap_date.slice(5)) : '') + (r.time ? ' <span style="color:#777;font-size:10px">' + esc(r.time) + '</span>' : '') + ' &nbsp;预测 ' + r.meteo + '° &nbsp;实际 ' + r.actual + '° &nbsp;<span class="' + cls + '">' + (r.err > 0 ? '+' : '') + r.err + '°</span></div>';
+    rhtml += '<div>' + esc(r.date_display) + ' ' + esc(r.city) + ' &nbsp;预测于 ' + (r.snap_date ? esc(r.snap_date.slice(5)) : '') + (r.local_hhmm ? ' <span style="color:#777;font-size:10px">' + esc(r.local_hhmm) + '</span>' : '') + ' &nbsp;预测 ' + r.meteo + '° &nbsp;实际 ' + r.actual + '° &nbsp;<span class="' + cls + '">' + (r.err > 0 ? '+' : '') + r.err + '°</span></div>';
   }
   document.getElementById('accDetail').innerHTML = rhtml;
 }
@@ -302,7 +302,7 @@ function accPick(city) {
       var cls = r.err > 0 ? 'err-pos' : (r.err < 0 ? 'err-neg' : '');
       rhtml += '<div style="border-bottom:1px solid #1a1d27;padding:4px 0">' +
         '<span style="color:#aaa">' + esc(r.date_display) + '</span>' +
-        ' <span style="color:#666;font-size:11px">预测于 ' + (r.snap_date ? esc(r.snap_date.slice(5)) : '') + (r.time ? ' ' + esc(r.time) : '') + '</span>' +
+        ' <span style="color:#666;font-size:11px">预测于 ' + (r.snap_date ? esc(r.snap_date.slice(5)) : '') + (r.local_hhmm ? ' ' + esc(r.local_hhmm) : '') + '</span>' +
         ' &nbsp;预测 <span style="color:#60a5fa;font-weight:600">' + r.meteo + '°</span>' +
         ' &nbsp;实际 <span style="color:#22c55e;font-weight:600">' + r.actual + '°</span>' +
         ' &nbsp;<span class="' + cls + '">' + (r.err > 0 ? '+' : '') + r.err + '°</span></div>';

@@ -178,7 +178,9 @@ def load_history(period=None, model="meteo", peak_off_map=None):
                 hour = int(up[11:13])
             except Exception:
                 hour = None
-        if period and (hour is None or not (period[0] <= hour < period[1])):
+        if hour is None:
+            continue  # 跳过无时刻的纯日期快照（旧格式，与 HHMM 快照重复）
+        if period and not (period[0] <= hour < period[1]):
             continue
         snap_date = os.path.basename(f)[:10]
         for row in d.get("rows", []):
@@ -187,13 +189,20 @@ def load_history(period=None, model="meteo", peak_off_map=None):
                 continue
             # 只用事件日当地当天生成的预测（快照换算到当地日期后须等于事件日）
             nb = h.get("noon_bj")
-            if nb is not None and hour is not None:
-                local = (datetime.strptime(snap_date, "%Y-%m-%d") + timedelta(hours=hour)
+            if nb is not None:
+                tstr = snapshot_time(f)
+                mm = int(tstr[3:5]) if len(tstr) >= 5 else 0
+                local = (datetime.strptime(snap_date, "%Y-%m-%d") + timedelta(hours=hour, minutes=mm)
                          + timedelta(hours=12 - nb))
                 if local.strftime("%Y-%m-%d") != h.get("date", "")[:10]:
                     continue
-            elif h.get("date", "")[:10] != snap_date:
-                continue
+                local_date = local.strftime("%Y-%m-%d")
+                local_hhmm = local.strftime("%H:%M")
+            else:
+                if h.get("date", "")[:10] != snap_date:
+                    continue
+                local_date = snap_date
+                local_hhmm = snapshot_time(f)
             temp = None
             for fc in h.get("forecasts", []):
                 if fc.get("model") == model_name and fc.get("temp") is not None:
@@ -201,10 +210,10 @@ def load_history(period=None, model="meteo", peak_off_map=None):
                     break
             if temp is None:
                 continue
-            out.setdefault((h["slug"], snap_date), []).append(
+            out.setdefault((h["slug"], local_date), []).append(
                 {"city": row["city"], "date": h["date"], "temp": temp,
                  "date_display": row.get("date_display", ""),
-                 "time": snapshot_time(f),
+                 "time": snapshot_time(f), "local_date": local_date, "local_hhmm": local_hhmm,
                  "hour": hour, "noon_bj": h.get("noon_bj")})
     res = {}
     for (slug, snap_date), lst in out.items():
@@ -305,7 +314,8 @@ async def main():
             continue
         err = v["temp"] - act
         rows.append({"city": v["city"], "date": v["date"], "date_display": v["date_display"],
-                     "snap_date": snap_date, "time": v.get("time", ""), "hour": v.get("hour"),
+                     "snap_date": snap_date, "time": v.get("time", ""),
+                     "local_hhmm": v.get("local_hhmm", ""), "hour": v.get("hour"),
                      "meteo": v["temp"], "actual": act, "err": round(err, 1)})
 
     if not rows:

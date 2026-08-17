@@ -436,11 +436,8 @@ async def main():
     # Save historical copy
     history_dir = os.path.join(SCRIPT_DIR, "history")
     os.makedirs(history_dir, exist_ok=True)
-    today_str = datetime.now().strftime("%Y-%m-%d")
-    hist_file = os.path.join(history_dir, f"{today_str}.json")
-    with open(hist_file, "w", encoding="utf-8") as f:
-        json.dump(output, f, ensure_ascii=False, indent=2)
     # Save timestamped snapshot (keep multiple runs per day, e.g. morning + evening)
+    today_str = datetime.now().strftime("%Y-%m-%d")
     ts_file = os.path.join(history_dir, f"{today_str}_{datetime.now().strftime('%H%M')}.json")
     with open(ts_file, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
