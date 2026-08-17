@@ -185,7 +185,8 @@ def load_history(period=None, model="meteo", peak_off_map=None):
             h = row.get("highest")
             if not h or not h.get("slug"):
                 continue
-            if period and h.get("date", "")[:10] != snap_date:
+            # 只用事件日当天生成的预测（如 8/16 事件只取 8/16 当天的快照）
+            if h.get("date", "")[:10] != snap_date:
                 continue
             temp = None
             for fc in h.get("forecasts", []):
@@ -194,30 +195,35 @@ def load_history(period=None, model="meteo", peak_off_map=None):
                     break
             if temp is None:
                 continue
-            out[(h["slug"], snap_date)] = {"city": row["city"], "date": row["date"], "temp": temp,
-                                           "date_display": row.get("date_display", ""),
-                                           "time": snapshot_time(f),
-                                           "hour": hour, "noon_bj": h.get("noon_bj")}
+            out.setdefault((h["slug"], snap_date), []).append(
+                {"city": row["city"], "date": h["date"], "temp": temp,
+                 "date_display": row.get("date_display", ""),
+                 "time": snapshot_time(f),
+                 "hour": hour, "noon_bj": h.get("noon_bj")})
     res = {}
-    for (slug, snap_date), v in out.items():
-        pk = None
-        if peak_off_map:
-            po = peak_off_map.get(slug)
-            if isinstance(po, (int, float)):
-                pk = peak_abs(v["date"], v.get("noon_bj"), float(po))
-            elif isinstance(po, dict):
-                if po.get("peak_bj"):
-                    try:
-                        pk = datetime.strptime(po["peak_bj"], "%Y-%m-%d %H:%M")
-                    except Exception:
-                        pk = None
-                elif po.get("peak_off_h") is not None:
-                    pk = peak_abs(v["date"], v.get("noon_bj"), float(po["peak_off_h"]))
-        if pk is None:
-            pk = peak_abs(v["date"], v.get("noon_bj"), 3.0)
-        if pk is not None and (v.get("hour") is None or snap_abs(snap_date, v["hour"]) >= pk - timedelta(hours=1)):
-            continue
-        res[(slug, snap_date)] = v
+    for (slug, snap_date), lst in out.items():
+        valid = []
+        for v in lst:
+            pk = None
+            if peak_off_map:
+                po = peak_off_map.get(slug)
+                if isinstance(po, (int, float)):
+                    pk = peak_abs(v["date"], v.get("noon_bj"), float(po))
+                elif isinstance(po, dict):
+                    if po.get("peak_bj"):
+                        try:
+                            pk = datetime.strptime(po["peak_bj"], "%Y-%m-%d %H:%M")
+                        except Exception:
+                            pk = None
+                    elif po.get("peak_off_h") is not None:
+                        pk = peak_abs(v["date"], v.get("noon_bj"), float(po["peak_off_h"]))
+            if pk is None:
+                pk = peak_abs(v["date"], v.get("noon_bj"), 3.0)
+            if pk is not None and (v.get("hour") is None or snap_abs(snap_date, v["hour"]) >= pk - timedelta(hours=1)):
+                continue
+            valid.append(v)
+        if valid:
+            res[(slug, snap_date)] = max(valid, key=lambda v: v.get("hour") or -1)
     return res
 
 def get_actual_temp(slug, event):
