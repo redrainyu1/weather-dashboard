@@ -55,6 +55,22 @@ def snap_abs(snap_date_str, hour):
     except Exception:
         return None
 
+def tz_of(noon_bj):
+    """noon_bj -> 当地时区偏移（当地-UTC 小时）"""
+    if noon_bj is None:
+        return None
+    t = (20 - noon_bj) % 24
+    if t > 12:
+        t -= 24
+    return t
+
+def bj_to_local(bj_dt, noon_bj):
+    """北京绝对时刻 -> 当地时刻"""
+    tz = tz_of(noon_bj)
+    if tz is None:
+        return None
+    return bj_dt + timedelta(hours=tz - 8)
+
 def noon_abs(date_str, noon_bj):
     """事件当地正午12点对应的北京绝对时刻（datetetime）"""
     if noon_bj is None:
@@ -192,9 +208,8 @@ def load_history(period=None, model="meteo", peak_off_map=None):
             if nb is not None:
                 tstr = snapshot_time(f)
                 mm = int(tstr[3:5]) if len(tstr) >= 5 else 0
-                local = (datetime.strptime(snap_date, "%Y-%m-%d") + timedelta(hours=hour, minutes=mm)
-                         + timedelta(hours=12 - nb))
-                if local.strftime("%Y-%m-%d") != h.get("date", "")[:10]:
+                local = bj_to_local(datetime.strptime(snap_date, "%Y-%m-%d") + timedelta(hours=hour, minutes=mm), nb)
+                if local is None or local.strftime("%Y-%m-%d") != h.get("date", "")[:10]:
                     continue
                 local_date = local.strftime("%Y-%m-%d")
                 local_hhmm = local.strftime("%H:%M")
@@ -213,32 +228,35 @@ def load_history(period=None, model="meteo", peak_off_map=None):
             out.setdefault((h["slug"], local_date), []).append(
                 {"city": row["city"], "date": h["date"], "temp": temp,
                  "date_display": row.get("date_display", ""),
-                 "time": snapshot_time(f), "local_date": local_date, "local_hhmm": local_hhmm,
+                 "time": snapshot_time(f), "snap_bj": snap_date,
+                 "local_date": local_date, "local_hhmm": local_hhmm,
                  "hour": hour, "noon_bj": h.get("noon_bj")})
     res = {}
-    for (slug, snap_date), lst in out.items():
-        valid = []
-        for v in lst:
-            pk = None
-            if peak_off_map:
-                po = peak_off_map.get(slug)
-                if isinstance(po, (int, float)):
-                    pk = peak_abs(v["date"], v.get("noon_bj"), float(po))
-                elif isinstance(po, dict):
-                    if po.get("peak_bj"):
-                        try:
-                            pk = datetime.strptime(po["peak_bj"], "%Y-%m-%d %H:%M")
-                        except Exception:
-                            pk = None
-                    elif po.get("peak_off_h") is not None:
-                        pk = peak_abs(v["date"], v.get("noon_bj"), float(po["peak_off_h"]))
-            if pk is None:
-                pk = peak_abs(v["date"], v.get("noon_bj"), 3.0)
-            if pk is not None and (v.get("hour") is None or snap_abs(snap_date, v["hour"]) >= pk - timedelta(hours=1)):
-                continue
-            valid.append(v)
-        if valid:
-            res[(slug, snap_date)] = max(valid, key=lambda v: v.get("hour") or -1)
+    for (slug, local_date), lst in out.items():
+        pk = None
+        if peak_off_map:
+            po = peak_off_map.get(slug)
+            if isinstance(po, (int, float)):
+                pk = peak_abs(lst[0]["date"], lst[0].get("noon_bj"), float(po))
+            elif isinstance(po, dict):
+                if po.get("peak_bj"):
+                    try:
+                        pk = datetime.strptime(po["peak_bj"], "%Y-%m-%d %H:%M")
+                    except Exception:
+                        pk = None
+                elif po.get("peak_off_h") is not None:
+                    pk = peak_abs(lst[0]["date"], lst[0].get("noon_bj"), float(po["peak_off_h"]))
+        if pk is None:
+            pk = peak_abs(lst[0]["date"], lst[0].get("noon_bj"), 3.0)
+        # 取事件日当天、预测生成时刻早于峰值且最接近峰的那一条
+        def bj_abs(v):
+            return (datetime.strptime(v["snap_bj"], "%Y-%m-%d") + timedelta(hours=v["hour"],
+                    minutes=int(v["time"][3:5]) if len(v.get("time", "")) >= 5 else 0))
+        valid = [v for v in lst if pk is None or bj_abs(v) < pk]
+        if not valid:
+            continue
+        best = min(valid, key=lambda v: abs((bj_abs(v) - pk).total_seconds()) if pk else 0)
+        res[(slug, local_date)] = best
     return res
 
 def get_actual_temp(slug, event):
