@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-17T02:23:28.734242",
+  "updated_at": "2026-08-17T02:20:37.815037",
   "count": 151,
   "rows": [
     {
@@ -624,8 +624,8 @@
             "temp": "29°C",
             "temp_value": 29.0,
             "temp_type": "exact",
-            "yes_price": 0.02,
-            "yes_pct": 2.0
+            "yes_price": 0.025,
+            "yes_pct": 2.5
           },
           {
             "slug": "highest-temperature-in-ankara-on-august-17-2026-30c",
@@ -657,7 +657,7 @@
           {
             "model": "GFS",
             "temp": 29,
-            "pct": 2.0,
+            "pct": 2.5,
             "url": null,
             "max_hour_bj": 21,
             "min_hour_bj": 11,
@@ -1214,8 +1214,8 @@
             "temp": "88-89°F",
             "temp_value": 88.0,
             "temp_type": "exact",
-            "yes_price": 0.09,
-            "yes_pct": 9.0
+            "yes_price": 0.035,
+            "yes_pct": 3.5
           },
           {
             "slug": "highest-temperature-in-atlanta-on-august-18-2026-90-91f",
@@ -1230,8 +1230,8 @@
             "temp": "92-93°F",
             "temp_value": 92.0,
             "temp_type": "exact",
-            "yes_price": 0.36,
-            "yes_pct": 36.0
+            "yes_price": 0.365,
+            "yes_pct": 36.5
           },
           {
             "slug": "highest-temperature-in-atlanta-on-august-18-2026-94-95f",
@@ -1270,7 +1270,7 @@
             "temp": "102-103°F",
             "temp_value": 102.0,
             "temp_type": "exact",
-            "yes_price": 0.0055,
+            "yes_price": 0.005,
             "yes_pct": 0.5
           },
           {
@@ -1278,7 +1278,7 @@
             "temp": "104-105°F",
             "temp_value": 104.0,
             "temp_type": "exact",
-            "yes_price": 0.0055,
+            "yes_price": 0.005,
             "yes_pct": 0.5
           },
           {
@@ -1286,8 +1286,8 @@
             "temp": "106°F",
             "temp_value": 106.0,
             "temp_type": "above",
-            "yes_price": 0.0035,
-            "yes_pct": 0.4
+            "yes_price": 0.003,
+            "yes_pct": 0.3
           }
         ],
         "noon_bj": 0,
@@ -1305,7 +1305,7 @@
           {
             "model": "GEM",
             "temp": 89,
-            "pct": 9.0,
+            "pct": 3.5,
             "url": null,
             "max_hour_bj": 5,
             "min_hour_bj": 19,
@@ -1325,7 +1325,7 @@
           {
             "model": "METEO",
             "temp": 93,
-            "pct": 36.0,
+            "pct": 36.5,
             "url": "https://www.meteoblue.com/en/weather/week/hartsfield-jackson-atlanta-international-airport_united-states_4199556",
             "max_hour_bj": null,
             "min_hour_bj": null,
@@ -1335,7 +1335,7 @@
           {
             "model": "RP5",
             "temp": 93,
-            "pct": 36.0,
+            "pct": 36.5,
             "url": "https://rp5.ru/Weather_in_Hartsfield%E2%80%93Jackson_Atlanta_(airport)",
             "max_hour_bj": null,
             "min_hour_bj": null,
@@ -1344,7 +1344,7 @@
           }
         ],
         "predicted_temp": "92-93°F",
-        "predicted_prob": 36.0
+        "predicted_prob": 36.5
       },
       "lowest": null
     },
@@ -1995,16 +1995,16 @@
             "temp": "32°C",
             "temp_value": 32.0,
             "temp_type": "exact",
-            "yes_price": 0.36,
-            "yes_pct": 36.0
+            "yes_price": 0.385,
+            "yes_pct": 38.5
           },
           {
             "slug": "highest-temperature-in-beijing-on-august-17-2026-33c",
             "temp": "33°C",
             "temp_value": 33.0,
             "temp_type": "exact",
-            "yes_price": 0.455,
-            "yes_pct": 45.5
+            "yes_price": 0.445,
+            "yes_pct": 44.5
           },
           {
             "slug": "highest-temperature-in-beijing-on-august-17-2026-34c",
@@ -2027,8 +2027,8 @@
             "temp": "36°C",
             "temp_value": 36.0,
             "temp_type": "exact",
-            "yes_price": 0.0025,
-            "yes_pct": 0.2
+            "yes_price": 0.003,
+            "yes_pct": 0.3
           },
           {
             "slug": "highest-temperature-in-beijing-on-august-17-2026-37corhigher",
@@ -2044,7 +2044,7 @@
           {
             "model": "GFS",
             "temp": 32,
-            "pct": 36.0,
+            "pct": 38.5,
             "url": null,
             "max_hour_bj": 13,
             "min_hour_bj": 5,
@@ -2054,7 +2054,7 @@
           {
             "model": "GEM",
             "temp": 32,
-            "pct": 36.0,
+            "pct": 38.5,
             "url": null,
             "max_hour_bj": 16,
             "min_hour_bj": 5,
@@ -2074,7 +2074,7 @@
           {
             "model": "METEO",
             "temp": 32,
-            "pct": 36.0,
+            "pct": 38.5,
             "url": "https://www.meteoblue.com/en/weather/week/beijing-capital-international-airport_china_6301354",
             "max_hour_bj": null,
             "min_hour_bj": null,
@@ -2084,7 +2084,7 @@
           {
             "model": "RP5",
             "temp": 32,
-            "pct": 36.0,
+            "pct": 38.5,
             "url": "https://rp5.ru/Weather_in_Beijing,_Peking_(airport)",
             "max_hour_bj": null,
             "min_hour_bj": null,
@@ -2093,7 +2093,7 @@
           }
         ],
         "predicted_temp": "33°C",
-        "predicted_prob": 45.5
+        "predicted_prob": 44.5
       },
       "lowest": null
     },
@@ -2890,24 +2890,24 @@
             "temp": "24°C",
             "temp_value": 24.0,
             "temp_type": "exact",
-            "yes_price": 0.0635,
-            "yes_pct": 6.3
+            "yes_price": 0.0565,
+            "yes_pct": 5.7
           },
           {
             "slug": "highest-temperature-in-busan-on-august-17-2026-25c",
             "temp": "25°C",
             "temp_value": 25.0,
             "temp_type": "exact",
-            "yes_price": 0.235,
-            "yes_pct": 23.5
+            "yes_price": 0.244,
+            "yes_pct": 24.4
           },
           {
             "slug": "highest-temperature-in-busan-on-august-17-2026-26c",
             "temp": "26°C",
             "temp_value": 26.0,
             "temp_type": "exact",
-            "yes_price": 0.3735,
-            "yes_pct": 37.4
+            "yes_price": 0.401,
+            "yes_pct": 40.1
           },
           {
             "slug": "highest-temperature-in-busan-on-august-17-2026-27c",
@@ -2922,8 +2922,8 @@
             "temp": "28°C",
             "temp_value": 28.0,
             "temp_type": "exact",
-            "yes_price": 0.075,
-            "yes_pct": 7.5
+            "yes_price": 0.09,
+            "yes_pct": 9.0
           },
           {
             "slug": "highest-temperature-in-busan-on-august-17-2026-29c",
@@ -2946,8 +2946,8 @@
             "temp": "31°C",
             "temp_value": 31.0,
             "temp_type": "above",
-            "yes_price": 0.003,
-            "yes_pct": 0.3
+            "yes_price": 0.0035,
+            "yes_pct": 0.4
           }
         ],
         "noon_bj": 11,
@@ -2955,7 +2955,7 @@
           {
             "model": "GFS",
             "temp": 25,
-            "pct": 23.5,
+            "pct": 24.4,
             "url": null,
             "max_hour_bj": 21,
             "min_hour_bj": 2,
@@ -2965,7 +2965,7 @@
           {
             "model": "GEM",
             "temp": 26,
-            "pct": 37.4,
+            "pct": 40.1,
             "url": null,
             "max_hour_bj": 13,
             "min_hour_bj": 3,
@@ -2995,7 +2995,7 @@
           {
             "model": "RP5",
             "temp": 28,
-            "pct": 7.5,
+            "pct": 9.0,
             "url": "https://rp5.ru/Weather_in_Busan_(airport)",
             "max_hour_bj": null,
             "min_hour_bj": null,
@@ -3004,7 +3004,7 @@
           }
         ],
         "predicted_temp": "26°C",
-        "predicted_prob": 37.4
+        "predicted_prob": 40.1
       },
       "lowest": null
     },
@@ -3317,8 +3317,8 @@
             "temp": "16°C",
             "temp_value": 16.0,
             "temp_type": "exact",
-            "yes_price": 0.029,
-            "yes_pct": 2.9
+            "yes_price": 0.0275,
+            "yes_pct": 2.8
           },
           {
             "slug": "highest-temperature-in-cape-town-on-august-17-2026-17c",
@@ -3349,8 +3349,8 @@
             "temp": "20°C",
             "temp_value": 20.0,
             "temp_type": "exact",
-            "yes_price": 0.115,
-            "yes_pct": 11.5
+            "yes_price": 0.105,
+            "yes_pct": 10.5
           },
           {
             "slug": "highest-temperature-in-cape-town-on-august-17-2026-21c",
@@ -3400,7 +3400,7 @@
           {
             "model": "GEM",
             "temp": 16,
-            "pct": 2.9,
+            "pct": 2.8,
             "url": null,
             "max_hour_bj": 19,
             "min_hour_bj": 7,
@@ -3463,24 +3463,24 @@
             "temp": "13°C",
             "temp_value": 13.0,
             "temp_type": "below",
-            "yes_price": 0.003,
-            "yes_pct": 0.3
+            "yes_price": 0.0025,
+            "yes_pct": 0.2
           },
           {
             "slug": "highest-temperature-in-cape-town-on-august-18-2026-14c",
             "temp": "14°C",
             "temp_value": 14.0,
             "temp_type": "exact",
-            "yes_price": 0.004,
-            "yes_pct": 0.4
+            "yes_price": 0.003,
+            "yes_pct": 0.3
           },
           {
             "slug": "highest-temperature-in-cape-town-on-august-18-2026-15c",
             "temp": "15°C",
             "temp_value": 15.0,
             "temp_type": "exact",
-            "yes_price": 0.009,
-            "yes_pct": 0.9
+            "yes_price": 0.0075,
+            "yes_pct": 0.8
           },
           {
             "slug": "highest-temperature-in-cape-town-on-august-18-2026-16c",
@@ -3495,16 +3495,16 @@
             "temp": "17°C",
             "temp_value": 17.0,
             "temp_type": "exact",
-            "yes_price": 0.08,
-            "yes_pct": 8.0
+            "yes_price": 0.085,
+            "yes_pct": 8.5
           },
           {
             "slug": "highest-temperature-in-cape-town-on-august-18-2026-18c",
             "temp": "18°C",
             "temp_value": 18.0,
             "temp_type": "exact",
-            "yes_price": 0.495,
-            "yes_pct": 49.5
+            "yes_price": 0.5,
+            "yes_pct": 50.0
           },
           {
             "slug": "highest-temperature-in-cape-town-on-august-18-2026-19c",
@@ -3535,8 +3535,8 @@
             "temp": "22°C",
             "temp_value": 22.0,
             "temp_type": "exact",
-            "yes_price": 0.003,
-            "yes_pct": 0.3
+            "yes_price": 0.0045,
+            "yes_pct": 0.4
           },
           {
             "slug": "highest-temperature-in-cape-town-on-august-18-2026-23corhigher",
@@ -3552,7 +3552,7 @@
           {
             "model": "GFS",
             "temp": 18,
-            "pct": 49.5,
+            "pct": 50.0,
             "url": null,
             "max_hour_bj": 21,
             "min_hour_bj": 13,
@@ -3562,7 +3562,7 @@
           {
             "model": "GEM",
             "temp": 17,
-            "pct": 8.0,
+            "pct": 8.5,
             "url": null,
             "max_hour_bj": 20,
             "min_hour_bj": 13,
@@ -3572,7 +3572,7 @@
           {
             "model": "ICON",
             "temp": 18,
-            "pct": 49.5,
+            "pct": 50.0,
             "url": null,
             "max_hour_bj": 19,
             "min_hour_bj": 14,
@@ -3582,7 +3582,7 @@
           {
             "model": "METEO",
             "temp": 18,
-            "pct": 49.5,
+            "pct": 50.0,
             "url": "https://www.meteoblue.com/en/weather/week/cape-town-international-airport_south-africa_3368972",
             "max_hour_bj": null,
             "min_hour_bj": null,
@@ -3592,7 +3592,7 @@
           {
             "model": "RP5",
             "temp": 17,
-            "pct": 8.0,
+            "pct": 8.5,
             "url": "https://rp5.ru/Weather_in_Cape_Town_(airport)",
             "max_hour_bj": null,
             "min_hour_bj": null,
@@ -3601,7 +3601,7 @@
           }
         ],
         "predicted_temp": "18°C",
-        "predicted_prob": 49.5
+        "predicted_prob": 50.0
       },
       "lowest": null
     },
@@ -3922,8 +3922,8 @@
             "temp": "23°C",
             "temp_value": 23.0,
             "temp_type": "exact",
-            "yes_price": 0.275,
-            "yes_pct": 27.5
+            "yes_price": 0.27,
+            "yes_pct": 27.0
           },
           {
             "slug": "highest-temperature-in-chengdu-on-august-18-2026-24c",
@@ -3938,8 +3938,8 @@
             "temp": "25°C",
             "temp_value": 25.0,
             "temp_type": "exact",
-            "yes_price": 0.17,
-            "yes_pct": 17.0
+            "yes_price": 0.175,
+            "yes_pct": 17.5
           },
           {
             "slug": "highest-temperature-in-chengdu-on-august-18-2026-26c",
@@ -3954,8 +3954,8 @@
             "temp": "27°C",
             "temp_value": 27.0,
             "temp_type": "exact",
-            "yes_price": 0.035,
-            "yes_pct": 3.5
+            "yes_price": 0.03,
+            "yes_pct": 3.0
           },
           {
             "slug": "highest-temperature-in-chengdu-on-august-18-2026-28c",
@@ -4007,7 +4007,7 @@
           {
             "model": "ICON",
             "temp": 23,
-            "pct": 27.5,
+            "pct": 27.0,
             "url": null,
             "max_hour_bj": 16,
             "min_hour_bj": 7,
@@ -4027,7 +4027,7 @@
           {
             "model": "RP5",
             "temp": 23,
-            "pct": 27.5,
+            "pct": 27.0,
             "url": "https://rp5.ru/Weather_in_Chengdu_(airport)",
             "max_hour_bj": null,
             "min_hour_bj": null,
@@ -4655,16 +4655,16 @@
             "temp": "34°C",
             "temp_value": 34.0,
             "temp_type": "exact",
-            "yes_price": 0.025,
-            "yes_pct": 2.5
+            "yes_price": 0.03,
+            "yes_pct": 3.0
           },
           {
             "slug": "highest-temperature-in-chongqing-on-august-17-2026-35c",
             "temp": "35°C",
             "temp_value": 35.0,
             "temp_type": "exact",
-            "yes_price": 0.145,
-            "yes_pct": 14.5
+            "yes_price": 0.135,
+            "yes_pct": 13.5
           },
           {
             "slug": "highest-temperature-in-chongqing-on-august-17-2026-36c",
@@ -4679,8 +4679,8 @@
             "temp": "37°C",
             "temp_value": 37.0,
             "temp_type": "exact",
-            "yes_price": 0.42,
-            "yes_pct": 42.0
+            "yes_price": 0.43,
+            "yes_pct": 43.0
           },
           {
             "slug": "highest-temperature-in-chongqing-on-august-17-2026-38c",
@@ -4736,7 +4736,7 @@
           {
             "model": "GFS",
             "temp": 34,
-            "pct": 2.5,
+            "pct": 3.0,
             "url": null,
             "max_hour_bj": 13,
             "min_hour_bj": 6,
@@ -4746,7 +4746,7 @@
           {
             "model": "GEM",
             "temp": 37,
-            "pct": 42.0,
+            "pct": 43.0,
             "url": null,
             "max_hour_bj": 14,
             "min_hour_bj": 6,
@@ -4756,7 +4756,7 @@
           {
             "model": "ICON",
             "temp": 37,
-            "pct": 42.0,
+            "pct": 43.0,
             "url": null,
             "max_hour_bj": 16,
             "min_hour_bj": 6,
@@ -4766,7 +4766,7 @@
           {
             "model": "METEO",
             "temp": 34,
-            "pct": 2.5,
+            "pct": 3.0,
             "url": "https://www.meteoblue.com/en/weather/week/chongqing-jiangbei-international-airport_china_6301390",
             "max_hour_bj": null,
             "min_hour_bj": null,
@@ -4785,7 +4785,7 @@
           }
         ],
         "predicted_temp": "37°C",
-        "predicted_prob": 42.0
+        "predicted_prob": 43.0
       },
       "lowest": null
     },
@@ -5309,8 +5309,8 @@
             "temp": "102-103°F",
             "temp_value": 102.0,
             "temp_type": "exact",
-            "yes_price": 0.24,
-            "yes_pct": 24.0
+            "yes_price": 0.25,
+            "yes_pct": 25.0
           },
           {
             "slug": "highest-temperature-in-dallas-on-august-18-2026-104-105f",
@@ -5325,8 +5325,8 @@
             "temp": "106-107°F",
             "temp_value": 106.0,
             "temp_type": "exact",
-            "yes_price": 0.24,
-            "yes_pct": 24.0
+            "yes_price": 0.25,
+            "yes_pct": 25.0
           },
           {
             "slug": "highest-temperature-in-dallas-on-august-18-2026-108-109f",
@@ -5341,16 +5341,16 @@
             "temp": "110-111°F",
             "temp_value": 110.0,
             "temp_type": "exact",
-            "yes_price": 0.095,
-            "yes_pct": 9.5
+            "yes_price": 0.1,
+            "yes_pct": 10.0
           },
           {
             "slug": "highest-temperature-in-dallas-on-august-18-2026-112-113f",
             "temp": "112-113°F",
             "temp_value": 112.0,
             "temp_type": "exact",
-            "yes_price": 0.025,
-            "yes_pct": 2.5
+            "yes_price": 0.035,
+            "yes_pct": 3.5
           },
           {
             "slug": "highest-temperature-in-dallas-on-august-18-2026-114-115f",
@@ -5365,8 +5365,8 @@
             "temp": "116°F",
             "temp_value": 116.0,
             "temp_type": "above",
-            "yes_price": 0.02,
-            "yes_pct": 2.0
+            "yes_price": 0.025,
+            "yes_pct": 2.5
           }
         ],
         "noon_bj": 1,
@@ -5374,7 +5374,7 @@
           {
             "model": "GFS",
             "temp": 107,
-            "pct": 24.0,
+            "pct": 25.0,
             "url": null,
             "max_hour_bj": 7,
             "min_hour_bj": 20,
@@ -5394,7 +5394,7 @@
           {
             "model": "ICON",
             "temp": 107,
-            "pct": 24.0,
+            "pct": 25.0,
             "url": null,
             "max_hour_bj": 5,
             "min_hour_bj": 20,
@@ -5404,7 +5404,7 @@
           {
             "model": "METEO",
             "temp": 102,
-            "pct": 24.0,
+            "pct": 25.0,
             "url": "https://www.meteoblue.com/en/weather/week/dallas-love-field_united-states_4684922",
             "max_hour_bj": null,
             "min_hour_bj": null,
@@ -5414,7 +5414,7 @@
           {
             "model": "RP5",
             "temp": 106,
-            "pct": 24.0,
+            "pct": 25.0,
             "url": "https://rp5.ru/Weather_in_Dallas,_Love_Field_(airport)",
             "max_hour_bj": null,
             "min_hour_bj": null,
@@ -5665,8 +5665,8 @@
             "temp": "92-93°F",
             "temp_value": 92.0,
             "temp_type": "exact",
-            "yes_price": 0.185,
-            "yes_pct": 18.5
+            "yes_price": 0.18,
+            "yes_pct": 18.0
           },
           {
             "slug": "highest-temperature-in-denver-on-august-17-2026-94-95f",
@@ -5811,32 +5811,32 @@
             "temp": "86-87°F",
             "temp_value": 86.0,
             "temp_type": "exact",
-            "yes_price": 0.115,
-            "yes_pct": 11.5
+            "yes_price": 0.14,
+            "yes_pct": 14.0
           },
           {
             "slug": "highest-temperature-in-denver-on-august-18-2026-88-89f",
             "temp": "88-89°F",
             "temp_value": 88.0,
             "temp_type": "exact",
-            "yes_price": 0.215,
-            "yes_pct": 21.5
+            "yes_price": 0.265,
+            "yes_pct": 26.5
           },
           {
             "slug": "highest-temperature-in-denver-on-august-18-2026-90-91f",
             "temp": "90-91°F",
             "temp_value": 90.0,
             "temp_type": "exact",
-            "yes_price": 0.33,
-            "yes_pct": 33.0
+            "yes_price": 0.375,
+            "yes_pct": 37.5
           },
           {
             "slug": "highest-temperature-in-denver-on-august-18-2026-92-93f",
             "temp": "92-93°F",
             "temp_value": 92.0,
             "temp_type": "exact",
-            "yes_price": 0.22,
-            "yes_pct": 22.0
+            "yes_price": 0.265,
+            "yes_pct": 26.5
           },
           {
             "slug": "highest-temperature-in-denver-on-august-18-2026-94-95f",
@@ -5860,7 +5860,7 @@
           {
             "model": "GFS",
             "temp": 93,
-            "pct": 22.0,
+            "pct": 26.5,
             "url": null,
             "max_hour_bj": 4,
             "min_hour_bj": 20,
@@ -5870,7 +5870,7 @@
           {
             "model": "GEM",
             "temp": 91,
-            "pct": 33.0,
+            "pct": 37.5,
             "url": null,
             "max_hour_bj": 6,
             "min_hour_bj": 20,
@@ -5890,7 +5890,7 @@
           {
             "model": "METEO",
             "temp": 90,
-            "pct": 33.0,
+            "pct": 37.5,
             "url": "https://www.meteoblue.com/en/weather/week/denver-international-airport_united-states_5419401",
             "max_hour_bj": null,
             "min_hour_bj": null,
@@ -5900,7 +5900,7 @@
           {
             "model": "RP5",
             "temp": 93,
-            "pct": 22.0,
+            "pct": 26.5,
             "url": "https://rp5.ru/Weather_in_Denver_(airport),_Colorado",
             "max_hour_bj": null,
             "min_hour_bj": null,
@@ -5909,7 +5909,7 @@
           }
         ],
         "predicted_temp": "90-91°F",
-        "predicted_prob": 33.0
+        "predicted_prob": 37.5
       },
       "lowest": null
     },
@@ -6535,8 +6535,8 @@
             "temp": "22°C",
             "temp_value": 22.0,
             "temp_type": "exact",
-            "yes_price": 0.1,
-            "yes_pct": 10.0
+            "yes_price": 0.09,
+            "yes_pct": 9.0
           },
           {
             "slug": "highest-temperature-in-helsinki-on-august-17-2026-23c",
@@ -6649,8 +6649,8 @@
             "temp": "16°C",
             "temp_value": 16.0,
             "temp_type": "exact",
-            "yes_price": 0.003,
-            "yes_pct": 0.3
+            "yes_price": 0.0035,
+            "yes_pct": 0.4
           },
           {
             "slug": "highest-temperature-in-helsinki-on-august-18-2026-17c",
@@ -6665,16 +6665,16 @@
             "temp": "18°C",
             "temp_value": 18.0,
             "temp_type": "exact",
-            "yes_price": 0.025,
-            "yes_pct": 2.5
+            "yes_price": 0.02,
+            "yes_pct": 2.0
           },
           {
             "slug": "highest-temperature-in-helsinki-on-august-18-2026-19c",
             "temp": "19°C",
             "temp_value": 19.0,
             "temp_type": "exact",
-            "yes_price": 0.155,
-            "yes_pct": 15.5
+            "yes_price": 0.185,
+            "yes_pct": 18.5
           },
           {
             "slug": "highest-temperature-in-helsinki-on-august-18-2026-20c",
@@ -6689,8 +6689,8 @@
             "temp": "21°C",
             "temp_value": 21.0,
             "temp_type": "exact",
-            "yes_price": 0.295,
-            "yes_pct": 29.5
+            "yes_price": 0.285,
+            "yes_pct": 28.5
           },
           {
             "slug": "highest-temperature-in-helsinki-on-august-18-2026-22c",
@@ -6740,7 +6740,7 @@
           {
             "model": "GEM",
             "temp": 18,
-            "pct": 2.5,
+            "pct": 2.0,
             "url": null,
             "max_hour_bj": 18,
             "min_hour_bj": 11,
@@ -6750,7 +6750,7 @@
           {
             "model": "ICON",
             "temp": 19,
-            "pct": 15.5,
+            "pct": 18.5,
             "url": null,
             "max_hour_bj": 18,
             "min_hour_bj": 11,
@@ -6760,7 +6760,7 @@
           {
             "model": "METEO",
             "temp": 18,
-            "pct": 2.5,
+            "pct": 2.0,
             "url": "https://www.meteoblue.com/en/weather/week/helsinki-airport_finland_6301511",
             "max_hour_bj": null,
             "min_hour_bj": null,
@@ -7808,7 +7808,7 @@
             "temp": "92-93°F",
             "temp_value": 92.0,
             "temp_type": "exact",
-            "yes_price": 0.014,
+            "yes_price": 0.0135,
             "yes_pct": 1.4
           },
           {
@@ -7816,24 +7816,24 @@
             "temp": "94-95°F",
             "temp_value": 94.0,
             "temp_type": "exact",
-            "yes_price": 0.23,
-            "yes_pct": 23.0
+            "yes_price": 0.215,
+            "yes_pct": 21.5
           },
           {
             "slug": "highest-temperature-in-houston-on-august-17-2026-96-97f",
             "temp": "96-97°F",
             "temp_value": 96.0,
             "temp_type": "exact",
-            "yes_price": 0.505,
-            "yes_pct": 50.5
+            "yes_price": 0.555,
+            "yes_pct": 55.5
           },
           {
             "slug": "highest-temperature-in-houston-on-august-17-2026-98-99f",
             "temp": "98-99°F",
             "temp_value": 98.0,
             "temp_type": "exact",
-            "yes_price": 0.23,
-            "yes_pct": 23.0
+            "yes_price": 0.22,
+            "yes_pct": 22.0
           },
           {
             "slug": "highest-temperature-in-houston-on-august-17-2026-100-101f",
@@ -7881,7 +7881,7 @@
           {
             "model": "GFS",
             "temp": 95,
-            "pct": 23.0,
+            "pct": 21.5,
             "url": null,
             "max_hour_bj": 6,
             "min_hour_bj": 20,
@@ -7891,7 +7891,7 @@
           {
             "model": "GEM",
             "temp": 99,
-            "pct": 23.0,
+            "pct": 22.0,
             "url": null,
             "max_hour_bj": 5,
             "min_hour_bj": 20,
@@ -7901,7 +7901,7 @@
           {
             "model": "ICON",
             "temp": 98,
-            "pct": 23.0,
+            "pct": 22.0,
             "url": null,
             "max_hour_bj": 6,
             "min_hour_bj": 19,
@@ -7911,7 +7911,7 @@
           {
             "model": "METEO",
             "temp": 97,
-            "pct": 50.5,
+            "pct": 55.5,
             "url": "https://www.meteoblue.com/en/weather/week/houston-hobby_united-states_4741989",
             "max_hour_bj": null,
             "min_hour_bj": null,
@@ -7921,7 +7921,7 @@
           {
             "model": "RP5",
             "temp": 95,
-            "pct": 23.0,
+            "pct": 21.5,
             "url": "https://rp5.ru/Weather_in_Houston,_William_P._Hobby_(airport)",
             "max_hour_bj": null,
             "min_hour_bj": null,
@@ -7930,7 +7930,7 @@
           }
         ],
         "predicted_temp": "96-97°F",
-        "predicted_prob": 50.5
+        "predicted_prob": 55.5
       },
       "lowest": null
     },
@@ -7970,8 +7970,8 @@
             "temp": "92-93°F",
             "temp_value": 92.0,
             "temp_type": "exact",
-            "yes_price": 0.095,
-            "yes_pct": 9.5
+            "yes_price": 0.03,
+            "yes_pct": 3.0
           },
           {
             "slug": "highest-temperature-in-houston-on-august-18-2026-94-95f",
@@ -7986,16 +7986,16 @@
             "temp": "96-97°F",
             "temp_value": 96.0,
             "temp_type": "exact",
-            "yes_price": 0.485,
-            "yes_pct": 48.5
+            "yes_price": 0.46,
+            "yes_pct": 46.0
           },
           {
             "slug": "highest-temperature-in-houston-on-august-18-2026-98-99f",
             "temp": "98-99°F",
             "temp_value": 98.0,
             "temp_type": "exact",
-            "yes_price": 0.28,
-            "yes_pct": 28.0
+            "yes_price": 0.285,
+            "yes_pct": 28.5
           },
           {
             "slug": "highest-temperature-in-houston-on-august-18-2026-100-101f",
@@ -8018,8 +8018,8 @@
             "temp": "104-105°F",
             "temp_value": 104.0,
             "temp_type": "exact",
-            "yes_price": 0.036,
-            "yes_pct": 3.6
+            "yes_price": 0.0355,
+            "yes_pct": 3.5
           },
           {
             "slug": "highest-temperature-in-houston-on-august-18-2026-106-107f",
@@ -8043,7 +8043,7 @@
           {
             "model": "GFS",
             "temp": 98,
-            "pct": 28.0,
+            "pct": 28.5,
             "url": null,
             "max_hour_bj": 6,
             "min_hour_bj": 20,
@@ -8063,7 +8063,7 @@
           {
             "model": "ICON",
             "temp": 98,
-            "pct": 28.0,
+            "pct": 28.5,
             "url": null,
             "max_hour_bj": 7,
             "min_hour_bj": 19,
@@ -8073,7 +8073,7 @@
           {
             "model": "METEO",
             "temp": 97,
-            "pct": 48.5,
+            "pct": 46.0,
             "url": "https://www.meteoblue.com/en/weather/week/houston-hobby_united-states_4741989",
             "max_hour_bj": null,
             "min_hour_bj": null,
@@ -8083,7 +8083,7 @@
           {
             "model": "RP5",
             "temp": 97,
-            "pct": 48.5,
+            "pct": 46.0,
             "url": "https://rp5.ru/Weather_in_Houston,_William_P._Hobby_(airport)",
             "max_hour_bj": null,
             "min_hour_bj": null,
@@ -8092,7 +8092,7 @@
           }
         ],
         "predicted_temp": "96-97°F",
-        "predicted_prob": 48.5
+        "predicted_prob": 46.0
       },
       "lowest": null
     },
@@ -9845,8 +9845,8 @@
             "temp": "33°C",
             "temp_value": 33.0,
             "temp_type": "exact",
-            "yes_price": 0.13,
-            "yes_pct": 13.0
+            "yes_price": 0.15,
+            "yes_pct": 15.0
           },
           {
             "slug": "highest-temperature-in-kuala-lumpur-on-august-17-2026-34c",
@@ -9861,8 +9861,8 @@
             "temp": "35°C",
             "temp_value": 35.0,
             "temp_type": "exact",
-            "yes_price": 0.33,
-            "yes_pct": 33.0
+            "yes_price": 0.325,
+            "yes_pct": 32.5
           },
           {
             "slug": "highest-temperature-in-kuala-lumpur-on-august-17-2026-36c",
@@ -9914,7 +9914,7 @@
           {
             "model": "ICON",
             "temp": 33,
-            "pct": 13.0,
+            "pct": 15.0,
             "url": null,
             "max_hour_bj": 16,
             "min_hour_bj": 7,
@@ -9924,7 +9924,7 @@
           {
             "model": "METEO",
             "temp": 33,
-            "pct": 13.0,
+            "pct": 15.0,
             "url": "https://www.meteoblue.com/en/weather/week/kuala-lumpur-international-airport_malaysia_6301255",
             "max_hour_bj": null,
             "min_hour_bj": null,
@@ -9934,7 +9934,7 @@
           {
             "model": "RP5",
             "temp": 33,
-            "pct": 13.0,
+            "pct": 15.0,
             "url": "https://rp5.ru/Weather_in_Kuala_Lumpur_(airport)",
             "max_hour_bj": null,
             "min_hour_bj": null,
@@ -10372,8 +10372,8 @@
             "temp": "24°C",
             "temp_value": 24.0,
             "temp_type": "exact",
-            "yes_price": 0.025,
-            "yes_pct": 2.5
+            "yes_price": 0.0195,
+            "yes_pct": 1.9
           },
           {
             "slug": "highest-temperature-in-london-on-august-17-2026-25c",
@@ -10685,8 +10685,8 @@
             "temp": "26°C",
             "temp_value": 26.0,
             "temp_type": "exact",
-            "yes_price": 0.225,
-            "yes_pct": 22.5
+            "yes_price": 0.22,
+            "yes_pct": 22.0
           },
           {
             "slug": "highest-temperature-in-london-on-august-18-2026-27c",
@@ -10742,7 +10742,7 @@
           {
             "model": "GFS",
             "temp": 26,
-            "pct": 22.5,
+            "pct": 22.0,
             "url": null,
             "max_hour_bj": 22,
             "min_hour_bj": 13,
@@ -10752,7 +10752,7 @@
           {
             "model": "GEM",
             "temp": 26,
-            "pct": 22.5,
+            "pct": 22.0,
             "url": null,
             "max_hour_bj": 21,
             "min_hour_bj": 13,
@@ -11603,16 +11603,16 @@
             "temp": "29°C",
             "temp_value": 29.0,
             "temp_type": "exact",
-            "yes_price": 0.23,
-            "yes_pct": 23.0
+            "yes_price": 0.235,
+            "yes_pct": 23.5
           },
           {
             "slug": "highest-temperature-in-lucknow-on-august-17-2026-30c",
             "temp": "30°C",
             "temp_value": 30.0,
             "temp_type": "exact",
-            "yes_price": 0.17,
-            "yes_pct": 17.0
+            "yes_price": 0.165,
+            "yes_pct": 16.5
           },
           {
             "slug": "highest-temperature-in-lucknow-on-august-17-2026-31c",
@@ -11627,16 +11627,16 @@
             "temp": "32°C",
             "temp_value": 32.0,
             "temp_type": "exact",
-            "yes_price": 0.04,
-            "yes_pct": 4.0
+            "yes_price": 0.045,
+            "yes_pct": 4.5
           },
           {
             "slug": "highest-temperature-in-lucknow-on-august-17-2026-33c",
             "temp": "33°C",
             "temp_value": 33.0,
             "temp_type": "exact",
-            "yes_price": 0.012,
-            "yes_pct": 1.2
+            "yes_price": 0.014,
+            "yes_pct": 1.4
           },
           {
             "slug": "highest-temperature-in-lucknow-on-august-17-2026-34corhigher",
@@ -11652,7 +11652,7 @@
           {
             "model": "GFS",
             "temp": 30,
-            "pct": 17.0,
+            "pct": 16.5,
             "url": null,
             "max_hour_bj": 18,
             "min_hour_bj": 3,
@@ -11692,7 +11692,7 @@
           {
             "model": "RP5",
             "temp": 29,
-            "pct": 23.0,
+            "pct": 23.5,
             "url": "https://rp5.ru/Weather_in_Lucknow,_Amausi_(airport)",
             "max_hour_bj": null,
             "min_hour_bj": null,
@@ -12192,16 +12192,16 @@
             "temp": "38°C",
             "temp_value": 38.0,
             "temp_type": "exact",
-            "yes_price": 0.51,
-            "yes_pct": 51.0
+            "yes_price": 0.505,
+            "yes_pct": 50.5
           },
           {
             "slug": "highest-temperature-in-madrid-on-august-18-2026-39c",
             "temp": "39°C",
             "temp_value": 39.0,
             "temp_type": "exact",
-            "yes_price": 0.445,
-            "yes_pct": 44.5
+            "yes_price": 0.45,
+            "yes_pct": 45.0
           },
           {
             "slug": "highest-temperature-in-madrid-on-august-18-2026-40c",
@@ -12249,7 +12249,7 @@
           {
             "model": "GFS",
             "temp": 38,
-            "pct": 51.0,
+            "pct": 50.5,
             "url": null,
             "max_hour_bj": 0,
             "min_hour_bj": 13,
@@ -12289,7 +12289,7 @@
           {
             "model": "RP5",
             "temp": 38,
-            "pct": 51.0,
+            "pct": 50.5,
             "url": "https://rp5.ru/Weather_in_Madrid,_Barajas_(airport)",
             "max_hour_bj": null,
             "min_hour_bj": null,
@@ -12298,7 +12298,7 @@
           }
         ],
         "predicted_temp": "38°C",
-        "predicted_prob": 51.0
+        "predicted_prob": 50.5
       },
       "lowest": null
     },
@@ -13718,24 +13718,24 @@
             "temp": "78-79°F",
             "temp_value": 78.0,
             "temp_type": "exact",
-            "yes_price": 0.28,
-            "yes_pct": 28.0
+            "yes_price": 0.275,
+            "yes_pct": 27.5
           },
           {
             "slug": "lowest-temperature-in-miami-on-august-17-2026-80-81f",
             "temp": "80-81°F",
             "temp_value": 80.0,
             "temp_type": "exact",
-            "yes_price": 0.355,
-            "yes_pct": 35.5
+            "yes_price": 0.3,
+            "yes_pct": 30.0
           },
           {
             "slug": "lowest-temperature-in-miami-on-august-17-2026-82-83f",
             "temp": "82-83°F",
             "temp_value": 82.0,
             "temp_type": "exact",
-            "yes_price": 0.215,
-            "yes_pct": 21.5
+            "yes_price": 0.21,
+            "yes_pct": 21.0
           },
           {
             "slug": "lowest-temperature-in-miami-on-august-17-2026-84-85f",
@@ -13767,7 +13767,7 @@
           {
             "model": "GFS",
             "temp": 79,
-            "pct": 28.0,
+            "pct": 27.5,
             "url": null,
             "max_hour_bj": 2,
             "min_hour_bj": 18,
@@ -13777,7 +13777,7 @@
           {
             "model": "GEM",
             "temp": 82,
-            "pct": 21.5,
+            "pct": 21.0,
             "url": null,
             "max_hour_bj": 3,
             "min_hour_bj": 16,
@@ -13787,7 +13787,7 @@
           {
             "model": "ICON",
             "temp": 82,
-            "pct": 21.5,
+            "pct": 21.0,
             "url": null,
             "max_hour_bj": 2,
             "min_hour_bj": 19,
@@ -13797,7 +13797,7 @@
           {
             "model": "METEO",
             "temp": 81,
-            "pct": 35.5,
+            "pct": 30.0,
             "url": "https://www.meteoblue.com/en/weather/week/miami-international-airport_united-states_4164181",
             "max_hour_bj": null,
             "min_hour_bj": null,
@@ -13807,7 +13807,7 @@
           {
             "model": "RP5",
             "temp": 82,
-            "pct": 21.5,
+            "pct": 21.0,
             "url": "https://rp5.ru/Weather_in_Miami_(airport),_Florida",
             "max_hour_bj": null,
             "min_hour_bj": null,
@@ -13816,7 +13816,7 @@
           }
         ],
         "predicted_temp": "80-81°F",
-        "predicted_prob": 35.5
+        "predicted_prob": 30.0
       }
     },
     {
@@ -13863,32 +13863,32 @@
             "temp": "96-97°F",
             "temp_value": 96.0,
             "temp_type": "exact",
-            "yes_price": 0.205,
-            "yes_pct": 20.5
+            "yes_price": 0.215,
+            "yes_pct": 21.5
           },
           {
             "slug": "highest-temperature-in-miami-on-august-18-2026-98-99f",
             "temp": "98-99°F",
             "temp_value": 98.0,
             "temp_type": "exact",
-            "yes_price": 0.44,
-            "yes_pct": 44.0
+            "yes_price": 0.3,
+            "yes_pct": 30.0
           },
           {
             "slug": "highest-temperature-in-miami-on-august-18-2026-100-101f",
             "temp": "100-101°F",
             "temp_value": 100.0,
             "temp_type": "exact",
-            "yes_price": 0.36,
-            "yes_pct": 36.0
+            "yes_price": 0.155,
+            "yes_pct": 15.5
           },
           {
             "slug": "highest-temperature-in-miami-on-august-18-2026-102-103f",
             "temp": "102-103°F",
             "temp_value": 102.0,
             "temp_type": "exact",
-            "yes_price": 0.055,
-            "yes_pct": 5.5
+            "yes_price": 0.045,
+            "yes_pct": 4.5
           },
           {
             "slug": "highest-temperature-in-miami-on-august-18-2026-104-105f",
@@ -13903,7 +13903,7 @@
             "temp": "106-107°F",
             "temp_value": 106.0,
             "temp_type": "exact",
-            "yes_price": 0.0055,
+            "yes_price": 0.005,
             "yes_pct": 0.5
           },
           {
@@ -13911,7 +13911,7 @@
             "temp": "108-109°F",
             "temp_value": 108.0,
             "temp_type": "exact",
-            "yes_price": 0.0055,
+            "yes_price": 0.005,
             "yes_pct": 0.5
           },
           {
@@ -13928,7 +13928,7 @@
           {
             "model": "GFS",
             "temp": 96,
-            "pct": 20.5,
+            "pct": 21.5,
             "url": null,
             "max_hour_bj": 2,
             "min_hour_bj": 19,
@@ -13938,7 +13938,7 @@
           {
             "model": "GEM",
             "temp": 98,
-            "pct": 44.0,
+            "pct": 30.0,
             "url": null,
             "max_hour_bj": 4,
             "min_hour_bj": 19,
@@ -13948,7 +13948,7 @@
           {
             "model": "ICON",
             "temp": 98,
-            "pct": 44.0,
+            "pct": 30.0,
             "url": null,
             "max_hour_bj": 4,
             "min_hour_bj": 19,
@@ -13958,7 +13958,7 @@
           {
             "model": "METEO",
             "temp": 97,
-            "pct": 20.5,
+            "pct": 21.5,
             "url": "https://www.meteoblue.com/en/weather/week/miami-international-airport_united-states_4164181",
             "max_hour_bj": null,
             "min_hour_bj": null,
@@ -13968,7 +13968,7 @@
           {
             "model": "RP5",
             "temp": 100,
-            "pct": 36.0,
+            "pct": 15.5,
             "url": "https://rp5.ru/Weather_in_Miami_(airport),_Florida",
             "max_hour_bj": null,
             "min_hour_bj": null,
@@ -13977,7 +13977,7 @@
           }
         ],
         "predicted_temp": "98-99°F",
-        "predicted_prob": 44.0
+        "predicted_prob": 30.0
       },
       "lowest": {
         "city": "Miami",
@@ -14714,32 +14714,32 @@
             "temp": "21°C",
             "temp_value": 21.0,
             "temp_type": "exact",
-            "yes_price": 0.011,
-            "yes_pct": 1.1
+            "yes_price": 0.0125,
+            "yes_pct": 1.2
           },
           {
             "slug": "highest-temperature-in-moscow-on-august-17-2026-22c",
             "temp": "22°C",
             "temp_value": 22.0,
             "temp_type": "exact",
-            "yes_price": 0.16,
-            "yes_pct": 16.0
+            "yes_price": 0.175,
+            "yes_pct": 17.5
           },
           {
             "slug": "highest-temperature-in-moscow-on-august-17-2026-23c",
             "temp": "23°C",
             "temp_value": 23.0,
             "temp_type": "exact",
-            "yes_price": 0.535,
-            "yes_pct": 53.5
+            "yes_price": 0.545,
+            "yes_pct": 54.5
           },
           {
             "slug": "highest-temperature-in-moscow-on-august-17-2026-24c",
             "temp": "24°C",
             "temp_value": 24.0,
             "temp_type": "exact",
-            "yes_price": 0.285,
-            "yes_pct": 28.5
+            "yes_price": 0.26,
+            "yes_pct": 26.0
           },
           {
             "slug": "highest-temperature-in-moscow-on-august-17-2026-25c",
@@ -14807,7 +14807,7 @@
           {
             "model": "ICON",
             "temp": 22,
-            "pct": 16.0,
+            "pct": 17.5,
             "url": null,
             "max_hour_bj": 21,
             "min_hour_bj": 4,
@@ -14817,7 +14817,7 @@
           {
             "model": "METEO",
             "temp": 23,
-            "pct": 53.5,
+            "pct": 54.5,
             "url": "https://www.meteoblue.com/en/weather/week/vnukovo-international-airport_russia_6301018",
             "max_hour_bj": null,
             "min_hour_bj": null,
@@ -14827,7 +14827,7 @@
           {
             "model": "RP5",
             "temp": 22,
-            "pct": 16.0,
+            "pct": 17.5,
             "url": "https://rp5.ru/Weather_in_Vnukovo_(airport)",
             "max_hour_bj": null,
             "min_hour_bj": null,
@@ -14836,7 +14836,7 @@
           }
         ],
         "predicted_temp": "23°C",
-        "predicted_prob": 53.5
+        "predicted_prob": 54.5
       },
       "lowest": null
     },
@@ -15758,8 +15758,8 @@
             "temp": "76-77°F",
             "temp_value": 76.0,
             "temp_type": "exact",
-            "yes_price": 0.0095,
-            "yes_pct": 0.9
+            "yes_price": 0.01,
+            "yes_pct": 1.0
           },
           {
             "slug": "highest-temperature-in-nyc-on-august-17-2026-78-79f",
@@ -16103,16 +16103,16 @@
             "temp": "84-85°F",
             "temp_value": 84.0,
             "temp_type": "exact",
-            "yes_price": 0.12,
-            "yes_pct": 12.0
+            "yes_price": 0.11,
+            "yes_pct": 11.0
           },
           {
             "slug": "highest-temperature-in-nyc-on-august-18-2026-86-87f",
             "temp": "86-87°F",
             "temp_value": 86.0,
             "temp_type": "exact",
-            "yes_price": 0.32,
-            "yes_pct": 32.0
+            "yes_price": 0.26,
+            "yes_pct": 26.0
           },
           {
             "slug": "highest-temperature-in-nyc-on-august-18-2026-88-89f",
@@ -16152,7 +16152,7 @@
           {
             "model": "GFS",
             "temp": 85,
-            "pct": 12.0,
+            "pct": 11.0,
             "url": null,
             "max_hour_bj": 2,
             "min_hour_bj": 19,
@@ -16162,7 +16162,7 @@
           {
             "model": "GEM",
             "temp": 84,
-            "pct": 12.0,
+            "pct": 11.0,
             "url": null,
             "max_hour_bj": 3,
             "min_hour_bj": 11,
@@ -16172,7 +16172,7 @@
           {
             "model": "ICON",
             "temp": 87,
-            "pct": 32.0,
+            "pct": 26.0,
             "url": null,
             "max_hour_bj": 5,
             "min_hour_bj": 16,
@@ -16182,7 +16182,7 @@
           {
             "model": "METEO",
             "temp": 84,
-            "pct": 12.0,
+            "pct": 11.0,
             "url": "https://www.meteoblue.com/en/weather/week/laguardia-airport_united-states_5123698",
             "max_hour_bj": null,
             "min_hour_bj": null,
@@ -16201,7 +16201,7 @@
           }
         ],
         "predicted_temp": "86-87°F",
-        "predicted_prob": 32.0
+        "predicted_prob": 26.0
       },
       "lowest": {
         "city": "Nyc",
@@ -17239,8 +17239,8 @@
             "temp": "19°C",
             "temp_value": 19.0,
             "temp_type": "exact",
-            "yes_price": 0.26,
-            "yes_pct": 26.0
+            "yes_price": 0.255,
+            "yes_pct": 25.5
           },
           {
             "slug": "lowest-temperature-in-paris-on-august-17-2026-20c",
@@ -17255,8 +17255,8 @@
             "temp": "21°C",
             "temp_value": 21.0,
             "temp_type": "exact",
-            "yes_price": 0.33,
-            "yes_pct": 33.0
+            "yes_price": 0.3245,
+            "yes_pct": 32.5
           },
           {
             "slug": "lowest-temperature-in-paris-on-august-17-2026-22c",
@@ -17334,7 +17334,7 @@
           {
             "model": "METEO",
             "temp": 21,
-            "pct": 33.0,
+            "pct": 32.5,
             "url": "https://www.meteoblue.com/en/weather/week/paris%E2%80%93le-bourget-airport_france_2988502",
             "max_hour_bj": null,
             "min_hour_bj": null,
@@ -19418,32 +19418,32 @@
             "temp": "72-73°F",
             "temp_value": 72.0,
             "temp_type": "exact",
-            "yes_price": 0.095,
-            "yes_pct": 9.5
+            "yes_price": 0.03,
+            "yes_pct": 3.0
           },
           {
             "slug": "highest-temperature-in-seattle-on-august-18-2026-74-75f",
             "temp": "74-75°F",
             "temp_value": 74.0,
             "temp_type": "exact",
-            "yes_price": 0.12,
-            "yes_pct": 12.0
+            "yes_price": 0.11,
+            "yes_pct": 11.0
           },
           {
             "slug": "highest-temperature-in-seattle-on-august-18-2026-76-77f",
             "temp": "76-77°F",
             "temp_value": 76.0,
             "temp_type": "exact",
-            "yes_price": 0.205,
-            "yes_pct": 20.5
+            "yes_price": 0.2,
+            "yes_pct": 20.0
           },
           {
             "slug": "highest-temperature-in-seattle-on-august-18-2026-78-79f",
             "temp": "78-79°F",
             "temp_value": 78.0,
             "temp_type": "exact",
-            "yes_price": 0.21,
-            "yes_pct": 21.0
+            "yes_price": 0.2,
+            "yes_pct": 20.0
           },
           {
             "slug": "highest-temperature-in-seattle-on-august-18-2026-80-81f",
@@ -19466,8 +19466,8 @@
             "temp": "84-85°F",
             "temp_value": 84.0,
             "temp_type": "exact",
-            "yes_price": 0.03,
-            "yes_pct": 3.0
+            "yes_price": 0.04,
+            "yes_pct": 4.0
           },
           {
             "slug": "highest-temperature-in-seattle-on-august-18-2026-86-87f",
@@ -19509,7 +19509,7 @@
           {
             "model": "GEM",
             "temp": 75,
-            "pct": 12.0,
+            "pct": 11.0,
             "url": null,
             "max_hour_bj": 8,
             "min_hour_bj": 20,
@@ -19519,7 +19519,7 @@
           {
             "model": "ICON",
             "temp": 76,
-            "pct": 20.5,
+            "pct": 20.0,
             "url": null,
             "max_hour_bj": 7,
             "min_hour_bj": 21,
@@ -19529,7 +19529,7 @@
           {
             "model": "METEO",
             "temp": 73,
-            "pct": 9.5,
+            "pct": 3.0,
             "url": "https://www.meteoblue.com/en/weather/week/seattle-tacoma-international-airport_united-states_5809876",
             "max_hour_bj": null,
             "min_hour_bj": null,
@@ -19539,7 +19539,7 @@
           {
             "model": "RP5",
             "temp": 77,
-            "pct": 20.5,
+            "pct": 20.0,
             "url": "https://rp5.ru/Weather_in_Seattle,_Tacoma_(airport)",
             "max_hour_bj": null,
             "min_hour_bj": null,
@@ -19547,8 +19547,8 @@
             "wind_kmh": null
           }
         ],
-        "predicted_temp": "78-79°F",
-        "predicted_prob": 21.0
+        "predicted_temp": "76-77°F",
+        "predicted_prob": 20.0
       },
       "lowest": null
     },
@@ -20272,8 +20272,8 @@
             "temp": "22°C",
             "temp_value": 22.0,
             "temp_type": "exact",
-            "yes_price": 0.025,
-            "yes_pct": 2.5
+            "yes_price": 0.015,
+            "yes_pct": 1.5
           },
           {
             "slug": "lowest-temperature-in-seoul-on-august-18-2026-23c",
@@ -20288,16 +20288,16 @@
             "temp": "24°C",
             "temp_value": 24.0,
             "temp_type": "exact",
-            "yes_price": 0.43,
-            "yes_pct": 43.0
+            "yes_price": 0.44,
+            "yes_pct": 44.0
           },
           {
             "slug": "lowest-temperature-in-seoul-on-august-18-2026-25c",
             "temp": "25°C",
             "temp_value": 25.0,
             "temp_type": "exact",
-            "yes_price": 0.465,
-            "yes_pct": 46.5
+            "yes_price": 0.445,
+            "yes_pct": 44.5
           },
           {
             "slug": "lowest-temperature-in-seoul-on-august-18-2026-26c",
@@ -20312,7 +20312,7 @@
             "temp": "27°C",
             "temp_value": 27.0,
             "temp_type": "exact",
-            "yes_price": 0.012,
+            "yes_price": 0.0125,
             "yes_pct": 1.2
           },
           {
@@ -20347,7 +20347,7 @@
           {
             "model": "GEM",
             "temp": 22,
-            "pct": 2.5,
+            "pct": 1.5,
             "url": null,
             "max_hour_bj": 14,
             "min_hour_bj": 22,
@@ -20367,7 +20367,7 @@
           {
             "model": "METEO",
             "temp": 24,
-            "pct": 43.0,
+            "pct": 44.0,
             "url": "https://www.meteoblue.com/en/weather/week/incheon-international-airport_south-korea_6300433",
             "max_hour_bj": null,
             "min_hour_bj": null,
@@ -20377,7 +20377,7 @@
           {
             "model": "RP5",
             "temp": 25,
-            "pct": 46.5,
+            "pct": 44.5,
             "url": "https://rp5.ru/Weather_in_Incheon_(airport)",
             "max_hour_bj": null,
             "min_hour_bj": null,
@@ -20386,7 +20386,7 @@
           }
         ],
         "predicted_temp": "25°C",
-        "predicted_prob": 46.5
+        "predicted_prob": 44.5
       }
     },
     {
@@ -21405,40 +21405,40 @@
             "temp": "33°C",
             "temp_value": 33.0,
             "temp_type": "exact",
-            "yes_price": 0.155,
-            "yes_pct": 15.5
+            "yes_price": 0.12,
+            "yes_pct": 12.0
           },
           {
             "slug": "highest-temperature-in-shenzhen-on-august-17-2026-34c",
             "temp": "34°C",
             "temp_value": 34.0,
             "temp_type": "exact",
-            "yes_price": 0.36,
-            "yes_pct": 36.0
+            "yes_price": 0.33,
+            "yes_pct": 33.0
           },
           {
             "slug": "highest-temperature-in-shenzhen-on-august-17-2026-35c",
             "temp": "35°C",
             "temp_value": 35.0,
             "temp_type": "exact",
-            "yes_price": 0.255,
-            "yes_pct": 25.5
+            "yes_price": 0.245,
+            "yes_pct": 24.5
           },
           {
             "slug": "highest-temperature-in-shenzhen-on-august-17-2026-36c",
             "temp": "36°C",
             "temp_value": 36.0,
             "temp_type": "exact",
-            "yes_price": 0.17,
-            "yes_pct": 17.0
+            "yes_price": 0.175,
+            "yes_pct": 17.5
           },
           {
             "slug": "highest-temperature-in-shenzhen-on-august-17-2026-37corhigher",
             "temp": "37°C",
             "temp_value": 37.0,
             "temp_type": "above",
-            "yes_price": 0.039,
-            "yes_pct": 3.9
+            "yes_price": 0.0455,
+            "yes_pct": 4.5
           }
         ],
         "noon_bj": 12,
@@ -21446,7 +21446,7 @@
           {
             "model": "GFS",
             "temp": 36,
-            "pct": 17.0,
+            "pct": 17.5,
             "url": null,
             "max_hour_bj": 14,
             "min_hour_bj": 4,
@@ -21456,7 +21456,7 @@
           {
             "model": "GEM",
             "temp": 33,
-            "pct": 15.5,
+            "pct": 12.0,
             "url": null,
             "max_hour_bj": 13,
             "min_hour_bj": 22,
@@ -21476,7 +21476,7 @@
           {
             "model": "METEO",
             "temp": 33,
-            "pct": 15.5,
+            "pct": 12.0,
             "url": "https://www.meteoblue.com/en/weather/week/shenzhen-bao%27an-international-airport_china_6301365",
             "max_hour_bj": null,
             "min_hour_bj": null,
@@ -21495,7 +21495,7 @@
           }
         ],
         "predicted_temp": "34°C",
-        "predicted_prob": 36.0
+        "predicted_prob": 33.0
       },
       "lowest": null
     },
@@ -21824,16 +21824,16 @@
             "temp": "31°C",
             "temp_value": 31.0,
             "temp_type": "exact",
-            "yes_price": 0.03,
-            "yes_pct": 3.0
+            "yes_price": 0.035,
+            "yes_pct": 3.5
           },
           {
             "slug": "highest-temperature-in-singapore-on-august-17-2026-32c",
             "temp": "32°C",
             "temp_value": 32.0,
             "temp_type": "exact",
-            "yes_price": 0.575,
-            "yes_pct": 57.5
+            "yes_price": 0.57,
+            "yes_pct": 57.0
           },
           {
             "slug": "highest-temperature-in-singapore-on-august-17-2026-33c",
@@ -21881,7 +21881,7 @@
           {
             "model": "GFS",
             "temp": 31,
-            "pct": 3.0,
+            "pct": 3.5,
             "url": null,
             "max_hour_bj": 15,
             "min_hour_bj": 5,
@@ -21901,7 +21901,7 @@
           {
             "model": "ICON",
             "temp": 31,
-            "pct": 3.0,
+            "pct": 3.5,
             "url": null,
             "max_hour_bj": 14,
             "min_hour_bj": 5,
@@ -21911,7 +21911,7 @@
           {
             "model": "METEO",
             "temp": 32,
-            "pct": 57.5,
+            "pct": 57.0,
             "url": "https://www.meteoblue.com/en/weather/week/singapore-changi-airport_singapore_1880725",
             "max_hour_bj": null,
             "min_hour_bj": null,
@@ -21921,7 +21921,7 @@
           {
             "model": "RP5",
             "temp": 32,
-            "pct": 57.5,
+            "pct": 57.0,
             "url": "https://rp5.ru/Weather_in_Singapore_(airport)",
             "max_hour_bj": null,
             "min_hour_bj": null,
@@ -21930,7 +21930,7 @@
           }
         ],
         "predicted_temp": "32°C",
-        "predicted_prob": 57.5
+        "predicted_prob": 57.0
       },
       "lowest": null
     },
@@ -22283,24 +22283,24 @@
             "temp": "35°C",
             "temp_value": 35.0,
             "temp_type": "exact",
-            "yes_price": 0.175,
-            "yes_pct": 17.5
+            "yes_price": 0.19,
+            "yes_pct": 19.0
           },
           {
             "slug": "highest-temperature-in-taipei-on-august-17-2026-36c",
             "temp": "36°C",
             "temp_value": 36.0,
             "temp_type": "exact",
-            "yes_price": 0.525,
-            "yes_pct": 52.5
+            "yes_price": 0.5,
+            "yes_pct": 50.0
           },
           {
             "slug": "highest-temperature-in-taipei-on-august-17-2026-37c",
             "temp": "37°C",
             "temp_value": 37.0,
             "temp_type": "exact",
-            "yes_price": 0.275,
-            "yes_pct": 27.5
+            "yes_price": 0.26,
+            "yes_pct": 26.0
           },
           {
             "slug": "highest-temperature-in-taipei-on-august-17-2026-38corhigher",
@@ -22316,7 +22316,7 @@
           {
             "model": "GFS",
             "temp": 35,
-            "pct": 17.5,
+            "pct": 19.0,
             "url": null,
             "max_hour_bj": 13,
             "min_hour_bj": 5,
@@ -22365,7 +22365,7 @@
           }
         ],
         "predicted_temp": "36°C",
-        "predicted_prob": 52.5
+        "predicted_prob": 50.0
       },
       "lowest": null
     },
@@ -22824,7 +22824,7 @@
             "temp": "28°C",
             "temp_value": 28.0,
             "temp_type": "below",
-            "yes_price": 0.002,
+            "yes_price": 0.0025,
             "yes_pct": 0.2
           },
           {
@@ -22832,8 +22832,8 @@
             "temp": "29°C",
             "temp_value": 29.0,
             "temp_type": "exact",
-            "yes_price": 0.0055,
-            "yes_pct": 0.5
+            "yes_price": 0.012,
+            "yes_pct": 1.2
           },
           {
             "slug": "highest-temperature-in-tel-aviv-on-august-18-2026-30c",
@@ -22872,8 +22872,8 @@
             "temp": "34°C",
             "temp_value": 34.0,
             "temp_type": "exact",
-            "yes_price": 0.0095,
-            "yes_pct": 0.9
+            "yes_price": 0.0135,
+            "yes_pct": 1.4
           },
           {
             "slug": "highest-temperature-in-tel-aviv-on-august-18-2026-35c",
@@ -23213,24 +23213,24 @@
             "temp": "26°C",
             "temp_value": 26.0,
             "temp_type": "exact",
-            "yes_price": 0.0125,
-            "yes_pct": 1.2
+            "yes_price": 0.0195,
+            "yes_pct": 1.9
           },
           {
             "slug": "highest-temperature-in-tokyo-on-august-17-2026-27c",
             "temp": "27°C",
             "temp_value": 27.0,
             "temp_type": "exact",
-            "yes_price": 0.095,
-            "yes_pct": 9.5
+            "yes_price": 0.075,
+            "yes_pct": 7.5
           },
           {
             "slug": "highest-temperature-in-tokyo-on-august-17-2026-28c",
             "temp": "28°C",
             "temp_value": 28.0,
             "temp_type": "exact",
-            "yes_price": 0.25,
-            "yes_pct": 25.0
+            "yes_price": 0.27,
+            "yes_pct": 27.0
           },
           {
             "slug": "highest-temperature-in-tokyo-on-august-17-2026-29c",
@@ -23245,8 +23245,8 @@
             "temp": "30°C",
             "temp_value": 30.0,
             "temp_type": "exact",
-            "yes_price": 0.245,
-            "yes_pct": 24.5
+            "yes_price": 0.26,
+            "yes_pct": 26.0
           },
           {
             "slug": "highest-temperature-in-tokyo-on-august-17-2026-31c",
@@ -23261,8 +23261,8 @@
             "temp": "32°C",
             "temp_value": 32.0,
             "temp_type": "exact",
-            "yes_price": 0.0195,
-            "yes_pct": 1.9
+            "yes_price": 0.0185,
+            "yes_pct": 1.8
           },
           {
             "slug": "highest-temperature-in-tokyo-on-august-17-2026-33c",
@@ -23277,8 +23277,8 @@
             "temp": "34°C",
             "temp_value": 34.0,
             "temp_type": "above",
-            "yes_price": 0.0035,
-            "yes_pct": 0.4
+            "yes_price": 0.003,
+            "yes_pct": 0.3
           }
         ],
         "noon_bj": 11,
@@ -23286,7 +23286,7 @@
           {
             "model": "GFS",
             "temp": 32,
-            "pct": 1.9,
+            "pct": 1.8,
             "url": null,
             "max_hour_bj": 14,
             "min_hour_bj": 4,
@@ -23306,7 +23306,7 @@
           {
             "model": "ICON",
             "temp": 30,
-            "pct": 24.5,
+            "pct": 26.0,
             "url": null,
             "max_hour_bj": 12,
             "min_hour_bj": 4,
@@ -23316,7 +23316,7 @@
           {
             "model": "METEO",
             "temp": 27,
-            "pct": 9.5,
+            "pct": 7.5,
             "url": "https://www.meteoblue.com/en/weather/week/tokyo-international-airport_japan_6300412",
             "max_hour_bj": null,
             "min_hour_bj": null,
@@ -23999,16 +23999,16 @@
             "temp": "24°C",
             "temp_value": 24.0,
             "temp_type": "exact",
-            "yes_price": 0.0125,
-            "yes_pct": 1.2
+            "yes_price": 0.013,
+            "yes_pct": 1.3
           },
           {
             "slug": "highest-temperature-in-toronto-on-august-17-2026-25c",
             "temp": "25°C",
             "temp_value": 25.0,
             "temp_type": "exact",
-            "yes_price": 0.055,
-            "yes_pct": 5.5
+            "yes_price": 0.04,
+            "yes_pct": 4.0
           },
           {
             "slug": "highest-temperature-in-toronto-on-august-17-2026-26c",
@@ -24023,8 +24023,8 @@
             "temp": "27°C",
             "temp_value": 27.0,
             "temp_type": "exact",
-            "yes_price": 0.445,
-            "yes_pct": 44.5
+            "yes_price": 0.45,
+            "yes_pct": 45.0
           },
           {
             "slug": "highest-temperature-in-toronto-on-august-17-2026-28c",
@@ -24458,8 +24458,8 @@
             "temp": "26°C",
             "temp_value": 26.0,
             "temp_type": "exact",
-            "yes_price": 0.135,
-            "yes_pct": 13.5
+            "yes_price": 0.137,
+            "yes_pct": 13.7
           },
           {
             "slug": "highest-temperature-in-warsaw-on-august-17-2026-27c",
@@ -24499,7 +24499,7 @@
           {
             "model": "GFS",
             "temp": 26,
-            "pct": 13.5,
+            "pct": 13.7,
             "url": null,
             "max_hour_bj": 20,
             "min_hour_bj": 5,
@@ -24893,16 +24893,16 @@
             "temp": "10°C",
             "temp_value": 10.0,
             "temp_type": "exact",
-            "yes_price": 0.935,
-            "yes_pct": 93.5
+            "yes_price": 0.93,
+            "yes_pct": 93.0
           },
           {
             "slug": "highest-temperature-in-wellington-on-august-17-2026-11c",
             "temp": "11°C",
             "temp_value": 11.0,
             "temp_type": "exact",
-            "yes_price": 0.0725,
-            "yes_pct": 7.2
+            "yes_price": 0.0575,
+            "yes_pct": 5.8
           },
           {
             "slug": "highest-temperature-in-wellington-on-august-17-2026-12c",
@@ -24934,7 +24934,7 @@
           {
             "model": "GFS",
             "temp": 9,
-            "pct": 93.5,
+            "pct": 93.0,
             "url": null,
             "max_hour_bj": 10,
             "min_hour_bj": 15,
@@ -24944,7 +24944,7 @@
           {
             "model": "GEM",
             "temp": 8,
-            "pct": 93.5,
+            "pct": 93.0,
             "url": null,
             "max_hour_bj": 10,
             "min_hour_bj": 17,
@@ -24954,7 +24954,7 @@
           {
             "model": "ICON",
             "temp": 9,
-            "pct": 93.5,
+            "pct": 93.0,
             "url": null,
             "max_hour_bj": 9,
             "min_hour_bj": 0,
@@ -24964,7 +24964,7 @@
           {
             "model": "METEO",
             "temp": 10,
-            "pct": 93.5,
+            "pct": 93.0,
             "url": "https://www.meteoblue.com/en/weather/week/wellington-international-airport_new-zealand_6244688",
             "max_hour_bj": null,
             "min_hour_bj": null,
@@ -24974,7 +24974,7 @@
           {
             "model": "RP5",
             "temp": 9,
-            "pct": 93.5,
+            "pct": 93.0,
             "url": "https://rp5.ru/Weather_in_Wellington_(airport),_New_Zealand",
             "max_hour_bj": null,
             "min_hour_bj": null,
@@ -24983,7 +24983,7 @@
           }
         ],
         "predicted_temp": "10°C",
-        "predicted_prob": 93.5
+        "predicted_prob": 93.0
       },
       "lowest": null
     },
@@ -25328,23 +25328,23 @@
             "temp": "34°C",
             "temp_value": 34.0,
             "temp_type": "exact",
-            "yes_price": 0.38,
-            "yes_pct": 38.0
+            "yes_price": 0.35,
+            "yes_pct": 35.0
           },
           {
             "slug": "highest-temperature-in-wuhan-on-august-17-2026-35c",
             "temp": "35°C",
             "temp_value": 35.0,
             "temp_type": "exact",
-            "yes_price": 0.195,
-            "yes_pct": 19.5
+            "yes_price": 0.205,
+            "yes_pct": 20.5
           },
           {
             "slug": "highest-temperature-in-wuhan-on-august-17-2026-36c",
             "temp": "36°C",
             "temp_value": 36.0,
             "temp_type": "exact",
-            "yes_price": 0.032,
+            "yes_price": 0.0325,
             "yes_pct": 3.2
           },
           {
@@ -25352,7 +25352,7 @@
             "temp": "37°C",
             "temp_value": 37.0,
             "temp_type": "exact",
-            "yes_price": 0.007,
+            "yes_price": 0.0065,
             "yes_pct": 0.7
           },
           {
@@ -25369,7 +25369,7 @@
           {
             "model": "GFS",
             "temp": 34,
-            "pct": 38.0,
+            "pct": 35.0,
             "url": null,
             "max_hour_bj": 12,
             "min_hour_bj": 6,
@@ -25417,8 +25417,8 @@
             "wind_kmh": null
           }
         ],
-        "predicted_temp": "34°C",
-        "predicted_prob": 38.0
+        "predicted_temp": "33°C",
+        "predicted_prob": 35.0
       },
       "lowest": null
     },
@@ -25490,8 +25490,8 @@
             "temp": "35°C",
             "temp_value": 35.0,
             "temp_type": "exact",
-            "yes_price": 0.37,
-            "yes_pct": 37.0
+            "yes_price": 0.375,
+            "yes_pct": 37.5
           },
           {
             "slug": "highest-temperature-in-wuhan-on-august-18-2026-36c",
@@ -25571,7 +25571,7 @@
           {
             "model": "RP5",
             "temp": 35,
-            "pct": 37.0,
+            "pct": 37.5,
             "url": "https://rp5.ru/Weather_in_Wuhan_(airport)",
             "max_hour_bj": null,
             "min_hour_bj": null,
@@ -25580,7 +25580,7 @@
           }
         ],
         "predicted_temp": "35°C",
-        "predicted_prob": 37.0
+        "predicted_prob": 37.5
       },
       "lowest": null
     },
