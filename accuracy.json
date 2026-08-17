@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 174,
+ "n": 177,
  "mae": 0.74,
  "bias": -0.49,
  "rows": [
@@ -2254,6 +2254,45 @@
    "peak_local": "17:00"
   },
   {
+   "city": "Austin",
+   "date": "2026-08-16",
+   "date_display": "08/16",
+   "snap_date": "2026-08-16",
+   "time": "04:22",
+   "local_hhmm": "15:22",
+   "hour": 4,
+   "meteo": 102,
+   "actual": 103.0,
+   "err": -1.0,
+   "peak_local": "16:53"
+  },
+  {
+   "city": "Dallas",
+   "date": "2026-08-16",
+   "date_display": "08/16",
+   "snap_date": "2026-08-16",
+   "time": "04:22",
+   "local_hhmm": "15:22",
+   "hour": 4,
+   "meteo": 102,
+   "actual": 103.0,
+   "err": -1.0,
+   "peak_local": "16:53"
+  },
+  {
+   "city": "Houston",
+   "date": "2026-08-16",
+   "date_display": "08/16",
+   "snap_date": "2026-08-16",
+   "time": "04:22",
+   "local_hhmm": "15:22",
+   "hour": 4,
+   "meteo": 95,
+   "actual": 95.0,
+   "err": 0.0,
+   "peak_local": "16:53"
+  },
+  {
    "city": "Panama City",
    "date": "2026-08-16",
    "date_display": "08/16",
@@ -2304,6 +2343,18 @@
     "其他": {
      "n": 1,
      "mae": 0.0
+    }
+   },
+   "best_period": null
+  },
+  {
+   "city": "Austin",
+   "n": 1,
+   "mae": 1.0,
+   "periods": {
+    "其他": {
+     "n": 1,
+     "mae": 1.0
     }
    },
    "best_period": null
@@ -2421,6 +2472,18 @@
    "best_period": "15-18"
   },
   {
+   "city": "Dallas",
+   "n": 1,
+   "mae": 1.0,
+   "periods": {
+    "其他": {
+     "n": 1,
+     "mae": 1.0
+    }
+   },
+   "best_period": null
+  },
+  {
    "city": "Guangzhou",
    "n": 4,
    "mae": 0.75,
@@ -2471,6 +2534,18 @@
     }
    },
    "best_period": "15-18"
+  },
+  {
+   "city": "Houston",
+   "n": 1,
+   "mae": 0.0,
+   "periods": {
+    "其他": {
+     "n": 1,
+     "mae": 0.0
+    }
+   },
+   "best_period": null
   },
   {
    "city": "Jeddah",
