@@ -14,7 +14,8 @@
    "hour": 10,
    "meteo": 14,
    "actual": 14.0,
-   "err": 0.0
+   "err": 0.0,
+   "peak_local": null
   },
   {
    "city": "Taipei",
@@ -26,7 +27,8 @@
    "hour": 11,
    "meteo": 33,
    "actual": 36.0,
-   "err": -3.0
+   "err": -3.0,
+   "peak_local": null
   },
   {
    "city": "Wuhan",
@@ -38,7 +40,8 @@
    "hour": 10,
    "meteo": 29,
    "actual": 29.0,
-   "err": 0.0
+   "err": 0.0,
+   "peak_local": null
   },
   {
    "city": "Busan",
@@ -50,7 +53,8 @@
    "hour": 10,
    "meteo": 30,
    "actual": 32.0,
-   "err": -2.0
+   "err": -2.0,
+   "peak_local": "13:00"
   },
   {
    "city": "Manila",
@@ -62,7 +66,8 @@
    "hour": 10,
    "meteo": 31,
    "actual": 32.0,
-   "err": -1.0
+   "err": -1.0,
+   "peak_local": null
   },
   {
    "city": "Tokyo",
@@ -74,7 +79,8 @@
    "hour": 11,
    "meteo": 30,
    "actual": 30.0,
-   "err": 0.0
+   "err": 0.0,
+   "peak_local": "14:00"
   },
   {
    "city": "Chengdu",
@@ -86,7 +92,8 @@
    "hour": 10,
    "meteo": 35,
    "actual": 35.0,
-   "err": 0.0
+   "err": 0.0,
+   "peak_local": null
   },
   {
    "city": "Seattle",
@@ -98,7 +105,8 @@
    "hour": 9,
    "meteo": 73,
    "actual": 75.0,
-   "err": -2.0
+   "err": -2.0,
+   "peak_local": null
   },
   {
    "city": "Seoul",
@@ -110,7 +118,8 @@
    "hour": 11,
    "meteo": 32,
    "actual": 32.0,
-   "err": 0.0
+   "err": 0.0,
+   "peak_local": "13:30"
   },
   {
    "city": "Taipei",
@@ -122,7 +131,8 @@
    "hour": 11,
    "meteo": 34,
    "actual": 35.0,
-   "err": -1.0
+   "err": -1.0,
+   "peak_local": null
   },
   {
    "city": "Tokyo",
@@ -134,7 +144,8 @@
    "hour": 11,
    "meteo": 30,
    "actual": 32.0,
-   "err": -2.0
+   "err": -2.0,
+   "peak_local": "13:30"
   },
   {
    "city": "Wellington",
@@ -146,7 +157,8 @@
    "hour": 10,
    "meteo": 12,
    "actual": 12.0,
-   "err": 0.0
+   "err": 0.0,
+   "peak_local": null
   },
   {
    "city": "Zhengzhou",
@@ -158,7 +170,8 @@
    "hour": 10,
    "meteo": 26,
    "actual": 26.0,
-   "err": 0.0
+   "err": 0.0,
+   "peak_local": null
   },
   {
    "city": "Manila",
@@ -170,7 +183,8 @@
    "hour": 8,
    "meteo": 29,
    "actual": 30.0,
-   "err": -1.0
+   "err": -1.0,
+   "peak_local": null
   },
   {
    "city": "Seattle",
@@ -182,7 +196,8 @@
    "hour": 8,
    "meteo": 77,
    "actual": 79.0,
-   "err": -2.0
+   "err": -2.0,
+   "peak_local": null
   },
   {
    "city": "Wellington",
@@ -194,7 +209,8 @@
    "hour": 8,
    "meteo": 11,
    "actual": 14.0,
-   "err": -3.0
+   "err": -3.0,
+   "peak_local": null
   },
   {
    "city": "Zhengzhou",
@@ -206,7 +222,8 @@
    "hour": 8,
    "meteo": 25,
    "actual": 25.0,
-   "err": 0.0
+   "err": 0.0,
+   "peak_local": null
   },
   {
    "city": "Buenos Aires",
@@ -218,7 +235,8 @@
    "hour": 8,
    "meteo": 11,
    "actual": 10.0,
-   "err": 1.0
+   "err": 1.0,
+   "peak_local": null
   },
   {
    "city": "Shenzhen",
@@ -230,7 +248,8 @@
    "hour": 8,
    "meteo": 29,
    "actual": 30.0,
-   "err": -1.0
+   "err": -1.0,
+   "peak_local": null
   },
   {
    "city": "Seoul",
@@ -242,7 +261,8 @@
    "hour": 11,
    "meteo": 28,
    "actual": 28.0,
-   "err": 0.0
+   "err": 0.0,
+   "peak_local": "13:30"
   },
   {
    "city": "Shanghai",
@@ -254,7 +274,8 @@
    "hour": 11,
    "meteo": 31,
    "actual": 31.0,
-   "err": 0.0
+   "err": 0.0,
+   "peak_local": null
   },
   {
    "city": "Taipei",
@@ -266,7 +287,8 @@
    "hour": 11,
    "meteo": 35,
    "actual": 36.0,
-   "err": -1.0
+   "err": -1.0,
+   "peak_local": null
   },
   {
    "city": "Tokyo",
@@ -278,7 +300,8 @@
    "hour": 9,
    "meteo": 29,
    "actual": 29.0,
-   "err": 0.0
+   "err": 0.0,
+   "peak_local": "10:30"
   },
   {
    "city": "Chicago",
@@ -290,7 +313,8 @@
    "hour": 10,
    "meteo": 79,
    "actual": 79.0,
-   "err": 0.0
+   "err": 0.0,
+   "peak_local": null
   },
   {
    "city": "Qingdao",
@@ -302,7 +326,8 @@
    "hour": 10,
    "meteo": 32,
    "actual": 33.0,
-   "err": -1.0
+   "err": -1.0,
+   "peak_local": "12:00"
   },
   {
    "city": "Seattle",
@@ -314,7 +339,8 @@
    "hour": 7,
    "meteo": 73,
    "actual": 75.0,
-   "err": -2.0
+   "err": -2.0,
+   "peak_local": null
   },
   {
    "city": "Taipei",
@@ -326,7 +352,8 @@
    "hour": 10,
    "meteo": 34,
    "actual": 36.0,
-   "err": -2.0
+   "err": -2.0,
+   "peak_local": "11:00"
   },
   {
    "city": "Tokyo",
@@ -338,7 +365,8 @@
    "hour": 9,
    "meteo": 26,
    "actual": 26.0,
-   "err": 0.0
+   "err": 0.0,
+   "peak_local": "11:30"
   }
  ],
  "cities": [

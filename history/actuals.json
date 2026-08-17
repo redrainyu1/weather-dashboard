@@ -1470,5 +1470,9 @@
  "highest-temperature-in-buenos-aires-on-august-16-2026": {
   "temp": 18.0,
   "peak_bj": "2026-08-17 03:00"
+ },
+ "highest-temperature-in-sao-paulo-on-august-16-2026": {
+  "temp": 27.0,
+  "peak_bj": "2026-08-17 03:00"
  }
 }
