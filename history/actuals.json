@@ -1590,5 +1590,9 @@
  "highest-temperature-in-wuhan-on-august-17-2026": {
   "temp": 34.0,
   "peak_bj": "2026-08-17 15:00"
+ },
+ "highest-temperature-in-karachi-on-august-17-2026": {
+  "temp": 31.0,
+  "peak_bj": "2026-08-17 19:00"
  }
 }
