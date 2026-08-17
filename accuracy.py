@@ -257,14 +257,23 @@ def load_history(period=None, model="meteo", peak_off_map=None):
                     pk = peak_abs(lst[0]["date"], lst[0].get("noon_bj"), float(po["peak_off_h"]))
         if pk is None:
             pk = peak_abs(lst[0]["date"], lst[0].get("noon_bj"), 3.0)
-        # 取事件日当天、预测生成时刻早于峰值且最接近峰的那一条
+        # 取事件日当地当天、预测生成时刻早于峰值、
+        # 且最接近"峰值首次出现时刻 - 1 小时"的那一条（用户规则）
         def bj_abs(v):
             return (datetime.strptime(v["snap_bj"], "%Y-%m-%d") + timedelta(hours=v["hour"],
                     minutes=int(v["time"][3:5]) if len(v.get("time", "")) >= 5 else 0))
         valid = [v for v in lst if pk is None or bj_abs(v) < pk]
         if not valid:
             continue
-        best = min(valid, key=lambda v: abs((bj_abs(v) - pk).total_seconds()) if pk else 0)
+        if pk is None:
+            best = valid[0]
+        else:
+            target = pk - timedelta(hours=1)
+            # 容差 ±1h：峰前 1 小时左右没有预测快照的事件不参与统计
+            near = [v for v in valid if abs((bj_abs(v) - target).total_seconds()) <= 3600]
+            if not near:
+                continue
+            best = min(near, key=lambda v: abs((bj_abs(v) - target).total_seconds()))
         res[(slug, local_date)] = best
     return res
 

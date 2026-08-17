@@ -1,4 +1,4 @@
-name: weather-cron
+﻿name: weather-cron
 
 on:
   schedule:
