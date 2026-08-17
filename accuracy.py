@@ -185,8 +185,14 @@ def load_history(period=None, model="meteo", peak_off_map=None):
             h = row.get("highest")
             if not h or not h.get("slug"):
                 continue
-            # 只用事件日当天生成的预测（如 8/16 事件只取 8/16 当天的快照）
-            if h.get("date", "")[:10] != snap_date:
+            # 只用事件日当地当天生成的预测（快照换算到当地日期后须等于事件日）
+            nb = h.get("noon_bj")
+            if nb is not None and hour is not None:
+                local = (datetime.strptime(snap_date, "%Y-%m-%d") + timedelta(hours=hour)
+                         + timedelta(hours=12 - nb))
+                if local.strftime("%Y-%m-%d") != h.get("date", "")[:10]:
+                    continue
+            elif h.get("date", "")[:10] != snap_date:
                 continue
             temp = None
             for fc in h.get("forecasts", []):
