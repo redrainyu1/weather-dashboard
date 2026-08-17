@@ -171,33 +171,8 @@ def api_refresh():
         return jsonify({"status": "error", "error": str(e)})
 
 if __name__ == '__main__':
-    import threading
-    
-    def auto_refresh():
-        """每 30 分钟从 GitHub 仓库拉取云端抓取的数据（本地无需常开）"""
-        while True:
-            time.sleep(1800)  # 30 minutes
-            ok, msg = git_pull()
-            print(f"[Auto] Sync: {'ok' if ok else 'failed'} {msg.strip().splitlines()[-1] if msg.strip() else ''}")
-    
-    threading.Thread(target=auto_refresh, daemon=True).start()
-
-    def run_accuracy():
-        python = sys.executable
-        acc_py = os.path.join(SCRIPT_DIR, "accuracy.py")
-        for out, extra in [("accuracy.json", []),
-                           ("accuracy_morning.json", ["--period", "6-12"])]:
-            try:
-                subprocess.run([python, acc_py, "--out", out] + extra, cwd=SCRIPT_DIR,
-                               capture_output=True, timeout=900)
-                print(f"[Acc] {out} updated")
-            except Exception as e:
-                print(f"[Acc] {out} failed: {e}")
-
-    threading.Thread(target=run_accuracy, daemon=True).start()
-
     print("=" * 50)
     print("Weather Dashboard Server  |  http://127.0.0.1:5002")
-    print("Auto refresh every 30 minutes")
+    print("Manual mode: 刷新数据 = git pull 同步云端, 修复缺失 = 本地抓取")
     print("=" * 50)
     app.run(host='0.0.0.0', port=5002, debug=False)
