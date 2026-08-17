@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 733,
+ "n": 734,
  "mae": 1.26,
  "bias": -0.64,
  "hit1": 69.2,
@@ -7317,6 +7317,16 @@
    "err": 0.0
   },
   {
+   "city": "Zhengzhou",
+   "date": "2026-08-16",
+   "date_display": "08/16",
+   "time": "23:41",
+   "hour": 23,
+   "meteo": 32,
+   "actual": 32.0,
+   "err": 0.0
+  },
+  {
    "city": "Buenos Aires",
    "date": "2026-08-15",
    "date_display": "08/15",
@@ -8120,14 +8130,14 @@
   },
   {
    "city": "Zhengzhou",
-   "n": 9,
-   "mae": 0.67,
-   "hit1": 77.8,
+   "n": 10,
+   "mae": 0.6,
+   "hit1": 80.0,
    "periods": {
     "21-24": {
-     "n": 9,
-     "mae": 0.67,
-     "hit1": 77.8
+     "n": 10,
+     "mae": 0.6,
+     "hit1": 80.0
     }
    },
    "best_period": "21-24"
