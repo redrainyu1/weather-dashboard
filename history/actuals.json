@@ -1522,5 +1522,13 @@
  "highest-temperature-in-london-on-august-16-2026": {
   "temp": 26.0,
   "peak_bj": "2026-08-17 01:50"
+ },
+ "highest-temperature-in-mexico-city-on-august-16-2026": {
+  "temp": 27.0,
+  "peak_bj": "2026-08-17 05:55"
+ },
+ "highest-temperature-in-seattle-on-august-16-2026": {
+  "temp": 75.0,
+  "peak_bj": "2026-08-17 07:53"
  }
 }

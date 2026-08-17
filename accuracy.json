@@ -1,8 +1,8 @@
 {
  "model": "METEO",
- "n": 177,
- "mae": 0.74,
- "bias": -0.49,
+ "n": 179,
+ "mae": 0.75,
+ "bias": -0.5,
  "rows": [
   {
    "city": "Hong Kong",
@@ -2304,6 +2304,32 @@
    "actual": 31.0,
    "err": 0.0,
    "peak_local": "11:00"
+  },
+  {
+   "city": "Mexico City",
+   "date": "2026-08-16",
+   "date_display": "08/16",
+   "snap_date": "2026-08-16",
+   "time": "05:12",
+   "local_hhmm": "15:12",
+   "hour": 5,
+   "meteo": 26,
+   "actual": 27.0,
+   "err": -1.0,
+   "peak_local": "15:55"
+  },
+  {
+   "city": "Seattle",
+   "date": "2026-08-16",
+   "date_display": "08/16",
+   "snap_date": "2026-08-16",
+   "time": "06:03",
+   "local_hhmm": "15:03",
+   "hour": 6,
+   "meteo": 73,
+   "actual": 75.0,
+   "err": -2.0,
+   "peak_local": "16:53"
   }
  ],
  "cities": [
@@ -2676,6 +2702,18 @@
    "best_period": "12-15"
   },
   {
+   "city": "Mexico City",
+   "n": 1,
+   "mae": 1.0,
+   "periods": {
+    "其他": {
+     "n": 1,
+     "mae": 1.0
+    }
+   },
+   "best_period": null
+  },
+  {
    "city": "Miami",
    "n": 1,
    "mae": 0.0,
@@ -2785,7 +2823,7 @@
   },
   {
    "city": "Seattle",
-   "n": 3,
+   "n": 4,
    "mae": 2.0,
    "periods": {
     "09-12": {
@@ -2793,11 +2831,11 @@
      "mae": 2.0
     },
     "06-09": {
-     "n": 2,
+     "n": 3,
      "mae": 2.0
     }
    },
-   "best_period": null
+   "best_period": "06-09"
   },
   {
    "city": "Seoul",
