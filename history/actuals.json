@@ -1542,5 +1542,9 @@
  "highest-temperature-in-san-francisco-on-august-16-2026": {
   "temp": 69.0,
   "peak_bj": "2026-08-17 04:56"
+ },
+ "highest-temperature-in-wellington-on-august-17-2026": {
+  "temp": 10.0,
+  "peak_bj": "2026-08-17 19:30"
  }
 }
