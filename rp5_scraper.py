@@ -132,7 +132,7 @@ def scrape_rp5(city):
     PROXY = os.getenv("PROXY_URL", "http://127.0.0.1:7897")
     
     try:
-        with httpx.Client(http1=True, http2=False, verify=False, timeout=20, proxy=PROXY, follow_redirects=True) as c:
+        with httpx.Client(http1=True, http2=False, verify=False, timeout=20, proxy=(PROXY or None), follow_redirects=True) as c:
             url = get_rp5_url(city)
             r = c.get(url, headers=HEADERS)
             if r.status_code != 200:

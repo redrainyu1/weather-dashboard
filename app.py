@@ -44,7 +44,7 @@ def scrape_meteoblue_city(city):
     url = METEO_URL_OVERRIDE.get(city)
     if not url: return {}
     try:
-        with httpx.Client(http1=True, http2=False, verify=False, timeout=20, proxy=PROXY_URL, follow_redirects=True) as c:
+        with httpx.Client(http1=True, http2=False, verify=False, timeout=20, proxy=(PROXY_URL or None), follow_redirects=True) as c:
             r = c.get(url, headers=HEADERS)
             if r.status_code == 200:
                 return _parse_mb_page(r.text)

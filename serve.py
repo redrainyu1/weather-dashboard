@@ -125,7 +125,8 @@ METEO_URL_OVERRIDE = {
 }
 
 def _client():
-    return httpx.AsyncClient(http1=True, http2=False, verify=False, timeout=30, proxy=PROXY_URL, follow_redirects=True,
+    return httpx.AsyncClient(http1=True, http2=False, verify=False, timeout=30,
+                             proxy=(PROXY_URL or None), follow_redirects=True,
                              limits=httpx.Limits(max_keepalive_connections=5, keepalive_expiry=15))
 
 # ── Polymarket ──────────────────────────────────────────────────────────────
@@ -251,7 +252,7 @@ def scrape_meteoblue(city):
     search_city = METEO_CITY_NAMES.get(city, city)
 
     try:
-        with httpx.Client(http1=True, http2=False, verify=False, timeout=20, proxy=PROXY_URL, follow_redirects=True) as c:
+        with httpx.Client(http1=True, http2=False, verify=False, timeout=20, proxy=(PROXY_URL or None), follow_redirects=True) as c:
             # Direct URL override
             if city in METEO_URL_OVERRIDE:
                 r = c.get(METEO_URL_OVERRIDE[city], headers=HEADERS)

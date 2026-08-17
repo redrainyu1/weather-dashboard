@@ -247,7 +247,7 @@ async def main():
     actuals = load_actuals()
     headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"}
     async with httpx.AsyncClient(http1=True, http2=False, verify=False, timeout=30,
-                                 proxy=PROXY_URL, follow_redirects=True, headers=headers,
+                                 proxy=(PROXY_URL or None), follow_redirects=True, headers=headers,
                                  limits=httpx.Limits(max_keepalive_connections=5)) as client:
         hist = load_history(period, model=args.model)
         noon_map = {slug: v.get("noon_bj") for (slug, _), v in hist.items()}
