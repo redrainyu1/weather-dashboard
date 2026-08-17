@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 32,
+ "n": 34,
  "mae": 1.03,
  "bias": -0.97,
  "rows": [
@@ -382,6 +382,32 @@
    "peak_local": "15:53"
   },
   {
+   "city": "Lucknow",
+   "date": "2026-08-17",
+   "date_display": "08/17",
+   "snap_date": "2026-08-17",
+   "time": "06:03",
+   "local_hhmm": "04:03",
+   "hour": 6,
+   "meteo": 28,
+   "actual": 28.0,
+   "err": 0.0,
+   "peak_local": "05:30"
+  },
+  {
+   "city": "Manila",
+   "date": "2026-08-17",
+   "date_display": "08/17",
+   "snap_date": "2026-08-17",
+   "time": "09:12",
+   "local_hhmm": "09:12",
+   "hour": 9,
+   "meteo": 28,
+   "actual": 30.0,
+   "err": -2.0,
+   "peak_local": "10:00"
+  },
+  {
    "city": "Seattle",
    "date": "2026-08-16",
    "date_display": "08/16",
@@ -483,13 +509,25 @@
    "best_period": null
   },
   {
+   "city": "Lucknow",
+   "n": 1,
+   "mae": 0.0,
+   "periods": {
+    "06-09": {
+     "n": 1,
+     "mae": 0.0
+    }
+   },
+   "best_period": null
+  },
+  {
    "city": "Manila",
-   "n": 2,
-   "mae": 1.0,
+   "n": 3,
+   "mae": 1.33,
    "periods": {
     "09-12": {
-     "n": 1,
-     "mae": 1.0
+     "n": 2,
+     "mae": 1.5
     },
     "06-09": {
      "n": 1,

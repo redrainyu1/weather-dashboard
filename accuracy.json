@@ -1,7 +1,7 @@
 {
  "model": "METEO",
- "n": 195,
- "mae": 0.74,
+ "n": 201,
+ "mae": 0.73,
  "bias": -0.5,
  "rows": [
   {
@@ -2410,6 +2410,19 @@
    "peak_local": "16:30"
   },
   {
+   "city": "Beijing",
+   "date": "2026-08-17",
+   "date_display": "08/17",
+   "snap_date": "2026-08-17",
+   "time": "14:35",
+   "local_hhmm": "14:35",
+   "hour": 14,
+   "meteo": 33,
+   "actual": 33.0,
+   "err": 0.0,
+   "peak_local": "15:30"
+  },
+  {
    "city": "Chongqing",
    "date": "2026-08-17",
    "date_display": "08/17",
@@ -2423,6 +2436,19 @@
    "peak_local": "16:00"
   },
   {
+   "city": "Guangzhou",
+   "date": "2026-08-17",
+   "date_display": "08/17",
+   "snap_date": "2026-08-17",
+   "time": "12:57",
+   "local_hhmm": "12:57",
+   "hour": 12,
+   "meteo": 33,
+   "actual": 34.0,
+   "err": -1.0,
+   "peak_local": "14:00"
+  },
+  {
    "city": "Kuala Lumpur",
    "date": "2026-08-17",
    "date_display": "08/17",
@@ -2434,6 +2460,19 @@
    "actual": 34.0,
    "err": 0.0,
    "peak_local": "16:30"
+  },
+  {
+   "city": "Manila",
+   "date": "2026-08-17",
+   "date_display": "08/17",
+   "snap_date": "2026-08-17",
+   "time": "09:12",
+   "local_hhmm": "09:12",
+   "hour": 9,
+   "meteo": 28,
+   "actual": 30.0,
+   "err": -2.0,
+   "peak_local": "10:00"
   },
   {
    "city": "Qingdao",
@@ -2514,6 +2553,19 @@
    "peak_local": "15:00"
   },
   {
+   "city": "Lucknow",
+   "date": "2026-08-17",
+   "date_display": "08/17",
+   "snap_date": "2026-08-17",
+   "time": "06:03",
+   "local_hhmm": "04:03",
+   "hour": 6,
+   "meteo": 28,
+   "actual": 28.0,
+   "err": 0.0,
+   "peak_local": "05:30"
+  },
+  {
    "city": "Karachi",
    "date": "2026-08-17",
    "date_display": "08/17",
@@ -2538,6 +2590,32 @@
    "actual": 41.0,
    "err": 0.0,
    "peak_local": "16:00"
+  },
+  {
+   "city": "Cape Town",
+   "date": "2026-08-17",
+   "date_display": "08/17",
+   "snap_date": "2026-08-17",
+   "time": "18:50",
+   "local_hhmm": "12:50",
+   "hour": 18,
+   "meteo": 17,
+   "actual": 17.0,
+   "err": 0.0,
+   "peak_local": "14:00"
+  },
+  {
+   "city": "Paris",
+   "date": "2026-08-17",
+   "date_display": "08/17",
+   "snap_date": "2026-08-17",
+   "time": "21:32",
+   "local_hhmm": "15:32",
+   "hour": 21,
+   "meteo": 29,
+   "actual": 29.0,
+   "err": 0.0,
+   "peak_local": "16:30"
   }
  ],
  "cities": [
@@ -2595,12 +2673,12 @@
   },
   {
    "city": "Beijing",
-   "n": 4,
-   "mae": 0.75,
+   "n": 5,
+   "mae": 0.6,
    "periods": {
     "12-15": {
-     "n": 1,
-     "mae": 1.0
+     "n": 2,
+     "mae": 0.5
     },
     "15-18": {
      "n": 3,
@@ -2647,11 +2725,11 @@
   },
   {
    "city": "Cape Town",
-   "n": 5,
-   "mae": 0.4,
+   "n": 6,
+   "mae": 0.33,
    "periods": {
     "18-21": {
-     "n": 2,
+     "n": 3,
      "mae": 0.0
     },
     "21-24": {
@@ -2659,7 +2737,7 @@
      "mae": 0.67
     }
    },
-   "best_period": "21-24"
+   "best_period": "18-21"
   },
   {
    "city": "Chengdu",
@@ -2735,12 +2813,12 @@
   },
   {
    "city": "Guangzhou",
-   "n": 4,
-   "mae": 0.75,
+   "n": 5,
+   "mae": 0.8,
    "periods": {
     "12-15": {
-     "n": 3,
-     "mae": 0.67
+     "n": 4,
+     "mae": 0.75
     },
     "15-18": {
      "n": 1,
@@ -2891,12 +2969,16 @@
   },
   {
    "city": "Lucknow",
-   "n": 5,
-   "mae": 0.4,
+   "n": 6,
+   "mae": 0.33,
    "periods": {
     "15-18": {
      "n": 5,
      "mae": 0.4
+    },
+    "06-09": {
+     "n": 1,
+     "mae": 0.0
     }
    },
    "best_period": "15-18"
@@ -2915,16 +2997,16 @@
   },
   {
    "city": "Manila",
-   "n": 7,
-   "mae": 0.43,
+   "n": 8,
+   "mae": 0.62,
    "periods": {
     "12-15": {
      "n": 4,
      "mae": 0.25
     },
     "09-12": {
-     "n": 1,
-     "mae": 1.0
+     "n": 2,
+     "mae": 1.5
     },
     "06-09": {
      "n": 1,
@@ -3019,12 +3101,12 @@
   },
   {
    "city": "Paris",
-   "n": 3,
-   "mae": 0.33,
+   "n": 4,
+   "mae": 0.25,
    "periods": {
     "21-24": {
-     "n": 3,
-     "mae": 0.33
+     "n": 4,
+     "mae": 0.25
     }
    },
    "best_period": "21-24"
