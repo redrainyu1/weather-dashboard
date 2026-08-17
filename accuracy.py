@@ -76,7 +76,9 @@ def noon_abs(date_str, noon_bj):
     if noon_bj is None:
         return None
     d = datetime.strptime(date_str, "%Y-%m-%d")
-    if noon_bj < 12:
+    # 当地正午的北京钟点 noon_bj ∈ [0,7] 时落在北京次日（美东/美西等 tz<=-4 城市），
+    # ∈ [8,23] 时落在北京当日（UTC+8 及以上城市，如东京/首尔 noon_bj=11）
+    if noon_bj < 8:
         d += timedelta(days=1)
     return d.replace(hour=noon_bj, minute=0)
 

@@ -1,7 +1,7 @@
 {
  "model": "METEO",
- "n": 206,
- "mae": 1.36,
+ "n": 201,
+ "mae": 1.39,
  "bias": -0.69,
  "rows": [
   {
@@ -195,18 +195,6 @@
    "meteo": 33,
    "actual": 36.0,
    "err": -3.0
-  },
-  {
-   "city": "Wellington",
-   "date": "2026-08-10",
-   "date_display": "08/10",
-   "snap_date": "2026-08-10",
-   "time": "11:55",
-   "local_hhmm": "15:55",
-   "hour": 11,
-   "meteo": 14,
-   "actual": 15.0,
-   "err": -1.0
   },
   {
    "city": "Wuhan",
@@ -1685,18 +1673,6 @@
    "err": -1.0
   },
   {
-   "city": "Wellington",
-   "date": "2026-08-14",
-   "date_display": "08/14",
-   "snap_date": "2026-08-14",
-   "time": "08:35",
-   "local_hhmm": "12:35",
-   "hour": 8,
-   "meteo": 13,
-   "actual": 13.0,
-   "err": 0.0
-  },
-  {
    "city": "Wuhan",
    "date": "2026-08-14",
    "date_display": "08/14",
@@ -2037,9 +2013,9 @@
    "date": "2026-08-15",
    "date_display": "08/15",
    "snap_date": "2026-08-15",
-   "time": "11:52",
-   "local_hhmm": "12:52",
-   "hour": 11,
+   "time": "09:10",
+   "local_hhmm": "10:10",
+   "hour": 9,
    "meteo": 29,
    "actual": 29.0,
    "err": 0.0
@@ -2054,18 +2030,6 @@
    "hour": 11,
    "meteo": 29,
    "actual": 30.0,
-   "err": -1.0
-  },
-  {
-   "city": "Wellington",
-   "date": "2026-08-15",
-   "date_display": "08/15",
-   "snap_date": "2026-08-15",
-   "time": "11:52",
-   "local_hhmm": "15:52",
-   "hour": 11,
-   "meteo": 12,
-   "actual": 13.0,
    "err": -1.0
   },
   {
@@ -2139,18 +2103,6 @@
    "meteo": 26,
    "actual": 28.0,
    "err": -2.0
-  },
-  {
-   "city": "Busan",
-   "date": "2026-08-16",
-   "date_display": "08/16",
-   "snap_date": "2026-08-16",
-   "time": "11:31",
-   "local_hhmm": "12:31",
-   "hour": 11,
-   "meteo": 26,
-   "actual": 26.0,
-   "err": 0.0
   },
   {
    "city": "Cape Town",
@@ -2409,12 +2361,12 @@
    "date": "2026-08-16",
    "date_display": "08/16",
    "snap_date": "2026-08-16",
-   "time": "11:31",
-   "local_hhmm": "12:31",
-   "hour": 11,
-   "meteo": 26,
+   "time": "10:29",
+   "local_hhmm": "11:29",
+   "hour": 10,
+   "meteo": 27,
    "actual": 26.0,
-   "err": 0.0
+   "err": 1.0
   },
   {
    "city": "Warsaw",
@@ -2427,18 +2379,6 @@
    "meteo": 29,
    "actual": 30.0,
    "err": -1.0
-  },
-  {
-   "city": "Wellington",
-   "date": "2026-08-16",
-   "date_display": "08/16",
-   "snap_date": "2026-08-16",
-   "time": "11:31",
-   "local_hhmm": "15:31",
-   "hour": 11,
-   "meteo": 10,
-   "actual": 10.0,
-   "err": 0.0
   },
   {
    "city": "Wuhan",
@@ -2544,12 +2484,12 @@
   },
   {
    "city": "Busan",
-   "n": 6,
-   "mae": 0.67,
+   "n": 5,
+   "mae": 0.8,
    "periods": {
     "09-12": {
-     "n": 5,
-     "mae": 0.8
+     "n": 4,
+     "mae": 1.0
     },
     "06-09": {
      "n": 1,
@@ -2969,11 +2909,11 @@
   {
    "city": "Tokyo",
    "n": 6,
-   "mae": 1.5,
+   "mae": 1.67,
    "periods": {
     "09-12": {
      "n": 4,
-     "mae": 0.25
+     "mae": 0.5
     },
     "06-09": {
      "n": 2,
@@ -3000,19 +2940,19 @@
   },
   {
    "city": "Wellington",
-   "n": 7,
-   "mae": 0.71,
+   "n": 3,
+   "mae": 1.0,
    "periods": {
     "09-12": {
-     "n": 5,
-     "mae": 0.4
+     "n": 2,
+     "mae": 0.0
     },
     "06-09": {
-     "n": 2,
-     "mae": 1.5
+     "n": 1,
+     "mae": 3.0
     }
    },
-   "best_period": "09-12"
+   "best_period": null
   },
   {
    "city": "Wuhan",

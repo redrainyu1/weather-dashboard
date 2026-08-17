@@ -119,26 +119,6 @@
   "temp": 16.0,
   "peak_off_h": 5.0
  },
- "highest-temperature-in-busan-on-august-10-2026": {
-  "temp": 32.0,
-  "peak_off_h": 1.0
- },
- "highest-temperature-in-busan-on-august-11-2026": {
-  "temp": 31.0,
-  "peak_off_h": 3.0
- },
- "highest-temperature-in-busan-on-august-12-2026": {
-  "temp": 31.0,
-  "peak_off_h": 1.0
- },
- "highest-temperature-in-busan-on-august-14-2026": {
-  "temp": 32.0,
-  "peak_off_h": 3.0
- },
- "highest-temperature-in-busan-on-august-15-2026": {
-  "temp": 32.0,
-  "peak_off_h": 4.0
- },
  "highest-temperature-in-cape-town-on-august-10-2026": {
   "temp": 15.0,
   "peak_off_h": 3.0
@@ -739,30 +719,6 @@
   "temp": 75.0,
   "peak_off_h": 5.883333333333333
  },
- "highest-temperature-in-seoul-on-august-10-2026": {
-  "temp": 33.0,
-  "peak_off_h": 3.0
- },
- "highest-temperature-in-seoul-on-august-11-2026": {
-  "temp": 32.0,
-  "peak_off_h": 1.5
- },
- "highest-temperature-in-seoul-on-august-12-2026": {
-  "temp": 32.0,
-  "peak_off_h": 4.0
- },
- "highest-temperature-in-seoul-on-august-14-2026": {
-  "temp": 30.0,
-  "peak_off_h": 5.5
- },
- "highest-temperature-in-seoul-on-august-15-2026": {
-  "temp": 28.0,
-  "peak_off_h": 1.5
- },
- "highest-temperature-in-seoul-on-august-9-2026": {
-  "temp": 33.0,
-  "peak_off_h": 4.0
- },
  "highest-temperature-in-shanghai-on-august-10-2026": {
   "temp": 28.0,
   "peak_off_h": 11.5
@@ -854,26 +810,6 @@
  "highest-temperature-in-taipei-on-august-9-2026": {
   "temp": 29.0,
   "peak_off_h": 8.5
- },
- "highest-temperature-in-tokyo-on-august-10-2026": {
-  "temp": 30.0,
-  "peak_off_h": 2.0
- },
- "highest-temperature-in-tokyo-on-august-11-2026": {
-  "temp": 32.0,
-  "peak_off_h": 1.5
- },
- "highest-temperature-in-tokyo-on-august-12-2026": {
-  "temp": 29.0,
-  "peak_off_h": 2.5
- },
- "highest-temperature-in-tokyo-on-august-14-2026": {
-  "temp": 31.0,
-  "peak_off_h": 3.0
- },
- "highest-temperature-in-tokyo-on-august-15-2026": {
-  "temp": 29.0,
-  "peak_off_h": -1.5
  },
  "highest-temperature-in-toronto-on-august-10-2026": {
   "temp": 29.0,
@@ -1015,14 +951,6 @@
   "temp": 10.0,
   "peak_off_h": 10.0
  },
- "highest-temperature-in-busan-on-august-13-2026": {
-  "temp": 32.0,
-  "peak_off_h": 1.0
- },
- "highest-temperature-in-busan-on-august-9-2026": {
-  "temp": 32.0,
-  "peak_off_h": 3.0
- },
  "highest-temperature-in-cape-town-on-august-13-2026": {
   "temp": 28.0,
   "peak_off_h": 3.0
@@ -1147,10 +1075,6 @@
   "temp": 81.0,
   "peak_off_h": 3.883333333333333
  },
- "highest-temperature-in-seoul-on-august-13-2026": {
-  "temp": 31.0,
-  "peak_off_h": 5.5
- },
  "highest-temperature-in-shanghai-on-august-13-2026": {
   "temp": 29.0,
   "peak_off_h": 3.0
@@ -1166,14 +1090,6 @@
  "highest-temperature-in-taipei-on-august-13-2026": {
   "temp": 36.0,
   "peak_off_h": 0.0
- },
- "highest-temperature-in-tokyo-on-august-13-2026": {
-  "temp": 28.0,
-  "peak_off_h": 2.0
- },
- "highest-temperature-in-tokyo-on-august-9-2026": {
-  "temp": 33.0,
-  "peak_off_h": 3.0
  },
  "highest-temperature-in-toronto-on-august-13-2026": {
   "temp": 28.0,
@@ -1210,10 +1126,6 @@
  "highest-temperature-in-beijing-on-august-16-2026": {
   "temp": 28.0,
   "peak_bj": "2026-08-16 17:00"
- },
- "highest-temperature-in-busan-on-august-16-2026": {
-  "temp": 26.0,
-  "peak_bj": "2026-08-16 22:00"
  },
  "highest-temperature-in-cape-town-on-august-16-2026": {
   "temp": 17.0,
@@ -1327,10 +1239,6 @@
   "temp": 33.0,
   "peak_bj": "2026-08-16 12:00"
  },
- "highest-temperature-in-seoul-on-august-16-2026": {
-  "temp": 27.0,
-  "peak_bj": "2026-08-17 18:00"
- },
  "highest-temperature-in-shanghai-on-august-16-2026": {
   "temp": 29.0,
   "peak_bj": "2026-08-16 16:00"
@@ -1374,10 +1282,6 @@
  "highest-temperature-in-tel-aviv-on-august-16-2026": {
   "temp": 33.0,
   "peak_bj": "2026-08-16 05:20"
- },
- "highest-temperature-in-tokyo-on-august-16-2026": {
-  "temp": 26.0,
-  "peak_bj": "2026-08-17 10:30"
  },
  "highest-temperature-in-warsaw-on-august-16-2026": {
   "temp": 30.0,
@@ -1454,5 +1358,101 @@
  "highest-temperature-in-hong-kong-on-august-9-2026": {
   "temp": 36.0,
   "peak_bj": "2026-08-09 18:00"
+ },
+ "highest-temperature-in-busan-on-august-10-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-08-10 12:00"
+ },
+ "highest-temperature-in-busan-on-august-11-2026": {
+  "temp": 31.0,
+  "peak_bj": "2026-08-11 14:00"
+ },
+ "highest-temperature-in-busan-on-august-12-2026": {
+  "temp": 31.0,
+  "peak_bj": "2026-08-12 12:00"
+ },
+ "highest-temperature-in-busan-on-august-13-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-08-13 12:00"
+ },
+ "highest-temperature-in-busan-on-august-14-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-08-14 14:00"
+ },
+ "highest-temperature-in-busan-on-august-15-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-08-15 15:00"
+ },
+ "highest-temperature-in-busan-on-august-16-2026": {
+  "temp": 26.0,
+  "peak_bj": "2026-08-15 23:00"
+ },
+ "highest-temperature-in-busan-on-august-9-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-08-09 14:00"
+ },
+ "highest-temperature-in-seoul-on-august-10-2026": {
+  "temp": 33.0,
+  "peak_bj": "2026-08-10 14:00"
+ },
+ "highest-temperature-in-seoul-on-august-11-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-08-11 12:30"
+ },
+ "highest-temperature-in-seoul-on-august-12-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-08-12 15:00"
+ },
+ "highest-temperature-in-seoul-on-august-13-2026": {
+  "temp": 31.0,
+  "peak_bj": "2026-08-13 16:30"
+ },
+ "highest-temperature-in-seoul-on-august-14-2026": {
+  "temp": 30.0,
+  "peak_bj": "2026-08-14 16:30"
+ },
+ "highest-temperature-in-seoul-on-august-15-2026": {
+  "temp": 28.0,
+  "peak_bj": "2026-08-15 12:30"
+ },
+ "highest-temperature-in-seoul-on-august-16-2026": {
+  "temp": 27.0,
+  "peak_bj": "2026-08-16 18:00"
+ },
+ "highest-temperature-in-seoul-on-august-9-2026": {
+  "temp": 33.0,
+  "peak_bj": "2026-08-09 15:00"
+ },
+ "highest-temperature-in-tokyo-on-august-10-2026": {
+  "temp": 30.0,
+  "peak_bj": "2026-08-10 13:00"
+ },
+ "highest-temperature-in-tokyo-on-august-11-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-08-11 12:30"
+ },
+ "highest-temperature-in-tokyo-on-august-12-2026": {
+  "temp": 29.0,
+  "peak_bj": "2026-08-12 13:30"
+ },
+ "highest-temperature-in-tokyo-on-august-13-2026": {
+  "temp": 28.0,
+  "peak_bj": "2026-08-13 13:00"
+ },
+ "highest-temperature-in-tokyo-on-august-14-2026": {
+  "temp": 31.0,
+  "peak_bj": "2026-08-14 14:00"
+ },
+ "highest-temperature-in-tokyo-on-august-15-2026": {
+  "temp": 29.0,
+  "peak_bj": "2026-08-15 09:30"
+ },
+ "highest-temperature-in-tokyo-on-august-16-2026": {
+  "temp": 26.0,
+  "peak_bj": "2026-08-16 10:30"
+ },
+ "highest-temperature-in-tokyo-on-august-9-2026": {
+  "temp": 33.0,
+  "peak_bj": "2026-08-09 14:00"
  }
 }
