@@ -1,8 +1,8 @@
 {
  "model": "METEO",
- "n": 194,
+ "n": 195,
  "mae": 0.74,
- "bias": -0.51,
+ "bias": -0.5,
  "rows": [
   {
    "city": "Hong Kong",
@@ -2525,6 +2525,19 @@
    "actual": 31.0,
    "err": 0.0,
    "peak_local": "16:00"
+  },
+  {
+   "city": "Jeddah",
+   "date": "2026-08-17",
+   "date_display": "08/17",
+   "snap_date": "2026-08-17",
+   "time": "19:56",
+   "local_hhmm": "14:56",
+   "hour": 19,
+   "meteo": 41,
+   "actual": 41.0,
+   "err": 0.0,
+   "peak_local": "16:00"
   }
  ],
  "cities": [
@@ -2786,8 +2799,8 @@
   },
   {
    "city": "Jeddah",
-   "n": 5,
-   "mae": 0.6,
+   "n": 6,
+   "mae": 0.5,
    "periods": {
     "15-18": {
      "n": 1,
@@ -2798,7 +2811,7 @@
      "mae": 0.67
     },
     "18-21": {
-     "n": 1,
+     "n": 2,
      "mae": 0.0
     }
    },
