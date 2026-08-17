@@ -92,7 +92,7 @@ def parse_wg_peak(html):
         return None
     return mx[0] + mx[1] / 60.0 - 12.0
 
-async def fetch_wg_peak(client, resolution_source, date_str):
+async def fetch_wg_peak(client, resolution_source, date_str, noon_bj=None):
     """抓取站点该日观测，返回最高温出现时的北京绝对时刻（ISO 字符串）"""
     if not resolution_source:
         return None
@@ -105,7 +105,11 @@ async def fetch_wg_peak(client, resolution_source, date_str):
         off_h = parse_wg_peak(r.content.decode('latin-1'))
         if off_h is None:
             return None
-        nd = noon_abs(date_str, 0) or noon_abs(date_str, 12)
+        if noon_bj is None:
+            return None
+        nd = noon_abs(date_str, noon_bj)
+        if nd is None:
+            return None
         return (nd + timedelta(hours=off_h)).strftime("%Y-%m-%d %H:%M")
     except Exception:
         return None
@@ -266,7 +270,7 @@ async def main():
                 t = get_actual_temp(s, evt)
                 if t is not None:
                     ev_date = evt.get("eventDate", "")
-                    pb = await fetch_wg_peak(client, evt.get("resolutionSource"), ev_date)
+                    pb = await fetch_wg_peak(client, evt.get("resolutionSource"), ev_date, noon_map.get(s))
                     if pb is None:
                         pb = await fetch_metar_peak(client, evt.get("description"), ev_date, noon_map.get(s))
                     actuals[s] = {"temp": t, "peak_bj": pb}
@@ -289,7 +293,7 @@ async def main():
             continue
         err = v["temp"] - act
         rows.append({"city": v["city"], "date": v["date"], "date_display": v["date_display"],
-                     "time": v.get("time", ""), "hour": v.get("hour"),
+                     "snap_date": snap_date, "time": v.get("time", ""), "hour": v.get("hour"),
                      "meteo": v["temp"], "actual": act, "err": round(err, 1)})
 
     if not rows:

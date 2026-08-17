@@ -1203,77 +1203,37 @@
   "temp": 27.0,
   "peak_off_h": 2.0
  },
- "highest-temperature-in-istanbul-on-august-10-2026": {
+ "highest-temperature-in-ankara-on-august-16-2026": {
+  "temp": 27.0,
+  "peak_bj": "2026-08-16 21:50"
+ },
+ "highest-temperature-in-beijing-on-august-16-2026": {
   "temp": 28.0,
-  "peak_bj": "2026-08-16 02:20"
+  "peak_bj": "2026-08-16 17:00"
  },
- "highest-temperature-in-istanbul-on-august-11-2026": {
-  "temp": 27.0,
-  "peak_bj": "2026-08-16 02:20"
- },
- "highest-temperature-in-istanbul-on-august-13-2026": {
-  "temp": 27.0,
-  "peak_bj": "2026-08-16 02:20"
- },
- "highest-temperature-in-istanbul-on-august-14-2026": {
-  "temp": 27.0,
-  "peak_bj": "2026-08-16 02:20"
- },
- "highest-temperature-in-istanbul-on-august-15-2026": {
-  "temp": 27.0,
-  "peak_bj": "2026-08-16 02:20"
- },
- "highest-temperature-in-moscow-on-august-10-2026": {
-  "temp": 24.0,
-  "peak_bj": "2026-08-17 06:30"
- },
- "highest-temperature-in-moscow-on-august-11-2026": {
+ "highest-temperature-in-busan-on-august-16-2026": {
   "temp": 26.0,
-  "peak_bj": "2026-08-17 06:30"
+  "peak_bj": "2026-08-16 23:00"
  },
- "highest-temperature-in-moscow-on-august-12-2026": {
-  "temp": 18.0,
-  "peak_bj": "2026-08-17 06:30"
+ "highest-temperature-in-cape-town-on-august-16-2026": {
+  "temp": 17.0,
+  "peak_bj": "2026-08-16 20:00"
  },
- "highest-temperature-in-moscow-on-august-13-2026": {
-  "temp": 14.0,
-  "peak_bj": "2026-08-17 06:30"
+ "highest-temperature-in-chengdu-on-august-16-2026": {
+  "temp": 30.0,
+  "peak_bj": "2026-08-16 14:00"
  },
- "highest-temperature-in-moscow-on-august-14-2026": {
-  "temp": 18.0,
-  "peak_bj": "2026-08-17 06:30"
+ "highest-temperature-in-chongqing-on-august-16-2026": {
+  "temp": 37.0,
+  "peak_bj": "2026-08-16 16:00"
  },
- "highest-temperature-in-moscow-on-august-15-2026": {
-  "temp": 20.0,
-  "peak_bj": "2026-08-17 06:30"
+ "highest-temperature-in-guangzhou-on-august-16-2026": {
+  "temp": 37.0,
+  "peak_bj": "2026-08-16 15:30"
  },
- "highest-temperature-in-tel-aviv-on-august-10-2026": {
-  "temp": 34.0,
-  "peak_bj": "2026-08-17 00:50"
- },
- "highest-temperature-in-tel-aviv-on-august-11-2026": {
-  "temp": 35.0,
-  "peak_bj": "2026-08-17 00:50"
- },
- "highest-temperature-in-tel-aviv-on-august-12-2026": {
-  "temp": 35.0,
-  "peak_bj": "2026-08-17 00:50"
- },
- "highest-temperature-in-tel-aviv-on-august-13-2026": {
-  "temp": 34.0,
-  "peak_bj": "2026-08-17 00:50"
- },
- "highest-temperature-in-tel-aviv-on-august-14-2026": {
-  "temp": 32.0,
-  "peak_bj": "2026-08-17 00:50"
- },
- "highest-temperature-in-tel-aviv-on-august-15-2026": {
-  "temp": 33.0,
-  "peak_bj": "2026-08-17 00:50"
- },
- "highest-temperature-in-istanbul-on-august-12-2026": {
-  "temp": 28.0,
-  "peak_bj": "2026-08-12 07:20"
+ "highest-temperature-in-helsinki-on-august-16-2026": {
+  "temp": 21.0,
+  "peak_bj": "2026-08-16 18:50"
  },
  "highest-temperature-in-hong-kong-on-august-10-2026": {
   "temp": 35.0,
@@ -1291,6 +1251,158 @@
   "temp": 33.0,
   "peak_bj": "2026-08-13 08:00"
  },
+ "highest-temperature-in-istanbul-on-august-10-2026": {
+  "temp": 28.0,
+  "peak_bj": "2026-08-10 07:50"
+ },
+ "highest-temperature-in-istanbul-on-august-11-2026": {
+  "temp": 27.0,
+  "peak_bj": "2026-08-11 06:20"
+ },
+ "highest-temperature-in-istanbul-on-august-12-2026": {
+  "temp": 28.0,
+  "peak_bj": "2026-08-12 07:20"
+ },
+ "highest-temperature-in-istanbul-on-august-13-2026": {
+  "temp": 27.0,
+  "peak_bj": "2026-08-13 07:20"
+ },
+ "highest-temperature-in-istanbul-on-august-14-2026": {
+  "temp": 27.0,
+  "peak_bj": "2026-08-14 07:50"
+ },
+ "highest-temperature-in-istanbul-on-august-15-2026": {
+  "temp": 27.0,
+  "peak_bj": "2026-08-15 07:50"
+ },
+ "highest-temperature-in-istanbul-on-august-16-2026": {
+  "temp": 26.0,
+  "peak_bj": "2026-08-16 07:50"
+ },
+ "highest-temperature-in-jeddah-on-august-16-2026": {
+  "temp": 38.0,
+  "peak_bj": "2026-08-16 21:00"
+ },
+ "highest-temperature-in-karachi-on-august-16-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-08-16 19:00"
+ },
+ "highest-temperature-in-kuala-lumpur-on-august-16-2026": {
+  "temp": 33.0,
+  "peak_bj": "2026-08-16 15:00"
+ },
+ "highest-temperature-in-lucknow-on-august-16-2026": {
+  "temp": 31.0,
+  "peak_bj": "2026-08-16 18:30"
+ },
+ "highest-temperature-in-madrid-on-august-16-2026": {
+  "temp": 35.0,
+  "peak_bj": "2026-08-17 00:00"
+ },
+ "highest-temperature-in-manila-on-august-16-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-08-16 14:00"
+ },
+ "highest-temperature-in-moscow-on-august-10-2026": {
+  "temp": 24.0,
+  "peak_bj": "2026-08-10 05:30"
+ },
+ "highest-temperature-in-moscow-on-august-11-2026": {
+  "temp": 26.0,
+  "peak_bj": "2026-08-11 05:00"
+ },
+ "highest-temperature-in-moscow-on-august-12-2026": {
+  "temp": 18.0,
+  "peak_bj": "2026-08-12 06:30"
+ },
+ "highest-temperature-in-moscow-on-august-13-2026": {
+  "temp": 14.0,
+  "peak_bj": "2026-08-13 07:00"
+ },
+ "highest-temperature-in-moscow-on-august-14-2026": {
+  "temp": 18.0,
+  "peak_bj": "2026-08-14 05:30"
+ },
+ "highest-temperature-in-moscow-on-august-15-2026": {
+  "temp": 20.0,
+  "peak_bj": "2026-08-15 05:00"
+ },
+ "highest-temperature-in-moscow-on-august-16-2026": {
+  "temp": 24.0,
+  "peak_bj": "2026-08-16 05:00"
+ },
+ "highest-temperature-in-munich-on-august-16-2026": {
+  "temp": 32.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-paris-on-august-16-2026": {
+  "temp": 31.0,
+  "peak_bj": "2026-08-16 22:30"
+ },
+ "highest-temperature-in-qingdao-on-august-16-2026": {
+  "temp": 33.0,
+  "peak_bj": "2026-08-16 12:00"
+ },
+ "highest-temperature-in-seoul-on-august-16-2026": {
+  "temp": 27.0,
+  "peak_bj": "2026-08-17 18:00"
+ },
+ "highest-temperature-in-shanghai-on-august-16-2026": {
+  "temp": 29.0,
+  "peak_bj": "2026-08-16 16:00"
+ },
+ "highest-temperature-in-shenzhen-on-august-16-2026": {
+  "temp": 35.0,
+  "peak_bj": "2026-08-16 16:00"
+ },
+ "highest-temperature-in-singapore-on-august-16-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-08-16 14:30"
+ },
+ "highest-temperature-in-taipei-on-august-16-2026": {
+  "temp": 36.0,
+  "peak_bj": "2026-08-16 11:00"
+ },
+ "highest-temperature-in-tel-aviv-on-august-10-2026": {
+  "temp": 34.0,
+  "peak_bj": "2026-08-10 06:50"
+ },
+ "highest-temperature-in-tel-aviv-on-august-11-2026": {
+  "temp": 35.0,
+  "peak_bj": "2026-08-11 05:20"
+ },
+ "highest-temperature-in-tel-aviv-on-august-12-2026": {
+  "temp": 35.0,
+  "peak_bj": "2026-08-12 05:50"
+ },
+ "highest-temperature-in-tel-aviv-on-august-13-2026": {
+  "temp": 34.0,
+  "peak_bj": "2026-08-13 05:50"
+ },
+ "highest-temperature-in-tel-aviv-on-august-14-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-08-14 06:50"
+ },
+ "highest-temperature-in-tel-aviv-on-august-15-2026": {
+  "temp": 33.0,
+  "peak_bj": "2026-08-15 05:50"
+ },
+ "highest-temperature-in-tel-aviv-on-august-16-2026": {
+  "temp": 33.0,
+  "peak_bj": "2026-08-16 05:20"
+ },
+ "highest-temperature-in-tokyo-on-august-16-2026": {
+  "temp": 26.0,
+  "peak_bj": "2026-08-17 10:30"
+ },
+ "highest-temperature-in-warsaw-on-august-16-2026": {
+  "temp": 30.0,
+  "peak_bj": "2026-08-16 20:00"
+ },
+ "highest-temperature-in-wuhan-on-august-16-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-08-16 18:00"
+ },
  "highest-temperature-in-hong-kong-on-august-9-2026": {
   "temp": 36.0,
   "peak_bj": "2026-08-09 00:00"
@@ -1299,124 +1411,12 @@
   "temp": 27.0,
   "peak_bj": "2026-08-09 07:20"
  },
- "highest-temperature-in-ankara-on-august-16-2026": {
-  "temp": 27.0,
-  "peak_bj": "2026-08-17 04:50"
- },
- "highest-temperature-in-beijing-on-august-16-2026": {
-  "temp": 28.0,
-  "peak_bj": "2026-08-17 05:00"
- },
- "highest-temperature-in-busan-on-august-16-2026": {
-  "temp": 26.0,
-  "peak_bj": "2026-08-16 12:00"
- },
- "highest-temperature-in-cape-town-on-august-16-2026": {
-  "temp": 17.0,
-  "peak_bj": "2026-08-17 02:00"
- },
- "highest-temperature-in-chengdu-on-august-16-2026": {
-  "temp": 30.0,
-  "peak_bj": "2026-08-17 02:00"
- },
- "highest-temperature-in-chongqing-on-august-16-2026": {
-  "temp": 37.0,
-  "peak_bj": "2026-08-17 04:00"
- },
- "highest-temperature-in-guangzhou-on-august-16-2026": {
-  "temp": 37.0,
-  "peak_bj": "2026-08-17 03:30"
- },
- "highest-temperature-in-helsinki-on-august-16-2026": {
-  "temp": 21.0,
-  "peak_bj": "2026-08-17 01:50"
- },
- "highest-temperature-in-istanbul-on-august-16-2026": {
-  "temp": 26.0,
-  "peak_bj": "2026-08-16 07:50"
- },
- "highest-temperature-in-jeddah-on-august-16-2026": {
-  "temp": 38.0,
-  "peak_bj": "2026-08-17 04:00"
- },
- "highest-temperature-in-karachi-on-august-16-2026": {
-  "temp": 32.0,
-  "peak_bj": "2026-08-17 04:00"
- },
- "highest-temperature-in-kuala-lumpur-on-august-16-2026": {
-  "temp": 33.0,
-  "peak_bj": "2026-08-17 03:00"
- },
- "highest-temperature-in-lucknow-on-august-16-2026": {
-  "temp": 31.0,
-  "peak_bj": "2026-08-17 04:30"
- },
- "highest-temperature-in-madrid-on-august-16-2026": {
-  "temp": 35.0,
-  "peak_bj": "2026-08-17 06:00"
- },
- "highest-temperature-in-manila-on-august-16-2026": {
-  "temp": 32.0,
-  "peak_bj": "2026-08-17 02:00"
- },
- "highest-temperature-in-moscow-on-august-16-2026": {
-  "temp": 24.0,
-  "peak_bj": "2026-08-16 05:00"
- },
- "highest-temperature-in-munich-on-august-16-2026": {
-  "temp": 32.0,
-  "peak_bj": "2026-08-17 04:20"
- },
- "highest-temperature-in-paris-on-august-16-2026": {
-  "temp": 31.0,
-  "peak_bj": "2026-08-17 04:30"
- },
- "highest-temperature-in-qingdao-on-august-16-2026": {
-  "temp": 33.0,
-  "peak_bj": "2026-08-17 00:00"
- },
- "highest-temperature-in-seoul-on-august-16-2026": {
-  "temp": 27.0,
-  "peak_bj": "2026-08-17 07:00"
- },
- "highest-temperature-in-shanghai-on-august-16-2026": {
-  "temp": 29.0,
-  "peak_bj": "2026-08-17 04:00"
- },
- "highest-temperature-in-shenzhen-on-august-16-2026": {
-  "temp": 35.0,
-  "peak_bj": "2026-08-17 04:00"
- },
- "highest-temperature-in-singapore-on-august-16-2026": {
-  "temp": 32.0,
-  "peak_bj": "2026-08-17 02:30"
- },
- "highest-temperature-in-taipei-on-august-16-2026": {
-  "temp": 36.0,
-  "peak_bj": "2026-08-16 23:00"
- },
- "highest-temperature-in-tel-aviv-on-august-16-2026": {
-  "temp": 33.0,
-  "peak_bj": "2026-08-16 05:20"
- },
- "highest-temperature-in-tokyo-on-august-16-2026": {
-  "temp": 26.0,
-  "peak_bj": "2026-08-16 23:30"
- },
- "highest-temperature-in-warsaw-on-august-16-2026": {
-  "temp": 30.0,
-  "peak_bj": "2026-08-17 02:00"
- },
- "highest-temperature-in-wuhan-on-august-16-2026": {
-  "temp": 32.0,
-  "peak_bj": "2026-08-17 06:00"
- },
  "highest-temperature-in-jinan-on-august-16-2026": {
   "temp": 26.0,
-  "peak_bj": "2026-08-17 00:00"
+  "peak_bj": "2026-08-16 20:00"
  },
  "highest-temperature-in-zhengzhou-on-august-16-2026": {
   "temp": 32.0,
-  "peak_bj": "2026-08-17 03:00"
+  "peak_bj": "2026-08-16 23:00"
  }
 }
