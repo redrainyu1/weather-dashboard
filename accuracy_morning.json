@@ -1,8 +1,8 @@
 {
  "model": "METEO",
- "n": 29,
- "mae": 0.93,
- "bias": -0.86,
+ "n": 30,
+ "mae": 0.97,
+ "bias": -0.9,
  "rows": [
   {
    "city": "Wellington",
@@ -369,6 +369,19 @@
    "peak_local": "11:30"
   },
   {
+   "city": "Los Angeles",
+   "date": "2026-08-16",
+   "date_display": "08/16",
+   "snap_date": "2026-08-16",
+   "time": "06:03",
+   "local_hhmm": "15:03",
+   "hour": 6,
+   "meteo": 75,
+   "actual": 77.0,
+   "err": -2.0,
+   "peak_local": "15:53"
+  },
+  {
    "city": "Seattle",
    "date": "2026-08-16",
    "date_display": "08/16",
@@ -427,6 +440,18 @@
     "09-12": {
      "n": 1,
      "mae": 0.0
+    }
+   },
+   "best_period": null
+  },
+  {
+   "city": "Los Angeles",
+   "n": 1,
+   "mae": 2.0,
+   "periods": {
+    "06-09": {
+     "n": 1,
+     "mae": 2.0
     }
    },
    "best_period": null

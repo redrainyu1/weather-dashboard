@@ -1530,5 +1530,17 @@
  "highest-temperature-in-seattle-on-august-16-2026": {
   "temp": 75.0,
   "peak_bj": "2026-08-17 07:53"
+ },
+ "highest-temperature-in-denver-on-august-16-2026": {
+  "temp": 83.0,
+  "peak_bj": "2026-08-17 02:58"
+ },
+ "highest-temperature-in-los-angeles-on-august-16-2026": {
+  "temp": 77.0,
+  "peak_bj": "2026-08-17 06:53"
+ },
+ "highest-temperature-in-san-francisco-on-august-16-2026": {
+  "temp": 69.0,
+  "peak_bj": "2026-08-17 04:56"
  }
 }
