@@ -1574,5 +1574,21 @@
  "highest-temperature-in-tokyo-on-august-17-2026": {
   "temp": 29.0,
   "peak_bj": "2026-08-17 15:30"
+ },
+ "highest-temperature-in-chongqing-on-august-17-2026": {
+  "temp": 36.0,
+  "peak_bj": "2026-08-17 16:00"
+ },
+ "highest-temperature-in-shenzhen-on-august-17-2026": {
+  "temp": 34.0,
+  "peak_bj": "2026-08-17 12:00"
+ },
+ "highest-temperature-in-taipei-on-august-17-2026": {
+  "temp": 36.0,
+  "peak_bj": "2026-08-17 12:00"
+ },
+ "highest-temperature-in-wuhan-on-august-17-2026": {
+  "temp": 34.0,
+  "peak_bj": "2026-08-17 15:00"
  }
 }
