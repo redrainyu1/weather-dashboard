@@ -57,11 +57,35 @@ def index():
     resp.headers['Cache-Control'] = 'no-cache'
     return resp
 
+def _attach_actual_peaks(data):
+    """给快照行附实际峰值时刻（来自 actuals.json 的 peak_bj，当地 HH:MM）"""
+    try:
+        import accuracy as acc
+        from datetime import datetime
+        actuals = acc.load_actuals()
+        for row in data.get("rows", []):
+            for key in ("highest", "lowest"):
+                h = row.get(key)
+                if not h or not h.get("slug"):
+                    continue
+                act = actuals.get(h["slug"])
+                pb = act.get("peak_bj") if isinstance(act, dict) else None
+                if not pb or h.get("noon_bj") is None:
+                    continue
+                try:
+                    local = acc.bj_to_local(datetime.strptime(pb, "%Y-%m-%d %H:%M"), h["noon_bj"])
+                    h["actual_peak"] = local.strftime("%H:%M") if local else None
+                except Exception:
+                    h["actual_peak"] = None
+    except Exception:
+        pass
+
 @app.route('/api/data')
 def api_data():
     try:
         with open(_cache_file, 'r', encoding='utf-8') as f:
             data = json.load(f)
+        _attach_actual_peaks(data)
         return jsonify({"status": "ready", "data": data, "updated_at": data.get("updated_at"), "errors": []})
     except FileNotFoundError:
         return jsonify({"status": "no_data", "data": None})

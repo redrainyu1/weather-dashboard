@@ -344,7 +344,14 @@ async def main():
         act = actuals.get(slug)
         if act is None:
             continue
+        peak_local = None
         if isinstance(act, dict):
+            pb = act.get("peak_bj")
+            if pb and v.get("noon_bj") is not None:
+                try:
+                    peak_local = bj_to_local(datetime.strptime(pb, "%Y-%m-%d %H:%M"), v["noon_bj"]).strftime("%H:%M")
+                except Exception:
+                    peak_local = None
             act = act.get("temp")
         if act is None:
             continue
@@ -352,7 +359,8 @@ async def main():
         rows.append({"city": v["city"], "date": v["date"], "date_display": v["date_display"],
                      "snap_date": snap_date, "time": v.get("time", ""),
                      "local_hhmm": v.get("local_hhmm", ""), "hour": v.get("hour"),
-                     "meteo": v["temp"], "actual": act, "err": round(err, 1)})
+                     "meteo": v["temp"], "actual": act, "err": round(err, 1),
+                     "peak_local": peak_local})
 
     if not rows:
         print("无已结算数据")
