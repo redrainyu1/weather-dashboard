@@ -1,9 +1,21 @@
 {
  "model": "METEO",
- "n": 321,
+ "n": 326,
  "mae": 1.13,
- "bias": -0.83,
+ "bias": -0.81,
  "rows": [
+  {
+   "city": "Hong Kong",
+   "date": "2026-08-09",
+   "date_display": "08/09",
+   "snap_date": "2026-08-09",
+   "time": "16:51",
+   "local_hhmm": "16:51",
+   "hour": 16,
+   "meteo": 36,
+   "actual": 36.0,
+   "err": 0.0
+  },
   {
    "city": "Madrid",
    "date": "2026-08-09",
@@ -195,6 +207,18 @@
    "meteo": 14,
    "actual": 15.0,
    "err": -1.0
+  },
+  {
+   "city": "Hong Kong",
+   "date": "2026-08-10",
+   "date_display": "08/10",
+   "snap_date": "2026-08-10",
+   "time": "17:25",
+   "local_hhmm": "17:25",
+   "hour": 17,
+   "meteo": 36,
+   "actual": 35.0,
+   "err": 1.0
   },
   {
    "city": "Kuala Lumpur",
@@ -869,6 +893,18 @@
    "err": -1.0
   },
   {
+   "city": "Hong Kong",
+   "date": "2026-08-11",
+   "date_display": "08/11",
+   "snap_date": "2026-08-11",
+   "time": "14:09",
+   "local_hhmm": "14:09",
+   "hour": 14,
+   "meteo": 36,
+   "actual": 35.0,
+   "err": 1.0
+  },
+  {
    "city": "Jeddah",
    "date": "2026-08-11",
    "date_display": "08/11",
@@ -1431,6 +1467,18 @@
    "meteo": 17,
    "actual": 17.0,
    "err": 0.0
+  },
+  {
+   "city": "Hong Kong",
+   "date": "2026-08-12",
+   "date_display": "08/12",
+   "snap_date": "2026-08-12",
+   "time": "16:30",
+   "local_hhmm": "16:30",
+   "hour": 16,
+   "meteo": 35,
+   "actual": 34.0,
+   "err": 1.0
   },
   {
    "city": "Jeddah",
@@ -2007,6 +2055,18 @@
    "meteo": 19,
    "actual": 19.0,
    "err": 0.0
+  },
+  {
+   "city": "Hong Kong",
+   "date": "2026-08-13",
+   "date_display": "08/13",
+   "snap_date": "2026-08-13",
+   "time": "12:50",
+   "local_hhmm": "12:50",
+   "hour": 12,
+   "meteo": 34,
+   "actual": 33.0,
+   "err": 1.0
   },
   {
    "city": "Jeddah",
@@ -4093,6 +4153,22 @@
     }
    },
    "best_period": "21-24"
+  },
+  {
+   "city": "Hong Kong",
+   "n": 5,
+   "mae": 0.8,
+   "periods": {
+    "15-18": {
+     "n": 3,
+     "mae": 0.67
+    },
+    "12-15": {
+     "n": 2,
+     "mae": 1.0
+    }
+   },
+   "best_period": "15-18"
   },
   {
    "city": "Houston",

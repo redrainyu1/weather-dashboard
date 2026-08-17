@@ -149,6 +149,13 @@ async def fetch_metar_peak(client, description, event_date, noon_bj=None):
         if off > 12:
             off -= 24
     url = f"https://aviationweather.gov/api/data/metar?ids={site}&date={event_date}T00:00:00Z&hours=48&format=json&taf=false"
+    if off is not None:
+        # NOAA date 参数是窗口"结束"时间（往前 hours 小时）。
+        # 本地 event_date 00:00 对应 UTC = event_dateT00:00Z - off，
+        # 窗口结束 = 本地 event_date 次日 00:00 的 UTC = event_dateT00:00Z + (24-off)h，
+        # hours=48 后仍比本地全天多出 off+24h，保证当地一整天观测都在窗口内。
+        end_utc = (datetime.strptime(event_date, "%Y-%m-%d") + timedelta(hours=48 - off)).strftime("%Y-%m-%dT%H:%M:%SZ")
+        url = f"https://aviationweather.gov/api/data/metar?ids={site}&date={end_utc}&hours=48&format=json&taf=false"
     try:
         r = await client.get(url)
         if r.status_code != 200:
