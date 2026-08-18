@@ -1,8 +1,8 @@
 {
  "model": "METEO",
- "n": 243,
- "mae": 0.68,
- "bias": -0.47,
+ "n": 253,
+ "mae": 0.66,
+ "bias": -0.45,
  "rows": [
   {
    "city": "Hong Kong",
@@ -2956,6 +2956,19 @@
    "peak_local": "15:00"
   },
   {
+   "city": "Beijing",
+   "date": "2026-08-18",
+   "date_display": "08/18",
+   "snap_date": "2026-08-18",
+   "time": "14:41",
+   "local_hhmm": "14:41",
+   "hour": 14,
+   "meteo": 32,
+   "actual": 32.0,
+   "err": 0.0,
+   "peak_local": "15:30"
+  },
+  {
    "city": "Chongqing",
    "date": "2026-08-18",
    "date_display": "08/18",
@@ -3047,6 +3060,32 @@
    "peak_local": "15:00"
   },
   {
+   "city": "Singapore",
+   "date": "2026-08-18",
+   "date_display": "08/18",
+   "snap_date": "2026-08-18",
+   "time": "14:41",
+   "local_hhmm": "14:41",
+   "hour": 14,
+   "meteo": 33,
+   "actual": 33.0,
+   "err": 0.0,
+   "peak_local": "15:30"
+  },
+  {
+   "city": "Taipei",
+   "date": "2026-08-18",
+   "date_display": "08/18",
+   "snap_date": "2026-08-18",
+   "time": "13:49",
+   "local_hhmm": "13:49",
+   "hour": 13,
+   "meteo": 35,
+   "actual": 34.0,
+   "err": 1.0,
+   "peak_local": "14:30"
+  },
+  {
    "city": "Wuhan",
    "date": "2026-08-18",
    "date_display": "08/18",
@@ -3112,6 +3151,32 @@
    "peak_local": "17:50"
   },
   {
+   "city": "Istanbul",
+   "date": "2026-08-18",
+   "date_display": "08/18",
+   "snap_date": "2026-08-18",
+   "time": "20:53",
+   "local_hhmm": "15:53",
+   "hour": 20,
+   "meteo": 32,
+   "actual": 32.0,
+   "err": 0.0,
+   "peak_local": "17:50"
+  },
+  {
+   "city": "Jeddah",
+   "date": "2026-08-18",
+   "date_display": "08/18",
+   "snap_date": "2026-08-18",
+   "time": "18:49",
+   "local_hhmm": "13:49",
+   "hour": 18,
+   "meteo": 38,
+   "actual": 38.0,
+   "err": 0.0,
+   "peak_local": "15:00"
+  },
+  {
    "city": "Moscow",
    "date": "2026-08-18",
    "date_display": "08/18",
@@ -3136,6 +3201,71 @@
    "actual": 32.0,
    "err": -1.0,
    "peak_local": "14:20"
+  },
+  {
+   "city": "Amsterdam",
+   "date": "2026-08-18",
+   "date_display": "08/18",
+   "snap_date": "2026-08-18",
+   "time": "00:00",
+   "local_hhmm": "18:00",
+   "hour": 0,
+   "meteo": 21,
+   "actual": 21.0,
+   "err": 0.0,
+   "peak_local": "18:55"
+  },
+  {
+   "city": "Cape Town",
+   "date": "2026-08-18",
+   "date_display": "08/18",
+   "snap_date": "2026-08-18",
+   "time": "19:53",
+   "local_hhmm": "13:53",
+   "hour": 19,
+   "meteo": 19,
+   "actual": 19.0,
+   "err": 0.0,
+   "peak_local": "15:00"
+  },
+  {
+   "city": "Madrid",
+   "date": "2026-08-18",
+   "date_display": "08/18",
+   "snap_date": "2026-08-18",
+   "time": "00:00",
+   "local_hhmm": "18:00",
+   "hour": 0,
+   "meteo": 39,
+   "actual": 39.0,
+   "err": 0.0,
+   "peak_local": "19:00"
+  },
+  {
+   "city": "Milan",
+   "date": "2026-08-18",
+   "date_display": "08/18",
+   "snap_date": "2026-08-18",
+   "time": "00:00",
+   "local_hhmm": "18:00",
+   "hour": 0,
+   "meteo": 32,
+   "actual": 32.0,
+   "err": 0.0,
+   "peak_local": "18:50"
+  },
+  {
+   "city": "Munich",
+   "date": "2026-08-18",
+   "date_display": "08/18",
+   "snap_date": "2026-08-18",
+   "time": "21:51",
+   "local_hhmm": "15:51",
+   "hour": 21,
+   "meteo": 20,
+   "actual": 20.0,
+   "err": 0.0,
+   "peak_local": "16:50"
   },
   {
    "city": "Paris",
@@ -3167,11 +3297,15 @@
  "cities": [
   {
    "city": "Amsterdam",
-   "n": 4,
+   "n": 5,
    "mae": 0.0,
    "periods": {
     "21-24": {
      "n": 4,
+     "mae": 0.0
+    },
+    "其他": {
+     "n": 1,
      "mae": 0.0
     }
    },
@@ -3223,19 +3357,19 @@
   },
   {
    "city": "Beijing",
-   "n": 5,
-   "mae": 0.6,
+   "n": 6,
+   "mae": 0.5,
    "periods": {
     "12-15": {
-     "n": 2,
-     "mae": 0.5
+     "n": 3,
+     "mae": 0.33
     },
     "15-18": {
      "n": 3,
      "mae": 0.67
     }
    },
-   "best_period": "15-18"
+   "best_period": "12-15"
   },
   {
    "city": "Buenos Aires",
@@ -3279,11 +3413,11 @@
   },
   {
    "city": "Cape Town",
-   "n": 6,
-   "mae": 0.33,
+   "n": 7,
+   "mae": 0.29,
    "periods": {
     "18-21": {
-     "n": 3,
+     "n": 4,
      "mae": 0.0
     },
     "21-24": {
@@ -3438,9 +3572,21 @@
    "best_period": null
   },
   {
+   "city": "Istanbul",
+   "n": 1,
+   "mae": 0.0,
+   "periods": {
+    "18-21": {
+     "n": 1,
+     "mae": 0.0
+    }
+   },
+   "best_period": null
+  },
+  {
    "city": "Jeddah",
-   "n": 6,
-   "mae": 0.5,
+   "n": 7,
+   "mae": 0.43,
    "periods": {
     "15-18": {
      "n": 1,
@@ -3451,11 +3597,11 @@
      "mae": 0.67
     },
     "18-21": {
-     "n": 2,
+     "n": 3,
      "mae": 0.0
     }
    },
-   "best_period": "21-24"
+   "best_period": "18-21"
   },
   {
    "city": "Jinan",
@@ -3551,12 +3697,16 @@
   },
   {
    "city": "Madrid",
-   "n": 4,
-   "mae": 1.0,
+   "n": 5,
+   "mae": 0.8,
    "periods": {
     "21-24": {
      "n": 4,
      "mae": 1.0
+    },
+    "其他": {
+     "n": 1,
+     "mae": 0.0
     }
    },
    "best_period": "21-24"
@@ -3611,8 +3761,8 @@
   },
   {
    "city": "Milan",
-   "n": 5,
-   "mae": 0.4,
+   "n": 6,
+   "mae": 0.33,
    "periods": {
     "21-24": {
      "n": 4,
@@ -3621,6 +3771,10 @@
     "18-21": {
      "n": 1,
      "mae": 1.0
+    },
+    "其他": {
+     "n": 1,
+     "mae": 0.0
     }
    },
    "best_period": "21-24"
@@ -3639,12 +3793,12 @@
   },
   {
    "city": "Munich",
-   "n": 7,
-   "mae": 0.43,
+   "n": 8,
+   "mae": 0.38,
    "periods": {
     "21-24": {
-     "n": 4,
-     "mae": 0.5
+     "n": 5,
+     "mae": 0.4
     },
     "18-21": {
      "n": 2,
@@ -3823,12 +3977,12 @@
   },
   {
    "city": "Singapore",
-   "n": 5,
-   "mae": 0.4,
+   "n": 6,
+   "mae": 0.33,
    "periods": {
     "12-15": {
-     "n": 3,
-     "mae": 0.33
+     "n": 4,
+     "mae": 0.25
     },
     "15-18": {
      "n": 2,
@@ -3839,19 +3993,19 @@
   },
   {
    "city": "Taipei",
-   "n": 5,
-   "mae": 1.6,
+   "n": 6,
+   "mae": 1.5,
    "periods": {
     "12-15": {
-     "n": 2,
-     "mae": 1.5
+     "n": 3,
+     "mae": 1.33
     },
     "09-12": {
      "n": 3,
      "mae": 1.67
     }
    },
-   "best_period": "09-12"
+   "best_period": "12-15"
   },
   {
    "city": "Tel Aviv",
