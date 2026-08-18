@@ -1694,5 +1694,25 @@
  "highest-temperature-in-panama-city-on-august-17-2026": {
   "temp": 26.0,
   "peak_bj": "2026-08-17 23:05"
+ },
+ "highest-temperature-in-austin-on-august-17-2026": {
+  "temp": 103.0,
+  "peak_bj": "2026-08-18 05:53"
+ },
+ "highest-temperature-in-dallas-on-august-17-2026": {
+  "temp": 105.0,
+  "peak_bj": "2026-08-18 06:53"
+ },
+ "highest-temperature-in-houston-on-august-17-2026": {
+  "temp": 97.0,
+  "peak_bj": "2026-08-18 05:53"
+ },
+ "highest-temperature-in-milan-on-august-17-2026": {
+  "temp": 31.0,
+  "peak_bj": "2026-08-18 01:20"
+ },
+ "highest-temperature-in-warsaw-on-august-17-2026": {
+  "temp": 24.0,
+  "peak_bj": "2026-08-17 23:00"
  }
 }
