@@ -1662,5 +1662,9 @@
  "highest-temperature-in-london-on-august-17-2026": {
   "temp": 27.0,
   "peak_bj": "2026-08-18 01:20"
+ },
+ "highest-temperature-in-hong-kong-on-august-17-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-08-17 14:00"
  }
 }
