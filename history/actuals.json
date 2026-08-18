@@ -1794,5 +1794,29 @@
  "highest-temperature-in-manila-on-august-18-2026": {
   "temp": 29.0,
   "peak_bj": "2026-08-18 13:00"
+ },
+ "highest-temperature-in-ankara-on-august-18-2026": {
+  "temp": 30.0,
+  "peak_bj": "2026-08-18 22:50"
+ },
+ "highest-temperature-in-paris-on-august-18-2026": {
+  "temp": 27.0,
+  "peak_bj": "2026-08-18 22:30"
+ },
+ "highest-temperature-in-qingdao-on-august-18-2026": {
+  "temp": 33.0,
+  "peak_bj": "2026-08-18 15:00"
+ },
+ "highest-temperature-in-shanghai-on-august-18-2026": {
+  "temp": 31.0,
+  "peak_bj": "2026-08-18 16:30"
+ },
+ "highest-temperature-in-tel-aviv-on-august-18-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-08-18 19:20"
+ },
+ "highest-temperature-in-warsaw-on-august-18-2026": {
+  "temp": 21.0,
+  "peak_bj": "2026-08-18 21:00"
  }
 }
