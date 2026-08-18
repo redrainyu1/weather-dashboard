@@ -1770,5 +1770,9 @@
  "highest-temperature-in-shenzhen-on-august-18-2026": {
   "temp": 34.0,
   "peak_bj": "2026-08-18 15:00"
+ },
+ "highest-temperature-in-kuala-lumpur-on-august-18-2026": {
+  "temp": 33.0,
+  "peak_bj": "2026-08-18 17:00"
  }
 }

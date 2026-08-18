@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 231,
+ "n": 232,
  "mae": 0.69,
  "bias": -0.47,
  "rows": [
@@ -2982,6 +2982,19 @@
    "peak_local": "18:00"
   },
   {
+   "city": "Kuala Lumpur",
+   "date": "2026-08-18",
+   "date_display": "08/18",
+   "snap_date": "2026-08-18",
+   "time": "15:39",
+   "local_hhmm": "15:39",
+   "hour": 15,
+   "meteo": 33,
+   "actual": 33.0,
+   "err": 0.0,
+   "peak_local": "17:00"
+  },
+  {
    "city": "Shenzhen",
    "date": "2026-08-18",
    "date_display": "08/18",
@@ -3335,19 +3348,19 @@
   },
   {
    "city": "Kuala Lumpur",
-   "n": 7,
-   "mae": 0.71,
+   "n": 8,
+   "mae": 0.62,
    "periods": {
     "12-15": {
      "n": 5,
      "mae": 1.0
     },
     "15-18": {
-     "n": 2,
+     "n": 3,
      "mae": 0.0
     }
    },
-   "best_period": "12-15"
+   "best_period": "15-18"
   },
   {
    "city": "London",
