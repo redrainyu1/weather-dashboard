@@ -1,8 +1,8 @@
 {
  "model": "METEO",
- "n": 230,
+ "n": 231,
  "mae": 0.69,
- "bias": -0.46,
+ "bias": -0.47,
  "rows": [
   {
    "city": "Hong Kong",
@@ -2982,6 +2982,19 @@
    "peak_local": "18:00"
   },
   {
+   "city": "Shenzhen",
+   "date": "2026-08-18",
+   "date_display": "08/18",
+   "snap_date": "2026-08-18",
+   "time": "13:49",
+   "local_hhmm": "13:49",
+   "hour": 13,
+   "meteo": 32,
+   "actual": 34.0,
+   "err": -2.0,
+   "peak_local": "15:00"
+  },
+  {
    "city": "Wuhan",
    "date": "2026-08-18",
    "date_display": "08/18",
@@ -3626,7 +3639,7 @@
   },
   {
    "city": "Shenzhen",
-   "n": 8,
+   "n": 9,
    "mae": 2.0,
    "periods": {
     "15-18": {
@@ -3634,8 +3647,8 @@
      "mae": 1.0
     },
     "12-15": {
-     "n": 5,
-     "mae": 2.4
+     "n": 6,
+     "mae": 2.33
     },
     "06-09": {
      "n": 1,
