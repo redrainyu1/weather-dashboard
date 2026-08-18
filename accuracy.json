@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 234,
+ "n": 235,
  "mae": 0.68,
  "bias": -0.46,
  "rows": [
@@ -3045,6 +3045,19 @@
    "actual": 31.0,
    "err": 0.0,
    "peak_local": "15:00"
+  },
+  {
+   "city": "Moscow",
+   "date": "2026-08-18",
+   "date_display": "08/18",
+   "snap_date": "2026-08-18",
+   "time": "20:32",
+   "local_hhmm": "15:32",
+   "hour": 20,
+   "meteo": 22,
+   "actual": 22.0,
+   "err": 0.0,
+   "peak_local": "16:30"
   }
  ],
  "cities": [
@@ -3510,11 +3523,11 @@
   },
   {
    "city": "Moscow",
-   "n": 1,
+   "n": 2,
    "mae": 0.0,
    "periods": {
     "18-21": {
-     "n": 1,
+     "n": 2,
      "mae": 0.0
     }
    },

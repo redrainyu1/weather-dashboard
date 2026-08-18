@@ -1782,5 +1782,9 @@
  "highest-temperature-in-lucknow-on-august-18-2026": {
   "temp": 31.0,
   "peak_bj": "2026-08-18 17:00"
+ },
+ "highest-temperature-in-moscow-on-august-18-2026": {
+  "temp": 22.0,
+  "peak_bj": "2026-08-18 21:30"
  }
 }
