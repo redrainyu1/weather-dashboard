@@ -1,8 +1,8 @@
 {
  "model": "METEO",
- "n": 224,
+ "n": 225,
  "mae": 0.7,
- "bias": -0.46,
+ "bias": -0.47,
  "rows": [
   {
    "city": "Hong Kong",
@@ -2915,6 +2915,19 @@
    "actual": 12.0,
    "err": 0.0,
    "peak_local": "13:30"
+  },
+  {
+   "city": "Tokyo",
+   "date": "2026-08-18",
+   "date_display": "08/18",
+   "snap_date": "2026-08-18",
+   "time": "12:59",
+   "local_hhmm": "13:59",
+   "hour": 12,
+   "meteo": 30,
+   "actual": 31.0,
+   "err": -1.0,
+   "peak_local": "15:00"
   }
  ],
  "cities": [
@@ -3612,12 +3625,12 @@
   },
   {
    "city": "Tokyo",
-   "n": 9,
-   "mae": 0.56,
+   "n": 10,
+   "mae": 0.6,
    "periods": {
     "12-15": {
-     "n": 5,
-     "mae": 0.6
+     "n": 6,
+     "mae": 0.67
     },
     "09-12": {
      "n": 4,

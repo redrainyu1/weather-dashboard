@@ -1742,5 +1742,9 @@
  "highest-temperature-in-wellington-on-august-18-2026": {
   "temp": 12.0,
   "peak_bj": "2026-08-18 09:30"
+ },
+ "highest-temperature-in-tokyo-on-august-18-2026": {
+  "temp": 31.0,
+  "peak_bj": "2026-08-18 14:00"
  }
 }
