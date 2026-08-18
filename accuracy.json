@@ -1,7 +1,7 @@
 {
  "model": "METEO",
- "n": 211,
- "mae": 0.71,
+ "n": 215,
+ "mae": 0.7,
  "bias": -0.47,
  "rows": [
   {
@@ -2735,6 +2735,45 @@
    "peak_local": "15:00"
   },
   {
+   "city": "Atlanta",
+   "date": "2026-08-17",
+   "date_display": "08/17",
+   "snap_date": "2026-08-17",
+   "time": "01:39",
+   "local_hhmm": "13:39",
+   "hour": 1,
+   "meteo": 99,
+   "actual": 99.0,
+   "err": 0.0,
+   "peak_local": "14:52"
+  },
+  {
+   "city": "Miami",
+   "date": "2026-08-17",
+   "date_display": "08/17",
+   "snap_date": "2026-08-17",
+   "time": "01:39",
+   "local_hhmm": "13:39",
+   "hour": 1,
+   "meteo": 95,
+   "actual": 95.0,
+   "err": 0.0,
+   "peak_local": "14:53"
+  },
+  {
+   "city": "Nyc",
+   "date": "2026-08-17",
+   "date_display": "08/17",
+   "snap_date": "2026-08-17",
+   "time": "03:02",
+   "local_hhmm": "15:02",
+   "hour": 3,
+   "meteo": 79,
+   "actual": 81.0,
+   "err": -2.0,
+   "peak_local": "16:24"
+  },
+  {
    "city": "Toronto",
    "date": "2026-08-17",
    "date_display": "08/17",
@@ -2746,6 +2785,19 @@
    "actual": 26.0,
    "err": 0.0,
    "peak_local": "17:00"
+  },
+  {
+   "city": "Panama City",
+   "date": "2026-08-17",
+   "date_display": "08/17",
+   "snap_date": "2026-08-17",
+   "time": "21:54",
+   "local_hhmm": "08:54",
+   "hour": 21,
+   "meteo": 26,
+   "actual": 26.0,
+   "err": 0.0,
+   "peak_local": "10:05"
   }
  ],
  "cities": [
@@ -2783,11 +2835,11 @@
   },
   {
    "city": "Atlanta",
-   "n": 1,
+   "n": 2,
    "mae": 0.0,
    "periods": {
     "其他": {
-     "n": 1,
+     "n": 2,
      "mae": 0.0
     }
    },
@@ -3171,11 +3223,11 @@
   },
   {
    "city": "Miami",
-   "n": 1,
+   "n": 2,
    "mae": 0.0,
    "periods": {
     "其他": {
-     "n": 1,
+     "n": 2,
      "mae": 0.0
     }
    },
@@ -3231,23 +3283,27 @@
   },
   {
    "city": "Nyc",
-   "n": 1,
-   "mae": 0.0,
+   "n": 2,
+   "mae": 1.0,
    "periods": {
     "21-24": {
      "n": 1,
      "mae": 0.0
+    },
+    "其他": {
+     "n": 1,
+     "mae": 2.0
     }
    },
    "best_period": null
   },
   {
    "city": "Panama City",
-   "n": 1,
+   "n": 2,
    "mae": 0.0,
    "periods": {
     "21-24": {
-     "n": 1,
+     "n": 2,
      "mae": 0.0
     }
    },
