@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 235,
+ "n": 237,
  "mae": 0.68,
  "bias": -0.46,
  "rows": [
@@ -2995,6 +2995,19 @@
    "peak_local": "17:00"
   },
   {
+   "city": "Manila",
+   "date": "2026-08-18",
+   "date_display": "08/18",
+   "snap_date": "2026-08-18",
+   "time": "11:54",
+   "local_hhmm": "11:54",
+   "hour": 11,
+   "meteo": 28,
+   "actual": 29.0,
+   "err": -1.0,
+   "peak_local": "13:00"
+  },
+  {
    "city": "Shenzhen",
    "date": "2026-08-18",
    "date_display": "08/18",
@@ -3045,6 +3058,19 @@
    "actual": 31.0,
    "err": 0.0,
    "peak_local": "15:00"
+  },
+  {
+   "city": "Helsinki",
+   "date": "2026-08-18",
+   "date_display": "08/18",
+   "snap_date": "2026-08-18",
+   "time": "20:53",
+   "local_hhmm": "15:53",
+   "hour": 20,
+   "meteo": 19,
+   "actual": 20.0,
+   "err": -1.0,
+   "peak_local": "17:50"
   },
   {
    "city": "Moscow",
@@ -3287,8 +3313,8 @@
   },
   {
    "city": "Helsinki",
-   "n": 7,
-   "mae": 0.29,
+   "n": 8,
+   "mae": 0.38,
    "periods": {
     "15-18": {
      "n": 2,
@@ -3299,8 +3325,8 @@
      "mae": 0.0
     },
     "18-21": {
-     "n": 2,
-     "mae": 0.0
+     "n": 3,
+     "mae": 0.33
     }
    },
    "best_period": "21-24"
@@ -3459,16 +3485,16 @@
   },
   {
    "city": "Manila",
-   "n": 8,
-   "mae": 0.62,
+   "n": 9,
+   "mae": 0.67,
    "periods": {
     "12-15": {
      "n": 4,
      "mae": 0.25
     },
     "09-12": {
-     "n": 2,
-     "mae": 1.5
+     "n": 3,
+     "mae": 1.33
     },
     "06-09": {
      "n": 1,

@@ -1786,5 +1786,13 @@
  "highest-temperature-in-moscow-on-august-18-2026": {
   "temp": 22.0,
   "peak_bj": "2026-08-18 21:30"
+ },
+ "highest-temperature-in-helsinki-on-august-18-2026": {
+  "temp": 20.0,
+  "peak_bj": "2026-08-18 22:50"
+ },
+ "highest-temperature-in-manila-on-august-18-2026": {
+  "temp": 29.0,
+  "peak_bj": "2026-08-18 13:00"
  }
 }
