@@ -1658,5 +1658,9 @@
  "highest-temperature-in-amsterdam-on-august-17-2026": {
   "temp": 21.0,
   "peak_bj": "2026-08-17 22:55"
+ },
+ "highest-temperature-in-london-on-august-17-2026": {
+  "temp": 27.0,
+  "peak_bj": "2026-08-18 01:20"
  }
 }
