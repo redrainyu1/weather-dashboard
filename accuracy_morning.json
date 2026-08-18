@@ -1,8 +1,8 @@
 {
  "model": "METEO",
- "n": 35,
+ "n": 37,
  "mae": 1.03,
- "bias": -0.91,
+ "bias": -0.92,
  "rows": [
   {
    "city": "Wellington",
@@ -458,6 +458,32 @@
    "actual": 15.0,
    "err": 1.0,
    "peak_local": "01:00"
+  },
+  {
+   "city": "Denver",
+   "date": "2026-08-17",
+   "date_display": "08/17",
+   "snap_date": "2026-08-17",
+   "time": "06:00",
+   "local_hhmm": "16:00",
+   "hour": 6,
+   "meteo": 91,
+   "actual": 93.0,
+   "err": -2.0,
+   "peak_local": "16:58"
+  },
+  {
+   "city": "Seattle",
+   "date": "2026-08-17",
+   "date_display": "08/17",
+   "snap_date": "2026-08-17",
+   "time": "06:55",
+   "local_hhmm": "15:55",
+   "hour": 6,
+   "meteo": 79,
+   "actual": 79.0,
+   "err": 0.0,
+   "peak_local": "17:53"
   }
  ],
  "cities": [
@@ -509,6 +535,18 @@
     "09-12": {
      "n": 1,
      "mae": 0.0
+    }
+   },
+   "best_period": null
+  },
+  {
+   "city": "Denver",
+   "n": 1,
+   "mae": 2.0,
+   "periods": {
+    "06-09": {
+     "n": 1,
+     "mae": 2.0
     }
    },
    "best_period": null
@@ -567,16 +605,16 @@
   },
   {
    "city": "Seattle",
-   "n": 4,
-   "mae": 2.0,
+   "n": 5,
+   "mae": 1.6,
    "periods": {
     "09-12": {
      "n": 1,
      "mae": 2.0
     },
     "06-09": {
-     "n": 3,
-     "mae": 2.0
+     "n": 4,
+     "mae": 1.5
     }
    },
    "best_period": "06-09"

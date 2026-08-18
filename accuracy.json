@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 219,
+ "n": 223,
  "mae": 0.7,
  "bias": -0.47,
  "rows": [
@@ -2839,6 +2839,19 @@
    "peak_local": "10:05"
   },
   {
+   "city": "Denver",
+   "date": "2026-08-17",
+   "date_display": "08/17",
+   "snap_date": "2026-08-17",
+   "time": "06:00",
+   "local_hhmm": "16:00",
+   "hour": 6,
+   "meteo": 91,
+   "actual": 93.0,
+   "err": -2.0,
+   "peak_local": "16:58"
+  },
+  {
    "city": "Mexico City",
    "date": "2026-08-17",
    "date_display": "08/17",
@@ -2850,6 +2863,45 @@
    "actual": 26.0,
    "err": 0.0,
    "peak_local": "15:42"
+  },
+  {
+   "city": "Los Angeles",
+   "date": "2026-08-17",
+   "date_display": "08/17",
+   "snap_date": "2026-08-17",
+   "time": "01:39",
+   "local_hhmm": "10:39",
+   "hour": 1,
+   "meteo": 77,
+   "actual": 77.0,
+   "err": 0.0,
+   "peak_local": "11:53"
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-08-17",
+   "date_display": "08/17",
+   "snap_date": "2026-08-17",
+   "time": "03:52",
+   "local_hhmm": "12:52",
+   "hour": 3,
+   "meteo": 72,
+   "actual": 71.0,
+   "err": 1.0,
+   "peak_local": "13:56"
+  },
+  {
+   "city": "Seattle",
+   "date": "2026-08-17",
+   "date_display": "08/17",
+   "snap_date": "2026-08-17",
+   "time": "06:55",
+   "local_hhmm": "15:55",
+   "hour": 6,
+   "meteo": 79,
+   "actual": 79.0,
+   "err": 0.0,
+   "peak_local": "17:53"
   }
  ],
  "cities": [
@@ -3043,10 +3095,14 @@
   },
   {
    "city": "Denver",
-   "n": 1,
+   "n": 2,
    "mae": 2.0,
    "periods": {
     "其他": {
+     "n": 1,
+     "mae": 2.0
+    },
+    "06-09": {
      "n": 1,
      "mae": 2.0
     }
@@ -3199,12 +3255,16 @@
   },
   {
    "city": "Los Angeles",
-   "n": 1,
-   "mae": 2.0,
+   "n": 2,
+   "mae": 1.0,
    "periods": {
     "06-09": {
      "n": 1,
      "mae": 2.0
+    },
+    "其他": {
+     "n": 1,
+     "mae": 0.0
     }
    },
    "best_period": null
@@ -3391,11 +3451,11 @@
   },
   {
    "city": "San Francisco",
-   "n": 1,
+   "n": 2,
    "mae": 1.0,
    "periods": {
     "其他": {
-     "n": 1,
+     "n": 2,
      "mae": 1.0
     }
    },
@@ -3415,16 +3475,16 @@
   },
   {
    "city": "Seattle",
-   "n": 4,
-   "mae": 2.0,
+   "n": 5,
+   "mae": 1.6,
    "periods": {
     "09-12": {
      "n": 1,
      "mae": 2.0
     },
     "06-09": {
-     "n": 3,
-     "mae": 2.0
+     "n": 4,
+     "mae": 1.5
     }
    },
    "best_period": "06-09"
