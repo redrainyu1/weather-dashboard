@@ -1,8 +1,8 @@
 {
  "model": "METEO",
- "n": 208,
+ "n": 210,
  "mae": 0.71,
- "bias": -0.48,
+ "bias": -0.47,
  "rows": [
   {
    "city": "Hong Kong",
@@ -2707,6 +2707,32 @@
    "actual": 29.0,
    "err": 0.0,
    "peak_local": "16:30"
+  },
+  {
+   "city": "Buenos Aires",
+   "date": "2026-08-17",
+   "date_display": "08/17",
+   "snap_date": "2026-08-17",
+   "time": "11:00",
+   "local_hhmm": "00:00",
+   "hour": 11,
+   "meteo": 16,
+   "actual": 15.0,
+   "err": 1.0,
+   "peak_local": "01:00"
+  },
+  {
+   "city": "Sao Paulo",
+   "date": "2026-08-17",
+   "date_display": "08/17",
+   "snap_date": "2026-08-17",
+   "time": "01:39",
+   "local_hhmm": "14:39",
+   "hour": 1,
+   "meteo": 29,
+   "actual": 29.0,
+   "err": 0.0,
+   "peak_local": "15:00"
   }
  ],
  "cities": [
@@ -2784,7 +2810,7 @@
   },
   {
    "city": "Buenos Aires",
-   "n": 2,
+   "n": 3,
    "mae": 1.0,
    "periods": {
     "06-09": {
@@ -2792,6 +2818,10 @@
      "mae": 1.0
     },
     "其他": {
+     "n": 1,
+     "mae": 1.0
+    },
+    "09-12": {
      "n": 1,
      "mae": 1.0
     }
@@ -3252,11 +3282,11 @@
   },
   {
    "city": "Sao Paulo",
-   "n": 1,
+   "n": 2,
    "mae": 0.0,
    "periods": {
     "其他": {
-     "n": 1,
+     "n": 2,
      "mae": 0.0
     }
    },

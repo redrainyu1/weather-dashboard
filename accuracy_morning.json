@@ -1,8 +1,8 @@
 {
  "model": "METEO",
- "n": 34,
+ "n": 35,
  "mae": 1.03,
- "bias": -0.97,
+ "bias": -0.91,
  "rows": [
   {
    "city": "Wellington",
@@ -445,15 +445,32 @@
    "actual": 36.0,
    "err": -2.0,
    "peak_local": "12:00"
+  },
+  {
+   "city": "Buenos Aires",
+   "date": "2026-08-17",
+   "date_display": "08/17",
+   "snap_date": "2026-08-17",
+   "time": "11:00",
+   "local_hhmm": "00:00",
+   "hour": 11,
+   "meteo": 16,
+   "actual": 15.0,
+   "err": 1.0,
+   "peak_local": "01:00"
   }
  ],
  "cities": [
   {
    "city": "Buenos Aires",
-   "n": 1,
+   "n": 2,
    "mae": 1.0,
    "periods": {
     "06-09": {
+     "n": 1,
+     "mae": 1.0
+    },
+    "09-12": {
      "n": 1,
      "mae": 1.0
     }
