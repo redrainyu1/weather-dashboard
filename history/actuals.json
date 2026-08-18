@@ -1746,5 +1746,25 @@
  "highest-temperature-in-tokyo-on-august-18-2026": {
   "temp": 31.0,
   "peak_bj": "2026-08-18 14:00"
+ },
+ "highest-temperature-in-busan-on-august-18-2026": {
+  "temp": 31.0,
+  "peak_bj": "2026-08-18 13:33"
+ },
+ "highest-temperature-in-chongqing-on-august-18-2026": {
+  "temp": 34.0,
+  "peak_bj": "2026-08-18 12:00"
+ },
+ "highest-temperature-in-guangzhou-on-august-18-2026": {
+  "temp": 34.0,
+  "peak_bj": "2026-08-18 18:00"
+ },
+ "highest-temperature-in-seoul-on-august-18-2026": {
+  "temp": 31.0,
+  "peak_bj": "2026-08-18 13:30"
+ },
+ "highest-temperature-in-wuhan-on-august-18-2026": {
+  "temp": 35.0,
+  "peak_bj": "2026-08-18 17:00"
  }
 }
