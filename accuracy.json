@@ -1,8 +1,8 @@
 {
  "model": "METEO",
- "n": 232,
- "mae": 0.69,
- "bias": -0.47,
+ "n": 234,
+ "mae": 0.68,
+ "bias": -0.46,
  "rows": [
   {
    "city": "Hong Kong",
@@ -3019,6 +3019,32 @@
    "actual": 35.0,
    "err": 0.0,
    "peak_local": "17:00"
+  },
+  {
+   "city": "Karachi",
+   "date": "2026-08-18",
+   "date_display": "08/18",
+   "snap_date": "2026-08-18",
+   "time": "15:39",
+   "local_hhmm": "12:39",
+   "hour": 15,
+   "meteo": 32,
+   "actual": 32.0,
+   "err": 0.0,
+   "peak_local": "14:00"
+  },
+  {
+   "city": "Lucknow",
+   "date": "2026-08-18",
+   "date_display": "08/18",
+   "snap_date": "2026-08-18",
+   "time": "15:39",
+   "local_hhmm": "13:39",
+   "hour": 15,
+   "meteo": 31,
+   "actual": 31.0,
+   "err": 0.0,
+   "peak_local": "15:00"
   }
  ],
  "cities": [
@@ -3332,12 +3358,12 @@
   },
   {
    "city": "Karachi",
-   "n": 5,
-   "mae": 0.2,
+   "n": 6,
+   "mae": 0.17,
    "periods": {
     "15-18": {
-     "n": 4,
-     "mae": 0.25
+     "n": 5,
+     "mae": 0.2
     },
     "12-15": {
      "n": 1,
@@ -3392,12 +3418,12 @@
   },
   {
    "city": "Lucknow",
-   "n": 6,
-   "mae": 0.33,
+   "n": 7,
+   "mae": 0.29,
    "periods": {
     "15-18": {
-     "n": 5,
-     "mae": 0.4
+     "n": 6,
+     "mae": 0.33
     },
     "06-09": {
      "n": 1,
