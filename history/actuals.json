@@ -1934,5 +1934,17 @@
  "highest-temperature-in-mexico-city-on-august-18-2026": {
   "temp": 26.0,
   "peak_bj": "2026-08-19 06:47"
+ },
+ "highest-temperature-in-seoul-on-august-19-2026": {
+  "temp": 29.0,
+  "peak_bj": "2026-08-19 16:30"
+ },
+ "highest-temperature-in-tokyo-on-august-19-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-08-19 14:00"
+ },
+ "highest-temperature-in-wellington-on-august-19-2026": {
+  "temp": 11.0,
+  "peak_bj": "2026-08-19 18:30"
  }
 }
