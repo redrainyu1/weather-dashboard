@@ -1926,5 +1926,9 @@
  "highest-temperature-in-toronto-on-august-18-2026": {
   "temp": 27.0,
   "peak_bj": "2026-08-19 03:00"
+ },
+ "highest-temperature-in-los-angeles-on-august-18-2026": {
+  "temp": 81.0,
+  "peak_bj": "2026-08-19 04:53"
  }
 }
