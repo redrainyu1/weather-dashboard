@@ -1,8 +1,8 @@
 {
  "model": "METEO",
- "n": 284,
- "mae": 0.68,
- "bias": -0.48,
+ "n": 286,
+ "mae": 0.67,
+ "bias": -0.47,
  "rows": [
   {
    "city": "Hong Kong",
@@ -3671,6 +3671,19 @@
    "peak_local": "14:00"
   },
   {
+   "city": "Ankara",
+   "date": "2026-08-19",
+   "date_display": "08/19",
+   "snap_date": "2026-08-19",
+   "time": "18:45",
+   "local_hhmm": "13:45",
+   "hour": 18,
+   "meteo": 32,
+   "actual": 32.0,
+   "err": 0.0,
+   "peak_local": "14:50"
+  },
+  {
    "city": "Jeddah",
    "date": "2026-08-19",
    "date_display": "08/19",
@@ -3695,6 +3708,19 @@
    "actual": 32.0,
    "err": 0.0,
    "peak_local": "14:50"
+  },
+  {
+   "city": "Warsaw",
+   "date": "2026-08-19",
+   "date_display": "08/19",
+   "snap_date": "2026-08-19",
+   "time": "21:33",
+   "local_hhmm": "15:33",
+   "hour": 21,
+   "meteo": 23,
+   "actual": 23.0,
+   "err": 0.0,
+   "peak_local": "16:30"
   }
  ],
  "cities": [
@@ -3716,7 +3742,7 @@
   },
   {
    "city": "Ankara",
-   "n": 5,
+   "n": 6,
    "mae": 0.0,
    "periods": {
     "21-24": {
@@ -3724,7 +3750,7 @@
      "mae": 0.0
     },
     "18-21": {
-     "n": 2,
+     "n": 3,
      "mae": 0.0
     },
     "15-18": {
@@ -3732,7 +3758,7 @@
      "mae": 0.0
     }
    },
-   "best_period": null
+   "best_period": "18-21"
   },
   {
    "city": "Atlanta",
@@ -4460,12 +4486,12 @@
   },
   {
    "city": "Warsaw",
-   "n": 7,
-   "mae": 0.86,
+   "n": 8,
+   "mae": 0.75,
    "periods": {
     "21-24": {
-     "n": 6,
-     "mae": 0.67
+     "n": 7,
+     "mae": 0.57
     },
     "18-21": {
      "n": 1,
