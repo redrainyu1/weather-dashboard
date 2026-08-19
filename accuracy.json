@@ -1,8 +1,8 @@
 {
  "model": "METEO",
- "n": 259,
- "mae": 0.68,
- "bias": -0.47,
+ "n": 261,
+ "mae": 0.67,
+ "bias": -0.46,
  "rows": [
   {
    "city": "Hong Kong",
@@ -3320,6 +3320,19 @@
    "peak_local": "15:00"
   },
   {
+   "city": "London",
+   "date": "2026-08-18",
+   "date_display": "08/18",
+   "snap_date": "2026-08-18",
+   "time": "22:31",
+   "local_hhmm": "15:31",
+   "hour": 22,
+   "meteo": 26,
+   "actual": 26.0,
+   "err": 0.0,
+   "peak_local": "16:20"
+  },
+  {
    "city": "Sao Paulo",
    "date": "2026-08-18",
    "date_display": "08/18",
@@ -3357,6 +3370,19 @@
    "actual": 99.0,
    "err": 0.0,
    "peak_local": "16:53"
+  },
+  {
+   "city": "Chicago",
+   "date": "2026-08-18",
+   "date_display": "08/18",
+   "snap_date": "2026-08-18",
+   "time": "03:05",
+   "local_hhmm": "14:05",
+   "hour": 3,
+   "meteo": 79,
+   "actual": 79.0,
+   "err": 0.0,
+   "peak_local": "14:51"
   },
   {
    "city": "Panama City",
@@ -3515,6 +3541,18 @@
      "mae": 2.0
     },
     "15-18": {
+     "n": 1,
+     "mae": 0.0
+    }
+   },
+   "best_period": null
+  },
+  {
+   "city": "Chicago",
+   "n": 1,
+   "mae": 0.0,
+   "periods": {
+    "其他": {
      "n": 1,
      "mae": 0.0
     }
@@ -3711,15 +3749,15 @@
   },
   {
    "city": "London",
-   "n": 2,
-   "mae": 1.5,
+   "n": 3,
+   "mae": 1.0,
    "periods": {
     "21-24": {
-     "n": 2,
-     "mae": 1.5
+     "n": 3,
+     "mae": 1.0
     }
    },
-   "best_period": null
+   "best_period": "21-24"
   },
   {
    "city": "Los Angeles",
