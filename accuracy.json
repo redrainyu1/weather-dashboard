@@ -1,8 +1,8 @@
 {
  "model": "METEO",
- "n": 261,
+ "n": 262,
  "mae": 0.67,
- "bias": -0.46,
+ "bias": -0.47,
  "rows": [
   {
    "city": "Hong Kong",
@@ -3396,6 +3396,19 @@
    "actual": 31.0,
    "err": 0.0,
    "peak_local": "14:00"
+  },
+  {
+   "city": "Denver",
+   "date": "2026-08-18",
+   "date_display": "08/18",
+   "snap_date": "2026-08-18",
+   "time": "05:37",
+   "local_hhmm": "15:37",
+   "hour": 5,
+   "meteo": 88,
+   "actual": 89.0,
+   "err": -1.0,
+   "peak_local": "16:58"
   }
  ],
  "cities": [
@@ -3593,12 +3606,12 @@
   },
   {
    "city": "Denver",
-   "n": 2,
-   "mae": 2.0,
+   "n": 3,
+   "mae": 1.67,
    "periods": {
     "其他": {
-     "n": 1,
-     "mae": 2.0
+     "n": 2,
+     "mae": 1.5
     },
     "06-09": {
      "n": 1,

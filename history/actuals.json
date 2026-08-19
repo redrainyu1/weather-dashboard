@@ -1898,5 +1898,9 @@
  "highest-temperature-in-london-on-august-18-2026": {
   "temp": 26.0,
   "peak_bj": "2026-08-18 23:20"
+ },
+ "highest-temperature-in-denver-on-august-18-2026": {
+  "temp": 89.0,
+  "peak_bj": "2026-08-19 06:58"
  }
 }
