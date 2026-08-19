@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 286,
+ "n": 287,
  "mae": 0.67,
  "bias": -0.47,
  "rows": [
@@ -3710,6 +3710,19 @@
    "peak_local": "14:50"
   },
   {
+   "city": "Cape Town",
+   "date": "2026-08-19",
+   "date_display": "08/19",
+   "snap_date": "2026-08-19",
+   "time": "18:45",
+   "local_hhmm": "12:45",
+   "hour": 18,
+   "meteo": 19,
+   "actual": 19.0,
+   "err": 0.0,
+   "peak_local": "14:00"
+  },
+  {
    "city": "Warsaw",
    "date": "2026-08-19",
    "date_display": "08/19",
@@ -3838,11 +3851,11 @@
   },
   {
    "city": "Cape Town",
-   "n": 7,
-   "mae": 0.29,
+   "n": 8,
+   "mae": 0.25,
    "periods": {
     "18-21": {
-     "n": 4,
+     "n": 5,
      "mae": 0.0
     },
     "21-24": {
