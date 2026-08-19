@@ -1,8 +1,8 @@
 {
  "model": "METEO",
- "n": 255,
+ "n": 256,
  "mae": 0.68,
- "bias": -0.47,
+ "bias": -0.46,
  "rows": [
   {
    "city": "Hong Kong",
@@ -3318,6 +3318,19 @@
    "actual": 21.0,
    "err": -2.0,
    "peak_local": "15:00"
+  },
+  {
+   "city": "Sao Paulo",
+   "date": "2026-08-18",
+   "date_display": "08/18",
+   "snap_date": "2026-08-18",
+   "time": "01:42",
+   "local_hhmm": "14:42",
+   "hour": 1,
+   "meteo": 31,
+   "actual": 31.0,
+   "err": 0.0,
+   "peak_local": "16:00"
   }
  ],
  "cities": [
@@ -3891,7 +3904,7 @@
   },
   {
    "city": "Sao Paulo",
-   "n": 3,
+   "n": 4,
    "mae": 0.0,
    "periods": {
     "21-24": {
@@ -3899,11 +3912,11 @@
      "mae": 0.0
     },
     "其他": {
-     "n": 2,
+     "n": 3,
      "mae": 0.0
     }
    },
-   "best_period": null
+   "best_period": "其他"
   },
   {
    "city": "Seattle",
