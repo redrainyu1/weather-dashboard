@@ -1,6 +1,7 @@
 """最高温度预测准确度统计（METEO/RP5）：历史快照 vs Polymarket 已结算市场"""
 import json, os, glob, sys, asyncio, argparse, re
 import httpx
+from city_coords import CITY_COORDS
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 PROXY_URL = os.getenv("PROXY_URL", "http://127.0.0.1:7897")
@@ -183,6 +184,42 @@ async def fetch_metar_peak(client, description, event_date, noon_bj=None):
     except Exception:
         return None
 
+async def fetch_openmeteo_peak(client, city, event_date, noon_bj=None):
+    """Open-Meteo 历史再分析兜底（wg/METAR 都失败时）：
+    当地逐小时温度中最高温首次出现的当地时刻，换算为北京绝对时刻
+    （时区直接用 API 的 utc_offset_seconds，不依赖 noon_bj）"""
+    if not city:
+        return None
+    coords = CITY_COORDS.get(city)
+    if not coords:
+        return None
+    url = (f"https://archive-api.open-meteo.com/v1/archive?latitude={coords[0]}&longitude={coords[1]}"
+           f"&start_date={event_date}&end_date={event_date}&hourly=temperature_2m&timezone=auto")
+    try:
+        r = await client.get(url)
+        if r.status_code != 200:
+            return None
+        d = r.json()
+        times = d.get("hourly", {}).get("time") or []
+        temps = d.get("hourly", {}).get("temperature_2m") or []
+        off_s = d.get("utc_offset_seconds")
+        if not times or not temps or off_s is None:
+            return None
+        mx = max(temps)
+        idx = temps.index(mx)
+        local = datetime.strptime(times[idx], "%Y-%m-%dT%H:%M")
+        tz = off_s / 3600.0
+        return (local + timedelta(hours=8 - tz)).strftime("%Y-%m-%d %H:%M")
+    except Exception:
+        return None
+
+def slug_city(slug):
+    """'...temperature-in-san-francisco-on-...' -> 'San Francisco'"""
+    m = re.search(r'temperature-in-([a-z0-9-]+)-on-', slug)
+    if not m:
+        return ""
+    return " ".join(w.capitalize() for w in m.group(1).split("-"))
+
 def load_history(period=None, model="meteo", peak_off_map=None):
     """返回 {slug: {city, date, temp, ...}}
     按 (slug, 快照日期) 去重：全部时段取每个日期最后一次快照；
@@ -294,6 +331,17 @@ def get_actual_temp(slug, event):
                 return float(mt.group(1).replace("pt", "."))
     return None
 
+_MONTHS = {m: i + 1 for i, m in enumerate(
+    ['january', 'february', 'march', 'april', 'may', 'june', 'july',
+     'august', 'september', 'october', 'november', 'december'])}
+
+def slug_date(slug):
+    """'...-on-august-9-2026' -> '2026-08-09'"""
+    m = re.search(r'on-([a-z]+)-(\d+)-(\d{4})$', slug)
+    if not m:
+        return ""
+    return f"{m.group(3)}-{_MONTHS.get(m.group(1), 1):02d}-{int(m.group(2)):02d}"
+
 async def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--period', default=None, help='快照时段筛选，如 6-12 = 只统计早上6:00-12:00生成的预测')
@@ -312,11 +360,16 @@ async def main():
                                  limits=httpx.Limits(max_keepalive_connections=5)) as client:
         hist = load_history(period, model=args.model)
         noon_map = {slug: v.get("noon_bj") for (slug, _), v in hist.items()}
+        city_map = {slug: v.get("city") for (slug, _), v in hist.items()}
         slugs = sorted({slug for slug, _ in hist.keys()})
         todo = [s for s in slugs if s not in actuals]
-        print(f"本地已存档结算: {len(actuals)}，本次需查询: {len(todo)}")
-        for i in range(0, len(todo), 3):
-            batch = todo[i:i + 3]
+        # 已存档但缺峰时刻的（wg/METAR 曾失败）全量补：Open-Meteo 直连（无需 gamma/noon_bj）
+        missing_peak = [s for s in actuals
+                        if not (isinstance(actuals[s], dict) and actuals[s].get("peak_bj"))]
+        need = sorted(set(todo) | set(missing_peak))
+        print(f"本地已存档结算: {len(actuals)}，本次需查询: {len(need)}（新 {len(todo)}，补峰 {len(missing_peak)}）")
+        for i in range(0, len(need), 3):
+            batch = need[i:i + 3]
             rs = await asyncio.gather(*[
                 client.get(f"{GAMMA_HOST}/events/slug/{s}") for s in batch
             ], return_exceptions=True)
@@ -325,13 +378,29 @@ async def main():
                     continue
                 evt = r.json()
                 t = get_actual_temp(s, evt)
-                if t is not None:
-                    ev_date = evt.get("eventDate", "")
-                    pb = await fetch_wg_peak(client, evt.get("resolutionSource"), ev_date, noon_map.get(s))
-                    if pb is None:
-                        pb = await fetch_metar_peak(client, evt.get("description"), ev_date, noon_map.get(s))
-                    actuals[s] = {"temp": t, "peak_bj": pb}
-            print(f"  {min(i+3, len(todo))}/{len(todo)}")
+                if t is None:
+                    continue
+                ev_date = evt.get("eventDate", "")
+                pb = await fetch_wg_peak(client, evt.get("resolutionSource"), ev_date, noon_map.get(s))
+                if pb is None:
+                    pb = await fetch_metar_peak(client, evt.get("description"), ev_date, noon_map.get(s))
+                if pb is None:
+                    pb = await fetch_openmeteo_peak(client, city_map.get(s), ev_date, noon_map.get(s))
+                actuals[s] = {"temp": t, "peak_bj": pb}
+            print(f"  {min(i+3, len(need))}/{len(need)}")
+        # 补峰（已存档缺峰，跳过 gamma）：Open-Meteo 直连
+        back = [s for s in missing_peak if not (isinstance(actuals.get(s), dict) and actuals[s].get("peak_bj"))]
+        for i in range(0, len(back), 5):
+            batch = back[i:i + 5]
+            rs = await asyncio.gather(*[
+                fetch_openmeteo_peak(client, slug_city(s), slug_date(s), None)
+                for s in batch
+            ], return_exceptions=True)
+            for s, r in zip(batch, rs):
+                if isinstance(r, Exception) or r is None or not isinstance(actuals.get(s), dict):
+                    continue
+                actuals[s]["peak_bj"] = r
+            print(f"  补峰 {min(i+5, len(back))}/{len(back)}")
     save_actuals(actuals)
     print(f"已结算: {len(actuals)}（本次新增 {len(set(actuals) - set(load_actuals()))}）")
 

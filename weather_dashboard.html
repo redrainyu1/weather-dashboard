@@ -126,7 +126,7 @@
     </div>
     <h3 style="color:#fff;margin:14px 0 8px;font-size:15px">每城市 <span style="color:#666;font-size:11px">点击城市弹出具体数据</span></h3>
     <table class="acc-table">
-      <thead><tr><th onclick="accSortBy('city')">城市</th><th onclick="accSortBy('n')">样本</th><th onclick="accSortBy('mae')">平均误差 MAE</th><th onclick="accSortBy('hit1')">±1°C 命中</th></tr></thead>
+      <thead><tr><th onclick="accSortBy('city')">城市</th><th onclick="accSortBy('n')">样本</th><th onclick="accSortBy('mae')">平均误差 MAE</th></tr></thead>
       <tbody id="accTbody"></tbody>
     </table>
     <h3 style="color:#fff;margin:14px 0 8px;font-size:15px">逐日明细 <span style="color:#666;font-size:11px" id="accRowsInfo"></span></h3>
@@ -227,13 +227,11 @@ function accPeriod(p) {
 function renderAcc() {
   var d = pickAcc();
   if (!d) return;
-  document.getElementById('accNote').textContent = '数据口径：仅统计比最高温出现时刻至少早1小时的预测（峰时刻取自 Wunderground / NOAA METAR 逐时观测）';
+  document.getElementById('accNote').textContent = '数据口径：事件日当地当天、严格早于峰值、最接近"峰前1小时"（±1h容差）的预测；峰=实际最高温首次出现时刻（Wunderground / NOAA METAR 逐时观测）';
   document.getElementById('accSummary').innerHTML =
     '<span class="item">样本<strong>' + d.n + '</strong></span>' +
     '<span class="item">平均误差<strong>' + d.mae + '°C</strong></span>' +
-    '<span class="item">偏差<strong style="color:' + (d.bias > 0 ? '#f59e0b' : '#60a5fa') + '">' + (d.bias > 0 ? '+' : '') + d.bias + '°C</strong></span>' +
-    '<span class="item">±1°C 命中<strong style="color:#22c55e">' + d.hit1 + '%</strong></span>' +
-    '<span class="item">±2°C 命中<strong>' + d.hit2 + '%</strong></span>';
+    '<span class="item">偏差<strong style="color:' + (d.bias > 0 ? '#f59e0b' : '#60a5fa') + '">' + (d.bias > 0 ? '+' : '') + d.bias + '°C</strong></span>';
   var cities = d.cities.slice();
   cities.sort(function(a, b) {
     var va = a[accSortField], vb = b[accSortField];
@@ -244,7 +242,7 @@ function renderAcc() {
   for (var i = 0; i < cities.length; i++) {
     var c = cities[i];
     var color = c.mae <= 1 ? '#22c55e' : (c.mae <= 2 ? '#eab308' : '#f87171');
-    html += '<tr onclick="accPick(\'' + c.city.replace(/'/g, "\\'") + '\')"><td>' + esc(c.city) + '</td><td>' + c.n + '</td><td style="color:' + color + ';font-weight:600">' + c.mae + '°C</td><td>' + (c.hit1 != null ? c.hit1 + '%' : '—') + '</td></tr>';
+    html += '<tr onclick="accPick(\'' + c.city.replace(/'/g, "\\'") + '\')"><td>' + esc(c.city) + '</td><td>' + c.n + '</td><td style="color:' + color + ';font-weight:600">' + c.mae + '°C</td></tr>';
   }
   document.getElementById('accTbody').innerHTML = html;
   document.getElementById('accRowsInfo').textContent = '(' + d.rows.length + ' 条)';
@@ -256,7 +254,7 @@ function renderAccRows(rows) {
   for (var i = 0; i < rows.length; i++) {
     var r = rows[i];
     var cls = r.err > 0 ? 'err-pos' : (r.err < 0 ? 'err-neg' : '');
-    rhtml += '<div>' + esc(r.date_display) + ' ' + esc(r.city) + (r.time ? ' <span style="color:#777;font-size:10px">' + esc(r.time) + '</span>' : '') + ' &nbsp;预测 ' + r.meteo + '° &nbsp;实际 ' + r.actual + '° &nbsp;<span class="' + cls + '">' + (r.err > 0 ? '+' : '') + r.err + '°</span></div>';
+    rhtml += '<div>' + esc(r.date_display) + ' ' + esc(r.city) + ' &nbsp;预测于 ' + (r.snap_date ? esc(r.snap_date.slice(5)) : '') + (r.local_hhmm ? ' <span style="color:#777;font-size:10px">' + esc(r.local_hhmm) + '</span>' : '') + (r.peak_local ? ' &nbsp;<span style="color:#777;font-size:10px">峰 ' + esc(r.peak_local) + '</span>' : '') + ' &nbsp;预测 ' + r.meteo + '° &nbsp;实际 ' + r.actual + '° &nbsp;<span class="' + cls + '">' + (r.err > 0 ? '+' : '') + r.err + '°</span></div>';
   }
   document.getElementById('accDetail').innerHTML = rhtml;
 }
@@ -274,7 +272,6 @@ function accPick(city) {
     esc(city) + ' <span style="color:#666;font-size:12px">' + (d.period_name || '全部时段') + '</span>' +
     '<div style="font-size:12px;color:#aaa;margin-top:6px;font-weight:normal">样本 ' + sel.n +
     ' &nbsp;平均误差 <span style="color:' + color + ';font-weight:600">' + sel.mae + '°C</span>' +
-    ' &nbsp;±1°C命中 <span style="color:#22c55e;font-weight:600">' + (sel.hit1 != null ? sel.hit1 + '%' : '—') + '</span>' +
     ' &nbsp;偏差 <span style="color:' + (sel.bias > 0 ? '#f59e0b' : '#60a5fa') + '">' + (sel.bias > 0 ? '+' : '') + sel.bias + '°C</span>' +
     ' &nbsp;<span style="color:#666">预测=METEO 实际=Polymarket结算</span></div>';
   if (!rows.length) {
@@ -284,7 +281,7 @@ function accPick(city) {
     if (sel.periods) {
       var order = ['06-09', '09-12', '12-15', '15-18', '18-21', '21-24', '其他'];
       ph = '<div style="font-size:12px;color:#aaa;margin:8px 0 2px">各时段预测准确率（快照时刻）：</div><table style="width:100%;border-collapse:collapse;font-size:12px">' +
-        '<tr style="border-bottom:1px solid #374151"><td style="padding:2px 0;color:#888">时段</td><td style="text-align:right;color:#888">样本</td><td style="text-align:right;color:#888">±1°C命中</td><td style="text-align:right;color:#888">平均误差</td></tr>';
+        '<tr style="border-bottom:1px solid #374151"><td style="padding:2px 0;color:#888">时段</td><td style="text-align:right;color:#888">样本</td><td style="text-align:right;color:#888">平均误差</td></tr>';
       for (var i = 0; i < order.length; i++) {
         var b = order[i];
         var v = sel.periods[b];
@@ -295,7 +292,6 @@ function accPick(city) {
           '<td style="padding:3px 0">' + (isBest ? '<span style="color:#fbbf24;font-weight:600">★ ' : '') + b + (isBest ? '</span>' : '') +
           (v.n < 3 ? ' <span style="color:#666">(样本少)</span>' : '') + '</td>' +
           '<td style="text-align:right;color:#666">' + v.n + '个</td>' +
-          '<td style="text-align:right;color:#22c55e">' + (v.hit1 != null ? v.hit1 + '%' : '—') + '</td>' +
           '<td style="text-align:right;color:' + bc + ';font-weight:600">平均误差 ' + v.mae + '°</td></tr>';
       }
       ph += '</table>';
@@ -306,7 +302,7 @@ function accPick(city) {
       var cls = r.err > 0 ? 'err-pos' : (r.err < 0 ? 'err-neg' : '');
       rhtml += '<div style="border-bottom:1px solid #1a1d27;padding:4px 0">' +
         '<span style="color:#aaa">' + esc(r.date_display) + '</span>' +
-        (r.time ? ' <span style="color:#666;font-size:11px">' + esc(r.time) + '</span>' : '') +
+        ' <span style="color:#666;font-size:11px">预测于 ' + (r.snap_date ? esc(r.snap_date.slice(5)) : '') + (r.local_hhmm ? ' ' + esc(r.local_hhmm) : '') + '</span>' +
         ' &nbsp;预测 <span style="color:#60a5fa;font-weight:600">' + r.meteo + '°</span>' +
         ' &nbsp;实际 <span style="color:#22c55e;font-weight:600">' + r.actual + '°</span>' +
         ' &nbsp;<span class="' + cls + '">' + (r.err > 0 ? '+' : '') + r.err + '°</span></div>';
@@ -516,12 +512,15 @@ function timeRow(r) {
     var n = (r.noon_bj < 10 ? '0' : '') + r.noon_bj + ':00';
     parts.push('<span class="lbl">\u6b63\u5348</span><span class="peak">' + n + '</span>');
   }
-  if (r.highest && r.highest.forecasts) {
+  var ap = r.highest ? r.highest.actual_peak : null;
+  if (ap) {
+    parts.push('<span class="lbl" style="margin-left:8px">\u5cf0(\u5b9e)</span><span class="peak">' + ap + '</span>');
+  } else if (r.highest && r.highest.forecasts) {
     for (var i = 0; i < r.highest.forecasts.length; i++) {
       var f = r.highest.forecasts[i];
       if (f.max_hour_bj != null) {
         var h = f.max_hour_bj;
-        parts.push('<span class="lbl" style="margin-left:8px">\u5cf0</span><span class="peak">' + (h < 10 ? '0' : '') + h + ':00</span>');
+        parts.push('<span class="lbl" style="margin-left:8px">\u5cf0(\u9884)</span><span class="peak">' + (h < 10 ? '0' : '') + h + ':00</span>');
         break;
       }
     }
@@ -609,31 +608,7 @@ function saveEdit() {
 
 var refreshing = false;
 
-function autoCheck() {
-  fetch('/api/data').then(function(r) { return r.json(); }).then(function(json) {
-    if (json.data) {
-      if (json.data.updated_at !== ALL_DATA.updated_at) {
-        ALL_DATA = json.data;
-        buildDateFilter();
-        render();
-        checkMissing();
-      }
-      if (!refreshing) {
-        var age = (Date.now() - new Date(String(json.data.updated_at).replace(' ', 'T')).getTime()) / 60000;
-        if (age > 45) {
-          refreshing = true;
-          document.getElementById('btnRefresh').textContent = '后台更新中...';
-          fetch('/api/refresh', { method: 'POST' }).then(function() {
-            setTimeout(function() { refreshing = false; loadData(); }, 2000);
-          }).catch(function() { refreshing = false; });
-        }
-      }
-    }
-    setTimeout(autoCheck, 60000);
-  }).catch(function() {
-    setTimeout(autoCheck, 60000);
-  });
-}
+function autoCheck() {}  // 纯手动模式：数据只在点击"刷新数据"时更新
 
 function loadHistoryList() {
   fetch('/api/history').then(function(r) { return r.json(); }).then(function(json) {
