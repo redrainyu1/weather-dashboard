@@ -1974,5 +1974,17 @@
  "highest-temperature-in-shenzhen-on-august-19-2026": {
   "temp": 35.0,
   "peak_bj": "2026-08-19 14:00"
+ },
+ "highest-temperature-in-karachi-on-august-19-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-08-19 17:00"
+ },
+ "highest-temperature-in-shanghai-on-august-19-2026": {
+  "temp": 31.0,
+  "peak_bj": "2026-08-19 15:00"
+ },
+ "highest-temperature-in-singapore-on-august-19-2026": {
+  "temp": 33.0,
+  "peak_bj": "2026-08-19 14:00"
  }
 }

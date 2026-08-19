@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 279,
+ "n": 282,
  "mae": 0.68,
  "bias": -0.48,
  "rows": [
@@ -3619,6 +3619,19 @@
    "peak_local": "14:00"
   },
   {
+   "city": "Shanghai",
+   "date": "2026-08-19",
+   "date_display": "08/19",
+   "snap_date": "2026-08-19",
+   "time": "13:51",
+   "local_hhmm": "13:51",
+   "hour": 13,
+   "meteo": 31,
+   "actual": 31.0,
+   "err": 0.0,
+   "peak_local": "15:00"
+  },
+  {
    "city": "Shenzhen",
    "date": "2026-08-19",
    "date_display": "08/19",
@@ -3629,6 +3642,32 @@
    "meteo": 35,
    "actual": 35.0,
    "err": 0.0,
+   "peak_local": "14:00"
+  },
+  {
+   "city": "Singapore",
+   "date": "2026-08-19",
+   "date_display": "08/19",
+   "snap_date": "2026-08-19",
+   "time": "12:59",
+   "local_hhmm": "12:59",
+   "hour": 12,
+   "meteo": 32,
+   "actual": 33.0,
+   "err": -1.0,
+   "peak_local": "14:00"
+  },
+  {
+   "city": "Karachi",
+   "date": "2026-08-19",
+   "date_display": "08/19",
+   "snap_date": "2026-08-19",
+   "time": "15:39",
+   "local_hhmm": "12:39",
+   "hour": 15,
+   "meteo": 31,
+   "actual": 32.0,
+   "err": -1.0,
    "peak_local": "14:00"
   }
  ],
@@ -3951,12 +3990,12 @@
   },
   {
    "city": "Karachi",
-   "n": 8,
-   "mae": 0.5,
+   "n": 9,
+   "mae": 0.56,
    "periods": {
     "15-18": {
-     "n": 5,
-     "mae": 0.2
+     "n": 6,
+     "mae": 0.33
     },
     "12-15": {
      "n": 3,
@@ -4267,16 +4306,16 @@
   },
   {
    "city": "Shanghai",
-   "n": 9,
-   "mae": 0.44,
+   "n": 10,
+   "mae": 0.4,
    "periods": {
     "21-24": {
      "n": 3,
      "mae": 0.0
     },
     "12-15": {
-     "n": 4,
-     "mae": 1.0
+     "n": 5,
+     "mae": 0.8
     },
     "09-12": {
      "n": 1,
@@ -4315,12 +4354,12 @@
   },
   {
    "city": "Singapore",
-   "n": 7,
-   "mae": 0.43,
+   "n": 8,
+   "mae": 0.5,
    "periods": {
     "12-15": {
-     "n": 5,
-     "mae": 0.4
+     "n": 6,
+     "mae": 0.5
     },
     "15-18": {
      "n": 2,
