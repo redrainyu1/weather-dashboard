@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 283,
+ "n": 284,
  "mae": 0.68,
  "bias": -0.48,
  "rows": [
@@ -3682,6 +3682,19 @@
    "actual": 37.0,
    "err": 0.0,
    "peak_local": "17:00"
+  },
+  {
+   "city": "Tel Aviv",
+   "date": "2026-08-19",
+   "date_display": "08/19",
+   "snap_date": "2026-08-19",
+   "time": "18:45",
+   "local_hhmm": "13:45",
+   "hour": 18,
+   "meteo": 32,
+   "actual": 32.0,
+   "err": 0.0,
+   "peak_local": "14:50"
   }
  ],
  "cities": [
@@ -4399,11 +4412,11 @@
   },
   {
    "city": "Tel Aviv",
-   "n": 2,
-   "mae": 0.5,
+   "n": 3,
+   "mae": 0.33,
    "periods": {
     "18-21": {
-     "n": 1,
+     "n": 2,
      "mae": 0.0
     },
     "15-18": {

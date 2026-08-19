@@ -1994,5 +1994,9 @@
  "highest-temperature-in-moscow-on-august-19-2026": {
   "temp": 19.0,
   "peak_bj": "2026-08-19 05:30"
+ },
+ "highest-temperature-in-tel-aviv-on-august-19-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-08-19 19:50"
  }
 }
