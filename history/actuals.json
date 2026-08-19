@@ -2022,5 +2022,41 @@
  "highest-temperature-in-milan-on-august-19-2026": {
   "temp": 32.0,
   "peak_bj": "2026-08-20 00:50"
+ },
+ "highest-temperature-in-busan-on-august-19-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-08-19 15:00"
+ },
+ "highest-temperature-in-helsinki-on-august-19-2026": {
+  "temp": 20.0,
+  "peak_bj": "2026-08-19 23:50"
+ },
+ "highest-temperature-in-istanbul-on-august-19-2026": {
+  "temp": 27.0,
+  "peak_bj": "2026-08-19 17:20"
+ },
+ "highest-temperature-in-kuala-lumpur-on-august-19-2026": {
+  "temp": 34.0,
+  "peak_bj": "2026-08-19 16:00"
+ },
+ "highest-temperature-in-lucknow-on-august-19-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-08-19 20:00"
+ },
+ "highest-temperature-in-munich-on-august-19-2026": {
+  "temp": 31.0,
+  "peak_bj": "2026-08-19 23:50"
+ },
+ "highest-temperature-in-paris-on-august-19-2026": {
+  "temp": 29.0,
+  "peak_bj": "2026-08-19 22:30"
+ },
+ "highest-temperature-in-taipei-on-august-19-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-08-19 13:30"
+ },
+ "highest-temperature-in-wuhan-on-august-19-2026": {
+  "temp": 36.0,
+  "peak_bj": "2026-08-19 16:00"
  }
 }
