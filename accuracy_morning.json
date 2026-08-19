@@ -1,8 +1,8 @@
 {
  "model": "METEO",
- "n": 38,
- "mae": 0.89,
- "bias": -0.84,
+ "n": 40,
+ "mae": 0.97,
+ "bias": -0.93,
  "rows": [
   {
    "city": "Wellington",
@@ -497,6 +497,32 @@
    "actual": 12.0,
    "err": 0.0,
    "peak_local": "13:30"
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-08-18",
+   "date_display": "08/18",
+   "snap_date": "2026-08-18",
+   "time": "06:55",
+   "local_hhmm": "15:55",
+   "hour": 6,
+   "meteo": 68,
+   "actual": 69.0,
+   "err": -1.0,
+   "peak_local": "15:56"
+  },
+  {
+   "city": "Seattle",
+   "date": "2026-08-18",
+   "date_display": "08/18",
+   "snap_date": "2026-08-18",
+   "time": "08:37",
+   "local_hhmm": "17:37",
+   "hour": 8,
+   "meteo": 75,
+   "actual": 79.0,
+   "err": -4.0,
+   "peak_local": "17:53"
   }
  ],
  "cities": [
@@ -613,13 +639,25 @@
    "best_period": null
   },
   {
-   "city": "Seattle",
-   "n": 3,
-   "mae": 1.67,
+   "city": "San Francisco",
+   "n": 1,
+   "mae": 1.0,
    "periods": {
     "06-09": {
-     "n": 3,
-     "mae": 1.67
+     "n": 1,
+     "mae": 1.0
+    }
+   },
+   "best_period": null
+  },
+  {
+   "city": "Seattle",
+   "n": 4,
+   "mae": 2.25,
+   "periods": {
+    "06-09": {
+     "n": 4,
+     "mae": 2.25
     }
    },
    "best_period": "06-09"

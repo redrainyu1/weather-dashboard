@@ -1,8 +1,8 @@
 {
  "model": "METEO",
- "n": 262,
- "mae": 0.67,
- "bias": -0.47,
+ "n": 268,
+ "mae": 0.69,
+ "bias": -0.48,
  "rows": [
   {
    "city": "Hong Kong",
@@ -3021,6 +3021,19 @@
    "peak_local": "18:00"
   },
   {
+   "city": "Hong Kong",
+   "date": "2026-08-18",
+   "date_display": "08/18",
+   "snap_date": "2026-08-18",
+   "time": "15:39",
+   "local_hhmm": "15:39",
+   "hour": 15,
+   "meteo": 33,
+   "actual": 32.0,
+   "err": 1.0,
+   "peak_local": "16:30"
+  },
+  {
    "city": "Kuala Lumpur",
    "date": "2026-08-18",
    "date_display": "08/18",
@@ -3333,6 +3346,19 @@
    "peak_local": "16:20"
   },
   {
+   "city": "Buenos Aires",
+   "date": "2026-08-18",
+   "date_display": "08/18",
+   "snap_date": "2026-08-18",
+   "time": "03:05",
+   "local_hhmm": "16:05",
+   "hour": 3,
+   "meteo": 12,
+   "actual": 11.0,
+   "err": 1.0,
+   "peak_local": "17:00"
+  },
+  {
    "city": "Sao Paulo",
    "date": "2026-08-18",
    "date_display": "08/18",
@@ -3372,6 +3398,32 @@
    "peak_local": "16:53"
   },
   {
+   "city": "Nyc",
+   "date": "2026-08-18",
+   "date_display": "08/18",
+   "snap_date": "2026-08-18",
+   "time": "00:00",
+   "local_hhmm": "12:00",
+   "hour": 0,
+   "meteo": 82,
+   "actual": 85.0,
+   "err": -3.0,
+   "peak_local": "13:51"
+  },
+  {
+   "city": "Toronto",
+   "date": "2026-08-18",
+   "date_display": "08/18",
+   "snap_date": "2026-08-18",
+   "time": "01:42",
+   "local_hhmm": "13:42",
+   "hour": 1,
+   "meteo": 27,
+   "actual": 27.0,
+   "err": 0.0,
+   "peak_local": "15:00"
+  },
+  {
    "city": "Chicago",
    "date": "2026-08-18",
    "date_display": "08/18",
@@ -3409,6 +3461,32 @@
    "actual": 89.0,
    "err": -1.0,
    "peak_local": "16:58"
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-08-18",
+   "date_display": "08/18",
+   "snap_date": "2026-08-18",
+   "time": "05:37",
+   "local_hhmm": "14:37",
+   "hour": 5,
+   "meteo": 68,
+   "actual": 69.0,
+   "err": -1.0,
+   "peak_local": "15:56"
+  },
+  {
+   "city": "Seattle",
+   "date": "2026-08-18",
+   "date_display": "08/18",
+   "snap_date": "2026-08-18",
+   "time": "08:37",
+   "local_hhmm": "17:37",
+   "hour": 8,
+   "meteo": 75,
+   "actual": 79.0,
+   "err": -4.0,
+   "peak_local": "17:53"
   }
  ],
  "cities": [
@@ -3490,7 +3568,7 @@
   },
   {
    "city": "Buenos Aires",
-   "n": 3,
+   "n": 4,
    "mae": 1.0,
    "periods": {
     "09-12": {
@@ -3498,7 +3576,7 @@
      "mae": 1.0
     },
     "其他": {
-     "n": 1,
+     "n": 2,
      "mae": 1.0
     }
    },
@@ -3658,12 +3736,12 @@
   },
   {
    "city": "Hong Kong",
-   "n": 7,
-   "mae": 0.86,
+   "n": 8,
+   "mae": 0.88,
    "periods": {
     "15-18": {
-     "n": 5,
-     "mae": 0.8
+     "n": 6,
+     "mae": 0.83
     },
     "12-15": {
      "n": 2,
@@ -3926,16 +4004,16 @@
   },
   {
    "city": "Nyc",
-   "n": 2,
-   "mae": 1.0,
+   "n": 3,
+   "mae": 1.67,
    "periods": {
     "21-24": {
      "n": 1,
      "mae": 0.0
     },
     "其他": {
-     "n": 1,
-     "mae": 2.0
+     "n": 2,
+     "mae": 2.5
     }
    },
    "best_period": null
@@ -3986,15 +4064,15 @@
   },
   {
    "city": "San Francisco",
-   "n": 2,
+   "n": 3,
    "mae": 1.0,
    "periods": {
     "其他": {
-     "n": 2,
+     "n": 3,
      "mae": 1.0
     }
    },
-   "best_period": null
+   "best_period": "其他"
   },
   {
    "city": "Sao Paulo",
@@ -4014,12 +4092,12 @@
   },
   {
    "city": "Seattle",
-   "n": 3,
-   "mae": 1.67,
+   "n": 4,
+   "mae": 2.25,
    "periods": {
     "06-09": {
-     "n": 3,
-     "mae": 1.67
+     "n": 4,
+     "mae": 2.25
     }
    },
    "best_period": "06-09"
@@ -4158,7 +4236,7 @@
   },
   {
    "city": "Toronto",
-   "n": 3,
+   "n": 4,
    "mae": 0.0,
    "periods": {
     "21-24": {
@@ -4166,11 +4244,11 @@
      "mae": 0.0
     },
     "其他": {
-     "n": 2,
+     "n": 3,
      "mae": 0.0
     }
    },
-   "best_period": null
+   "best_period": "其他"
   },
   {
    "city": "Warsaw",
