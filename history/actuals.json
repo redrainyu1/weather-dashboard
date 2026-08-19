@@ -1986,5 +1986,13 @@
  "highest-temperature-in-singapore-on-august-19-2026": {
   "temp": 33.0,
   "peak_bj": "2026-08-19 14:00"
+ },
+ "highest-temperature-in-jeddah-on-august-19-2026": {
+  "temp": 37.0,
+  "peak_bj": "2026-08-19 22:00"
+ },
+ "highest-temperature-in-moscow-on-august-19-2026": {
+  "temp": 19.0,
+  "peak_bj": "2026-08-19 05:30"
  }
 }
