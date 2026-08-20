@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 312,
+ "n": 315,
  "mae": 0.67,
  "bias": -0.46,
  "rows": [
@@ -4059,6 +4059,45 @@
    "actual": 12.0,
    "err": 0.0,
    "peak_local": "17:30"
+  },
+  {
+   "city": "Busan",
+   "date": "2026-08-20",
+   "date_display": "08/20",
+   "snap_date": "2026-08-20",
+   "time": "13:53",
+   "local_hhmm": "14:53",
+   "hour": 13,
+   "meteo": 33,
+   "actual": 33.0,
+   "err": 0.0,
+   "peak_local": "16:00"
+  },
+  {
+   "city": "Seoul",
+   "date": "2026-08-20",
+   "date_display": "08/20",
+   "snap_date": "2026-08-20",
+   "time": "09:42",
+   "local_hhmm": "10:42",
+   "hour": 9,
+   "meteo": 28,
+   "actual": 28.0,
+   "err": 0.0,
+   "peak_local": "11:30"
+  },
+  {
+   "city": "Tokyo",
+   "date": "2026-08-20",
+   "date_display": "08/20",
+   "snap_date": "2026-08-20",
+   "time": "11:34",
+   "local_hhmm": "12:34",
+   "hour": 11,
+   "meteo": 32,
+   "actual": 33.0,
+   "err": -1.0,
+   "peak_local": "13:30"
   }
  ],
  "cities": [
@@ -4156,12 +4195,12 @@
   },
   {
    "city": "Busan",
-   "n": 8,
-   "mae": 0.5,
+   "n": 9,
+   "mae": 0.44,
    "periods": {
     "12-15": {
-     "n": 6,
-     "mae": 0.33
+     "n": 7,
+     "mae": 0.29
     },
     "09-12": {
      "n": 1,
@@ -4684,15 +4723,15 @@
   },
   {
    "city": "Seoul",
-   "n": 9,
-   "mae": 0.44,
+   "n": 10,
+   "mae": 0.4,
    "periods": {
     "12-15": {
      "n": 5,
      "mae": 0.6
     },
     "09-12": {
-     "n": 2,
+     "n": 3,
      "mae": 0.0
     },
     "15-18": {
@@ -4700,7 +4739,7 @@
      "mae": 0.5
     }
    },
-   "best_period": "12-15"
+   "best_period": "09-12"
   },
   {
    "city": "Shanghai",
@@ -4800,16 +4839,16 @@
   },
   {
    "city": "Tokyo",
-   "n": 11,
-   "mae": 0.64,
+   "n": 12,
+   "mae": 0.67,
    "periods": {
     "12-15": {
      "n": 7,
      "mae": 0.71
     },
     "09-12": {
-     "n": 4,
-     "mae": 0.5
+     "n": 5,
+     "mae": 0.6
     }
    },
    "best_period": "09-12"

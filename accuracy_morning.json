@@ -1,8 +1,8 @@
 {
  "model": "METEO",
- "n": 43,
- "mae": 0.93,
- "bias": -0.88,
+ "n": 45,
+ "mae": 0.91,
+ "bias": -0.87,
  "rows": [
   {
    "city": "Wellington",
@@ -551,6 +551,32 @@
    "peak_local": "17:53"
   },
   {
+   "city": "Seoul",
+   "date": "2026-08-20",
+   "date_display": "08/20",
+   "snap_date": "2026-08-20",
+   "time": "09:42",
+   "local_hhmm": "10:42",
+   "hour": 9,
+   "meteo": 28,
+   "actual": 28.0,
+   "err": 0.0,
+   "peak_local": "11:30"
+  },
+  {
+   "city": "Tokyo",
+   "date": "2026-08-20",
+   "date_display": "08/20",
+   "snap_date": "2026-08-20",
+   "time": "11:34",
+   "local_hhmm": "12:34",
+   "hour": 11,
+   "meteo": 32,
+   "actual": 33.0,
+   "err": -1.0,
+   "peak_local": "13:30"
+  },
+  {
    "city": "Wellington",
    "date": "2026-08-20",
    "date_display": "08/20",
@@ -703,11 +729,11 @@
   },
   {
    "city": "Seoul",
-   "n": 3,
+   "n": 4,
    "mae": 0.0,
    "periods": {
     "09-12": {
-     "n": 3,
+     "n": 4,
      "mae": 0.0
     }
    },
@@ -755,12 +781,12 @@
   },
   {
    "city": "Tokyo",
-   "n": 4,
-   "mae": 0.5,
+   "n": 5,
+   "mae": 0.6,
    "periods": {
     "09-12": {
-     "n": 4,
-     "mae": 0.5
+     "n": 5,
+     "mae": 0.6
     }
    },
    "best_period": "09-12"
