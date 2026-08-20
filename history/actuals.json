@@ -2130,5 +2130,9 @@
  "highest-temperature-in-los-angeles-on-august-19-2026": {
   "temp": 81.0,
   "peak_bj": "2026-08-20 01:53"
+ },
+ "highest-temperature-in-wellington-on-august-20-2026": {
+  "temp": 12.0,
+  "peak_bj": "2026-08-20 13:30"
  }
 }

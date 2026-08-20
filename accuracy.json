@@ -1,8 +1,8 @@
 {
  "model": "METEO",
- "n": 311,
+ "n": 312,
  "mae": 0.67,
- "bias": -0.47,
+ "bias": -0.46,
  "rows": [
   {
    "city": "Hong Kong",
@@ -4046,6 +4046,19 @@
    "actual": 83.0,
    "err": -1.0,
    "peak_local": "17:53"
+  },
+  {
+   "city": "Wellington",
+   "date": "2026-08-20",
+   "date_display": "08/20",
+   "snap_date": "2026-08-20",
+   "time": "11:57",
+   "local_hhmm": "15:57",
+   "hour": 11,
+   "meteo": 12,
+   "actual": 12.0,
+   "err": 0.0,
+   "peak_local": "17:30"
   }
  ],
  "cities": [
@@ -4835,11 +4848,11 @@
   },
   {
    "city": "Wellington",
-   "n": 4,
+   "n": 5,
    "mae": 0.0,
    "periods": {
     "09-12": {
-     "n": 2,
+     "n": 3,
      "mae": 0.0
     },
     "21-24": {
@@ -4851,7 +4864,7 @@
      "mae": 0.0
     }
    },
-   "best_period": null
+   "best_period": "09-12"
   },
   {
    "city": "Wuhan",
