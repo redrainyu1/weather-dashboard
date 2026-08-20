@@ -2254,5 +2254,9 @@
  "highest-temperature-in-milan-on-august-20-2026": {
   "temp": 30.0,
   "peak_bj": "2026-08-20 20:20"
+ },
+ "highest-temperature-in-london-on-august-20-2026": {
+  "temp": 24.0,
+  "peak_bj": "2026-08-20 23:50"
  }
 }
