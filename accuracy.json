@@ -1,8 +1,8 @@
 {
  "model": "METEO",
- "n": 305,
- "mae": 0.66,
- "bias": -0.45,
+ "n": 308,
+ "mae": 0.67,
+ "bias": -0.46,
  "rows": [
   {
    "city": "Hong Kong",
@@ -3866,6 +3866,19 @@
    "peak_local": "16:50"
   },
   {
+   "city": "Buenos Aires",
+   "date": "2026-08-19",
+   "date_display": "08/19",
+   "snap_date": "2026-08-19",
+   "time": "01:40",
+   "local_hhmm": "14:40",
+   "hour": 1,
+   "meteo": 13,
+   "actual": 17.0,
+   "err": -4.0,
+   "peak_local": "16:00"
+  },
+  {
    "city": "Sao Paulo",
    "date": "2026-08-19",
    "date_display": "08/19",
@@ -3968,6 +3981,32 @@
    "actual": 33.0,
    "err": 0.0,
    "peak_local": "12:00"
+  },
+  {
+   "city": "Denver",
+   "date": "2026-08-19",
+   "date_display": "08/19",
+   "snap_date": "2026-08-19",
+   "time": "05:38",
+   "local_hhmm": "15:38",
+   "hour": 5,
+   "meteo": 90,
+   "actual": 91.0,
+   "err": -1.0,
+   "peak_local": "16:58"
+  },
+  {
+   "city": "Mexico City",
+   "date": "2026-08-19",
+   "date_display": "08/19",
+   "snap_date": "2026-08-19",
+   "time": "03:55",
+   "local_hhmm": "13:55",
+   "hour": 3,
+   "meteo": 24,
+   "actual": 25.0,
+   "err": -1.0,
+   "peak_local": "14:43"
   }
  ],
  "cities": [
@@ -4049,19 +4088,19 @@
   },
   {
    "city": "Buenos Aires",
-   "n": 4,
-   "mae": 1.0,
+   "n": 5,
+   "mae": 1.6,
    "periods": {
     "09-12": {
      "n": 2,
      "mae": 1.0
     },
     "其他": {
-     "n": 2,
-     "mae": 1.0
+     "n": 3,
+     "mae": 2.0
     }
    },
-   "best_period": null
+   "best_period": "其他"
   },
   {
    "city": "Busan",
@@ -4165,19 +4204,19 @@
   },
   {
    "city": "Denver",
-   "n": 3,
-   "mae": 1.67,
+   "n": 4,
+   "mae": 1.5,
    "periods": {
     "其他": {
-     "n": 2,
-     "mae": 1.5
+     "n": 3,
+     "mae": 1.33
     },
     "06-09": {
      "n": 1,
      "mae": 2.0
     }
    },
-   "best_period": null
+   "best_period": "其他"
   },
   {
    "city": "Guangzhou",
@@ -4417,12 +4456,12 @@
   },
   {
    "city": "Mexico City",
-   "n": 3,
-   "mae": 0.33,
+   "n": 4,
+   "mae": 0.5,
    "periods": {
     "其他": {
-     "n": 3,
-     "mae": 0.33
+     "n": 4,
+     "mae": 0.5
     }
    },
    "best_period": "其他"

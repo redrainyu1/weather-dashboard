@@ -2098,5 +2098,17 @@
  "highest-temperature-in-nyc-on-august-19-2026": {
   "temp": 87.0,
   "peak_bj": "2026-08-20 05:51"
+ },
+ "highest-temperature-in-buenos-aires-on-august-19-2026": {
+  "temp": 17.0,
+  "peak_bj": "2026-08-20 03:00"
+ },
+ "highest-temperature-in-denver-on-august-19-2026": {
+  "temp": 91.0,
+  "peak_bj": "2026-08-20 06:58"
+ },
+ "highest-temperature-in-mexico-city-on-august-19-2026": {
+  "temp": 25.0,
+  "peak_bj": "2026-08-20 04:43"
  }
 }
