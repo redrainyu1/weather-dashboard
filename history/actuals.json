@@ -2250,5 +2250,9 @@
  "highest-temperature-in-munich-on-august-20-2026": {
   "temp": 25.0,
   "peak_bj": "2026-08-20 17:20"
+ },
+ "highest-temperature-in-milan-on-august-20-2026": {
+  "temp": 30.0,
+  "peak_bj": "2026-08-20 20:20"
  }
 }

@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 340,
+ "n": 341,
  "mae": 0.64,
  "bias": -0.45,
  "rows": [
@@ -4386,6 +4386,19 @@
    "peak_local": "16:30"
   },
   {
+   "city": "Milan",
+   "date": "2026-08-20",
+   "date_display": "08/20",
+   "snap_date": "2026-08-20",
+   "time": "19:37",
+   "local_hhmm": "13:37",
+   "hour": 19,
+   "meteo": 30,
+   "actual": 30.0,
+   "err": 0.0,
+   "peak_local": "14:20"
+  },
+  {
    "city": "Munich",
    "date": "2026-08-20",
    "date_display": "08/20",
@@ -4896,16 +4909,16 @@
   },
   {
    "city": "Milan",
-   "n": 7,
-   "mae": 0.29,
+   "n": 8,
+   "mae": 0.25,
    "periods": {
     "21-24": {
      "n": 5,
      "mae": 0.2
     },
     "18-21": {
-     "n": 1,
-     "mae": 1.0
+     "n": 2,
+     "mae": 0.5
     },
     "其他": {
      "n": 1,
