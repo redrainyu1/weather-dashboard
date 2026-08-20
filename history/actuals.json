@@ -2074,5 +2074,17 @@
  "highest-temperature-in-toronto-on-august-19-2026": {
   "temp": 27.0,
   "peak_bj": "2026-08-20 04:00"
+ },
+ "highest-temperature-in-atlanta-on-august-19-2026": {
+  "temp": 95.0,
+  "peak_bj": "2026-08-20 04:52"
+ },
+ "highest-temperature-in-miami-on-august-19-2026": {
+  "temp": 95.0,
+  "peak_bj": "2026-08-20 01:53"
+ },
+ "highest-temperature-in-panama-city-on-august-19-2026": {
+  "temp": 33.0,
+  "peak_bj": "2026-08-20 01:00"
  }
 }
