@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 327,
+ "n": 329,
  "mae": 0.66,
  "bias": -0.46,
  "rows": [
@@ -4254,6 +4254,32 @@
    "actual": 36.0,
    "err": 0.0,
    "peak_local": "17:00"
+  },
+  {
+   "city": "Karachi",
+   "date": "2026-08-20",
+   "date_display": "08/20",
+   "snap_date": "2026-08-20",
+   "time": "16:42",
+   "local_hhmm": "13:42",
+   "hour": 16,
+   "meteo": 32,
+   "actual": 32.0,
+   "err": 0.0,
+   "peak_local": "15:00"
+  },
+  {
+   "city": "Lucknow",
+   "date": "2026-08-20",
+   "date_display": "08/20",
+   "snap_date": "2026-08-20",
+   "time": "16:42",
+   "local_hhmm": "14:42",
+   "hour": 16,
+   "meteo": 33,
+   "actual": 33.0,
+   "err": 0.0,
+   "peak_local": "16:00"
   }
  ],
  "cities": [
@@ -4579,12 +4605,12 @@
   },
   {
    "city": "Karachi",
-   "n": 9,
-   "mae": 0.56,
+   "n": 10,
+   "mae": 0.5,
    "periods": {
     "15-18": {
-     "n": 6,
-     "mae": 0.33
+     "n": 7,
+     "mae": 0.29
     },
     "12-15": {
      "n": 3,
@@ -4639,12 +4665,12 @@
   },
   {
    "city": "Lucknow",
-   "n": 8,
-   "mae": 0.62,
+   "n": 9,
+   "mae": 0.56,
    "periods": {
     "15-18": {
-     "n": 5,
-     "mae": 0.4
+     "n": 6,
+     "mae": 0.33
     },
     "12-15": {
      "n": 1,
