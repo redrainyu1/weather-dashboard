@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 302,
+ "n": 305,
  "mae": 0.66,
  "bias": -0.45,
  "rows": [
@@ -3905,6 +3905,19 @@
    "peak_local": "13:53"
   },
   {
+   "city": "Nyc",
+   "date": "2026-08-19",
+   "date_display": "08/19",
+   "snap_date": "2026-08-19",
+   "time": "04:44",
+   "local_hhmm": "16:44",
+   "hour": 4,
+   "meteo": 88,
+   "actual": 87.0,
+   "err": 1.0,
+   "peak_local": "17:51"
+  },
+  {
    "city": "Toronto",
    "date": "2026-08-19",
    "date_display": "08/19",
@@ -3916,6 +3929,32 @@
    "actual": 27.0,
    "err": 0.0,
    "peak_local": "16:00"
+  },
+  {
+   "city": "Chicago",
+   "date": "2026-08-19",
+   "date_display": "08/19",
+   "snap_date": "2026-08-19",
+   "time": "03:04",
+   "local_hhmm": "14:04",
+   "hour": 3,
+   "meteo": 79,
+   "actual": 79.0,
+   "err": 0.0,
+   "peak_local": "14:51"
+  },
+  {
+   "city": "Dallas",
+   "date": "2026-08-19",
+   "date_display": "08/19",
+   "snap_date": "2026-08-19",
+   "time": "04:44",
+   "local_hhmm": "15:44",
+   "hour": 4,
+   "meteo": 104,
+   "actual": 105.0,
+   "err": -1.0,
+   "peak_local": "16:53"
   },
   {
    "city": "Panama City",
@@ -4082,11 +4121,11 @@
   },
   {
    "city": "Chicago",
-   "n": 1,
+   "n": 2,
    "mae": 0.0,
    "periods": {
     "其他": {
-     "n": 1,
+     "n": 2,
      "mae": 0.0
     }
    },
@@ -4114,11 +4153,11 @@
   },
   {
    "city": "Dallas",
-   "n": 1,
+   "n": 2,
    "mae": 1.0,
    "periods": {
     "其他": {
-     "n": 1,
+     "n": 2,
      "mae": 1.0
     }
    },
@@ -4454,19 +4493,19 @@
   },
   {
    "city": "Nyc",
-   "n": 3,
-   "mae": 1.67,
+   "n": 4,
+   "mae": 1.5,
    "periods": {
     "21-24": {
      "n": 1,
      "mae": 0.0
     },
     "其他": {
-     "n": 2,
-     "mae": 2.5
+     "n": 3,
+     "mae": 2.0
     }
    },
-   "best_period": null
+   "best_period": "其他"
   },
   {
    "city": "Panama City",

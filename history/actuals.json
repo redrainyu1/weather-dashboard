@@ -2086,5 +2086,17 @@
  "highest-temperature-in-panama-city-on-august-19-2026": {
   "temp": 33.0,
   "peak_bj": "2026-08-20 01:00"
+ },
+ "highest-temperature-in-chicago-on-august-19-2026": {
+  "temp": 79.0,
+  "peak_bj": "2026-08-20 03:51"
+ },
+ "highest-temperature-in-dallas-on-august-19-2026": {
+  "temp": 105.0,
+  "peak_bj": "2026-08-20 05:53"
+ },
+ "highest-temperature-in-nyc-on-august-19-2026": {
+  "temp": 87.0,
+  "peak_bj": "2026-08-20 05:51"
  }
 }
