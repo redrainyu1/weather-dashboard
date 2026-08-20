@@ -1,8 +1,8 @@
 {
  "model": "METEO",
- "n": 330,
- "mae": 0.66,
- "bias": -0.46,
+ "n": 334,
+ "mae": 0.65,
+ "bias": -0.45,
  "rows": [
   {
    "city": "Hong Kong",
@@ -4282,6 +4282,32 @@
    "peak_local": "16:00"
   },
   {
+   "city": "Helsinki",
+   "date": "2026-08-20",
+   "date_display": "08/20",
+   "snap_date": "2026-08-20",
+   "time": "16:42",
+   "local_hhmm": "11:42",
+   "hour": 16,
+   "meteo": 18,
+   "actual": 18.0,
+   "err": 0.0,
+   "peak_local": "12:20"
+  },
+  {
+   "city": "Istanbul",
+   "date": "2026-08-20",
+   "date_display": "08/20",
+   "snap_date": "2026-08-20",
+   "time": "20:37",
+   "local_hhmm": "15:37",
+   "hour": 20,
+   "meteo": 27,
+   "actual": 27.0,
+   "err": 0.0,
+   "peak_local": "16:50"
+  },
+  {
    "city": "Jeddah",
    "date": "2026-08-20",
    "date_display": "08/20",
@@ -4293,6 +4319,32 @@
    "actual": 39.0,
    "err": 0.0,
    "peak_local": "15:00"
+  },
+  {
+   "city": "Moscow",
+   "date": "2026-08-20",
+   "date_display": "08/20",
+   "snap_date": "2026-08-20",
+   "time": "17:37",
+   "local_hhmm": "12:37",
+   "hour": 17,
+   "meteo": 22,
+   "actual": 22.0,
+   "err": 0.0,
+   "peak_local": "14:00"
+  },
+  {
+   "city": "Tel Aviv",
+   "date": "2026-08-20",
+   "date_display": "08/20",
+   "snap_date": "2026-08-20",
+   "time": "18:51",
+   "local_hhmm": "13:51",
+   "hour": 18,
+   "meteo": 32,
+   "actual": 32.0,
+   "err": 0.0,
+   "peak_local": "14:20"
   }
  ],
  "cities": [
@@ -4522,23 +4574,23 @@
   },
   {
    "city": "Helsinki",
-   "n": 6,
-   "mae": 0.5,
+   "n": 7,
+   "mae": 0.43,
    "periods": {
     "18-21": {
      "n": 3,
      "mae": 0.67
     },
     "15-18": {
-     "n": 2,
-     "mae": 0.5
+     "n": 3,
+     "mae": 0.33
     },
     "21-24": {
      "n": 1,
      "mae": 0.0
     }
    },
-   "best_period": "18-21"
+   "best_period": "15-18"
   },
   {
    "city": "Hong Kong",
@@ -4570,11 +4622,11 @@
   },
   {
    "city": "Istanbul",
-   "n": 2,
+   "n": 3,
    "mae": 0.0,
    "periods": {
     "18-21": {
-     "n": 1,
+     "n": 2,
      "mae": 0.0
     },
     "15-18": {
@@ -4786,11 +4838,15 @@
   },
   {
    "city": "Moscow",
-   "n": 2,
+   "n": 3,
    "mae": 0.0,
    "periods": {
     "18-21": {
      "n": 2,
+     "mae": 0.0
+    },
+    "15-18": {
+     "n": 1,
      "mae": 0.0
     }
    },
@@ -5018,11 +5074,11 @@
   },
   {
    "city": "Tel Aviv",
-   "n": 3,
-   "mae": 0.33,
+   "n": 4,
+   "mae": 0.25,
    "periods": {
     "18-21": {
-     "n": 2,
+     "n": 3,
      "mae": 0.0
     },
     "15-18": {
@@ -5030,7 +5086,7 @@
      "mae": 1.0
     }
    },
-   "best_period": null
+   "best_period": "18-21"
   },
   {
    "city": "Tokyo",
