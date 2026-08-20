@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 310,
+ "n": 311,
  "mae": 0.67,
  "bias": -0.47,
  "rows": [
@@ -4009,6 +4009,19 @@
    "peak_local": "14:43"
   },
   {
+   "city": "Los Angeles",
+   "date": "2026-08-19",
+   "date_display": "08/19",
+   "snap_date": "2026-08-19",
+   "time": "01:40",
+   "local_hhmm": "10:40",
+   "hour": 1,
+   "meteo": 81,
+   "actual": 81.0,
+   "err": 0.0,
+   "peak_local": "10:53"
+  },
+  {
    "city": "San Francisco",
    "date": "2026-08-19",
    "date_display": "08/19",
@@ -4402,19 +4415,19 @@
   },
   {
    "city": "Los Angeles",
-   "n": 3,
-   "mae": 0.67,
+   "n": 4,
+   "mae": 0.5,
    "periods": {
     "06-09": {
      "n": 1,
      "mae": 2.0
     },
     "其他": {
-     "n": 2,
+     "n": 3,
      "mae": 0.0
     }
    },
-   "best_period": null
+   "best_period": "其他"
   },
   {
    "city": "Lucknow",
