@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 329,
+ "n": 330,
  "mae": 0.66,
  "bias": -0.46,
  "rows": [
@@ -4280,6 +4280,19 @@
    "actual": 33.0,
    "err": 0.0,
    "peak_local": "16:00"
+  },
+  {
+   "city": "Jeddah",
+   "date": "2026-08-20",
+   "date_display": "08/20",
+   "snap_date": "2026-08-20",
+   "time": "18:51",
+   "local_hhmm": "13:51",
+   "hour": 18,
+   "meteo": 39,
+   "actual": 39.0,
+   "err": 0.0,
+   "peak_local": "15:00"
   }
  ],
  "cities": [
@@ -4573,15 +4586,15 @@
   },
   {
    "city": "Jeddah",
-   "n": 5,
-   "mae": 0.2,
+   "n": 6,
+   "mae": 0.17,
    "periods": {
     "15-18": {
      "n": 1,
      "mae": 1.0
     },
     "18-21": {
-     "n": 4,
+     "n": 5,
      "mae": 0.0
     }
    },
