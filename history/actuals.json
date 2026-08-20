@@ -2226,5 +2226,21 @@
  "highest-temperature-in-tel-aviv-on-august-20-2026": {
   "temp": 32.0,
   "peak_bj": "2026-08-20 19:20"
+ },
+ "highest-temperature-in-cape-town-on-august-20-2026": {
+  "temp": 18.0,
+  "peak_bj": "2026-08-20 20:00"
+ },
+ "highest-temperature-in-madrid-on-august-20-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-08-20 22:30"
+ },
+ "highest-temperature-in-paris-on-august-20-2026": {
+  "temp": 26.0,
+  "peak_bj": "2026-08-20 23:30"
+ },
+ "highest-temperature-in-warsaw-on-august-20-2026": {
+  "temp": 25.0,
+  "peak_bj": "2026-08-20 21:30"
  }
 }
