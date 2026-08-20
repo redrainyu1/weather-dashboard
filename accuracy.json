@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 338,
+ "n": 340,
  "mae": 0.64,
  "bias": -0.45,
  "rows": [
@@ -4347,6 +4347,19 @@
    "peak_local": "14:20"
   },
   {
+   "city": "Amsterdam",
+   "date": "2026-08-20",
+   "date_display": "08/20",
+   "snap_date": "2026-08-20",
+   "time": "21:58",
+   "local_hhmm": "15:58",
+   "hour": 21,
+   "meteo": 22,
+   "actual": 22.0,
+   "err": 0.0,
+   "peak_local": "17:55"
+  },
+  {
    "city": "Cape Town",
    "date": "2026-08-20",
    "date_display": "08/20",
@@ -4371,6 +4384,19 @@
    "actual": 32.0,
    "err": 0.0,
    "peak_local": "16:30"
+  },
+  {
+   "city": "Munich",
+   "date": "2026-08-20",
+   "date_display": "08/20",
+   "snap_date": "2026-08-20",
+   "time": "16:42",
+   "local_hhmm": "10:42",
+   "hour": 16,
+   "meteo": 24,
+   "actual": 25.0,
+   "err": -1.0,
+   "peak_local": "11:20"
   },
   {
    "city": "Paris",
@@ -4402,11 +4428,11 @@
  "cities": [
   {
    "city": "Amsterdam",
-   "n": 6,
+   "n": 7,
    "mae": 0.0,
    "periods": {
     "21-24": {
-     "n": 5,
+     "n": 6,
      "mae": 0.0
     },
     "其他": {
@@ -4906,8 +4932,8 @@
   },
   {
    "city": "Munich",
-   "n": 9,
-   "mae": 0.44,
+   "n": 10,
+   "mae": 0.5,
    "periods": {
     "21-24": {
      "n": 7,
@@ -4918,8 +4944,8 @@
      "mae": 0.0
     },
     "15-18": {
-     "n": 1,
-     "mae": 0.0
+     "n": 2,
+     "mae": 0.5
     }
    },
    "best_period": "21-24"
