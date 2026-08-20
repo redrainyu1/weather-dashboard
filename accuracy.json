@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 325,
+ "n": 327,
  "mae": 0.66,
  "bias": -0.46,
  "rows": [
@@ -4139,6 +4139,19 @@
    "peak_local": "17:00"
   },
   {
+   "city": "Guangzhou",
+   "date": "2026-08-20",
+   "date_display": "08/20",
+   "snap_date": "2026-08-20",
+   "time": "13:01",
+   "local_hhmm": "13:01",
+   "hour": 13,
+   "meteo": 34,
+   "actual": 35.0,
+   "err": -1.0,
+   "peak_local": "14:00"
+  },
+  {
    "city": "Kuala Lumpur",
    "date": "2026-08-20",
    "date_display": "08/20",
@@ -4189,6 +4202,19 @@
    "actual": 32.0,
    "err": -1.0,
    "peak_local": "13:00"
+  },
+  {
+   "city": "Shenzhen",
+   "date": "2026-08-20",
+   "date_display": "08/20",
+   "snap_date": "2026-08-20",
+   "time": "09:42",
+   "local_hhmm": "09:42",
+   "hour": 9,
+   "meteo": 31,
+   "actual": 30.0,
+   "err": 1.0,
+   "peak_local": "11:00"
   },
   {
    "city": "Singapore",
@@ -4441,12 +4467,12 @@
   },
   {
    "city": "Guangzhou",
-   "n": 8,
-   "mae": 0.75,
+   "n": 9,
+   "mae": 0.78,
    "periods": {
     "12-15": {
-     "n": 6,
-     "mae": 0.83
+     "n": 7,
+     "mae": 0.86
     },
     "15-18": {
      "n": 2,
@@ -4897,8 +4923,8 @@
   },
   {
    "city": "Shenzhen",
-   "n": 10,
-   "mae": 1.9,
+   "n": 11,
+   "mae": 1.82,
    "periods": {
     "15-18": {
      "n": 1,
@@ -4913,8 +4939,8 @@
      "mae": 1.0
     },
     "09-12": {
-     "n": 1,
-     "mae": 2.0
+     "n": 2,
+     "mae": 1.5
     }
    },
    "best_period": "12-15"
