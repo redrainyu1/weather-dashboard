@@ -1,8 +1,8 @@
 {
  "model": "METEO",
- "n": 52,
- "mae": 0.88,
- "bias": -0.81,
+ "n": 55,
+ "mae": 0.89,
+ "bias": -0.82,
  "rows": [
   {
    "city": "Wellington",
@@ -655,6 +655,45 @@
    "peak_local": "14:00"
   },
   {
+   "city": "Chongqing",
+   "date": "2026-08-21",
+   "date_display": "08/21",
+   "snap_date": "2026-08-21",
+   "time": "11:56",
+   "local_hhmm": "11:56",
+   "hour": 11,
+   "meteo": 34,
+   "actual": 34.0,
+   "err": 0.0,
+   "peak_local": "13:00"
+  },
+  {
+   "city": "Qingdao",
+   "date": "2026-08-21",
+   "date_display": "08/21",
+   "snap_date": "2026-08-21",
+   "time": "09:44",
+   "local_hhmm": "09:44",
+   "hour": 9,
+   "meteo": 29,
+   "actual": 30.0,
+   "err": -1.0,
+   "peak_local": "11:00"
+  },
+  {
+   "city": "Taipei",
+   "date": "2026-08-21",
+   "date_display": "08/21",
+   "snap_date": "2026-08-21",
+   "time": "10:37",
+   "local_hhmm": "10:37",
+   "hour": 10,
+   "meteo": 33,
+   "actual": 35.0,
+   "err": -2.0,
+   "peak_local": "11:30"
+  },
+  {
    "city": "Tokyo",
    "date": "2026-08-21",
    "date_display": "08/21",
@@ -720,11 +759,11 @@
   },
   {
    "city": "Chongqing",
-   "n": 1,
+   "n": 2,
    "mae": 0.0,
    "periods": {
     "09-12": {
-     "n": 1,
+     "n": 2,
      "mae": 0.0
     }
    },
@@ -784,15 +823,15 @@
   },
   {
    "city": "Qingdao",
-   "n": 2,
+   "n": 3,
    "mae": 1.0,
    "periods": {
     "09-12": {
-     "n": 2,
+     "n": 3,
      "mae": 1.0
     }
    },
-   "best_period": null
+   "best_period": "09-12"
   },
   {
    "city": "San Francisco",
@@ -860,12 +899,12 @@
   },
   {
    "city": "Taipei",
-   "n": 7,
-   "mae": 1.43,
+   "n": 8,
+   "mae": 1.5,
    "periods": {
     "09-12": {
-     "n": 7,
-     "mae": 1.43
+     "n": 8,
+     "mae": 1.5
     }
    },
    "best_period": "09-12"
