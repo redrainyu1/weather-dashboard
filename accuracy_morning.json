@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 49,
+ "n": 50,
  "mae": 0.92,
  "bias": -0.84,
  "rows": [
@@ -640,6 +640,19 @@
    "actual": 12.0,
    "err": 0.0,
    "peak_local": "17:30"
+  },
+  {
+   "city": "Wellington",
+   "date": "2026-08-21",
+   "date_display": "08/21",
+   "snap_date": "2026-08-21",
+   "time": "08:50",
+   "local_hhmm": "12:50",
+   "hour": 8,
+   "meteo": 14,
+   "actual": 15.0,
+   "err": -1.0,
+   "peak_local": "13:30"
   }
  ],
  "cities": [
@@ -845,16 +858,16 @@
   },
   {
    "city": "Wellington",
-   "n": 4,
-   "mae": 0.0,
+   "n": 5,
+   "mae": 0.2,
    "periods": {
     "09-12": {
      "n": 3,
      "mae": 0.0
     },
     "06-09": {
-     "n": 1,
-     "mae": 0.0
+     "n": 2,
+     "mae": 0.5
     }
    },
    "best_period": "09-12"
