@@ -1,7 +1,7 @@
 {
  "model": "METEO",
- "n": 346,
- "mae": 0.64,
+ "n": 349,
+ "mae": 0.63,
  "bias": -0.44,
  "rows": [
   {
@@ -4477,6 +4477,32 @@
    "peak_local": "17:00"
   },
   {
+   "city": "Atlanta",
+   "date": "2026-08-20",
+   "date_display": "08/20",
+   "snap_date": "2026-08-20",
+   "time": "04:12",
+   "local_hhmm": "16:12",
+   "hour": 4,
+   "meteo": 97,
+   "actual": 97.0,
+   "err": 0.0,
+   "peak_local": "16:52"
+  },
+  {
+   "city": "Miami",
+   "date": "2026-08-20",
+   "date_display": "08/20",
+   "snap_date": "2026-08-20",
+   "time": "23:00",
+   "local_hhmm": "11:00",
+   "hour": 23,
+   "meteo": 93,
+   "actual": 93.0,
+   "err": 0.0,
+   "peak_local": "11:53"
+  },
+  {
    "city": "Nyc",
    "date": "2026-08-20",
    "date_display": "08/20",
@@ -4488,6 +4514,19 @@
    "actual": 85.0,
    "err": -1.0,
    "peak_local": "11:51"
+  },
+  {
+   "city": "Panama City",
+   "date": "2026-08-20",
+   "date_display": "08/20",
+   "snap_date": "2026-08-20",
+   "time": "01:45",
+   "local_hhmm": "12:45",
+   "hour": 1,
+   "meteo": 34,
+   "actual": 34.0,
+   "err": 0.0,
+   "peak_local": "14:00"
   },
   {
    "city": "Toronto",
@@ -4542,12 +4581,12 @@
   },
   {
    "city": "Atlanta",
-   "n": 4,
-   "mae": 1.0,
+   "n": 5,
+   "mae": 0.8,
    "periods": {
     "其他": {
-     "n": 4,
-     "mae": 1.0
+     "n": 5,
+     "mae": 0.8
     }
    },
    "best_period": "其他"
@@ -4962,11 +5001,15 @@
   },
   {
    "city": "Miami",
-   "n": 4,
+   "n": 5,
    "mae": 0.0,
    "periods": {
     "其他": {
      "n": 4,
+     "mae": 0.0
+    },
+    "21-24": {
+     "n": 1,
      "mae": 0.0
     }
    },
@@ -5046,7 +5089,7 @@
   },
   {
    "city": "Panama City",
-   "n": 4,
+   "n": 5,
    "mae": 0.0,
    "periods": {
     "21-24": {
@@ -5054,7 +5097,7 @@
      "mae": 0.0
     },
     "其他": {
-     "n": 1,
+     "n": 2,
      "mae": 0.0
     }
    },
