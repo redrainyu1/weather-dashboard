@@ -1,8 +1,8 @@
 {
  "model": "METEO",
- "n": 349,
+ "n": 352,
  "mae": 0.63,
- "bias": -0.44,
+ "bias": -0.43,
  "rows": [
   {
    "city": "Hong Kong",
@@ -4477,6 +4477,19 @@
    "peak_local": "17:00"
   },
   {
+   "city": "Sao Paulo",
+   "date": "2026-08-20",
+   "date_display": "08/20",
+   "snap_date": "2026-08-20",
+   "time": "01:45",
+   "local_hhmm": "14:45",
+   "hour": 1,
+   "meteo": 32,
+   "actual": 32.0,
+   "err": 0.0,
+   "peak_local": "16:00"
+  },
+  {
    "city": "Atlanta",
    "date": "2026-08-20",
    "date_display": "08/20",
@@ -4488,6 +4501,32 @@
    "actual": 97.0,
    "err": 0.0,
    "peak_local": "16:52"
+  },
+  {
+   "city": "Chicago",
+   "date": "2026-08-20",
+   "date_display": "08/20",
+   "snap_date": "2026-08-20",
+   "time": "04:12",
+   "local_hhmm": "15:12",
+   "hour": 4,
+   "meteo": 77,
+   "actual": 77.0,
+   "err": 0.0,
+   "peak_local": "16:51"
+  },
+  {
+   "city": "Houston",
+   "date": "2026-08-20",
+   "date_display": "08/20",
+   "snap_date": "2026-08-20",
+   "time": "04:12",
+   "local_hhmm": "15:12",
+   "hour": 4,
+   "meteo": 97,
+   "actual": 97.0,
+   "err": 0.0,
+   "peak_local": "16:53"
   },
   {
    "city": "Miami",
@@ -4693,15 +4732,15 @@
   },
   {
    "city": "Chicago",
-   "n": 2,
+   "n": 3,
    "mae": 0.0,
    "periods": {
     "其他": {
-     "n": 2,
+     "n": 3,
      "mae": 0.0
     }
    },
-   "best_period": null
+   "best_period": "其他"
   },
   {
    "city": "Chongqing",
@@ -4805,15 +4844,15 @@
   },
   {
    "city": "Houston",
-   "n": 2,
+   "n": 3,
    "mae": 0.0,
    "periods": {
     "其他": {
-     "n": 2,
+     "n": 3,
      "mae": 0.0
     }
    },
-   "best_period": null
+   "best_period": "其他"
   },
   {
    "city": "Istanbul",
@@ -5145,7 +5184,7 @@
   },
   {
    "city": "Sao Paulo",
-   "n": 5,
+   "n": 6,
    "mae": 0.0,
    "periods": {
     "21-24": {
@@ -5153,7 +5192,7 @@
      "mae": 0.0
     },
     "其他": {
-     "n": 4,
+     "n": 5,
      "mae": 0.0
     }
    },
