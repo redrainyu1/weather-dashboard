@@ -1,8 +1,8 @@
 {
  "model": "METEO",
- "n": 50,
- "mae": 0.92,
- "bias": -0.84,
+ "n": 52,
+ "mae": 0.88,
+ "bias": -0.81,
  "rows": [
   {
    "city": "Wellington",
@@ -642,6 +642,32 @@
    "peak_local": "17:30"
   },
   {
+   "city": "Busan",
+   "date": "2026-08-21",
+   "date_display": "08/21",
+   "snap_date": "2026-08-21",
+   "time": "11:56",
+   "local_hhmm": "12:56",
+   "hour": 11,
+   "meteo": 34,
+   "actual": 34.0,
+   "err": 0.0,
+   "peak_local": "14:00"
+  },
+  {
+   "city": "Tokyo",
+   "date": "2026-08-21",
+   "date_display": "08/21",
+   "snap_date": "2026-08-21",
+   "time": "10:37",
+   "local_hhmm": "11:37",
+   "hour": 10,
+   "meteo": 32,
+   "actual": 32.0,
+   "err": 0.0,
+   "peak_local": "13:00"
+  },
+  {
    "city": "Wellington",
    "date": "2026-08-21",
    "date_display": "08/21",
@@ -670,15 +696,15 @@
   },
   {
    "city": "Busan",
-   "n": 2,
-   "mae": 1.5,
+   "n": 3,
+   "mae": 1.0,
    "periods": {
     "09-12": {
-     "n": 2,
-     "mae": 1.5
+     "n": 3,
+     "mae": 1.0
     }
    },
-   "best_period": null
+   "best_period": "09-12"
   },
   {
    "city": "Chengdu",
@@ -846,12 +872,12 @@
   },
   {
    "city": "Tokyo",
-   "n": 5,
-   "mae": 0.6,
+   "n": 6,
+   "mae": 0.5,
    "periods": {
     "09-12": {
-     "n": 5,
-     "mae": 0.6
+     "n": 6,
+     "mae": 0.5
     }
    },
    "best_period": "09-12"
