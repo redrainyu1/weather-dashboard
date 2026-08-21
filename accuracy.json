@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 374,
+ "n": 376,
  "mae": 0.61,
  "bias": -0.43,
  "rows": [
@@ -4865,6 +4865,32 @@
    "actual": 35.0,
    "err": -1.0,
    "peak_local": "15:30"
+  },
+  {
+   "city": "Jeddah",
+   "date": "2026-08-21",
+   "date_display": "08/21",
+   "snap_date": "2026-08-21",
+   "time": "18:47",
+   "local_hhmm": "13:47",
+   "hour": 18,
+   "meteo": 37,
+   "actual": 37.0,
+   "err": 0.0,
+   "peak_local": "15:00"
+  },
+  {
+   "city": "Moscow",
+   "date": "2026-08-21",
+   "date_display": "08/21",
+   "snap_date": "2026-08-21",
+   "time": "16:42",
+   "local_hhmm": "11:42",
+   "hour": 16,
+   "meteo": 21,
+   "actual": 21.0,
+   "err": 0.0,
+   "peak_local": "13:00"
   }
  ],
  "cities": [
@@ -5158,15 +5184,15 @@
   },
   {
    "city": "Jeddah",
-   "n": 6,
-   "mae": 0.17,
+   "n": 7,
+   "mae": 0.14,
    "periods": {
     "15-18": {
      "n": 1,
      "mae": 1.0
     },
     "18-21": {
-     "n": 5,
+     "n": 6,
      "mae": 0.0
     }
    },
@@ -5362,7 +5388,7 @@
   },
   {
    "city": "Moscow",
-   "n": 3,
+   "n": 4,
    "mae": 0.0,
    "periods": {
     "18-21": {
@@ -5370,7 +5396,7 @@
      "mae": 0.0
     },
     "15-18": {
-     "n": 1,
+     "n": 2,
      "mae": 0.0
     }
    },

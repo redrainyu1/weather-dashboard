@@ -2398,5 +2398,13 @@
  "highest-temperature-in-lucknow-on-august-21-2026": {
   "temp": 35.0,
   "peak_bj": "2026-08-21 17:30"
+ },
+ "highest-temperature-in-jeddah-on-august-21-2026": {
+  "temp": 37.0,
+  "peak_bj": "2026-08-21 20:00"
+ },
+ "highest-temperature-in-moscow-on-august-21-2026": {
+  "temp": 21.0,
+  "peak_bj": "2026-08-21 18:00"
  }
 }
