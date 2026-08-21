@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 376,
+ "n": 379,
  "mae": 0.61,
  "bias": -0.43,
  "rows": [
@@ -4867,6 +4867,32 @@
    "peak_local": "15:30"
   },
   {
+   "city": "Ankara",
+   "date": "2026-08-21",
+   "date_display": "08/21",
+   "snap_date": "2026-08-21",
+   "time": "19:50",
+   "local_hhmm": "14:50",
+   "hour": 19,
+   "meteo": 33,
+   "actual": 33.0,
+   "err": 0.0,
+   "peak_local": "15:50"
+  },
+  {
+   "city": "Helsinki",
+   "date": "2026-08-21",
+   "date_display": "08/21",
+   "snap_date": "2026-08-21",
+   "time": "18:47",
+   "local_hhmm": "13:47",
+   "hour": 18,
+   "meteo": 21,
+   "actual": 21.0,
+   "err": 0.0,
+   "peak_local": "14:50"
+  },
+  {
    "city": "Jeddah",
    "date": "2026-08-21",
    "date_display": "08/21",
@@ -4891,6 +4917,19 @@
    "actual": 21.0,
    "err": 0.0,
    "peak_local": "13:00"
+  },
+  {
+   "city": "Tel Aviv",
+   "date": "2026-08-21",
+   "date_display": "08/21",
+   "snap_date": "2026-08-21",
+   "time": "15:41",
+   "local_hhmm": "10:41",
+   "hour": 15,
+   "meteo": 32,
+   "actual": 33.0,
+   "err": -1.0,
+   "peak_local": "11:20"
   }
  ],
  "cities": [
@@ -4912,7 +4951,7 @@
   },
   {
    "city": "Ankara",
-   "n": 6,
+   "n": 7,
    "mae": 0.0,
    "periods": {
     "21-24": {
@@ -4920,7 +4959,7 @@
      "mae": 0.0
     },
     "18-21": {
-     "n": 3,
+     "n": 4,
      "mae": 0.0
     },
     "15-18": {
@@ -5120,12 +5159,12 @@
   },
   {
    "city": "Helsinki",
-   "n": 7,
-   "mae": 0.43,
+   "n": 8,
+   "mae": 0.38,
    "periods": {
     "18-21": {
-     "n": 3,
-     "mae": 0.67
+     "n": 4,
+     "mae": 0.5
     },
     "15-18": {
      "n": 3,
@@ -5624,15 +5663,15 @@
   },
   {
    "city": "Tel Aviv",
-   "n": 4,
-   "mae": 0.25,
+   "n": 5,
+   "mae": 0.4,
    "periods": {
     "18-21": {
      "n": 3,
      "mae": 0.0
     },
     "15-18": {
-     "n": 1,
+     "n": 2,
      "mae": 1.0
     }
    },
