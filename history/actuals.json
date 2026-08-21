@@ -2374,5 +2374,21 @@
  "highest-temperature-in-taipei-on-august-21-2026": {
   "temp": 35.0,
   "peak_bj": "2026-08-21 11:30"
+ },
+ "highest-temperature-in-chengdu-on-august-21-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-08-21 18:00"
+ },
+ "highest-temperature-in-manila-on-august-21-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-08-21 14:00"
+ },
+ "highest-temperature-in-shenzhen-on-august-21-2026": {
+  "temp": 31.0,
+  "peak_bj": "2026-08-21 14:00"
+ },
+ "highest-temperature-in-wuhan-on-august-21-2026": {
+  "temp": 35.0,
+  "peak_bj": "2026-08-21 17:00"
  }
 }
