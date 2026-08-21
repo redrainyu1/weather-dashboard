@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 344,
+ "n": 346,
  "mae": 0.64,
  "bias": -0.44,
  "rows": [
@@ -4475,6 +4475,32 @@
    "actual": 19.0,
    "err": 0.0,
    "peak_local": "17:00"
+  },
+  {
+   "city": "Nyc",
+   "date": "2026-08-20",
+   "date_display": "08/20",
+   "snap_date": "2026-08-20",
+   "time": "23:00",
+   "local_hhmm": "11:00",
+   "hour": 23,
+   "meteo": 84,
+   "actual": 85.0,
+   "err": -1.0,
+   "peak_local": "11:51"
+  },
+  {
+   "city": "Toronto",
+   "date": "2026-08-20",
+   "date_display": "08/20",
+   "snap_date": "2026-08-20",
+   "time": "03:10",
+   "local_hhmm": "15:10",
+   "hour": 3,
+   "meteo": 24,
+   "actual": 24.0,
+   "err": 0.0,
+   "peak_local": "16:00"
   }
  ],
  "cities": [
@@ -5004,12 +5030,12 @@
   },
   {
    "city": "Nyc",
-   "n": 4,
-   "mae": 1.5,
+   "n": 5,
+   "mae": 1.4,
    "periods": {
     "21-24": {
-     "n": 1,
-     "mae": 0.0
+     "n": 2,
+     "mae": 0.5
     },
     "其他": {
      "n": 3,
@@ -5236,7 +5262,7 @@
   },
   {
    "city": "Toronto",
-   "n": 5,
+   "n": 6,
    "mae": 0.0,
    "periods": {
     "21-24": {
@@ -5244,7 +5270,7 @@
      "mae": 0.0
     },
     "其他": {
-     "n": 4,
+     "n": 5,
      "mae": 0.0
     }
    },
