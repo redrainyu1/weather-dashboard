@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 379,
+ "n": 382,
  "mae": 0.61,
  "bias": -0.43,
  "rows": [
@@ -4930,6 +4930,45 @@
    "actual": 33.0,
    "err": -1.0,
    "peak_local": "11:20"
+  },
+  {
+   "city": "Cape Town",
+   "date": "2026-08-21",
+   "date_display": "08/21",
+   "snap_date": "2026-08-21",
+   "time": "19:50",
+   "local_hhmm": "13:50",
+   "hour": 19,
+   "meteo": 22,
+   "actual": 22.0,
+   "err": 0.0,
+   "peak_local": "15:00"
+  },
+  {
+   "city": "Paris",
+   "date": "2026-08-21",
+   "date_display": "08/21",
+   "snap_date": "2026-08-21",
+   "time": "19:50",
+   "local_hhmm": "13:50",
+   "hour": 19,
+   "meteo": 23,
+   "actual": 24.0,
+   "err": -1.0,
+   "peak_local": "15:00"
+  },
+  {
+   "city": "Warsaw",
+   "date": "2026-08-21",
+   "date_display": "08/21",
+   "snap_date": "2026-08-21",
+   "time": "18:47",
+   "local_hhmm": "12:47",
+   "hour": 18,
+   "meteo": 27,
+   "actual": 27.0,
+   "err": 0.0,
+   "peak_local": "13:30"
   }
  ],
  "cities": [
@@ -5047,11 +5086,11 @@
   },
   {
    "city": "Cape Town",
-   "n": 9,
-   "mae": 0.22,
+   "n": 10,
+   "mae": 0.2,
    "periods": {
     "18-21": {
-     "n": 6,
+     "n": 7,
      "mae": 0.0
     },
     "21-24": {
@@ -5495,12 +5534,16 @@
   },
   {
    "city": "Paris",
-   "n": 9,
-   "mae": 0.33,
+   "n": 10,
+   "mae": 0.4,
    "periods": {
     "21-24": {
      "n": 9,
      "mae": 0.33
+    },
+    "18-21": {
+     "n": 1,
+     "mae": 1.0
     }
    },
    "best_period": "21-24"
@@ -5711,16 +5754,16 @@
   },
   {
    "city": "Warsaw",
-   "n": 9,
-   "mae": 0.78,
+   "n": 10,
+   "mae": 0.7,
    "periods": {
     "21-24": {
      "n": 7,
      "mae": 0.57
     },
     "18-21": {
-     "n": 2,
-     "mae": 1.5
+     "n": 3,
+     "mae": 1.0
     }
    },
    "best_period": "21-24"
