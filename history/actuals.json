@@ -2306,5 +2306,13 @@
  "highest-temperature-in-sao-paulo-on-august-20-2026": {
   "temp": 32.0,
   "peak_bj": "2026-08-21 03:00"
+ },
+ "highest-temperature-in-denver-on-august-20-2026": {
+  "temp": 93.0,
+  "peak_bj": "2026-08-21 05:58"
+ },
+ "highest-temperature-in-mexico-city-on-august-20-2026": {
+  "temp": 25.0,
+  "peak_bj": "2026-08-21 05:46"
  }
 }
