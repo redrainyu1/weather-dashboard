@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 382,
+ "n": 383,
  "mae": 0.61,
  "bias": -0.43,
  "rows": [
@@ -4945,6 +4945,19 @@
    "peak_local": "15:00"
   },
   {
+   "city": "Munich",
+   "date": "2026-08-21",
+   "date_display": "08/21",
+   "snap_date": "2026-08-21",
+   "time": "19:31",
+   "local_hhmm": "13:31",
+   "hour": 19,
+   "meteo": 22,
+   "actual": 22.0,
+   "err": 0.0,
+   "peak_local": "14:20"
+  },
+  {
    "city": "Paris",
    "date": "2026-08-21",
    "date_display": "08/21",
@@ -5482,15 +5495,15 @@
   },
   {
    "city": "Munich",
-   "n": 10,
-   "mae": 0.5,
+   "n": 11,
+   "mae": 0.45,
    "periods": {
     "21-24": {
      "n": 7,
      "mae": 0.57
     },
     "18-21": {
-     "n": 1,
+     "n": 2,
      "mae": 0.0
     },
     "15-18": {
