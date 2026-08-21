@@ -2262,5 +2262,9 @@
  "highest-temperature-in-hong-kong-on-august-20-2026": {
   "temp": 29.0,
   "peak_bj": "2026-08-20 17:30"
+ },
+ "highest-temperature-in-buenos-aires-on-august-20-2026": {
+  "temp": 19.0,
+  "peak_bj": "2026-08-21 04:00"
  }
 }
