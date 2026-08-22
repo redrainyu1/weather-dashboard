@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 383,
+ "n": 384,
  "mae": 0.61,
  "bias": -0.43,
  "rows": [
@@ -4982,6 +4982,19 @@
    "actual": 27.0,
    "err": 0.0,
    "peak_local": "13:30"
+  },
+  {
+   "city": "Buenos Aires",
+   "date": "2026-08-21",
+   "date_display": "08/21",
+   "snap_date": "2026-08-21",
+   "time": "01:39",
+   "local_hhmm": "14:39",
+   "hour": 1,
+   "meteo": 12,
+   "actual": 13.0,
+   "err": -1.0,
+   "peak_local": "16:00"
   }
  ],
  "cities": [
@@ -5063,16 +5076,16 @@
   },
   {
    "city": "Buenos Aires",
-   "n": 6,
-   "mae": 1.33,
+   "n": 7,
+   "mae": 1.29,
    "periods": {
     "09-12": {
      "n": 2,
      "mae": 1.0
     },
     "其他": {
-     "n": 4,
-     "mae": 1.5
+     "n": 5,
+     "mae": 1.4
     }
    },
    "best_period": "其他"
