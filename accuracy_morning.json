@@ -1,8 +1,8 @@
 {
  "model": "METEO",
- "n": 61,
- "mae": 0.87,
- "bias": -0.8,
+ "n": 62,
+ "mae": 0.85,
+ "bias": -0.79,
  "rows": [
   {
    "city": "Wellington",
@@ -785,6 +785,19 @@
    "peak_local": "14:30"
   },
   {
+   "city": "Warsaw",
+   "date": "2026-08-22",
+   "date_display": "08/22",
+   "snap_date": "2026-08-22",
+   "time": "10:31",
+   "local_hhmm": "04:31",
+   "hour": 10,
+   "meteo": 23,
+   "actual": 23.0,
+   "err": 0.0,
+   "peak_local": "05:30"
+  },
+  {
    "city": "Wellington",
    "date": "2026-08-22",
    "date_display": "08/22",
@@ -1002,6 +1015,18 @@
     }
    },
    "best_period": "09-12"
+  },
+  {
+   "city": "Warsaw",
+   "n": 1,
+   "mae": 0.0,
+   "periods": {
+    "09-12": {
+     "n": 1,
+     "mae": 0.0
+    }
+   },
+   "best_period": null
   },
   {
    "city": "Wellington",

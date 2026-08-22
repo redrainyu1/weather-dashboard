@@ -2614,5 +2614,29 @@
  "highest-temperature-in-taipei-on-august-22-2026": {
   "temp": 35.0,
   "peak_bj": "2026-08-22 11:00"
+ },
+ "highest-temperature-in-ankara-on-august-22-2026": {
+  "temp": 35.0,
+  "peak_bj": "2026-08-22 22:20"
+ },
+ "highest-temperature-in-cape-town-on-august-22-2026": {
+  "temp": 17.0,
+  "peak_bj": "2026-08-22 20:00"
+ },
+ "highest-temperature-in-istanbul-on-august-22-2026": {
+  "temp": 27.0,
+  "peak_bj": "2026-08-22 20:20"
+ },
+ "highest-temperature-in-milan-on-august-22-2026": {
+  "temp": 29.0,
+  "peak_bj": "2026-08-23 00:20"
+ },
+ "highest-temperature-in-munich-on-august-22-2026": {
+  "temp": 21.0,
+  "peak_bj": "2026-08-22 20:50"
+ },
+ "highest-temperature-in-warsaw-on-august-22-2026": {
+  "temp": 23.0,
+  "peak_bj": "2026-08-22 11:30"
  }
 }
