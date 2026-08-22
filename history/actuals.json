@@ -2450,5 +2450,9 @@
  "highest-temperature-in-munich-on-august-21-2026": {
   "temp": 22.0,
   "peak_bj": "2026-08-21 20:20"
+ },
+ "highest-temperature-in-london-on-august-21-2026": {
+  "temp": 21.0,
+  "peak_bj": "2026-08-22 01:20"
  }
 }
