@@ -2534,5 +2534,9 @@
  "highest-temperature-in-tokyo-on-august-22-2026": {
   "temp": 31.0,
   "peak_bj": "2026-08-22 13:30"
+ },
+ "highest-temperature-in-shenzhen-on-august-22-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-08-22 15:00"
  }
 }
