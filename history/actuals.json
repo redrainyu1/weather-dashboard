@@ -2478,5 +2478,25 @@
  "highest-temperature-in-panama-city-on-august-21-2026": {
   "temp": 33.0,
   "peak_bj": "2026-08-22 05:00"
+ },
+ "highest-temperature-in-austin-on-august-21-2026": {
+  "temp": 105.0,
+  "peak_bj": "2026-08-22 05:53"
+ },
+ "highest-temperature-in-chicago-on-august-21-2026": {
+  "temp": 81.0,
+  "peak_bj": "2026-08-22 05:51"
+ },
+ "highest-temperature-in-dallas-on-august-21-2026": {
+  "temp": 99.0,
+  "peak_bj": "2026-08-22 07:53"
+ },
+ "highest-temperature-in-houston-on-august-21-2026": {
+  "temp": 99.0,
+  "peak_bj": "2026-08-22 06:53"
+ },
+ "highest-temperature-in-mexico-city-on-august-21-2026": {
+  "temp": 24.0,
+  "peak_bj": "2026-08-22 05:54"
  }
 }
