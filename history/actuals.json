@@ -2562,5 +2562,45 @@
  "highest-temperature-in-wuhan-on-august-22-2026": {
   "temp": 36.0,
   "peak_bj": "2026-08-22 17:00"
+ },
+ "highest-temperature-in-chengdu-on-august-22-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-08-22 18:00"
+ },
+ "highest-temperature-in-chongqing-on-august-22-2026": {
+  "temp": 38.0,
+  "peak_bj": "2026-08-22 17:00"
+ },
+ "highest-temperature-in-guangzhou-on-august-22-2026": {
+  "temp": 36.0,
+  "peak_bj": "2026-08-22 16:04"
+ },
+ "highest-temperature-in-helsinki-on-august-22-2026": {
+  "temp": 18.0,
+  "peak_bj": "2026-08-22 20:20"
+ },
+ "highest-temperature-in-jeddah-on-august-22-2026": {
+  "temp": 38.0,
+  "peak_bj": "2026-08-22 23:00"
+ },
+ "highest-temperature-in-kuala-lumpur-on-august-22-2026": {
+  "temp": 34.0,
+  "peak_bj": "2026-08-22 15:00"
+ },
+ "highest-temperature-in-manila-on-august-22-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-08-22 14:00"
+ },
+ "highest-temperature-in-moscow-on-august-22-2026": {
+  "temp": 22.0,
+  "peak_bj": "2026-08-22 19:00"
+ },
+ "highest-temperature-in-qingdao-on-august-22-2026": {
+  "temp": 31.0,
+  "peak_bj": "2026-08-22 14:00"
+ },
+ "highest-temperature-in-tel-aviv-on-august-22-2026": {
+  "temp": 33.0,
+  "peak_bj": "2026-08-22 16:20"
  }
 }
