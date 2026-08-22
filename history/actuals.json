@@ -2514,5 +2514,9 @@
  "highest-temperature-in-sao-paulo-on-august-21-2026": {
   "temp": 25.0,
   "peak_bj": "2026-08-22 03:00"
+ },
+ "highest-temperature-in-san-francisco-on-august-21-2026": {
+  "temp": 67.0,
+  "peak_bj": "2026-08-22 06:56"
  }
 }
