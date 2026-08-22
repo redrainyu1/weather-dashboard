@@ -1,8 +1,8 @@
 {
  "model": "METEO",
- "n": 388,
+ "n": 389,
  "mae": 0.61,
- "bias": -0.44,
+ "bias": -0.43,
  "rows": [
   {
    "city": "Hong Kong",
@@ -5036,6 +5036,19 @@
    "peak_local": "16:51"
   },
   {
+   "city": "Panama City",
+   "date": "2026-08-21",
+   "date_display": "08/21",
+   "snap_date": "2026-08-21",
+   "time": "03:49",
+   "local_hhmm": "14:49",
+   "hour": 3,
+   "meteo": 33,
+   "actual": 33.0,
+   "err": 0.0,
+   "peak_local": "16:00"
+  },
+  {
    "city": "Toronto",
    "date": "2026-08-21",
    "date_display": "08/21",
@@ -5596,7 +5609,7 @@
   },
   {
    "city": "Panama City",
-   "n": 5,
+   "n": 6,
    "mae": 0.0,
    "periods": {
     "21-24": {
@@ -5604,7 +5617,7 @@
      "mae": 0.0
     },
     "其他": {
-     "n": 2,
+     "n": 3,
      "mae": 0.0
     }
    },

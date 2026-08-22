@@ -2474,5 +2474,9 @@
  "highest-temperature-in-nyc-on-august-21-2026": {
   "temp": 79.0,
   "peak_bj": "2026-08-22 04:51"
+ },
+ "highest-temperature-in-panama-city-on-august-21-2026": {
+  "temp": 33.0,
+  "peak_bj": "2026-08-22 05:00"
  }
 }
