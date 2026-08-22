@@ -1,8 +1,8 @@
 {
  "model": "METEO",
- "n": 417,
+ "n": 419,
  "mae": 0.59,
- "bias": -0.42,
+ "bias": -0.43,
  "rows": [
   {
    "city": "Hong Kong",
@@ -5348,6 +5348,19 @@
    "peak_local": "15:30"
   },
   {
+   "city": "Taipei",
+   "date": "2026-08-22",
+   "date_display": "08/22",
+   "snap_date": "2026-08-22",
+   "time": "09:55",
+   "local_hhmm": "09:55",
+   "hour": 9,
+   "meteo": 33,
+   "actual": 35.0,
+   "err": -2.0,
+   "peak_local": "11:00"
+  },
+  {
    "city": "Wuhan",
    "date": "2026-08-22",
    "date_display": "08/22",
@@ -5424,6 +5437,19 @@
    "actual": 33.0,
    "err": -1.0,
    "peak_local": "11:20"
+  },
+  {
+   "city": "Paris",
+   "date": "2026-08-22",
+   "date_display": "08/22",
+   "snap_date": "2026-08-22",
+   "time": "21:29",
+   "local_hhmm": "15:29",
+   "hour": 21,
+   "meteo": 23,
+   "actual": 24.0,
+   "err": -1.0,
+   "peak_local": "16:30"
   }
  ],
  "cities": [
@@ -5989,12 +6015,12 @@
   },
   {
    "city": "Paris",
-   "n": 10,
-   "mae": 0.4,
+   "n": 11,
+   "mae": 0.45,
    "periods": {
     "21-24": {
-     "n": 9,
-     "mae": 0.33
+     "n": 10,
+     "mae": 0.4
     },
     "18-21": {
      "n": 1,
@@ -6153,16 +6179,16 @@
   },
   {
    "city": "Taipei",
-   "n": 10,
-   "mae": 1.3,
+   "n": 11,
+   "mae": 1.36,
    "periods": {
     "12-15": {
      "n": 5,
      "mae": 1.0
     },
     "09-12": {
-     "n": 5,
-     "mae": 1.6
+     "n": 6,
+     "mae": 1.67
     }
    },
    "best_period": "12-15"

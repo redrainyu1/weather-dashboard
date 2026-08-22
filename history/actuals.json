@@ -2602,5 +2602,17 @@
  "highest-temperature-in-tel-aviv-on-august-22-2026": {
   "temp": 33.0,
   "peak_bj": "2026-08-22 16:20"
+ },
+ "highest-temperature-in-madrid-on-august-22-2026": {
+  "temp": 33.0,
+  "peak_bj": "2026-08-23 01:30"
+ },
+ "highest-temperature-in-paris-on-august-22-2026": {
+  "temp": 24.0,
+  "peak_bj": "2026-08-22 22:30"
+ },
+ "highest-temperature-in-taipei-on-august-22-2026": {
+  "temp": 35.0,
+  "peak_bj": "2026-08-22 11:00"
  }
 }
