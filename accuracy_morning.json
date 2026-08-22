@@ -1,8 +1,8 @@
 {
  "model": "METEO",
- "n": 57,
- "mae": 0.89,
- "bias": -0.82,
+ "n": 60,
+ "mae": 0.85,
+ "bias": -0.78,
  "rows": [
   {
    "city": "Wellington",
@@ -720,6 +720,19 @@
    "peak_local": "13:30"
   },
   {
+   "city": "Busan",
+   "date": "2026-08-22",
+   "date_display": "08/22",
+   "snap_date": "2026-08-22",
+   "time": "11:50",
+   "local_hhmm": "12:50",
+   "hour": 11,
+   "meteo": 35,
+   "actual": 35.0,
+   "err": 0.0,
+   "peak_local": "14:00"
+  },
+  {
    "city": "San Francisco",
    "date": "2026-08-21",
    "date_display": "08/21",
@@ -731,6 +744,32 @@
    "actual": 67.0,
    "err": -1.0,
    "peak_local": "15:56"
+  },
+  {
+   "city": "Seoul",
+   "date": "2026-08-22",
+   "date_display": "08/22",
+   "snap_date": "2026-08-22",
+   "time": "08:39",
+   "local_hhmm": "09:39",
+   "hour": 8,
+   "meteo": 27,
+   "actual": 27.0,
+   "err": 0.0,
+   "peak_local": "11:00"
+  },
+  {
+   "city": "Tokyo",
+   "date": "2026-08-22",
+   "date_display": "08/22",
+   "snap_date": "2026-08-22",
+   "time": "11:50",
+   "local_hhmm": "12:50",
+   "hour": 11,
+   "meteo": 31,
+   "actual": 31.0,
+   "err": 0.0,
+   "peak_local": "14:30"
   },
   {
    "city": "Wellington",
@@ -761,12 +800,12 @@
   },
   {
    "city": "Busan",
-   "n": 3,
-   "mae": 1.0,
+   "n": 4,
+   "mae": 0.75,
    "periods": {
     "09-12": {
-     "n": 3,
-     "mae": 1.0
+     "n": 4,
+     "mae": 0.75
     }
    },
    "best_period": "09-12"
@@ -885,11 +924,15 @@
   },
   {
    "city": "Seoul",
-   "n": 4,
+   "n": 5,
    "mae": 0.0,
    "periods": {
     "09-12": {
      "n": 4,
+     "mae": 0.0
+    },
+    "06-09": {
+     "n": 1,
      "mae": 0.0
     }
    },
@@ -937,12 +980,12 @@
   },
   {
    "city": "Tokyo",
-   "n": 6,
-   "mae": 0.5,
+   "n": 7,
+   "mae": 0.43,
    "periods": {
     "09-12": {
-     "n": 6,
-     "mae": 0.5
+     "n": 7,
+     "mae": 0.43
     }
    },
    "best_period": "09-12"

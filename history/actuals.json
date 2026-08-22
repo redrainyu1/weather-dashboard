@@ -2522,5 +2522,17 @@
  "highest-temperature-in-wellington-on-august-22-2026": {
   "temp": 16.0,
   "peak_bj": "2026-08-22 10:00"
+ },
+ "highest-temperature-in-busan-on-august-22-2026": {
+  "temp": 35.0,
+  "peak_bj": "2026-08-22 13:00"
+ },
+ "highest-temperature-in-seoul-on-august-22-2026": {
+  "temp": 27.0,
+  "peak_bj": "2026-08-22 10:00"
+ },
+ "highest-temperature-in-tokyo-on-august-22-2026": {
+  "temp": 31.0,
+  "peak_bj": "2026-08-22 13:30"
  }
 }
