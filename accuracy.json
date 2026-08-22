@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 403,
+ "n": 404,
  "mae": 0.6,
  "bias": -0.43,
  "rows": [
@@ -5231,6 +5231,19 @@
    "peak_local": "15:00"
   },
   {
+   "city": "Karachi",
+   "date": "2026-08-22",
+   "date_display": "08/22",
+   "snap_date": "2026-08-22",
+   "time": "15:50",
+   "local_hhmm": "12:50",
+   "hour": 15,
+   "meteo": 30,
+   "actual": 30.0,
+   "err": 0.0,
+   "peak_local": "14:00"
+  },
+  {
    "city": "Lucknow",
    "date": "2026-08-22",
    "date_display": "08/22",
@@ -5567,12 +5580,12 @@
   },
   {
    "city": "Karachi",
-   "n": 11,
-   "mae": 0.45,
+   "n": 12,
+   "mae": 0.42,
    "periods": {
     "15-18": {
-     "n": 8,
-     "mae": 0.25
+     "n": 9,
+     "mae": 0.22
     },
     "12-15": {
      "n": 3,

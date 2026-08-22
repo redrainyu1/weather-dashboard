@@ -2542,5 +2542,9 @@
  "highest-temperature-in-lucknow-on-august-22-2026": {
   "temp": 31.0,
   "peak_bj": "2026-08-22 20:00"
+ },
+ "highest-temperature-in-karachi-on-august-22-2026": {
+  "temp": 30.0,
+  "peak_bj": "2026-08-22 17:00"
  }
 }
