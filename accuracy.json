@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 462,
+ "n": 464,
  "mae": 0.58,
  "bias": -0.42,
  "rows": [
@@ -5803,6 +5803,19 @@
    "peak_local": "18:00"
   },
   {
+   "city": "Chongqing",
+   "date": "2026-08-23",
+   "date_display": "08/23",
+   "snap_date": "2026-08-23",
+   "time": "12:53",
+   "local_hhmm": "12:53",
+   "hour": 12,
+   "meteo": 37,
+   "actual": 37.0,
+   "err": 0.0,
+   "peak_local": "14:00"
+  },
+  {
    "city": "Guangzhou",
    "date": "2026-08-23",
    "date_display": "08/23",
@@ -6009,6 +6022,19 @@
    "actual": 32.0,
    "err": 0.0,
    "peak_local": "15:20"
+  },
+  {
+   "city": "Warsaw",
+   "date": "2026-08-23",
+   "date_display": "08/23",
+   "snap_date": "2026-08-23",
+   "time": "21:50",
+   "local_hhmm": "15:50",
+   "hour": 21,
+   "meteo": 18,
+   "actual": 19.0,
+   "err": -1.0,
+   "peak_local": "17:00"
   }
  ],
  "cities": [
@@ -6178,16 +6204,16 @@
   },
   {
    "city": "Chongqing",
-   "n": 13,
-   "mae": 0.38,
+   "n": 14,
+   "mae": 0.36,
    "periods": {
     "15-18": {
      "n": 6,
      "mae": 0.0
     },
     "12-15": {
-     "n": 5,
-     "mae": 1.0
+     "n": 6,
+     "mae": 0.83
     },
     "09-12": {
      "n": 2,
@@ -6806,12 +6832,12 @@
   },
   {
    "city": "Warsaw",
-   "n": 11,
-   "mae": 0.64,
+   "n": 12,
+   "mae": 0.67,
    "periods": {
     "21-24": {
-     "n": 7,
-     "mae": 0.57
+     "n": 8,
+     "mae": 0.62
     },
     "18-21": {
      "n": 3,

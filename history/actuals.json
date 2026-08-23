@@ -2802,5 +2802,17 @@
  "highest-temperature-in-tel-aviv-on-august-23-2026": {
   "temp": 32.0,
   "peak_bj": "2026-08-23 20:20"
+ },
+ "highest-temperature-in-chongqing-on-august-23-2026": {
+  "temp": 37.0,
+  "peak_bj": "2026-08-23 14:00"
+ },
+ "highest-temperature-in-paris-on-august-23-2026": {
+  "temp": 24.0,
+  "peak_bj": "2026-08-24 00:30"
+ },
+ "highest-temperature-in-warsaw-on-august-23-2026": {
+  "temp": 19.0,
+  "peak_bj": "2026-08-23 23:00"
  }
 }
