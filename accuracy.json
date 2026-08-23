@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 456,
+ "n": 458,
  "mae": 0.59,
  "bias": -0.42,
  "rows": [
@@ -5931,6 +5931,32 @@
    "actual": 33.0,
    "err": 0.0,
    "peak_local": "17:00"
+  },
+  {
+   "city": "Jeddah",
+   "date": "2026-08-23",
+   "date_display": "08/23",
+   "snap_date": "2026-08-23",
+   "time": "20:52",
+   "local_hhmm": "15:52",
+   "hour": 20,
+   "meteo": 40,
+   "actual": 40.0,
+   "err": 0.0,
+   "peak_local": "17:00"
+  },
+  {
+   "city": "Moscow",
+   "date": "2026-08-23",
+   "date_display": "08/23",
+   "snap_date": "2026-08-23",
+   "time": "18:39",
+   "local_hhmm": "13:39",
+   "hour": 18,
+   "meteo": 22,
+   "actual": 23.0,
+   "err": -1.0,
+   "peak_local": "15:00"
   }
  ],
  "cities": [
@@ -6228,15 +6254,15 @@
   },
   {
    "city": "Jeddah",
-   "n": 7,
-   "mae": 0.14,
+   "n": 8,
+   "mae": 0.12,
    "periods": {
     "15-18": {
      "n": 1,
      "mae": 1.0
     },
     "18-21": {
-     "n": 6,
+     "n": 7,
      "mae": 0.0
     }
    },
@@ -6432,19 +6458,19 @@
   },
   {
    "city": "Moscow",
-   "n": 5,
-   "mae": 0.2,
+   "n": 6,
+   "mae": 0.33,
    "periods": {
     "18-21": {
-     "n": 2,
-     "mae": 0.0
+     "n": 3,
+     "mae": 0.33
     },
     "15-18": {
      "n": 3,
      "mae": 0.33
     }
    },
-   "best_period": "15-18"
+   "best_period": "18-21"
   },
   {
    "city": "Munich",
