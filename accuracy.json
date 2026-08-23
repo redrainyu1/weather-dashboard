@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 466,
+ "n": 467,
  "mae": 0.58,
  "bias": -0.42,
  "rows": [
@@ -6061,6 +6061,19 @@
    "actual": 19.0,
    "err": -1.0,
    "peak_local": "17:00"
+  },
+  {
+   "city": "London",
+   "date": "2026-08-23",
+   "date_display": "08/23",
+   "snap_date": "2026-08-23",
+   "time": "22:51",
+   "local_hhmm": "15:51",
+   "hour": 22,
+   "meteo": 24,
+   "actual": 24.0,
+   "err": 0.0,
+   "peak_local": "17:20"
   }
  ],
  "cities": [
@@ -6422,12 +6435,12 @@
   },
   {
    "city": "London",
-   "n": 6,
-   "mae": 0.67,
+   "n": 7,
+   "mae": 0.57,
    "periods": {
     "21-24": {
-     "n": 6,
-     "mae": 0.67
+     "n": 7,
+     "mae": 0.57
     }
    },
    "best_period": "21-24"
