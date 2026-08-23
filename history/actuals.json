@@ -2830,5 +2830,9 @@
  "highest-temperature-in-munich-on-august-23-2026": {
   "temp": 23.0,
   "peak_bj": "2026-08-24 00:20"
+ },
+ "highest-temperature-in-madrid-on-august-23-2026": {
+  "temp": 34.0,
+  "peak_bj": "2026-08-24 00:30"
  }
 }
