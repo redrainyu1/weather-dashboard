@@ -2642,5 +2642,13 @@
  "highest-temperature-in-amsterdam-on-august-22-2026": {
   "temp": 20.0,
   "peak_bj": "2026-08-22 18:55"
+ },
+ "highest-temperature-in-buenos-aires-on-august-22-2026": {
+  "temp": 14.0,
+  "peak_bj": "2026-08-23 04:00"
+ },
+ "highest-temperature-in-sao-paulo-on-august-22-2026": {
+  "temp": 23.0,
+  "peak_bj": "2026-08-23 02:00"
  }
 }
