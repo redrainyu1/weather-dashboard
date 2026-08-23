@@ -1,8 +1,8 @@
 {
  "model": "METEO",
- "n": 67,
- "mae": 0.84,
- "bias": -0.75,
+ "n": 68,
+ "mae": 0.82,
+ "bias": -0.74,
  "rows": [
   {
    "city": "Wellington",
@@ -811,6 +811,19 @@
    "peak_local": "14:00"
   },
   {
+   "city": "Busan",
+   "date": "2026-08-23",
+   "date_display": "08/23",
+   "snap_date": "2026-08-23",
+   "time": "11:50",
+   "local_hhmm": "12:50",
+   "hour": 11,
+   "meteo": 35,
+   "actual": 35.0,
+   "err": 0.0,
+   "peak_local": "14:00"
+  },
+  {
    "city": "Qingdao",
    "date": "2026-08-23",
    "date_display": "08/23",
@@ -891,12 +904,12 @@
   },
   {
    "city": "Busan",
-   "n": 4,
-   "mae": 0.75,
+   "n": 5,
+   "mae": 0.6,
    "periods": {
     "09-12": {
-     "n": 4,
-     "mae": 0.75
+     "n": 5,
+     "mae": 0.6
     }
    },
    "best_period": "09-12"
