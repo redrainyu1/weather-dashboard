@@ -2722,5 +2722,29 @@
  "highest-temperature-in-tokyo-on-august-23-2026": {
   "temp": 31.0,
   "peak_bj": "2026-08-23 14:30"
+ },
+ "highest-temperature-in-beijing-on-august-23-2026": {
+  "temp": 33.0,
+  "peak_bj": "2026-08-23 16:00"
+ },
+ "highest-temperature-in-chengdu-on-august-23-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-08-23 18:00"
+ },
+ "highest-temperature-in-guangzhou-on-august-23-2026": {
+  "temp": 33.0,
+  "peak_bj": "2026-08-23 17:30"
+ },
+ "highest-temperature-in-manila-on-august-23-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-08-23 15:00"
+ },
+ "highest-temperature-in-qingdao-on-august-23-2026": {
+  "temp": 31.0,
+  "peak_bj": "2026-08-23 12:00"
+ },
+ "highest-temperature-in-shanghai-on-august-23-2026": {
+  "temp": 31.0,
+  "peak_bj": "2026-08-23 14:00"
  }
 }

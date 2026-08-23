@@ -1,8 +1,8 @@
 {
  "model": "METEO",
- "n": 64,
- "mae": 0.84,
- "bias": -0.78,
+ "n": 65,
+ "mae": 0.83,
+ "bias": -0.77,
  "rows": [
   {
    "city": "Wellington",
@@ -811,6 +811,19 @@
    "peak_local": "14:00"
   },
   {
+   "city": "Qingdao",
+   "date": "2026-08-23",
+   "date_display": "08/23",
+   "snap_date": "2026-08-23",
+   "time": "10:54",
+   "local_hhmm": "10:54",
+   "hour": 10,
+   "meteo": 31,
+   "actual": 31.0,
+   "err": 0.0,
+   "peak_local": "12:00"
+  },
+  {
    "city": "San Francisco",
    "date": "2026-08-22",
    "date_display": "08/22",
@@ -940,12 +953,12 @@
   },
   {
    "city": "Qingdao",
-   "n": 3,
-   "mae": 1.0,
+   "n": 4,
+   "mae": 0.75,
    "periods": {
     "09-12": {
-     "n": 3,
-     "mae": 1.0
+     "n": 4,
+     "mae": 0.75
     }
    },
    "best_period": "09-12"
