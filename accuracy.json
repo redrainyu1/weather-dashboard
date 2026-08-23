@@ -1,7 +1,7 @@
 {
  "model": "METEO",
- "n": 435,
- "mae": 0.58,
+ "n": 437,
+ "mae": 0.59,
  "bias": -0.42,
  "rows": [
   {
@@ -5658,6 +5658,32 @@
    "actual": 33.0,
    "err": 0.0,
    "peak_local": "15:00"
+  },
+  {
+   "city": "Denver",
+   "date": "2026-08-22",
+   "date_display": "08/22",
+   "snap_date": "2026-08-22",
+   "time": "01:49",
+   "local_hhmm": "11:49",
+   "hour": 1,
+   "meteo": 90,
+   "actual": 93.0,
+   "err": -3.0,
+   "peak_local": "12:58"
+  },
+  {
+   "city": "Mexico City",
+   "date": "2026-08-22",
+   "date_display": "08/22",
+   "snap_date": "2026-08-22",
+   "time": "03:10",
+   "local_hhmm": "13:10",
+   "hour": 3,
+   "meteo": 23,
+   "actual": 23.0,
+   "err": 0.0,
+   "peak_local": "14:33"
   }
  ],
  "cities": [
@@ -5859,12 +5885,12 @@
   },
   {
    "city": "Denver",
-   "n": 6,
-   "mae": 1.67,
+   "n": 7,
+   "mae": 1.86,
    "periods": {
     "其他": {
-     "n": 5,
-     "mae": 1.6
+     "n": 6,
+     "mae": 1.83
     },
     "06-09": {
      "n": 1,
@@ -6111,12 +6137,12 @@
   },
   {
    "city": "Mexico City",
-   "n": 6,
-   "mae": 0.33,
+   "n": 7,
+   "mae": 0.29,
    "periods": {
     "其他": {
-     "n": 6,
-     "mae": 0.33
+     "n": 7,
+     "mae": 0.29
     }
    },
    "best_period": "其他"
