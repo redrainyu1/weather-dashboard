@@ -1,7 +1,7 @@
 {
  "model": "METEO",
- "n": 62,
- "mae": 0.85,
+ "n": 63,
+ "mae": 0.86,
  "bias": -0.79,
  "rows": [
   {
@@ -809,6 +809,19 @@
    "actual": 16.0,
    "err": -1.0,
    "peak_local": "14:00"
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-08-22",
+   "date_display": "08/22",
+   "snap_date": "2026-08-22",
+   "time": "06:53",
+   "local_hhmm": "15:53",
+   "hour": 6,
+   "meteo": 68,
+   "actual": 69.0,
+   "err": -1.0,
+   "peak_local": "15:56"
   }
  ],
  "cities": [
@@ -926,15 +939,15 @@
   },
   {
    "city": "San Francisco",
-   "n": 2,
+   "n": 3,
    "mae": 1.0,
    "periods": {
     "06-09": {
-     "n": 2,
+     "n": 3,
      "mae": 1.0
     }
    },
-   "best_period": null
+   "best_period": "06-09"
   },
   {
    "city": "Seattle",

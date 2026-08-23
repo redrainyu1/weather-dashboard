@@ -2698,5 +2698,17 @@
  "highest-temperature-in-mexico-city-on-august-22-2026": {
   "temp": 23.0,
   "peak_bj": "2026-08-23 04:33"
+ },
+ "highest-temperature-in-los-angeles-on-august-22-2026": {
+  "temp": 83.0,
+  "peak_bj": "2026-08-23 02:53"
+ },
+ "highest-temperature-in-san-francisco-on-august-22-2026": {
+  "temp": 69.0,
+  "peak_bj": "2026-08-23 06:56"
+ },
+ "highest-temperature-in-seattle-on-august-22-2026": {
+  "temp": 75.0,
+  "peak_bj": "2026-08-23 06:53"
  }
 }
