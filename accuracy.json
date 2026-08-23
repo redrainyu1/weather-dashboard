@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 431,
+ "n": 435,
  "mae": 0.58,
  "bias": -0.42,
  "rows": [
@@ -5606,6 +5606,58 @@
    "actual": 25.0,
    "err": 0.0,
    "peak_local": "14:00"
+  },
+  {
+   "city": "Austin",
+   "date": "2026-08-22",
+   "date_display": "08/22",
+   "snap_date": "2026-08-22",
+   "time": "05:05",
+   "local_hhmm": "16:05",
+   "hour": 5,
+   "meteo": 106,
+   "actual": 105.0,
+   "err": 1.0,
+   "peak_local": "17:53"
+  },
+  {
+   "city": "Chicago",
+   "date": "2026-08-22",
+   "date_display": "08/22",
+   "snap_date": "2026-08-22",
+   "time": "03:10",
+   "local_hhmm": "14:10",
+   "hour": 3,
+   "meteo": 81,
+   "actual": 81.0,
+   "err": 0.0,
+   "peak_local": "14:51"
+  },
+  {
+   "city": "Houston",
+   "date": "2026-08-22",
+   "date_display": "08/22",
+   "snap_date": "2026-08-22",
+   "time": "04:13",
+   "local_hhmm": "15:13",
+   "hour": 4,
+   "meteo": 100,
+   "actual": 101.0,
+   "err": -1.0,
+   "peak_local": "16:53"
+  },
+  {
+   "city": "Panama City",
+   "date": "2026-08-22",
+   "date_display": "08/22",
+   "snap_date": "2026-08-22",
+   "time": "03:10",
+   "local_hhmm": "14:10",
+   "hour": 3,
+   "meteo": 33,
+   "actual": 33.0,
+   "err": 0.0,
+   "peak_local": "15:00"
   }
  ],
  "cities": [
@@ -5663,11 +5715,11 @@
   },
   {
    "city": "Austin",
-   "n": 3,
+   "n": 4,
    "mae": 1.0,
    "periods": {
     "其他": {
-     "n": 3,
+     "n": 4,
      "mae": 1.0
     }
    },
@@ -5763,11 +5815,11 @@
   },
   {
    "city": "Chicago",
-   "n": 4,
+   "n": 5,
    "mae": 0.0,
    "periods": {
     "其他": {
-     "n": 4,
+     "n": 5,
      "mae": 0.0
     }
    },
@@ -5875,12 +5927,12 @@
   },
   {
    "city": "Houston",
-   "n": 3,
-   "mae": 0.0,
+   "n": 4,
+   "mae": 0.25,
    "periods": {
     "其他": {
-     "n": 3,
-     "mae": 0.0
+     "n": 4,
+     "mae": 0.25
     }
    },
    "best_period": "其他"
@@ -6159,7 +6211,7 @@
   },
   {
    "city": "Panama City",
-   "n": 6,
+   "n": 7,
    "mae": 0.0,
    "periods": {
     "21-24": {
@@ -6167,7 +6219,7 @@
      "mae": 0.0
     },
     "其他": {
-     "n": 3,
+     "n": 4,
      "mae": 0.0
     }
    },
