@@ -1,8 +1,8 @@
 {
  "model": "METEO",
- "n": 470,
+ "n": 471,
  "mae": 0.59,
- "bias": -0.43,
+ "bias": -0.42,
  "rows": [
   {
    "city": "Madrid",
@@ -6011,6 +6011,19 @@
    "peak_local": "15:00"
   },
   {
+   "city": "Sao Paulo",
+   "date": "2026-08-23",
+   "date_display": "08/23",
+   "snap_date": "2026-08-23",
+   "time": "01:46",
+   "local_hhmm": "14:46",
+   "hour": 1,
+   "meteo": 24,
+   "actual": 24.0,
+   "err": 0.0,
+   "peak_local": "15:00"
+  },
+  {
    "city": "Atlanta",
    "date": "2026-08-23",
    "date_display": "08/23",
@@ -6726,7 +6739,7 @@
   },
   {
    "city": "Sao Paulo",
-   "n": 8,
+   "n": 9,
    "mae": 0.0,
    "periods": {
     "21-24": {
@@ -6734,7 +6747,7 @@
      "mae": 0.0
     },
     "其他": {
-     "n": 7,
+     "n": 8,
      "mae": 0.0
     }
    },
