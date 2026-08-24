@@ -1,8 +1,8 @@
 {
  "model": "METEO",
- "n": 68,
- "mae": 0.85,
- "bias": -0.76,
+ "n": 69,
+ "mae": 0.86,
+ "bias": -0.77,
  "rows": [
   {
    "city": "Taipei",
@@ -887,6 +887,19 @@
    "actual": 75.0,
    "err": -2.0,
    "peak_local": "16:53"
+  },
+  {
+   "city": "Wellington",
+   "date": "2026-08-24",
+   "date_display": "08/24",
+   "snap_date": "2026-08-24",
+   "time": "07:41",
+   "local_hhmm": "11:41",
+   "hour": 7,
+   "meteo": 14,
+   "actual": 15.0,
+   "err": -1.0,
+   "peak_local": "12:30"
   }
  ],
  "cities": [
@@ -1108,16 +1121,16 @@
   },
   {
    "city": "Wellington",
-   "n": 6,
-   "mae": 0.33,
+   "n": 7,
+   "mae": 0.43,
    "periods": {
     "09-12": {
      "n": 2,
      "mae": 0.0
     },
     "06-09": {
-     "n": 4,
-     "mae": 0.5
+     "n": 5,
+     "mae": 0.6
     }
    },
    "best_period": "06-09"
