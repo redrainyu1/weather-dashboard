@@ -1,8 +1,8 @@
 {
  "model": "METEO",
- "n": 466,
+ "n": 470,
  "mae": 0.59,
- "bias": -0.42,
+ "bias": -0.43,
  "rows": [
   {
    "city": "Madrid",
@@ -6011,6 +6011,32 @@
    "peak_local": "15:00"
   },
   {
+   "city": "Atlanta",
+   "date": "2026-08-23",
+   "date_display": "08/23",
+   "snap_date": "2026-08-23",
+   "time": "04:24",
+   "local_hhmm": "16:24",
+   "hour": 4,
+   "meteo": 91,
+   "actual": 93.0,
+   "err": -2.0,
+   "peak_local": "16:52"
+  },
+  {
+   "city": "Miami",
+   "date": "2026-08-23",
+   "date_display": "08/23",
+   "snap_date": "2026-08-23",
+   "time": "01:46",
+   "local_hhmm": "13:46",
+   "hour": 1,
+   "meteo": 91,
+   "actual": 93.0,
+   "err": -2.0,
+   "peak_local": "13:53"
+  },
+  {
    "city": "Nyc",
    "date": "2026-08-23",
    "date_display": "08/23",
@@ -6037,6 +6063,19 @@
    "peak_local": "18:00"
   },
   {
+   "city": "Austin",
+   "date": "2026-08-23",
+   "date_display": "08/23",
+   "snap_date": "2026-08-23",
+   "time": "04:24",
+   "local_hhmm": "15:24",
+   "hour": 4,
+   "meteo": 104,
+   "actual": 105.0,
+   "err": -1.0,
+   "peak_local": "16:53"
+  },
+  {
    "city": "Chicago",
    "date": "2026-08-23",
    "date_display": "08/23",
@@ -6048,6 +6087,19 @@
    "actual": 77.0,
    "err": -2.0,
    "peak_local": "16:51"
+  },
+  {
+   "city": "Houston",
+   "date": "2026-08-23",
+   "date_display": "08/23",
+   "snap_date": "2026-08-23",
+   "time": "04:24",
+   "local_hhmm": "15:24",
+   "hour": 4,
+   "meteo": 99,
+   "actual": 99.0,
+   "err": 0.0,
+   "peak_local": "16:53"
   },
   {
    "city": "Mexico City",
@@ -6106,23 +6158,23 @@
   },
   {
    "city": "Atlanta",
-   "n": 7,
-   "mae": 0.86,
+   "n": 8,
+   "mae": 1.0,
    "periods": {
     "其他": {
-     "n": 7,
-     "mae": 0.86
+     "n": 8,
+     "mae": 1.0
     }
    },
    "best_period": "其他"
   },
   {
    "city": "Austin",
-   "n": 4,
+   "n": 5,
    "mae": 1.0,
    "periods": {
     "其他": {
-     "n": 4,
+     "n": 5,
      "mae": 1.0
     }
    },
@@ -6330,12 +6382,12 @@
   },
   {
    "city": "Houston",
-   "n": 4,
-   "mae": 0.25,
+   "n": 5,
+   "mae": 0.2,
    "periods": {
     "其他": {
-     "n": 4,
-     "mae": 0.25
+     "n": 5,
+     "mae": 0.2
     }
    },
    "best_period": "其他"
@@ -6526,12 +6578,12 @@
   },
   {
    "city": "Miami",
-   "n": 7,
-   "mae": 0.57,
+   "n": 8,
+   "mae": 0.75,
    "periods": {
     "其他": {
-     "n": 6,
-     "mae": 0.67
+     "n": 7,
+     "mae": 0.86
     },
     "21-24": {
      "n": 1,
