@@ -2894,5 +2894,17 @@
  "highest-temperature-in-sao-paulo-on-august-23-2026": {
   "temp": 24.0,
   "peak_bj": "2026-08-24 02:00"
+ },
+ "highest-temperature-in-panama-city-on-august-23-2026": {
+  "temp": 31.0,
+  "peak_bj": "2026-08-24 05:00"
+ },
+ "highest-temperature-in-san-francisco-on-august-23-2026": {
+  "temp": 77.0,
+  "peak_bj": "2026-08-24 04:56"
+ },
+ "highest-temperature-in-seattle-on-august-23-2026": {
+  "temp": 75.0,
+  "peak_bj": "2026-08-24 07:53"
  }
 }

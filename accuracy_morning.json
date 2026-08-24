@@ -1,8 +1,8 @@
 {
  "model": "METEO",
- "n": 67,
- "mae": 0.84,
- "bias": -0.75,
+ "n": 68,
+ "mae": 0.85,
+ "bias": -0.76,
  "rows": [
   {
    "city": "Taipei",
@@ -874,6 +874,19 @@
    "actual": 17.0,
    "err": 0.0,
    "peak_local": "13:00"
+  },
+  {
+   "city": "Seattle",
+   "date": "2026-08-23",
+   "date_display": "08/23",
+   "snap_date": "2026-08-23",
+   "time": "06:07",
+   "local_hhmm": "15:07",
+   "hour": 6,
+   "meteo": 73,
+   "actual": 75.0,
+   "err": -2.0,
+   "peak_local": "16:53"
   }
  ],
  "cities": [
@@ -1003,11 +1016,11 @@
   },
   {
    "city": "Seattle",
-   "n": 5,
+   "n": 6,
    "mae": 2.0,
    "periods": {
     "06-09": {
-     "n": 5,
+     "n": 6,
      "mae": 2.0
     }
    },

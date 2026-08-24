@@ -1,8 +1,8 @@
 {
  "model": "METEO",
- "n": 471,
+ "n": 474,
  "mae": 0.59,
- "bias": -0.42,
+ "bias": -0.43,
  "rows": [
   {
    "city": "Madrid",
@@ -6115,6 +6115,19 @@
    "peak_local": "16:53"
   },
   {
+   "city": "Panama City",
+   "date": "2026-08-23",
+   "date_display": "08/23",
+   "snap_date": "2026-08-23",
+   "time": "04:24",
+   "local_hhmm": "15:24",
+   "hour": 4,
+   "meteo": 31,
+   "actual": 31.0,
+   "err": 0.0,
+   "peak_local": "16:00"
+  },
+  {
    "city": "Mexico City",
    "date": "2026-08-23",
    "date_display": "08/23",
@@ -6126,6 +6139,32 @@
    "actual": 22.0,
    "err": 0.0,
    "peak_local": "15:45"
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-08-23",
+   "date_display": "08/23",
+   "snap_date": "2026-08-23",
+   "time": "04:24",
+   "local_hhmm": "13:24",
+   "hour": 4,
+   "meteo": 75,
+   "actual": 77.0,
+   "err": -2.0,
+   "peak_local": "13:56"
+  },
+  {
+   "city": "Seattle",
+   "date": "2026-08-23",
+   "date_display": "08/23",
+   "snap_date": "2026-08-23",
+   "time": "06:07",
+   "local_hhmm": "15:07",
+   "hour": 6,
+   "meteo": 73,
+   "actual": 75.0,
+   "err": -2.0,
+   "peak_local": "16:53"
   }
  ],
  "cities": [
@@ -6679,7 +6718,7 @@
   },
   {
    "city": "Panama City",
-   "n": 7,
+   "n": 8,
    "mae": 0.0,
    "periods": {
     "21-24": {
@@ -6687,7 +6726,7 @@
      "mae": 0.0
     },
     "其他": {
-     "n": 4,
+     "n": 5,
      "mae": 0.0
     }
    },
@@ -6727,12 +6766,12 @@
   },
   {
    "city": "San Francisco",
-   "n": 7,
-   "mae": 1.0,
+   "n": 8,
+   "mae": 1.12,
    "periods": {
     "其他": {
-     "n": 7,
-     "mae": 1.0
+     "n": 8,
+     "mae": 1.12
     }
    },
    "best_period": "其他"
@@ -6755,11 +6794,11 @@
   },
   {
    "city": "Seattle",
-   "n": 7,
-   "mae": 1.71,
+   "n": 8,
+   "mae": 1.75,
    "periods": {
     "06-09": {
-     "n": 5,
+     "n": 6,
      "mae": 2.0
     },
     "其他": {
