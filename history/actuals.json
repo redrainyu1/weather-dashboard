@@ -2854,5 +2854,21 @@
  "highest-temperature-in-nyc-on-august-23-2026": {
   "temp": 83.0,
   "peak_bj": "2026-08-24 05:51"
+ },
+ "highest-temperature-in-buenos-aires-on-august-23-2026": {
+  "temp": 12.0,
+  "peak_bj": "2026-08-24 02:00"
+ },
+ "highest-temperature-in-chicago-on-august-23-2026": {
+  "temp": 77.0,
+  "peak_bj": "2026-08-24 05:51"
+ },
+ "highest-temperature-in-mexico-city-on-august-23-2026": {
+  "temp": 22.0,
+  "peak_bj": "2026-08-24 05:45"
+ },
+ "highest-temperature-in-toronto-on-august-23-2026": {
+  "temp": 20.0,
+  "peak_bj": "2026-08-24 06:00"
  }
 }
