@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 479,
+ "n": 481,
  "mae": 0.59,
  "bias": -0.43,
  "rows": [
@@ -6219,6 +6219,19 @@
    "peak_local": "12:00"
   },
   {
+   "city": "Istanbul",
+   "date": "2026-08-24",
+   "date_display": "08/24",
+   "snap_date": "2026-08-24",
+   "time": "20:39",
+   "local_hhmm": "15:39",
+   "hour": 20,
+   "meteo": 28,
+   "actual": 28.0,
+   "err": 0.0,
+   "peak_local": "16:20"
+  },
+  {
    "city": "Moscow",
    "date": "2026-08-24",
    "date_display": "08/24",
@@ -6230,6 +6243,19 @@
    "actual": 20.0,
    "err": -1.0,
    "peak_local": "15:00"
+  },
+  {
+   "city": "Tel Aviv",
+   "date": "2026-08-24",
+   "date_display": "08/24",
+   "snap_date": "2026-08-24",
+   "time": "18:51",
+   "local_hhmm": "13:51",
+   "hour": 18,
+   "meteo": 32,
+   "actual": 33.0,
+   "err": -1.0,
+   "peak_local": "14:20"
   }
  ],
  "cities": [
@@ -6511,11 +6537,11 @@
   },
   {
    "city": "Istanbul",
-   "n": 5,
+   "n": 6,
    "mae": 0.0,
    "periods": {
     "18-21": {
-     "n": 3,
+     "n": 4,
      "mae": 0.0
     },
     "15-18": {
@@ -6975,12 +7001,12 @@
   },
   {
    "city": "Tel Aviv",
-   "n": 7,
-   "mae": 0.43,
+   "n": 8,
+   "mae": 0.5,
    "periods": {
     "18-21": {
-     "n": 4,
-     "mae": 0.0
+     "n": 5,
+     "mae": 0.2
     },
     "15-18": {
      "n": 3,

@@ -2926,5 +2926,13 @@
  "highest-temperature-in-moscow-on-august-24-2026": {
   "temp": 20.0,
   "peak_bj": "2026-08-24 20:00"
+ },
+ "highest-temperature-in-istanbul-on-august-24-2026": {
+  "temp": 28.0,
+  "peak_bj": "2026-08-24 21:20"
+ },
+ "highest-temperature-in-tel-aviv-on-august-24-2026": {
+  "temp": 33.0,
+  "peak_bj": "2026-08-24 19:20"
  }
 }
