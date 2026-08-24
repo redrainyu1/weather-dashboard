@@ -2922,5 +2922,9 @@
  "highest-temperature-in-busan-on-august-24-2026": {
   "temp": 34.0,
   "peak_bj": "2026-08-24 14:00"
+ },
+ "highest-temperature-in-moscow-on-august-24-2026": {
+  "temp": 20.0,
+  "peak_bj": "2026-08-24 20:00"
  }
 }
