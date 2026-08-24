@@ -2850,5 +2850,9 @@
  "highest-temperature-in-hong-kong-on-august-23-2026": {
   "temp": 32.0,
   "peak_bj": "2026-08-23 16:30"
+ },
+ "highest-temperature-in-nyc-on-august-23-2026": {
+  "temp": 83.0,
+  "peak_bj": "2026-08-24 05:51"
  }
 }

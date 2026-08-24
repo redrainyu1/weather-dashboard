@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 461,
+ "n": 462,
  "mae": 0.59,
  "bias": -0.42,
  "rows": [
@@ -5996,6 +5996,19 @@
    "actual": 24.0,
    "err": 0.0,
    "peak_local": "17:20"
+  },
+  {
+   "city": "Nyc",
+   "date": "2026-08-23",
+   "date_display": "08/23",
+   "snap_date": "2026-08-23",
+   "time": "04:24",
+   "local_hhmm": "16:24",
+   "hour": 4,
+   "meteo": 82,
+   "actual": 83.0,
+   "err": -1.0,
+   "peak_local": "17:51"
   }
  ],
  "cities": [
@@ -6533,16 +6546,16 @@
   },
   {
    "city": "Nyc",
-   "n": 6,
-   "mae": 1.17,
+   "n": 7,
+   "mae": 1.14,
    "periods": {
     "21-24": {
      "n": 2,
      "mae": 0.5
     },
     "其他": {
-     "n": 4,
-     "mae": 1.5
+     "n": 5,
+     "mae": 1.4
     }
    },
    "best_period": "其他"
