@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 475,
+ "n": 477,
  "mae": 0.6,
  "bias": -0.43,
  "rows": [
@@ -6178,6 +6178,32 @@
    "actual": 15.0,
    "err": -1.0,
    "peak_local": "12:30"
+  },
+  {
+   "city": "Seoul",
+   "date": "2026-08-24",
+   "date_display": "08/24",
+   "snap_date": "2026-08-24",
+   "time": "14:50",
+   "local_hhmm": "15:50",
+   "hour": 14,
+   "meteo": 31,
+   "actual": 31.0,
+   "err": 0.0,
+   "peak_local": "16:30"
+  },
+  {
+   "city": "Tokyo",
+   "date": "2026-08-24",
+   "date_display": "08/24",
+   "snap_date": "2026-08-24",
+   "time": "09:56",
+   "local_hhmm": "10:56",
+   "hour": 9,
+   "meteo": 32,
+   "actual": 33.0,
+   "err": -1.0,
+   "peak_local": "12:00"
   }
  ],
  "cities": [
@@ -6823,12 +6849,12 @@
   },
   {
    "city": "Seoul",
-   "n": 12,
-   "mae": 0.33,
+   "n": 13,
+   "mae": 0.31,
    "periods": {
     "12-15": {
-     "n": 5,
-     "mae": 0.6
+     "n": 6,
+     "mae": 0.5
     },
     "09-12": {
      "n": 3,
@@ -6939,12 +6965,12 @@
   },
   {
    "city": "Tokyo",
-   "n": 14,
-   "mae": 0.57,
+   "n": 15,
+   "mae": 0.6,
    "periods": {
     "09-12": {
-     "n": 6,
-     "mae": 0.5
+     "n": 7,
+     "mae": 0.57
     },
     "12-15": {
      "n": 8,
