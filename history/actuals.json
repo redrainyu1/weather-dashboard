@@ -2918,5 +2918,9 @@
  "highest-temperature-in-tokyo-on-august-24-2026": {
   "temp": 33.0,
   "peak_bj": "2026-08-24 11:00"
+ },
+ "highest-temperature-in-busan-on-august-24-2026": {
+  "temp": 34.0,
+  "peak_bj": "2026-08-24 14:00"
  }
 }
