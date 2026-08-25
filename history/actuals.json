@@ -3174,5 +3174,25 @@
  "highest-temperature-in-jeddah-on-august-25-2026": {
   "temp": 36.0,
   "peak_bj": "2026-08-25 22:00"
+ },
+ "highest-temperature-in-ankara-on-august-25-2026": {
+  "temp": 30.0,
+  "peak_bj": "2026-08-25 22:20"
+ },
+ "highest-temperature-in-helsinki-on-august-25-2026": {
+  "temp": 19.0,
+  "peak_bj": "2026-08-25 23:50"
+ },
+ "highest-temperature-in-istanbul-on-august-25-2026": {
+  "temp": 28.0,
+  "peak_bj": "2026-08-25 21:50"
+ },
+ "highest-temperature-in-kuala-lumpur-on-august-25-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-08-25 16:30"
+ },
+ "highest-temperature-in-tel-aviv-on-august-25-2026": {
+  "temp": 33.0,
+  "peak_bj": "2026-08-25 18:50"
  }
 }

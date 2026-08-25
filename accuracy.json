@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 520,
+ "n": 524,
  "mae": 0.57,
  "bias": -0.42,
  "rows": [
@@ -6661,6 +6661,19 @@
    "peak_local": "15:00"
   },
   {
+   "city": "Kuala Lumpur",
+   "date": "2026-08-25",
+   "date_display": "08/25",
+   "snap_date": "2026-08-25",
+   "time": "15:51",
+   "local_hhmm": "15:51",
+   "hour": 15,
+   "meteo": 32,
+   "actual": 32.0,
+   "err": 0.0,
+   "peak_local": "16:30"
+  },
+  {
    "city": "Qingdao",
    "date": "2026-08-25",
    "date_display": "08/25",
@@ -6752,6 +6765,32 @@
    "peak_local": "15:00"
   },
   {
+   "city": "Ankara",
+   "date": "2026-08-25",
+   "date_display": "08/25",
+   "snap_date": "2026-08-25",
+   "time": "20:38",
+   "local_hhmm": "15:38",
+   "hour": 20,
+   "meteo": 30,
+   "actual": 30.0,
+   "err": 0.0,
+   "peak_local": "17:20"
+  },
+  {
+   "city": "Istanbul",
+   "date": "2026-08-25",
+   "date_display": "08/25",
+   "snap_date": "2026-08-25",
+   "time": "20:38",
+   "local_hhmm": "15:38",
+   "hour": 20,
+   "meteo": 28,
+   "actual": 28.0,
+   "err": 0.0,
+   "peak_local": "16:50"
+  },
+  {
    "city": "Jeddah",
    "date": "2026-08-25",
    "date_display": "08/25",
@@ -6763,6 +6802,19 @@
    "actual": 36.0,
    "err": 0.0,
    "peak_local": "17:00"
+  },
+  {
+   "city": "Tel Aviv",
+   "date": "2026-08-25",
+   "date_display": "08/25",
+   "snap_date": "2026-08-25",
+   "time": "17:38",
+   "local_hhmm": "12:38",
+   "hour": 17,
+   "meteo": 33,
+   "actual": 33.0,
+   "err": 0.0,
+   "peak_local": "13:50"
   }
  ],
  "cities": [
@@ -6788,7 +6840,7 @@
   },
   {
    "city": "Ankara",
-   "n": 10,
+   "n": 11,
    "mae": 0.0,
    "periods": {
     "21-24": {
@@ -6796,7 +6848,7 @@
      "mae": 0.0
     },
     "18-21": {
-     "n": 7,
+     "n": 8,
      "mae": 0.0
     },
     "15-18": {
@@ -7044,11 +7096,11 @@
   },
   {
    "city": "Istanbul",
-   "n": 6,
+   "n": 7,
    "mae": 0.0,
    "periods": {
     "18-21": {
-     "n": 4,
+     "n": 5,
      "mae": 0.0
     },
     "15-18": {
@@ -7108,15 +7160,15 @@
   },
   {
    "city": "Kuala Lumpur",
-   "n": 14,
-   "mae": 0.5,
+   "n": 15,
+   "mae": 0.47,
    "periods": {
     "12-15": {
      "n": 10,
      "mae": 0.7
     },
     "15-18": {
-     "n": 4,
+     "n": 5,
      "mae": 0.0
     }
    },
@@ -7516,16 +7568,16 @@
   },
   {
    "city": "Tel Aviv",
-   "n": 8,
-   "mae": 0.5,
+   "n": 9,
+   "mae": 0.44,
    "periods": {
     "18-21": {
      "n": 5,
      "mae": 0.2
     },
     "15-18": {
-     "n": 3,
-     "mae": 1.0
+     "n": 4,
+     "mae": 0.75
     }
    },
    "best_period": "18-21"
