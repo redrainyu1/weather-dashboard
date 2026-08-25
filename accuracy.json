@@ -1,8 +1,8 @@
 {
  "model": "METEO",
- "n": 491,
+ "n": 494,
  "mae": 0.56,
- "bias": -0.41,
+ "bias": -0.4,
  "rows": [
   {
    "city": "Madrid",
@@ -6349,6 +6349,45 @@
    "peak_local": "17:52"
   },
   {
+   "city": "Austin",
+   "date": "2026-08-24",
+   "date_display": "08/24",
+   "snap_date": "2026-08-24",
+   "time": "04:47",
+   "local_hhmm": "15:47",
+   "hour": 4,
+   "meteo": 104,
+   "actual": 105.0,
+   "err": -1.0,
+   "peak_local": "16:53"
+  },
+  {
+   "city": "Chicago",
+   "date": "2026-08-24",
+   "date_display": "08/24",
+   "snap_date": "2026-08-24",
+   "time": "04:47",
+   "local_hhmm": "15:47",
+   "hour": 4,
+   "meteo": 79,
+   "actual": 79.0,
+   "err": 0.0,
+   "peak_local": "16:51"
+  },
+  {
+   "city": "Houston",
+   "date": "2026-08-24",
+   "date_display": "08/24",
+   "snap_date": "2026-08-24",
+   "time": "04:47",
+   "local_hhmm": "15:47",
+   "hour": 4,
+   "meteo": 99,
+   "actual": 99.0,
+   "err": 0.0,
+   "peak_local": "16:53"
+  },
+  {
    "city": "Miami",
    "date": "2026-08-24",
    "date_display": "08/24",
@@ -6443,11 +6482,11 @@
   },
   {
    "city": "Austin",
-   "n": 5,
+   "n": 6,
    "mae": 1.0,
    "periods": {
     "其他": {
-     "n": 5,
+     "n": 6,
      "mae": 1.0
     }
    },
@@ -6543,12 +6582,12 @@
   },
   {
    "city": "Chicago",
-   "n": 6,
-   "mae": 0.33,
+   "n": 7,
+   "mae": 0.29,
    "periods": {
     "其他": {
-     "n": 6,
-     "mae": 0.33
+     "n": 7,
+     "mae": 0.29
     }
    },
    "best_period": "其他"
@@ -6655,12 +6694,12 @@
   },
   {
    "city": "Houston",
-   "n": 5,
-   "mae": 0.2,
+   "n": 6,
+   "mae": 0.17,
    "periods": {
     "其他": {
-     "n": 5,
-     "mae": 0.2
+     "n": 6,
+     "mae": 0.17
     }
    },
    "best_period": "其他"
