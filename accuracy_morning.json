@@ -1,8 +1,8 @@
 {
  "model": "METEO",
- "n": 69,
- "mae": 0.94,
- "bias": -0.86,
+ "n": 70,
+ "mae": 0.93,
+ "bias": -0.84,
  "rows": [
   {
    "city": "Chengdu",
@@ -900,6 +900,19 @@
    "actual": 81.0,
    "err": -2.0,
    "peak_local": "16:53"
+  },
+  {
+   "city": "Wellington",
+   "date": "2026-08-25",
+   "date_display": "08/25",
+   "snap_date": "2026-08-25",
+   "time": "08:52",
+   "local_hhmm": "12:52",
+   "hour": 8,
+   "meteo": 17,
+   "actual": 17.0,
+   "err": 0.0,
+   "peak_local": "14:00"
   }
  ],
  "cities": [
@@ -1121,16 +1134,16 @@
   },
   {
    "city": "Wellington",
-   "n": 7,
-   "mae": 0.43,
+   "n": 8,
+   "mae": 0.38,
    "periods": {
     "09-12": {
      "n": 2,
      "mae": 0.0
     },
     "06-09": {
-     "n": 5,
-     "mae": 0.6
+     "n": 6,
+     "mae": 0.5
     }
    },
    "best_period": "06-09"
