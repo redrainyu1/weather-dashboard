@@ -3066,5 +3066,17 @@
  "highest-temperature-in-warsaw-on-august-24-2026": {
   "temp": 18.0,
   "peak_bj": "2026-08-25 00:30"
+ },
+ "highest-temperature-in-buenos-aires-on-august-24-2026": {
+  "temp": 13.0,
+  "peak_bj": "2026-08-25 03:00"
+ },
+ "highest-temperature-in-mexico-city-on-august-24-2026": {
+  "temp": 20.0,
+  "peak_bj": "2026-08-25 05:45"
+ },
+ "highest-temperature-in-taipei-on-august-24-2026": {
+  "temp": 31.0,
+  "peak_bj": "2026-08-24 10:30"
  }
 }
