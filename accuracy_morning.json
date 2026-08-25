@@ -1,8 +1,8 @@
 {
  "model": "METEO",
- "n": 70,
- "mae": 0.93,
- "bias": -0.84,
+ "n": 72,
+ "mae": 0.92,
+ "bias": -0.83,
  "rows": [
   {
    "city": "Chengdu",
@@ -902,6 +902,32 @@
    "peak_local": "16:53"
   },
   {
+   "city": "Seoul",
+   "date": "2026-08-25",
+   "date_display": "08/25",
+   "snap_date": "2026-08-25",
+   "time": "11:36",
+   "local_hhmm": "12:36",
+   "hour": 11,
+   "meteo": 31,
+   "actual": 31.0,
+   "err": 0.0,
+   "peak_local": "13:30"
+  },
+  {
+   "city": "Tokyo",
+   "date": "2026-08-25",
+   "date_display": "08/25",
+   "snap_date": "2026-08-25",
+   "time": "11:36",
+   "local_hhmm": "12:36",
+   "hour": 11,
+   "meteo": 33,
+   "actual": 34.0,
+   "err": -1.0,
+   "peak_local": "14:00"
+  },
+  {
    "city": "Wellington",
    "date": "2026-08-25",
    "date_display": "08/25",
@@ -1054,11 +1080,11 @@
   },
   {
    "city": "Seoul",
-   "n": 5,
+   "n": 6,
    "mae": 0.0,
    "periods": {
     "09-12": {
-     "n": 4,
+     "n": 5,
      "mae": 0.0
     },
     "06-09": {
@@ -1110,12 +1136,12 @@
   },
   {
    "city": "Tokyo",
-   "n": 7,
-   "mae": 0.57,
+   "n": 8,
+   "mae": 0.62,
    "periods": {
     "09-12": {
-     "n": 7,
-     "mae": 0.57
+     "n": 8,
+     "mae": 0.62
     }
    },
    "best_period": "09-12"
