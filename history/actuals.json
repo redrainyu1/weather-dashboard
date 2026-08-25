@@ -2962,5 +2962,13 @@
  "highest-temperature-in-singapore-on-august-24-2026": {
   "temp": 33.0,
   "peak_bj": "2026-08-24 14:00"
+ },
+ "highest-temperature-in-beijing-on-august-24-2026": {
+  "temp": 33.0,
+  "peak_bj": "2026-08-24 16:00"
+ },
+ "highest-temperature-in-sao-paulo-on-august-24-2026": {
+  "temp": 18.0,
+  "peak_bj": "2026-08-24 23:00"
  }
 }
