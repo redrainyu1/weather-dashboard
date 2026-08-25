@@ -1,7 +1,7 @@
 {
  "model": "METEO",
- "n": 529,
- "mae": 0.57,
+ "n": 531,
+ "mae": 0.56,
  "bias": -0.42,
  "rows": [
   {
@@ -6856,6 +6856,19 @@
    "peak_local": "13:50"
   },
   {
+   "city": "Amsterdam",
+   "date": "2026-08-25",
+   "date_display": "08/25",
+   "snap_date": "2026-08-25",
+   "time": "21:57",
+   "local_hhmm": "15:57",
+   "hour": 21,
+   "meteo": 25,
+   "actual": 25.0,
+   "err": 0.0,
+   "peak_local": "17:55"
+  },
+  {
    "city": "Cape Town",
    "date": "2026-08-25",
    "date_display": "08/25",
@@ -6867,6 +6880,19 @@
    "actual": 22.0,
    "err": 0.0,
    "peak_local": "16:00"
+  },
+  {
+   "city": "Milan",
+   "date": "2026-08-25",
+   "date_display": "08/25",
+   "snap_date": "2026-08-25",
+   "time": "21:57",
+   "local_hhmm": "15:57",
+   "hour": 21,
+   "meteo": 28,
+   "actual": 28.0,
+   "err": 0.0,
+   "peak_local": "17:50"
   },
   {
    "city": "Warsaw",
@@ -6885,11 +6911,11 @@
  "cities": [
   {
    "city": "Amsterdam",
-   "n": 9,
+   "n": 10,
    "mae": 0.0,
    "periods": {
     "21-24": {
-     "n": 7,
+     "n": 8,
      "mae": 0.0
     },
     "其他": {
@@ -7365,12 +7391,12 @@
   },
   {
    "city": "Milan",
-   "n": 8,
-   "mae": 0.25,
+   "n": 9,
+   "mae": 0.22,
    "periods": {
     "21-24": {
-     "n": 5,
-     "mae": 0.2
+     "n": 6,
+     "mae": 0.17
     },
     "18-21": {
      "n": 2,
