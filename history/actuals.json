@@ -3078,5 +3078,25 @@
  "highest-temperature-in-taipei-on-august-24-2026": {
   "temp": 31.0,
   "peak_bj": "2026-08-24 10:30"
+ },
+ "highest-temperature-in-denver-on-august-23-2026": {
+  "temp": 93.0,
+  "peak_bj": "2026-08-24 04:58"
+ },
+ "highest-temperature-in-los-angeles-on-august-23-2026": {
+  "temp": 91.0,
+  "peak_bj": "2026-08-24 06:53"
+ },
+ "highest-temperature-in-nyc-on-august-24-2026": {
+  "temp": 81.0,
+  "peak_bj": "2026-08-25 04:51"
+ },
+ "highest-temperature-in-san-francisco-on-august-24-2026": {
+  "temp": 71.0,
+  "peak_bj": "2026-08-25 03:56"
+ },
+ "highest-temperature-in-seattle-on-august-24-2026": {
+  "temp": 81.0,
+  "peak_bj": "2026-08-25 07:53"
  }
 }
