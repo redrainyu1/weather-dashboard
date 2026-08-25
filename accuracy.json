@@ -1,8 +1,8 @@
 {
  "model": "METEO",
- "n": 519,
- "mae": 0.58,
- "bias": -0.43,
+ "n": 520,
+ "mae": 0.57,
+ "bias": -0.42,
  "rows": [
   {
    "city": "Madrid",
@@ -6750,6 +6750,19 @@
    "actual": 30.0,
    "err": -1.0,
    "peak_local": "15:00"
+  },
+  {
+   "city": "Jeddah",
+   "date": "2026-08-25",
+   "date_display": "08/25",
+   "snap_date": "2026-08-25",
+   "time": "20:38",
+   "local_hhmm": "15:38",
+   "hour": 20,
+   "meteo": 36,
+   "actual": 36.0,
+   "err": 0.0,
+   "peak_local": "17:00"
   }
  ],
  "cities": [
@@ -7047,15 +7060,15 @@
   },
   {
    "city": "Jeddah",
-   "n": 9,
-   "mae": 0.11,
+   "n": 10,
+   "mae": 0.1,
    "periods": {
     "15-18": {
      "n": 1,
      "mae": 1.0
     },
     "18-21": {
-     "n": 8,
+     "n": 9,
      "mae": 0.0
     }
    },
