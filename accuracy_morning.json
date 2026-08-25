@@ -1,8 +1,8 @@
 {
  "model": "METEO",
- "n": 72,
- "mae": 0.92,
- "bias": -0.83,
+ "n": 73,
+ "mae": 0.9,
+ "bias": -0.82,
  "rows": [
   {
    "city": "Chengdu",
@@ -915,6 +915,19 @@
    "peak_local": "13:30"
   },
   {
+   "city": "Taipei",
+   "date": "2026-08-25",
+   "date_display": "08/25",
+   "snap_date": "2026-08-25",
+   "time": "11:36",
+   "local_hhmm": "11:36",
+   "hour": 11,
+   "meteo": 30,
+   "actual": 30.0,
+   "err": 0.0,
+   "peak_local": "12:30"
+  },
+  {
    "city": "Tokyo",
    "date": "2026-08-25",
    "date_display": "08/25",
@@ -1124,12 +1137,12 @@
   },
   {
    "city": "Taipei",
-   "n": 10,
-   "mae": 1.2,
+   "n": 11,
+   "mae": 1.09,
    "periods": {
     "09-12": {
-     "n": 10,
-     "mae": 1.2
+     "n": 11,
+     "mae": 1.09
     }
    },
    "best_period": "09-12"
