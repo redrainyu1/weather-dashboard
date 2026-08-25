@@ -1,7 +1,7 @@
 {
  "model": "METEO",
- "n": 503,
- "mae": 0.58,
+ "n": 504,
+ "mae": 0.59,
  "bias": -0.43,
  "rows": [
   {
@@ -6492,6 +6492,19 @@
    "peak_local": "16:00"
   },
   {
+   "city": "Denver",
+   "date": "2026-08-24",
+   "date_display": "08/24",
+   "snap_date": "2026-08-24",
+   "time": "03:06",
+   "local_hhmm": "13:06",
+   "hour": 3,
+   "meteo": 90,
+   "actual": 93.0,
+   "err": -3.0,
+   "peak_local": "13:58"
+  },
+  {
    "city": "Mexico City",
    "date": "2026-08-24",
    "date_display": "08/24",
@@ -6743,12 +6756,12 @@
   },
   {
    "city": "Denver",
-   "n": 8,
-   "mae": 2.0,
+   "n": 9,
+   "mae": 2.11,
    "periods": {
     "其他": {
-     "n": 7,
-     "mae": 2.0
+     "n": 8,
+     "mae": 2.12
     },
     "06-09": {
      "n": 1,

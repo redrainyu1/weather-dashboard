@@ -3106,5 +3106,9 @@
  "highest-temperature-in-los-angeles-on-august-24-2026": {
   "temp": 83.0,
   "peak_bj": "2026-08-25 06:53"
+ },
+ "highest-temperature-in-denver-on-august-24-2026": {
+  "temp": 93.0,
+  "peak_bj": "2026-08-25 03:58"
  }
 }
