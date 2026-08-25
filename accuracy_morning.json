@@ -1,8 +1,8 @@
 {
  "model": "METEO",
- "n": 65,
- "mae": 0.83,
- "bias": -0.74,
+ "n": 66,
+ "mae": 0.82,
+ "bias": -0.73,
  "rows": [
   {
    "city": "Chengdu",
@@ -811,6 +811,19 @@
    "peak_local": "13:00"
   },
   {
+   "city": "Manila",
+   "date": "2026-08-24",
+   "date_display": "08/24",
+   "snap_date": "2026-08-24",
+   "time": "10:44",
+   "local_hhmm": "10:44",
+   "hour": 10,
+   "meteo": 32,
+   "actual": 32.0,
+   "err": 0.0,
+   "peak_local": "12:00"
+  },
+  {
    "city": "Seattle",
    "date": "2026-08-23",
    "date_display": "08/23",
@@ -937,19 +950,19 @@
   },
   {
    "city": "Manila",
-   "n": 3,
-   "mae": 1.33,
+   "n": 4,
+   "mae": 1.0,
    "periods": {
     "06-09": {
      "n": 1,
      "mae": 1.0
     },
     "09-12": {
-     "n": 2,
-     "mae": 1.5
+     "n": 3,
+     "mae": 1.0
     }
    },
-   "best_period": null
+   "best_period": "09-12"
   },
   {
    "city": "Qingdao",
