@@ -3358,5 +3358,13 @@
  "highest-temperature-in-wuhan-on-august-26-2026": {
   "temp": 37.0,
   "peak_bj": "2026-08-26 17:00"
+ },
+ "highest-temperature-in-karachi-on-august-26-2026": {
+  "temp": 33.0,
+  "peak_bj": "2026-08-26 17:30"
+ },
+ "highest-temperature-in-lucknow-on-august-26-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-08-26 17:30"
  }
 }
