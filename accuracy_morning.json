@@ -1,8 +1,8 @@
 {
  "model": "METEO",
- "n": 69,
- "mae": 0.9,
- "bias": -0.78,
+ "n": 70,
+ "mae": 0.89,
+ "bias": -0.77,
  "rows": [
   {
    "city": "Manila",
@@ -889,6 +889,19 @@
    "peak_local": "16:56"
   },
   {
+   "city": "Singapore",
+   "date": "2026-08-26",
+   "date_display": "08/26",
+   "snap_date": "2026-08-26",
+   "time": "10:42",
+   "local_hhmm": "10:42",
+   "hour": 10,
+   "meteo": 31,
+   "actual": 31.0,
+   "err": 0.0,
+   "peak_local": "12:00"
+  },
+  {
    "city": "Tokyo",
    "date": "2026-08-26",
    "date_display": "08/26",
@@ -1082,6 +1095,18 @@
     }
    },
    "best_period": "09-12"
+  },
+  {
+   "city": "Singapore",
+   "n": 1,
+   "mae": 0.0,
+   "periods": {
+    "09-12": {
+     "n": 1,
+     "mae": 0.0
+    }
+   },
+   "best_period": null
   },
   {
    "city": "Taipei",
