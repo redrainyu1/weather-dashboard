@@ -3302,5 +3302,9 @@
  "highest-temperature-in-seattle-on-august-25-2026": {
   "temp": 85.0,
   "peak_bj": "2026-08-26 05:53"
+ },
+ "highest-temperature-in-wellington-on-august-26-2026": {
+  "temp": 16.0,
+  "peak_bj": "2026-08-25 10:00"
  }
 }
