@@ -3246,5 +3246,21 @@
  "highest-temperature-in-toronto-on-august-25-2026": {
   "temp": 25.0,
   "peak_bj": "2026-08-26 03:00"
+ },
+ "highest-temperature-in-atlanta-on-august-25-2026": {
+  "temp": 93.0,
+  "peak_bj": "2026-08-26 04:52"
+ },
+ "highest-temperature-in-miami-on-august-25-2026": {
+  "temp": 93.0,
+  "peak_bj": "2026-08-25 23:53"
+ },
+ "highest-temperature-in-nyc-on-august-25-2026": {
+  "temp": 79.0,
+  "peak_bj": "2026-08-26 05:51"
+ },
+ "highest-temperature-in-panama-city-on-august-25-2026": {
+  "temp": 33.0,
+  "peak_bj": "2026-08-26 02:00"
  }
 }
