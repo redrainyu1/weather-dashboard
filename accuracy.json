@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 522,
+ "n": 525,
  "mae": 0.56,
  "bias": -0.41,
  "rows": [
@@ -6752,6 +6752,19 @@
    "peak_local": "16:51"
   },
   {
+   "city": "Houston",
+   "date": "2026-08-25",
+   "date_display": "08/25",
+   "snap_date": "2026-08-25",
+   "time": "04:13",
+   "local_hhmm": "15:13",
+   "hour": 4,
+   "meteo": 97,
+   "actual": 97.0,
+   "err": 0.0,
+   "peak_local": "15:53"
+  },
+  {
    "city": "Panama City",
    "date": "2026-08-25",
    "date_display": "08/25",
@@ -6789,6 +6802,32 @@
    "actual": 22.0,
    "err": 0.0,
    "peak_local": "15:45"
+  },
+  {
+   "city": "Los Angeles",
+   "date": "2026-08-25",
+   "date_display": "08/25",
+   "snap_date": "2026-08-25",
+   "time": "01:46",
+   "local_hhmm": "10:46",
+   "hour": 1,
+   "meteo": 84,
+   "actual": 85.0,
+   "err": -1.0,
+   "peak_local": "10:53"
+  },
+  {
+   "city": "Seattle",
+   "date": "2026-08-25",
+   "date_display": "08/25",
+   "snap_date": "2026-08-25",
+   "time": "05:08",
+   "local_hhmm": "14:08",
+   "hour": 5,
+   "meteo": 84,
+   "actual": 85.0,
+   "err": -1.0,
+   "peak_local": "14:53"
   }
  ],
  "cities": [
@@ -7058,12 +7097,12 @@
   },
   {
    "city": "Houston",
-   "n": 6,
-   "mae": 0.17,
+   "n": 7,
+   "mae": 0.14,
    "periods": {
     "其他": {
-     "n": 6,
-     "mae": 0.17
+     "n": 7,
+     "mae": 0.14
     }
    },
    "best_period": "其他"
@@ -7166,16 +7205,16 @@
   },
   {
    "city": "Los Angeles",
-   "n": 9,
-   "mae": 1.44,
+   "n": 10,
+   "mae": 1.4,
    "periods": {
     "06-09": {
      "n": 2,
      "mae": 5.5
     },
     "其他": {
-     "n": 7,
-     "mae": 0.29
+     "n": 8,
+     "mae": 0.38
     }
    },
    "best_period": "其他"
@@ -7422,19 +7461,19 @@
   },
   {
    "city": "Seattle",
-   "n": 8,
-   "mae": 1.62,
+   "n": 9,
+   "mae": 1.56,
    "periods": {
     "06-09": {
      "n": 6,
      "mae": 1.83
     },
     "其他": {
-     "n": 2,
+     "n": 3,
      "mae": 1.0
     }
    },
-   "best_period": "06-09"
+   "best_period": "其他"
   },
   {
    "city": "Seoul",
