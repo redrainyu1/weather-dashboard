@@ -3282,5 +3282,13 @@
  "highest-temperature-in-paris-on-august-25-2026": {
   "temp": 29.0,
   "peak_bj": "2026-08-26 00:00"
+ },
+ "highest-temperature-in-denver-on-august-25-2026": {
+  "temp": 83.0,
+  "peak_bj": "2026-08-26 06:58"
+ },
+ "highest-temperature-in-mexico-city-on-august-25-2026": {
+  "temp": 22.0,
+  "peak_bj": "2026-08-26 05:45"
  }
 }
