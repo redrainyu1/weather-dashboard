@@ -3242,5 +3242,9 @@
  "highest-temperature-in-sao-paulo-on-august-25-2026": {
   "temp": 19.0,
   "peak_bj": "2026-08-26 02:00"
+ },
+ "highest-temperature-in-toronto-on-august-25-2026": {
+  "temp": 25.0,
+  "peak_bj": "2026-08-26 03:00"
  }
 }

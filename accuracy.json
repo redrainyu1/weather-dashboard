@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 513,
+ "n": 514,
  "mae": 0.55,
  "bias": -0.4,
  "rows": [
@@ -6672,6 +6672,19 @@
    "actual": 19.0,
    "err": 0.0,
    "peak_local": "15:00"
+  },
+  {
+   "city": "Toronto",
+   "date": "2026-08-25",
+   "date_display": "08/25",
+   "snap_date": "2026-08-25",
+   "time": "01:46",
+   "local_hhmm": "13:46",
+   "hour": 1,
+   "meteo": 25,
+   "actual": 25.0,
+   "err": 0.0,
+   "peak_local": "15:00"
   }
  ],
  "cities": [
@@ -7457,7 +7470,7 @@
   },
   {
    "city": "Toronto",
-   "n": 10,
+   "n": 11,
    "mae": 0.0,
    "periods": {
     "21-24": {
@@ -7465,7 +7478,7 @@
      "mae": 0.0
     },
     "其他": {
-     "n": 9,
+     "n": 10,
      "mae": 0.0
     }
    },
