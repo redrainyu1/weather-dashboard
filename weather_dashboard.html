@@ -518,9 +518,12 @@ function timeRow(r) {
   } else if (r.highest && r.highest.forecasts) {
     for (var i = 0; i < r.highest.forecasts.length; i++) {
       var f = r.highest.forecasts[i];
-      if (f.max_hour_bj != null) {
+      if (f.max_hour_bj != null && r.noon_bj != null) {
         var h = f.max_hour_bj;
-        parts.push('<span class="lbl" style="margin-left:8px">\u5cf0(\u9884)</span><span class="peak">' + (h < 10 ? '0' : '') + h + ':00</span>');
+        var tz = (20 - r.noon_bj) % 24;
+        if (tz > 12) tz -= 24;
+        var local_h = (h + tz - 8 + 24) % 24;
+        parts.push('<span class="lbl" style="margin-left:8px">\u5cf0(\u9884)</span><span class="peak">' + (local_h < 10 ? '0' : '') + local_h + ':00</span>');
         break;
       }
     }
