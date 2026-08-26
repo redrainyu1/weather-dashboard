@@ -1,8 +1,8 @@
 {
  "model": "METEO",
- "n": 68,
- "mae": 0.91,
- "bias": -0.79,
+ "n": 69,
+ "mae": 0.9,
+ "bias": -0.78,
  "rows": [
   {
    "city": "Manila",
@@ -887,6 +887,19 @@
    "actual": 67.0,
    "err": -1.0,
    "peak_local": "16:56"
+  },
+  {
+   "city": "Tokyo",
+   "date": "2026-08-26",
+   "date_display": "08/26",
+   "snap_date": "2026-08-26",
+   "time": "11:37",
+   "local_hhmm": "12:37",
+   "hour": 11,
+   "meteo": 33,
+   "actual": 33.0,
+   "err": 0.0,
+   "peak_local": "13:30"
   }
  ],
  "cities": [
@@ -1084,12 +1097,12 @@
   },
   {
    "city": "Tokyo",
-   "n": 7,
-   "mae": 0.43,
+   "n": 8,
+   "mae": 0.38,
    "periods": {
     "09-12": {
-     "n": 7,
-     "mae": 0.43
+     "n": 8,
+     "mae": 0.38
     }
    },
    "best_period": "09-12"
