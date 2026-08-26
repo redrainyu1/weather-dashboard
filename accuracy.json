@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 518,
+ "n": 520,
  "mae": 0.56,
  "bias": -0.41,
  "rows": [
@@ -6661,6 +6661,19 @@
    "peak_local": "16:50"
   },
   {
+   "city": "Buenos Aires",
+   "date": "2026-08-25",
+   "date_display": "08/25",
+   "snap_date": "2026-08-25",
+   "time": "03:13",
+   "local_hhmm": "16:13",
+   "hour": 3,
+   "meteo": 14,
+   "actual": 14.0,
+   "err": 0.0,
+   "peak_local": "17:00"
+  },
+  {
    "city": "Sao Paulo",
    "date": "2026-08-25",
    "date_display": "08/25",
@@ -6724,6 +6737,19 @@
    "actual": 25.0,
    "err": 0.0,
    "peak_local": "15:00"
+  },
+  {
+   "city": "Chicago",
+   "date": "2026-08-25",
+   "date_display": "08/25",
+   "snap_date": "2026-08-25",
+   "time": "04:13",
+   "local_hhmm": "15:13",
+   "hour": 4,
+   "meteo": 81,
+   "actual": 81.0,
+   "err": 0.0,
+   "peak_local": "16:51"
   },
   {
    "city": "Panama City",
@@ -6822,16 +6848,16 @@
   },
   {
    "city": "Buenos Aires",
-   "n": 10,
-   "mae": 1.1,
+   "n": 11,
+   "mae": 1.0,
    "periods": {
     "09-12": {
      "n": 2,
      "mae": 1.0
     },
     "其他": {
-     "n": 8,
-     "mae": 1.12
+     "n": 9,
+     "mae": 1.0
     }
    },
    "best_period": "其他"
@@ -6890,12 +6916,12 @@
   },
   {
    "city": "Chicago",
-   "n": 7,
-   "mae": 0.29,
+   "n": 8,
+   "mae": 0.25,
    "periods": {
     "其他": {
-     "n": 7,
-     "mae": 0.29
+     "n": 8,
+     "mae": 0.25
     }
    },
    "best_period": "其他"
