@@ -3366,5 +3366,69 @@
  "highest-temperature-in-lucknow-on-august-26-2026": {
   "temp": 32.0,
   "peak_bj": "2026-08-26 17:30"
+ },
+ "highest-temperature-in-amsterdam-on-august-26-2026": {
+  "temp": 26.0,
+  "peak_bj": "2026-08-26 22:55"
+ },
+ "highest-temperature-in-ankara-on-august-26-2026": {
+  "temp": 33.0,
+  "peak_bj": "2026-08-26 22:20"
+ },
+ "highest-temperature-in-cape-town-on-august-26-2026": {
+  "temp": 25.0,
+  "peak_bj": "2026-08-26 23:00"
+ },
+ "highest-temperature-in-helsinki-on-august-26-2026": {
+  "temp": 21.0,
+  "peak_bj": "2026-08-26 19:50"
+ },
+ "highest-temperature-in-istanbul-on-august-26-2026": {
+  "temp": 28.0,
+  "peak_bj": "2026-08-26 18:20"
+ },
+ "highest-temperature-in-jeddah-on-august-26-2026": {
+  "temp": 37.0,
+  "peak_bj": "2026-08-27 02:00"
+ },
+ "highest-temperature-in-london-on-august-26-2026": {
+  "temp": 26.0,
+  "peak_bj": "2026-08-26 22:50"
+ },
+ "highest-temperature-in-madrid-on-august-26-2026": {
+  "temp": 30.0,
+  "peak_bj": "2026-08-26 22:30"
+ },
+ "highest-temperature-in-manila-on-august-26-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-08-26 14:00"
+ },
+ "highest-temperature-in-milan-on-august-26-2026": {
+  "temp": 29.0,
+  "peak_bj": "2026-08-26 23:50"
+ },
+ "highest-temperature-in-moscow-on-august-26-2026": {
+  "temp": 17.0,
+  "peak_bj": "2026-08-26 21:30"
+ },
+ "highest-temperature-in-munich-on-august-26-2026": {
+  "temp": 28.0,
+  "peak_bj": "2026-08-26 22:50"
+ },
+ "highest-temperature-in-paris-on-august-26-2026": {
+  "temp": 29.0,
+  "peak_bj": "2026-08-27 01:00"
+ },
+ "highest-temperature-in-qingdao-on-august-26-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-08-26 16:00"
+ },
+ "highest-temperature-in-taipei-on-august-26-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-08-26 15:30"
+ },
+ "highest-temperature-in-tel-aviv-on-august-26-2026": {
+  "temp": 33.0,
+  "peak_bj": "2026-08-26 19:20"
  }
 }
