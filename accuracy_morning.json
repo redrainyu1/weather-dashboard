@@ -1,35 +1,9 @@
 {
  "model": "METEO",
- "n": 70,
- "mae": 0.89,
- "bias": -0.77,
+ "n": 68,
+ "mae": 0.9,
+ "bias": -0.78,
  "rows": [
-  {
-   "city": "Manila",
-   "date": "2026-08-12",
-   "date_display": "08/12",
-   "snap_date": "2026-08-12",
-   "time": "08:21",
-   "local_hhmm": "08:21",
-   "hour": 8,
-   "meteo": 29,
-   "actual": 30.0,
-   "err": -1.0,
-   "peak_local": "09:00"
-  },
-  {
-   "city": "Zhengzhou",
-   "date": "2026-08-12",
-   "date_display": "08/12",
-   "snap_date": "2026-08-12",
-   "time": "08:21",
-   "local_hhmm": "00:21",
-   "hour": 8,
-   "meteo": 25,
-   "actual": 25.0,
-   "err": 0.0,
-   "peak_local": "01:00"
-  },
   {
    "city": "Shenzhen",
    "date": "2026-08-14",
@@ -1002,13 +976,9 @@
   },
   {
    "city": "Manila",
-   "n": 4,
+   "n": 3,
    "mae": 1.0,
    "periods": {
-    "06-09": {
-     "n": 1,
-     "mae": 1.0
-    },
     "09-12": {
      "n": 3,
      "mae": 1.0
@@ -1159,18 +1129,6 @@
     }
    },
    "best_period": "06-09"
-  },
-  {
-   "city": "Zhengzhou",
-   "n": 1,
-   "mae": 0.0,
-   "periods": {
-    "06-09": {
-     "n": 1,
-     "mae": 0.0
-    }
-   },
-   "best_period": null
   }
  ]
 }

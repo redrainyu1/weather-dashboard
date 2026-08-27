@@ -3430,5 +3430,77 @@
  "highest-temperature-in-tel-aviv-on-august-26-2026": {
   "temp": 33.0,
   "peak_bj": "2026-08-26 19:20"
+ },
+ "highest-temperature-in-atlanta-on-august-26-2026": {
+  "temp": 91.0,
+  "peak_bj": "2026-08-26 04:52"
+ },
+ "highest-temperature-in-austin-on-august-26-2026": {
+  "temp": 103.0,
+  "peak_bj": "2026-08-25 05:53"
+ },
+ "highest-temperature-in-buenos-aires-on-august-26-2026": {
+  "temp": 17.0,
+  "peak_bj": "2026-08-26 04:00"
+ },
+ "highest-temperature-in-chicago-on-august-26-2026": {
+  "temp": 85.0,
+  "peak_bj": "2026-08-26 05:51"
+ },
+ "highest-temperature-in-dallas-on-august-26-2026": {
+  "temp": 101.0,
+  "peak_bj": "2026-08-25 06:53"
+ },
+ "highest-temperature-in-denver-on-august-26-2026": {
+  "temp": 87.0,
+  "peak_bj": "2026-08-25 03:58"
+ },
+ "highest-temperature-in-hong-kong-on-august-26-2026": {
+  "temp": 29.0,
+  "peak_bj": "2026-08-26 13:38"
+ },
+ "highest-temperature-in-houston-on-august-26-2026": {
+  "temp": 99.0,
+  "peak_bj": "2026-08-25 05:53"
+ },
+ "highest-temperature-in-los-angeles-on-august-26-2026": {
+  "temp": 87.0,
+  "peak_bj": "2026-08-26 01:53"
+ },
+ "highest-temperature-in-mexico-city-on-august-26-2026": {
+  "temp": 26.0,
+  "peak_bj": "2026-08-26 05:45"
+ },
+ "highest-temperature-in-miami-on-august-26-2026": {
+  "temp": 93.0,
+  "peak_bj": "2026-08-25 23:53"
+ },
+ "highest-temperature-in-nyc-on-august-26-2026": {
+  "temp": 83.0,
+  "peak_bj": "2026-08-25 04:51"
+ },
+ "highest-temperature-in-panama-city-on-august-26-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-08-26 02:00"
+ },
+ "highest-temperature-in-san-francisco-on-august-26-2026": {
+  "temp": 77.0,
+  "peak_bj": "2026-08-25 03:56"
+ },
+ "highest-temperature-in-sao-paulo-on-august-26-2026": {
+  "temp": 25.0,
+  "peak_bj": "2026-08-26 02:00"
+ },
+ "highest-temperature-in-seattle-on-august-26-2026": {
+  "temp": 77.0,
+  "peak_bj": "2026-08-26 05:53"
+ },
+ "highest-temperature-in-toronto-on-august-26-2026": {
+  "temp": 24.0,
+  "peak_bj": "2026-08-26 03:00"
+ },
+ "highest-temperature-in-warsaw-on-august-26-2026": {
+  "temp": 23.0,
+  "peak_bj": "2026-08-26 23:30"
  }
 }
