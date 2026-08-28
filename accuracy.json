@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 531,
+ "n": 532,
  "mae": 0.51,
  "bias": -0.37,
  "rows": [
@@ -6882,6 +6882,19 @@
    "peak_local": "17:30"
   },
   {
+   "city": "Lucknow",
+   "date": "2026-08-28",
+   "date_display": "08/28",
+   "snap_date": "2026-08-28",
+   "time": "15:32",
+   "local_hhmm": "13:32",
+   "hour": 15,
+   "meteo": 32,
+   "actual": 32.0,
+   "err": 0.0,
+   "peak_local": "14:30"
+  },
+  {
    "city": "Shenzhen",
    "date": "2026-08-28",
    "date_display": "08/28",
@@ -7295,16 +7308,16 @@
   },
   {
    "city": "Lucknow",
-   "n": 13,
-   "mae": 0.54,
+   "n": 14,
+   "mae": 0.5,
    "periods": {
     "12-15": {
      "n": 1,
      "mae": 3.0
     },
     "15-18": {
-     "n": 9,
-     "mae": 0.44
+     "n": 10,
+     "mae": 0.4
     },
     "06-09": {
      "n": 1,

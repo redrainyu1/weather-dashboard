@@ -3550,5 +3550,9 @@
  "highest-temperature-in-wuhan-on-august-28-2026": {
   "temp": 36.0,
   "peak_bj": "2026-08-28 15:00"
+ },
+ "highest-temperature-in-lucknow-on-august-28-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-08-28 16:30"
  }
 }
