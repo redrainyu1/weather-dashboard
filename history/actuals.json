@@ -3502,5 +3502,9 @@
  "highest-temperature-in-warsaw-on-august-26-2026": {
   "temp": 23.0,
   "peak_bj": "2026-08-26 23:30"
+ },
+ "highest-temperature-in-london-on-august-27-2026": {
+  "temp": 25.0,
+  "peak_bj": "2026-08-28 00:20"
  }
 }
