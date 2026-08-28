@@ -3558,5 +3558,29 @@
  "highest-temperature-in-karachi-on-august-28-2026": {
   "temp": 31.0,
   "peak_bj": "2026-08-28 18:00"
+ },
+ "highest-temperature-in-ankara-on-august-28-2026": {
+  "temp": 27.0,
+  "peak_bj": "2026-08-28 18:50"
+ },
+ "highest-temperature-in-helsinki-on-august-28-2026": {
+  "temp": 20.0,
+  "peak_bj": "2026-08-28 21:50"
+ },
+ "highest-temperature-in-istanbul-on-august-28-2026": {
+  "temp": 24.0,
+  "peak_bj": "2026-08-28 22:50"
+ },
+ "highest-temperature-in-jeddah-on-august-28-2026": {
+  "temp": 38.0,
+  "peak_bj": "2026-08-28 17:00"
+ },
+ "highest-temperature-in-moscow-on-august-28-2026": {
+  "temp": 21.0,
+  "peak_bj": "2026-08-28 21:30"
+ },
+ "highest-temperature-in-tel-aviv-on-august-28-2026": {
+  "temp": 33.0,
+  "peak_bj": "2026-08-28 19:20"
  }
 }

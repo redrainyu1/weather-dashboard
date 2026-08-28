@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 533,
+ "n": 538,
  "mae": 0.51,
  "bias": -0.37,
  "rows": [
@@ -6856,6 +6856,19 @@
    "peak_local": "15:53"
   },
   {
+   "city": "Ankara",
+   "date": "2026-08-28",
+   "date_display": "08/28",
+   "snap_date": "2026-08-28",
+   "time": "17:41",
+   "local_hhmm": "12:41",
+   "hour": 17,
+   "meteo": 27,
+   "actual": 27.0,
+   "err": 0.0,
+   "peak_local": "13:50"
+  },
+  {
    "city": "Guangzhou",
    "date": "2026-08-28",
    "date_display": "08/28",
@@ -6867,6 +6880,32 @@
    "actual": 33.0,
    "err": -1.0,
    "peak_local": "17:00"
+  },
+  {
+   "city": "Helsinki",
+   "date": "2026-08-28",
+   "date_display": "08/28",
+   "snap_date": "2026-08-28",
+   "time": "20:32",
+   "local_hhmm": "15:32",
+   "hour": 20,
+   "meteo": 20,
+   "actual": 20.0,
+   "err": 0.0,
+   "peak_local": "16:50"
+  },
+  {
+   "city": "Jeddah",
+   "date": "2026-08-28",
+   "date_display": "08/28",
+   "snap_date": "2026-08-28",
+   "time": "16:02",
+   "local_hhmm": "11:02",
+   "hour": 16,
+   "meteo": 38,
+   "actual": 38.0,
+   "err": 0.0,
+   "peak_local": "12:00"
   },
   {
    "city": "Karachi",
@@ -6908,6 +6947,19 @@
    "peak_local": "14:30"
   },
   {
+   "city": "Moscow",
+   "date": "2026-08-28",
+   "date_display": "08/28",
+   "snap_date": "2026-08-28",
+   "time": "20:32",
+   "local_hhmm": "15:32",
+   "hour": 20,
+   "meteo": 20,
+   "actual": 21.0,
+   "err": -1.0,
+   "peak_local": "16:30"
+  },
+  {
    "city": "Shenzhen",
    "date": "2026-08-28",
    "date_display": "08/28",
@@ -6919,6 +6971,19 @@
    "actual": 31.0,
    "err": 0.0,
    "peak_local": "16:00"
+  },
+  {
+   "city": "Tel Aviv",
+   "date": "2026-08-28",
+   "date_display": "08/28",
+   "snap_date": "2026-08-28",
+   "time": "18:32",
+   "local_hhmm": "13:32",
+   "hour": 18,
+   "meteo": 33,
+   "actual": 33.0,
+   "err": 0.0,
+   "peak_local": "14:20"
   },
   {
    "city": "Wuhan",
@@ -6957,7 +7022,7 @@
   },
   {
    "city": "Ankara",
-   "n": 12,
+   "n": 13,
    "mae": 0.0,
    "periods": {
     "21-24": {
@@ -6969,7 +7034,7 @@
      "mae": 0.0
     },
     "15-18": {
-     "n": 1,
+     "n": 2,
      "mae": 0.0
     }
    },
@@ -7161,8 +7226,8 @@
   },
   {
    "city": "Helsinki",
-   "n": 9,
-   "mae": 0.22,
+   "n": 10,
+   "mae": 0.2,
    "periods": {
     "21-24": {
      "n": 1,
@@ -7173,8 +7238,8 @@
      "mae": 0.5
     },
     "18-21": {
-     "n": 6,
-     "mae": 0.17
+     "n": 7,
+     "mae": 0.14
     }
    },
    "best_period": "18-21"
@@ -7229,12 +7294,12 @@
   },
   {
    "city": "Jeddah",
-   "n": 10,
-   "mae": 0.1,
+   "n": 11,
+   "mae": 0.09,
    "periods": {
     "15-18": {
-     "n": 1,
-     "mae": 1.0
+     "n": 2,
+     "mae": 0.5
     },
     "18-21": {
      "n": 9,
@@ -7433,12 +7498,12 @@
   },
   {
    "city": "Moscow",
-   "n": 9,
-   "mae": 0.44,
+   "n": 10,
+   "mae": 0.5,
    "periods": {
     "18-21": {
-     "n": 6,
-     "mae": 0.5
+     "n": 7,
+     "mae": 0.57
     },
     "15-18": {
      "n": 3,
@@ -7689,12 +7754,12 @@
   },
   {
    "city": "Tel Aviv",
-   "n": 10,
-   "mae": 0.4,
+   "n": 11,
+   "mae": 0.36,
    "periods": {
     "18-21": {
-     "n": 6,
-     "mae": 0.17
+     "n": 7,
+     "mae": 0.14
     },
     "15-18": {
      "n": 4,
