@@ -3506,5 +3506,17 @@
  "highest-temperature-in-london-on-august-27-2026": {
   "temp": 25.0,
   "peak_bj": "2026-08-28 00:20"
+ },
+ "highest-temperature-in-los-angeles-on-august-27-2026": {
+  "temp": 89.0,
+  "peak_bj": "2026-08-28 04:53"
+ },
+ "highest-temperature-in-san-francisco-on-august-27-2026": {
+  "temp": 73.0,
+  "peak_bj": "2026-08-28 05:56"
+ },
+ "highest-temperature-in-seattle-on-august-27-2026": {
+  "temp": 73.0,
+  "peak_bj": "2026-08-28 06:53"
  }
 }
