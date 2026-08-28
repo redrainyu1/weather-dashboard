@@ -1,8 +1,8 @@
 {
  "model": "METEO",
- "n": 542,
+ "n": 545,
  "mae": 0.51,
- "bias": -0.37,
+ "bias": -0.38,
  "rows": [
   {
    "city": "Madrid",
@@ -7012,6 +7012,19 @@
    "peak_local": "15:00"
   },
   {
+   "city": "Amsterdam",
+   "date": "2026-08-28",
+   "date_display": "08/28",
+   "snap_date": "2026-08-28",
+   "time": "20:02",
+   "local_hhmm": "14:02",
+   "hour": 20,
+   "meteo": 22,
+   "actual": 23.0,
+   "err": -1.0,
+   "peak_local": "14:55"
+  },
+  {
    "city": "Cape Town",
    "date": "2026-08-28",
    "date_display": "08/28",
@@ -7023,6 +7036,32 @@
    "actual": 22.0,
    "err": 0.0,
    "peak_local": "13:00"
+  },
+  {
+   "city": "Milan",
+   "date": "2026-08-28",
+   "date_display": "08/28",
+   "snap_date": "2026-08-28",
+   "time": "20:32",
+   "local_hhmm": "14:32",
+   "hour": 20,
+   "meteo": 29,
+   "actual": 30.0,
+   "err": -1.0,
+   "peak_local": "15:20"
+  },
+  {
+   "city": "Munich",
+   "date": "2026-08-28",
+   "date_display": "08/28",
+   "snap_date": "2026-08-28",
+   "time": "17:32",
+   "local_hhmm": "11:32",
+   "hour": 17,
+   "meteo": 28,
+   "actual": 29.0,
+   "err": -1.0,
+   "peak_local": "12:20"
   },
   {
    "city": "Paris",
@@ -7054,8 +7093,8 @@
  "cities": [
   {
    "city": "Amsterdam",
-   "n": 10,
-   "mae": 0.0,
+   "n": 11,
+   "mae": 0.09,
    "periods": {
     "21-24": {
      "n": 8,
@@ -7068,6 +7107,10 @@
     "15-18": {
      "n": 1,
      "mae": 0.0
+    },
+    "18-21": {
+     "n": 1,
+     "mae": 1.0
     }
    },
    "best_period": "21-24"
@@ -7530,8 +7573,8 @@
   },
   {
    "city": "Milan",
-   "n": 8,
-   "mae": 0.12,
+   "n": 9,
+   "mae": 0.22,
    "periods": {
     "21-24": {
      "n": 6,
@@ -7542,8 +7585,8 @@
      "mae": 0.0
     },
     "18-21": {
-     "n": 1,
-     "mae": 0.0
+     "n": 2,
+     "mae": 0.5
     }
    },
    "best_period": "21-24"
@@ -7566,16 +7609,16 @@
   },
   {
    "city": "Munich",
-   "n": 13,
-   "mae": 0.38,
+   "n": 14,
+   "mae": 0.43,
    "periods": {
     "21-24": {
      "n": 9,
      "mae": 0.44
     },
     "15-18": {
-     "n": 2,
-     "mae": 0.5
+     "n": 3,
+     "mae": 0.67
     },
     "18-21": {
      "n": 2,
