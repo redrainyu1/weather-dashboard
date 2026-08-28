@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 538,
+ "n": 542,
  "mae": 0.51,
  "bias": -0.37,
  "rows": [
@@ -6869,6 +6869,19 @@
    "peak_local": "13:50"
   },
   {
+   "city": "Chongqing",
+   "date": "2026-08-28",
+   "date_display": "08/28",
+   "snap_date": "2026-08-28",
+   "time": "15:02",
+   "local_hhmm": "15:02",
+   "hour": 15,
+   "meteo": 37,
+   "actual": 37.0,
+   "err": 0.0,
+   "peak_local": "16:00"
+  },
+  {
    "city": "Guangzhou",
    "date": "2026-08-28",
    "date_display": "08/28",
@@ -6997,6 +7010,45 @@
    "actual": 36.0,
    "err": 0.0,
    "peak_local": "15:00"
+  },
+  {
+   "city": "Cape Town",
+   "date": "2026-08-28",
+   "date_display": "08/28",
+   "snap_date": "2026-08-28",
+   "time": "18:02",
+   "local_hhmm": "12:02",
+   "hour": 18,
+   "meteo": 22,
+   "actual": 22.0,
+   "err": 0.0,
+   "peak_local": "13:00"
+  },
+  {
+   "city": "Paris",
+   "date": "2026-08-28",
+   "date_display": "08/28",
+   "snap_date": "2026-08-28",
+   "time": "22:02",
+   "local_hhmm": "16:02",
+   "hour": 22,
+   "meteo": 23,
+   "actual": 24.0,
+   "err": -1.0,
+   "peak_local": "18:00"
+  },
+  {
+   "city": "Warsaw",
+   "date": "2026-08-28",
+   "date_display": "08/28",
+   "snap_date": "2026-08-28",
+   "time": "20:02",
+   "local_hhmm": "14:02",
+   "hour": 20,
+   "meteo": 24,
+   "actual": 25.0,
+   "err": -1.0,
+   "peak_local": "15:00"
   }
  ],
  "cities": [
@@ -7118,15 +7170,15 @@
   },
   {
    "city": "Cape Town",
-   "n": 12,
-   "mae": 0.17,
+   "n": 13,
+   "mae": 0.15,
    "periods": {
     "21-24": {
      "n": 3,
      "mae": 0.67
     },
     "18-21": {
-     "n": 9,
+     "n": 10,
      "mae": 0.0
     }
    },
@@ -7162,15 +7214,15 @@
   },
   {
    "city": "Chongqing",
-   "n": 13,
-   "mae": 0.23,
+   "n": 14,
+   "mae": 0.21,
    "periods": {
     "12-15": {
      "n": 5,
      "mae": 0.6
     },
     "15-18": {
-     "n": 6,
+     "n": 7,
      "mae": 0.0
     },
     "09-12": {
@@ -7566,12 +7618,12 @@
   },
   {
    "city": "Paris",
-   "n": 11,
-   "mae": 0.45,
+   "n": 12,
+   "mae": 0.5,
    "periods": {
     "21-24": {
-     "n": 10,
-     "mae": 0.4
+     "n": 11,
+     "mae": 0.45
     },
     "18-21": {
      "n": 1,
@@ -7802,15 +7854,15 @@
   },
   {
    "city": "Warsaw",
-   "n": 13,
-   "mae": 0.62,
+   "n": 14,
+   "mae": 0.64,
    "periods": {
     "21-24": {
      "n": 9,
      "mae": 0.56
     },
     "18-21": {
-     "n": 3,
+     "n": 4,
      "mae": 1.0
     },
     "09-12": {
