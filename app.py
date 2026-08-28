@@ -80,12 +80,53 @@ def _attach_actual_peaks(data):
     except Exception:
         pass
 
+def _attach_forecast_peaks(data):
+    """给快照行附预测峰值时刻（来自 Open-Meteo Forecast API）"""
+    try:
+        import asyncio
+        from forecast_peak import get_forecast_peak
+        import httpx
+        
+        async def fetch_all():
+            peaks = {}
+            async with httpx.AsyncClient(timeout=15) as client:
+                tasks = []
+                cities = set()
+                for row in data.get("rows", []):
+                    city = row.get("city")
+                    if city:
+                        cities.add(city)
+                
+                for city in cities:
+                    tasks.append(get_forecast_peak(client, city))
+                
+                results = await asyncio.gather(*tasks, return_exceptions=True)
+                for r in results:
+                    if isinstance(r, dict) and r.get("city"):
+                        peaks[r["city"]] = r
+            return peaks
+        
+        peaks = asyncio.run(fetch_all())
+        
+        for row in data.get("rows", []):
+            city = row.get("city")
+            if city in peaks:
+                for key in ("highest", "lowest"):
+                    h = row.get(key)
+                    if h:
+                        h["forecast_peak"] = peaks[city].get("peak_time")
+                        h["forecast_temp"] = peaks[city].get("peak_temp")
+                        h["best_bet_time"] = peaks[city].get("best_bet_time")
+    except Exception:
+        pass
+
 @app.route('/api/data')
 def api_data():
     try:
         with open(_cache_file, 'r', encoding='utf-8') as f:
             data = json.load(f)
         _attach_actual_peaks(data)
+        _attach_forecast_peaks(data)
         return jsonify({"status": "ready", "data": data, "updated_at": data.get("updated_at"), "errors": []})
     except FileNotFoundError:
         return jsonify({"status": "no_data", "data": None})

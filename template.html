@@ -515,6 +515,8 @@ function timeRow(r) {
   var ap = r.highest ? r.highest.actual_peak : null;
   if (ap) {
     parts.push('<span class="lbl" style="margin-left:8px">\u5cf0(\u5b9e)</span><span class="peak">' + ap + '</span>');
+  } else if (r.highest && r.highest.forecast_peak) {
+    parts.push('<span class="lbl" style="margin-left:8px">\u5cf0(\u9884)</span><span class="peak">' + r.highest.forecast_peak + '</span>');
   } else if (r.highest && r.highest.forecasts) {
     for (var i = 0; i < r.highest.forecasts.length; i++) {
       var f = r.highest.forecasts[i];
