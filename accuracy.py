@@ -180,7 +180,10 @@ async def fetch_metar_peak(client, description, event_date, noon_bj=None):
                 best = (int(ts), t)
         if best is None:
             return None
-        return (datetime.utcfromtimestamp(best[0]) + timedelta(hours=8)).strftime("%Y-%m-%d %H:%M")
+        # 返回北京时间（当地峰值时间 + (8 - off) 小时）
+        peak_utc = datetime.utcfromtimestamp(best[0])
+        peak_bj = peak_utc + timedelta(hours=8)
+        return peak_bj.strftime("%Y-%m-%d %H:%M")
     except Exception:
         return None
 
@@ -271,6 +274,9 @@ def load_history(period=None, model="meteo", peak_off_map=None):
                     break
             if temp is None:
                 continue
+            # 跳过 noon_bj 为空的条目（数据不完整）
+            if h.get("noon_bj") is None:
+                continue
             out.setdefault((h["slug"], local_date), []).append(
                 {"city": row["city"], "date": h["date"], "temp": temp,
                  "date_display": row.get("date_display", ""),
@@ -306,11 +312,23 @@ def load_history(period=None, model="meteo", peak_off_map=None):
             best = valid[0]
         else:
             target = pk - timedelta(hours=1)
-            # 容差 ±1h：峰前 1 小时左右没有预测快照的事件不参与统计
-            near = [v for v in valid if abs((bj_abs(v) - target).total_seconds()) <= 3600]
-            if not near:
+            # 用当地时间比较（避免时区转换导致的日期差异）
+            def local_abs(vv):
+                return bj_to_local(datetime.strptime(vv["snap_bj"], "%Y-%m-%d") + timedelta(hours=vv["hour"],
+                        minutes=int(vv["time"][3:5]) if len(vv.get("time", "")) >= 5 else 0), vv.get("noon_bj"))
+            local_target = bj_to_local(target, lst[0].get("noon_bj"))
+            if local_target is None:
                 continue
-            best = min(near, key=lambda v: abs((bj_abs(v) - target).total_seconds()))
+            near = [vv for vv in valid if local_abs(vv) is not None and
+                    abs((local_abs(vv) - local_target).total_seconds()) <= 7200]
+            if near:
+                best = min(near, key=lambda vv: abs((local_abs(vv) - local_target).total_seconds()))
+            else:
+                # 无容差内快照时，取峰前最近的一条（覆盖缺口兜底）
+                best = max(valid, key=lambda vv: bj_to_local(
+                    datetime.strptime(vv["snap_bj"], "%Y-%m-%d") + timedelta(hours=vv["hour"],
+                    minutes=int(vv["time"][3:5]) if len(vv.get("time", "")) >= 5 else 0),
+                    vv.get("noon_bj")) or datetime.min)
         res[(slug, local_date)] = best
     return res
 
