@@ -303,6 +303,7 @@ function accPick(city) {
       rhtml += '<div style="border-bottom:1px solid #1a1d27;padding:4px 0">' +
         '<span style="color:#aaa">' + esc(r.date_display) + '</span>' +
         ' <span style="color:#666;font-size:11px">预测于 ' + (r.snap_date ? esc(r.snap_date.slice(5)) : '') + (r.local_hhmm ? ' ' + esc(r.local_hhmm) : '') + '</span>' +
+        (r.peak_local ? ' <span style="color:#f59e0b;font-size:11px">峰 ' + esc(r.peak_local) + '</span>' : '') +
         ' &nbsp;预测 <span style="color:#60a5fa;font-weight:600">' + r.meteo + '°</span>' +
         ' &nbsp;实际 <span style="color:#22c55e;font-weight:600">' + r.actual + '°</span>' +
         ' &nbsp;<span class="' + cls + '">' + (r.err > 0 ? '+' : '') + r.err + '°</span></div>';
