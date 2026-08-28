@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 532,
+ "n": 533,
  "mae": 0.51,
  "bias": -0.37,
  "rows": [
@@ -6869,6 +6869,19 @@
    "peak_local": "17:00"
   },
   {
+   "city": "Karachi",
+   "date": "2026-08-28",
+   "date_display": "08/28",
+   "snap_date": "2026-08-28",
+   "time": "17:02",
+   "local_hhmm": "14:02",
+   "hour": 17,
+   "meteo": 30,
+   "actual": 31.0,
+   "err": -1.0,
+   "peak_local": "15:00"
+  },
+  {
    "city": "Kuala Lumpur",
    "date": "2026-08-28",
    "date_display": "08/28",
@@ -7244,16 +7257,16 @@
   },
   {
    "city": "Karachi",
-   "n": 13,
-   "mae": 0.23,
+   "n": 14,
+   "mae": 0.29,
    "periods": {
     "12-15": {
      "n": 2,
      "mae": 0.5
     },
     "15-18": {
-     "n": 11,
-     "mae": 0.18
+     "n": 12,
+     "mae": 0.25
     }
    },
    "best_period": "15-18"
