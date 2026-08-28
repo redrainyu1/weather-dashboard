@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 527,
+ "n": 531,
  "mae": 0.51,
  "bias": -0.37,
  "rows": [
@@ -6854,6 +6854,58 @@
    "actual": 73.0,
    "err": -1.0,
    "peak_local": "15:53"
+  },
+  {
+   "city": "Guangzhou",
+   "date": "2026-08-28",
+   "date_display": "08/28",
+   "snap_date": "2026-08-28",
+   "time": "16:02",
+   "local_hhmm": "16:02",
+   "hour": 16,
+   "meteo": 32,
+   "actual": 33.0,
+   "err": -1.0,
+   "peak_local": "17:00"
+  },
+  {
+   "city": "Kuala Lumpur",
+   "date": "2026-08-28",
+   "date_display": "08/28",
+   "snap_date": "2026-08-28",
+   "time": "16:32",
+   "local_hhmm": "16:32",
+   "hour": 16,
+   "meteo": 33,
+   "actual": 33.0,
+   "err": 0.0,
+   "peak_local": "17:30"
+  },
+  {
+   "city": "Shenzhen",
+   "date": "2026-08-28",
+   "date_display": "08/28",
+   "snap_date": "2026-08-28",
+   "time": "15:02",
+   "local_hhmm": "15:02",
+   "hour": 15,
+   "meteo": 31,
+   "actual": 31.0,
+   "err": 0.0,
+   "peak_local": "16:00"
+  },
+  {
+   "city": "Wuhan",
+   "date": "2026-08-28",
+   "date_display": "08/28",
+   "snap_date": "2026-08-28",
+   "time": "14:30",
+   "local_hhmm": "14:30",
+   "hour": 14,
+   "meteo": 36,
+   "actual": 36.0,
+   "err": 0.0,
+   "peak_local": "15:00"
   }
  ],
  "cities": [
@@ -7067,12 +7119,12 @@
   },
   {
    "city": "Guangzhou",
-   "n": 12,
-   "mae": 0.42,
+   "n": 13,
+   "mae": 0.46,
    "periods": {
     "15-18": {
-     "n": 4,
-     "mae": 0.25
+     "n": 5,
+     "mae": 0.4
     },
     "12-15": {
      "n": 8,
@@ -7195,15 +7247,15 @@
   },
   {
    "city": "Kuala Lumpur",
-   "n": 13,
-   "mae": 0.38,
+   "n": 14,
+   "mae": 0.36,
    "periods": {
     "12-15": {
      "n": 8,
      "mae": 0.62
     },
     "15-18": {
-     "n": 5,
+     "n": 6,
      "mae": 0.0
     }
    },
@@ -7551,8 +7603,8 @@
   },
   {
    "city": "Shenzhen",
-   "n": 13,
-   "mae": 0.92,
+   "n": 14,
+   "mae": 0.86,
    "periods": {
     "06-09": {
      "n": 1,
@@ -7567,7 +7619,7 @@
      "mae": 1.33
     },
     "15-18": {
-     "n": 1,
+     "n": 2,
      "mae": 0.0
     }
    },
@@ -7699,12 +7751,12 @@
   },
   {
    "city": "Wuhan",
-   "n": 13,
-   "mae": 0.15,
+   "n": 14,
+   "mae": 0.14,
    "periods": {
     "12-15": {
-     "n": 5,
-     "mae": 0.2
+     "n": 6,
+     "mae": 0.17
     },
     "15-18": {
      "n": 8,

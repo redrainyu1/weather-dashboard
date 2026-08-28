@@ -3522,5 +3522,33 @@
  "highest-temperature-in-manila-on-august-28-2026": {
   "temp": 28.0,
   "peak_bj": "2026-08-28 02:00"
+ },
+ "highest-temperature-in-chengdu-on-august-28-2026": {
+  "temp": 35.0,
+  "peak_bj": "2026-08-28 13:00"
+ },
+ "highest-temperature-in-guangzhou-on-august-28-2026": {
+  "temp": 33.0,
+  "peak_bj": "2026-08-28 17:00"
+ },
+ "highest-temperature-in-kuala-lumpur-on-august-28-2026": {
+  "temp": 33.0,
+  "peak_bj": "2026-08-28 17:30"
+ },
+ "highest-temperature-in-qingdao-on-august-28-2026": {
+  "temp": 27.0,
+  "peak_bj": "2026-08-28 14:00"
+ },
+ "highest-temperature-in-shenzhen-on-august-28-2026": {
+  "temp": 31.0,
+  "peak_bj": "2026-08-28 16:00"
+ },
+ "highest-temperature-in-taipei-on-august-28-2026": {
+  "temp": 37.0,
+  "peak_bj": "2026-08-28 14:00"
+ },
+ "highest-temperature-in-wuhan-on-august-28-2026": {
+  "temp": 36.0,
+  "peak_bj": "2026-08-28 15:00"
  }
 }
