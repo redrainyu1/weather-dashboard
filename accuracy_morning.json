@@ -1,8 +1,8 @@
 {
  "model": "METEO",
- "n": 495,
+ "n": 499,
  "mae": 0.85,
- "bias": -0.21,
+ "bias": -0.2,
  "rows": [
   {
    "city": "Amsterdam",
@@ -6297,6 +6297,32 @@
    "peak_local": "12:00"
   },
   {
+   "city": "Guangzhou",
+   "date": "2026-08-29",
+   "date_display": "08/29",
+   "snap_date": "2026-08-29",
+   "time": "11:32",
+   "local_hhmm": "11:32",
+   "hour": 11,
+   "meteo": 36,
+   "actual": 36.0,
+   "err": 0.0,
+   "peak_local": "16:30"
+  },
+  {
+   "city": "Karachi",
+   "date": "2026-08-29",
+   "date_display": "08/29",
+   "snap_date": "2026-08-29",
+   "time": "11:32",
+   "local_hhmm": "08:32",
+   "hour": 11,
+   "meteo": 30,
+   "actual": 30.0,
+   "err": 0.0,
+   "peak_local": "15:30"
+  },
+  {
    "city": "Kuala Lumpur",
    "date": "2026-08-29",
    "date_display": "08/29",
@@ -6375,6 +6401,19 @@
    "peak_local": "14:30"
   },
   {
+   "city": "Shenzhen",
+   "date": "2026-08-29",
+   "date_display": "08/29",
+   "snap_date": "2026-08-29",
+   "time": "11:32",
+   "local_hhmm": "11:32",
+   "hour": 11,
+   "meteo": 32,
+   "actual": 32.0,
+   "err": 0.0,
+   "peak_local": "16:00"
+  },
+  {
    "city": "Singapore",
    "date": "2026-08-29",
    "date_display": "08/29",
@@ -6424,6 +6463,19 @@
    "meteo": 30,
    "actual": 30.0,
    "err": 0.0,
+   "peak_local": "15:00"
+  },
+  {
+   "city": "Jinan",
+   "date": "2026-08-29",
+   "date_display": "08/29",
+   "snap_date": "2026-08-29",
+   "time": "11:32",
+   "local_hhmm": "03:32",
+   "hour": 11,
+   "meteo": 29,
+   "actual": 26.0,
+   "err": 3.0,
    "peak_local": "15:00"
   },
   {
@@ -6551,12 +6603,12 @@
   },
   {
    "city": "Guangzhou",
-   "n": 13,
-   "mae": 0.77,
+   "n": 14,
+   "mae": 0.71,
    "periods": {
     "09-12": {
-     "n": 13,
-     "mae": 0.77
+     "n": 14,
+     "mae": 0.71
     }
    },
    "best_period": "09-12"
@@ -6611,24 +6663,24 @@
   },
   {
    "city": "Jinan",
-   "n": 13,
-   "mae": 7.31,
+   "n": 14,
+   "mae": 7.0,
    "periods": {
     "09-12": {
-     "n": 13,
-     "mae": 7.31
+     "n": 14,
+     "mae": 7.0
     }
    },
    "best_period": "09-12"
   },
   {
    "city": "Karachi",
-   "n": 13,
-   "mae": 0.31,
+   "n": 14,
+   "mae": 0.29,
    "periods": {
     "09-12": {
-     "n": 13,
-     "mae": 0.31
+     "n": 14,
+     "mae": 0.29
     }
    },
    "best_period": "09-12"
@@ -6835,12 +6887,12 @@
   },
   {
    "city": "Shenzhen",
-   "n": 13,
-   "mae": 0.92,
+   "n": 14,
+   "mae": 0.86,
    "periods": {
     "09-12": {
-     "n": 13,
-     "mae": 0.92
+     "n": 14,
+     "mae": 0.86
     }
    },
    "best_period": "09-12"
