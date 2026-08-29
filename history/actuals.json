@@ -4038,5 +4038,13 @@
  "highest-temperature-in-zhengzhou-on-august-29-2026": {
   "temp": 32.0,
   "peak_bj": "2026-08-29 15:00"
+ },
+ "highest-temperature-in-taipei-on-august-29-2026": {
+  "temp": 35.0,
+  "peak_bj": "2026-08-29 13:00"
+ },
+ "highest-temperature-in-wuhan-on-august-29-2026": {
+  "temp": 30.0,
+  "peak_bj": "2026-08-29 15:00"
  }
 }

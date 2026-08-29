@@ -1,7 +1,7 @@
 {
  "model": "METEO",
- "n": 493,
- "mae": 0.86,
+ "n": 495,
+ "mae": 0.85,
  "bias": -0.21,
  "rows": [
   {
@@ -6388,6 +6388,19 @@
    "peak_local": "16:30"
   },
   {
+   "city": "Taipei",
+   "date": "2026-08-29",
+   "date_display": "08/29",
+   "snap_date": "2026-08-29",
+   "time": "11:32",
+   "local_hhmm": "11:32",
+   "hour": 11,
+   "meteo": 34,
+   "actual": 35.0,
+   "err": -1.0,
+   "peak_local": "13:00"
+  },
+  {
    "city": "Wellington",
    "date": "2026-08-29",
    "date_display": "08/29",
@@ -6399,6 +6412,19 @@
    "actual": 15.0,
    "err": 0.0,
    "peak_local": "12:30"
+  },
+  {
+   "city": "Wuhan",
+   "date": "2026-08-29",
+   "date_display": "08/29",
+   "snap_date": "2026-08-29",
+   "time": "11:32",
+   "local_hhmm": "11:32",
+   "hour": 11,
+   "meteo": 30,
+   "actual": 30.0,
+   "err": 0.0,
+   "peak_local": "15:00"
   },
   {
    "city": "Zhengzhou",
@@ -6833,12 +6859,12 @@
   },
   {
    "city": "Taipei",
-   "n": 13,
-   "mae": 1.08,
+   "n": 14,
+   "mae": 1.07,
    "periods": {
     "09-12": {
-     "n": 13,
-     "mae": 1.08
+     "n": 14,
+     "mae": 1.07
     }
    },
    "best_period": "09-12"
@@ -6897,12 +6923,12 @@
   },
   {
    "city": "Wuhan",
-   "n": 13,
-   "mae": 0.23,
+   "n": 14,
+   "mae": 0.21,
    "periods": {
     "09-12": {
-     "n": 13,
-     "mae": 0.23
+     "n": 14,
+     "mae": 0.21
     }
    },
    "best_period": "09-12"
