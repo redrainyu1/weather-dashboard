@@ -3978,5 +3978,13 @@
  "highest-temperature-in-seattle-on-august-28-2026": {
   "temp": 73.0,
   "peak_bj": "2026-08-29 06:53"
+ },
+ "highest-temperature-in-austin-on-august-28-2026": {
+  "temp": 101.0,
+  "peak_bj": "2026-08-29 06:06"
+ },
+ "highest-temperature-in-dallas-on-august-28-2026": {
+  "temp": 101.0,
+  "peak_bj": "2026-08-29 05:53"
  }
 }
