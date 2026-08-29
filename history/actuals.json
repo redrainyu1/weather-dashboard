@@ -3958,5 +3958,13 @@
  "highest-temperature-in-mexico-city-on-august-28-2026": {
   "temp": 25.0,
   "peak_bj": "2026-08-29 05:45"
+ },
+ "highest-temperature-in-chicago-on-august-28-2026": {
+  "temp": 83.0,
+  "peak_bj": "2026-08-29 03:51"
+ },
+ "highest-temperature-in-denver-on-august-28-2026": {
+  "temp": 93.0,
+  "peak_bj": "2026-08-29 03:58"
  }
 }
