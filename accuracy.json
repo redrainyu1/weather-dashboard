@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 545,
+ "n": 548,
  "mae": 0.51,
  "bias": -0.38,
  "rows": [
@@ -6973,6 +6973,19 @@
    "peak_local": "16:30"
   },
   {
+   "city": "Shanghai",
+   "date": "2026-08-28",
+   "date_display": "08/28",
+   "snap_date": "2026-08-28",
+   "time": "14:30",
+   "local_hhmm": "14:30",
+   "hour": 14,
+   "meteo": 30,
+   "actual": 30.0,
+   "err": 0.0,
+   "peak_local": "15:00"
+  },
+  {
    "city": "Shenzhen",
    "date": "2026-08-28",
    "date_display": "08/28",
@@ -6984,6 +6997,19 @@
    "actual": 31.0,
    "err": 0.0,
    "peak_local": "16:00"
+  },
+  {
+   "city": "Singapore",
+   "date": "2026-08-28",
+   "date_display": "08/28",
+   "snap_date": "2026-08-28",
+   "time": "14:30",
+   "local_hhmm": "14:30",
+   "hour": 14,
+   "meteo": 33,
+   "actual": 33.0,
+   "err": 0.0,
+   "peak_local": "15:30"
   },
   {
    "city": "Tel Aviv",
@@ -7036,6 +7062,19 @@
    "actual": 22.0,
    "err": 0.0,
    "peak_local": "13:00"
+  },
+  {
+   "city": "London",
+   "date": "2026-08-28",
+   "date_display": "08/28",
+   "snap_date": "2026-08-28",
+   "time": "21:02",
+   "local_hhmm": "14:02",
+   "hour": 21,
+   "meteo": 24,
+   "actual": 25.0,
+   "err": -1.0,
+   "peak_local": "14:50"
   },
   {
    "city": "Milan",
@@ -7449,12 +7488,12 @@
   },
   {
    "city": "London",
-   "n": 9,
-   "mae": 0.44,
+   "n": 10,
+   "mae": 0.5,
    "periods": {
     "21-24": {
-     "n": 8,
-     "mae": 0.5
+     "n": 9,
+     "mae": 0.56
     },
     "18-21": {
      "n": 1,
@@ -7765,8 +7804,8 @@
   },
   {
    "city": "Shanghai",
-   "n": 14,
-   "mae": 0.36,
+   "n": 15,
+   "mae": 0.33,
    "periods": {
     "21-24": {
      "n": 2,
@@ -7777,8 +7816,8 @@
      "mae": 0.5
     },
     "12-15": {
-     "n": 9,
-     "mae": 0.44
+     "n": 10,
+     "mae": 0.4
     },
     "15-18": {
      "n": 1,
@@ -7813,16 +7852,16 @@
   },
   {
    "city": "Singapore",
-   "n": 12,
-   "mae": 0.17,
+   "n": 13,
+   "mae": 0.15,
    "periods": {
     "15-18": {
      "n": 4,
      "mae": 0.25
     },
     "12-15": {
-     "n": 7,
-     "mae": 0.14
+     "n": 8,
+     "mae": 0.12
     },
     "09-12": {
      "n": 1,
