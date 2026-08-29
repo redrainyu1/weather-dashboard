@@ -3994,5 +3994,13 @@
  "highest-temperature-in-seoul-on-august-29-2026": {
   "temp": 29.0,
   "peak_bj": "2026-08-29 12:00"
+ },
+ "highest-temperature-in-busan-on-august-29-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-08-29 12:00"
+ },
+ "highest-temperature-in-tokyo-on-august-29-2026": {
+  "temp": 27.0,
+  "peak_bj": "2026-08-29 01:00"
  }
 }

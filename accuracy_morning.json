@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 483,
+ "n": 484,
  "mae": 0.87,
  "bias": -0.21,
  "rows": [
@@ -6245,6 +6245,19 @@
    "peak_local": "07:00"
   },
   {
+   "city": "Busan",
+   "date": "2026-08-29",
+   "date_display": "08/29",
+   "snap_date": "2026-08-29",
+   "time": "11:02",
+   "local_hhmm": "12:02",
+   "hour": 11,
+   "meteo": 32,
+   "actual": 32.0,
+   "err": 0.0,
+   "peak_local": "13:00"
+  },
+  {
    "city": "Seattle",
    "date": "2026-08-28",
    "date_display": "08/28",
@@ -6335,12 +6348,12 @@
   },
   {
    "city": "Busan",
-   "n": 12,
-   "mae": 0.25,
+   "n": 13,
+   "mae": 0.23,
    "periods": {
     "09-12": {
-     "n": 12,
-     "mae": 0.25
+     "n": 13,
+     "mae": 0.23
     }
    },
    "best_period": "09-12"
