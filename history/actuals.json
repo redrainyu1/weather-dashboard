@@ -4002,5 +4002,41 @@
  "highest-temperature-in-tokyo-on-august-29-2026": {
   "temp": 27.0,
   "peak_bj": "2026-08-29 01:00"
+ },
+ "highest-temperature-in-beijing-on-august-29-2026": {
+  "temp": 31.0,
+  "peak_bj": "2026-08-29 16:30"
+ },
+ "highest-temperature-in-chengdu-on-august-29-2026": {
+  "temp": 31.0,
+  "peak_bj": "2026-08-29 16:00"
+ },
+ "highest-temperature-in-chongqing-on-august-29-2026": {
+  "temp": 27.0,
+  "peak_bj": "2026-08-29 12:00"
+ },
+ "highest-temperature-in-kuala-lumpur-on-august-29-2026": {
+  "temp": 34.0,
+  "peak_bj": "2026-08-29 16:00"
+ },
+ "highest-temperature-in-manila-on-august-29-2026": {
+  "temp": 27.0,
+  "peak_bj": "2026-08-29 23:00"
+ },
+ "highest-temperature-in-qingdao-on-august-29-2026": {
+  "temp": 28.0,
+  "peak_bj": "2026-08-29 15:00"
+ },
+ "highest-temperature-in-shanghai-on-august-29-2026": {
+  "temp": 31.0,
+  "peak_bj": "2026-08-29 14:30"
+ },
+ "highest-temperature-in-singapore-on-august-29-2026": {
+  "temp": 33.0,
+  "peak_bj": "2026-08-29 16:30"
+ },
+ "highest-temperature-in-zhengzhou-on-august-29-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-08-29 15:00"
  }
 }
