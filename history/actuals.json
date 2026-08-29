@@ -3946,5 +3946,13 @@
  "highest-temperature-in-nyc-on-august-28-2026": {
   "temp": 85.0,
   "peak_bj": "2026-08-29 03:51"
+ },
+ "highest-temperature-in-houston-on-august-28-2026": {
+  "temp": 95.0,
+  "peak_bj": "2026-08-29 01:53"
+ },
+ "highest-temperature-in-panama-city-on-august-28-2026": {
+  "temp": 31.0,
+  "peak_bj": "2026-08-29 05:00"
  }
 }
