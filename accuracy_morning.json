@@ -1,22 +1,9 @@
 {
  "model": "METEO",
- "n": 68,
+ "n": 67,
  "mae": 0.9,
  "bias": -0.78,
  "rows": [
-  {
-   "city": "Shenzhen",
-   "date": "2026-08-14",
-   "date_display": "08/14",
-   "snap_date": "2026-08-14",
-   "time": "08:07",
-   "local_hhmm": "08:07",
-   "hour": 8,
-   "meteo": 29,
-   "actual": 30.0,
-   "err": -1.0,
-   "peak_local": "09:00"
-  },
   {
    "city": "Buenos Aires",
    "date": "2026-08-14",
@@ -1052,13 +1039,9 @@
   },
   {
    "city": "Shenzhen",
-   "n": 4,
-   "mae": 1.25,
+   "n": 3,
+   "mae": 1.33,
    "periods": {
-    "06-09": {
-     "n": 1,
-     "mae": 1.0
-    },
     "09-12": {
      "n": 3,
      "mae": 1.33
