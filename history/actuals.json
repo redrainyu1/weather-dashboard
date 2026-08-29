@@ -3966,5 +3966,17 @@
  "highest-temperature-in-denver-on-august-28-2026": {
   "temp": 93.0,
   "peak_bj": "2026-08-29 03:58"
+ },
+ "highest-temperature-in-los-angeles-on-august-28-2026": {
+  "temp": 85.0,
+  "peak_bj": "2026-08-29 05:53"
+ },
+ "highest-temperature-in-san-francisco-on-august-28-2026": {
+  "temp": 65.0,
+  "peak_bj": "2026-08-29 05:56"
+ },
+ "highest-temperature-in-seattle-on-august-28-2026": {
+  "temp": 73.0,
+  "peak_bj": "2026-08-29 06:53"
  }
 }
