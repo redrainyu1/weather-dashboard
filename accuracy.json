@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 800,
+ "n": 802,
  "mae": 0.81,
  "bias": -0.39,
  "rows": [
@@ -10301,6 +10301,19 @@
    "peak_local": "14:55"
   },
   {
+   "city": "Buenos Aires",
+   "date": "2026-08-28",
+   "date_display": "08/28",
+   "snap_date": "2026-08-28",
+   "time": "02:02",
+   "local_hhmm": "15:02",
+   "hour": 2,
+   "meteo": 18,
+   "actual": 21.0,
+   "err": -3.0,
+   "peak_local": "16:00"
+  },
+  {
    "city": "Cape Town",
    "date": "2026-08-28",
    "date_display": "08/28",
@@ -10377,6 +10390,19 @@
    "actual": 24.0,
    "err": -1.0,
    "peak_local": "18:00"
+  },
+  {
+   "city": "Sao Paulo",
+   "date": "2026-08-28",
+   "date_display": "08/28",
+   "snap_date": "2026-08-28",
+   "time": "02:02",
+   "local_hhmm": "15:02",
+   "hour": 2,
+   "meteo": 32,
+   "actual": 32.0,
+   "err": 0.0,
+   "peak_local": "16:00"
   },
   {
    "city": "Warsaw",
@@ -10504,8 +10530,8 @@
   },
   {
    "city": "Buenos Aires",
-   "n": 17,
-   "mae": 1.0,
+   "n": 18,
+   "mae": 1.11,
    "periods": {
     "21-24": {
      "n": 6,
@@ -10516,8 +10542,8 @@
      "mae": 1.0
     },
     "其他": {
-     "n": 9,
-     "mae": 1.0
+     "n": 10,
+     "mae": 1.2
     }
    },
    "best_period": "21-24"
@@ -11128,15 +11154,15 @@
   },
   {
    "city": "Sao Paulo",
-   "n": 17,
-   "mae": 0.24,
+   "n": 18,
+   "mae": 0.22,
    "periods": {
     "21-24": {
      "n": 8,
      "mae": 0.5
     },
     "其他": {
-     "n": 9,
+     "n": 10,
      "mae": 0.0
     }
    },

@@ -3922,5 +3922,13 @@
  "highest-temperature-in-zhengzhou-on-august-28-2026": {
   "temp": 24.0,
   "peak_bj": "2026-08-28 16:00"
+ },
+ "highest-temperature-in-buenos-aires-on-august-28-2026": {
+  "temp": 21.0,
+  "peak_bj": "2026-08-29 03:00"
+ },
+ "highest-temperature-in-sao-paulo-on-august-28-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-08-29 03:00"
  }
 }
