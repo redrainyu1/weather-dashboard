@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 802,
+ "n": 803,
  "mae": 0.81,
  "bias": -0.39,
  "rows": [
@@ -10405,6 +10405,19 @@
    "peak_local": "16:00"
   },
   {
+   "city": "Toronto",
+   "date": "2026-08-28",
+   "date_display": "08/28",
+   "snap_date": "2026-08-28",
+   "time": "04:32",
+   "local_hhmm": "16:32",
+   "hour": 4,
+   "meteo": 22,
+   "actual": 22.0,
+   "err": 0.0,
+   "peak_local": "19:00"
+  },
+  {
    "city": "Warsaw",
    "date": "2026-08-28",
    "date_display": "08/28",
@@ -11342,7 +11355,7 @@
   },
   {
    "city": "Toronto",
-   "n": 16,
+   "n": 17,
    "mae": 0.12,
    "periods": {
     "21-24": {
@@ -11350,7 +11363,7 @@
      "mae": 0.33
     },
     "其他": {
-     "n": 10,
+     "n": 11,
      "mae": 0.0
     }
    },
