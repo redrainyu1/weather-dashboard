@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 803,
+ "n": 806,
  "mae": 0.81,
  "bias": -0.39,
  "rows": [
@@ -10301,6 +10301,19 @@
    "peak_local": "14:55"
   },
   {
+   "city": "Atlanta",
+   "date": "2026-08-28",
+   "date_display": "08/28",
+   "snap_date": "2026-08-28",
+   "time": "02:02",
+   "local_hhmm": "14:02",
+   "hour": 2,
+   "meteo": 91,
+   "actual": 91.0,
+   "err": 0.0,
+   "peak_local": "14:52"
+  },
+  {
    "city": "Buenos Aires",
    "date": "2026-08-28",
    "date_display": "08/28",
@@ -10353,6 +10366,19 @@
    "peak_local": "19:00"
   },
   {
+   "city": "Miami",
+   "date": "2026-08-28",
+   "date_display": "08/28",
+   "snap_date": "2026-08-28",
+   "time": "01:02",
+   "local_hhmm": "13:02",
+   "hour": 1,
+   "meteo": 93,
+   "actual": 93.0,
+   "err": 0.0,
+   "peak_local": "13:53"
+  },
+  {
    "city": "Milan",
    "date": "2026-08-28",
    "date_display": "08/28",
@@ -10377,6 +10403,19 @@
    "actual": 29.0,
    "err": -1.0,
    "peak_local": "12:20"
+  },
+  {
+   "city": "Nyc",
+   "date": "2026-08-28",
+   "date_display": "08/28",
+   "snap_date": "2026-08-28",
+   "time": "03:02",
+   "local_hhmm": "15:02",
+   "hour": 3,
+   "meteo": 84,
+   "actual": 85.0,
+   "err": -1.0,
+   "peak_local": "15:51"
   },
   {
    "city": "Paris",
@@ -10491,16 +10530,16 @@
   },
   {
    "city": "Atlanta",
-   "n": 16,
-   "mae": 1.44,
+   "n": 17,
+   "mae": 1.35,
    "periods": {
     "21-24": {
      "n": 6,
      "mae": 2.17
     },
     "其他": {
-     "n": 10,
-     "mae": 1.0
+     "n": 11,
+     "mae": 0.91
     }
    },
    "best_period": "其他"
@@ -11003,16 +11042,16 @@
   },
   {
    "city": "Miami",
-   "n": 17,
-   "mae": 1.47,
+   "n": 18,
+   "mae": 1.39,
    "periods": {
     "21-24": {
      "n": 9,
      "mae": 2.11
     },
     "其他": {
-     "n": 8,
-     "mae": 0.75
+     "n": 9,
+     "mae": 0.67
     }
    },
    "best_period": "其他"
@@ -11079,16 +11118,16 @@
   },
   {
    "city": "Nyc",
-   "n": 17,
-   "mae": 1.12,
+   "n": 18,
+   "mae": 1.11,
    "periods": {
     "21-24": {
      "n": 9,
      "mae": 1.11
     },
     "其他": {
-     "n": 8,
-     "mae": 1.12
+     "n": 9,
+     "mae": 1.11
     }
    },
    "best_period": "21-24"
