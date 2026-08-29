@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 482,
+ "n": 483,
  "mae": 0.87,
  "bias": -0.21,
  "rows": [
@@ -6258,6 +6258,19 @@
    "peak_local": "15:53"
   },
   {
+   "city": "Seoul",
+   "date": "2026-08-29",
+   "date_display": "08/29",
+   "snap_date": "2026-08-29",
+   "time": "11:02",
+   "local_hhmm": "12:02",
+   "hour": 11,
+   "meteo": 28,
+   "actual": 29.0,
+   "err": -1.0,
+   "peak_local": "13:00"
+  },
+  {
    "city": "Wellington",
    "date": "2026-08-29",
    "date_display": "08/29",
@@ -6638,12 +6651,12 @@
   },
   {
    "city": "Seoul",
-   "n": 13,
-   "mae": 0.23,
+   "n": 14,
+   "mae": 0.29,
    "periods": {
     "09-12": {
-     "n": 12,
-     "mae": 0.25
+     "n": 13,
+     "mae": 0.31
     },
     "06-09": {
      "n": 1,
