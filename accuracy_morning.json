@@ -1,8 +1,8 @@
 {
  "model": "METEO",
- "n": 499,
+ "n": 500,
  "mae": 0.85,
- "bias": -0.2,
+ "bias": -0.21,
  "rows": [
   {
    "city": "Amsterdam",
@@ -6336,6 +6336,19 @@
    "peak_local": "16:00"
   },
   {
+   "city": "Lucknow",
+   "date": "2026-08-29",
+   "date_display": "08/29",
+   "snap_date": "2026-08-29",
+   "time": "11:32",
+   "local_hhmm": "09:32",
+   "hour": 11,
+   "meteo": 32,
+   "actual": 33.0,
+   "err": -1.0,
+   "peak_local": "12:00"
+  },
+  {
    "city": "Manila",
    "date": "2026-08-29",
    "date_display": "08/29",
@@ -6723,12 +6736,12 @@
   },
   {
    "city": "Lucknow",
-   "n": 13,
-   "mae": 0.38,
+   "n": 14,
+   "mae": 0.43,
    "periods": {
     "09-12": {
-     "n": 12,
-     "mae": 0.42
+     "n": 13,
+     "mae": 0.46
     },
     "06-09": {
      "n": 1,

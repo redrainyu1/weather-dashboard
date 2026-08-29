@@ -4062,5 +4062,9 @@
  "highest-temperature-in-shenzhen-on-august-29-2026": {
   "temp": 32.0,
   "peak_bj": "2026-08-29 16:00"
+ },
+ "highest-temperature-in-lucknow-on-august-29-2026": {
+  "temp": 33.0,
+  "peak_bj": "2026-08-29 14:00"
  }
 }
