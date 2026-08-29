@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 808,
+ "n": 809,
  "mae": 0.81,
  "bias": -0.39,
  "rows": [
@@ -10379,6 +10379,19 @@
    "peak_local": "19:00"
   },
   {
+   "city": "Mexico City",
+   "date": "2026-08-28",
+   "date_display": "08/28",
+   "snap_date": "2026-08-28",
+   "time": "04:32",
+   "local_hhmm": "14:32",
+   "hour": 4,
+   "meteo": 24,
+   "actual": 25.0,
+   "err": -1.0,
+   "peak_local": "15:45"
+  },
+  {
    "city": "Miami",
    "date": "2026-08-28",
    "date_display": "08/28",
@@ -11052,16 +11065,16 @@
   },
   {
    "city": "Mexico City",
-   "n": 17,
-   "mae": 0.65,
+   "n": 18,
+   "mae": 0.67,
    "periods": {
     "21-24": {
      "n": 6,
      "mae": 1.5
     },
     "其他": {
-     "n": 11,
-     "mae": 0.18
+     "n": 12,
+     "mae": 0.25
     }
    },
    "best_period": "其他"

@@ -3954,5 +3954,9 @@
  "highest-temperature-in-panama-city-on-august-28-2026": {
   "temp": 31.0,
   "peak_bj": "2026-08-29 05:00"
+ },
+ "highest-temperature-in-mexico-city-on-august-28-2026": {
+  "temp": 25.0,
+  "peak_bj": "2026-08-29 05:45"
  }
 }
