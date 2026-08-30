@@ -4122,5 +4122,13 @@
  "highest-temperature-in-warsaw-on-august-29-2026": {
   "temp": 23.0,
   "peak_bj": "2026-08-29 23:30"
+ },
+ "highest-temperature-in-buenos-aires-on-august-29-2026": {
+  "temp": 21.0,
+  "peak_bj": "2026-08-30 02:00"
+ },
+ "highest-temperature-in-sao-paulo-on-august-29-2026": {
+  "temp": 33.0,
+  "peak_bj": "2026-08-30 01:00"
  }
 }

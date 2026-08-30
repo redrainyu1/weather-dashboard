@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 480,
+ "n": 482,
  "mae": 0.8,
  "bias": -0.23,
  "mae_4h": 0.52,
@@ -6830,6 +6830,32 @@
    "meteo_4h": 32,
    "err_4h": 0.0,
    "snap_4h": "02:32"
+  },
+  {
+   "city": "Buenos Aires",
+   "date": "2026-08-29",
+   "date_display": "08/29",
+   "snap_date": "2026-08-29",
+   "time": "11:32",
+   "local_hhmm": "00:32",
+   "hour": 11,
+   "meteo": 18,
+   "actual": 21.0,
+   "err": -3.0,
+   "peak_local": "15:00"
+  },
+  {
+   "city": "Sao Paulo",
+   "date": "2026-08-29",
+   "date_display": "08/29",
+   "snap_date": "2026-08-29",
+   "time": "11:32",
+   "local_hhmm": "00:32",
+   "hour": 11,
+   "meteo": 33,
+   "actual": 33.0,
+   "err": 0.0,
+   "peak_local": "14:00"
   }
  ],
  "cities": [
@@ -6877,14 +6903,14 @@
   },
   {
    "city": "Buenos Aires",
-   "n": 11,
-   "mae": 1.18,
+   "n": 12,
+   "mae": 1.33,
    "mae_4h": null,
    "n_4h": 0,
    "periods": {
     "09-12": {
-     "n": 11,
-     "mae": 1.18
+     "n": 12,
+     "mae": 1.33
     }
    },
    "best_period": "09-12"
@@ -7231,14 +7257,14 @@
   },
   {
    "city": "Sao Paulo",
-   "n": 11,
-   "mae": 1.18,
+   "n": 12,
+   "mae": 1.08,
    "mae_4h": null,
    "n_4h": 0,
    "periods": {
     "09-12": {
-     "n": 11,
-     "mae": 1.18
+     "n": 12,
+     "mae": 1.08
     }
    },
    "best_period": "09-12"
