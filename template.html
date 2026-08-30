@@ -174,6 +174,16 @@
     </div>
   </div>
 
+  <div class="modal" id="dayDetailModal" onclick="if(event.target===this)closeDayDetail()">
+    <div class="modal-box" style="width:95vw;max-width:800px;max-height:85vh;overflow-y:auto">
+      <h3 id="dayDetailTitle" style="margin-bottom:10px"></h3>
+      <div id="dayDetailBody" style="font-size:12px;color:#ccc;line-height:1.8"></div>
+      <div class="modal-btns">
+        <button class="btn-refresh" onclick="closeDayDetail()">关闭</button>
+      </div>
+    </div>
+  </div>
+
   <div class="modal" id="editModal" onclick="if(event.target===this)closeModal()">
     <div class="modal-box">
       <h3 id="editTitle"></h3>
@@ -336,14 +346,15 @@ function accPick(city) {
       var r = rows[i];
       var cls = r.err > 0 ? 'err-pos' : (r.err < 0 ? 'err-neg' : '');
       var cls4h = r.err_4h != null ? (r.err_4h > 0 ? 'err-pos' : (r.err_4h < 0 ? 'err-neg' : '')) : '';
-      rhtml += '<div style="border-bottom:1px solid #1a1d27;padding:4px 0">' +
-        '<span style="color:#aaa">' + esc(r.date_display) + '</span>' +
-        ' <span style="color:#666;font-size:11px">预测于 ' + (r.snap_date ? esc(r.snap_date.slice(5)) : '') + (r.local_hhmm ? ' ' + esc(r.local_hhmm) : '') + '</span>' +
-        (r.peak_local ? ' <span style="color:#f59e0b;font-size:11px">峰 ' + esc(r.peak_local) + '</span>' : '') +
+      rhtml += '<div style="border-bottom:1px solid #1a1d27;padding:4px 0;display:flex;align-items:center;gap:6px">' +
+        '<span style="color:#aaa;flex-shrink:0">' + esc(r.date_display) + '</span>' +
+        ' <span style="color:#666;font-size:11px;flex-shrink:0">预测于 ' + (r.snap_date ? esc(r.snap_date.slice(5)) : '') + (r.local_hhmm ? ' ' + esc(r.local_hhmm) : '') + '</span>' +
+        (r.peak_local ? ' <span style="color:#f59e0b;font-size:11px;flex-shrink:0">峰 ' + esc(r.peak_local) + '</span>' : '') +
         ' &nbsp;预测 <span style="color:#60a5fa;font-weight:600">' + r.meteo + '°</span>' +
         ' &nbsp;实际 <span style="color:#22c55e;font-weight:600">' + r.actual + '°</span>' +
         ' &nbsp;<span class="' + cls + '">' + (r.err > 0 ? '+' : '') + r.err + '°</span>' +
         (r.meteo_4h != null ? ' &nbsp;<span style="color:#f59e0b">4~5h 预测 ' + r.meteo_4h + '° 实际 ' + r.actual + '° <span class="' + cls4h + '">' + (r.err_4h > 0 ? '+' : '') + r.err_4h + '°</span></span>' : '') +
+        '<button onclick="event.stopPropagation();showDayDetail(\'' + esc(r.city).replace(/'/g,"\\'") + '\',\'' + esc(r.date) + '\')" style="margin-left:auto;flex-shrink:0;background:#334155;color:#94a3b8;border:none;border-radius:4px;padding:1px 8px;font-size:10px;cursor:pointer">详情</button>' +
         '</div>';
     }
     document.getElementById('accModalBody').innerHTML = rhtml;
@@ -401,6 +412,51 @@ function filterCity(city) {
   document.getElementById('filter').value = city;
   render();
 }
+
+function showDayDetail(city, date) {
+  var rows = ALL_DATA.rows || [];
+  var row = null;
+  for (var i = 0; i < rows.length; i++) {
+    if (rows[i].city === city && rows[i].date === date) { row = rows[i]; break; }
+  }
+  if (!row) return;
+  document.getElementById('dayDetailTitle').innerHTML = esc(row.city_cn || city) + ' ' + esc(date) + ' <span style="color:#666;font-size:12px">' + esc(row.icao || '') + '</span>';
+  var h = '';
+  var dirs = [
+    { key: 'highest', label: '高温', color: '#f87171' },
+    { key: 'lowest', label: '低温', color: '#60a5fa' }
+  ];
+  for (var d = 0; d < dirs.length; d++) {
+    var dir = dirs[d];
+    var obj = row[dir.key];
+    if (!obj) continue;
+    h += '<div style="margin:8px 0;padding:8px 10px;background:#11141c;border-radius:6px">';
+    h += '<div style="font-weight:600;color:' + dir.color + ';margin-bottom:4px">' + dir.label + '</div>';
+    h += '<div>预测 <span style="color:' + dir.color + ';font-weight:600">' + (obj.predicted_temp || '-') + '</span> &nbsp;概率 <span style="font-weight:600">' + (obj.predicted_prob != null ? obj.predicted_prob + '%' : '-') + '</span></div>';
+    if (obj.forecasts && obj.forecasts.length) {
+      h += '<div style="margin-top:4px;color:#888">气象模型：</div>';
+      for (var f = 0; f < obj.forecasts.length; f++) {
+        var fc = obj.forecasts[f];
+        h += '<div style="color:#aaa">&nbsp;&nbsp;' + esc(fc.model || '') + ' ' + (fc.temp != null ? fc.temp + '°' : '-') + (fc.time ? ' (' + esc(fc.time) + ')' : '') + '</div>';
+      }
+    }
+    if (obj.markets && obj.markets.length) {
+      h += '<div style="margin-top:4px;color:#888">Polymarket 各价位概率：</div>';
+      h += '<div style="display:flex;flex-wrap:wrap;gap:4px;margin-top:2px">';
+      for (var m = 0; m < obj.markets.length; m++) {
+        var mk = obj.markets[m];
+        var pct = mk.yes_pct != null ? mk.yes_pct : 0;
+        var bg = pct >= 50 ? 'rgba(34,197,94,0.15)' : (pct > 0 ? 'rgba(148,163,184,0.1)' : 'transparent');
+        h += '<span style="background:' + bg + ';padding:2px 6px;border-radius:4px;color:' + (pct >= 50 ? '#22c55e' : '#888') + ';font-size:11px">' + esc(mk.temp || '') + ' <b>' + pct + '%</b></span>';
+      }
+      h += '</div>';
+    }
+    h += '</div>';
+  }
+  document.getElementById('dayDetailBody').innerHTML = h || '<span style="color:#888">暂无数据</span>';
+  document.getElementById('dayDetailModal').style.display = 'flex';
+}
+function closeDayDetail() { document.getElementById('dayDetailModal').style.display = 'none'; }
 
 function accSortBy(f) {
   if (accSortField === f) accSortAsc = !accSortAsc; else { accSortField = f; accSortAsc = true; }
