@@ -4262,5 +4262,45 @@
  "highest-temperature-in-lucknow-on-august-30-2026": {
   "temp": 32.0,
   "peak_bj": "2026-08-30 19:00"
+ },
+ "highest-temperature-in-ankara-on-august-30-2026": {
+  "temp": 26.0,
+  "peak_bj": "2026-08-30 20:50"
+ },
+ "highest-temperature-in-cape-town-on-august-30-2026": {
+  "temp": 18.0,
+  "peak_bj": "2026-08-30 20:00"
+ },
+ "highest-temperature-in-helsinki-on-august-30-2026": {
+  "temp": 20.0,
+  "peak_bj": "2026-08-30 21:50"
+ },
+ "highest-temperature-in-istanbul-on-august-30-2026": {
+  "temp": 26.0,
+  "peak_bj": "2026-08-30 21:50"
+ },
+ "highest-temperature-in-jeddah-on-august-30-2026": {
+  "temp": 38.0,
+  "peak_bj": "2026-08-30 22:00"
+ },
+ "highest-temperature-in-madrid-on-august-30-2026": {
+  "temp": 33.0,
+  "peak_bj": "2026-08-31 01:00"
+ },
+ "highest-temperature-in-moscow-on-august-30-2026": {
+  "temp": 22.0,
+  "peak_bj": "2026-08-30 17:30"
+ },
+ "highest-temperature-in-paris-on-august-30-2026": {
+  "temp": 24.0,
+  "peak_bj": "2026-08-31 02:00"
+ },
+ "highest-temperature-in-tel-aviv-on-august-30-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-08-30 18:50"
+ },
+ "highest-temperature-in-warsaw-on-august-30-2026": {
+  "temp": 26.0,
+  "peak_bj": "2026-08-31 00:00"
  }
 }
