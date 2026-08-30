@@ -1,10 +1,10 @@
 {
  "model": "METEO",
- "n": 840,
+ "n": 841,
  "mae": 0.79,
  "bias": -0.39,
  "mae_4h": 0.71,
- "n_4h": 647,
+ "n_4h": 648,
  "rows": [
   {
    "city": "London",
@@ -12852,6 +12852,22 @@
    "snap_4h": "11:32"
   },
   {
+   "city": "Wellington",
+   "date": "2026-08-30",
+   "date_display": "08/30",
+   "snap_date": "2026-08-30",
+   "time": "09:02",
+   "local_hhmm": "13:02",
+   "hour": 9,
+   "meteo": 18,
+   "actual": 18.0,
+   "err": 0.0,
+   "peak_local": "14:00",
+   "meteo_4h": 18,
+   "err_4h": 0.0,
+   "snap_4h": "09:32"
+  },
+  {
    "city": "Taipei",
    "date": "2026-08-30",
    "date_display": "08/30",
@@ -13923,17 +13939,17 @@
   },
   {
    "city": "Wellington",
-   "n": 18,
-   "mae": 0.61,
-   "mae_4h": 0.44,
-   "n_4h": 9,
+   "n": 19,
+   "mae": 0.58,
+   "mae_4h": 0.4,
+   "n_4h": 10,
    "periods": {
     "21-24": {
      "n": 6,
      "mae": 1.17
     },
     "09-12": {
-     "n": 4,
+     "n": 5,
      "mae": 0.0
     },
     "06-09": {

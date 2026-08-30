@@ -4186,5 +4186,9 @@
  "highest-temperature-in-taipei-on-august-30-2026": {
   "temp": 35.0,
   "peak_bj": "2026-08-30 14:00"
+ },
+ "highest-temperature-in-wellington-on-august-30-2026": {
+  "temp": 18.0,
+  "peak_bj": "2026-08-30 10:00"
  }
 }
