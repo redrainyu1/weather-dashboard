@@ -4130,5 +4130,57 @@
  "highest-temperature-in-sao-paulo-on-august-29-2026": {
   "temp": 33.0,
   "peak_bj": "2026-08-30 01:00"
+ },
+ "highest-temperature-in-atlanta-on-august-29-2026": {
+  "temp": 89.0,
+  "peak_bj": "2026-08-30 04:52"
+ },
+ "highest-temperature-in-austin-on-august-29-2026": {
+  "temp": 99.0,
+  "peak_bj": "2026-08-30 06:53"
+ },
+ "highest-temperature-in-chicago-on-august-29-2026": {
+  "temp": 81.0,
+  "peak_bj": "2026-08-30 04:51"
+ },
+ "highest-temperature-in-dallas-on-august-29-2026": {
+  "temp": 101.0,
+  "peak_bj": "2026-08-30 06:53"
+ },
+ "highest-temperature-in-denver-on-august-29-2026": {
+  "temp": 93.0,
+  "peak_bj": "2026-08-30 05:58"
+ },
+ "highest-temperature-in-houston-on-august-29-2026": {
+  "temp": 95.0,
+  "peak_bj": "2026-08-30 04:53"
+ },
+ "highest-temperature-in-los-angeles-on-august-29-2026": {
+  "temp": 85.0,
+  "peak_bj": "2026-08-30 04:53"
+ },
+ "highest-temperature-in-mexico-city-on-august-29-2026": {
+  "temp": 23.0,
+  "peak_bj": "2026-08-30 06:31"
+ },
+ "highest-temperature-in-miami-on-august-29-2026": {
+  "temp": 85.0,
+  "peak_bj": "2026-08-29 17:01"
+ },
+ "highest-temperature-in-nyc-on-august-29-2026": {
+  "temp": 79.0,
+  "peak_bj": "2026-08-30 05:51"
+ },
+ "highest-temperature-in-san-francisco-on-august-29-2026": {
+  "temp": 71.0,
+  "peak_bj": "2026-08-30 06:56"
+ },
+ "highest-temperature-in-seattle-on-august-29-2026": {
+  "temp": 71.0,
+  "peak_bj": "2026-08-30 06:53"
+ },
+ "highest-temperature-in-toronto-on-august-29-2026": {
+  "temp": 26.0,
+  "peak_bj": "2026-08-30 05:00"
  }
 }

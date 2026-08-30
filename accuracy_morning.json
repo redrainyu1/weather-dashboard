@@ -1,8 +1,8 @@
 {
  "model": "METEO",
- "n": 482,
+ "n": 485,
  "mae": 0.8,
- "bias": -0.23,
+ "bias": -0.24,
  "mae_4h": 0.52,
  "n_4h": 195,
  "rows": [
@@ -6856,6 +6856,45 @@
    "actual": 33.0,
    "err": 0.0,
    "peak_local": "14:00"
+  },
+  {
+   "city": "Mexico City",
+   "date": "2026-08-29",
+   "date_display": "08/29",
+   "snap_date": "2026-08-29",
+   "time": "06:02",
+   "local_hhmm": "16:02",
+   "hour": 6,
+   "meteo": 23,
+   "actual": 23.0,
+   "err": 0.0,
+   "peak_local": "16:31"
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-08-29",
+   "date_display": "08/29",
+   "snap_date": "2026-08-29",
+   "time": "06:02",
+   "local_hhmm": "15:02",
+   "hour": 6,
+   "meteo": 70,
+   "actual": 71.0,
+   "err": -1.0,
+   "peak_local": "15:56"
+  },
+  {
+   "city": "Seattle",
+   "date": "2026-08-29",
+   "date_display": "08/29",
+   "snap_date": "2026-08-29",
+   "time": "06:02",
+   "local_hhmm": "15:02",
+   "hour": 6,
+   "meteo": 68,
+   "actual": 71.0,
+   "err": -3.0,
+   "peak_local": "15:53"
   }
  ],
  "cities": [
@@ -7172,6 +7211,20 @@
    "best_period": "09-12"
   },
   {
+   "city": "Mexico City",
+   "n": 1,
+   "mae": 0.0,
+   "mae_4h": null,
+   "n_4h": 0,
+   "periods": {
+    "06-09": {
+     "n": 1,
+     "mae": 0.0
+    }
+   },
+   "best_period": null
+  },
+  {
    "city": "Milan",
    "n": 13,
    "mae": 1.46,
@@ -7243,13 +7296,13 @@
   },
   {
    "city": "San Francisco",
-   "n": 4,
+   "n": 5,
    "mae": 1.0,
    "mae_4h": null,
    "n_4h": 0,
    "periods": {
     "06-09": {
-     "n": 4,
+     "n": 5,
      "mae": 1.0
     }
    },
@@ -7271,14 +7324,14 @@
   },
   {
    "city": "Seattle",
-   "n": 7,
-   "mae": 1.71,
+   "n": 8,
+   "mae": 1.88,
    "mae_4h": null,
    "n_4h": 0,
    "periods": {
     "06-09": {
-     "n": 7,
-     "mae": 1.71
+     "n": 8,
+     "mae": 1.88
     }
    },
    "best_period": "06-09"
