@@ -1,10 +1,10 @@
 {
  "model": "METEO",
- "n": 485,
- "mae": 0.8,
+ "n": 486,
+ "mae": 0.81,
  "bias": -0.24,
- "mae_4h": 0.52,
- "n_4h": 195,
+ "mae_4h": 0.53,
+ "n_4h": 196,
  "rows": [
   {
    "city": "Amsterdam",
@@ -6895,6 +6895,22 @@
    "actual": 71.0,
    "err": -3.0,
    "peak_local": "15:53"
+  },
+  {
+   "city": "Taipei",
+   "date": "2026-08-30",
+   "date_display": "08/30",
+   "snap_date": "2026-08-30",
+   "time": "11:32",
+   "local_hhmm": "11:32",
+   "hour": 11,
+   "meteo": 33,
+   "actual": 35.0,
+   "err": -2.0,
+   "peak_local": "14:00",
+   "meteo_4h": 33,
+   "err_4h": -2.0,
+   "snap_4h": "09:32"
   }
  ],
  "cities": [
@@ -7398,14 +7414,14 @@
   },
   {
    "city": "Taipei",
-   "n": 13,
-   "mae": 1.08,
-   "mae_4h": 1.27,
-   "n_4h": 11,
+   "n": 14,
+   "mae": 1.14,
+   "mae_4h": 1.33,
+   "n_4h": 12,
    "periods": {
     "09-12": {
-     "n": 13,
-     "mae": 1.08
+     "n": 14,
+     "mae": 1.14
     }
    },
    "best_period": "09-12"
