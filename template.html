@@ -83,6 +83,23 @@
   .acc-detail div { padding: 2px 0; border-bottom: 1px solid #161a24; }
   .acc-detail .err-pos { color: #f59e0b; }
   .acc-detail .err-neg { color: #60a5fa; }
+  @media (max-width: 600px) {
+    body { padding: 10px; }
+    .container { max-width: 100%; }
+    h1 { font-size: 18px; }
+    .toolbar { gap: 6px; }
+    .toolbar input { min-width: 100px; font-size: 13px; padding: 6px 8px; }
+    .toolbar select { padding: 6px 8px; font-size: 12px; }
+    .btn-refresh, .btn-fix { padding: 6px 10px; font-size: 12px; }
+    .card-grid { grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: 6px; }
+    .card { padding: 6px 7px; font-size: 11px; }
+    .acc-summary { gap: 12px; padding: 10px 12px; font-size: 12px; flex-direction: column; }
+    .acc-summary .item strong { font-size: 16px; }
+    .acc-table { font-size: 11px; display: block; overflow-x: auto; }
+    .acc-table th, .acc-table td { padding: 4px 6px; white-space: nowrap; }
+    .acc-detail { max-height: 250px; font-size: 10px; padding: 6px 8px; }
+    .modal-box { width: 95% !important; max-height: 85vh; overflow-y: auto; }
+  }
 </style>
 </head>
 <body>
