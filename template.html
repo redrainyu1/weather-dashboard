@@ -428,25 +428,7 @@ function showDayDetail(city, date) {
   fetch('/api/daydetail?city=' + encodeURIComponent(city) + '&date=' + encodeURIComponent(date))
     .then(function(r){ return r.json(); })
     .then(function(d2) {
-      var h = '<div style="padding:8px 10px;background:#11141c;border-radius:6px;margin-bottom:8px">';
-      h += '<div style="font-weight:600;color:#fbbf24;margin-bottom:6px">准确度对比</div>';
-      h += '<table style="width:100%;border-collapse:collapse;font-size:12px">';
-      var fields = [
-        ['预测时刻', (row.snap_date ? esc(row.snap_date.slice(5)) : '') + (row.local_hhmm ? ' ' + esc(row.local_hhmm) : '')],
-        ['峰时(当地)', row.peak_local || '-'],
-        ['METEO预测', '<span style="color:#60a5fa;font-weight:600">' + row.meteo + '°</span>'],
-        ['实际温度', '<span style="color:#22c55e;font-weight:600">' + row.actual + '°</span>'],
-        ['误差', '<span class="' + (row.err > 0 ? 'err-pos' : (row.err < 0 ? 'err-neg' : '')) + '">' + (row.err > 0 ? '+' : '') + row.err + '°</span>']
-      ];
-      if (row.meteo_4h != null) {
-        fields.push(['4~5h METEO', '<span style="color:#f59e0b">' + row.meteo_4h + '°</span>']);
-        fields.push(['4~5h 误差', '<span class="' + (row.err_4h > 0 ? 'err-pos' : (row.err_4h < 0 ? 'err-neg' : '')) + '">' + (row.err_4h > 0 ? '+' : '') + row.err_4h + '°</span>']);
-      }
-      for (var i = 0; i < fields.length; i++) {
-        h += '<tr style="border-bottom:1px solid #1a1d27"><td style="padding:4px 0;color:#888;width:90px">' + fields[i][0] + '</td><td style="padding:4px 0">' + fields[i][1] + '</td></tr>';
-      }
-      h += '</table></div>';
-
+      var h = '';
       var dirs = [
         { key: 'highest', label: '高温', color: '#f87171' },
         { key: 'lowest', label: '低温', color: '#60a5fa' }
@@ -459,43 +441,32 @@ function showDayDetail(city, date) {
         var act = d2.actual && d2.actual[dir.key];
         var actTemp = act ? act.temp : null;
 
-        h += '<div style="margin:8px 0;padding:8px 10px;background:#11141c;border-radius:6px">';
-        h += '<div style="font-weight:600;color:' + dir.color + ';margin-bottom:4px">' + dir.label;
-        if (actTemp != null) h += ' &nbsp;实际 <span style="color:#22c55e;font-weight:600">' + actTemp + '°</span>';
-        h += '</div>';
-
         var fcs = obj.forecasts || [];
-        if (fcs.length) {
-          h += '<table style="width:100%;border-collapse:collapse;font-size:12px">';
-          h += '<tr style="color:#666;border-bottom:1px solid #1a1d27">';
-          h += '<td style="padding:3px 0">模型</td>';
-          h += '<td style="padding:3px 0;text-align:right">预测温度</td>';
-          h += '<td style="padding:3px 0;text-align:right">偏差</td>';
-          h += '<td style="padding:3px 0;text-align:right">北京最高时</td>';
-          h += '<td style="padding:3px 0;text-align:right">北京最低时</td>';
-          h += '</tr>';
-          for (var f = 0; f < fcs.length; f++) {
-            var fc = fcs[f];
-            var fcTemp = fc.temp;
-            var diff = (actTemp != null && fcTemp != null) ? fcTemp - actTemp : null;
-            var diffStr = diff != null ? (diff > 0 ? '+' : '') + diff + '°' : '-';
-            var diffCls = diff != null ? (diff > 0 ? 'err-pos' : (diff < 0 ? 'err-neg' : '')) : '';
-            var modelColor = fc.model === 'METEO' ? '#f59e0b' : (fc.model === 'RP5' ? '#a78bfa' : '#60a5fa');
-            h += '<tr style="border-bottom:1px solid #0f1117">';
-            h += '<td style="padding:3px 0;color:' + modelColor + ';font-weight:600">' + esc(fc.model || '') + '</td>';
-            h += '<td style="padding:3px 0;text-align:right;color:#ccc;font-weight:600">' + (fcTemp != null ? fcTemp + '°' : '-') + '</td>';
-            h += '<td style="padding:3px 0;text-align:right" class="' + diffCls + '">' + diffStr + '</td>';
-            h += '<td style="padding:3px 0;text-align:right;color:#888">' + (fc.max_hour_bj != null ? fc.max_hour_bj + ':00' : '-') + '</td>';
-            h += '<td style="padding:3px 0;text-align:right;color:#888">' + (fc.min_hour_bj != null ? fc.min_hour_bj + ':00' : '-') + '</td>';
-            h += '</tr>';
+        var meteoFc = null;
+        for (var f = 0; f < fcs.length; f++) {
+          if (fcs[f].model === 'METEO') { meteoFc = fcs[f]; break; }
+        }
+
+        h += '<div style="margin:4px 0;padding:8px 10px;background:#11141c;border-radius:6px">';
+        h += '<div style="font-weight:600;color:' + dir.color + '">' + dir.label + '</div>';
+
+        if (meteoFc) {
+          var fcTemp = meteoFc.temp;
+          var diff = (actTemp != null && fcTemp != null) ? fcTemp - actTemp : null;
+          h += '<div style="margin-top:4px">';
+          h += 'METEO预测 <span style="color:#f59e0b;font-weight:600;font-size:14px">' + (fcTemp != null ? fcTemp + '°' : '-') + '</span>';
+          if (diff != null) {
+            var diffStr = (diff > 0 ? '+' : '') + diff + '°';
+            h += ' &nbsp;实际 <span style="color:#22c55e;font-weight:600">' + actTemp + '°</span>';
+            h += ' &nbsp;<span class="' + (diff > 0 ? 'err-pos' : (diff < 0 ? 'err-neg' : '')) + '">' + diffStr + '</span>';
           }
-          h += '</table>';
+          h += '</div>';
         } else {
-          h += '<div style="color:#666;font-size:11px">暂无快照预测数据</div>';
+          h += '<div style="margin-top:4px;color:#666">暂无METEO数据</div>';
         }
         h += '</div>';
       }
-      document.getElementById('dayDetailBody').innerHTML = h;
+      document.getElementById('dayDetailBody').innerHTML = h || '<span style="color:#888">暂无数据</span>';
     })
     .catch(function() {
       document.getElementById('dayDetailBody').innerHTML = '<span style="color:#f87171">加载失败</span>';
