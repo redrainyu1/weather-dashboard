@@ -214,6 +214,58 @@ def api_accuracy():
     with open(acc_file, 'r', encoding='utf-8') as f:
         return jsonify(json.load(f))
 
+@app.route('/api/daydetail')
+def api_daydetail():
+    """返回指定城市+日期的完整预测数据和实际数据"""
+    city = request.args.get('city', '')
+    date = request.args.get('date', '')
+    if not city or not date:
+        return jsonify({"status": "error", "message": "missing city/date"})
+
+    result = {"city": city, "date": date, "highest": None, "lowest": None, "actual": {}}
+
+    hist_dir = os.path.join(SCRIPT_DIR, "history")
+    if os.path.exists(hist_dir):
+        for fn in sorted(os.listdir(hist_dir), reverse=True):
+            if not fn.endswith('.json') or fn == 'actuals.json' or fn == 'actuals_backup.json':
+                continue
+            if not fn.startswith(date[:7]):
+                continue
+            try:
+                fp = os.path.join(hist_dir, fn)
+                with open(fp, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                for row in data.get("rows", []):
+                    if row.get("city") == city and row.get("date") == date:
+                        result["highest"] = row.get("highest")
+                        result["lowest"] = row.get("lowest")
+                        break
+                if result["highest"] or result["lowest"]:
+                    break
+            except Exception:
+                continue
+
+    actuals_file = os.path.join(hist_dir, "actuals.json")
+    if os.path.exists(actuals_file):
+        try:
+            with open(actuals_file, 'r', encoding='utf-8') as f:
+                actuals = json.load(f)
+            city_slug = city.lower().replace(" ", "-")
+            month_names = {"1":"january","2":"february","3":"march","4":"april","5":"may","6":"june",
+                           "7":"july","8":"august","9":"september","10":"october","11":"november","12":"december"}
+            parts = date.split("-")
+            day = str(int(parts[2]))
+            month_name = month_names.get(parts[1], "")
+            year = parts[0]
+            for direction in ("highest", "lowest"):
+                slug = f"{direction}-temperature-in-{city_slug}-on-{month_name}-{day}-{year}"
+                if slug in actuals:
+                    result["actual"][direction] = actuals[slug]
+        except Exception:
+            pass
+
+    return jsonify(result)
+
 def git_pull():
     """从 GitHub 仓库同步最新数据（云端 Actions 每 30 分钟抓取）"""
     try:
