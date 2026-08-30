@@ -7,7 +7,7 @@
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0f1117; color: #e0e0e0; padding: 20px; }
-  .container { max-width: 1000px; margin: 0 auto; }
+  .container { max-width: 1200px; margin: 0 auto; }
   h1 { text-align: center; margin-bottom: 4px; color: #fff; font-size: 22px; }
   .sub { text-align: center; color: #888; margin-bottom: 20px; font-size: 13px; }
   .toolbar { display: flex; gap: 10px; margin-bottom: 16px; flex-wrap: wrap; align-items: center; }
@@ -80,7 +80,7 @@
   .acc-table th:hover { color: #fff; }
   .acc-table tr:hover td { background: rgba(255,255,255,0.03); }
   .acc-detail { font-size: 11px; color: #888; max-height: 300px; overflow-y: auto; background: #1a1d27; border-radius: 8px; padding: 8px 12px; }
-  .acc-detail div { padding: 2px 0; border-bottom: 1px solid #161a24; }
+  .acc-detail div { padding: 2px 0; border-bottom: 1px solid #161a24; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .acc-detail .err-pos { color: #f59e0b; }
   .acc-detail .err-neg { color: #60a5fa; }
   @media (max-width: 600px) {
@@ -322,7 +322,7 @@ function accPick(city) {
       var r = rows[i];
       var cls = r.err > 0 ? 'err-pos' : (r.err < 0 ? 'err-neg' : '');
       var cls4h = r.err_4h != null ? (r.err_4h > 0 ? 'err-pos' : (r.err_4h < 0 ? 'err-neg' : '')) : '';
-      rhtml += '<div style="border-bottom:1px solid #1a1d27;padding:4px 0">' +
+      rhtml += '<div style="border-bottom:1px solid #1a1d27;padding:4px 0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">' +
         '<span style="color:#aaa">' + esc(r.date_display) + '</span>' +
         ' <span style="color:#666;font-size:11px">预测于 ' + (r.snap_date ? esc(r.snap_date.slice(5)) : '') + (r.local_hhmm ? ' ' + esc(r.local_hhmm) : '') + '</span>' +
         (r.peak_local ? ' <span style="color:#f59e0b;font-size:11px">峰 ' + esc(r.peak_local) + '</span>' : '') +
