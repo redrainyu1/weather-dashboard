@@ -3,6 +3,8 @@
  "n": 810,
  "mae": 0.8,
  "bias": -0.39,
+ "mae_4h": 0.72,
+ "n_4h": 617,
  "rows": [
   {
    "city": "London",
@@ -119,7 +121,10 @@
    "meteo": 12,
    "actual": 13.0,
    "err": -1.0,
-   "peak_local": "15:00"
+   "peak_local": "15:00",
+   "meteo_4h": 12,
+   "err_4h": -1.0,
+   "snap_4h": "10:55"
   },
   {
    "city": "Chicago",
@@ -132,7 +137,10 @@
    "meteo": 82,
    "actual": 87.0,
    "err": -5.0,
-   "peak_local": "13:00"
+   "peak_local": "13:00",
+   "meteo_4h": 82,
+   "err_4h": -5.0,
+   "snap_4h": "08:55"
   },
   {
    "city": "Dallas",
@@ -158,7 +166,10 @@
    "meteo": 91,
    "actual": 97.0,
    "err": -6.0,
-   "peak_local": "13:00"
+   "peak_local": "13:00",
+   "meteo_4h": 91,
+   "err_4h": -6.0,
+   "snap_4h": "07:55"
   },
   {
    "city": "Houston",
@@ -236,7 +247,10 @@
    "meteo": 23,
    "actual": 25.0,
    "err": -2.0,
-   "peak_local": "13:00"
+   "peak_local": "13:00",
+   "meteo_4h": 23,
+   "err_4h": -2.0,
+   "snap_4h": "07:55"
   },
   {
    "city": "Miami",
@@ -249,7 +263,10 @@
    "meteo": 91,
    "actual": 93.0,
    "err": -2.0,
-   "peak_local": "14:00"
+   "peak_local": "14:00",
+   "meteo_4h": 91,
+   "err_4h": -2.0,
+   "snap_4h": "09:55"
   },
   {
    "city": "Milan",
@@ -288,7 +305,10 @@
    "meteo": 90,
    "actual": 91.0,
    "err": -1.0,
-   "peak_local": "14:00"
+   "peak_local": "14:00",
+   "meteo_4h": 90,
+   "err_4h": -1.0,
+   "snap_4h": "09:55"
   },
   {
    "city": "Panama City",
@@ -301,7 +321,10 @@
    "meteo": 33,
    "actual": 33.0,
    "err": 0.0,
-   "peak_local": "13:00"
+   "peak_local": "13:00",
+   "meteo_4h": 33,
+   "err_4h": 0.0,
+   "snap_4h": "08:55"
   },
   {
    "city": "Paris",
@@ -379,7 +402,10 @@
    "meteo": 28,
    "actual": 29.0,
    "err": -1.0,
-   "peak_local": "14:00"
+   "peak_local": "14:00",
+   "meteo_4h": 28,
+   "err_4h": -1.0,
+   "snap_4h": "09:55"
   },
   {
    "city": "Warsaw",
@@ -457,7 +483,10 @@
    "meteo": 91,
    "actual": 93.0,
    "err": -2.0,
-   "peak_local": "14:00"
+   "peak_local": "14:00",
+   "meteo_4h": 91,
+   "err_4h": -2.0,
+   "snap_4h": "09:14"
   },
   {
    "city": "Austin",
@@ -548,7 +577,10 @@
    "meteo": 30,
    "actual": 26.0,
    "err": 4.0,
-   "peak_local": "17:00"
+   "peak_local": "17:00",
+   "meteo_4h": 30,
+   "err_4h": 4.0,
+   "snap_4h": "13:14"
   },
   {
    "city": "London",
@@ -613,7 +645,10 @@
    "meteo": 91,
    "actual": 93.0,
    "err": -2.0,
-   "peak_local": "14:00"
+   "peak_local": "14:00",
+   "meteo_4h": 91,
+   "err_4h": -2.0,
+   "snap_4h": "09:14"
   },
   {
    "city": "Milan",
@@ -665,7 +700,10 @@
    "meteo": 34,
    "actual": 33.0,
    "err": 1.0,
-   "peak_local": "12:00"
+   "peak_local": "12:00",
+   "meteo_4h": 34,
+   "err_4h": 1.0,
+   "snap_4h": "08:14"
   },
   {
    "city": "Paris",
@@ -704,7 +742,10 @@
    "meteo": 17,
    "actual": 18.0,
    "err": -1.0,
-   "peak_local": "14:00"
+   "peak_local": "14:00",
+   "meteo_4h": 17,
+   "err_4h": -1.0,
+   "snap_4h": "10:14"
   },
   {
    "city": "Seattle",
@@ -730,7 +771,10 @@
    "meteo": 29,
    "actual": 29.0,
    "err": 0.0,
-   "peak_local": "14:00"
+   "peak_local": "14:00",
+   "meteo_4h": 29,
+   "err_4h": 0.0,
+   "snap_4h": "09:14"
   },
   {
    "city": "Warsaw",
@@ -912,7 +956,10 @@
    "meteo": 91,
    "actual": 93.0,
    "err": -2.0,
-   "peak_local": "14:00"
+   "peak_local": "14:00",
+   "meteo_4h": 91,
+   "err_4h": -2.0,
+   "snap_4h": "10:04"
   },
   {
    "city": "Munich",
@@ -990,7 +1037,10 @@
    "meteo": 24,
    "actual": 24.0,
    "err": 0.0,
-   "peak_local": "15:00"
+   "peak_local": "15:00",
+   "meteo_4h": 24,
+   "err_4h": 0.0,
+   "snap_4h": "11:04"
   },
   {
    "city": "Seattle",
@@ -1107,7 +1157,10 @@
    "meteo": 12,
    "actual": 10.0,
    "err": 2.0,
-   "peak_local": "15:00"
+   "peak_local": "15:00",
+   "meteo_4h": 12,
+   "err_4h": 2.0,
+   "snap_4h": "10:37"
   },
   {
    "city": "Chicago",
@@ -1237,7 +1290,10 @@
    "meteo": 93,
    "actual": 95.0,
    "err": -2.0,
-   "peak_local": "14:00"
+   "peak_local": "14:00",
+   "meteo_4h": 93,
+   "err_4h": -2.0,
+   "snap_4h": "09:37"
   },
   {
    "city": "Milan",
@@ -1328,7 +1384,10 @@
    "meteo": 28,
    "actual": 30.0,
    "err": -2.0,
-   "peak_local": "16:00"
+   "peak_local": "16:00",
+   "meteo_4h": 28,
+   "err_4h": -2.0,
+   "snap_4h": "10:37"
   },
   {
    "city": "Seattle",
@@ -1575,7 +1634,10 @@
    "meteo": 91,
    "actual": 95.0,
    "err": -4.0,
-   "peak_local": "14:00"
+   "peak_local": "14:00",
+   "meteo_4h": 91,
+   "err_4h": -4.0,
+   "snap_4h": "09:40"
   },
   {
    "city": "Milan",
@@ -1614,7 +1676,10 @@
    "meteo": 86,
    "actual": 87.0,
    "err": -1.0,
-   "peak_local": "15:00"
+   "peak_local": "15:00",
+   "meteo_4h": 86,
+   "err_4h": -1.0,
+   "snap_4h": "09:40"
   },
   {
    "city": "Panama City",
@@ -1692,7 +1757,10 @@
    "meteo": 28,
    "actual": 27.0,
    "err": 1.0,
-   "peak_local": "14:00"
+   "peak_local": "14:00",
+   "meteo_4h": 28,
+   "err_4h": 1.0,
+   "snap_4h": "09:40"
   },
   {
    "city": "Warsaw",
@@ -1731,7 +1799,10 @@
    "meteo": 29,
    "actual": 29.0,
    "err": 0.0,
-   "peak_local": "18:00"
+   "peak_local": "18:00",
+   "meteo_4h": 29,
+   "err_4h": 0.0,
+   "snap_4h": "13:40"
   },
   {
    "city": "Atlanta",
@@ -1783,7 +1854,10 @@
    "meteo": 77,
    "actual": 79.0,
    "err": -2.0,
-   "peak_local": "15:00"
+   "peak_local": "15:00",
+   "meteo_4h": 77,
+   "err_4h": -2.0,
+   "snap_4h": "10:26"
   },
   {
    "city": "Dallas",
@@ -1822,7 +1896,10 @@
    "meteo": 93,
    "actual": 97.0,
    "err": -4.0,
-   "peak_local": "15:00"
+   "peak_local": "15:00",
+   "meteo_4h": 93,
+   "err_4h": -4.0,
+   "snap_4h": "10:26"
   },
   {
    "city": "Jinan",
@@ -1926,7 +2003,10 @@
    "meteo": 31,
    "actual": 32.0,
    "err": -1.0,
-   "peak_local": "14:00"
+   "peak_local": "14:00",
+   "meteo_4h": 31,
+   "err_4h": -1.0,
+   "snap_4h": "10:26"
   },
   {
    "city": "Paris",
@@ -1991,7 +2071,10 @@
    "meteo": 26,
    "actual": 27.0,
    "err": -1.0,
-   "peak_local": "19:00"
+   "peak_local": "19:00",
+   "meteo_4h": 26,
+   "err_4h": -1.0,
+   "snap_4h": "14:44"
   },
   {
    "city": "Tokyo",
@@ -2056,7 +2139,10 @@
    "meteo": 22,
    "actual": 23.0,
    "err": -1.0,
-   "peak_local": "13:55"
+   "peak_local": "13:55",
+   "meteo_4h": 23,
+   "err_4h": 0.0,
+   "snap_4h": "09:25"
   },
   {
    "city": "Ankara",
@@ -2069,7 +2155,10 @@
    "meteo": 27,
    "actual": 27.0,
    "err": 0.0,
-   "peak_local": "16:50"
+   "peak_local": "16:50",
+   "meteo_4h": 27,
+   "err_4h": 0.0,
+   "snap_4h": "12:06"
   },
   {
    "city": "Beijing",
@@ -2082,7 +2171,10 @@
    "meteo": 27,
    "actual": 28.0,
    "err": -1.0,
-   "peak_local": "17:00"
+   "peak_local": "17:00",
+   "meteo_4h": 26,
+   "err_4h": -2.0,
+   "snap_4h": "12:37"
   },
   {
    "city": "Cape Town",
@@ -2095,7 +2187,10 @@
    "meteo": 17,
    "actual": 17.0,
    "err": 0.0,
-   "peak_local": "14:00"
+   "peak_local": "14:00",
+   "meteo_4h": 18,
+   "err_4h": 1.0,
+   "snap_4h": "09:25"
   },
   {
    "city": "Chengdu",
@@ -2108,7 +2203,10 @@
    "meteo": 32,
    "actual": 30.0,
    "err": 2.0,
-   "peak_local": "14:00"
+   "peak_local": "14:00",
+   "meteo_4h": 33,
+   "err_4h": 3.0,
+   "snap_4h": "09:22"
   },
   {
    "city": "Chongqing",
@@ -2121,7 +2219,10 @@
    "meteo": 36,
    "actual": 37.0,
    "err": -1.0,
-   "peak_local": "16:00"
+   "peak_local": "16:00",
+   "meteo_4h": 36,
+   "err_4h": -1.0,
+   "snap_4h": "11:31"
   },
   {
    "city": "Guangzhou",
@@ -2134,7 +2235,10 @@
    "meteo": 36,
    "actual": 37.0,
    "err": -1.0,
-   "peak_local": "15:30"
+   "peak_local": "15:30",
+   "meteo_4h": 33,
+   "err_4h": -4.0,
+   "snap_4h": "10:58"
   },
   {
    "city": "Helsinki",
@@ -2147,7 +2251,10 @@
    "meteo": 20,
    "actual": 21.0,
    "err": -1.0,
-   "peak_local": "13:50"
+   "peak_local": "13:50",
+   "meteo_4h": 20,
+   "err_4h": -1.0,
+   "snap_4h": "09:18"
   },
   {
    "city": "Hong Kong",
@@ -2160,7 +2267,10 @@
    "meteo": 34,
    "actual": 33.0,
    "err": 1.0,
-   "peak_local": "16:30"
+   "peak_local": "16:30",
+   "meteo_4h": 33,
+   "err_4h": 0.0,
+   "snap_4h": "12:04"
   },
   {
    "city": "Jeddah",
@@ -2173,7 +2283,10 @@
    "meteo": 38,
    "actual": 38.0,
    "err": 0.0,
-   "peak_local": "16:00"
+   "peak_local": "16:00",
+   "meteo_4h": 40,
+   "err_4h": 2.0,
+   "snap_4h": "11:32"
   },
   {
    "city": "Karachi",
@@ -2186,7 +2299,10 @@
    "meteo": 32,
    "actual": 32.0,
    "err": 0.0,
-   "peak_local": "16:00"
+   "peak_local": "16:00",
+   "meteo_4h": 31,
+   "err_4h": -1.0,
+   "snap_4h": "11:18"
   },
   {
    "city": "Kuala Lumpur",
@@ -2199,7 +2315,10 @@
    "meteo": 31,
    "actual": 33.0,
    "err": -2.0,
-   "peak_local": "15:00"
+   "peak_local": "15:00",
+   "meteo_4h": 31,
+   "err_4h": -2.0,
+   "snap_4h": "10:29"
   },
   {
    "city": "London",
@@ -2212,7 +2331,10 @@
    "meteo": 26,
    "actual": 26.0,
    "err": 0.0,
-   "peak_local": "18:50"
+   "peak_local": "18:50",
+   "meteo_4h": 25,
+   "err_4h": -1.0,
+   "snap_4h": "14:24"
   },
   {
    "city": "Lucknow",
@@ -2225,7 +2347,10 @@
    "meteo": 30,
    "actual": 31.0,
    "err": -1.0,
-   "peak_local": "16:30"
+   "peak_local": "16:30",
+   "meteo_4h": 29,
+   "err_4h": -2.0,
+   "snap_4h": "11:44"
   },
   {
    "city": "Madrid",
@@ -2238,7 +2363,10 @@
    "meteo": 35,
    "actual": 35.0,
    "err": 0.0,
-   "peak_local": "18:00"
+   "peak_local": "18:00",
+   "meteo_4h": 34,
+   "err_4h": -1.0,
+   "snap_4h": "14:21"
   },
   {
    "city": "Manila",
@@ -2251,7 +2379,10 @@
    "meteo": 32,
    "actual": 32.0,
    "err": 0.0,
-   "peak_local": "14:00"
+   "peak_local": "14:00",
+   "meteo_4h": 30,
+   "err_4h": -2.0,
+   "snap_4h": "09:22"
   },
   {
    "city": "Milan",
@@ -2264,7 +2395,10 @@
    "meteo": 34,
    "actual": 35.0,
    "err": -1.0,
-   "peak_local": "16:20"
+   "peak_local": "16:20",
+   "meteo_4h": 33,
+   "err_4h": -2.0,
+   "snap_4h": "11:06"
   },
   {
    "city": "Munich",
@@ -2277,7 +2411,10 @@
    "meteo": 30,
    "actual": 32.0,
    "err": -2.0,
-   "peak_local": "16:20"
+   "peak_local": "16:20",
+   "meteo_4h": 31,
+   "err_4h": -1.0,
+   "snap_4h": "11:06"
   },
   {
    "city": "Paris",
@@ -2290,7 +2427,10 @@
    "meteo": 31,
    "actual": 31.0,
    "err": 0.0,
-   "peak_local": "16:30"
+   "peak_local": "16:30",
+   "meteo_4h": 30,
+   "err_4h": -1.0,
+   "snap_4h": "11:06"
   },
   {
    "city": "Qingdao",
@@ -2303,7 +2443,10 @@
    "meteo": 32,
    "actual": 33.0,
    "err": -1.0,
-   "peak_local": "12:00"
+   "peak_local": "12:00",
+   "meteo_4h": 32,
+   "err_4h": -1.0,
+   "snap_4h": "07:50"
   },
   {
    "city": "Shanghai",
@@ -2316,7 +2459,10 @@
    "meteo": 27,
    "actual": 29.0,
    "err": -2.0,
-   "peak_local": "16:00"
+   "peak_local": "16:00",
+   "meteo_4h": 27,
+   "err_4h": -2.0,
+   "snap_4h": "11:31"
   },
   {
    "city": "Shenzhen",
@@ -2329,7 +2475,10 @@
    "meteo": 33,
    "actual": 35.0,
    "err": -2.0,
-   "peak_local": "16:00"
+   "peak_local": "16:00",
+   "meteo_4h": 31,
+   "err_4h": -4.0,
+   "snap_4h": "11:31"
   },
   {
    "city": "Singapore",
@@ -2342,7 +2491,10 @@
    "meteo": 32,
    "actual": 32.0,
    "err": 0.0,
-   "peak_local": "14:30"
+   "peak_local": "14:30",
+   "meteo_4h": 31,
+   "err_4h": -1.0,
+   "snap_4h": "10:29"
   },
   {
    "city": "Taipei",
@@ -2368,7 +2520,10 @@
    "meteo": 28,
    "actual": 30.0,
    "err": -2.0,
-   "peak_local": "14:00"
+   "peak_local": "14:00",
+   "meteo_4h": 29,
+   "err_4h": -1.0,
+   "snap_4h": "09:25"
   },
   {
    "city": "Wuhan",
@@ -2381,7 +2536,10 @@
    "meteo": 31,
    "actual": 32.0,
    "err": -1.0,
-   "peak_local": "18:00"
+   "peak_local": "18:00",
+   "meteo_4h": 31,
+   "err_4h": -1.0,
+   "snap_4h": "13:44"
   },
   {
    "city": "Jinan",
@@ -2394,7 +2552,10 @@
    "meteo": 31,
    "actual": 26.0,
    "err": 5.0,
-   "peak_local": "12:00"
+   "peak_local": "12:00",
+   "meteo_4h": 32,
+   "err_4h": 6.0,
+   "snap_4h": "07:25"
   },
   {
    "city": "Zhengzhou",
@@ -2420,7 +2581,10 @@
    "meteo": 17,
    "actual": 18.0,
    "err": -1.0,
-   "peak_local": "16:00"
+   "peak_local": "16:00",
+   "meteo_4h": 18,
+   "err_4h": 0.0,
+   "snap_4h": "11:32"
   },
   {
    "city": "Sao Paulo",
@@ -2433,7 +2597,10 @@
    "meteo": 27,
    "actual": 27.0,
    "err": 0.0,
-   "peak_local": "16:00"
+   "peak_local": "16:00",
+   "meteo_4h": 25,
+   "err_4h": -2.0,
+   "snap_4h": "11:32"
   },
   {
    "city": "Atlanta",
@@ -2446,7 +2613,10 @@
    "meteo": 95,
    "actual": 95.0,
    "err": 0.0,
-   "peak_local": "16:52"
+   "peak_local": "16:52",
+   "meteo_4h": 95,
+   "err_4h": 0.0,
+   "snap_4h": "12:21"
   },
   {
    "city": "Miami",
@@ -2459,7 +2629,10 @@
    "meteo": 93,
    "actual": 93.0,
    "err": 0.0,
-   "peak_local": "15:53"
+   "peak_local": "15:53",
+   "meteo_4h": 93,
+   "err_4h": 0.0,
+   "snap_4h": "11:06"
   },
   {
    "city": "Nyc",
@@ -2472,7 +2645,10 @@
    "meteo": 81,
    "actual": 81.0,
    "err": 0.0,
-   "peak_local": "12:51"
+   "peak_local": "12:51",
+   "meteo_4h": 81,
+   "err_4h": 0.0,
+   "snap_4h": "08:21"
   },
   {
    "city": "Toronto",
@@ -2485,7 +2661,10 @@
    "meteo": 26,
    "actual": 26.0,
    "err": 0.0,
-   "peak_local": "17:00"
+   "peak_local": "17:00",
+   "meteo_4h": 26,
+   "err_4h": 0.0,
+   "snap_4h": "12:21"
   },
   {
    "city": "Austin",
@@ -2498,7 +2677,10 @@
    "meteo": 102,
    "actual": 103.0,
    "err": -1.0,
-   "peak_local": "16:53"
+   "peak_local": "16:53",
+   "meteo_4h": 102,
+   "err_4h": -1.0,
+   "snap_4h": "13:20"
   },
   {
    "city": "Chicago",
@@ -2511,7 +2693,10 @@
    "meteo": 84,
    "actual": 85.0,
    "err": -1.0,
-   "peak_local": "17:51"
+   "peak_local": "17:51",
+   "meteo_4h": 84,
+   "err_4h": -1.0,
+   "snap_4h": "13:20"
   },
   {
    "city": "Dallas",
@@ -2524,7 +2709,10 @@
    "meteo": 102,
    "actual": 103.0,
    "err": -1.0,
-   "peak_local": "16:53"
+   "peak_local": "16:53",
+   "meteo_4h": 102,
+   "err_4h": -1.0,
+   "snap_4h": "13:20"
   },
   {
    "city": "Houston",
@@ -2537,7 +2725,10 @@
    "meteo": 95,
    "actual": 95.0,
    "err": 0.0,
-   "peak_local": "16:53"
+   "peak_local": "16:53",
+   "meteo_4h": 95,
+   "err_4h": 0.0,
+   "snap_4h": "13:20"
   },
   {
    "city": "Panama City",
@@ -2550,7 +2741,10 @@
    "meteo": 31,
    "actual": 31.0,
    "err": 0.0,
-   "peak_local": "11:00"
+   "peak_local": "11:00",
+   "meteo_4h": 31,
+   "err_4h": 0.0,
+   "snap_4h": "07:21"
   },
   {
    "city": "Denver",
@@ -2563,7 +2757,10 @@
    "meteo": 81,
    "actual": 83.0,
    "err": -2.0,
-   "peak_local": "12:58"
+   "peak_local": "12:58",
+   "meteo_4h": 77,
+   "err_4h": -6.0,
+   "snap_4h": "08:32"
   },
   {
    "city": "Mexico City",
@@ -2576,7 +2773,10 @@
    "meteo": 26,
    "actual": 27.0,
    "err": -1.0,
-   "peak_local": "15:55"
+   "peak_local": "15:55",
+   "meteo_4h": 26,
+   "err_4h": -1.0,
+   "snap_4h": "12:20"
   },
   {
    "city": "Los Angeles",
@@ -2589,7 +2789,10 @@
    "meteo": 75,
    "actual": 77.0,
    "err": -2.0,
-   "peak_local": "15:53"
+   "peak_local": "15:53",
+   "meteo_4h": 75,
+   "err_4h": -2.0,
+   "snap_4h": "11:23"
   },
   {
    "city": "San Francisco",
@@ -2602,7 +2805,10 @@
    "meteo": 70,
    "actual": 69.0,
    "err": 1.0,
-   "peak_local": "13:56"
+   "peak_local": "13:56",
+   "meteo_4h": 70,
+   "err_4h": 1.0,
+   "snap_4h": "09:21"
   },
   {
    "city": "Seattle",
@@ -2615,7 +2821,10 @@
    "meteo": 73,
    "actual": 75.0,
    "err": -2.0,
-   "peak_local": "16:53"
+   "peak_local": "16:53",
+   "meteo_4h": 73,
+   "err_4h": -2.0,
+   "snap_4h": "13:22"
   },
   {
    "city": "Wellington",
@@ -2641,7 +2850,10 @@
    "meteo": 26,
    "actual": 26.0,
    "err": 0.0,
-   "peak_local": "23:27"
+   "peak_local": "23:27",
+   "meteo_4h": 26,
+   "err_4h": 0.0,
+   "snap_4h": "18:59"
   },
   {
    "city": "Seoul",
@@ -2654,7 +2866,10 @@
    "meteo": 28,
    "actual": 28.0,
    "err": 0.0,
-   "peak_local": "17:00"
+   "peak_local": "17:00",
+   "meteo_4h": 28,
+   "err_4h": 0.0,
+   "snap_4h": "12:33"
   },
   {
    "city": "Tokyo",
@@ -2667,7 +2882,10 @@
    "meteo": 29,
    "actual": 29.0,
    "err": 0.0,
-   "peak_local": "16:30"
+   "peak_local": "16:30",
+   "meteo_4h": 29,
+   "err_4h": 0.0,
+   "snap_4h": "12:00"
   },
   {
    "city": "Beijing",
@@ -2680,7 +2898,10 @@
    "meteo": 33,
    "actual": 33.0,
    "err": 0.0,
-   "peak_local": "15:30"
+   "peak_local": "15:30",
+   "meteo_4h": 33,
+   "err_4h": 0.0,
+   "snap_4h": "11:00"
   },
   {
    "city": "Chongqing",
@@ -2693,7 +2914,10 @@
    "meteo": 36,
    "actual": 36.0,
    "err": 0.0,
-   "peak_local": "16:00"
+   "peak_local": "16:00",
+   "meteo_4h": 36,
+   "err_4h": 0.0,
+   "snap_4h": "11:33"
   },
   {
    "city": "Guangzhou",
@@ -2706,7 +2930,10 @@
    "meteo": 33,
    "actual": 34.0,
    "err": -1.0,
-   "peak_local": "14:00"
+   "peak_local": "14:00",
+   "meteo_4h": 33,
+   "err_4h": -1.0,
+   "snap_4h": "09:12"
   },
   {
    "city": "Hong Kong",
@@ -2719,7 +2946,10 @@
    "meteo": 33,
    "actual": 32.0,
    "err": 1.0,
-   "peak_local": "14:00"
+   "peak_local": "14:00",
+   "meteo_4h": 33,
+   "err_4h": 1.0,
+   "snap_4h": "09:12"
   },
   {
    "city": "Kuala Lumpur",
@@ -2732,7 +2962,10 @@
    "meteo": 34,
    "actual": 34.0,
    "err": 0.0,
-   "peak_local": "16:30"
+   "peak_local": "16:30",
+   "meteo_4h": 34,
+   "err_4h": 0.0,
+   "snap_4h": "11:54"
   },
   {
    "city": "Manila",
@@ -2745,7 +2978,10 @@
    "meteo": 28,
    "actual": 30.0,
    "err": -2.0,
-   "peak_local": "10:00"
+   "peak_local": "10:00",
+   "meteo_4h": 28,
+   "err_4h": -2.0,
+   "snap_4h": "05:12"
   },
   {
    "city": "Qingdao",
@@ -2758,7 +2994,10 @@
    "meteo": 31,
    "actual": 32.0,
    "err": -1.0,
-   "peak_local": "16:00"
+   "peak_local": "16:00",
+   "meteo_4h": 31,
+   "err_4h": -1.0,
+   "snap_4h": "11:33"
   },
   {
    "city": "Shanghai",
@@ -2771,7 +3010,10 @@
    "meteo": 31,
    "actual": 31.0,
    "err": 0.0,
-   "peak_local": "15:30"
+   "peak_local": "15:30",
+   "meteo_4h": 31,
+   "err_4h": 0.0,
+   "snap_4h": "11:00"
   },
   {
    "city": "Shenzhen",
@@ -2784,7 +3026,10 @@
    "meteo": 32,
    "actual": 34.0,
    "err": -2.0,
-   "peak_local": "12:00"
+   "peak_local": "12:00",
+   "meteo_4h": 32,
+   "err_4h": -2.0,
+   "snap_4h": "07:11"
   },
   {
    "city": "Singapore",
@@ -2797,7 +3042,10 @@
    "meteo": 33,
    "actual": 33.0,
    "err": 0.0,
-   "peak_local": "15:30"
+   "peak_local": "15:30",
+   "meteo_4h": 33,
+   "err_4h": 0.0,
+   "snap_4h": "11:00"
   },
   {
    "city": "Taipei",
@@ -2810,7 +3058,10 @@
    "meteo": 34,
    "actual": 36.0,
    "err": -2.0,
-   "peak_local": "12:00"
+   "peak_local": "12:00",
+   "meteo_4h": 33,
+   "err_4h": -3.0,
+   "snap_4h": "07:11"
   },
   {
    "city": "Wuhan",
@@ -2823,7 +3074,10 @@
    "meteo": 34,
    "actual": 34.0,
    "err": 0.0,
-   "peak_local": "15:00"
+   "peak_local": "15:00",
+   "meteo_4h": 34,
+   "err_4h": 0.0,
+   "snap_4h": "10:08"
   },
   {
    "city": "Lucknow",
@@ -2836,7 +3090,10 @@
    "meteo": 28,
    "actual": 28.0,
    "err": 0.0,
-   "peak_local": "05:30"
+   "peak_local": "05:30",
+   "meteo_4h": 28,
+   "err_4h": 0.0,
+   "snap_4h": "00:23"
   },
   {
    "city": "Karachi",
@@ -2849,7 +3106,10 @@
    "meteo": 31,
    "actual": 31.0,
    "err": 0.0,
-   "peak_local": "16:00"
+   "peak_local": "16:00",
+   "meteo_4h": 31,
+   "err_4h": 0.0,
+   "snap_4h": "11:35"
   },
   {
    "city": "Ankara",
@@ -2862,7 +3122,10 @@
    "meteo": 27,
    "actual": 27.0,
    "err": 0.0,
-   "peak_local": "13:50"
+   "peak_local": "13:50",
+   "meteo_4h": 27,
+   "err_4h": 0.0,
+   "snap_4h": "09:35"
   },
   {
    "city": "Helsinki",
@@ -2875,7 +3138,10 @@
    "meteo": 22,
    "actual": 22.0,
    "err": 0.0,
-   "peak_local": "14:50"
+   "peak_local": "14:50",
+   "meteo_4h": 22,
+   "err_4h": 0.0,
+   "snap_4h": "10:32"
   },
   {
    "city": "Istanbul",
@@ -2888,7 +3154,10 @@
    "meteo": 25,
    "actual": 25.0,
    "err": 0.0,
-   "peak_local": "18:20"
+   "peak_local": "18:20",
+   "meteo_4h": 25,
+   "err_4h": 0.0,
+   "snap_4h": "13:50"
   },
   {
    "city": "Jeddah",
@@ -2901,7 +3170,10 @@
    "meteo": 41,
    "actual": 41.0,
    "err": 0.0,
-   "peak_local": "16:00"
+   "peak_local": "16:00",
+   "meteo_4h": 41,
+   "err_4h": 0.0,
+   "snap_4h": "11:36"
   },
   {
    "city": "Moscow",
@@ -2914,7 +3186,10 @@
    "meteo": 23,
    "actual": 23.0,
    "err": 0.0,
-   "peak_local": "17:00"
+   "peak_local": "17:00",
+   "meteo_4h": 23,
+   "err_4h": 0.0,
+   "snap_4h": "12:34"
   },
   {
    "city": "Tel Aviv",
@@ -2927,7 +3202,10 @@
    "meteo": 31,
    "actual": 31.0,
    "err": 0.0,
-   "peak_local": "15:50"
+   "peak_local": "15:50",
+   "meteo_4h": 31,
+   "err_4h": 0.0,
+   "snap_4h": "11:36"
   },
   {
    "city": "Amsterdam",
@@ -2940,7 +3218,10 @@
    "meteo": 21,
    "actual": 21.0,
    "err": 0.0,
-   "peak_local": "16:55"
+   "peak_local": "16:55",
+   "meteo_4h": 21,
+   "err_4h": 0.0,
+   "snap_4h": "12:50"
   },
   {
    "city": "Cape Town",
@@ -2953,7 +3234,10 @@
    "meteo": 17,
    "actual": 17.0,
    "err": 0.0,
-   "peak_local": "14:00"
+   "peak_local": "14:00",
+   "meteo_4h": 17,
+   "err_4h": 0.0,
+   "snap_4h": "09:32"
   },
   {
    "city": "Madrid",
@@ -2966,7 +3250,10 @@
    "meteo": 38,
    "actual": 38.0,
    "err": 0.0,
-   "peak_local": "19:00"
+   "peak_local": "19:00",
+   "meteo_4h": 38,
+   "err_4h": 0.0,
+   "snap_4h": "14:34"
   },
   {
    "city": "Milan",
@@ -2979,7 +3266,10 @@
    "meteo": 31,
    "actual": 31.0,
    "err": 0.0,
-   "peak_local": "19:20"
+   "peak_local": "19:20",
+   "meteo_4h": 31,
+   "err_4h": 0.0,
+   "snap_4h": "14:34"
   },
   {
    "city": "Munich",
@@ -2992,7 +3282,10 @@
    "meteo": 27,
    "actual": 27.0,
    "err": 0.0,
-   "peak_local": "11:50"
+   "peak_local": "11:50",
+   "meteo_4h": 27,
+   "err_4h": 0.0,
+   "snap_4h": "06:57"
   },
   {
    "city": "Paris",
@@ -3005,7 +3298,10 @@
    "meteo": 29,
    "actual": 29.0,
    "err": 0.0,
-   "peak_local": "16:30"
+   "peak_local": "16:30",
+   "meteo_4h": 29,
+   "err_4h": 0.0,
+   "snap_4h": "11:59"
   },
   {
    "city": "Warsaw",
@@ -3018,7 +3314,10 @@
    "meteo": 23,
    "actual": 24.0,
    "err": -1.0,
-   "peak_local": "17:00"
+   "peak_local": "17:00",
+   "meteo_4h": 23,
+   "err_4h": -1.0,
+   "snap_4h": "12:50"
   },
   {
    "city": "London",
@@ -3031,7 +3330,10 @@
    "meteo": 27,
    "actual": 27.0,
    "err": 0.0,
-   "peak_local": "18:20"
+   "peak_local": "18:20",
+   "meteo_4h": 27,
+   "err_4h": 0.0,
+   "snap_4h": "13:34"
   },
   {
    "city": "Jinan",
@@ -3044,7 +3346,10 @@
    "meteo": 33,
    "actual": 26.0,
    "err": 7.0,
-   "peak_local": "16:00"
+   "peak_local": "16:00",
+   "meteo_4h": 33,
+   "err_4h": 7.0,
+   "snap_4h": "11:34"
   },
   {
    "city": "Zhengzhou",
@@ -3057,7 +3362,10 @@
    "meteo": 32,
    "actual": 32.0,
    "err": 0.0,
-   "peak_local": "17:00"
+   "peak_local": "17:00",
+   "meteo_4h": 32,
+   "err_4h": 0.0,
+   "snap_4h": "12:34"
   },
   {
    "city": "Buenos Aires",
@@ -3083,7 +3391,10 @@
    "meteo": 29,
    "actual": 29.0,
    "err": 0.0,
-   "peak_local": "15:00"
+   "peak_local": "15:00",
+   "meteo_4h": 29,
+   "err_4h": 0.0,
+   "snap_4h": "10:32"
   },
   {
    "city": "Atlanta",
@@ -3096,7 +3407,10 @@
    "meteo": 99,
    "actual": 99.0,
    "err": 0.0,
-   "peak_local": "14:52"
+   "peak_local": "14:52",
+   "meteo_4h": 99,
+   "err_4h": 0.0,
+   "snap_4h": "10:32"
   },
   {
    "city": "Miami",
@@ -3109,7 +3423,10 @@
    "meteo": 95,
    "actual": 95.0,
    "err": 0.0,
-   "peak_local": "14:53"
+   "peak_local": "14:53",
+   "meteo_4h": 95,
+   "err_4h": 0.0,
+   "snap_4h": "10:32"
   },
   {
    "city": "Nyc",
@@ -3122,7 +3439,10 @@
    "meteo": 79,
    "actual": 81.0,
    "err": -2.0,
-   "peak_local": "16:24"
+   "peak_local": "16:24",
+   "meteo_4h": 79,
+   "err_4h": -2.0,
+   "snap_4h": "11:50"
   },
   {
    "city": "Toronto",
@@ -3135,7 +3455,10 @@
    "meteo": 26,
    "actual": 26.0,
    "err": 0.0,
-   "peak_local": "17:00"
+   "peak_local": "17:00",
+   "meteo_4h": 26,
+   "err_4h": 0.0,
+   "snap_4h": "11:50"
   },
   {
    "city": "Austin",
@@ -3148,7 +3471,10 @@
    "meteo": 102,
    "actual": 103.0,
    "err": -1.0,
-   "peak_local": "16:53"
+   "peak_local": "16:53",
+   "meteo_4h": 102,
+   "err_4h": -1.0,
+   "snap_4h": "12:39"
   },
   {
    "city": "Chicago",
@@ -3161,7 +3487,10 @@
    "meteo": 79,
    "actual": 79.0,
    "err": 0.0,
-   "peak_local": "17:51"
+   "peak_local": "17:51",
+   "meteo_4h": 79,
+   "err_4h": 0.0,
+   "snap_4h": "14:02"
   },
   {
    "city": "Dallas",
@@ -3174,7 +3503,10 @@
    "meteo": 104,
    "actual": 105.0,
    "err": -1.0,
-   "peak_local": "17:53"
+   "peak_local": "17:53",
+   "meteo_4h": 104,
+   "err_4h": -1.0,
+   "snap_4h": "14:02"
   },
   {
    "city": "Houston",
@@ -3187,7 +3519,10 @@
    "meteo": 97,
    "actual": 97.0,
    "err": 0.0,
-   "peak_local": "16:53"
+   "peak_local": "16:53",
+   "meteo_4h": 97,
+   "err_4h": 0.0,
+   "snap_4h": "12:39"
   },
   {
    "city": "Panama City",
@@ -3200,7 +3535,10 @@
    "meteo": 26,
    "actual": 26.0,
    "err": 0.0,
-   "peak_local": "10:05"
+   "peak_local": "10:05",
+   "meteo_4h": 26,
+   "err_4h": 0.0,
+   "snap_4h": "05:50"
   },
   {
    "city": "Denver",
@@ -3213,7 +3551,10 @@
    "meteo": 91,
    "actual": 93.0,
    "err": -2.0,
-   "peak_local": "16:58"
+   "peak_local": "16:58",
+   "meteo_4h": 91,
+   "err_4h": -2.0,
+   "snap_4h": "13:02"
   },
   {
    "city": "Mexico City",
@@ -3226,7 +3567,10 @@
    "meteo": 26,
    "actual": 26.0,
    "err": 0.0,
-   "peak_local": "15:42"
+   "peak_local": "15:42",
+   "meteo_4h": 26,
+   "err_4h": 0.0,
+   "snap_4h": "11:39"
   },
   {
    "city": "Los Angeles",
@@ -3239,7 +3583,10 @@
    "meteo": 77,
    "actual": 77.0,
    "err": 0.0,
-   "peak_local": "11:53"
+   "peak_local": "11:53",
+   "meteo_4h": 77,
+   "err_4h": 0.0,
+   "snap_4h": "07:32"
   },
   {
    "city": "San Francisco",
@@ -3252,7 +3599,10 @@
    "meteo": 72,
    "actual": 71.0,
    "err": 1.0,
-   "peak_local": "13:56"
+   "peak_local": "13:56",
+   "meteo_4h": 72,
+   "err_4h": 1.0,
+   "snap_4h": "08:50"
   },
   {
    "city": "Seattle",
@@ -3265,7 +3615,10 @@
    "meteo": 79,
    "actual": 79.0,
    "err": 0.0,
-   "peak_local": "17:53"
+   "peak_local": "17:53",
+   "meteo_4h": 79,
+   "err_4h": 0.0,
+   "snap_4h": "13:43"
   },
   {
    "city": "Wellington",
@@ -3278,7 +3631,10 @@
    "meteo": 12,
    "actual": 12.0,
    "err": 0.0,
-   "peak_local": "13:30"
+   "peak_local": "13:30",
+   "meteo_4h": 12,
+   "err_4h": 0.0,
+   "snap_4h": "08:43"
   },
   {
    "city": "Busan",
@@ -3291,7 +3647,10 @@
    "meteo": 30,
    "actual": 31.0,
    "err": -1.0,
-   "peak_local": "14:33"
+   "peak_local": "14:33",
+   "meteo_4h": 30,
+   "err_4h": -1.0,
+   "snap_4h": "09:46"
   },
   {
    "city": "Seoul",
@@ -3304,7 +3663,10 @@
    "meteo": 31,
    "actual": 31.0,
    "err": 0.0,
-   "peak_local": "14:30"
+   "peak_local": "14:30",
+   "meteo_4h": 31,
+   "err_4h": 0.0,
+   "snap_4h": "09:46"
   },
   {
    "city": "Tokyo",
@@ -3317,7 +3679,10 @@
    "meteo": 30,
    "actual": 31.0,
    "err": -1.0,
-   "peak_local": "15:00"
+   "peak_local": "15:00",
+   "meteo_4h": 30,
+   "err_4h": -1.0,
+   "snap_4h": "10:41"
   },
   {
    "city": "Beijing",
@@ -3330,7 +3695,10 @@
    "meteo": 32,
    "actual": 32.0,
    "err": 0.0,
-   "peak_local": "15:30"
+   "peak_local": "15:30",
+   "meteo_4h": 32,
+   "err_4h": 0.0,
+   "snap_4h": "10:36"
   },
   {
    "city": "Chengdu",
@@ -3343,7 +3711,10 @@
    "meteo": 23,
    "actual": 23.0,
    "err": 0.0,
-   "peak_local": "21:00"
+   "peak_local": "21:00",
+   "meteo_4h": 23,
+   "err_4h": 0.0,
+   "snap_4h": "16:40"
   },
   {
    "city": "Chongqing",
@@ -3356,7 +3727,10 @@
    "meteo": 34,
    "actual": 34.0,
    "err": 0.0,
-   "peak_local": "12:00"
+   "peak_local": "12:00",
+   "meteo_4h": 34,
+   "err_4h": 0.0,
+   "snap_4h": "07:45"
   },
   {
    "city": "Guangzhou",
@@ -3369,7 +3743,10 @@
    "meteo": 34,
    "actual": 34.0,
    "err": 0.0,
-   "peak_local": "18:00"
+   "peak_local": "18:00",
+   "meteo_4h": 34,
+   "err_4h": 0.0,
+   "snap_4h": "13:49"
   },
   {
    "city": "Hong Kong",
@@ -3382,7 +3759,10 @@
    "meteo": 33,
    "actual": 32.0,
    "err": 1.0,
-   "peak_local": "16:30"
+   "peak_local": "16:30",
+   "meteo_4h": 33,
+   "err_4h": 1.0,
+   "snap_4h": "11:54"
   },
   {
    "city": "Kuala Lumpur",
@@ -3395,7 +3775,10 @@
    "meteo": 33,
    "actual": 33.0,
    "err": 0.0,
-   "peak_local": "17:00"
+   "peak_local": "17:00",
+   "meteo_4h": 33,
+   "err_4h": 0.0,
+   "snap_4h": "12:59"
   },
   {
    "city": "Manila",
@@ -3408,7 +3791,10 @@
    "meteo": 28,
    "actual": 29.0,
    "err": -1.0,
-   "peak_local": "13:00"
+   "peak_local": "13:00",
+   "meteo_4h": 28,
+   "err_4h": -1.0,
+   "snap_4h": "08:46"
   },
   {
    "city": "Qingdao",
@@ -3421,7 +3807,10 @@
    "meteo": 32,
    "actual": 33.0,
    "err": -1.0,
-   "peak_local": "15:00"
+   "peak_local": "15:00",
+   "meteo_4h": 32,
+   "err_4h": -1.0,
+   "snap_4h": "10:36"
   },
   {
    "city": "Shanghai",
@@ -3434,7 +3823,10 @@
    "meteo": 31,
    "actual": 31.0,
    "err": 0.0,
-   "peak_local": "16:30"
+   "peak_local": "16:30",
+   "meteo_4h": 31,
+   "err_4h": 0.0,
+   "snap_4h": "11:54"
   },
   {
    "city": "Shenzhen",
@@ -3447,7 +3839,10 @@
    "meteo": 32,
    "actual": 34.0,
    "err": -2.0,
-   "peak_local": "15:00"
+   "peak_local": "15:00",
+   "meteo_4h": 32,
+   "err_4h": -2.0,
+   "snap_4h": "10:36"
   },
   {
    "city": "Singapore",
@@ -3460,7 +3855,10 @@
    "meteo": 33,
    "actual": 33.0,
    "err": 0.0,
-   "peak_local": "15:30"
+   "peak_local": "15:30",
+   "meteo_4h": 33,
+   "err_4h": 0.0,
+   "snap_4h": "10:36"
   },
   {
    "city": "Taipei",
@@ -3473,7 +3871,10 @@
    "meteo": 35,
    "actual": 34.0,
    "err": 1.0,
-   "peak_local": "14:30"
+   "peak_local": "14:30",
+   "meteo_4h": 35,
+   "err_4h": 1.0,
+   "snap_4h": "09:41"
   },
   {
    "city": "Wuhan",
@@ -3486,7 +3887,10 @@
    "meteo": 35,
    "actual": 35.0,
    "err": 0.0,
-   "peak_local": "17:00"
+   "peak_local": "17:00",
+   "meteo_4h": 35,
+   "err_4h": 0.0,
+   "snap_4h": "12:59"
   },
   {
    "city": "Karachi",
@@ -3499,7 +3903,10 @@
    "meteo": 32,
    "actual": 32.0,
    "err": 0.0,
-   "peak_local": "14:00"
+   "peak_local": "14:00",
+   "meteo_4h": 32,
+   "err_4h": 0.0,
+   "snap_4h": "09:59"
   },
   {
    "city": "Lucknow",
@@ -3512,7 +3919,10 @@
    "meteo": 31,
    "actual": 31.0,
    "err": 0.0,
-   "peak_local": "15:00"
+   "peak_local": "15:00",
+   "meteo_4h": 31,
+   "err_4h": 0.0,
+   "snap_4h": "10:59"
   },
   {
    "city": "Ankara",
@@ -3525,7 +3935,10 @@
    "meteo": 30,
    "actual": 30.0,
    "err": 0.0,
-   "peak_local": "17:50"
+   "peak_local": "17:50",
+   "meteo_4h": 30,
+   "err_4h": 0.0,
+   "snap_4h": "12:58"
   },
   {
    "city": "Helsinki",
@@ -3538,7 +3951,10 @@
    "meteo": 19,
    "actual": 20.0,
    "err": -1.0,
-   "peak_local": "17:50"
+   "peak_local": "17:50",
+   "meteo_4h": 19,
+   "err_4h": -1.0,
+   "snap_4h": "12:58"
   },
   {
    "city": "Istanbul",
@@ -3551,7 +3967,10 @@
    "meteo": 32,
    "actual": 32.0,
    "err": 0.0,
-   "peak_local": "17:50"
+   "peak_local": "17:50",
+   "meteo_4h": 32,
+   "err_4h": 0.0,
+   "snap_4h": "12:58"
   },
   {
    "city": "Jeddah",
@@ -3564,7 +3983,10 @@
    "meteo": 38,
    "actual": 38.0,
    "err": 0.0,
-   "peak_local": "15:00"
+   "peak_local": "15:00",
+   "meteo_4h": 38,
+   "err_4h": 0.0,
+   "snap_4h": "10:39"
   },
   {
    "city": "Moscow",
@@ -3577,7 +3999,10 @@
    "meteo": 22,
    "actual": 22.0,
    "err": 0.0,
-   "peak_local": "16:30"
+   "peak_local": "16:30",
+   "meteo_4h": 22,
+   "err_4h": 0.0,
+   "snap_4h": "11:40"
   },
   {
    "city": "Tel Aviv",
@@ -3590,7 +4015,10 @@
    "meteo": 31,
    "actual": 32.0,
    "err": -1.0,
-   "peak_local": "14:20"
+   "peak_local": "14:20",
+   "meteo_4h": 31,
+   "err_4h": -1.0,
+   "snap_4h": "09:41"
   },
   {
    "city": "Amsterdam",
@@ -3603,7 +4031,10 @@
    "meteo": 21,
    "actual": 21.0,
    "err": 0.0,
-   "peak_local": "18:55"
+   "peak_local": "18:55",
+   "meteo_4h": 21,
+   "err_4h": 0.0,
+   "snap_4h": "14:32"
   },
   {
    "city": "Cape Town",
@@ -3616,7 +4047,10 @@
    "meteo": 19,
    "actual": 19.0,
    "err": 0.0,
-   "peak_local": "15:00"
+   "peak_local": "15:00",
+   "meteo_4h": 19,
+   "err_4h": 0.0,
+   "snap_4h": "10:40"
   },
   {
    "city": "Madrid",
@@ -3629,7 +4063,10 @@
    "meteo": 39,
    "actual": 39.0,
    "err": 0.0,
-   "peak_local": "19:00"
+   "peak_local": "19:00",
+   "meteo_4h": 39,
+   "err_4h": 0.0,
+   "snap_4h": "14:32"
   },
   {
    "city": "Milan",
@@ -3642,7 +4079,10 @@
    "meteo": 32,
    "actual": 32.0,
    "err": 0.0,
-   "peak_local": "18:50"
+   "peak_local": "18:50",
+   "meteo_4h": 32,
+   "err_4h": 0.0,
+   "snap_4h": "14:32"
   },
   {
    "city": "Munich",
@@ -3655,7 +4095,10 @@
    "meteo": 20,
    "actual": 20.0,
    "err": 0.0,
-   "peak_local": "16:50"
+   "peak_local": "16:50",
+   "meteo_4h": 20,
+   "err_4h": 0.0,
+   "snap_4h": "11:58"
   },
   {
    "city": "Paris",
@@ -3668,7 +4111,10 @@
    "meteo": 27,
    "actual": 27.0,
    "err": 0.0,
-   "peak_local": "16:30"
+   "peak_local": "16:30",
+   "meteo_4h": 27,
+   "err_4h": 0.0,
+   "snap_4h": "11:58"
   },
   {
    "city": "Warsaw",
@@ -3681,7 +4127,10 @@
    "meteo": 19,
    "actual": 21.0,
    "err": -2.0,
-   "peak_local": "15:00"
+   "peak_local": "15:00",
+   "meteo_4h": 19,
+   "err_4h": -2.0,
+   "snap_4h": "10:40"
   },
   {
    "city": "London",
@@ -3694,7 +4143,10 @@
    "meteo": 26,
    "actual": 26.0,
    "err": 0.0,
-   "peak_local": "16:20"
+   "peak_local": "16:20",
+   "meteo_4h": 26,
+   "err_4h": 0.0,
+   "snap_4h": "11:49"
   },
   {
    "city": "Jinan",
@@ -3707,7 +4159,10 @@
    "meteo": 33,
    "actual": 26.0,
    "err": 7.0,
-   "peak_local": "12:00"
+   "peak_local": "12:00",
+   "meteo_4h": 33,
+   "err_4h": 7.0,
+   "snap_4h": "07:39"
   },
   {
    "city": "Zhengzhou",
@@ -3720,7 +4175,10 @@
    "meteo": 32,
    "actual": 32.0,
    "err": 0.0,
-   "peak_local": "17:00"
+   "peak_local": "17:00",
+   "meteo_4h": 32,
+   "err_4h": 0.0,
+   "snap_4h": "12:32"
   },
   {
    "city": "Buenos Aires",
@@ -3733,7 +4191,10 @@
    "meteo": 12,
    "actual": 11.0,
    "err": 1.0,
-   "peak_local": "17:00"
+   "peak_local": "17:00",
+   "meteo_4h": 12,
+   "err_4h": 1.0,
+   "snap_4h": "12:29"
   },
   {
    "city": "Sao Paulo",
@@ -3746,7 +4207,10 @@
    "meteo": 31,
    "actual": 31.0,
    "err": 0.0,
-   "peak_local": "16:00"
+   "peak_local": "16:00",
+   "meteo_4h": 31,
+   "err_4h": 0.0,
+   "snap_4h": "11:31"
   },
   {
    "city": "Atlanta",
@@ -3759,7 +4223,10 @@
    "meteo": 91,
    "actual": 93.0,
    "err": -2.0,
-   "peak_local": "16:52"
+   "peak_local": "16:52",
+   "meteo_4h": 91,
+   "err_4h": -2.0,
+   "snap_4h": "12:00"
   },
   {
    "city": "Miami",
@@ -3772,7 +4239,10 @@
    "meteo": 99,
    "actual": 99.0,
    "err": 0.0,
-   "peak_local": "16:53"
+   "peak_local": "16:53",
+   "meteo_4h": 97,
+   "err_4h": -2.0,
+   "snap_4h": "12:00"
   },
   {
    "city": "Nyc",
@@ -3785,7 +4255,10 @@
    "meteo": 82,
    "actual": 85.0,
    "err": -3.0,
-   "peak_local": "13:51"
+   "peak_local": "13:51",
+   "meteo_4h": 84,
+   "err_4h": -1.0,
+   "snap_4h": "09:31"
   },
   {
    "city": "Toronto",
@@ -3798,7 +4271,10 @@
    "meteo": 27,
    "actual": 27.0,
    "err": 0.0,
-   "peak_local": "15:00"
+   "peak_local": "15:00",
+   "meteo_4h": 27,
+   "err_4h": 0.0,
+   "snap_4h": "10:31"
   },
   {
    "city": "Austin",
@@ -3811,7 +4287,10 @@
    "meteo": 100,
    "actual": 101.0,
    "err": -1.0,
-   "peak_local": "17:53"
+   "peak_local": "17:53",
+   "meteo_4h": 100,
+   "err_4h": -1.0,
+   "snap_4h": "12:42"
   },
   {
    "city": "Chicago",
@@ -3824,7 +4303,10 @@
    "meteo": 79,
    "actual": 79.0,
    "err": 0.0,
-   "peak_local": "14:51"
+   "peak_local": "14:51",
+   "meteo_4h": 79,
+   "err_4h": 0.0,
+   "snap_4h": "10:29"
   },
   {
    "city": "Dallas",
@@ -3837,7 +4319,10 @@
    "meteo": 104,
    "actual": 105.0,
    "err": -1.0,
-   "peak_local": "17:53"
+   "peak_local": "17:53",
+   "meteo_4h": 104,
+   "err_4h": -1.0,
+   "snap_4h": "12:42"
   },
   {
    "city": "Houston",
@@ -3850,7 +4335,10 @@
    "meteo": 93,
    "actual": 95.0,
    "err": -2.0,
-   "peak_local": "17:53"
+   "peak_local": "17:53",
+   "meteo_4h": 93,
+   "err_4h": -2.0,
+   "snap_4h": "12:42"
   },
   {
    "city": "Panama City",
@@ -3863,7 +4351,10 @@
    "meteo": 31,
    "actual": 31.0,
    "err": 0.0,
-   "peak_local": "14:00"
+   "peak_local": "14:00",
+   "meteo_4h": 31,
+   "err_4h": 0.0,
+   "snap_4h": "09:31"
   },
   {
    "city": "Denver",
@@ -3876,7 +4367,10 @@
    "meteo": 88,
    "actual": 89.0,
    "err": -1.0,
-   "peak_local": "16:58"
+   "peak_local": "16:58",
+   "meteo_4h": 88,
+   "err_4h": -1.0,
+   "snap_4h": "13:05"
   },
   {
    "city": "Mexico City",
@@ -3889,7 +4383,10 @@
    "meteo": 26,
    "actual": 26.0,
    "err": 0.0,
-   "peak_local": "16:47"
+   "peak_local": "16:47",
+   "meteo_4h": 26,
+   "err_4h": 0.0,
+   "snap_4h": "11:42"
   },
   {
    "city": "Los Angeles",
@@ -3902,7 +4399,10 @@
    "meteo": 81,
    "actual": 81.0,
    "err": 0.0,
-   "peak_local": "13:53"
+   "peak_local": "13:53",
+   "meteo_4h": 77,
+   "err_4h": -4.0,
+   "snap_4h": "09:00"
   },
   {
    "city": "San Francisco",
@@ -3915,7 +4415,10 @@
    "meteo": 68,
    "actual": 69.0,
    "err": -1.0,
-   "peak_local": "15:56"
+   "peak_local": "15:56",
+   "meteo_4h": 68,
+   "err_4h": -1.0,
+   "snap_4h": "12:05"
   },
   {
    "city": "Seattle",
@@ -3928,7 +4431,10 @@
    "meteo": 75,
    "actual": 79.0,
    "err": -4.0,
-   "peak_local": "17:53"
+   "peak_local": "17:53",
+   "meteo_4h": 79,
+   "err_4h": 0.0,
+   "snap_4h": "13:44"
   },
   {
    "city": "Wellington",
@@ -3954,7 +4460,10 @@
    "meteo": 32,
    "actual": 32.0,
    "err": 0.0,
-   "peak_local": "16:00"
+   "peak_local": "16:00",
+   "meteo_4h": 32,
+   "err_4h": 0.0,
+   "snap_4h": "11:36"
   },
   {
    "city": "Seoul",
@@ -3967,7 +4476,10 @@
    "meteo": 29,
    "actual": 29.0,
    "err": 0.0,
-   "peak_local": "17:30"
+   "peak_local": "17:30",
+   "meteo_4h": 29,
+   "err_4h": 0.0,
+   "snap_4h": "12:55"
   },
   {
    "city": "Tokyo",
@@ -3980,7 +4492,10 @@
    "meteo": 31,
    "actual": 32.0,
    "err": -1.0,
-   "peak_local": "15:00"
+   "peak_local": "15:00",
+   "meteo_4h": 31,
+   "err_4h": -1.0,
+   "snap_4h": "10:41"
   },
   {
    "city": "Beijing",
@@ -3993,7 +4508,10 @@
    "meteo": 31,
    "actual": 32.0,
    "err": -1.0,
-   "peak_local": "17:00"
+   "peak_local": "17:00",
+   "meteo_4h": 31,
+   "err_4h": -1.0,
+   "snap_4h": "12:59"
   },
   {
    "city": "Chengdu",
@@ -4006,7 +4524,10 @@
    "meteo": 29,
    "actual": 29.0,
    "err": 0.0,
-   "peak_local": "17:00"
+   "peak_local": "17:00",
+   "meteo_4h": 29,
+   "err_4h": 0.0,
+   "snap_4h": "12:59"
   },
   {
    "city": "Chongqing",
@@ -4019,7 +4540,10 @@
    "meteo": 29,
    "actual": 29.0,
    "err": 0.0,
-   "peak_local": "17:00"
+   "peak_local": "17:00",
+   "meteo_4h": 29,
+   "err_4h": 0.0,
+   "snap_4h": "12:59"
   },
   {
    "city": "Guangzhou",
@@ -4032,7 +4556,10 @@
    "meteo": 35,
    "actual": 35.0,
    "err": 0.0,
-   "peak_local": "16:00"
+   "peak_local": "16:00",
+   "meteo_4h": 35,
+   "err_4h": 0.0,
+   "snap_4h": "11:32"
   },
   {
    "city": "Hong Kong",
@@ -4045,7 +4572,10 @@
    "meteo": 34,
    "actual": 32.0,
    "err": 2.0,
-   "peak_local": "15:30"
+   "peak_local": "15:30",
+   "meteo_4h": 34,
+   "err_4h": 2.0,
+   "snap_4h": "10:59"
   },
   {
    "city": "Kuala Lumpur",
@@ -4058,7 +4588,10 @@
    "meteo": 33,
    "actual": 34.0,
    "err": -1.0,
-   "peak_local": "16:00"
+   "peak_local": "16:00",
+   "meteo_4h": 33,
+   "err_4h": -1.0,
+   "snap_4h": "11:32"
   },
   {
    "city": "Manila",
@@ -4071,7 +4604,10 @@
    "meteo": 30,
    "actual": 30.0,
    "err": 0.0,
-   "peak_local": "14:00"
+   "peak_local": "14:00",
+   "meteo_4h": 30,
+   "err_4h": 0.0,
+   "snap_4h": "09:41"
   },
   {
    "city": "Qingdao",
@@ -4084,7 +4620,10 @@
    "meteo": 30,
    "actual": 33.0,
    "err": -3.0,
-   "peak_local": "14:00"
+   "peak_local": "14:00",
+   "meteo_4h": 31,
+   "err_4h": -2.0,
+   "snap_4h": "09:41"
   },
   {
    "city": "Shanghai",
@@ -4097,7 +4636,10 @@
    "meteo": 31,
    "actual": 31.0,
    "err": 0.0,
-   "peak_local": "15:00"
+   "peak_local": "15:00",
+   "meteo_4h": 31,
+   "err_4h": 0.0,
+   "snap_4h": "10:36"
   },
   {
    "city": "Shenzhen",
@@ -4110,7 +4652,10 @@
    "meteo": 35,
    "actual": 35.0,
    "err": 0.0,
-   "peak_local": "14:00"
+   "peak_local": "14:00",
+   "meteo_4h": 35,
+   "err_4h": 0.0,
+   "snap_4h": "09:41"
   },
   {
    "city": "Singapore",
@@ -4123,7 +4668,10 @@
    "meteo": 32,
    "actual": 33.0,
    "err": -1.0,
-   "peak_local": "14:00"
+   "peak_local": "14:00",
+   "meteo_4h": 32,
+   "err_4h": -1.0,
+   "snap_4h": "09:41"
   },
   {
    "city": "Taipei",
@@ -4136,7 +4684,10 @@
    "meteo": 32,
    "actual": 32.0,
    "err": 0.0,
-   "peak_local": "13:30"
+   "peak_local": "13:30",
+   "meteo_4h": 32,
+   "err_4h": 0.0,
+   "snap_4h": "08:47"
   },
   {
    "city": "Wuhan",
@@ -4149,7 +4700,10 @@
    "meteo": 36,
    "actual": 36.0,
    "err": 0.0,
-   "peak_local": "16:00"
+   "peak_local": "16:00",
+   "meteo_4h": 36,
+   "err_4h": 0.0,
+   "snap_4h": "11:32"
   },
   {
    "city": "Karachi",
@@ -4162,7 +4716,10 @@
    "meteo": 31,
    "actual": 32.0,
    "err": -1.0,
-   "peak_local": "14:00"
+   "peak_local": "14:00",
+   "meteo_4h": 31,
+   "err_4h": -1.0,
+   "snap_4h": "09:59"
   },
   {
    "city": "Lucknow",
@@ -4175,7 +4732,10 @@
    "meteo": 32,
    "actual": 32.0,
    "err": 0.0,
-   "peak_local": "18:00"
+   "peak_local": "18:00",
+   "meteo_4h": 32,
+   "err_4h": 0.0,
+   "snap_4h": "13:39"
   },
   {
    "city": "Ankara",
@@ -4188,7 +4748,10 @@
    "meteo": 32,
    "actual": 32.0,
    "err": 0.0,
-   "peak_local": "14:50"
+   "peak_local": "14:50",
+   "meteo_4h": 32,
+   "err_4h": 0.0,
+   "snap_4h": "10:39"
   },
   {
    "city": "Helsinki",
@@ -4201,7 +4764,10 @@
    "meteo": 20,
    "actual": 20.0,
    "err": 0.0,
-   "peak_local": "18:50"
+   "peak_local": "18:50",
+   "meteo_4h": 20,
+   "err_4h": 0.0,
+   "snap_4h": "14:32"
   },
   {
    "city": "Istanbul",
@@ -4214,7 +4780,10 @@
    "meteo": 27,
    "actual": 27.0,
    "err": 0.0,
-   "peak_local": "12:20"
+   "peak_local": "12:20",
+   "meteo_4h": 27,
+   "err_4h": 0.0,
+   "snap_4h": "07:59"
   },
   {
    "city": "Jeddah",
@@ -4227,7 +4796,10 @@
    "meteo": 37,
    "actual": 37.0,
    "err": 0.0,
-   "peak_local": "17:00"
+   "peak_local": "17:00",
+   "meteo_4h": 37,
+   "err_4h": 0.0,
+   "snap_4h": "12:33"
   },
   {
    "city": "Tel Aviv",
@@ -4240,7 +4812,10 @@
    "meteo": 32,
    "actual": 32.0,
    "err": 0.0,
-   "peak_local": "14:50"
+   "peak_local": "14:50",
+   "meteo_4h": 32,
+   "err_4h": 0.0,
+   "snap_4h": "10:39"
   },
   {
    "city": "Amsterdam",
@@ -4253,7 +4828,10 @@
    "meteo": 21,
    "actual": 21.0,
    "err": 0.0,
-   "peak_local": "18:55"
+   "peak_local": "18:55",
+   "meteo_4h": 21,
+   "err_4h": 0.0,
+   "snap_4h": "14:36"
   },
   {
    "city": "Cape Town",
@@ -4266,7 +4844,10 @@
    "meteo": 19,
    "actual": 19.0,
    "err": 0.0,
-   "peak_local": "14:00"
+   "peak_local": "14:00",
+   "meteo_4h": 19,
+   "err_4h": 0.0,
+   "snap_4h": "09:39"
   },
   {
    "city": "Madrid",
@@ -4279,7 +4860,10 @@
    "meteo": 36,
    "actual": 36.0,
    "err": 0.0,
-   "peak_local": "18:30"
+   "peak_local": "18:30",
+   "meteo_4h": 36,
+   "err_4h": 0.0,
+   "snap_4h": "13:53"
   },
   {
    "city": "Milan",
@@ -4292,7 +4876,10 @@
    "meteo": 32,
    "actual": 32.0,
    "err": 0.0,
-   "peak_local": "18:50"
+   "peak_local": "18:50",
+   "meteo_4h": 32,
+   "err_4h": 0.0,
+   "snap_4h": "14:36"
   },
   {
    "city": "Munich",
@@ -4305,7 +4892,10 @@
    "meteo": 31,
    "actual": 31.0,
    "err": 0.0,
-   "peak_local": "17:50"
+   "peak_local": "17:50",
+   "meteo_4h": 31,
+   "err_4h": 0.0,
+   "snap_4h": "13:32"
   },
   {
    "city": "Paris",
@@ -4318,7 +4908,10 @@
    "meteo": 28,
    "actual": 29.0,
    "err": -1.0,
-   "peak_local": "16:30"
+   "peak_local": "16:30",
+   "meteo_4h": 28,
+   "err_4h": -1.0,
+   "snap_4h": "11:54"
   },
   {
    "city": "Warsaw",
@@ -4331,7 +4924,10 @@
    "meteo": 23,
    "actual": 23.0,
    "err": 0.0,
-   "peak_local": "16:30"
+   "peak_local": "16:30",
+   "meteo_4h": 23,
+   "err_4h": 0.0,
+   "snap_4h": "11:54"
   },
   {
    "city": "London",
@@ -4344,7 +4940,10 @@
    "meteo": 25,
    "actual": 25.0,
    "err": 0.0,
-   "peak_local": "16:50"
+   "peak_local": "16:50",
+   "meteo_4h": 25,
+   "err_4h": 0.0,
+   "snap_4h": "12:32"
   },
   {
    "city": "Jinan",
@@ -4357,7 +4956,10 @@
    "meteo": 33,
    "actual": 26.0,
    "err": 7.0,
-   "peak_local": "13:00"
+   "peak_local": "13:00",
+   "meteo_4h": 32,
+   "err_4h": 6.0,
+   "snap_4h": "08:39"
   },
   {
    "city": "Zhengzhou",
@@ -4370,7 +4972,10 @@
    "meteo": 28,
    "actual": 28.0,
    "err": 0.0,
-   "peak_local": "18:00"
+   "peak_local": "18:00",
+   "meteo_4h": 28,
+   "err_4h": 0.0,
+   "snap_4h": "12:36"
   },
   {
    "city": "Buenos Aires",
@@ -4383,7 +4988,10 @@
    "meteo": 13,
    "actual": 17.0,
    "err": -4.0,
-   "peak_local": "16:00"
+   "peak_local": "16:00",
+   "meteo_4h": 13,
+   "err_4h": -4.0,
+   "snap_4h": "11:32"
   },
   {
    "city": "Sao Paulo",
@@ -4396,7 +5004,10 @@
    "meteo": 32,
    "actual": 32.0,
    "err": 0.0,
-   "peak_local": "16:00"
+   "peak_local": "16:00",
+   "meteo_4h": 32,
+   "err_4h": 0.0,
+   "snap_4h": "11:32"
   },
   {
    "city": "Atlanta",
@@ -4409,7 +5020,10 @@
    "meteo": 93,
    "actual": 95.0,
    "err": -2.0,
-   "peak_local": "16:52"
+   "peak_local": "16:52",
+   "meteo_4h": 93,
+   "err_4h": -2.0,
+   "snap_4h": "11:51"
   },
   {
    "city": "Miami",
@@ -4422,7 +5036,10 @@
    "meteo": 95,
    "actual": 95.0,
    "err": 0.0,
-   "peak_local": "13:53"
+   "peak_local": "13:53",
+   "meteo_4h": 95,
+   "err_4h": 0.0,
+   "snap_4h": "09:33"
   },
   {
    "city": "Nyc",
@@ -4435,7 +5052,10 @@
    "meteo": 88,
    "actual": 87.0,
    "err": 1.0,
-   "peak_local": "17:51"
+   "peak_local": "17:51",
+   "meteo_4h": 88,
+   "err_4h": 1.0,
+   "snap_4h": "13:40"
   },
   {
    "city": "Toronto",
@@ -4448,7 +5068,10 @@
    "meteo": 27,
    "actual": 27.0,
    "err": 0.0,
-   "peak_local": "16:00"
+   "peak_local": "16:00",
+   "meteo_4h": 27,
+   "err_4h": 0.0,
+   "snap_4h": "11:29"
   },
   {
    "city": "Austin",
@@ -4461,7 +5084,10 @@
    "meteo": 100,
    "actual": 103.0,
    "err": -3.0,
-   "peak_local": "17:53"
+   "peak_local": "17:53",
+   "meteo_4h": 100,
+   "err_4h": -3.0,
+   "snap_4h": "14:04"
   },
   {
    "city": "Chicago",
@@ -4474,7 +5100,10 @@
    "meteo": 79,
    "actual": 79.0,
    "err": 0.0,
-   "peak_local": "14:51"
+   "peak_local": "14:51",
+   "meteo_4h": 79,
+   "err_4h": 0.0,
+   "snap_4h": "10:29"
   },
   {
    "city": "Dallas",
@@ -4487,7 +5116,10 @@
    "meteo": 104,
    "actual": 105.0,
    "err": -1.0,
-   "peak_local": "16:53"
+   "peak_local": "16:53",
+   "meteo_4h": 104,
+   "err_4h": -1.0,
+   "snap_4h": "12:40"
   },
   {
    "city": "Houston",
@@ -4500,7 +5132,10 @@
    "meteo": 97,
    "actual": 97.0,
    "err": 0.0,
-   "peak_local": "17:53"
+   "peak_local": "17:53",
+   "meteo_4h": 97,
+   "err_4h": 0.0,
+   "snap_4h": "14:04"
   },
   {
    "city": "Panama City",
@@ -4513,7 +5148,10 @@
    "meteo": 33,
    "actual": 33.0,
    "err": 0.0,
-   "peak_local": "12:00"
+   "peak_local": "12:00",
+   "meteo_4h": 33,
+   "err_4h": 0.0,
+   "snap_4h": "07:36"
   },
   {
    "city": "Denver",
@@ -4526,7 +5164,10 @@
    "meteo": 90,
    "actual": 91.0,
    "err": -1.0,
-   "peak_local": "16:58"
+   "peak_local": "16:58",
+   "meteo_4h": 90,
+   "err_4h": -1.0,
+   "snap_4h": "13:04"
   },
   {
    "city": "Mexico City",
@@ -4539,7 +5180,10 @@
    "meteo": 24,
    "actual": 25.0,
    "err": -1.0,
-   "peak_local": "14:43"
+   "peak_local": "14:43",
+   "meteo_4h": 24,
+   "err_4h": -1.0,
+   "snap_4h": "09:51"
   },
   {
    "city": "Los Angeles",
@@ -4552,7 +5196,10 @@
    "meteo": 81,
    "actual": 81.0,
    "err": 0.0,
-   "peak_local": "10:53"
+   "peak_local": "10:53",
+   "meteo_4h": 81,
+   "err_4h": 0.0,
+   "snap_4h": "06:33"
   },
   {
    "city": "San Francisco",
@@ -4565,7 +5212,10 @@
    "meteo": 66,
    "actual": 67.0,
    "err": -1.0,
-   "peak_local": "14:56"
+   "peak_local": "14:56",
+   "meteo_4h": 66,
+   "err_4h": -1.0,
+   "snap_4h": "10:40"
   },
   {
    "city": "Seattle",
@@ -4578,7 +5228,10 @@
    "meteo": 82,
    "actual": 83.0,
    "err": -1.0,
-   "peak_local": "17:53"
+   "peak_local": "17:53",
+   "meteo_4h": 82,
+   "err_4h": -1.0,
+   "snap_4h": "13:44"
   },
   {
    "city": "Wellington",
@@ -4591,7 +5244,10 @@
    "meteo": 12,
    "actual": 12.0,
    "err": 0.0,
-   "peak_local": "17:30"
+   "peak_local": "17:30",
+   "meteo_4h": 12,
+   "err_4h": 0.0,
+   "snap_4h": "12:49"
   },
   {
    "city": "Busan",
@@ -4604,7 +5260,10 @@
    "meteo": 33,
    "actual": 33.0,
    "err": 0.0,
-   "peak_local": "16:00"
+   "peak_local": "16:00",
+   "meteo_4h": 33,
+   "err_4h": 0.0,
+   "snap_4h": "11:38"
   },
   {
    "city": "Seoul",
@@ -4617,7 +5276,10 @@
    "meteo": 28,
    "actual": 28.0,
    "err": 0.0,
-   "peak_local": "11:30"
+   "peak_local": "11:30",
+   "meteo_4h": 28,
+   "err_4h": 0.0,
+   "snap_4h": "06:38"
   },
   {
    "city": "Tokyo",
@@ -4630,7 +5292,10 @@
    "meteo": 32,
    "actual": 33.0,
    "err": -1.0,
-   "peak_local": "13:30"
+   "peak_local": "13:30",
+   "meteo_4h": 32,
+   "err_4h": -1.0,
+   "snap_4h": "08:48"
   },
   {
    "city": "Beijing",
@@ -4643,7 +5308,10 @@
    "meteo": 31,
    "actual": 32.0,
    "err": -1.0,
-   "peak_local": "15:00"
+   "peak_local": "15:00",
+   "meteo_4h": 31,
+   "err_4h": -1.0,
+   "snap_4h": "10:38"
   },
   {
    "city": "Chengdu",
@@ -4656,7 +5324,10 @@
    "meteo": 31,
    "actual": 31.0,
    "err": 0.0,
-   "peak_local": "14:00"
+   "peak_local": "14:00",
+   "meteo_4h": 31,
+   "err_4h": 0.0,
+   "snap_4h": "09:42"
   },
   {
    "city": "Chongqing",
@@ -4669,7 +5340,10 @@
    "meteo": 33,
    "actual": 33.0,
    "err": 0.0,
-   "peak_local": "17:00"
+   "peak_local": "17:00",
+   "meteo_4h": 33,
+   "err_4h": 0.0,
+   "snap_4h": "13:01"
   },
   {
    "city": "Guangzhou",
@@ -4682,7 +5356,10 @@
    "meteo": 34,
    "actual": 35.0,
    "err": -1.0,
-   "peak_local": "14:00"
+   "peak_local": "14:00",
+   "meteo_4h": 34,
+   "err_4h": -1.0,
+   "snap_4h": "09:42"
   },
   {
    "city": "Hong Kong",
@@ -4695,7 +5372,10 @@
    "meteo": 30,
    "actual": 29.0,
    "err": 1.0,
-   "peak_local": "17:30"
+   "peak_local": "17:30",
+   "meteo_4h": 30,
+   "err_4h": 1.0,
+   "snap_4h": "13:01"
   },
   {
    "city": "Kuala Lumpur",
@@ -4708,7 +5388,10 @@
    "meteo": 33,
    "actual": 34.0,
    "err": -1.0,
-   "peak_local": "14:00"
+   "peak_local": "14:00",
+   "meteo_4h": 33,
+   "err_4h": -1.0,
+   "snap_4h": "09:42"
   },
   {
    "city": "Manila",
@@ -4721,7 +5404,10 @@
    "meteo": 32,
    "actual": 32.0,
    "err": 0.0,
-   "peak_local": "15:00"
+   "peak_local": "15:00",
+   "meteo_4h": 32,
+   "err_4h": 0.0,
+   "snap_4h": "10:38"
   },
   {
    "city": "Qingdao",
@@ -4734,7 +5420,10 @@
    "meteo": 29,
    "actual": 30.0,
    "err": -1.0,
-   "peak_local": "11:00"
+   "peak_local": "11:00",
+   "meteo_4h": 28,
+   "err_4h": -2.0,
+   "snap_4h": "06:57"
   },
   {
    "city": "Shanghai",
@@ -4747,7 +5436,10 @@
    "meteo": 31,
    "actual": 32.0,
    "err": -1.0,
-   "peak_local": "13:00"
+   "peak_local": "13:00",
+   "meteo_4h": 31,
+   "err_4h": -1.0,
+   "snap_4h": "08:49"
   },
   {
    "city": "Shenzhen",
@@ -4760,7 +5452,10 @@
    "meteo": 31,
    "actual": 30.0,
    "err": 1.0,
-   "peak_local": "11:00"
+   "peak_local": "11:00",
+   "meteo_4h": 31,
+   "err_4h": 1.0,
+   "snap_4h": "06:57"
   },
   {
    "city": "Singapore",
@@ -4773,7 +5468,10 @@
    "meteo": 33,
    "actual": 33.0,
    "err": 0.0,
-   "peak_local": "16:30"
+   "peak_local": "16:30",
+   "meteo_4h": 33,
+   "err_4h": 0.0,
+   "snap_4h": "11:57"
   },
   {
    "city": "Taipei",
@@ -4786,7 +5484,10 @@
    "meteo": 32,
    "actual": 33.0,
    "err": -1.0,
-   "peak_local": "11:00"
+   "peak_local": "11:00",
+   "meteo_4h": 31,
+   "err_4h": -2.0,
+   "snap_4h": "06:57"
   },
   {
    "city": "Wuhan",
@@ -4799,7 +5500,10 @@
    "meteo": 36,
    "actual": 36.0,
    "err": 0.0,
-   "peak_local": "17:00"
+   "peak_local": "17:00",
+   "meteo_4h": 36,
+   "err_4h": 0.0,
+   "snap_4h": "13:01"
   },
   {
    "city": "Karachi",
@@ -4812,7 +5516,10 @@
    "meteo": 32,
    "actual": 32.0,
    "err": 0.0,
-   "peak_local": "15:00"
+   "peak_local": "15:00",
+   "meteo_4h": 32,
+   "err_4h": 0.0,
+   "snap_4h": "10:53"
   },
   {
    "city": "Lucknow",
@@ -4825,7 +5532,10 @@
    "meteo": 33,
    "actual": 33.0,
    "err": 0.0,
-   "peak_local": "16:00"
+   "peak_local": "16:00",
+   "meteo_4h": 33,
+   "err_4h": 0.0,
+   "snap_4h": "11:53"
   },
   {
    "city": "Ankara",
@@ -4838,7 +5548,10 @@
    "meteo": 31,
    "actual": 31.0,
    "err": 0.0,
-   "peak_local": "18:20"
+   "peak_local": "18:20",
+   "meteo_4h": 31,
+   "err_4h": 0.0,
+   "snap_4h": "13:51"
   },
   {
    "city": "Helsinki",
@@ -4851,7 +5564,10 @@
    "meteo": 18,
    "actual": 18.0,
    "err": 0.0,
-   "peak_local": "12:20"
+   "peak_local": "12:20",
+   "meteo_4h": 18,
+   "err_4h": 0.0,
+   "snap_4h": "08:01"
   },
   {
    "city": "Istanbul",
@@ -4864,7 +5580,10 @@
    "meteo": 27,
    "actual": 27.0,
    "err": 0.0,
-   "peak_local": "16:50"
+   "peak_local": "16:50",
+   "meteo_4h": 27,
+   "err_4h": 0.0,
+   "snap_4h": "12:37"
   },
   {
    "city": "Jeddah",
@@ -4877,7 +5596,10 @@
    "meteo": 39,
    "actual": 39.0,
    "err": 0.0,
-   "peak_local": "15:00"
+   "peak_local": "15:00",
+   "meteo_4h": 39,
+   "err_4h": 0.0,
+   "snap_4h": "10:41"
   },
   {
    "city": "Moscow",
@@ -4890,7 +5612,10 @@
    "meteo": 22,
    "actual": 22.0,
    "err": 0.0,
-   "peak_local": "14:00"
+   "peak_local": "14:00",
+   "meteo_4h": 22,
+   "err_4h": 0.0,
+   "snap_4h": "09:43"
   },
   {
    "city": "Tel Aviv",
@@ -4903,7 +5628,10 @@
    "meteo": 32,
    "actual": 32.0,
    "err": 0.0,
-   "peak_local": "14:20"
+   "peak_local": "14:20",
+   "meteo_4h": 32,
+   "err_4h": 0.0,
+   "snap_4h": "09:43"
   },
   {
    "city": "Amsterdam",
@@ -4916,7 +5644,10 @@
    "meteo": 22,
    "actual": 22.0,
    "err": 0.0,
-   "peak_local": "17:55"
+   "peak_local": "17:55",
+   "meteo_4h": 22,
+   "err_4h": 0.0,
+   "snap_4h": "13:37"
   },
   {
    "city": "Cape Town",
@@ -4929,7 +5660,10 @@
    "meteo": 18,
    "actual": 18.0,
    "err": 0.0,
-   "peak_local": "14:00"
+   "peak_local": "14:00",
+   "meteo_4h": 18,
+   "err_4h": 0.0,
+   "snap_4h": "09:41"
   },
   {
    "city": "Madrid",
@@ -4942,7 +5676,10 @@
    "meteo": 32,
    "actual": 32.0,
    "err": 0.0,
-   "peak_local": "16:30"
+   "peak_local": "16:30",
+   "meteo_4h": 32,
+   "err_4h": 0.0,
+   "snap_4h": "11:37"
   },
   {
    "city": "Milan",
@@ -4955,7 +5692,10 @@
    "meteo": 30,
    "actual": 30.0,
    "err": 0.0,
-   "peak_local": "14:20"
+   "peak_local": "14:20",
+   "meteo_4h": 30,
+   "err_4h": 0.0,
+   "snap_4h": "09:41"
   },
   {
    "city": "Munich",
@@ -4968,7 +5708,10 @@
    "meteo": 24,
    "actual": 25.0,
    "err": -1.0,
-   "peak_local": "11:20"
+   "peak_local": "11:20",
+   "meteo_4h": 24,
+   "err_4h": -1.0,
+   "snap_4h": "07:01"
   },
   {
    "city": "Paris",
@@ -4981,7 +5724,10 @@
    "meteo": 26,
    "actual": 26.0,
    "err": 0.0,
-   "peak_local": "17:30"
+   "peak_local": "17:30",
+   "meteo_4h": 26,
+   "err_4h": 0.0,
+   "snap_4h": "12:51"
   },
   {
    "city": "Warsaw",
@@ -4994,7 +5740,10 @@
    "meteo": 24,
    "actual": 25.0,
    "err": -1.0,
-   "peak_local": "15:30"
+   "peak_local": "15:30",
+   "meteo_4h": 24,
+   "err_4h": -1.0,
+   "snap_4h": "10:42"
   },
   {
    "city": "London",
@@ -5007,7 +5756,10 @@
    "meteo": 24,
    "actual": 24.0,
    "err": 0.0,
-   "peak_local": "16:50"
+   "peak_local": "16:50",
+   "meteo_4h": 24,
+   "err_4h": 0.0,
+   "snap_4h": "12:37"
   },
   {
    "city": "Jinan",
@@ -5020,7 +5772,10 @@
    "meteo": 33,
    "actual": 26.0,
    "err": 7.0,
-   "peak_local": "14:00"
+   "peak_local": "14:00",
+   "meteo_4h": 33,
+   "err_4h": 7.0,
+   "snap_4h": "09:37"
   },
   {
    "city": "Zhengzhou",
@@ -5033,7 +5788,10 @@
    "meteo": 32,
    "actual": 32.0,
    "err": 0.0,
-   "peak_local": "16:00"
+   "peak_local": "16:00",
+   "meteo_4h": 32,
+   "err_4h": 0.0,
+   "snap_4h": "11:37"
   },
   {
    "city": "Buenos Aires",
@@ -5046,7 +5804,10 @@
    "meteo": 19,
    "actual": 19.0,
    "err": 0.0,
-   "peak_local": "17:00"
+   "peak_local": "17:00",
+   "meteo_4h": 19,
+   "err_4h": 0.0,
+   "snap_4h": "12:33"
   },
   {
    "city": "Sao Paulo",
@@ -5059,7 +5820,10 @@
    "meteo": 32,
    "actual": 32.0,
    "err": 0.0,
-   "peak_local": "16:00"
+   "peak_local": "16:00",
+   "meteo_4h": 32,
+   "err_4h": 0.0,
+   "snap_4h": "11:35"
   },
   {
    "city": "Atlanta",
@@ -5072,7 +5836,10 @@
    "meteo": 97,
    "actual": 97.0,
    "err": 0.0,
-   "peak_local": "16:52"
+   "peak_local": "16:52",
+   "meteo_4h": 97,
+   "err_4h": 0.0,
+   "snap_4h": "11:54"
   },
   {
    "city": "Austin",
@@ -5085,7 +5852,10 @@
    "meteo": 102,
    "actual": 103.0,
    "err": -1.0,
-   "peak_local": "17:53"
+   "peak_local": "17:53",
+   "meteo_4h": 102,
+   "err_4h": -1.0,
+   "snap_4h": "12:45"
   },
   {
    "city": "Chicago",
@@ -5098,7 +5868,10 @@
    "meteo": 77,
    "actual": 77.0,
    "err": 0.0,
-   "peak_local": "16:51"
+   "peak_local": "16:51",
+   "meteo_4h": 77,
+   "err_4h": 0.0,
+   "snap_4h": "12:45"
   },
   {
    "city": "Dallas",
@@ -5111,7 +5884,10 @@
    "meteo": 104,
    "actual": 105.0,
    "err": -1.0,
-   "peak_local": "17:53"
+   "peak_local": "17:53",
+   "meteo_4h": 104,
+   "err_4h": -1.0,
+   "snap_4h": "12:45"
   },
   {
    "city": "Houston",
@@ -5124,7 +5900,10 @@
    "meteo": 97,
    "actual": 97.0,
    "err": 0.0,
-   "peak_local": "16:53"
+   "peak_local": "16:53",
+   "meteo_4h": 97,
+   "err_4h": 0.0,
+   "snap_4h": "12:45"
   },
   {
    "city": "Miami",
@@ -5137,7 +5916,10 @@
    "meteo": 93,
    "actual": 93.0,
    "err": 0.0,
-   "peak_local": "11:53"
+   "peak_local": "11:53",
+   "meteo_4h": 93,
+   "err_4h": 0.0,
+   "snap_4h": "07:37"
   },
   {
    "city": "Nyc",
@@ -5150,7 +5932,10 @@
    "meteo": 84,
    "actual": 85.0,
    "err": -1.0,
-   "peak_local": "11:51"
+   "peak_local": "11:51",
+   "meteo_4h": 84,
+   "err_4h": -1.0,
+   "snap_4h": "07:37"
   },
   {
    "city": "Panama City",
@@ -5163,7 +5948,10 @@
    "meteo": 34,
    "actual": 34.0,
    "err": 0.0,
-   "peak_local": "14:00"
+   "peak_local": "14:00",
+   "meteo_4h": 34,
+   "err_4h": 0.0,
+   "snap_4h": "09:35"
   },
   {
    "city": "Toronto",
@@ -5176,7 +5964,10 @@
    "meteo": 24,
    "actual": 24.0,
    "err": 0.0,
-   "peak_local": "16:00"
+   "peak_local": "16:00",
+   "meteo_4h": 24,
+   "err_4h": 0.0,
+   "snap_4h": "11:33"
   },
   {
    "city": "Denver",
@@ -5189,7 +5980,10 @@
    "meteo": 91,
    "actual": 93.0,
    "err": -2.0,
-   "peak_local": "15:58"
+   "peak_local": "15:58",
+   "meteo_4h": 91,
+   "err_4h": -2.0,
+   "snap_4h": "11:45"
   },
   {
    "city": "Mexico City",
@@ -5202,7 +5996,10 @@
    "meteo": 25,
    "actual": 25.0,
    "err": 0.0,
-   "peak_local": "15:46"
+   "peak_local": "15:46",
+   "meteo_4h": 25,
+   "err_4h": 0.0,
+   "snap_4h": "11:45"
   },
   {
    "city": "Los Angeles",
@@ -5215,7 +6012,10 @@
    "meteo": 77,
    "actual": 77.0,
    "err": 0.0,
-   "peak_local": "14:53"
+   "peak_local": "14:53",
+   "meteo_4h": 77,
+   "err_4h": 0.0,
+   "snap_4h": "10:45"
   },
   {
    "city": "San Francisco",
@@ -5228,7 +6028,10 @@
    "meteo": 68,
    "actual": 69.0,
    "err": -1.0,
-   "peak_local": "13:56"
+   "peak_local": "13:56",
+   "meteo_4h": 68,
+   "err_4h": -1.0,
+   "snap_4h": "08:54"
   },
   {
    "city": "Seattle",
@@ -5241,7 +6044,10 @@
    "meteo": 84,
    "actual": 85.0,
    "err": -1.0,
-   "peak_local": "17:53"
+   "peak_local": "17:53",
+   "meteo_4h": 84,
+   "err_4h": -1.0,
+   "snap_4h": "13:12"
   },
   {
    "city": "Wellington",
@@ -5254,7 +6060,10 @@
    "meteo": 14,
    "actual": 15.0,
    "err": -1.0,
-   "peak_local": "13:30"
+   "peak_local": "13:30",
+   "meteo_4h": 14,
+   "err_4h": -1.0,
+   "snap_4h": "09:08"
   },
   {
    "city": "Busan",
@@ -5267,7 +6076,10 @@
    "meteo": 34,
    "actual": 34.0,
    "err": 0.0,
-   "peak_local": "14:00"
+   "peak_local": "14:00",
+   "meteo_4h": 34,
+   "err_4h": 0.0,
+   "snap_4h": "09:50"
   },
   {
    "city": "Seoul",
@@ -5280,7 +6092,10 @@
    "meteo": 27,
    "actual": 27.0,
    "err": 0.0,
-   "peak_local": "19:30"
+   "peak_local": "19:30",
+   "meteo_4h": 27,
+   "err_4h": 0.0,
+   "snap_4h": "14:52"
   },
   {
    "city": "Tokyo",
@@ -5293,7 +6108,10 @@
    "meteo": 32,
    "actual": 32.0,
    "err": 0.0,
-   "peak_local": "13:00"
+   "peak_local": "13:00",
+   "meteo_4h": 32,
+   "err_4h": 0.0,
+   "snap_4h": "08:50"
   },
   {
    "city": "Beijing",
@@ -5306,7 +6124,10 @@
    "meteo": 34,
    "actual": 34.0,
    "err": 0.0,
-   "peak_local": "16:30"
+   "peak_local": "16:30",
+   "meteo_4h": 34,
+   "err_4h": 0.0,
+   "snap_4h": "11:56"
   },
   {
    "city": "Chengdu",
@@ -5319,7 +6140,10 @@
    "meteo": 32,
    "actual": 32.0,
    "err": 0.0,
-   "peak_local": "18:00"
+   "peak_local": "18:00",
+   "meteo_4h": 32,
+   "err_4h": 0.0,
+   "snap_4h": "13:52"
   },
   {
    "city": "Chongqing",
@@ -5332,7 +6156,10 @@
    "meteo": 34,
    "actual": 34.0,
    "err": 0.0,
-   "peak_local": "13:00"
+   "peak_local": "13:00",
+   "meteo_4h": 34,
+   "err_4h": 0.0,
+   "snap_4h": "08:50"
   },
   {
    "city": "Guangzhou",
@@ -5345,7 +6172,10 @@
    "meteo": 33,
    "actual": 34.0,
    "err": -1.0,
-   "peak_local": "15:30"
+   "peak_local": "15:30",
+   "meteo_4h": 33,
+   "err_4h": -1.0,
+   "snap_4h": "10:37"
   },
   {
    "city": "Hong Kong",
@@ -5358,7 +6188,10 @@
    "meteo": 31,
    "actual": 31.0,
    "err": 0.0,
-   "peak_local": "17:30"
+   "peak_local": "17:30",
+   "meteo_4h": 31,
+   "err_4h": 0.0,
+   "snap_4h": "13:01"
   },
   {
    "city": "Kuala Lumpur",
@@ -5371,7 +6204,10 @@
    "meteo": 33,
    "actual": 33.0,
    "err": 0.0,
-   "peak_local": "17:30"
+   "peak_local": "17:30",
+   "meteo_4h": 33,
+   "err_4h": 0.0,
+   "snap_4h": "13:01"
   },
   {
    "city": "Manila",
@@ -5384,7 +6220,10 @@
    "meteo": 32,
    "actual": 32.0,
    "err": 0.0,
-   "peak_local": "14:00"
+   "peak_local": "14:00",
+   "meteo_4h": 32,
+   "err_4h": 0.0,
+   "snap_4h": "09:44"
   },
   {
    "city": "Qingdao",
@@ -5397,7 +6236,10 @@
    "meteo": 29,
    "actual": 30.0,
    "err": -1.0,
-   "peak_local": "11:00"
+   "peak_local": "11:00",
+   "meteo_4h": 28,
+   "err_4h": -2.0,
+   "snap_4h": "06:02"
   },
   {
    "city": "Shanghai",
@@ -5410,7 +6252,10 @@
    "meteo": 31,
    "actual": 31.0,
    "err": 0.0,
-   "peak_local": "16:00"
+   "peak_local": "16:00",
+   "meteo_4h": 31,
+   "err_4h": 0.0,
+   "snap_4h": "11:33"
   },
   {
    "city": "Shenzhen",
@@ -5423,7 +6268,10 @@
    "meteo": 31,
    "actual": 31.0,
    "err": 0.0,
-   "peak_local": "14:00"
+   "peak_local": "14:00",
+   "meteo_4h": 31,
+   "err_4h": 0.0,
+   "snap_4h": "09:44"
   },
   {
    "city": "Singapore",
@@ -5436,7 +6284,10 @@
    "meteo": 33,
    "actual": 33.0,
    "err": 0.0,
-   "peak_local": "15:30"
+   "peak_local": "15:30",
+   "meteo_4h": 33,
+   "err_4h": 0.0,
+   "snap_4h": "10:37"
   },
   {
    "city": "Taipei",
@@ -5449,7 +6300,10 @@
    "meteo": 33,
    "actual": 35.0,
    "err": -2.0,
-   "peak_local": "11:30"
+   "peak_local": "11:30",
+   "meteo_4h": 33,
+   "err_4h": -2.0,
+   "snap_4h": "06:58"
   },
   {
    "city": "Wuhan",
@@ -5462,7 +6316,10 @@
    "meteo": 35,
    "actual": 35.0,
    "err": 0.0,
-   "peak_local": "17:00"
+   "peak_local": "17:00",
+   "meteo_4h": 35,
+   "err_4h": 0.0,
+   "snap_4h": "13:01"
   },
   {
    "city": "Karachi",
@@ -5475,7 +6332,10 @@
    "meteo": 32,
    "actual": 32.0,
    "err": 0.0,
-   "peak_local": "13:30"
+   "peak_local": "13:30",
+   "meteo_4h": 32,
+   "err_4h": 0.0,
+   "snap_4h": "08:56"
   },
   {
    "city": "Lucknow",
@@ -5488,7 +6348,10 @@
    "meteo": 34,
    "actual": 35.0,
    "err": -1.0,
-   "peak_local": "15:30"
+   "peak_local": "15:30",
+   "meteo_4h": 34,
+   "err_4h": -1.0,
+   "snap_4h": "11:01"
   },
   {
    "city": "Ankara",
@@ -5501,7 +6364,10 @@
    "meteo": 33,
    "actual": 33.0,
    "err": 0.0,
-   "peak_local": "15:50"
+   "peak_local": "15:50",
+   "meteo_4h": 33,
+   "err_4h": 0.0,
+   "snap_4h": "11:42"
   },
   {
    "city": "Helsinki",
@@ -5514,7 +6380,10 @@
    "meteo": 21,
    "actual": 21.0,
    "err": 0.0,
-   "peak_local": "14:50"
+   "peak_local": "14:50",
+   "meteo_4h": 21,
+   "err_4h": 0.0,
+   "snap_4h": "10:41"
   },
   {
    "city": "Istanbul",
@@ -5527,7 +6396,10 @@
    "meteo": 26,
    "actual": 26.0,
    "err": 0.0,
-   "peak_local": "19:20"
+   "peak_local": "19:20",
+   "meteo_4h": 26,
+   "err_4h": 0.0,
+   "snap_4h": "14:50"
   },
   {
    "city": "Jeddah",
@@ -5540,7 +6412,10 @@
    "meteo": 37,
    "actual": 37.0,
    "err": 0.0,
-   "peak_local": "15:00"
+   "peak_local": "15:00",
+   "meteo_4h": 37,
+   "err_4h": 0.0,
+   "snap_4h": "10:41"
   },
   {
    "city": "Moscow",
@@ -5553,7 +6428,10 @@
    "meteo": 21,
    "actual": 21.0,
    "err": 0.0,
-   "peak_local": "13:00"
+   "peak_local": "13:00",
+   "meteo_4h": 21,
+   "err_4h": 0.0,
+   "snap_4h": "08:52"
   },
   {
    "city": "Tel Aviv",
@@ -5566,7 +6444,10 @@
    "meteo": 32,
    "actual": 33.0,
    "err": -1.0,
-   "peak_local": "11:20"
+   "peak_local": "11:20",
+   "meteo_4h": 32,
+   "err_4h": -1.0,
+   "snap_4h": "06:56"
   },
   {
    "city": "Amsterdam",
@@ -5579,7 +6460,10 @@
    "meteo": 20,
    "actual": 20.0,
    "err": 0.0,
-   "peak_local": "18:55"
+   "peak_local": "18:55",
+   "meteo_4h": 20,
+   "err_4h": 0.0,
+   "snap_4h": "14:33"
   },
   {
    "city": "Cape Town",
@@ -5592,7 +6476,10 @@
    "meteo": 22,
    "actual": 22.0,
    "err": 0.0,
-   "peak_local": "15:00"
+   "peak_local": "15:00",
+   "meteo_4h": 22,
+   "err_4h": 0.0,
+   "snap_4h": "10:42"
   },
   {
    "city": "Madrid",
@@ -5605,7 +6492,10 @@
    "meteo": 31,
    "actual": 32.0,
    "err": -1.0,
-   "peak_local": "18:00"
+   "peak_local": "18:00",
+   "meteo_4h": 31,
+   "err_4h": -1.0,
+   "snap_4h": "13:31"
   },
   {
    "city": "Milan",
@@ -5618,7 +6508,10 @@
    "meteo": 24,
    "actual": 24.0,
    "err": 0.0,
-   "peak_local": "19:50"
+   "peak_local": "19:50",
+   "meteo_4h": 24,
+   "err_4h": 0.0,
+   "snap_4h": "15:32"
   },
   {
    "city": "Munich",
@@ -5631,7 +6524,10 @@
    "meteo": 22,
    "actual": 22.0,
    "err": 0.0,
-   "peak_local": "14:20"
+   "peak_local": "14:20",
+   "meteo_4h": 22,
+   "err_4h": 0.0,
+   "snap_4h": "09:41"
   },
   {
    "city": "Paris",
@@ -5644,7 +6540,10 @@
    "meteo": 23,
    "actual": 24.0,
    "err": -1.0,
-   "peak_local": "15:00"
+   "peak_local": "15:00",
+   "meteo_4h": 23,
+   "err_4h": -1.0,
+   "snap_4h": "10:42"
   },
   {
    "city": "Warsaw",
@@ -5657,7 +6556,10 @@
    "meteo": 27,
    "actual": 27.0,
    "err": 0.0,
-   "peak_local": "13:30"
+   "peak_local": "13:30",
+   "meteo_4h": 27,
+   "err_4h": 0.0,
+   "snap_4h": "08:43"
   },
   {
    "city": "London",
@@ -5670,7 +6572,10 @@
    "meteo": 21,
    "actual": 21.0,
    "err": 0.0,
-   "peak_local": "18:20"
+   "peak_local": "18:20",
+   "meteo_4h": 21,
+   "err_4h": 0.0,
+   "snap_4h": "13:55"
   },
   {
    "city": "Jinan",
@@ -5683,7 +6588,10 @@
    "meteo": 34,
    "actual": 26.0,
    "err": 8.0,
-   "peak_local": "17:00"
+   "peak_local": "17:00",
+   "meteo_4h": 34,
+   "err_4h": 8.0,
+   "snap_4h": "12:33"
   },
   {
    "city": "Zhengzhou",
@@ -5696,7 +6604,10 @@
    "meteo": 32,
    "actual": 32.0,
    "err": 0.0,
-   "peak_local": "16:00"
+   "peak_local": "16:00",
+   "meteo_4h": 32,
+   "err_4h": 0.0,
+   "snap_4h": "11:31"
   },
   {
    "city": "Buenos Aires",
@@ -5709,7 +6620,10 @@
    "meteo": 12,
    "actual": 13.0,
    "err": -1.0,
-   "peak_local": "16:00"
+   "peak_local": "16:00",
+   "meteo_4h": 12,
+   "err_4h": -1.0,
+   "snap_4h": "11:32"
   },
   {
    "city": "Sao Paulo",
@@ -5722,7 +6636,10 @@
    "meteo": 25,
    "actual": 25.0,
    "err": 0.0,
-   "peak_local": "16:00"
+   "peak_local": "16:00",
+   "meteo_4h": 25,
+   "err_4h": 0.0,
+   "snap_4h": "11:32"
   },
   {
    "city": "Atlanta",
@@ -5735,7 +6652,10 @@
    "meteo": 93,
    "actual": 95.0,
    "err": -2.0,
-   "peak_local": "15:52"
+   "peak_local": "15:52",
+   "meteo_4h": 93,
+   "err_4h": -2.0,
+   "snap_4h": "11:31"
   },
   {
    "city": "Austin",
@@ -5748,7 +6668,10 @@
    "meteo": 104,
    "actual": 105.0,
    "err": -1.0,
-   "peak_local": "16:53"
+   "peak_local": "16:53",
+   "meteo_4h": 104,
+   "err_4h": -1.0,
+   "snap_4h": "12:39"
   },
   {
    "city": "Chicago",
@@ -5761,7 +6684,10 @@
    "meteo": 81,
    "actual": 81.0,
    "err": 0.0,
-   "peak_local": "16:51"
+   "peak_local": "16:51",
+   "meteo_4h": 81,
+   "err_4h": 0.0,
+   "snap_4h": "12:39"
   },
   {
    "city": "Dallas",
@@ -5774,7 +6700,10 @@
    "meteo": 99,
    "actual": 99.0,
    "err": 0.0,
-   "peak_local": "18:53"
+   "peak_local": "18:53",
+   "meteo_4h": 99,
+   "err_4h": 0.0,
+   "snap_4h": "14:01"
   },
   {
    "city": "Houston",
@@ -5787,7 +6716,10 @@
    "meteo": 99,
    "actual": 99.0,
    "err": 0.0,
-   "peak_local": "17:53"
+   "peak_local": "17:53",
+   "meteo_4h": 99,
+   "err_4h": 0.0,
+   "snap_4h": "14:01"
   },
   {
    "city": "Miami",
@@ -5800,7 +6732,10 @@
    "meteo": 91,
    "actual": 93.0,
    "err": -2.0,
-   "peak_local": "15:53"
+   "peak_local": "15:53",
+   "meteo_4h": 91,
+   "err_4h": -2.0,
+   "snap_4h": "11:31"
   },
   {
    "city": "Nyc",
@@ -5813,7 +6748,10 @@
    "meteo": 79,
    "actual": 79.0,
    "err": 0.0,
-   "peak_local": "16:51"
+   "peak_local": "16:51",
+   "meteo_4h": 79,
+   "err_4h": 0.0,
+   "snap_4h": "11:52"
   },
   {
    "city": "Panama City",
@@ -5826,7 +6764,10 @@
    "meteo": 33,
    "actual": 33.0,
    "err": 0.0,
-   "peak_local": "16:00"
+   "peak_local": "16:00",
+   "meteo_4h": 33,
+   "err_4h": 0.0,
+   "snap_4h": "10:52"
   },
   {
    "city": "Toronto",
@@ -5839,7 +6780,10 @@
    "meteo": 25,
    "actual": 25.0,
    "err": 0.0,
-   "peak_local": "16:00"
+   "peak_local": "16:00",
+   "meteo_4h": 25,
+   "err_4h": 0.0,
+   "snap_4h": "11:31"
   },
   {
    "city": "Denver",
@@ -5852,7 +6796,10 @@
    "meteo": 99,
    "actual": 101.0,
    "err": -2.0,
-   "peak_local": "15:58"
+   "peak_local": "15:58",
+   "meteo_4h": 99,
+   "err_4h": -2.0,
+   "snap_4h": "11:39"
   },
   {
    "city": "Mexico City",
@@ -5865,7 +6812,10 @@
    "meteo": 24,
    "actual": 24.0,
    "err": 0.0,
-   "peak_local": "15:54"
+   "peak_local": "15:54",
+   "meteo_4h": 24,
+   "err_4h": 0.0,
+   "snap_4h": "11:39"
   },
   {
    "city": "Los Angeles",
@@ -5878,7 +6828,10 @@
    "meteo": 81,
    "actual": 81.0,
    "err": 0.0,
-   "peak_local": "12:53"
+   "peak_local": "12:53",
+   "meteo_4h": 81,
+   "err_4h": 0.0,
+   "snap_4h": "08:31"
   },
   {
    "city": "San Francisco",
@@ -5891,7 +6844,10 @@
    "meteo": 66,
    "actual": 67.0,
    "err": -1.0,
-   "peak_local": "15:56"
+   "peak_local": "15:56",
+   "meteo_4h": 66,
+   "err_4h": -1.0,
+   "snap_4h": "12:01"
   },
   {
    "city": "Seattle",
@@ -5904,7 +6860,10 @@
    "meteo": 81,
    "actual": 81.0,
    "err": 0.0,
-   "peak_local": "12:53"
+   "peak_local": "12:53",
+   "meteo_4h": 81,
+   "err_4h": 0.0,
+   "snap_4h": "08:31"
   },
   {
    "city": "Wellington",
@@ -5917,7 +6876,10 @@
    "meteo": 15,
    "actual": 16.0,
    "err": -1.0,
-   "peak_local": "14:00"
+   "peak_local": "14:00",
+   "meteo_4h": 15,
+   "err_4h": -1.0,
+   "snap_4h": "09:34"
   },
   {
    "city": "Busan",
@@ -5930,7 +6892,10 @@
    "meteo": 35,
    "actual": 35.0,
    "err": 0.0,
-   "peak_local": "14:00"
+   "peak_local": "14:00",
+   "meteo_4h": 35,
+   "err_4h": 0.0,
+   "snap_4h": "09:39"
   },
   {
    "city": "Seoul",
@@ -5943,7 +6908,10 @@
    "meteo": 27,
    "actual": 27.0,
    "err": 0.0,
-   "peak_local": "11:00"
+   "peak_local": "11:00",
+   "meteo_4h": 27,
+   "err_4h": 0.0,
+   "snap_4h": "06:34"
   },
   {
    "city": "Tokyo",
@@ -5956,7 +6924,10 @@
    "meteo": 31,
    "actual": 31.0,
    "err": 0.0,
-   "peak_local": "14:30"
+   "peak_local": "14:30",
+   "meteo_4h": 31,
+   "err_4h": 0.0,
+   "snap_4h": "09:39"
   },
   {
    "city": "Beijing",
@@ -5969,7 +6940,10 @@
    "meteo": 30,
    "actual": 30.0,
    "err": 0.0,
-   "peak_local": "18:00"
+   "peak_local": "18:00",
+   "meteo_4h": 30,
+   "err_4h": 0.0,
+   "snap_4h": "13:38"
   },
   {
    "city": "Chengdu",
@@ -5982,7 +6956,10 @@
    "meteo": 32,
    "actual": 32.0,
    "err": 0.0,
-   "peak_local": "18:00"
+   "peak_local": "18:00",
+   "meteo_4h": 32,
+   "err_4h": 0.0,
+   "snap_4h": "13:38"
   },
   {
    "city": "Chongqing",
@@ -5995,7 +6972,10 @@
    "meteo": 38,
    "actual": 38.0,
    "err": 0.0,
-   "peak_local": "17:00"
+   "peak_local": "17:00",
+   "meteo_4h": 38,
+   "err_4h": 0.0,
+   "snap_4h": "12:52"
   },
   {
    "city": "Guangzhou",
@@ -6008,7 +6988,10 @@
    "meteo": 36,
    "actual": 36.0,
    "err": 0.0,
-   "peak_local": "16:04"
+   "peak_local": "16:04",
+   "meteo_4h": 36,
+   "err_4h": 0.0,
+   "snap_4h": "11:28"
   },
   {
    "city": "Hong Kong",
@@ -6021,7 +7004,10 @@
    "meteo": 33,
    "actual": 31.0,
    "err": 2.0,
-   "peak_local": "15:00"
+   "peak_local": "15:00",
+   "meteo_4h": 33,
+   "err_4h": 2.0,
+   "snap_4h": "10:31"
   },
   {
    "city": "Kuala Lumpur",
@@ -6034,7 +7020,10 @@
    "meteo": 34,
    "actual": 34.0,
    "err": 0.0,
-   "peak_local": "15:00"
+   "peak_local": "15:00",
+   "meteo_4h": 34,
+   "err_4h": 0.0,
+   "snap_4h": "10:31"
   },
   {
    "city": "Manila",
@@ -6047,7 +7036,10 @@
    "meteo": 32,
    "actual": 32.0,
    "err": 0.0,
-   "peak_local": "14:00"
+   "peak_local": "14:00",
+   "meteo_4h": 32,
+   "err_4h": 0.0,
+   "snap_4h": "09:34"
   },
   {
    "city": "Qingdao",
@@ -6060,7 +7052,10 @@
    "meteo": 31,
    "actual": 31.0,
    "err": 0.0,
-   "peak_local": "14:00"
+   "peak_local": "14:00",
+   "meteo_4h": 31,
+   "err_4h": 0.0,
+   "snap_4h": "09:34"
   },
   {
    "city": "Shanghai",
@@ -6073,7 +7068,10 @@
    "meteo": 30,
    "actual": 31.0,
    "err": -1.0,
-   "peak_local": "16:00"
+   "peak_local": "16:00",
+   "meteo_4h": 30,
+   "err_4h": -1.0,
+   "snap_4h": "11:28"
   },
   {
    "city": "Shenzhen",
@@ -6086,7 +7084,10 @@
    "meteo": 33,
    "actual": 32.0,
    "err": 1.0,
-   "peak_local": "15:00"
+   "peak_local": "15:00",
+   "meteo_4h": 33,
+   "err_4h": 1.0,
+   "snap_4h": "10:31"
   },
   {
    "city": "Singapore",
@@ -6099,7 +7100,10 @@
    "meteo": 33,
    "actual": 33.0,
    "err": 0.0,
-   "peak_local": "15:30"
+   "peak_local": "15:30",
+   "meteo_4h": 33,
+   "err_4h": 0.0,
+   "snap_4h": "10:53"
   },
   {
    "city": "Taipei",
@@ -6112,7 +7116,10 @@
    "meteo": 33,
    "actual": 35.0,
    "err": -2.0,
-   "peak_local": "11:00"
+   "peak_local": "11:00",
+   "meteo_4h": 33,
+   "err_4h": -2.0,
+   "snap_4h": "06:52"
   },
   {
    "city": "Wuhan",
@@ -6125,7 +7132,10 @@
    "meteo": 36,
    "actual": 36.0,
    "err": 0.0,
-   "peak_local": "17:00"
+   "peak_local": "17:00",
+   "meteo_4h": 36,
+   "err_4h": 0.0,
+   "snap_4h": "12:52"
   },
   {
    "city": "Karachi",
@@ -6138,7 +7148,10 @@
    "meteo": 30,
    "actual": 30.0,
    "err": 0.0,
-   "peak_local": "14:00"
+   "peak_local": "14:00",
+   "meteo_4h": 30,
+   "err_4h": 0.0,
+   "snap_4h": "09:52"
   },
   {
    "city": "Lucknow",
@@ -6151,7 +7164,10 @@
    "meteo": 31,
    "actual": 31.0,
    "err": 0.0,
-   "peak_local": "18:00"
+   "peak_local": "18:00",
+   "meteo_4h": 31,
+   "err_4h": 0.0,
+   "snap_4h": "13:29"
   },
   {
    "city": "Ankara",
@@ -6164,7 +7180,10 @@
    "meteo": 35,
    "actual": 35.0,
    "err": 0.0,
-   "peak_local": "17:20"
+   "peak_local": "17:20",
+   "meteo_4h": 35,
+   "err_4h": 0.0,
+   "snap_4h": "12:50"
   },
   {
    "city": "Helsinki",
@@ -6177,7 +7196,10 @@
    "meteo": 18,
    "actual": 18.0,
    "err": 0.0,
-   "peak_local": "15:20"
+   "peak_local": "15:20",
+   "meteo_4h": 18,
+   "err_4h": 0.0,
+   "snap_4h": "10:50"
   },
   {
    "city": "Istanbul",
@@ -6190,7 +7212,10 @@
    "meteo": 27,
    "actual": 27.0,
    "err": 0.0,
-   "peak_local": "15:20"
+   "peak_local": "15:20",
+   "meteo_4h": 27,
+   "err_4h": 0.0,
+   "snap_4h": "10:50"
   },
   {
    "city": "Jeddah",
@@ -6203,7 +7228,10 @@
    "meteo": 38,
    "actual": 38.0,
    "err": 0.0,
-   "peak_local": "18:00"
+   "peak_local": "18:00",
+   "meteo_4h": 38,
+   "err_4h": 0.0,
+   "snap_4h": "13:40"
   },
   {
    "city": "Moscow",
@@ -6216,7 +7244,10 @@
    "meteo": 21,
    "actual": 22.0,
    "err": -1.0,
-   "peak_local": "14:00"
+   "peak_local": "14:00",
+   "meteo_4h": 21,
+   "err_4h": -1.0,
+   "snap_4h": "09:29"
   },
   {
    "city": "Tel Aviv",
@@ -6229,7 +7260,10 @@
    "meteo": 32,
    "actual": 33.0,
    "err": -1.0,
-   "peak_local": "11:20"
+   "peak_local": "11:20",
+   "meteo_4h": 32,
+   "err_4h": -1.0,
+   "snap_4h": "06:50"
   },
   {
    "city": "Amsterdam",
@@ -6242,7 +7276,10 @@
    "meteo": 20,
    "actual": 20.0,
    "err": 0.0,
-   "peak_local": "12:55"
+   "peak_local": "12:55",
+   "meteo_4h": 20,
+   "err_4h": 0.0,
+   "snap_4h": "08:29"
   },
   {
    "city": "Cape Town",
@@ -6255,7 +7292,10 @@
    "meteo": 17,
    "actual": 17.0,
    "err": 0.0,
-   "peak_local": "14:00"
+   "peak_local": "14:00",
+   "meteo_4h": 17,
+   "err_4h": 0.0,
+   "snap_4h": "09:29"
   },
   {
    "city": "Madrid",
@@ -6268,7 +7308,10 @@
    "meteo": 33,
    "actual": 33.0,
    "err": 0.0,
-   "peak_local": "19:30"
+   "peak_local": "19:30",
+   "meteo_4h": 33,
+   "err_4h": 0.0,
+   "snap_4h": "14:52"
   },
   {
    "city": "Milan",
@@ -6281,7 +7324,10 @@
    "meteo": 29,
    "actual": 29.0,
    "err": 0.0,
-   "peak_local": "18:20"
+   "peak_local": "18:20",
+   "meteo_4h": 29,
+   "err_4h": 0.0,
+   "snap_4h": "13:49"
   },
   {
    "city": "Munich",
@@ -6294,7 +7340,10 @@
    "meteo": 21,
    "actual": 21.0,
    "err": 0.0,
-   "peak_local": "14:50"
+   "peak_local": "14:50",
+   "meteo_4h": 21,
+   "err_4h": 0.0,
+   "snap_4h": "10:33"
   },
   {
    "city": "Paris",
@@ -6307,7 +7356,10 @@
    "meteo": 23,
    "actual": 24.0,
    "err": -1.0,
-   "peak_local": "16:30"
+   "peak_local": "16:30",
+   "meteo_4h": 23,
+   "err_4h": -1.0,
+   "snap_4h": "11:50"
   },
   {
    "city": "Warsaw",
@@ -6320,7 +7372,10 @@
    "meteo": 23,
    "actual": 23.0,
    "err": 0.0,
-   "peak_local": "05:30"
+   "peak_local": "05:30",
+   "meteo_4h": 23,
+   "err_4h": 0.0,
+   "snap_4h": "00:52"
   },
   {
    "city": "London",
@@ -6333,7 +7388,10 @@
    "meteo": 21,
    "actual": 22.0,
    "err": -1.0,
-   "peak_local": "17:20"
+   "peak_local": "17:20",
+   "meteo_4h": 21,
+   "err_4h": -1.0,
+   "snap_4h": "12:49"
   },
   {
    "city": "Jinan",
@@ -6346,7 +7404,10 @@
    "meteo": 36,
    "actual": 26.0,
    "err": 10.0,
-   "peak_local": "16:00"
+   "peak_local": "16:00",
+   "meteo_4h": 36,
+   "err_4h": 10.0,
+   "snap_4h": "11:29"
   },
   {
    "city": "Zhengzhou",
@@ -6359,7 +7420,10 @@
    "meteo": 34,
    "actual": 32.0,
    "err": 2.0,
-   "peak_local": "16:00"
+   "peak_local": "16:00",
+   "meteo_4h": 34,
+   "err_4h": 2.0,
+   "snap_4h": "11:29"
   },
   {
    "city": "Buenos Aires",
@@ -6372,7 +7436,10 @@
    "meteo": 14,
    "actual": 14.0,
    "err": 0.0,
-   "peak_local": "17:00"
+   "peak_local": "17:00",
+   "meteo_4h": 14,
+   "err_4h": 0.0,
+   "snap_4h": "12:28"
   },
   {
    "city": "Sao Paulo",
@@ -6385,7 +7452,10 @@
    "meteo": 23,
    "actual": 23.0,
    "err": 0.0,
-   "peak_local": "15:00"
+   "peak_local": "15:00",
+   "meteo_4h": 23,
+   "err_4h": 0.0,
+   "snap_4h": "10:29"
   },
   {
    "city": "Atlanta",
@@ -6398,7 +7468,10 @@
    "meteo": 93,
    "actual": 93.0,
    "err": 0.0,
-   "peak_local": "16:52"
+   "peak_local": "16:52",
+   "meteo_4h": 93,
+   "err_4h": 0.0,
+   "snap_4h": "11:50"
   },
   {
    "city": "Miami",
@@ -6411,7 +7484,10 @@
    "meteo": 93,
    "actual": 95.0,
    "err": -2.0,
-   "peak_local": "14:53"
+   "peak_local": "14:53",
+   "meteo_4h": 93,
+   "err_4h": -2.0,
+   "snap_4h": "10:31"
   },
   {
    "city": "Nyc",
@@ -6424,7 +7500,10 @@
    "meteo": 75,
    "actual": 77.0,
    "err": -2.0,
-   "peak_local": "18:51"
+   "peak_local": "18:51",
+   "meteo_4h": 75,
+   "err_4h": -2.0,
+   "snap_4h": "13:49"
   },
   {
    "city": "Toronto",
@@ -6437,7 +7516,10 @@
    "meteo": 25,
    "actual": 25.0,
    "err": 0.0,
-   "peak_local": "14:00"
+   "peak_local": "14:00",
+   "meteo_4h": 25,
+   "err_4h": 0.0,
+   "snap_4h": "09:29"
   },
   {
    "city": "Austin",
@@ -6450,7 +7532,10 @@
    "meteo": 106,
    "actual": 105.0,
    "err": 1.0,
-   "peak_local": "17:53"
+   "peak_local": "17:53",
+   "meteo_4h": 106,
+   "err_4h": 1.0,
+   "snap_4h": "12:49"
   },
   {
    "city": "Chicago",
@@ -6463,7 +7548,10 @@
    "meteo": 81,
    "actual": 81.0,
    "err": 0.0,
-   "peak_local": "14:51"
+   "peak_local": "14:51",
+   "meteo_4h": 81,
+   "err_4h": 0.0,
+   "snap_4h": "10:28"
   },
   {
    "city": "Dallas",
@@ -6476,7 +7564,10 @@
    "meteo": 104,
    "actual": 105.0,
    "err": -1.0,
-   "peak_local": "18:53"
+   "peak_local": "18:53",
+   "meteo_4h": 104,
+   "err_4h": -1.0,
+   "snap_4h": "14:10"
   },
   {
    "city": "Houston",
@@ -6489,7 +7580,10 @@
    "meteo": 100,
    "actual": 101.0,
    "err": -1.0,
-   "peak_local": "16:53"
+   "peak_local": "16:53",
+   "meteo_4h": 100,
+   "err_4h": -1.0,
+   "snap_4h": "12:49"
   },
   {
    "city": "Panama City",
@@ -6502,7 +7596,10 @@
    "meteo": 33,
    "actual": 33.0,
    "err": 0.0,
-   "peak_local": "15:00"
+   "peak_local": "15:00",
+   "meteo_4h": 33,
+   "err_4h": 0.0,
+   "snap_4h": "10:28"
   },
   {
    "city": "Denver",
@@ -6515,7 +7612,10 @@
    "meteo": 90,
    "actual": 93.0,
    "err": -3.0,
-   "peak_local": "12:58"
+   "peak_local": "12:58",
+   "meteo_4h": 90,
+   "err_4h": -3.0,
+   "snap_4h": "08:31"
   },
   {
    "city": "Mexico City",
@@ -6528,7 +7628,10 @@
    "meteo": 23,
    "actual": 23.0,
    "err": 0.0,
-   "peak_local": "14:33"
+   "peak_local": "14:33",
+   "meteo_4h": 23,
+   "err_4h": 0.0,
+   "snap_4h": "09:50"
   },
   {
    "city": "Los Angeles",
@@ -6541,7 +7644,10 @@
    "meteo": 82,
    "actual": 83.0,
    "err": -1.0,
-   "peak_local": "11:53"
+   "peak_local": "11:53",
+   "meteo_4h": 82,
+   "err_4h": -1.0,
+   "snap_4h": "07:31"
   },
   {
    "city": "San Francisco",
@@ -6554,7 +7660,10 @@
    "meteo": 68,
    "actual": 69.0,
    "err": -1.0,
-   "peak_local": "15:56"
+   "peak_local": "15:56",
+   "meteo_4h": 68,
+   "err_4h": -1.0,
+   "snap_4h": "10:49"
   },
   {
    "city": "Seattle",
@@ -6567,7 +7676,10 @@
    "meteo": 73,
    "actual": 75.0,
    "err": -2.0,
-   "peak_local": "15:53"
+   "peak_local": "15:53",
+   "meteo_4h": 73,
+   "err_4h": -2.0,
+   "snap_4h": "10:49"
   },
   {
    "city": "Wellington",
@@ -6580,7 +7692,10 @@
    "meteo": 17,
    "actual": 17.0,
    "err": 0.0,
-   "peak_local": "13:00"
+   "peak_local": "13:00",
+   "meteo_4h": 17,
+   "err_4h": 0.0,
+   "snap_4h": "08:13"
   },
   {
    "city": "Busan",
@@ -6593,7 +7708,10 @@
    "meteo": 35,
    "actual": 35.0,
    "err": 0.0,
-   "peak_local": "14:00"
+   "peak_local": "14:00",
+   "meteo_4h": 35,
+   "err_4h": 0.0,
+   "snap_4h": "09:39"
   },
   {
    "city": "Seoul",
@@ -6606,7 +7724,10 @@
    "meteo": 31,
    "actual": 32.0,
    "err": -1.0,
-   "peak_local": "15:00"
+   "peak_local": "15:00",
+   "meteo_4h": 31,
+   "err_4h": -1.0,
+   "snap_4h": "10:36"
   },
   {
    "city": "Tokyo",
@@ -6619,7 +7740,10 @@
    "meteo": 31,
    "actual": 31.0,
    "err": 0.0,
-   "peak_local": "15:30"
+   "peak_local": "15:30",
+   "meteo_4h": 31,
+   "err_4h": 0.0,
+   "snap_4h": "10:56"
   },
   {
    "city": "Beijing",
@@ -6632,7 +7756,10 @@
    "meteo": 32,
    "actual": 33.0,
    "err": -1.0,
-   "peak_local": "16:00"
+   "peak_local": "16:00",
+   "meteo_4h": 32,
+   "err_4h": -1.0,
+   "snap_4h": "11:28"
   },
   {
    "city": "Chengdu",
@@ -6645,7 +7772,10 @@
    "meteo": 32,
    "actual": 32.0,
    "err": 0.0,
-   "peak_local": "18:00"
+   "peak_local": "18:00",
+   "meteo_4h": 32,
+   "err_4h": 0.0,
+   "snap_4h": "13:38"
   },
   {
    "city": "Chongqing",
@@ -6658,7 +7788,10 @@
    "meteo": 37,
    "actual": 37.0,
    "err": 0.0,
-   "peak_local": "14:00"
+   "peak_local": "14:00",
+   "meteo_4h": 37,
+   "err_4h": 0.0,
+   "snap_4h": "09:36"
   },
   {
    "city": "Guangzhou",
@@ -6671,7 +7804,10 @@
    "meteo": 33,
    "actual": 33.0,
    "err": 0.0,
-   "peak_local": "17:30"
+   "peak_local": "17:30",
+   "meteo_4h": 33,
+   "err_4h": 0.0,
+   "snap_4h": "12:53"
   },
   {
    "city": "Hong Kong",
@@ -6684,7 +7820,10 @@
    "meteo": 33,
    "actual": 32.0,
    "err": 1.0,
-   "peak_local": "16:30"
+   "peak_local": "16:30",
+   "meteo_4h": 33,
+   "err_4h": 1.0,
+   "snap_4h": "11:50"
   },
   {
    "city": "Kuala Lumpur",
@@ -6697,7 +7836,10 @@
    "meteo": 34,
    "actual": 34.0,
    "err": 0.0,
-   "peak_local": "15:00"
+   "peak_local": "15:00",
+   "meteo_4h": 34,
+   "err_4h": 0.0,
+   "snap_4h": "10:31"
   },
   {
    "city": "Manila",
@@ -6710,7 +7852,10 @@
    "meteo": 32,
    "actual": 32.0,
    "err": 0.0,
-   "peak_local": "15:00"
+   "peak_local": "15:00",
+   "meteo_4h": 32,
+   "err_4h": 0.0,
+   "snap_4h": "10:31"
   },
   {
    "city": "Qingdao",
@@ -6723,7 +7868,10 @@
    "meteo": 31,
    "actual": 31.0,
    "err": 0.0,
-   "peak_local": "12:00"
+   "peak_local": "12:00",
+   "meteo_4h": 29,
+   "err_4h": -2.0,
+   "snap_4h": "07:40"
   },
   {
    "city": "Shanghai",
@@ -6736,7 +7884,10 @@
    "meteo": 30,
    "actual": 31.0,
    "err": -1.0,
-   "peak_local": "14:00"
+   "peak_local": "14:00",
+   "meteo_4h": 30,
+   "err_4h": -1.0,
+   "snap_4h": "09:36"
   },
   {
    "city": "Shenzhen",
@@ -6749,7 +7900,10 @@
    "meteo": 32,
    "actual": 33.0,
    "err": -1.0,
-   "peak_local": "13:00"
+   "peak_local": "13:00",
+   "meteo_4h": 32,
+   "err_4h": -1.0,
+   "snap_4h": "08:39"
   },
   {
    "city": "Singapore",
@@ -6762,7 +7916,10 @@
    "meteo": 33,
    "actual": 33.0,
    "err": 0.0,
-   "peak_local": "16:30"
+   "peak_local": "16:30",
+   "meteo_4h": 33,
+   "err_4h": 0.0,
+   "snap_4h": "11:50"
   },
   {
    "city": "Taipei",
@@ -6775,7 +7932,10 @@
    "meteo": 33,
    "actual": 32.0,
    "err": 1.0,
-   "peak_local": "13:30"
+   "peak_local": "13:30",
+   "meteo_4h": 33,
+   "err_4h": 1.0,
+   "snap_4h": "08:39"
   },
   {
    "city": "Wuhan",
@@ -6788,7 +7948,10 @@
    "meteo": 35,
    "actual": 35.0,
    "err": 0.0,
-   "peak_local": "15:00"
+   "peak_local": "15:00",
+   "meteo_4h": 35,
+   "err_4h": 0.0,
+   "snap_4h": "10:31"
   },
   {
    "city": "Karachi",
@@ -6801,7 +7964,10 @@
    "meteo": 29,
    "actual": 30.0,
    "err": -1.0,
-   "peak_local": "15:00"
+   "peak_local": "15:00",
+   "meteo_4h": 29,
+   "err_4h": -1.0,
+   "snap_4h": "10:38"
   },
   {
    "city": "Lucknow",
@@ -6814,7 +7980,10 @@
    "meteo": 33,
    "actual": 33.0,
    "err": 0.0,
-   "peak_local": "17:00"
+   "peak_local": "17:00",
+   "meteo_4h": 33,
+   "err_4h": 0.0,
+   "snap_4h": "12:31"
   },
   {
    "city": "Ankara",
@@ -6827,7 +7996,10 @@
    "meteo": 35,
    "actual": 35.0,
    "err": 0.0,
-   "peak_local": "17:20"
+   "peak_local": "17:20",
+   "meteo_4h": 35,
+   "err_4h": 0.0,
+   "snap_4h": "12:50"
   },
   {
    "city": "Helsinki",
@@ -6853,7 +8025,10 @@
    "meteo": 28,
    "actual": 28.0,
    "err": 0.0,
-   "peak_local": "13:20"
+   "peak_local": "13:20",
+   "meteo_4h": 28,
+   "err_4h": 0.0,
+   "snap_4h": "08:38"
   },
   {
    "city": "Jeddah",
@@ -6866,7 +8041,10 @@
    "meteo": 40,
    "actual": 40.0,
    "err": 0.0,
-   "peak_local": "17:00"
+   "peak_local": "17:00",
+   "meteo_4h": 40,
+   "err_4h": 0.0,
+   "snap_4h": "12:27"
   },
   {
    "city": "Moscow",
@@ -6879,7 +8057,10 @@
    "meteo": 22,
    "actual": 23.0,
    "err": -1.0,
-   "peak_local": "15:00"
+   "peak_local": "15:00",
+   "meteo_4h": 22,
+   "err_4h": -1.0,
+   "snap_4h": "10:30"
   },
   {
    "city": "Tel Aviv",
@@ -6892,7 +8073,10 @@
    "meteo": 32,
    "actual": 32.0,
    "err": 0.0,
-   "peak_local": "15:20"
+   "peak_local": "15:20",
+   "meteo_4h": 32,
+   "err_4h": 0.0,
+   "snap_4h": "10:50"
   },
   {
    "city": "Amsterdam",
@@ -6905,7 +8089,10 @@
    "meteo": 20,
    "actual": 20.0,
    "err": 0.0,
-   "peak_local": "17:25"
+   "peak_local": "17:25",
+   "meteo_4h": 20,
+   "err_4h": 0.0,
+   "snap_4h": "12:39"
   },
   {
    "city": "Cape Town",
@@ -6918,7 +8105,10 @@
    "meteo": 19,
    "actual": 19.0,
    "err": 0.0,
-   "peak_local": "14:00"
+   "peak_local": "14:00",
+   "meteo_4h": 19,
+   "err_4h": 0.0,
+   "snap_4h": "09:30"
   },
   {
    "city": "Madrid",
@@ -6931,7 +8121,10 @@
    "meteo": 33,
    "actual": 34.0,
    "err": -1.0,
-   "peak_local": "18:30"
+   "peak_local": "18:30",
+   "meteo_4h": 33,
+   "err_4h": -1.0,
+   "snap_4h": "13:48"
   },
   {
    "city": "Milan",
@@ -6944,7 +8137,10 @@
    "meteo": 28,
    "actual": 28.0,
    "err": 0.0,
-   "peak_local": "19:20"
+   "peak_local": "19:20",
+   "meteo_4h": 28,
+   "err_4h": 0.0,
+   "snap_4h": "14:52"
   },
   {
    "city": "Munich",
@@ -6957,7 +8153,10 @@
    "meteo": 23,
    "actual": 23.0,
    "err": 0.0,
-   "peak_local": "18:20"
+   "peak_local": "18:20",
+   "meteo_4h": 23,
+   "err_4h": 0.0,
+   "snap_4h": "13:48"
   },
   {
    "city": "Paris",
@@ -6970,7 +8169,10 @@
    "meteo": 23,
    "actual": 24.0,
    "err": -1.0,
-   "peak_local": "18:30"
+   "peak_local": "18:30",
+   "meteo_4h": 23,
+   "err_4h": -1.0,
+   "snap_4h": "13:48"
   },
   {
    "city": "Warsaw",
@@ -6983,7 +8185,10 @@
    "meteo": 18,
    "actual": 19.0,
    "err": -1.0,
-   "peak_local": "17:00"
+   "peak_local": "17:00",
+   "meteo_4h": 18,
+   "err_4h": -1.0,
+   "snap_4h": "12:39"
   },
   {
    "city": "London",
@@ -6996,7 +8201,10 @@
    "meteo": 24,
    "actual": 24.0,
    "err": 0.0,
-   "peak_local": "17:20"
+   "peak_local": "17:20",
+   "meteo_4h": 24,
+   "err_4h": 0.0,
+   "snap_4h": "12:48"
   },
   {
    "city": "Jinan",
@@ -7009,7 +8217,10 @@
    "meteo": 37,
    "actual": 26.0,
    "err": 11.0,
-   "peak_local": "15:00"
+   "peak_local": "15:00",
+   "meteo_4h": 37,
+   "err_4h": 11.0,
+   "snap_4h": "10:39"
   },
   {
    "city": "Zhengzhou",
@@ -7022,7 +8233,10 @@
    "meteo": 34,
    "actual": 32.0,
    "err": 2.0,
-   "peak_local": "07:00"
+   "peak_local": "07:00",
+   "meteo_4h": 34,
+   "err_4h": 2.0,
+   "snap_4h": "02:31"
   },
   {
    "city": "Buenos Aires",
@@ -7035,7 +8249,10 @@
    "meteo": 12,
    "actual": 12.0,
    "err": 0.0,
-   "peak_local": "15:00"
+   "peak_local": "15:00",
+   "meteo_4h": 12,
+   "err_4h": 0.0,
+   "snap_4h": "10:28"
   },
   {
    "city": "Sao Paulo",
@@ -7048,7 +8265,10 @@
    "meteo": 24,
    "actual": 24.0,
    "err": 0.0,
-   "peak_local": "15:00"
+   "peak_local": "15:00",
+   "meteo_4h": 24,
+   "err_4h": 0.0,
+   "snap_4h": "10:28"
   },
   {
    "city": "Atlanta",
@@ -7061,7 +8281,10 @@
    "meteo": 91,
    "actual": 93.0,
    "err": -2.0,
-   "peak_local": "16:52"
+   "peak_local": "16:52",
+   "meteo_4h": 91,
+   "err_4h": -2.0,
+   "snap_4h": "11:49"
   },
   {
    "city": "Miami",
@@ -7074,7 +8297,10 @@
    "meteo": 91,
    "actual": 93.0,
    "err": -2.0,
-   "peak_local": "13:53"
+   "peak_local": "13:53",
+   "meteo_4h": 91,
+   "err_4h": -2.0,
+   "snap_4h": "09:28"
   },
   {
    "city": "Nyc",
@@ -7087,7 +8313,10 @@
    "meteo": 82,
    "actual": 83.0,
    "err": -1.0,
-   "peak_local": "17:51"
+   "peak_local": "17:51",
+   "meteo_4h": 82,
+   "err_4h": -1.0,
+   "snap_4h": "13:46"
   },
   {
    "city": "Toronto",
@@ -7100,7 +8329,10 @@
    "meteo": 20,
    "actual": 20.0,
    "err": 0.0,
-   "peak_local": "18:00"
+   "peak_local": "18:00",
+   "meteo_4h": 20,
+   "err_4h": 0.0,
+   "snap_4h": "13:46"
   },
   {
    "city": "Austin",
@@ -7113,7 +8345,10 @@
    "meteo": 104,
    "actual": 105.0,
    "err": -1.0,
-   "peak_local": "16:53"
+   "peak_local": "16:53",
+   "meteo_4h": 104,
+   "err_4h": -1.0,
+   "snap_4h": "12:46"
   },
   {
    "city": "Chicago",
@@ -7126,7 +8361,10 @@
    "meteo": 75,
    "actual": 77.0,
    "err": -2.0,
-   "peak_local": "16:51"
+   "peak_local": "16:51",
+   "meteo_4h": 75,
+   "err_4h": -2.0,
+   "snap_4h": "12:46"
   },
   {
    "city": "Dallas",
@@ -7139,7 +8377,10 @@
    "meteo": 108,
    "actual": 109.0,
    "err": -1.0,
-   "peak_local": "17:53"
+   "peak_local": "17:53",
+   "meteo_4h": 108,
+   "err_4h": -1.0,
+   "snap_4h": "12:46"
   },
   {
    "city": "Houston",
@@ -7152,7 +8393,10 @@
    "meteo": 99,
    "actual": 99.0,
    "err": 0.0,
-   "peak_local": "16:53"
+   "peak_local": "16:53",
+   "meteo_4h": 99,
+   "err_4h": 0.0,
+   "snap_4h": "12:46"
   },
   {
    "city": "Panama City",
@@ -7165,7 +8409,10 @@
    "meteo": 31,
    "actual": 31.0,
    "err": 0.0,
-   "peak_local": "16:00"
+   "peak_local": "16:00",
+   "meteo_4h": 31,
+   "err_4h": 0.0,
+   "snap_4h": "10:49"
   },
   {
    "city": "Denver",
@@ -7178,7 +8425,10 @@
    "meteo": 90,
    "actual": 93.0,
    "err": -3.0,
-   "peak_local": "14:58"
+   "peak_local": "14:58",
+   "meteo_4h": 90,
+   "err_4h": -3.0,
+   "snap_4h": "09:49"
   },
   {
    "city": "Mexico City",
@@ -7191,7 +8441,10 @@
    "meteo": 22,
    "actual": 22.0,
    "err": 0.0,
-   "peak_local": "15:45"
+   "peak_local": "15:45",
+   "meteo_4h": 22,
+   "err_4h": 0.0,
+   "snap_4h": "11:46"
   },
   {
    "city": "Los Angeles",
@@ -7204,7 +8457,10 @@
    "meteo": 82,
    "actual": 91.0,
    "err": -9.0,
-   "peak_local": "15:53"
+   "peak_local": "15:53",
+   "meteo_4h": 82,
+   "err_4h": -9.0,
+   "snap_4h": "10:46"
   },
   {
    "city": "San Francisco",
@@ -7217,7 +8473,10 @@
    "meteo": 75,
    "actual": 77.0,
    "err": -2.0,
-   "peak_local": "13:56"
+   "peak_local": "13:56",
+   "meteo_4h": 75,
+   "err_4h": -2.0,
+   "snap_4h": "08:49"
   },
   {
    "city": "Seattle",
@@ -7230,7 +8489,10 @@
    "meteo": 73,
    "actual": 75.0,
    "err": -2.0,
-   "peak_local": "16:53"
+   "peak_local": "16:53",
+   "meteo_4h": 72,
+   "err_4h": -3.0,
+   "snap_4h": "12:11"
   },
   {
    "city": "Wellington",
@@ -7243,7 +8505,10 @@
    "meteo": 14,
    "actual": 15.0,
    "err": -1.0,
-   "peak_local": "12:30"
+   "peak_local": "12:30",
+   "meteo_4h": 14,
+   "err_4h": -1.0,
+   "snap_4h": "08:24"
   },
   {
    "city": "Busan",
@@ -7256,7 +8521,10 @@
    "meteo": 34,
    "actual": 34.0,
    "err": 0.0,
-   "peak_local": "15:00"
+   "peak_local": "15:00",
+   "meteo_4h": 34,
+   "err_4h": 0.0,
+   "snap_4h": "10:56"
   },
   {
    "city": "Seoul",
@@ -7269,7 +8537,10 @@
    "meteo": 31,
    "actual": 31.0,
    "err": 0.0,
-   "peak_local": "16:30"
+   "peak_local": "16:30",
+   "meteo_4h": 31,
+   "err_4h": 0.0,
+   "snap_4h": "11:44"
   },
   {
    "city": "Tokyo",
@@ -7282,7 +8553,10 @@
    "meteo": 32,
    "actual": 33.0,
    "err": -1.0,
-   "peak_local": "12:00"
+   "peak_local": "12:00",
+   "meteo_4h": 32,
+   "err_4h": -1.0,
+   "snap_4h": "07:07"
   },
   {
    "city": "Beijing",
@@ -7295,7 +8569,10 @@
    "meteo": 32,
    "actual": 33.0,
    "err": -1.0,
-   "peak_local": "16:00"
+   "peak_local": "16:00",
+   "meteo_4h": 32,
+   "err_4h": -1.0,
+   "snap_4h": "11:36"
   },
   {
    "city": "Chengdu",
@@ -7308,7 +8585,10 @@
    "meteo": 37,
    "actual": 37.0,
    "err": 0.0,
-   "peak_local": "16:00"
+   "peak_local": "16:00",
+   "meteo_4h": 37,
+   "err_4h": 0.0,
+   "snap_4h": "11:36"
   },
   {
    "city": "Chongqing",
@@ -7321,7 +8601,10 @@
    "meteo": 37,
    "actual": 37.0,
    "err": 0.0,
-   "peak_local": "17:00"
+   "peak_local": "17:00",
+   "meteo_4h": 37,
+   "err_4h": 0.0,
+   "snap_4h": "11:59"
   },
   {
    "city": "Guangzhou",
@@ -7334,7 +8617,10 @@
    "meteo": 34,
    "actual": 34.0,
    "err": 0.0,
-   "peak_local": "16:30"
+   "peak_local": "16:30",
+   "meteo_4h": 34,
+   "err_4h": 0.0,
+   "snap_4h": "11:59"
   },
   {
    "city": "Hong Kong",
@@ -7347,7 +8633,10 @@
    "meteo": 33,
    "actual": 33.0,
    "err": 0.0,
-   "peak_local": "15:30"
+   "peak_local": "15:30",
+   "meteo_4h": 33,
+   "err_4h": 0.0,
+   "snap_4h": "10:44"
   },
   {
    "city": "Kuala Lumpur",
@@ -7360,7 +8649,10 @@
    "meteo": 33,
    "actual": 34.0,
    "err": -1.0,
-   "peak_local": "15:00"
+   "peak_local": "15:00",
+   "meteo_4h": 33,
+   "err_4h": -1.0,
+   "snap_4h": "10:44"
   },
   {
    "city": "Manila",
@@ -7373,7 +8665,10 @@
    "meteo": 32,
    "actual": 32.0,
    "err": 0.0,
-   "peak_local": "12:00"
+   "peak_local": "12:00",
+   "meteo_4h": 32,
+   "err_4h": 0.0,
+   "snap_4h": "07:41"
   },
   {
    "city": "Qingdao",
@@ -7386,7 +8681,10 @@
    "meteo": 31,
    "actual": 31.0,
    "err": 0.0,
-   "peak_local": "16:00"
+   "peak_local": "16:00",
+   "meteo_4h": 31,
+   "err_4h": 0.0,
+   "snap_4h": "11:36"
   },
   {
    "city": "Shanghai",
@@ -7399,7 +8697,10 @@
    "meteo": 32,
    "actual": 32.0,
    "err": 0.0,
-   "peak_local": "16:00"
+   "peak_local": "16:00",
+   "meteo_4h": 32,
+   "err_4h": 0.0,
+   "snap_4h": "11:36"
   },
   {
    "city": "Shenzhen",
@@ -7412,7 +8713,10 @@
    "meteo": 31,
    "actual": 31.0,
    "err": 0.0,
-   "peak_local": "19:00"
+   "peak_local": "19:00",
+   "meteo_4h": 31,
+   "err_4h": 0.0,
+   "snap_4h": "14:50"
   },
   {
    "city": "Singapore",
@@ -7425,7 +8729,10 @@
    "meteo": 33,
    "actual": 33.0,
    "err": 0.0,
-   "peak_local": "14:00"
+   "peak_local": "14:00",
+   "meteo_4h": 33,
+   "err_4h": 0.0,
+   "snap_4h": "09:56"
   },
   {
    "city": "Taipei",
@@ -7438,7 +8745,10 @@
    "meteo": 31,
    "actual": 31.0,
    "err": 0.0,
-   "peak_local": "10:30"
+   "peak_local": "10:30",
+   "meteo_4h": 32,
+   "err_4h": 1.0,
+   "snap_4h": "06:07"
   },
   {
    "city": "Wuhan",
@@ -7451,7 +8761,10 @@
    "meteo": 37,
    "actual": 37.0,
    "err": 0.0,
-   "peak_local": "16:00"
+   "peak_local": "16:00",
+   "meteo_4h": 37,
+   "err_4h": 0.0,
+   "snap_4h": "11:36"
   },
   {
    "city": "Karachi",
@@ -7464,7 +8777,10 @@
    "meteo": 33,
    "actual": 33.0,
    "err": 0.0,
-   "peak_local": "16:00"
+   "peak_local": "16:00",
+   "meteo_4h": 33,
+   "err_4h": 0.0,
+   "snap_4h": "11:50"
   },
   {
    "city": "Lucknow",
@@ -7477,7 +8793,10 @@
    "meteo": 33,
    "actual": 33.0,
    "err": 0.0,
-   "peak_local": "14:30"
+   "peak_local": "14:30",
+   "meteo_4h": 33,
+   "err_4h": 0.0,
+   "snap_4h": "09:59"
   },
   {
    "city": "Ankara",
@@ -7490,7 +8809,10 @@
    "meteo": 33,
    "actual": 33.0,
    "err": 0.0,
-   "peak_local": "15:50"
+   "peak_local": "15:50",
+   "meteo_4h": 33,
+   "err_4h": 0.0,
+   "snap_4h": "11:47"
   },
   {
    "city": "Helsinki",
@@ -7503,7 +8825,10 @@
    "meteo": 18,
    "actual": 18.0,
    "err": 0.0,
-   "peak_local": "15:50"
+   "peak_local": "15:50",
+   "meteo_4h": 18,
+   "err_4h": 0.0,
+   "snap_4h": "11:47"
   },
   {
    "city": "Istanbul",
@@ -7516,7 +8841,10 @@
    "meteo": 28,
    "actual": 28.0,
    "err": 0.0,
-   "peak_local": "16:20"
+   "peak_local": "16:20",
+   "meteo_4h": 28,
+   "err_4h": 0.0,
+   "snap_4h": "11:47"
   },
   {
    "city": "Jeddah",
@@ -7529,7 +8857,10 @@
    "meteo": 38,
    "actual": 38.0,
    "err": 0.0,
-   "peak_local": "15:00"
+   "peak_local": "15:00",
+   "meteo_4h": 38,
+   "err_4h": 0.0,
+   "snap_4h": "10:47"
   },
   {
    "city": "Moscow",
@@ -7542,7 +8873,10 @@
    "meteo": 19,
    "actual": 20.0,
    "err": -1.0,
-   "peak_local": "15:00"
+   "peak_local": "15:00",
+   "meteo_4h": 19,
+   "err_4h": -1.0,
+   "snap_4h": "10:47"
   },
   {
    "city": "Tel Aviv",
@@ -7555,7 +8889,10 @@
    "meteo": 32,
    "actual": 33.0,
    "err": -1.0,
-   "peak_local": "14:20"
+   "peak_local": "14:20",
+   "meteo_4h": 32,
+   "err_4h": -1.0,
+   "snap_4h": "09:50"
   },
   {
    "city": "Amsterdam",
@@ -7568,7 +8905,10 @@
    "meteo": 21,
    "actual": 21.0,
    "err": 0.0,
-   "peak_local": "18:25"
+   "peak_local": "18:25",
+   "meteo_4h": 21,
+   "err_4h": 0.0,
+   "snap_4h": "14:00"
   },
   {
    "city": "Cape Town",
@@ -7581,7 +8921,10 @@
    "meteo": 18,
    "actual": 18.0,
    "err": 0.0,
-   "peak_local": "14:00"
+   "peak_local": "14:00",
+   "meteo_4h": 18,
+   "err_4h": 0.0,
+   "snap_4h": "09:47"
   },
   {
    "city": "Madrid",
@@ -7594,7 +8937,10 @@
    "meteo": 29,
    "actual": 29.0,
    "err": 0.0,
-   "peak_local": "18:30"
+   "peak_local": "18:30",
+   "meteo_4h": 29,
+   "err_4h": 0.0,
+   "snap_4h": "14:00"
   },
   {
    "city": "Milan",
@@ -7607,7 +8953,10 @@
    "meteo": 29,
    "actual": 29.0,
    "err": 0.0,
-   "peak_local": "18:50"
+   "peak_local": "18:50",
+   "meteo_4h": 29,
+   "err_4h": 0.0,
+   "snap_4h": "14:39"
   },
   {
    "city": "Munich",
@@ -7620,7 +8969,10 @@
    "meteo": 23,
    "actual": 24.0,
    "err": -1.0,
-   "peak_local": "17:20"
+   "peak_local": "17:20",
+   "meteo_4h": 23,
+   "err_4h": -1.0,
+   "snap_4h": "12:51"
   },
   {
    "city": "Paris",
@@ -7633,7 +8985,10 @@
    "meteo": 27,
    "actual": 27.0,
    "err": 0.0,
-   "peak_local": "18:00"
+   "peak_local": "18:00",
+   "meteo_4h": 27,
+   "err_4h": 0.0,
+   "snap_4h": "13:36"
   },
   {
    "city": "Warsaw",
@@ -7646,7 +9001,10 @@
    "meteo": 18,
    "actual": 18.0,
    "err": 0.0,
-   "peak_local": "18:30"
+   "peak_local": "18:30",
+   "meteo_4h": 18,
+   "err_4h": 0.0,
+   "snap_4h": "14:00"
   },
   {
    "city": "London",
@@ -7659,7 +9017,10 @@
    "meteo": 22,
    "actual": 22.0,
    "err": 0.0,
-   "peak_local": "14:50"
+   "peak_local": "14:50",
+   "meteo_4h": 22,
+   "err_4h": 0.0,
+   "snap_4h": "10:38"
   },
   {
    "city": "Jinan",
@@ -7672,7 +9033,10 @@
    "meteo": 33,
    "actual": 26.0,
    "err": 7.0,
-   "peak_local": "15:00"
+   "peak_local": "15:00",
+   "meteo_4h": 33,
+   "err_4h": 7.0,
+   "snap_4h": "10:51"
   },
   {
    "city": "Zhengzhou",
@@ -7685,7 +9049,10 @@
    "meteo": 33,
    "actual": 32.0,
    "err": 1.0,
-   "peak_local": "09:00"
+   "peak_local": "09:00",
+   "meteo_4h": 33,
+   "err_4h": 1.0,
+   "snap_4h": "03:59"
   },
   {
    "city": "Buenos Aires",
@@ -7698,7 +9065,10 @@
    "meteo": 11,
    "actual": 13.0,
    "err": -2.0,
-   "peak_local": "16:00"
+   "peak_local": "16:00",
+   "meteo_4h": 11,
+   "err_4h": -2.0,
+   "snap_4h": "11:34"
   },
   {
    "city": "Sao Paulo",
@@ -7711,7 +9081,10 @@
    "meteo": 18,
    "actual": 18.0,
    "err": 0.0,
-   "peak_local": "12:00"
+   "peak_local": "12:00",
+   "meteo_4h": 18,
+   "err_4h": 0.0,
+   "snap_4h": "07:51"
   },
   {
    "city": "Atlanta",
@@ -7724,7 +9097,10 @@
    "meteo": 91,
    "actual": 91.0,
    "err": 0.0,
-   "peak_local": "17:52"
+   "peak_local": "17:52",
+   "meteo_4h": 91,
+   "err_4h": 0.0,
+   "snap_4h": "13:41"
   },
   {
    "city": "Austin",
@@ -7737,7 +9113,10 @@
    "meteo": 104,
    "actual": 105.0,
    "err": -1.0,
-   "peak_local": "16:53"
+   "peak_local": "16:53",
+   "meteo_4h": 104,
+   "err_4h": -1.0,
+   "snap_4h": "12:41"
   },
   {
    "city": "Chicago",
@@ -7750,7 +9129,10 @@
    "meteo": 79,
    "actual": 79.0,
    "err": 0.0,
-   "peak_local": "16:51"
+   "peak_local": "16:51",
+   "meteo_4h": 79,
+   "err_4h": 0.0,
+   "snap_4h": "12:41"
   },
   {
    "city": "Dallas",
@@ -7763,7 +9145,10 @@
    "meteo": 108,
    "actual": 107.0,
    "err": 1.0,
-   "peak_local": "17:53"
+   "peak_local": "17:53",
+   "meteo_4h": 108,
+   "err_4h": 1.0,
+   "snap_4h": "12:41"
   },
   {
    "city": "Houston",
@@ -7776,7 +9161,10 @@
    "meteo": 99,
    "actual": 99.0,
    "err": 0.0,
-   "peak_local": "16:53"
+   "peak_local": "16:53",
+   "meteo_4h": 99,
+   "err_4h": 0.0,
+   "snap_4h": "12:41"
   },
   {
    "city": "Miami",
@@ -7789,7 +9177,10 @@
    "meteo": 91,
    "actual": 91.0,
    "err": 0.0,
-   "peak_local": "15:53"
+   "peak_local": "15:53",
+   "meteo_4h": 91,
+   "err_4h": 0.0,
+   "snap_4h": "11:29"
   },
   {
    "city": "Nyc",
@@ -7802,7 +9193,10 @@
    "meteo": 81,
    "actual": 81.0,
    "err": 0.0,
-   "peak_local": "16:51"
+   "peak_local": "16:51",
+   "meteo_4h": 81,
+   "err_4h": 0.0,
+   "snap_4h": "11:50"
   },
   {
    "city": "Panama City",
@@ -7815,7 +9209,10 @@
    "meteo": 32,
    "actual": 32.0,
    "err": 0.0,
-   "peak_local": "12:00"
+   "peak_local": "12:00",
+   "meteo_4h": 32,
+   "err_4h": 0.0,
+   "snap_4h": "07:39"
   },
   {
    "city": "Toronto",
@@ -7828,7 +9225,10 @@
    "meteo": 22,
    "actual": 22.0,
    "err": 0.0,
-   "peak_local": "16:00"
+   "peak_local": "16:00",
+   "meteo_4h": 22,
+   "err_4h": 0.0,
+   "snap_4h": "11:29"
   },
   {
    "city": "Denver",
@@ -7841,7 +9241,10 @@
    "meteo": 90,
    "actual": 93.0,
    "err": -3.0,
-   "peak_local": "13:58"
+   "peak_local": "13:58",
+   "meteo_4h": 90,
+   "err_4h": -3.0,
+   "snap_4h": "09:29"
   },
   {
    "city": "Mexico City",
@@ -7854,7 +9257,10 @@
    "meteo": 20,
    "actual": 20.0,
    "err": 0.0,
-   "peak_local": "15:45"
+   "peak_local": "15:45",
+   "meteo_4h": 20,
+   "err_4h": 0.0,
+   "snap_4h": "11:41"
   },
   {
    "city": "Los Angeles",
@@ -7867,7 +9273,10 @@
    "meteo": 82,
    "actual": 83.0,
    "err": -1.0,
-   "peak_local": "15:53"
+   "peak_local": "15:53",
+   "meteo_4h": 82,
+   "err_4h": -1.0,
+   "snap_4h": "10:41"
   },
   {
    "city": "San Francisco",
@@ -7880,7 +9289,10 @@
    "meteo": 72,
    "actual": 71.0,
    "err": 1.0,
-   "peak_local": "12:56"
+   "peak_local": "12:56",
+   "meteo_4h": 72,
+   "err_4h": 1.0,
+   "snap_4h": "08:29"
   },
   {
    "city": "Seattle",
@@ -7893,7 +9305,10 @@
    "meteo": 79,
    "actual": 81.0,
    "err": -2.0,
-   "peak_local": "16:53"
+   "peak_local": "16:53",
+   "meteo_4h": 79,
+   "err_4h": -2.0,
+   "snap_4h": "12:06"
   },
   {
    "city": "Wellington",
@@ -7906,7 +9321,10 @@
    "meteo": 17,
    "actual": 17.0,
    "err": 0.0,
-   "peak_local": "14:00"
+   "peak_local": "14:00",
+   "meteo_4h": 17,
+   "err_4h": 0.0,
+   "snap_4h": "09:38"
   },
   {
    "city": "Busan",
@@ -7919,7 +9337,10 @@
    "meteo": 35,
    "actual": 35.0,
    "err": 0.0,
-   "peak_local": "15:00"
+   "peak_local": "15:00",
+   "meteo_4h": 35,
+   "err_4h": 0.0,
+   "snap_4h": "10:43"
   },
   {
    "city": "Seoul",
@@ -7932,7 +9353,10 @@
    "meteo": 31,
    "actual": 31.0,
    "err": 0.0,
-   "peak_local": "13:30"
+   "peak_local": "13:30",
+   "meteo_4h": 31,
+   "err_4h": 0.0,
+   "snap_4h": "08:51"
   },
   {
    "city": "Tokyo",
@@ -7945,7 +9369,10 @@
    "meteo": 33,
    "actual": 34.0,
    "err": -1.0,
-   "peak_local": "14:00"
+   "peak_local": "14:00",
+   "meteo_4h": 33,
+   "err_4h": -1.0,
+   "snap_4h": "09:52"
   },
   {
    "city": "Beijing",
@@ -7958,7 +9385,10 @@
    "meteo": 31,
    "actual": 31.0,
    "err": 0.0,
-   "peak_local": "14:30"
+   "peak_local": "14:30",
+   "meteo_4h": 31,
+   "err_4h": 0.0,
+   "snap_4h": "09:43"
   },
   {
    "city": "Chengdu",
@@ -7971,7 +9401,10 @@
    "meteo": 36,
    "actual": 36.0,
    "err": 0.0,
-   "peak_local": "18:00"
+   "peak_local": "18:00",
+   "meteo_4h": 36,
+   "err_4h": 0.0,
+   "snap_4h": "13:56"
   },
   {
    "city": "Chongqing",
@@ -7984,7 +9417,10 @@
    "meteo": 38,
    "actual": 38.0,
    "err": 0.0,
-   "peak_local": "16:00"
+   "peak_local": "16:00",
+   "meteo_4h": 38,
+   "err_4h": 0.0,
+   "snap_4h": "11:36"
   },
   {
    "city": "Guangzhou",
@@ -7997,7 +9433,10 @@
    "meteo": 33,
    "actual": 33.0,
    "err": 0.0,
-   "peak_local": "15:00"
+   "peak_local": "15:00",
+   "meteo_4h": 33,
+   "err_4h": 0.0,
+   "snap_4h": "10:40"
   },
   {
    "city": "Hong Kong",
@@ -8010,7 +9449,10 @@
    "meteo": 32,
    "actual": 31.0,
    "err": 1.0,
-   "peak_local": "10:30"
+   "peak_local": "10:30",
+   "meteo_4h": 32,
+   "err_4h": 1.0,
+   "snap_4h": "05:38"
   },
   {
    "city": "Kuala Lumpur",
@@ -8023,7 +9465,10 @@
    "meteo": 32,
    "actual": 32.0,
    "err": 0.0,
-   "peak_local": "16:30"
+   "peak_local": "16:30",
+   "meteo_4h": 32,
+   "err_4h": 0.0,
+   "snap_4h": "12:00"
   },
   {
    "city": "Manila",
@@ -8036,7 +9481,10 @@
    "meteo": 31,
    "actual": 31.0,
    "err": 0.0,
-   "peak_local": "14:00"
+   "peak_local": "14:00",
+   "meteo_4h": 31,
+   "err_4h": 0.0,
+   "snap_4h": "09:43"
   },
   {
    "city": "Qingdao",
@@ -8049,7 +9497,10 @@
    "meteo": 32,
    "actual": 32.0,
    "err": 0.0,
-   "peak_local": "14:00"
+   "peak_local": "14:00",
+   "meteo_4h": 32,
+   "err_4h": 0.0,
+   "snap_4h": "09:43"
   },
   {
    "city": "Shanghai",
@@ -8062,7 +9513,10 @@
    "meteo": 31,
    "actual": 31.0,
    "err": 0.0,
-   "peak_local": "15:30"
+   "peak_local": "15:30",
+   "meteo_4h": 31,
+   "err_4h": 0.0,
+   "snap_4h": "10:40"
   },
   {
    "city": "Shenzhen",
@@ -8075,7 +9529,10 @@
    "meteo": 32,
    "actual": 32.0,
    "err": 0.0,
-   "peak_local": "15:00"
+   "peak_local": "15:00",
+   "meteo_4h": 32,
+   "err_4h": 0.0,
+   "snap_4h": "10:40"
   },
   {
    "city": "Singapore",
@@ -8088,7 +9545,10 @@
    "meteo": 33,
    "actual": 33.0,
    "err": 0.0,
-   "peak_local": "16:30"
+   "peak_local": "16:30",
+   "meteo_4h": 33,
+   "err_4h": 0.0,
+   "snap_4h": "12:00"
   },
   {
    "city": "Taipei",
@@ -8101,7 +9561,10 @@
    "meteo": 30,
    "actual": 30.0,
    "err": 0.0,
-   "peak_local": "12:30"
+   "peak_local": "12:30",
+   "meteo_4h": 30,
+   "err_4h": 0.0,
+   "snap_4h": "07:51"
   },
   {
    "city": "Wuhan",
@@ -8114,7 +9577,10 @@
    "meteo": 37,
    "actual": 37.0,
    "err": 0.0,
-   "peak_local": "17:00"
+   "peak_local": "17:00",
+   "meteo_4h": 37,
+   "err_4h": 0.0,
+   "snap_4h": "12:00"
   },
   {
    "city": "Karachi",
@@ -8127,7 +9593,10 @@
    "meteo": 33,
    "actual": 33.0,
    "err": 0.0,
-   "peak_local": "13:30"
+   "peak_local": "13:30",
+   "meteo_4h": 33,
+   "err_4h": 0.0,
+   "snap_4h": "09:00"
   },
   {
    "city": "Lucknow",
@@ -8140,7 +9609,10 @@
    "meteo": 29,
    "actual": 30.0,
    "err": -1.0,
-   "peak_local": "15:00"
+   "peak_local": "15:00",
+   "meteo_4h": 29,
+   "err_4h": -1.0,
+   "snap_4h": "10:00"
   },
   {
    "city": "Ankara",
@@ -8153,7 +9625,10 @@
    "meteo": 30,
    "actual": 30.0,
    "err": 0.0,
-   "peak_local": "17:20"
+   "peak_local": "17:20",
+   "meteo_4h": 30,
+   "err_4h": 0.0,
+   "snap_4h": "12:38"
   },
   {
    "city": "Helsinki",
@@ -8166,7 +9641,10 @@
    "meteo": 19,
    "actual": 19.0,
    "err": 0.0,
-   "peak_local": "18:50"
+   "peak_local": "18:50",
+   "meteo_4h": 19,
+   "err_4h": 0.0,
+   "snap_4h": "14:39"
   },
   {
    "city": "Istanbul",
@@ -8179,7 +9657,10 @@
    "meteo": 28,
    "actual": 28.0,
    "err": 0.0,
-   "peak_local": "16:50"
+   "peak_local": "16:50",
+   "meteo_4h": 28,
+   "err_4h": 0.0,
+   "snap_4h": "12:38"
   },
   {
    "city": "Jeddah",
@@ -8192,7 +9673,10 @@
    "meteo": 36,
    "actual": 36.0,
    "err": 0.0,
-   "peak_local": "17:00"
+   "peak_local": "17:00",
+   "meteo_4h": 36,
+   "err_4h": 0.0,
+   "snap_4h": "12:38"
   },
   {
    "city": "Moscow",
@@ -8205,7 +9689,10 @@
    "meteo": 16,
    "actual": 17.0,
    "err": -1.0,
-   "peak_local": "15:00"
+   "peak_local": "15:00",
+   "meteo_4h": 16,
+   "err_4h": -1.0,
+   "snap_4h": "10:51"
   },
   {
    "city": "Tel Aviv",
@@ -8218,7 +9705,10 @@
    "meteo": 33,
    "actual": 33.0,
    "err": 0.0,
-   "peak_local": "13:50"
+   "peak_local": "13:50",
+   "meteo_4h": 33,
+   "err_4h": 0.0,
+   "snap_4h": "08:56"
   },
   {
    "city": "Amsterdam",
@@ -8231,7 +9721,10 @@
    "meteo": 25,
    "actual": 25.0,
    "err": 0.0,
-   "peak_local": "17:55"
+   "peak_local": "17:55",
+   "meteo_4h": 25,
+   "err_4h": 0.0,
+   "snap_4h": "13:39"
   },
   {
    "city": "Cape Town",
@@ -8244,7 +9737,10 @@
    "meteo": 22,
    "actual": 22.0,
    "err": 0.0,
-   "peak_local": "16:00"
+   "peak_local": "16:00",
+   "meteo_4h": 22,
+   "err_4h": 0.0,
+   "snap_4h": "11:38"
   },
   {
    "city": "Madrid",
@@ -8257,7 +9753,10 @@
    "meteo": 28,
    "actual": 28.0,
    "err": 0.0,
-   "peak_local": "19:00"
+   "peak_local": "19:00",
+   "meteo_4h": 28,
+   "err_4h": 0.0,
+   "snap_4h": "14:38"
   },
   {
    "city": "Milan",
@@ -8270,7 +9769,10 @@
    "meteo": 28,
    "actual": 28.0,
    "err": 0.0,
-   "peak_local": "17:50"
+   "peak_local": "17:50",
+   "meteo_4h": 28,
+   "err_4h": 0.0,
+   "snap_4h": "13:39"
   },
   {
    "city": "Munich",
@@ -8283,7 +9785,10 @@
    "meteo": 17,
    "actual": 17.0,
    "err": 0.0,
-   "peak_local": "18:50"
+   "peak_local": "18:50",
+   "meteo_4h": 17,
+   "err_4h": 0.0,
+   "snap_4h": "14:38"
   },
   {
    "city": "Paris",
@@ -8296,7 +9801,10 @@
    "meteo": 28,
    "actual": 29.0,
    "err": -1.0,
-   "peak_local": "18:00"
+   "peak_local": "18:00",
+   "meteo_4h": 28,
+   "err_4h": -1.0,
+   "snap_4h": "13:39"
   },
   {
    "city": "Warsaw",
@@ -8309,7 +9817,10 @@
    "meteo": 22,
    "actual": 22.0,
    "err": 0.0,
-   "peak_local": "17:30"
+   "peak_local": "17:30",
+   "meteo_4h": 22,
+   "err_4h": 0.0,
+   "snap_4h": "12:49"
   },
   {
    "city": "London",
@@ -8322,7 +9833,10 @@
    "meteo": 24,
    "actual": 24.0,
    "err": 0.0,
-   "peak_local": "16:50"
+   "peak_local": "16:50",
+   "meteo_4h": 24,
+   "err_4h": 0.0,
+   "snap_4h": "12:39"
   },
   {
    "city": "Jinan",
@@ -8335,7 +9849,10 @@
    "meteo": 35,
    "actual": 26.0,
    "err": 9.0,
-   "peak_local": "16:00"
+   "peak_local": "16:00",
+   "meteo_4h": 35,
+   "err_4h": 9.0,
+   "snap_4h": "11:39"
   },
   {
    "city": "Zhengzhou",
@@ -8348,7 +9865,10 @@
    "meteo": 34,
    "actual": 32.0,
    "err": 2.0,
-   "peak_local": "08:00"
+   "peak_local": "08:00",
+   "meteo_4h": 34,
+   "err_4h": 2.0,
+   "snap_4h": "03:36"
   },
   {
    "city": "Buenos Aires",
@@ -8361,7 +9881,10 @@
    "meteo": 14,
    "actual": 14.0,
    "err": 0.0,
-   "peak_local": "17:00"
+   "peak_local": "17:00",
+   "meteo_4h": 13,
+   "err_4h": -1.0,
+   "snap_4h": "12:31"
   },
   {
    "city": "Sao Paulo",
@@ -8374,7 +9897,10 @@
    "meteo": 19,
    "actual": 19.0,
    "err": 0.0,
-   "peak_local": "15:00"
+   "peak_local": "15:00",
+   "meteo_4h": 19,
+   "err_4h": 0.0,
+   "snap_4h": "10:36"
   },
   {
    "city": "Atlanta",
@@ -8387,7 +9913,10 @@
    "meteo": 91,
    "actual": 93.0,
    "err": -2.0,
-   "peak_local": "16:52"
+   "peak_local": "16:52",
+   "meteo_4h": 91,
+   "err_4h": -2.0,
+   "snap_4h": "11:52"
   },
   {
    "city": "Miami",
@@ -8400,7 +9929,10 @@
    "meteo": 91,
    "actual": 93.0,
    "err": -2.0,
-   "peak_local": "11:53"
+   "peak_local": "11:53",
+   "meteo_4h": 91,
+   "err_4h": -2.0,
+   "snap_4h": "07:39"
   },
   {
    "city": "Nyc",
@@ -8413,7 +9945,10 @@
    "meteo": 79,
    "actual": 79.0,
    "err": 0.0,
-   "peak_local": "17:51"
+   "peak_local": "17:51",
+   "meteo_4h": 79,
+   "err_4h": 0.0,
+   "snap_4h": "13:46"
   },
   {
    "city": "Toronto",
@@ -8426,7 +9961,10 @@
    "meteo": 25,
    "actual": 25.0,
    "err": 0.0,
-   "peak_local": "15:00"
+   "peak_local": "15:00",
+   "meteo_4h": 25,
+   "err_4h": 0.0,
+   "snap_4h": "10:35"
   },
   {
    "city": "Austin",
@@ -8439,7 +9977,10 @@
    "meteo": 102,
    "actual": 103.0,
    "err": -1.0,
-   "peak_local": "17:53"
+   "peak_local": "17:53",
+   "meteo_4h": 102,
+   "err_4h": -1.0,
+   "snap_4h": "12:46"
   },
   {
    "city": "Chicago",
@@ -8452,7 +9993,10 @@
    "meteo": 81,
    "actual": 81.0,
    "err": 0.0,
-   "peak_local": "16:51"
+   "peak_local": "16:51",
+   "meteo_4h": 81,
+   "err_4h": 0.0,
+   "snap_4h": "12:46"
   },
   {
    "city": "Dallas",
@@ -8465,7 +10009,10 @@
    "meteo": 100,
    "actual": 101.0,
    "err": -1.0,
-   "peak_local": "17:53"
+   "peak_local": "17:53",
+   "meteo_4h": 100,
+   "err_4h": -1.0,
+   "snap_4h": "12:46"
   },
   {
    "city": "Houston",
@@ -8478,7 +10025,10 @@
    "meteo": 97,
    "actual": 97.0,
    "err": 0.0,
-   "peak_local": "15:53"
+   "peak_local": "15:53",
+   "meteo_4h": 97,
+   "err_4h": 0.0,
+   "snap_4h": "10:52"
   },
   {
    "city": "Panama City",
@@ -8491,7 +10041,10 @@
    "meteo": 32,
    "actual": 33.0,
    "err": -1.0,
-   "peak_local": "13:00"
+   "peak_local": "13:00",
+   "meteo_4h": 32,
+   "err_4h": -1.0,
+   "snap_4h": "08:36"
   },
   {
    "city": "Denver",
@@ -8504,7 +10057,10 @@
    "meteo": 82,
    "actual": 83.0,
    "err": -1.0,
-   "peak_local": "16:58"
+   "peak_local": "16:58",
+   "meteo_4h": 82,
+   "err_4h": -1.0,
+   "snap_4h": "11:46"
   },
   {
    "city": "Mexico City",
@@ -8517,7 +10073,10 @@
    "meteo": 22,
    "actual": 22.0,
    "err": 0.0,
-   "peak_local": "15:45"
+   "peak_local": "15:45",
+   "meteo_4h": 22,
+   "err_4h": 0.0,
+   "snap_4h": "11:46"
   },
   {
    "city": "Los Angeles",
@@ -8530,7 +10089,10 @@
    "meteo": 84,
    "actual": 85.0,
    "err": -1.0,
-   "peak_local": "10:53"
+   "peak_local": "10:53",
+   "meteo_4h": 84,
+   "err_4h": -1.0,
+   "snap_4h": "06:36"
   },
   {
    "city": "San Francisco",
@@ -8543,7 +10105,10 @@
    "meteo": 66,
    "actual": 67.0,
    "err": -1.0,
-   "peak_local": "16:56"
+   "peak_local": "16:56",
+   "meteo_4h": 66,
+   "err_4h": -1.0,
+   "snap_4h": "12:13"
   },
   {
    "city": "Seattle",
@@ -8556,7 +10121,10 @@
    "meteo": 84,
    "actual": 85.0,
    "err": -1.0,
-   "peak_local": "14:53"
+   "peak_local": "14:53",
+   "meteo_4h": 84,
+   "err_4h": -1.0,
+   "snap_4h": "10:46"
   },
   {
    "city": "Busan",
@@ -8569,7 +10137,10 @@
    "meteo": 34,
    "actual": 34.0,
    "err": 0.0,
-   "peak_local": "16:00"
+   "peak_local": "16:00",
+   "meteo_4h": 34,
+   "err_4h": 0.0,
+   "snap_4h": "11:42"
   },
   {
    "city": "Seoul",
@@ -8582,7 +10153,10 @@
    "meteo": 29,
    "actual": 30.0,
    "err": -1.0,
-   "peak_local": "16:00"
+   "peak_local": "16:00",
+   "meteo_4h": 29,
+   "err_4h": -1.0,
+   "snap_4h": "11:42"
   },
   {
    "city": "Tokyo",
@@ -8595,7 +10169,10 @@
    "meteo": 33,
    "actual": 33.0,
    "err": 0.0,
-   "peak_local": "13:30"
+   "peak_local": "13:30",
+   "meteo_4h": 33,
+   "err_4h": 0.0,
+   "snap_4h": "08:54"
   },
   {
    "city": "Beijing",
@@ -8608,7 +10185,10 @@
    "meteo": 28,
    "actual": 28.0,
    "err": 0.0,
-   "peak_local": "16:00"
+   "peak_local": "16:00",
+   "meteo_4h": 28,
+   "err_4h": 0.0,
+   "snap_4h": "11:37"
   },
   {
    "city": "Chengdu",
@@ -8621,7 +10201,10 @@
    "meteo": 36,
    "actual": 36.0,
    "err": 0.0,
-   "peak_local": "15:00"
+   "peak_local": "15:00",
+   "meteo_4h": 36,
+   "err_4h": 0.0,
+   "snap_4h": "10:42"
   },
   {
    "city": "Chongqing",
@@ -8634,7 +10217,10 @@
    "meteo": 38,
    "actual": 38.0,
    "err": 0.0,
-   "peak_local": "17:00"
+   "peak_local": "17:00",
+   "meteo_4h": 38,
+   "err_4h": 0.0,
+   "snap_4h": "13:05"
   },
   {
    "city": "Guangzhou",
@@ -8647,7 +10233,10 @@
    "meteo": 31,
    "actual": 31.0,
    "err": 0.0,
-   "peak_local": "14:30"
+   "peak_local": "14:30",
+   "meteo_4h": 31,
+   "err_4h": 0.0,
+   "snap_4h": "10:42"
   },
   {
    "city": "Hong Kong",
@@ -8660,7 +10249,10 @@
    "meteo": 31,
    "actual": 29.0,
    "err": 2.0,
-   "peak_local": "13:38"
+   "peak_local": "13:38",
+   "meteo_4h": 31,
+   "err_4h": 2.0,
+   "snap_4h": "08:53"
   },
   {
    "city": "Kuala Lumpur",
@@ -8673,7 +10265,10 @@
    "meteo": 32,
    "actual": 32.0,
    "err": 0.0,
-   "peak_local": "15:00"
+   "peak_local": "15:00",
+   "meteo_4h": 32,
+   "err_4h": 0.0,
+   "snap_4h": "10:42"
   },
   {
    "city": "Manila",
@@ -8686,7 +10281,10 @@
    "meteo": 32,
    "actual": 32.0,
    "err": 0.0,
-   "peak_local": "14:00"
+   "peak_local": "14:00",
+   "meteo_4h": 32,
+   "err_4h": 0.0,
+   "snap_4h": "08:53"
   },
   {
    "city": "Qingdao",
@@ -8699,7 +10297,10 @@
    "meteo": 32,
    "actual": 32.0,
    "err": 0.0,
-   "peak_local": "16:00"
+   "peak_local": "16:00",
+   "meteo_4h": 32,
+   "err_4h": 0.0,
+   "snap_4h": "11:37"
   },
   {
    "city": "Shanghai",
@@ -8712,7 +10313,10 @@
    "meteo": 32,
    "actual": 32.0,
    "err": 0.0,
-   "peak_local": "15:00"
+   "peak_local": "15:00",
+   "meteo_4h": 32,
+   "err_4h": 0.0,
+   "snap_4h": "10:42"
   },
   {
    "city": "Shenzhen",
@@ -8725,7 +10329,10 @@
    "meteo": 31,
    "actual": 31.0,
    "err": 0.0,
-   "peak_local": "14:00"
+   "peak_local": "14:00",
+   "meteo_4h": 31,
+   "err_4h": 0.0,
+   "snap_4h": "08:53"
   },
   {
    "city": "Singapore",
@@ -8738,7 +10345,10 @@
    "meteo": 31,
    "actual": 31.0,
    "err": 0.0,
-   "peak_local": "12:00"
+   "peak_local": "12:00",
+   "meteo_4h": 31,
+   "err_4h": 0.0,
+   "snap_4h": "07:54"
   },
   {
    "city": "Taipei",
@@ -8751,7 +10361,10 @@
    "meteo": 31,
    "actual": 32.0,
    "err": -1.0,
-   "peak_local": "15:30"
+   "peak_local": "15:30",
+   "meteo_4h": 31,
+   "err_4h": -1.0,
+   "snap_4h": "10:42"
   },
   {
    "city": "Wuhan",
@@ -8764,7 +10377,10 @@
    "meteo": 37,
    "actual": 37.0,
    "err": 0.0,
-   "peak_local": "17:00"
+   "peak_local": "17:00",
+   "meteo_4h": 37,
+   "err_4h": 0.0,
+   "snap_4h": "13:05"
   },
   {
    "city": "Karachi",
@@ -8777,7 +10393,10 @@
    "meteo": 33,
    "actual": 33.0,
    "err": 0.0,
-   "peak_local": "14:30"
+   "peak_local": "14:30",
+   "meteo_4h": 33,
+   "err_4h": 0.0,
+   "snap_4h": "10:05"
   },
   {
    "city": "Lucknow",
@@ -8790,7 +10409,10 @@
    "meteo": 32,
    "actual": 32.0,
    "err": 0.0,
-   "peak_local": "15:30"
+   "peak_local": "15:30",
+   "meteo_4h": 32,
+   "err_4h": 0.0,
+   "snap_4h": "11:05"
   },
   {
    "city": "Ankara",
@@ -8803,7 +10425,10 @@
    "meteo": 33,
    "actual": 33.0,
    "err": 0.0,
-   "peak_local": "17:20"
+   "peak_local": "17:20",
+   "meteo_4h": 33,
+   "err_4h": 0.0,
+   "snap_4h": "13:20"
   },
   {
    "city": "Helsinki",
@@ -8816,7 +10441,10 @@
    "meteo": 21,
    "actual": 21.0,
    "err": 0.0,
-   "peak_local": "14:50"
+   "peak_local": "14:50",
+   "meteo_4h": 21,
+   "err_4h": 0.0,
+   "snap_4h": "09:52"
   },
   {
    "city": "Istanbul",
@@ -8829,7 +10457,10 @@
    "meteo": 27,
    "actual": 28.0,
    "err": -1.0,
-   "peak_local": "13:20"
+   "peak_local": "13:20",
+   "meteo_4h": 27,
+   "err_4h": -1.0,
+   "snap_4h": "09:01"
   },
   {
    "city": "Jeddah",
@@ -8842,7 +10473,10 @@
    "meteo": 37,
    "actual": 37.0,
    "err": 0.0,
-   "peak_local": "21:00"
+   "peak_local": "21:00",
+   "meteo_4h": 37,
+   "err_4h": 0.0,
+   "snap_4h": "15:43"
   },
   {
    "city": "Moscow",
@@ -8855,7 +10489,10 @@
    "meteo": 17,
    "actual": 17.0,
    "err": 0.0,
-   "peak_local": "16:30"
+   "peak_local": "16:30",
+   "meteo_4h": 17,
+   "err_4h": 0.0,
+   "snap_4h": "11:24"
   },
   {
    "city": "Tel Aviv",
@@ -8868,7 +10505,10 @@
    "meteo": 33,
    "actual": 33.0,
    "err": 0.0,
-   "peak_local": "14:20"
+   "peak_local": "14:20",
+   "meteo_4h": 33,
+   "err_4h": 0.0,
+   "snap_4h": "09:52"
   },
   {
    "city": "Amsterdam",
@@ -8881,7 +10521,10 @@
    "meteo": 26,
    "actual": 26.0,
    "err": 0.0,
-   "peak_local": "16:55"
+   "peak_local": "16:55",
+   "meteo_4h": 26,
+   "err_4h": 0.0,
+   "snap_4h": "12:20"
   },
   {
    "city": "Cape Town",
@@ -8894,7 +10537,10 @@
    "meteo": 25,
    "actual": 25.0,
    "err": 0.0,
-   "peak_local": "17:00"
+   "peak_local": "17:00",
+   "meteo_4h": 25,
+   "err_4h": 0.0,
+   "snap_4h": "12:20"
   },
   {
    "city": "Madrid",
@@ -8907,7 +10553,10 @@
    "meteo": 29,
    "actual": 30.0,
    "err": -1.0,
-   "peak_local": "16:30"
+   "peak_local": "16:30",
+   "meteo_4h": 29,
+   "err_4h": -1.0,
+   "snap_4h": "12:20"
   },
   {
    "city": "Milan",
@@ -8920,7 +10569,10 @@
    "meteo": 29,
    "actual": 29.0,
    "err": 0.0,
-   "peak_local": "17:50"
+   "peak_local": "17:50",
+   "meteo_4h": 29,
+   "err_4h": 0.0,
+   "snap_4h": "12:20"
   },
   {
    "city": "Munich",
@@ -8933,7 +10585,10 @@
    "meteo": 28,
    "actual": 28.0,
    "err": 0.0,
-   "peak_local": "16:50"
+   "peak_local": "16:50",
+   "meteo_4h": 28,
+   "err_4h": 0.0,
+   "snap_4h": "12:20"
   },
   {
    "city": "Paris",
@@ -8946,7 +10601,10 @@
    "meteo": 29,
    "actual": 29.0,
    "err": 0.0,
-   "peak_local": "19:00"
+   "peak_local": "19:00",
+   "meteo_4h": 29,
+   "err_4h": 0.0,
+   "snap_4h": "14:43"
   },
   {
    "city": "Warsaw",
@@ -8959,7 +10617,10 @@
    "meteo": 23,
    "actual": 23.0,
    "err": 0.0,
-   "peak_local": "17:30"
+   "peak_local": "17:30",
+   "meteo_4h": 23,
+   "err_4h": 0.0,
+   "snap_4h": "12:20"
   },
   {
    "city": "London",
@@ -8972,7 +10633,10 @@
    "meteo": 26,
    "actual": 26.0,
    "err": 0.0,
-   "peak_local": "15:50"
+   "peak_local": "15:50",
+   "meteo_4h": 26,
+   "err_4h": 0.0,
+   "snap_4h": "11:20"
   },
   {
    "city": "Jinan",
@@ -8985,7 +10649,10 @@
    "meteo": 34,
    "actual": 26.0,
    "err": 8.0,
-   "peak_local": "14:00"
+   "peak_local": "14:00",
+   "meteo_4h": 34,
+   "err_4h": 8.0,
+   "snap_4h": "10:20"
   },
   {
    "city": "Zhengzhou",
@@ -8998,7 +10665,10 @@
    "meteo": 34,
    "actual": 32.0,
    "err": 2.0,
-   "peak_local": "09:00"
+   "peak_local": "09:00",
+   "meteo_4h": 34,
+   "err_4h": 2.0,
+   "snap_4h": "05:05"
   },
   {
    "city": "Wellington",
@@ -9024,7 +10694,10 @@
    "meteo": 29,
    "actual": 29.0,
    "err": 0.0,
-   "peak_local": "16:30"
+   "peak_local": "16:30",
+   "meteo_4h": 29,
+   "err_4h": 0.0,
+   "snap_4h": "11:06"
   },
   {
    "city": "Busan",
@@ -9063,7 +10736,10 @@
    "meteo": 38,
    "actual": 38.0,
    "err": 0.0,
-   "peak_local": "16:00"
+   "peak_local": "16:00",
+   "meteo_4h": 38,
+   "err_4h": 0.0,
+   "snap_4h": "11:06"
   },
   {
    "city": "Guangzhou",
@@ -9102,7 +10778,10 @@
    "meteo": 33,
    "actual": 33.0,
    "err": 0.0,
-   "peak_local": "16:30"
+   "peak_local": "16:30",
+   "meteo_4h": 33,
+   "err_4h": 0.0,
+   "snap_4h": "11:06"
   },
   {
    "city": "Manila",
@@ -9141,7 +10820,10 @@
    "meteo": 30,
    "actual": 30.0,
    "err": 0.0,
-   "peak_local": "16:00"
+   "peak_local": "16:00",
+   "meteo_4h": 30,
+   "err_4h": 0.0,
+   "snap_4h": "12:06"
   },
   {
    "city": "Shanghai",
@@ -9232,7 +10914,10 @@
    "meteo": 27,
    "actual": 27.0,
    "err": 0.0,
-   "peak_local": "19:25"
+   "peak_local": "19:25",
+   "meteo_4h": 27,
+   "err_4h": 0.0,
+   "snap_4h": "15:01"
   },
   {
    "city": "Ankara",
@@ -9440,7 +11125,10 @@
    "meteo": 27,
    "actual": 27.0,
    "err": 0.0,
-   "peak_local": "14:00"
+   "peak_local": "14:00",
+   "meteo_4h": 27,
+   "err_4h": 0.0,
+   "snap_4h": "10:01"
   },
   {
    "city": "Tel Aviv",
@@ -9479,7 +11167,10 @@
    "meteo": 29,
    "actual": 29.0,
    "err": 0.0,
-   "peak_local": "07:00"
+   "peak_local": "07:00",
+   "meteo_4h": 29,
+   "err_4h": 0.0,
+   "snap_4h": "03:06"
   },
   {
    "city": "Atlanta",
@@ -9596,7 +11287,10 @@
    "meteo": 91,
    "actual": 93.0,
    "err": -2.0,
-   "peak_local": "13:50"
+   "peak_local": "13:50",
+   "meteo_4h": 91,
+   "err_4h": -2.0,
+   "snap_4h": "09:01"
   },
   {
    "city": "Nyc",
@@ -9609,7 +11303,10 @@
    "meteo": 77,
    "actual": 77.0,
    "err": 0.0,
-   "peak_local": "12:51"
+   "peak_local": "12:51",
+   "meteo_4h": 77,
+   "err_4h": 0.0,
+   "snap_4h": "09:01"
   },
   {
    "city": "Panama City",
@@ -9622,7 +11319,10 @@
    "meteo": 33,
    "actual": 33.0,
    "err": 0.0,
-   "peak_local": "12:22"
+   "peak_local": "12:22",
+   "meteo_4h": 33,
+   "err_4h": 0.0,
+   "snap_4h": "08:01"
   },
   {
    "city": "San Francisco",
@@ -9674,7 +11374,10 @@
    "meteo": 15,
    "actual": 16.0,
    "err": -1.0,
-   "peak_local": "14:00"
+   "peak_local": "14:00",
+   "meteo_4h": 15,
+   "err_4h": -1.0,
+   "snap_4h": "09:12"
   },
   {
    "city": "Ankara",
@@ -9687,7 +11390,10 @@
    "meteo": 27,
    "actual": 27.0,
    "err": 0.0,
-   "peak_local": "13:50"
+   "peak_local": "13:50",
+   "meteo_4h": 27,
+   "err_4h": 0.0,
+   "snap_4h": "09:30"
   },
   {
    "city": "Busan",
@@ -9700,7 +11406,10 @@
    "meteo": 27,
    "actual": 27.0,
    "err": 0.0,
-   "peak_local": "21:00"
+   "peak_local": "21:00",
+   "meteo_4h": 27,
+   "err_4h": 0.0,
+   "snap_4h": "16:32"
   },
   {
    "city": "Chengdu",
@@ -9752,7 +11461,10 @@
    "meteo": 20,
    "actual": 20.0,
    "err": 0.0,
-   "peak_local": "16:50"
+   "peak_local": "16:50",
+   "meteo_4h": 20,
+   "err_4h": 0.0,
+   "snap_4h": "12:32"
   },
   {
    "city": "Istanbul",
@@ -9765,7 +11477,10 @@
    "meteo": 24,
    "actual": 24.0,
    "err": 0.0,
-   "peak_local": "17:50"
+   "peak_local": "17:50",
+   "meteo_4h": 24,
+   "err_4h": 0.0,
+   "snap_4h": "13:32"
   },
   {
    "city": "Jeddah",
@@ -9791,7 +11506,10 @@
    "meteo": 30,
    "actual": 31.0,
    "err": -1.0,
-   "peak_local": "15:00"
+   "peak_local": "15:00",
+   "meteo_4h": 30,
+   "err_4h": -1.0,
+   "snap_4h": "11:30"
   },
   {
    "city": "Kuala Lumpur",
@@ -9830,7 +11548,10 @@
    "meteo": 20,
    "actual": 21.0,
    "err": -1.0,
-   "peak_local": "16:30"
+   "peak_local": "16:30",
+   "meteo_4h": 20,
+   "err_4h": -1.0,
+   "snap_4h": "12:02"
   },
   {
    "city": "Qingdao",
@@ -9921,7 +11642,10 @@
    "meteo": 33,
    "actual": 33.0,
    "err": 0.0,
-   "peak_local": "14:20"
+   "peak_local": "14:20",
+   "meteo_4h": 33,
+   "err_4h": 0.0,
+   "snap_4h": "09:49"
   },
   {
    "city": "Tokyo",
@@ -9960,7 +11684,10 @@
    "meteo": 22,
    "actual": 23.0,
    "err": -1.0,
-   "peak_local": "14:55"
+   "peak_local": "14:55",
+   "meteo_4h": 22,
+   "err_4h": -1.0,
+   "snap_4h": "10:32"
   },
   {
    "city": "Atlanta",
@@ -9973,7 +11700,10 @@
    "meteo": 91,
    "actual": 91.0,
    "err": 0.0,
-   "peak_local": "14:52"
+   "peak_local": "14:52",
+   "meteo_4h": 91,
+   "err_4h": 0.0,
+   "snap_4h": "10:32"
   },
   {
    "city": "Austin",
@@ -9986,7 +11716,10 @@
    "meteo": 99,
    "actual": 101.0,
    "err": -2.0,
-   "peak_local": "17:06"
+   "peak_local": "17:06",
+   "meteo_4h": 99,
+   "err_4h": -2.0,
+   "snap_4h": "12:32"
   },
   {
    "city": "Buenos Aires",
@@ -9999,7 +11732,10 @@
    "meteo": 18,
    "actual": 21.0,
    "err": -3.0,
-   "peak_local": "16:00"
+   "peak_local": "16:00",
+   "meteo_4h": 18,
+   "err_4h": -3.0,
+   "snap_4h": "11:32"
   },
   {
    "city": "Cape Town",
@@ -10012,7 +11748,10 @@
    "meteo": 22,
    "actual": 22.0,
    "err": 0.0,
-   "peak_local": "13:00"
+   "peak_local": "13:00",
+   "meteo_4h": 22,
+   "err_4h": 0.0,
+   "snap_4h": "08:30"
   },
   {
    "city": "Chicago",
@@ -10025,7 +11764,10 @@
    "meteo": 82,
    "actual": 83.0,
    "err": -1.0,
-   "peak_local": "14:51"
+   "peak_local": "14:51",
+   "meteo_4h": 82,
+   "err_4h": -1.0,
+   "snap_4h": "10:32"
   },
   {
    "city": "Dallas",
@@ -10038,7 +11780,10 @@
    "meteo": 100,
    "actual": 101.0,
    "err": -1.0,
-   "peak_local": "16:53"
+   "peak_local": "16:53",
+   "meteo_4h": 100,
+   "err_4h": -1.0,
+   "snap_4h": "12:32"
   },
   {
    "city": "Denver",
@@ -10051,7 +11796,10 @@
    "meteo": 93,
    "actual": 93.0,
    "err": 0.0,
-   "peak_local": "13:58"
+   "peak_local": "13:58",
+   "meteo_4h": 93,
+   "err_4h": 0.0,
+   "snap_4h": "09:32"
   },
   {
    "city": "Houston",
@@ -10064,7 +11812,10 @@
    "meteo": 95,
    "actual": 95.0,
    "err": 0.0,
-   "peak_local": "12:53"
+   "peak_local": "12:53",
+   "meteo_4h": 95,
+   "err_4h": 0.0,
+   "snap_4h": "08:32"
   },
   {
    "city": "London",
@@ -10077,7 +11828,10 @@
    "meteo": 24,
    "actual": 25.0,
    "err": -1.0,
-   "peak_local": "14:50"
+   "peak_local": "14:50",
+   "meteo_4h": 24,
+   "err_4h": -1.0,
+   "snap_4h": "10:32"
   },
   {
    "city": "Madrid",
@@ -10090,7 +11844,10 @@
    "meteo": 26,
    "actual": 26.0,
    "err": 0.0,
-   "peak_local": "19:00"
+   "peak_local": "19:00",
+   "meteo_4h": 26,
+   "err_4h": 0.0,
+   "snap_4h": "14:32"
   },
   {
    "city": "Mexico City",
@@ -10103,7 +11860,10 @@
    "meteo": 24,
    "actual": 25.0,
    "err": -1.0,
-   "peak_local": "15:45"
+   "peak_local": "15:45",
+   "meteo_4h": 24,
+   "err_4h": -1.0,
+   "snap_4h": "11:02"
   },
   {
    "city": "Miami",
@@ -10116,7 +11876,10 @@
    "meteo": 93,
    "actual": 93.0,
    "err": 0.0,
-   "peak_local": "13:53"
+   "peak_local": "13:53",
+   "meteo_4h": 93,
+   "err_4h": 0.0,
+   "snap_4h": "09:32"
   },
   {
    "city": "Milan",
@@ -10129,7 +11892,10 @@
    "meteo": 29,
    "actual": 30.0,
    "err": -1.0,
-   "peak_local": "15:20"
+   "peak_local": "15:20",
+   "meteo_4h": 29,
+   "err_4h": -1.0,
+   "snap_4h": "11:02"
   },
   {
    "city": "Munich",
@@ -10142,7 +11908,10 @@
    "meteo": 28,
    "actual": 29.0,
    "err": -1.0,
-   "peak_local": "12:20"
+   "peak_local": "12:20",
+   "meteo_4h": 28,
+   "err_4h": -1.0,
+   "snap_4h": "08:30"
   },
   {
    "city": "Nyc",
@@ -10155,7 +11924,10 @@
    "meteo": 84,
    "actual": 85.0,
    "err": -1.0,
-   "peak_local": "15:51"
+   "peak_local": "15:51",
+   "meteo_4h": 84,
+   "err_4h": -1.0,
+   "snap_4h": "11:32"
   },
   {
    "city": "Panama City",
@@ -10168,7 +11940,10 @@
    "meteo": 31,
    "actual": 31.0,
    "err": 0.0,
-   "peak_local": "16:00"
+   "peak_local": "16:00",
+   "meteo_4h": 31,
+   "err_4h": 0.0,
+   "snap_4h": "11:32"
   },
   {
    "city": "Paris",
@@ -10181,7 +11956,10 @@
    "meteo": 23,
    "actual": 24.0,
    "err": -1.0,
-   "peak_local": "18:00"
+   "peak_local": "18:00",
+   "meteo_4h": 23,
+   "err_4h": -1.0,
+   "snap_4h": "13:32"
   },
   {
    "city": "Sao Paulo",
@@ -10194,7 +11972,10 @@
    "meteo": 32,
    "actual": 32.0,
    "err": 0.0,
-   "peak_local": "16:00"
+   "peak_local": "16:00",
+   "meteo_4h": 32,
+   "err_4h": 0.0,
+   "snap_4h": "11:32"
   },
   {
    "city": "Toronto",
@@ -10207,7 +11988,10 @@
    "meteo": 22,
    "actual": 22.0,
    "err": 0.0,
-   "peak_local": "19:00"
+   "peak_local": "19:00",
+   "meteo_4h": 22,
+   "err_4h": 0.0,
+   "snap_4h": "14:32"
   },
   {
    "city": "Warsaw",
@@ -10220,7 +12004,10 @@
    "meteo": 24,
    "actual": 25.0,
    "err": -1.0,
-   "peak_local": "15:00"
+   "peak_local": "15:00",
+   "meteo_4h": 24,
+   "err_4h": -1.0,
+   "snap_4h": "10:32"
   },
   {
    "city": "Zhengzhou",
@@ -10246,7 +12033,10 @@
    "meteo": 84,
    "actual": 85.0,
    "err": -1.0,
-   "peak_local": "14:53"
+   "peak_local": "14:53",
+   "meteo_4h": 84,
+   "err_4h": -1.0,
+   "snap_4h": "10:32"
   },
   {
    "city": "San Francisco",
@@ -10259,7 +12049,10 @@
    "meteo": 64,
    "actual": 65.0,
    "err": -1.0,
-   "peak_local": "14:56"
+   "peak_local": "14:56",
+   "meteo_4h": 64,
+   "err_4h": -1.0,
+   "snap_4h": "10:32"
   },
   {
    "city": "Seattle",
@@ -10272,7 +12065,10 @@
    "meteo": 72,
    "actual": 73.0,
    "err": -1.0,
-   "peak_local": "15:53"
+   "peak_local": "15:53",
+   "meteo_4h": 72,
+   "err_4h": -1.0,
+   "snap_4h": "11:32"
   },
   {
    "city": "Wellington",
@@ -10285,7 +12081,10 @@
    "meteo": 15,
    "actual": 15.0,
    "err": 0.0,
-   "peak_local": "12:30"
+   "peak_local": "12:30",
+   "meteo_4h": 15,
+   "err_4h": 0.0,
+   "snap_4h": "08:02"
   },
   {
    "city": "Busan",
@@ -10298,7 +12097,10 @@
    "meteo": 32,
    "actual": 32.0,
    "err": 0.0,
-   "peak_local": "13:00"
+   "peak_local": "13:00",
+   "meteo_4h": 32,
+   "err_4h": 0.0,
+   "snap_4h": "08:32"
   },
   {
    "city": "Seoul",
@@ -10311,7 +12113,10 @@
    "meteo": 28,
    "actual": 29.0,
    "err": -1.0,
-   "peak_local": "13:00"
+   "peak_local": "13:00",
+   "meteo_4h": 28,
+   "err_4h": -1.0,
+   "snap_4h": "08:32"
   },
   {
    "city": "Tokyo",
@@ -10337,7 +12142,10 @@
    "meteo": 31,
    "actual": 31.0,
    "err": 0.0,
-   "peak_local": "16:30"
+   "peak_local": "16:30",
+   "meteo_4h": 31,
+   "err_4h": 0.0,
+   "snap_4h": "12:02"
   },
   {
    "city": "Chengdu",
@@ -10350,7 +12158,10 @@
    "meteo": 31,
    "actual": 31.0,
    "err": 0.0,
-   "peak_local": "16:00"
+   "peak_local": "16:00",
+   "meteo_4h": 31,
+   "err_4h": 0.0,
+   "snap_4h": "11:32"
   },
   {
    "city": "Chongqing",
@@ -10363,7 +12174,10 @@
    "meteo": 27,
    "actual": 27.0,
    "err": 0.0,
-   "peak_local": "12:00"
+   "peak_local": "12:00",
+   "meteo_4h": 27,
+   "err_4h": 0.0,
+   "snap_4h": "07:32"
   },
   {
    "city": "Guangzhou",
@@ -10376,7 +12190,10 @@
    "meteo": 36,
    "actual": 36.0,
    "err": 0.0,
-   "peak_local": "16:30"
+   "peak_local": "16:30",
+   "meteo_4h": 36,
+   "err_4h": 0.0,
+   "snap_4h": "12:02"
   },
   {
    "city": "Kuala Lumpur",
@@ -10389,7 +12206,10 @@
    "meteo": 34,
    "actual": 34.0,
    "err": 0.0,
-   "peak_local": "16:00"
+   "peak_local": "16:00",
+   "meteo_4h": 34,
+   "err_4h": 0.0,
+   "snap_4h": "11:32"
   },
   {
    "city": "Manila",
@@ -10402,7 +12222,10 @@
    "meteo": 27,
    "actual": 27.0,
    "err": 0.0,
-   "peak_local": "23:00"
+   "peak_local": "23:00",
+   "meteo_4h": 27,
+   "err_4h": 0.0,
+   "snap_4h": "18:32"
   },
   {
    "city": "Qingdao",
@@ -10415,7 +12238,10 @@
    "meteo": 28,
    "actual": 28.0,
    "err": 0.0,
-   "peak_local": "15:00"
+   "peak_local": "15:00",
+   "meteo_4h": 28,
+   "err_4h": 0.0,
+   "snap_4h": "10:32"
   },
   {
    "city": "Shanghai",
@@ -10428,7 +12254,10 @@
    "meteo": 31,
    "actual": 31.0,
    "err": 0.0,
-   "peak_local": "14:30"
+   "peak_local": "14:30",
+   "meteo_4h": 31,
+   "err_4h": 0.0,
+   "snap_4h": "10:02"
   },
   {
    "city": "Shenzhen",
@@ -10441,7 +12270,10 @@
    "meteo": 32,
    "actual": 32.0,
    "err": 0.0,
-   "peak_local": "16:00"
+   "peak_local": "16:00",
+   "meteo_4h": 32,
+   "err_4h": 0.0,
+   "snap_4h": "11:32"
   },
   {
    "city": "Singapore",
@@ -10454,7 +12286,10 @@
    "meteo": 33,
    "actual": 33.0,
    "err": 0.0,
-   "peak_local": "16:30"
+   "peak_local": "16:30",
+   "meteo_4h": 33,
+   "err_4h": 0.0,
+   "snap_4h": "12:02"
   },
   {
    "city": "Taipei",
@@ -10467,7 +12302,10 @@
    "meteo": 34,
    "actual": 35.0,
    "err": -1.0,
-   "peak_local": "13:00"
+   "peak_local": "13:00",
+   "meteo_4h": 34,
+   "err_4h": -1.0,
+   "snap_4h": "08:32"
   },
   {
    "city": "Wuhan",
@@ -10480,7 +12318,10 @@
    "meteo": 30,
    "actual": 30.0,
    "err": 0.0,
-   "peak_local": "15:00"
+   "peak_local": "15:00",
+   "meteo_4h": 30,
+   "err_4h": 0.0,
+   "snap_4h": "10:32"
   },
   {
    "city": "Lucknow",
@@ -10493,7 +12334,10 @@
    "meteo": 32,
    "actual": 33.0,
    "err": -1.0,
-   "peak_local": "12:00"
+   "peak_local": "12:00",
+   "meteo_4h": 32,
+   "err_4h": -1.0,
+   "snap_4h": "07:32"
   },
   {
    "city": "Karachi",
@@ -10506,7 +12350,10 @@
    "meteo": 30,
    "actual": 30.0,
    "err": 0.0,
-   "peak_local": "15:30"
+   "peak_local": "15:30",
+   "meteo_4h": 30,
+   "err_4h": 0.0,
+   "snap_4h": "11:04"
   },
   {
    "city": "Jinan",
@@ -10519,7 +12366,10 @@
    "meteo": 29,
    "actual": 26.0,
    "err": 3.0,
-   "peak_local": "15:00"
+   "peak_local": "15:00",
+   "meteo_4h": 29,
+   "err_4h": 3.0,
+   "snap_4h": "10:32"
   },
   {
    "city": "Zhengzhou",
@@ -10532,7 +12382,10 @@
    "meteo": 32,
    "actual": 32.0,
    "err": 0.0,
-   "peak_local": "07:00"
+   "peak_local": "07:00",
+   "meteo_4h": 32,
+   "err_4h": 0.0,
+   "snap_4h": "02:32"
   }
  ],
  "cities": [
@@ -10540,6 +12393,8 @@
    "city": "Amsterdam",
    "n": 17,
    "mae": 0.18,
+   "mae_4h": 0.08,
+   "n_4h": 13,
    "periods": {
     "21-24": {
      "n": 12,
@@ -10564,6 +12419,8 @@
    "city": "Ankara",
    "n": 15,
    "mae": 0.0,
+   "mae_4h": 0.0,
+   "n_4h": 12,
    "periods": {
     "21-24": {
      "n": 3,
@@ -10584,6 +12441,8 @@
    "city": "Atlanta",
    "n": 17,
    "mae": 1.35,
+   "mae_4h": 1.0,
+   "n_4h": 12,
    "periods": {
     "21-24": {
      "n": 6,
@@ -10600,6 +12459,8 @@
    "city": "Austin",
    "n": 18,
    "mae": 1.39,
+   "mae_4h": 1.27,
+   "n_4h": 11,
    "periods": {
     "21-24": {
      "n": 7,
@@ -10616,6 +12477,8 @@
    "city": "Beijing",
    "n": 13,
    "mae": 0.38,
+   "mae_4h": 0.46,
+   "n_4h": 13,
    "periods": {
     "15-18": {
      "n": 5,
@@ -10636,6 +12499,8 @@
    "city": "Buenos Aires",
    "n": 18,
    "mae": 1.06,
+   "mae_4h": 1.25,
+   "n_4h": 12,
    "periods": {
     "21-24": {
      "n": 7,
@@ -10656,6 +12521,8 @@
    "city": "Busan",
    "n": 13,
    "mae": 0.15,
+   "mae_4h": 0.08,
+   "n_4h": 12,
    "periods": {
     "18-21": {
      "n": 2,
@@ -10676,6 +12543,8 @@
    "city": "Cape Town",
    "n": 15,
    "mae": 0.13,
+   "mae_4h": 0.08,
+   "n_4h": 12,
    "periods": {
     "21-24": {
      "n": 2,
@@ -10700,6 +12569,8 @@
    "city": "Chengdu",
    "n": 13,
    "mae": 0.31,
+   "mae_4h": 0.27,
+   "n_4h": 11,
    "periods": {
     "12-15": {
      "n": 4,
@@ -10724,6 +12595,8 @@
    "city": "Chicago",
    "n": 17,
    "mae": 1.0,
+   "mae_4h": 0.85,
+   "n_4h": 13,
    "periods": {
     "21-24": {
      "n": 6,
@@ -10740,6 +12613,8 @@
    "city": "Chongqing",
    "n": 14,
    "mae": 0.07,
+   "mae_4h": 0.08,
+   "n_4h": 13,
    "periods": {
     "12-15": {
      "n": 4,
@@ -10760,6 +12635,8 @@
    "city": "Dallas",
    "n": 18,
    "mae": 1.06,
+   "mae_4h": 0.91,
+   "n_4h": 11,
    "periods": {
     "21-24": {
      "n": 7,
@@ -10776,6 +12653,8 @@
    "city": "Denver",
    "n": 17,
    "mae": 2.65,
+   "mae_4h": 2.5,
+   "n_4h": 12,
    "periods": {
     "21-24": {
      "n": 6,
@@ -10796,6 +12675,8 @@
    "city": "Guangzhou",
    "n": 14,
    "mae": 0.43,
+   "mae_4h": 0.58,
+   "n_4h": 12,
    "periods": {
     "12-15": {
      "n": 8,
@@ -10816,6 +12697,8 @@
    "city": "Helsinki",
    "n": 14,
    "mae": 0.21,
+   "mae_4h": 0.18,
+   "n_4h": 11,
    "periods": {
     "21-24": {
      "n": 1,
@@ -10840,6 +12723,8 @@
    "city": "Hong Kong",
    "n": 12,
    "mae": 1.08,
+   "mae_4h": 1.0,
+   "n_4h": 11,
    "periods": {
     "15-18": {
      "n": 5,
@@ -10860,6 +12745,8 @@
    "city": "Houston",
    "n": 18,
    "mae": 1.39,
+   "mae_4h": 0.58,
+   "n_4h": 12,
    "periods": {
     "21-24": {
      "n": 7,
@@ -10876,6 +12763,8 @@
    "city": "Istanbul",
    "n": 12,
    "mae": 0.08,
+   "mae_4h": 0.09,
+   "n_4h": 11,
    "periods": {
     "18-21": {
      "n": 8,
@@ -10896,6 +12785,8 @@
    "city": "Jeddah",
    "n": 13,
    "mae": 0.0,
+   "mae_4h": 0.18,
+   "n_4h": 11,
    "periods": {
     "18-21": {
      "n": 11,
@@ -10916,6 +12807,8 @@
    "city": "Jinan",
    "n": 18,
    "mae": 6.56,
+   "mae_4h": 7.15,
+   "n_4h": 13,
    "periods": {
     "21-24": {
      "n": 5,
@@ -10940,6 +12833,8 @@
    "city": "Karachi",
    "n": 14,
    "mae": 0.21,
+   "mae_4h": 0.31,
+   "n_4h": 13,
    "periods": {
     "15-18": {
      "n": 13,
@@ -10956,6 +12851,8 @@
    "city": "Kuala Lumpur",
    "n": 14,
    "mae": 0.36,
+   "mae_4h": 0.38,
+   "n_4h": 13,
    "periods": {
     "12-15": {
      "n": 7,
@@ -10976,6 +12873,8 @@
    "city": "London",
    "n": 19,
    "mae": 0.47,
+   "mae_4h": 0.25,
+   "n_4h": 12,
    "periods": {
     "21-24": {
      "n": 17,
@@ -10992,6 +12891,8 @@
    "city": "Los Angeles",
    "n": 18,
    "mae": 1.78,
+   "mae_4h": 1.73,
+   "n_4h": 11,
    "periods": {
     "21-24": {
      "n": 7,
@@ -11012,6 +12913,8 @@
    "city": "Lucknow",
    "n": 14,
    "mae": 0.29,
+   "mae_4h": 0.42,
+   "n_4h": 12,
    "periods": {
     "15-18": {
      "n": 9,
@@ -11040,6 +12943,8 @@
    "city": "Madrid",
    "n": 20,
    "mae": 0.55,
+   "mae_4h": 0.33,
+   "n_4h": 12,
    "periods": {
     "21-24": {
      "n": 18,
@@ -11060,6 +12965,8 @@
    "city": "Manila",
    "n": 13,
    "mae": 0.23,
+   "mae_4h": 0.42,
+   "n_4h": 12,
    "periods": {
     "12-15": {
      "n": 8,
@@ -11080,6 +12987,8 @@
    "city": "Mexico City",
    "n": 18,
    "mae": 0.67,
+   "mae_4h": 0.42,
+   "n_4h": 12,
    "periods": {
     "21-24": {
      "n": 6,
@@ -11096,6 +13005,8 @@
    "city": "Miami",
    "n": 18,
    "mae": 1.39,
+   "mae_4h": 1.41,
+   "n_4h": 17,
    "periods": {
     "21-24": {
      "n": 9,
@@ -11112,6 +13023,8 @@
    "city": "Milan",
    "n": 19,
    "mae": 0.21,
+   "mae_4h": 0.25,
+   "n_4h": 12,
    "periods": {
     "21-24": {
      "n": 15,
@@ -11132,6 +13045,8 @@
    "city": "Moscow",
    "n": 11,
    "mae": 0.64,
+   "mae_4h": 0.5,
+   "n_4h": 10,
    "periods": {
     "18-21": {
      "n": 7,
@@ -11152,6 +13067,8 @@
    "city": "Munich",
    "n": 18,
    "mae": 0.33,
+   "mae_4h": 0.33,
+   "n_4h": 12,
    "periods": {
     "21-24": {
      "n": 12,
@@ -11172,6 +13089,8 @@
    "city": "Nyc",
    "n": 18,
    "mae": 1.11,
+   "mae_4h": 0.79,
+   "n_4h": 14,
    "periods": {
     "21-24": {
      "n": 9,
@@ -11188,6 +13107,8 @@
    "city": "Panama City",
    "n": 18,
    "mae": 0.28,
+   "mae_4h": 0.2,
+   "n_4h": 15,
    "periods": {
     "21-24": {
      "n": 11,
@@ -11204,6 +13125,8 @@
    "city": "Paris",
    "n": 20,
    "mae": 0.45,
+   "mae_4h": 0.58,
+   "n_4h": 12,
    "periods": {
     "21-24": {
      "n": 18,
@@ -11220,6 +13143,8 @@
    "city": "Qingdao",
    "n": 14,
    "mae": 0.93,
+   "mae_4h": 0.92,
+   "n_4h": 12,
    "periods": {
     "09-12": {
      "n": 5,
@@ -11240,6 +13165,8 @@
    "city": "San Francisco",
    "n": 18,
    "mae": 2.22,
+   "mae_4h": 1.09,
+   "n_4h": 11,
    "periods": {
     "21-24": {
      "n": 6,
@@ -11260,6 +13187,8 @@
    "city": "Sao Paulo",
    "n": 18,
    "mae": 0.22,
+   "mae_4h": 0.33,
+   "n_4h": 15,
    "periods": {
     "21-24": {
      "n": 8,
@@ -11276,6 +13205,8 @@
    "city": "Seattle",
    "n": 18,
    "mae": 1.5,
+   "mae_4h": 1.18,
+   "n_4h": 11,
    "periods": {
     "21-24": {
      "n": 6,
@@ -11296,6 +13227,8 @@
    "city": "Seoul",
    "n": 14,
    "mae": 0.29,
+   "mae_4h": 0.31,
+   "n_4h": 13,
    "periods": {
     "15-18": {
      "n": 3,
@@ -11324,6 +13257,8 @@
    "city": "Shanghai",
    "n": 16,
    "mae": 0.31,
+   "mae_4h": 0.42,
+   "n_4h": 12,
    "periods": {
     "21-24": {
      "n": 2,
@@ -11348,6 +13283,8 @@
    "city": "Shenzhen",
    "n": 14,
    "mae": 0.64,
+   "mae_4h": 0.92,
+   "n_4h": 12,
    "periods": {
     "12-15": {
      "n": 7,
@@ -11368,6 +13305,8 @@
    "city": "Singapore",
    "n": 14,
    "mae": 0.07,
+   "mae_4h": 0.17,
+   "n_4h": 12,
    "periods": {
     "12-15": {
      "n": 8,
@@ -11388,6 +13327,8 @@
    "city": "Taipei",
    "n": 14,
    "mae": 1.29,
+   "mae_4h": 1.27,
+   "n_4h": 11,
    "periods": {
     "09-12": {
      "n": 8,
@@ -11408,6 +13349,8 @@
    "city": "Tel Aviv",
    "n": 12,
    "mae": 0.33,
+   "mae_4h": 0.36,
+   "n_4h": 11,
    "periods": {
     "18-21": {
      "n": 7,
@@ -11428,6 +13371,8 @@
    "city": "Tokyo",
    "n": 14,
    "mae": 0.43,
+   "mae_4h": 0.5,
+   "n_4h": 10,
    "periods": {
     "09-12": {
      "n": 5,
@@ -11448,6 +13393,8 @@
    "city": "Toronto",
    "n": 17,
    "mae": 0.12,
+   "mae_4h": 0.14,
+   "n_4h": 14,
    "periods": {
     "21-24": {
      "n": 6,
@@ -11464,6 +13411,8 @@
    "city": "Warsaw",
    "n": 19,
    "mae": 0.58,
+   "mae_4h": 0.58,
+   "n_4h": 12,
    "periods": {
     "21-24": {
      "n": 12,
@@ -11488,6 +13437,8 @@
    "city": "Wellington",
    "n": 18,
    "mae": 0.61,
+   "mae_4h": 0.44,
+   "n_4h": 9,
    "periods": {
     "21-24": {
      "n": 6,
@@ -11512,6 +13463,8 @@
    "city": "Wuhan",
    "n": 14,
    "mae": 0.07,
+   "mae_4h": 0.08,
+   "n_4h": 12,
    "periods": {
     "15-18": {
      "n": 7,
@@ -11532,6 +13485,8 @@
    "city": "Zhengzhou",
    "n": 18,
    "mae": 0.56,
+   "mae_4h": 0.69,
+   "n_4h": 13,
    "periods": {
     "21-24": {
      "n": 5,

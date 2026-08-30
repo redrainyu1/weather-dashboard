@@ -284,6 +284,7 @@ def load_history(period=None, model="meteo", peak_off_map=None):
                  "local_date": local_date, "local_hhmm": local_hhmm,
                  "hour": hour, "noon_bj": h.get("noon_bj")})
     res = {}
+    res_4h = {}
     for (slug, local_date), lst in out.items():
         pk = None
         if peak_off_map:
@@ -310,15 +311,19 @@ def load_history(period=None, model="meteo", peak_off_map=None):
             continue
         if pk is None:
             best = valid[0]
+            best_4h = valid[0]
         else:
             target = pk - timedelta(hours=1)
+            target_4h = pk - timedelta(hours=4.5)
             # 用当地时间比较（避免时区转换导致的日期差异）
             def local_abs(vv):
                 return bj_to_local(datetime.strptime(vv["snap_bj"], "%Y-%m-%d") + timedelta(hours=vv["hour"],
                         minutes=int(vv["time"][3:5]) if len(vv.get("time", "")) >= 5 else 0), vv.get("noon_bj"))
             local_target = bj_to_local(target, lst[0].get("noon_bj"))
+            local_target_4h = bj_to_local(target_4h, lst[0].get("noon_bj"))
             if local_target is None:
                 continue
+            # peak-1h: ±2h 容差
             near = [vv for vv in valid if local_abs(vv) is not None and
                     abs((local_abs(vv) - local_target).total_seconds()) <= 7200]
             if near:
@@ -329,8 +334,19 @@ def load_history(period=None, model="meteo", peak_off_map=None):
                     datetime.strptime(vv["snap_bj"], "%Y-%m-%d") + timedelta(hours=vv["hour"],
                     minutes=int(vv["time"][3:5]) if len(vv.get("time", "")) >= 5 else 0),
                     vv.get("noon_bj")) or datetime.min)
+            # peak-4.5h: ±1h 容差（4-5小时窗口）
+            if local_target_4h is not None:
+                near_4h = [vv for vv in valid if local_abs(vv) is not None and
+                        abs((local_abs(vv) - local_target_4h).total_seconds()) <= 3600]
+                if near_4h:
+                    best_4h = min(near_4h, key=lambda vv: abs((local_abs(vv) - local_target_4h).total_seconds()))
+                else:
+                    best_4h = None
+            else:
+                best_4h = None
         res[(slug, local_date)] = best
-    return res
+        res_4h[(slug, local_date)] = best_4h
+    return res, res_4h
 
 def get_actual_temp(slug, event):
     """从已结算事件找 YES=1 的市场温度档"""
@@ -376,7 +392,7 @@ async def main():
     async with httpx.AsyncClient(http1=True, http2=False, verify=False, timeout=30,
                                  proxy=(PROXY_URL or None), follow_redirects=True, headers=headers,
                                  limits=httpx.Limits(max_keepalive_connections=5)) as client:
-        hist = load_history(period, model=args.model)
+        hist, hist_4h = load_history(period, model=args.model)
         noon_map = {slug: v.get("noon_bj") for (slug, _), v in hist.items()}
         city_map = {slug: v.get("city") for (slug, _), v in hist.items()}
         slugs = sorted({slug for slug, _ in hist.keys()})
@@ -422,8 +438,8 @@ async def main():
     save_actuals(actuals)
     print(f"已结算: {len(actuals)}（本次新增 {len(set(actuals) - set(load_actuals()))}）")
 
-    hist = load_history(period, model=args.model, peak_off_map=actuals)
-    print(f"[{args.model.upper()}] 历史预测条目(峰前): {len(hist)}")
+    hist, hist_4h = load_history(period, model=args.model, peak_off_map=actuals)
+    print(f"[{args.model.upper()}] 历史预测条目(峰前): {len(hist)}, (峰-4.5h): {len(hist_4h)}")
 
     # 汇总
     rows = []
@@ -443,11 +459,18 @@ async def main():
         if act is None:
             continue
         err = v["temp"] - act
-        rows.append({"city": v["city"], "date": v["date"], "date_display": v["date_display"],
-                     "snap_date": snap_date, "time": v.get("time", ""),
-                     "local_hhmm": v.get("local_hhmm", ""), "hour": v.get("hour"),
-                     "meteo": v["temp"], "actual": act, "err": round(err, 1),
-                     "peak_local": peak_local})
+        row = {"city": v["city"], "date": v["date"], "date_display": v["date_display"],
+                      "snap_date": snap_date, "time": v.get("time", ""),
+                      "local_hhmm": v.get("local_hhmm", ""), "hour": v.get("hour"),
+                      "meteo": v["temp"], "actual": act, "err": round(err, 1),
+                      "peak_local": peak_local}
+        # peak-4.5h 预测（4-5小时前）
+        v4 = hist_4h.get((slug, snap_date))
+        if v4 and act is not None:
+            row["meteo_4h"] = v4["temp"]
+            row["err_4h"] = round(v4["temp"] - act, 1)
+            row["snap_4h"] = v4.get("local_hhmm", "")
+        rows.append(row)
 
     if not rows:
         print("无已结算数据")
@@ -459,12 +482,23 @@ async def main():
     mae = sum(abs_errs) / len(abs_errs)
     bias = sum(errs) / len(errs)
 
+    # 4-5h 全局统计
+    rows_4h = [r for r in rows if r.get("meteo_4h") is not None]
+    if rows_4h:
+        abs_errs_4h = [abs(r["err_4h"]) for r in rows_4h]
+        mae_4h = sum(abs_errs_4h) / len(abs_errs_4h)
+    else:
+        mae_4h = None
+
     by_city = defaultdict(list)
     for r in rows:
         by_city[r["city"]].append(r)
     city_stats = []
     for city, lst in sorted(by_city.items()):
         ae = [abs(x["err"]) for x in lst]
+        # 4-5h 城市 MAE
+        lst_4h = [x for x in lst if x.get("meteo_4h") is not None]
+        mae_4h_city = round(sum(abs(x["err_4h"]) for x in lst_4h) / len(lst_4h), 2) if lst_4h else None
         periods = {}
         for x in lst:
             b = bucket_of(x.get("hour"))
@@ -481,6 +515,7 @@ async def main():
                 best = b
         city_stats.append({"city": city, "n": len(lst),
                            "mae": round(sum(ae) / len(ae), 2),
+                           "mae_4h": mae_4h_city, "n_4h": len(lst_4h),
                            "periods": pstat, "best_period": best})
 
     report = {
@@ -488,6 +523,8 @@ async def main():
         "n": len(rows),
         "mae": round(mae, 2),
         "bias": round(bias, 2),
+        "mae_4h": round(mae_4h, 2) if mae_4h is not None else None,
+        "n_4h": len(rows_4h),
         "rows": rows,
         "cities": city_stats,
     }
