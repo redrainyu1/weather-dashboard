@@ -429,17 +429,17 @@ function showDayDetail(city, date) {
     .then(function(r){ return r.json(); })
     .then(function(d2) {
       var h = '<div style="padding:8px 10px;background:#11141c;border-radius:6px;margin-bottom:8px">';
-      h += '<div style="font-weight:600;color:#fbbf24;margin-bottom:6px">准确度数据</div>';
+      h += '<div style="font-weight:600;color:#fbbf24;margin-bottom:6px">准确度对比</div>';
       h += '<table style="width:100%;border-collapse:collapse;font-size:12px">';
       var fields = [
         ['预测时刻', (row.snap_date ? esc(row.snap_date.slice(5)) : '') + (row.local_hhmm ? ' ' + esc(row.local_hhmm) : '')],
         ['峰时(当地)', row.peak_local || '-'],
-        ['高温预测', '<span style="color:#60a5fa;font-weight:600">' + row.meteo + '°</span>'],
-        ['高温实际', '<span style="color:#22c55e;font-weight:600">' + row.actual + '°</span>'],
+        ['METEO预测', '<span style="color:#60a5fa;font-weight:600">' + row.meteo + '°</span>'],
+        ['实际温度', '<span style="color:#22c55e;font-weight:600">' + row.actual + '°</span>'],
         ['误差', '<span class="' + (row.err > 0 ? 'err-pos' : (row.err < 0 ? 'err-neg' : '')) + '">' + (row.err > 0 ? '+' : '') + row.err + '°</span>']
       ];
       if (row.meteo_4h != null) {
-        fields.push(['4~5h 预测', '<span style="color:#f59e0b">' + row.meteo_4h + '°</span>']);
+        fields.push(['4~5h METEO', '<span style="color:#f59e0b">' + row.meteo_4h + '°</span>']);
         fields.push(['4~5h 误差', '<span class="' + (row.err_4h > 0 ? 'err-pos' : (row.err_4h < 0 ? 'err-neg' : '')) + '">' + (row.err_4h > 0 ? '+' : '') + row.err_4h + '°</span>']);
       }
       for (var i = 0; i < fields.length; i++) {
@@ -455,42 +455,43 @@ function showDayDetail(city, date) {
         var dir = dirs[d2i];
         var obj = d2[dir.key];
         if (!obj) continue;
-        h += '<div style="margin:8px 0;padding:8px 10px;background:#11141c;border-radius:6px">';
-        h += '<div style="font-weight:600;color:' + dir.color + ';margin-bottom:4px">' + dir.label + '</div>';
 
         var act = d2.actual && d2.actual[dir.key];
         var actTemp = act ? act.temp : null;
-        var peakBj = act ? act.peak_bj : null;
-        h += '<div>预测 <span style="color:' + dir.color + ';font-weight:600">' + (obj.predicted_temp || '-') + '</span> &nbsp;概率 <span style="font-weight:600">' + (obj.predicted_prob != null ? obj.predicted_prob + '%' : '-') + '</span>';
+
+        h += '<div style="margin:8px 0;padding:8px 10px;background:#11141c;border-radius:6px">';
+        h += '<div style="font-weight:600;color:' + dir.color + ';margin-bottom:4px">' + dir.label;
         if (actTemp != null) h += ' &nbsp;实际 <span style="color:#22c55e;font-weight:600">' + actTemp + '°</span>';
-        if (peakBj) h += ' &nbsp;<span style="color:#888;font-size:11px">峰值(北京) ' + esc(peakBj.slice(11)) + '</span>';
         h += '</div>';
 
-        if (obj.forecasts && obj.forecasts.length) {
-          h += '<div style="margin-top:4px;color:#888">气象模型：</div>';
-          h += '<table style="font-size:11px;border-collapse:collapse;margin-top:2px">';
-          h += '<tr style="color:#666"><td style="padding:0 8px 0 0">模型</td><td style="padding:0 8px 0 0;text-align:right">温度</td><td style="padding:0 8px 0 0;text-align:right">北京最高时</td><td style="padding:0 8px 0 0;text-align:right">北京最低时</td></tr>';
-          for (var f = 0; f < obj.forecasts.length; f++) {
-            var fc = obj.forecasts[f];
-            h += '<tr style="border-top:1px solid #1a1d27"><td style="padding:2px 8px 2px 0;color:#aaa">' + esc(fc.model || '') + '</td>';
-            h += '<td style="padding:2px 8px;text-align:right;color:#ccc;font-weight:600">' + (fc.temp != null ? fc.temp + '°' : '-') + '</td>';
-            h += '<td style="padding:2px 8px;text-align:right;color:#888">' + (fc.max_hour_bj != null ? fc.max_hour_bj + ':00' : '-') + '</td>';
-            h += '<td style="padding:2px 8px;text-align:right;color:#888">' + (fc.min_hour_bj != null ? fc.min_hour_bj + ':00' : '-') + '</td></tr>';
+        var fcs = obj.forecasts || [];
+        if (fcs.length) {
+          h += '<table style="width:100%;border-collapse:collapse;font-size:12px">';
+          h += '<tr style="color:#666;border-bottom:1px solid #1a1d27">';
+          h += '<td style="padding:3px 0">模型</td>';
+          h += '<td style="padding:3px 0;text-align:right">预测温度</td>';
+          h += '<td style="padding:3px 0;text-align:right">偏差</td>';
+          h += '<td style="padding:3px 0;text-align:right">北京最高时</td>';
+          h += '<td style="padding:3px 0;text-align:right">北京最低时</td>';
+          h += '</tr>';
+          for (var f = 0; f < fcs.length; f++) {
+            var fc = fcs[f];
+            var fcTemp = fc.temp;
+            var diff = (actTemp != null && fcTemp != null) ? fcTemp - actTemp : null;
+            var diffStr = diff != null ? (diff > 0 ? '+' : '') + diff + '°' : '-';
+            var diffCls = diff != null ? (diff > 0 ? 'err-pos' : (diff < 0 ? 'err-neg' : '')) : '';
+            var modelColor = fc.model === 'METEO' ? '#f59e0b' : (fc.model === 'RP5' ? '#a78bfa' : '#60a5fa');
+            h += '<tr style="border-bottom:1px solid #0f1117">';
+            h += '<td style="padding:3px 0;color:' + modelColor + ';font-weight:600">' + esc(fc.model || '') + '</td>';
+            h += '<td style="padding:3px 0;text-align:right;color:#ccc;font-weight:600">' + (fcTemp != null ? fcTemp + '°' : '-') + '</td>';
+            h += '<td style="padding:3px 0;text-align:right" class="' + diffCls + '">' + diffStr + '</td>';
+            h += '<td style="padding:3px 0;text-align:right;color:#888">' + (fc.max_hour_bj != null ? fc.max_hour_bj + ':00' : '-') + '</td>';
+            h += '<td style="padding:3px 0;text-align:right;color:#888">' + (fc.min_hour_bj != null ? fc.min_hour_bj + ':00' : '-') + '</td>';
+            h += '</tr>';
           }
           h += '</table>';
-        }
-        if (obj.markets && obj.markets.length) {
-          h += '<div style="margin-top:6px;color:#888">Polymarket 各价位概率：</div>';
-          h += '<div style="display:flex;flex-wrap:wrap;gap:4px;margin-top:2px">';
-          for (var m = 0; m < obj.markets.length; m++) {
-            var mk = obj.markets[m];
-            var pct = mk.yes_pct != null ? mk.yes_pct : 0;
-            var isHit = actTemp != null && ((dir.key==='highest' && mk.temp_value===actTemp) || (dir.key==='lowest' && mk.temp_value===actTemp));
-            var bg = isHit ? 'rgba(34,197,94,0.3)' : (pct >= 50 ? 'rgba(34,197,94,0.15)' : (pct > 0 ? 'rgba(148,163,184,0.1)' : 'transparent'));
-            var clr = isHit ? '#22c55e' : (pct >= 50 ? '#22c55e' : '#888');
-            h += '<span style="background:' + bg + ';padding:2px 6px;border-radius:4px;color:' + clr + ';font-size:11px' + (isHit ? ';font-weight:600;border:1px solid #22c55e' : '') + '">' + esc(mk.temp || '') + ' <b>' + pct + '%</b>' + (isHit ? ' ✓' : '') + '</span>';
-          }
-          h += '</div>';
+        } else {
+          h += '<div style="color:#666;font-size:11px">暂无快照预测数据</div>';
         }
         h += '</div>';
       }
