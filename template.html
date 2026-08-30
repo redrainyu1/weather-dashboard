@@ -359,12 +359,8 @@ var dbData = null;
 function toggleDB() {
   var m = document.getElementById('dbModal');
   if (m.style.display === 'flex') { m.style.display = 'none'; return; }
-  if (!dbData) {
-    fetch('data.json').then(function(r){return r.json()}).then(function(d){
-      dbData = d.rows || [];
-      renderDB();
-    });
-  } else { renderDB(); }
+  dbData = ALL_DATA.rows || [];
+  renderDB();
   m.style.display = 'flex';
 }
 function closeDBModal() { document.getElementById('dbModal').style.display = 'none'; }
