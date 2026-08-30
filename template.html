@@ -121,6 +121,7 @@
       <option value="date">按日期排序</option>
     </select>
     <button class="btn-refresh" id="btnAcc" onclick="toggleAcc()" style="background:#7c3aed">准确度</button>
+    <button class="btn-refresh" id="btnDB" onclick="toggleDB()" style="background:#0891b2">数据库</button>
     <select id="histDate" onchange="loadHistory()" style="width:110px">
       <option value="">最新数据</option>
     </select>
@@ -155,6 +156,20 @@
       <div id="accModalBody" style="max-height:60vh;overflow-y:auto;font-size:13px;color:#ccc;line-height:1.9"></div>
       <div class="modal-btns">
         <button class="btn-refresh" onclick="closeAccModal()">关闭</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="dbModal" onclick="if(event.target===this)closeDBModal()">
+    <div class="modal-box" style="width:95vw;max-width:1100px;max-height:85vh;display:flex;flex-direction:column">
+      <h3 style="margin-bottom:10px">全部预测数据</h3>
+      <div style="display:flex;gap:10px;margin-bottom:10px;flex-wrap:wrap;align-items:center">
+        <input type="text" id="dbFilter" placeholder="搜索城市/日期..." oninput="renderDB()" style="flex:1;min-width:150px">
+        <span id="dbCount" style="color:#888;font-size:12px"></span>
+      </div>
+      <div id="dbBody" style="flex:1;overflow-y:auto;font-size:12px"></div>
+      <div class="modal-btns">
+        <button class="btn-refresh" onclick="closeDBModal()">关闭</button>
       </div>
     </div>
   </div>
@@ -338,6 +353,57 @@ function accPick(city) {
 
 function closeAccModal() {
   document.getElementById('accModal').style.display = 'none';
+}
+
+var dbData = null;
+function toggleDB() {
+  var m = document.getElementById('dbModal');
+  if (m.style.display === 'flex') { m.style.display = 'none'; return; }
+  if (!dbData) {
+    fetch('data.json').then(function(r){return r.json()}).then(function(d){
+      dbData = d.rows || [];
+      renderDB();
+    });
+  } else { renderDB(); }
+  m.style.display = 'flex';
+}
+function closeDBModal() { document.getElementById('dbModal').style.display = 'none'; }
+function renderDB() {
+  if (!dbData) return;
+  var q = (document.getElementById('dbFilter').value || '').toLowerCase();
+  var rows = dbData.filter(function(r){
+    if (!q) return true;
+    return (r.city||'').toLowerCase().indexOf(q)>=0 || (r.city_cn||'').indexOf(q)>=0 || (r.date||'').indexOf(q)>=0 || (r.date_display||'').indexOf(q)>=0;
+  });
+  document.getElementById('dbCount').textContent = rows.length + ' 条';
+  var h = '<table style="width:100%;border-collapse:collapse"><thead><tr style="border-bottom:1px solid #333;color:#888;font-size:11px;text-align:left">';
+  h += '<th style="padding:6px 8px">城市</th><th style="padding:6px 8px">日期</th><th style="padding:6px 8px">ICAO</th><th style="padding:6px 8px">北京正午</th><th style="padding:6px 8px">高温预测</th><th style="padding:6px 8px">高温概率</th><th style="padding:6px 8px">低温预测</th><th style="padding:6px 8px">低温概率</th>';
+  h += '</tr></thead><tbody>';
+  for (var i = 0; i < rows.length; i++) {
+    var r = rows[i];
+    var hi = r.highest || {};
+    var lo = r.lowest || {};
+    var hiTemp = hi.predicted_temp || '-';
+    var hiProb = hi.predicted_prob != null ? hi.predicted_prob + '%' : '-';
+    var loTemp = lo.predicted_temp || '-';
+    var loProb = lo.predicted_prob != null ? lo.predicted_prob + '%' : '-';
+    h += '<tr style="border-bottom:1px solid #1a1d27;cursor:pointer" onclick="closeDBModal();filterCity(\'' + esc(r.city) + '\')">';
+    h += '<td style="padding:5px 8px;color:#60a5fa">' + esc(r.city_cn || r.city) + '</td>';
+    h += '<td style="padding:5px 8px">' + esc(r.date_display) + '</td>';
+    h += '<td style="padding:5px 8px;color:#888">' + esc(r.icao || '') + '</td>';
+    h += '<td style="padding:5px 8px;color:#888">' + (r.noon_bj != null ? r.noon_bj + ':00' : '-') + '</td>';
+    h += '<td style="padding:5px 8px;color:#f87171;font-weight:600">' + hiTemp + '</td>';
+    h += '<td style="padding:5px 8px;color:#888">' + hiProb + '</td>';
+    h += '<td style="padding:5px 8px;color:#60a5fa;font-weight:600">' + loTemp + '</td>';
+    h += '<td style="padding:5px 8px;color:#888">' + loProb + '</td>';
+    h += '</tr>';
+  }
+  h += '</tbody></table>';
+  document.getElementById('dbBody').innerHTML = h;
+}
+function filterCity(city) {
+  document.getElementById('filter').value = city;
+  render();
 }
 
 function accSortBy(f) {
