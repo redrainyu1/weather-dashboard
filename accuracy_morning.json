@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 503,
+ "n": 505,
  "mae": 0.79,
  "bias": -0.22,
  "mae_4h": 0.49,
@@ -6932,6 +6932,19 @@
    "peak_local": "21:30"
   },
   {
+   "city": "Karachi",
+   "date": "2026-08-30",
+   "date_display": "08/30",
+   "snap_date": "2026-08-30",
+   "time": "11:32",
+   "local_hhmm": "08:32",
+   "hour": 11,
+   "meteo": 30,
+   "actual": 30.0,
+   "err": 0.0,
+   "peak_local": "14:30"
+  },
+  {
    "city": "Kuala Lumpur",
    "date": "2026-08-30",
    "date_display": "08/30",
@@ -6946,6 +6959,19 @@
    "meteo_4h": 34,
    "err_4h": 0.0,
    "snap_4h": "11:32"
+  },
+  {
+   "city": "Lucknow",
+   "date": "2026-08-30",
+   "date_display": "08/30",
+   "snap_date": "2026-08-30",
+   "time": "11:32",
+   "local_hhmm": "09:32",
+   "hour": 11,
+   "meteo": 32,
+   "actual": 32.0,
+   "err": 0.0,
+   "peak_local": "17:00"
   },
   {
    "city": "Manila",
@@ -7389,14 +7415,14 @@
   },
   {
    "city": "Karachi",
-   "n": 13,
-   "mae": 0.23,
+   "n": 14,
+   "mae": 0.21,
    "mae_4h": 0.2,
    "n_4h": 5,
    "periods": {
     "09-12": {
-     "n": 13,
-     "mae": 0.23
+     "n": 14,
+     "mae": 0.21
     }
    },
    "best_period": "09-12"
@@ -7445,14 +7471,14 @@
   },
   {
    "city": "Lucknow",
-   "n": 13,
-   "mae": 0.31,
+   "n": 14,
+   "mae": 0.29,
    "mae_4h": 0.25,
    "n_4h": 4,
    "periods": {
     "09-12": {
-     "n": 12,
-     "mae": 0.33
+     "n": 13,
+     "mae": 0.31
     },
     "06-09": {
      "n": 1,

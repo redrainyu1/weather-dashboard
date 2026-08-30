@@ -1,10 +1,10 @@
 {
  "model": "METEO",
- "n": 857,
+ "n": 859,
  "mae": 0.78,
  "bias": -0.38,
  "mae_4h": 0.7,
- "n_4h": 664,
+ "n_4h": 666,
  "rows": [
   {
    "city": "London",
@@ -12968,8 +12968,8 @@
    "date": "2026-08-30",
    "date_display": "08/30",
    "snap_date": "2026-08-30",
-   "time": "20:02",
-   "local_hhmm": "20:02",
+   "time": "20:32",
+   "local_hhmm": "20:32",
    "hour": 20,
    "meteo": 27,
    "actual": 27.0,
@@ -13108,12 +13108,44 @@
    "snap_4h": "10:32"
   },
   {
+   "city": "Lucknow",
+   "date": "2026-08-30",
+   "date_display": "08/30",
+   "snap_date": "2026-08-30",
+   "time": "18:02",
+   "local_hhmm": "16:02",
+   "hour": 18,
+   "meteo": 32,
+   "actual": 32.0,
+   "err": 0.0,
+   "peak_local": "17:00",
+   "meteo_4h": 32,
+   "err_4h": 0.0,
+   "snap_4h": "12:32"
+  },
+  {
+   "city": "Karachi",
+   "date": "2026-08-30",
+   "date_display": "08/30",
+   "snap_date": "2026-08-30",
+   "time": "16:32",
+   "local_hhmm": "13:32",
+   "hour": 16,
+   "meteo": 30,
+   "actual": 30.0,
+   "err": 0.0,
+   "peak_local": "14:30",
+   "meteo_4h": 30,
+   "err_4h": 0.0,
+   "snap_4h": "10:02"
+  },
+  {
    "city": "Jinan",
    "date": "2026-08-30",
    "date_display": "08/30",
    "snap_date": "2026-08-30",
-   "time": "20:02",
-   "local_hhmm": "12:02",
+   "time": "20:32",
+   "local_hhmm": "12:32",
    "hour": 20,
    "meteo": 31,
    "actual": 26.0,
@@ -13591,14 +13623,14 @@
   },
   {
    "city": "Karachi",
-   "n": 14,
-   "mae": 0.21,
-   "mae_4h": 0.31,
-   "n_4h": 13,
+   "n": 15,
+   "mae": 0.2,
+   "mae_4h": 0.29,
+   "n_4h": 14,
    "periods": {
     "15-18": {
-     "n": 13,
-     "mae": 0.23
+     "n": 14,
+     "mae": 0.21
     },
     "09-12": {
      "n": 1,
@@ -13671,10 +13703,10 @@
   },
   {
    "city": "Lucknow",
-   "n": 14,
-   "mae": 0.29,
-   "mae_4h": 0.42,
-   "n_4h": 12,
+   "n": 15,
+   "mae": 0.27,
+   "mae_4h": 0.38,
+   "n_4h": 13,
    "periods": {
     "15-18": {
      "n": 9,
@@ -13685,7 +13717,7 @@
      "mae": 0.0
     },
     "18-21": {
-     "n": 2,
+     "n": 3,
      "mae": 0.0
     },
     "09-12": {
@@ -13697,7 +13729,7 @@
      "mae": 1.0
     }
    },
-   "best_period": "15-18"
+   "best_period": "18-21"
   },
   {
    "city": "Madrid",
