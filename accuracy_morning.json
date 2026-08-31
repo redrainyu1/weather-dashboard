@@ -1,10 +1,10 @@
 {
  "model": "METEO",
- "n": 493,
+ "n": 496,
  "mae": 0.76,
  "bias": -0.22,
- "mae_4h": 0.42,
- "n_4h": 202,
+ "mae_4h": 0.41,
+ "n_4h": 204,
  "rows": [
   {
    "city": "Amsterdam",
@@ -6993,6 +6993,22 @@
    "peak_local": "14:00"
   },
   {
+   "city": "Busan",
+   "date": "2026-08-31",
+   "date_display": "08/31",
+   "snap_date": "2026-08-31",
+   "time": "11:02",
+   "local_hhmm": "12:02",
+   "hour": 11,
+   "meteo": 32,
+   "actual": 32.0,
+   "err": 0.0,
+   "peak_local": "13:00",
+   "meteo_4h": 32,
+   "err_4h": 0.0,
+   "snap_4h": "08:34"
+  },
+  {
    "city": "Seattle",
    "date": "2026-08-30",
    "date_display": "08/30",
@@ -7004,6 +7020,35 @@
    "actual": 71.0,
    "err": -1.0,
    "peak_local": "16:53"
+  },
+  {
+   "city": "Seoul",
+   "date": "2026-08-31",
+   "date_display": "08/31",
+   "snap_date": "2026-08-31",
+   "time": "11:32",
+   "local_hhmm": "12:32",
+   "hour": 11,
+   "meteo": 25,
+   "actual": 25.0,
+   "err": 0.0,
+   "peak_local": "18:30"
+  },
+  {
+   "city": "Tokyo",
+   "date": "2026-08-31",
+   "date_display": "08/31",
+   "snap_date": "2026-08-31",
+   "time": "11:32",
+   "local_hhmm": "12:32",
+   "hour": 11,
+   "meteo": 27,
+   "actual": 27.0,
+   "err": 0.0,
+   "peak_local": "16:30",
+   "meteo_4h": 27,
+   "err_4h": 0.0,
+   "snap_4h": "12:02"
   },
   {
    "city": "Wellington",
@@ -7081,14 +7126,14 @@
   },
   {
    "city": "Busan",
-   "n": 13,
-   "mae": 0.15,
-   "mae_4h": 0.09,
-   "n_4h": 11,
+   "n": 14,
+   "mae": 0.14,
+   "mae_4h": 0.08,
+   "n_4h": 12,
    "periods": {
     "09-12": {
-     "n": 13,
-     "mae": 0.15
+     "n": 14,
+     "mae": 0.14
     }
    },
    "best_period": "09-12"
@@ -7463,14 +7508,14 @@
   },
   {
    "city": "Seoul",
-   "n": 13,
-   "mae": 0.23,
+   "n": 14,
+   "mae": 0.21,
    "mae_4h": 0.27,
    "n_4h": 11,
    "periods": {
     "09-12": {
-     "n": 12,
-     "mae": 0.25
+     "n": 13,
+     "mae": 0.23
     },
     "06-09": {
      "n": 1,
@@ -7551,14 +7596,14 @@
   },
   {
    "city": "Tokyo",
-   "n": 11,
-   "mae": 0.45,
-   "mae_4h": 0.45,
-   "n_4h": 11,
+   "n": 12,
+   "mae": 0.42,
+   "mae_4h": 0.42,
+   "n_4h": 12,
    "periods": {
     "09-12": {
-     "n": 11,
-     "mae": 0.45
+     "n": 12,
+     "mae": 0.42
     }
    },
    "best_period": "09-12"

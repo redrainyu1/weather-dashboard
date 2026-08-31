@@ -4394,5 +4394,17 @@
  "highest-temperature-in-denver-on-august-30-2026": {
   "temp": 83.0,
   "peak_bj": "2026-08-31 03:58"
+ },
+ "highest-temperature-in-busan-on-august-31-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-08-31 12:00"
+ },
+ "highest-temperature-in-seoul-on-august-31-2026": {
+  "temp": 25.0,
+  "peak_bj": "2026-08-31 17:30"
+ },
+ "highest-temperature-in-tokyo-on-august-31-2026": {
+  "temp": 27.0,
+  "peak_bj": "2026-08-31 15:30"
  }
 }
