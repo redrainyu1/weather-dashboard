@@ -1,10 +1,10 @@
 {
  "model": "METEO",
- "n": 510,
+ "n": 511,
  "mae": 0.76,
- "bias": -0.19,
- "mae_4h": 0.41,
- "n_4h": 215,
+ "bias": -0.2,
+ "mae_4h": 0.42,
+ "n_4h": 216,
  "rows": [
   {
    "city": "Amsterdam",
@@ -7086,6 +7086,22 @@
    "peak_local": "17:30"
   },
   {
+   "city": "Lucknow",
+   "date": "2026-08-31",
+   "date_display": "08/31",
+   "snap_date": "2026-08-31",
+   "time": "11:32",
+   "local_hhmm": "09:32",
+   "hour": 11,
+   "meteo": 30,
+   "actual": 31.0,
+   "err": -1.0,
+   "peak_local": "12:30",
+   "meteo_4h": 30,
+   "err_4h": -1.0,
+   "snap_4h": "08:03"
+  },
+  {
    "city": "Manila",
    "date": "2026-08-31",
    "date_display": "08/31",
@@ -7551,18 +7567,18 @@
   },
   {
    "city": "Lucknow",
-   "n": 13,
-   "mae": 0.15,
-   "mae_4h": 0.25,
-   "n_4h": 4,
+   "n": 14,
+   "mae": 0.21,
+   "mae_4h": 0.4,
+   "n_4h": 5,
    "periods": {
     "06-09": {
      "n": 1,
      "mae": 0.0
     },
     "09-12": {
-     "n": 12,
-     "mae": 0.17
+     "n": 13,
+     "mae": 0.23
     }
    },
    "best_period": "09-12"

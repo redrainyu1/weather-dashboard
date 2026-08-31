@@ -4462,5 +4462,9 @@
  "highest-temperature-in-zhengzhou-on-august-31-2026": {
   "temp": 32.0,
   "peak_bj": "2026-08-31 17:00"
+ },
+ "highest-temperature-in-lucknow-on-august-31-2026": {
+  "temp": 31.0,
+  "peak_bj": "2026-08-31 14:30"
  }
 }
