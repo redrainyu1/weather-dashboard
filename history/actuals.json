@@ -4418,5 +4418,49 @@
  "highest-temperature-in-singapore-on-august-31-2026": {
   "temp": 30.0,
   "peak_bj": "2026-08-31 19:00"
+ },
+ "highest-temperature-in-beijing-on-august-31-2026": {
+  "temp": 31.0,
+  "peak_bj": "2026-08-31 16:30"
+ },
+ "highest-temperature-in-chengdu-on-august-31-2026": {
+  "temp": 35.0,
+  "peak_bj": "2026-08-31 17:00"
+ },
+ "highest-temperature-in-chongqing-on-august-31-2026": {
+  "temp": 34.0,
+  "peak_bj": "2026-08-31 15:00"
+ },
+ "highest-temperature-in-guangzhou-on-august-31-2026": {
+  "temp": 33.0,
+  "peak_bj": "2026-08-31 13:30"
+ },
+ "highest-temperature-in-kuala-lumpur-on-august-31-2026": {
+  "temp": 33.0,
+  "peak_bj": "2026-08-31 17:30"
+ },
+ "highest-temperature-in-qingdao-on-august-31-2026": {
+  "temp": 31.0,
+  "peak_bj": "2026-08-31 16:00"
+ },
+ "highest-temperature-in-shanghai-on-august-31-2026": {
+  "temp": 33.0,
+  "peak_bj": "2026-08-31 14:30"
+ },
+ "highest-temperature-in-shenzhen-on-august-31-2026": {
+  "temp": 30.0,
+  "peak_bj": "2026-08-31 11:00"
+ },
+ "highest-temperature-in-taipei-on-august-31-2026": {
+  "temp": 34.0,
+  "peak_bj": "2026-08-31 14:30"
+ },
+ "highest-temperature-in-wuhan-on-august-31-2026": {
+  "temp": 34.0,
+  "peak_bj": "2026-08-31 15:00"
+ },
+ "highest-temperature-in-zhengzhou-on-august-31-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-08-31 17:00"
  }
 }
