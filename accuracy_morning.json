@@ -1,8 +1,8 @@
 {
  "model": "METEO",
- "n": 490,
+ "n": 491,
  "mae": 0.76,
- "bias": -0.21,
+ "bias": -0.22,
  "mae_4h": 0.42,
  "n_4h": 201,
  "rows": [
@@ -6978,6 +6978,19 @@
    "actual": 22.0,
    "err": -3.0,
    "peak_local": "15:00"
+  },
+  {
+   "city": "Sao Paulo",
+   "date": "2026-08-30",
+   "date_display": "08/30",
+   "snap_date": "2026-08-30",
+   "time": "11:32",
+   "local_hhmm": "00:32",
+   "hour": 11,
+   "meteo": 30,
+   "actual": 31.0,
+   "err": -1.0,
+   "peak_local": "14:00"
   }
  ],
  "cities": [
@@ -7393,14 +7406,14 @@
   },
   {
    "city": "Sao Paulo",
-   "n": 11,
-   "mae": 1.09,
+   "n": 12,
+   "mae": 1.08,
    "mae_4h": null,
    "n_4h": 0,
    "periods": {
     "09-12": {
-     "n": 11,
-     "mae": 1.09
+     "n": 12,
+     "mae": 1.08
     }
    },
    "best_period": "09-12"

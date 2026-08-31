@@ -1,10 +1,10 @@
 {
  "model": "METEO",
- "n": 851,
+ "n": 852,
  "mae": 0.77,
  "bias": -0.36,
  "mae_4h": 0.65,
- "n_4h": 651,
+ "n_4h": 652,
  "rows": [
   {
    "city": "London",
@@ -13021,6 +13021,22 @@
    "meteo_4h": 20,
    "err_4h": -2.0,
    "snap_4h": "10:32"
+  },
+  {
+   "city": "Sao Paulo",
+   "date": "2026-08-30",
+   "date_display": "08/30",
+   "snap_date": "2026-08-30",
+   "time": "00:02",
+   "local_hhmm": "13:02",
+   "hour": 0,
+   "meteo": 31,
+   "actual": 31.0,
+   "err": 0.0,
+   "peak_local": "14:00",
+   "meteo_4h": 31,
+   "err_4h": 0.0,
+   "snap_4h": "09:32"
   }
  ],
  "cities": [
@@ -13828,18 +13844,18 @@
   },
   {
    "city": "Sao Paulo",
-   "n": 19,
-   "mae": 0.26,
-   "mae_4h": 0.27,
-   "n_4h": 15,
+   "n": 20,
+   "mae": 0.25,
+   "mae_4h": 0.25,
+   "n_4h": 16,
    "periods": {
     "21-24": {
      "n": 8,
      "mae": 0.5
     },
     "其他": {
-     "n": 11,
-     "mae": 0.09
+     "n": 12,
+     "mae": 0.08
     }
    },
    "best_period": "其他"
