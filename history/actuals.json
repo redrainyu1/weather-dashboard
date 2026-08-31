@@ -4302,5 +4302,17 @@
  "highest-temperature-in-warsaw-on-august-30-2026": {
   "temp": 26.0,
   "peak_bj": "2026-08-31 00:00"
+ },
+ "highest-temperature-in-london-on-august-30-2026": {
+  "temp": 23.0,
+  "peak_bj": "2026-08-30 22:50"
+ },
+ "highest-temperature-in-milan-on-august-30-2026": {
+  "temp": 31.0,
+  "peak_bj": "2026-08-30 23:20"
+ },
+ "highest-temperature-in-munich-on-august-30-2026": {
+  "temp": 27.0,
+  "peak_bj": "2026-08-30 22:20"
  }
 }

@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 483,
+ "n": 486,
  "mae": 0.75,
  "bias": -0.21,
  "mae_4h": 0.41,
@@ -6632,6 +6632,19 @@
    "peak_local": "16:31"
   },
   {
+   "city": "Milan",
+   "date": "2026-08-30",
+   "date_display": "08/30",
+   "snap_date": "2026-08-30",
+   "time": "11:32",
+   "local_hhmm": "05:32",
+   "hour": 11,
+   "meteo": 29,
+   "actual": 31.0,
+   "err": -2.0,
+   "peak_local": "17:20"
+  },
+  {
    "city": "Moscow",
    "date": "2026-08-30",
    "date_display": "08/30",
@@ -6643,6 +6656,19 @@
    "actual": 22.0,
    "err": 0.0,
    "peak_local": "12:30"
+  },
+  {
+   "city": "Munich",
+   "date": "2026-08-30",
+   "date_display": "08/30",
+   "snap_date": "2026-08-30",
+   "time": "11:32",
+   "local_hhmm": "05:32",
+   "hour": 11,
+   "meteo": 26,
+   "actual": 27.0,
+   "err": -1.0,
+   "peak_local": "16:20"
   },
   {
    "city": "Paris",
@@ -6852,6 +6878,19 @@
    "meteo_4h": 33,
    "err_4h": 0.0,
    "snap_4h": "10:32"
+  },
+  {
+   "city": "London",
+   "date": "2026-08-30",
+   "date_display": "08/30",
+   "snap_date": "2026-08-30",
+   "time": "11:32",
+   "local_hhmm": "04:32",
+   "hour": 11,
+   "meteo": 23,
+   "actual": 23.0,
+   "err": 0.0,
+   "peak_local": "15:50"
   },
   {
    "city": "Jinan",
@@ -7124,14 +7163,14 @@
   },
   {
    "city": "London",
-   "n": 12,
-   "mae": 1.33,
+   "n": 13,
+   "mae": 1.23,
    "mae_4h": null,
    "n_4h": 0,
    "periods": {
     "09-12": {
-     "n": 12,
-     "mae": 1.33
+     "n": 13,
+     "mae": 1.23
     }
    },
    "best_period": "09-12"
@@ -7212,14 +7251,14 @@
   },
   {
    "city": "Milan",
-   "n": 12,
-   "mae": 1.5,
+   "n": 13,
+   "mae": 1.54,
    "mae_4h": null,
    "n_4h": 0,
    "periods": {
     "09-12": {
-     "n": 12,
-     "mae": 1.5
+     "n": 13,
+     "mae": 1.54
     }
    },
    "best_period": "09-12"
@@ -7240,14 +7279,14 @@
   },
   {
    "city": "Munich",
-   "n": 12,
-   "mae": 0.67,
+   "n": 13,
+   "mae": 0.69,
    "mae_4h": 1.0,
    "n_4h": 1,
    "periods": {
     "09-12": {
-     "n": 12,
-     "mae": 0.67
+     "n": 13,
+     "mae": 0.69
     }
    },
    "best_period": "09-12"
