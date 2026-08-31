@@ -4390,5 +4390,9 @@
  "highest-temperature-in-wellington-on-august-31-2026": {
   "temp": 17.0,
   "peak_bj": "2026-08-31 11:00"
+ },
+ "highest-temperature-in-denver-on-august-30-2026": {
+  "temp": 83.0,
+  "peak_bj": "2026-08-31 03:58"
  }
 }
