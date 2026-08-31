@@ -4314,5 +4314,25 @@
  "highest-temperature-in-munich-on-august-30-2026": {
   "temp": 27.0,
   "peak_bj": "2026-08-30 22:20"
+ },
+ "highest-temperature-in-amsterdam-on-august-30-2026": {
+  "temp": 21.0,
+  "peak_bj": "2026-08-31 00:55"
+ },
+ "highest-temperature-in-buenos-aires-on-august-30-2026": {
+  "temp": 22.0,
+  "peak_bj": "2026-08-31 02:00"
+ },
+ "highest-temperature-in-hong-kong-on-august-28-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-08-28 17:30"
+ },
+ "highest-temperature-in-hong-kong-on-august-29-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-08-29 13:30"
+ },
+ "highest-temperature-in-hong-kong-on-august-30-2026": {
+  "temp": 30.0,
+  "peak_bj": "2026-08-30 11:30"
  }
 }

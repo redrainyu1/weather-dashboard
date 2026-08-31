@@ -1,10 +1,10 @@
 {
  "model": "METEO",
- "n": 846,
+ "n": 851,
  "mae": 0.77,
  "bias": -0.36,
  "mae_4h": 0.65,
- "n_4h": 647,
+ "n_4h": 651,
  "rows": [
   {
    "city": "London",
@@ -11033,6 +11033,19 @@
    "snap_4h": "12:32"
   },
   {
+   "city": "Hong Kong",
+   "date": "2026-08-28",
+   "date_display": "08/28",
+   "snap_date": "2026-08-28",
+   "time": "16:32",
+   "local_hhmm": "16:32",
+   "hour": 16,
+   "meteo": 32,
+   "actual": 32.0,
+   "err": 0.0,
+   "peak_local": "17:30"
+  },
+  {
    "city": "Istanbul",
    "date": "2026-08-28",
    "date_display": "08/28",
@@ -11760,6 +11773,22 @@
    "meteo_4h": 36,
    "err_4h": 0.0,
    "snap_4h": "12:02"
+  },
+  {
+   "city": "Hong Kong",
+   "date": "2026-08-29",
+   "date_display": "08/29",
+   "snap_date": "2026-08-29",
+   "time": "12:32",
+   "local_hhmm": "12:32",
+   "hour": 12,
+   "meteo": 33,
+   "actual": 32.0,
+   "err": 1.0,
+   "peak_local": "13:30",
+   "meteo_4h": 33,
+   "err_4h": 1.0,
+   "snap_4h": "09:02"
   },
   {
    "city": "Kuala Lumpur",
@@ -12546,6 +12575,22 @@
    "snap_4h": "17:02"
   },
   {
+   "city": "Hong Kong",
+   "date": "2026-08-30",
+   "date_display": "08/30",
+   "snap_date": "2026-08-30",
+   "time": "10:32",
+   "local_hhmm": "10:32",
+   "hour": 10,
+   "meteo": 32,
+   "actual": 30.0,
+   "err": 2.0,
+   "peak_local": "11:30",
+   "meteo_4h": 32,
+   "err_4h": 2.0,
+   "snap_4h": "07:02"
+  },
+  {
    "city": "Kuala Lumpur",
    "date": "2026-08-30",
    "date_display": "08/30",
@@ -12802,6 +12847,22 @@
    "snap_4h": "09:13"
   },
   {
+   "city": "Amsterdam",
+   "date": "2026-08-30",
+   "date_display": "08/30",
+   "snap_date": "2026-08-30",
+   "time": "21:32",
+   "local_hhmm": "15:32",
+   "hour": 21,
+   "meteo": 21,
+   "actual": 21.0,
+   "err": 0.0,
+   "peak_local": "18:55",
+   "meteo_4h": 21,
+   "err_4h": 0.0,
+   "snap_4h": "14:32"
+  },
+  {
    "city": "Cape Town",
    "date": "2026-08-30",
    "date_display": "08/30",
@@ -12944,18 +13005,34 @@
    "meteo_4h": 32,
    "err_4h": 0.0,
    "snap_4h": "04:32"
+  },
+  {
+   "city": "Buenos Aires",
+   "date": "2026-08-30",
+   "date_display": "08/30",
+   "snap_date": "2026-08-30",
+   "time": "01:02",
+   "local_hhmm": "14:02",
+   "hour": 1,
+   "meteo": 20,
+   "actual": 22.0,
+   "err": -2.0,
+   "peak_local": "15:00",
+   "meteo_4h": 20,
+   "err_4h": -2.0,
+   "snap_4h": "10:32"
   }
  ],
  "cities": [
   {
    "city": "Amsterdam",
-   "n": 17,
-   "mae": 0.12,
-   "mae_4h": 0.08,
-   "n_4h": 13,
+   "n": 18,
+   "mae": 0.11,
+   "mae_4h": 0.07,
+   "n_4h": 14,
    "periods": {
     "21-24": {
-     "n": 12,
+     "n": 13,
      "mae": 0.08
     },
     "其他": {
@@ -13055,18 +13132,18 @@
   },
   {
    "city": "Buenos Aires",
-   "n": 19,
-   "mae": 1.05,
-   "mae_4h": 1.33,
-   "n_4h": 12,
+   "n": 20,
+   "mae": 1.1,
+   "mae_4h": 1.38,
+   "n_4h": 13,
    "periods": {
     "21-24": {
      "n": 7,
      "mae": 0.86
     },
     "其他": {
-     "n": 11,
-     "mae": 1.18
+     "n": 12,
+     "mae": 1.25
     },
     "09-12": {
      "n": 1,
@@ -13279,22 +13356,22 @@
   },
   {
    "city": "Hong Kong",
-   "n": 11,
-   "mae": 1.09,
-   "mae_4h": 1.1,
-   "n_4h": 10,
+   "n": 14,
+   "mae": 1.07,
+   "mae_4h": 1.17,
+   "n_4h": 12,
    "periods": {
     "12-15": {
-     "n": 5,
-     "mae": 1.4
+     "n": 6,
+     "mae": 1.33
     },
     "15-18": {
-     "n": 4,
-     "mae": 0.75
+     "n": 5,
+     "mae": 0.6
     },
     "09-12": {
-     "n": 2,
-     "mae": 1.0
+     "n": 3,
+     "mae": 1.33
     }
    },
    "best_period": "15-18"
