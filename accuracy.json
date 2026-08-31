@@ -1,10 +1,10 @@
 {
  "model": "METEO",
- "n": 859,
+ "n": 861,
  "mae": 0.76,
  "bias": -0.36,
  "mae_4h": 0.64,
- "n_4h": 659,
+ "n_4h": 661,
  "rows": [
   {
    "city": "London",
@@ -13135,6 +13135,22 @@
    "snap_4h": "09:32"
   },
   {
+   "city": "Dallas",
+   "date": "2026-08-30",
+   "date_display": "08/30",
+   "snap_date": "2026-08-30",
+   "time": "03:02",
+   "local_hhmm": "14:02",
+   "hour": 3,
+   "meteo": 100,
+   "actual": 101.0,
+   "err": -1.0,
+   "peak_local": "14:53",
+   "meteo_4h": 100,
+   "err_4h": -1.0,
+   "snap_4h": "10:21"
+  },
+  {
    "city": "Houston",
    "date": "2026-08-30",
    "date_display": "08/30",
@@ -13149,6 +13165,22 @@
    "meteo_4h": 97,
    "err_4h": 0.0,
    "snap_4h": "12:33"
+  },
+  {
+   "city": "Mexico City",
+   "date": "2026-08-30",
+   "date_display": "08/30",
+   "snap_date": "2026-08-30",
+   "time": "03:32",
+   "local_hhmm": "13:32",
+   "hour": 3,
+   "meteo": 26,
+   "actual": 26.0,
+   "err": 0.0,
+   "peak_local": "14:45",
+   "meteo_4h": 26,
+   "err_4h": 0.0,
+   "snap_4h": "10:02"
   }
  ],
  "cities": [
@@ -13392,17 +13424,17 @@
   },
   {
    "city": "Dallas",
-   "n": 19,
+   "n": 20,
    "mae": 1.05,
    "mae_4h": 0.92,
-   "n_4h": 12,
+   "n_4h": 13,
    "periods": {
     "21-24": {
      "n": 7,
      "mae": 1.29
     },
     "其他": {
-     "n": 12,
+     "n": 13,
      "mae": 0.92
     }
    },
@@ -13748,18 +13780,18 @@
   },
   {
    "city": "Mexico City",
-   "n": 19,
-   "mae": 0.63,
-   "mae_4h": 0.38,
-   "n_4h": 13,
+   "n": 20,
+   "mae": 0.6,
+   "mae_4h": 0.36,
+   "n_4h": 14,
    "periods": {
     "21-24": {
      "n": 6,
      "mae": 1.5
     },
     "其他": {
-     "n": 13,
-     "mae": 0.23
+     "n": 14,
+     "mae": 0.21
     }
    },
    "best_period": "其他"
