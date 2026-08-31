@@ -4478,5 +4478,25 @@
  "highest-temperature-in-panama-city-on-august-31-2026": {
   "temp": 23.0,
   "peak_bj": "2026-09-01 05:00"
+ },
+ "highest-temperature-in-istanbul-on-august-31-2026": {
+  "temp": 26.0,
+  "peak_bj": "2026-08-31 20:20"
+ },
+ "highest-temperature-in-jeddah-on-august-31-2026": {
+  "temp": 38.0,
+  "peak_bj": "2026-08-31 17:00"
+ },
+ "highest-temperature-in-madrid-on-august-31-2026": {
+  "temp": 33.0,
+  "peak_bj": "2026-09-01 02:00"
+ },
+ "highest-temperature-in-moscow-on-august-31-2026": {
+  "temp": 19.0,
+  "peak_bj": "2026-08-31 23:00"
+ },
+ "highest-temperature-in-tel-aviv-on-august-31-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-08-31 19:50"
  }
 }
