@@ -4470,5 +4470,13 @@
  "highest-temperature-in-karachi-on-august-31-2026": {
   "temp": 30.0,
   "peak_bj": "2026-08-31 19:00"
+ },
+ "highest-temperature-in-panama-city-on-august-30-2026": {
+  "temp": 24.0,
+  "peak_bj": "2026-08-31 12:00"
+ },
+ "highest-temperature-in-panama-city-on-august-31-2026": {
+  "temp": 23.0,
+  "peak_bj": "2026-09-01 05:00"
  }
 }
