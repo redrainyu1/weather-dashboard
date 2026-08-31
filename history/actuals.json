@@ -4406,5 +4406,17 @@
  "highest-temperature-in-tokyo-on-august-31-2026": {
   "temp": 27.0,
   "peak_bj": "2026-08-31 15:30"
+ },
+ "highest-temperature-in-jinan-on-august-31-2026": {
+  "temp": 26.0,
+  "peak_bj": "2026-08-31 23:00"
+ },
+ "highest-temperature-in-manila-on-august-31-2026": {
+  "temp": 33.0,
+  "peak_bj": "2026-08-31 13:00"
+ },
+ "highest-temperature-in-singapore-on-august-31-2026": {
+  "temp": 30.0,
+  "peak_bj": "2026-08-31 19:00"
  }
 }
