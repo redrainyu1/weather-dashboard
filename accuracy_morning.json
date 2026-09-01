@@ -1,7 +1,7 @@
 {
  "model": "METEO",
- "n": 491,
- "mae": 0.76,
+ "n": 492,
+ "mae": 0.77,
  "bias": -0.18,
  "rows": [
   {
@@ -6336,6 +6336,19 @@
    "peak_local": "15:00"
   },
   {
+   "city": "London",
+   "date": "2026-08-31",
+   "date_display": "08/31",
+   "snap_date": "2026-08-31",
+   "time": "11:32",
+   "local_hhmm": "04:32",
+   "hour": 11,
+   "meteo": 22,
+   "actual": 24.0,
+   "err": -2.0,
+   "peak_local": "15:20"
+  },
+  {
    "city": "Jinan",
    "date": "2026-08-31",
    "date_display": "08/31",
@@ -6607,12 +6620,12 @@
   },
   {
    "city": "London",
-   "n": 12,
-   "mae": 1.08,
+   "n": 13,
+   "mae": 1.15,
    "periods": {
     "09-12": {
-     "n": 12,
-     "mae": 1.08
+     "n": 13,
+     "mae": 1.15
     }
    },
    "best_period": "09-12"

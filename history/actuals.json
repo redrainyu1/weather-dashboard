@@ -4562,5 +4562,17 @@
  "highest-temperature-in-houston-on-august-31-2026": {
   "temp": 91.0,
   "peak_bj": "2026-09-01 04:53"
+ },
+ "highest-temperature-in-atlanta-on-august-31-2026": {
+  "temp": 93.0,
+  "peak_bj": "2026-09-01 04:52"
+ },
+ "highest-temperature-in-london-on-august-31-2026": {
+  "temp": 24.0,
+  "peak_bj": "2026-08-31 22:20"
+ },
+ "highest-temperature-in-mexico-city-on-august-31-2026": {
+  "temp": 24.0,
+  "peak_bj": "2026-09-01 02:45"
  }
 }
