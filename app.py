@@ -266,6 +266,57 @@ def api_daydetail():
 
     return jsonify(result)
 
+@app.route('/api/hourly')
+def api_hourly():
+    """返回指定城市+日期的逐小时温度数据"""
+    from city_coords import CITY_COORDS
+    city = request.args.get('city', '')
+    date = request.args.get('date', '')
+    if not city or not date:
+        return jsonify({"hourly": []})
+
+    hist_dir = os.path.join(SCRIPT_DIR, "history")
+    if os.path.exists(hist_dir):
+        for fn in sorted(os.listdir(hist_dir), reverse=True):
+            if not fn.endswith('.json') or 'actuals' in fn: continue
+            if not fn.startswith(date[:7]): continue
+            try:
+                fp = os.path.join(hist_dir, fn)
+                with open(fp, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                for row in data.get("rows", []):
+                    if row.get("city") == city and row.get("date") == date:
+                        for key in ("highest", "lowest"):
+                            obj = row.get(key)
+                            if not obj: continue
+                            hourly = obj.get("hourly", [])
+                            if hourly:
+                                return jsonify({"hourly": hourly, "source": "GFS"})
+                        break
+            except Exception:
+                continue
+
+    try:
+        lat, lon = CITY_COORDS.get(city, (0, 0))
+        with httpx.Client(http1=True, http2=False, verify=False, timeout=15,
+                          proxy=os.getenv("PROXY_URL", "http://127.0.0.1:7897") or None) as client:
+            r = client.get("https://archive-api.open-meteo.com/v1/archive",
+                params={"latitude": lat, "longitude": lon,
+                        "start_date": date, "end_date": date,
+                        "hourly": "temperature_2m"},
+                headers=HEADERS)
+            data = r.json()
+            temps = data.get("hourly", {}).get("temperature_2m", [])
+            times = data.get("hourly", {}).get("time", [])
+            result = []
+            for i, t in enumerate(times):
+                if i < len(temps) and temps[i] is not None:
+                    hour = int(t.split("T")[1].split(":")[0])
+                    result.append({"hour": hour, "temp": temps[i]})
+            return jsonify({"hourly": result, "source": "Open-Meteo"})
+    except Exception:
+        return jsonify({"hourly": []})
+
 def git_pull():
     """从 GitHub 仓库同步最新数据（云端 Actions 每 30 分钟抓取）"""
     try:
@@ -287,9 +338,62 @@ def api_refresh():
     except Exception as e:
         return jsonify({"status": "error", "error": str(e)})
 
+import threading
+
+_bg_status = {"running": False, "last_run": None, "next_run": None, "log": ""}
+
+def _bg_fetch():
+    _bg_status["running"] = True
+    _bg_status["log"] = "抓取中..."
+    try:
+        python = sys.executable
+        serve_py = os.path.join(SCRIPT_DIR, "serve.py")
+        result = subprocess.run([python, serve_py], cwd=SCRIPT_DIR,
+                                capture_output=True, text=True, timeout=900,
+                                creationflags=subprocess.CREATE_NO_WINDOW)
+        _bg_status["log"] = result.stdout[-500:] if result.stdout else (result.stderr[-500:] if result.stderr else "done")
+        subprocess.run(["git", "add", "history", "data.json"], cwd=SCRIPT_DIR, capture_output=True)
+        subprocess.run(["git", "commit", "-m", "auto: local fetch", "--no-gpg-sign"],
+                       cwd=SCRIPT_DIR, capture_output=True)
+        subprocess.run(["git", "pull", "--rebase", "origin", "main"], cwd=SCRIPT_DIR, capture_output=True, timeout=180)
+        subprocess.run(["git", "push"], cwd=SCRIPT_DIR, capture_output=True, timeout=180)
+    except Exception as e:
+        _bg_status["log"] = f"error: {e}"
+    finally:
+        _bg_status["running"] = False
+        _bg_status["last_run"] = datetime.now().strftime("%H:%M:%S")
+
+def _bg_loop(interval=1800):
+    while True:
+        _bg_status["next_run"] = datetime.now().timestamp() + interval
+        time.sleep(interval)
+        if not _bg_status["running"]:
+            _bg_fetch()
+
+@app.route('/api/auto-status')
+def api_auto_status():
+    return jsonify(_bg_status)
+
+@app.route('/api/auto-start', methods=['POST'])
+def api_auto_start():
+    if not any(t.name == 'bg_fetch' for t in threading.enumerate()):
+        t = threading.Thread(target=_bg_loop, kwargs={"interval": 1800}, daemon=True, name='bg_fetch')
+        t.start()
+        _bg_status["next_run"] = datetime.now().timestamp() + 1800
+    return jsonify({"status": "ok"})
+
+@app.route('/api/auto-now', methods=['POST'])
+def api_auto_now():
+    if not _bg_status["running"]:
+        threading.Thread(target=_bg_fetch, daemon=True).start()
+    return jsonify({"status": "ok"})
+
 if __name__ == '__main__':
     print("=" * 50)
     print("Weather Dashboard Server  |  http://127.0.0.1:5002")
-    print("Manual mode: 刷新数据 = git pull 同步云端, 修复缺失 = 本地抓取")
+    print("Local auto-fetch: every 30 min + git push")
     print("=" * 50)
+    t = threading.Thread(target=_bg_loop, kwargs={"interval": 1800}, daemon=True, name='bg_fetch')
+    t.start()
+    _bg_status["next_run"] = datetime.now().timestamp() + 1800
     app.run(host='0.0.0.0', port=5002, debug=False)

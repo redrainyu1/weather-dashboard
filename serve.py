@@ -206,6 +206,7 @@ async def _fetch_om(client, lat, lon, model):
             day_i = [i for i, tm in enumerate(htime) if tm.startswith(t)]
             max_h = min_h = None
             wind_deg = wind_kmh = None
+            hourly_data = []
             if day_i:
                 vals = [htemp[i] for i in day_i]
                 def _bj(idx):
@@ -217,8 +218,11 @@ async def _fetch_om(client, lat, lon, model):
                 if hdir[day_i[mxi]] is not None:
                     wind_deg = int(hdir[day_i[mxi]])
                     wind_kmh = round(hspd[day_i[mxi]], 1)
+                for idx in day_i:
+                    lh = int(htime[idx][11:13])
+                    hourly_data.append({"hour": lh, "temp": htemp[idx]})
             out[t] = {"max": mx, "min": mn, "max_hour_bj": max_h, "min_hour_bj": min_h,
-                      "wind_deg": wind_deg, "wind_kmh": wind_kmh}
+                      "wind_deg": wind_deg, "wind_kmh": wind_kmh, "hourly": hourly_data}
         return out, off
     except: return {}, None
 
@@ -387,7 +391,8 @@ async def main():
                     e = r.get(dt, {})
                     if e.get("max") is not None: models.append({"name": nm, "max": e["max"], "min": e["min"],
                                                                   "max_hour_bj": e.get("max_hour_bj"), "min_hour_bj": e.get("min_hour_bj"),
-                                                                  "wind_deg": e.get("wind_deg"), "wind_kmh": e.get("wind_kmh")})
+                                                                  "wind_deg": e.get("wind_deg"), "wind_kmh": e.get("wind_kmh"),
+                                                                  "hourly": e.get("hourly", [])})
                 if models: fc[dt] = {"models": models}
             forecasts[city] = {"off": res["off"], "days": fc}
             if (i+1) % 5 == 0: print(f"  {i+1}/{len(cities)}")
@@ -400,6 +405,7 @@ async def main():
             evt["noon_bj"] = ((12 * 3600 - off + 8 * 3600) % 86400) // 3600 if off is not None else None
             fc = fcd.get("days", {}).get(dt, {}).get("models", [])
             mf = []
+            hourly_data = []
             for m in fc:
                 raw = m["max"] if direction == "highest" else m["min"]
                 at = calc_temp(city, raw, direction)
@@ -410,10 +416,15 @@ async def main():
                 elif m["name"] == "RP5":
                     from rp5_scraper import get_rp5_url
                     url = get_rp5_url(city)
+                mh = m.get("hourly", []) if m["name"] == "GFS" else []
                 mf.append({"model": m["name"], "temp": round(at), "pct": matched["yes_pct"] if matched else None, "url": url,
                            "max_hour_bj": m.get("max_hour_bj"), "min_hour_bj": m.get("min_hour_bj"),
-                           "wind_deg": m.get("wind_deg"), "wind_kmh": m.get("wind_kmh")})
+                           "wind_deg": m.get("wind_deg"), "wind_kmh": m.get("wind_kmh"),
+                           "hourly": mh})
+                if not hourly_data and mh:
+                    hourly_data = mh
             evt["forecasts"] = mf
+            evt["hourly"] = hourly_data
         print(f"  Matched {sum(1 for e in pm if e.get('forecasts'))}/{len(pm)}")
 
     grouped = group(pm)
