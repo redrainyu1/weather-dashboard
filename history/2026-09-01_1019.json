@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01T10:20:07.898035",
+  "updated_at": "2026-09-01T10:19:40.038059",
   "count": 151,
   "rows": [
     {
@@ -322,6 +322,114 @@
         "noon_bj": 18,
         "forecasts": [
           {
+            "model": "GFS",
+            "temp": 20,
+            "pct": 64.0,
+            "url": null,
+            "max_hour_bj": 20,
+            "min_hour_bj": 4,
+            "wind_deg": 279,
+            "wind_kmh": 17.9,
+            "hourly": [
+              {
+                "hour": 0,
+                "temp": 14.9
+              },
+              {
+                "hour": 1,
+                "temp": 14.9
+              },
+              {
+                "hour": 2,
+                "temp": 14.8
+              },
+              {
+                "hour": 3,
+                "temp": 15.3
+              },
+              {
+                "hour": 4,
+                "temp": 16.0
+              },
+              {
+                "hour": 5,
+                "temp": 15.4
+              },
+              {
+                "hour": 6,
+                "temp": 15.2
+              },
+              {
+                "hour": 7,
+                "temp": 15.4
+              },
+              {
+                "hour": 8,
+                "temp": 16.0
+              },
+              {
+                "hour": 9,
+                "temp": 17.3
+              },
+              {
+                "hour": 10,
+                "temp": 18.1
+              },
+              {
+                "hour": 11,
+                "temp": 19.0
+              },
+              {
+                "hour": 12,
+                "temp": 19.5
+              },
+              {
+                "hour": 13,
+                "temp": 19.9
+              },
+              {
+                "hour": 14,
+                "temp": 20.1
+              },
+              {
+                "hour": 15,
+                "temp": 20.0
+              },
+              {
+                "hour": 16,
+                "temp": 19.6
+              },
+              {
+                "hour": 17,
+                "temp": 19.2
+              },
+              {
+                "hour": 18,
+                "temp": 18.7
+              },
+              {
+                "hour": 19,
+                "temp": 17.9
+              },
+              {
+                "hour": 20,
+                "temp": 16.1
+              },
+              {
+                "hour": 21,
+                "temp": 14.8
+              },
+              {
+                "hour": 22,
+                "temp": 14.6
+              },
+              {
+                "hour": 23,
+                "temp": 14.6
+              }
+            ]
+          },
+          {
             "model": "GEM",
             "temp": 19,
             "pct": 3.5,
@@ -397,32 +505,100 @@
         ],
         "hourly": [
           {
+            "hour": 0,
+            "temp": 14.9
+          },
+          {
+            "hour": 1,
+            "temp": 14.9
+          },
+          {
+            "hour": 2,
+            "temp": 14.8
+          },
+          {
             "hour": 3,
-            "temp": 14
+            "temp": 15.3
+          },
+          {
+            "hour": 4,
+            "temp": 16.0
+          },
+          {
+            "hour": 5,
+            "temp": 15.4
           },
           {
             "hour": 6,
-            "temp": 16
+            "temp": 15.2
+          },
+          {
+            "hour": 7,
+            "temp": 15.4
+          },
+          {
+            "hour": 8,
+            "temp": 16.0
           },
           {
             "hour": 9,
-            "temp": 18
+            "temp": 17.3
+          },
+          {
+            "hour": 10,
+            "temp": 18.1
+          },
+          {
+            "hour": 11,
+            "temp": 19.0
           },
           {
             "hour": 12,
-            "temp": 18
+            "temp": 19.5
+          },
+          {
+            "hour": 13,
+            "temp": 19.9
+          },
+          {
+            "hour": 14,
+            "temp": 20.1
           },
           {
             "hour": 15,
-            "temp": 17
+            "temp": 20.0
+          },
+          {
+            "hour": 16,
+            "temp": 19.6
+          },
+          {
+            "hour": 17,
+            "temp": 19.2
           },
           {
             "hour": 18,
-            "temp": 15
+            "temp": 18.7
+          },
+          {
+            "hour": 19,
+            "temp": 17.9
+          },
+          {
+            "hour": 20,
+            "temp": 16.1
           },
           {
             "hour": 21,
-            "temp": 14
+            "temp": 14.8
+          },
+          {
+            "hour": 22,
+            "temp": 14.6
+          },
+          {
+            "hour": 23,
+            "temp": 14.6
           }
         ],
         "predicted_temp": "20°C",
@@ -527,6 +703,114 @@
         "noon_bj": 18,
         "forecasts": [
           {
+            "model": "GFS",
+            "temp": 15,
+            "pct": 50.0,
+            "url": null,
+            "max_hour_bj": 20,
+            "min_hour_bj": 4,
+            "wind_deg": 279,
+            "wind_kmh": 17.9,
+            "hourly": [
+              {
+                "hour": 0,
+                "temp": 14.9
+              },
+              {
+                "hour": 1,
+                "temp": 14.9
+              },
+              {
+                "hour": 2,
+                "temp": 14.8
+              },
+              {
+                "hour": 3,
+                "temp": 15.3
+              },
+              {
+                "hour": 4,
+                "temp": 16.0
+              },
+              {
+                "hour": 5,
+                "temp": 15.4
+              },
+              {
+                "hour": 6,
+                "temp": 15.2
+              },
+              {
+                "hour": 7,
+                "temp": 15.4
+              },
+              {
+                "hour": 8,
+                "temp": 16.0
+              },
+              {
+                "hour": 9,
+                "temp": 17.3
+              },
+              {
+                "hour": 10,
+                "temp": 18.1
+              },
+              {
+                "hour": 11,
+                "temp": 19.0
+              },
+              {
+                "hour": 12,
+                "temp": 19.5
+              },
+              {
+                "hour": 13,
+                "temp": 19.9
+              },
+              {
+                "hour": 14,
+                "temp": 20.1
+              },
+              {
+                "hour": 15,
+                "temp": 20.0
+              },
+              {
+                "hour": 16,
+                "temp": 19.6
+              },
+              {
+                "hour": 17,
+                "temp": 19.2
+              },
+              {
+                "hour": 18,
+                "temp": 18.7
+              },
+              {
+                "hour": 19,
+                "temp": 17.9
+              },
+              {
+                "hour": 20,
+                "temp": 16.1
+              },
+              {
+                "hour": 21,
+                "temp": 14.8
+              },
+              {
+                "hour": 22,
+                "temp": 14.6
+              },
+              {
+                "hour": 23,
+                "temp": 14.6
+              }
+            ]
+          },
+          {
             "model": "GEM",
             "temp": 13,
             "pct": 50.0,
@@ -602,32 +886,100 @@
         ],
         "hourly": [
           {
+            "hour": 0,
+            "temp": 14.9
+          },
+          {
+            "hour": 1,
+            "temp": 14.9
+          },
+          {
+            "hour": 2,
+            "temp": 14.8
+          },
+          {
             "hour": 3,
-            "temp": 14
+            "temp": 15.3
+          },
+          {
+            "hour": 4,
+            "temp": 16.0
+          },
+          {
+            "hour": 5,
+            "temp": 15.4
           },
           {
             "hour": 6,
-            "temp": 16
+            "temp": 15.2
+          },
+          {
+            "hour": 7,
+            "temp": 15.4
+          },
+          {
+            "hour": 8,
+            "temp": 16.0
           },
           {
             "hour": 9,
-            "temp": 18
+            "temp": 17.3
+          },
+          {
+            "hour": 10,
+            "temp": 18.1
+          },
+          {
+            "hour": 11,
+            "temp": 19.0
           },
           {
             "hour": 12,
-            "temp": 18
+            "temp": 19.5
+          },
+          {
+            "hour": 13,
+            "temp": 19.9
+          },
+          {
+            "hour": 14,
+            "temp": 20.1
           },
           {
             "hour": 15,
-            "temp": 17
+            "temp": 20.0
+          },
+          {
+            "hour": 16,
+            "temp": 19.6
+          },
+          {
+            "hour": 17,
+            "temp": 19.2
           },
           {
             "hour": 18,
-            "temp": 15
+            "temp": 18.7
+          },
+          {
+            "hour": 19,
+            "temp": 17.9
+          },
+          {
+            "hour": 20,
+            "temp": 16.1
           },
           {
             "hour": 21,
-            "temp": 14
+            "temp": 14.8
+          },
+          {
+            "hour": 22,
+            "temp": 14.6
+          },
+          {
+            "hour": 23,
+            "temp": 14.6
           }
         ],
         "predicted_temp": "12°C",
@@ -741,6 +1093,114 @@
         "noon_bj": 18,
         "forecasts": [
           {
+            "model": "GFS",
+            "temp": 21,
+            "pct": 50.5,
+            "url": null,
+            "max_hour_bj": 20,
+            "min_hour_bj": 7,
+            "wind_deg": 264,
+            "wind_kmh": 18.4,
+            "hourly": [
+              {
+                "hour": 0,
+                "temp": 14.4
+              },
+              {
+                "hour": 1,
+                "temp": 13.9
+              },
+              {
+                "hour": 2,
+                "temp": 14.2
+              },
+              {
+                "hour": 3,
+                "temp": 14.4
+              },
+              {
+                "hour": 4,
+                "temp": 14.9
+              },
+              {
+                "hour": 5,
+                "temp": 14.7
+              },
+              {
+                "hour": 6,
+                "temp": 14.5
+              },
+              {
+                "hour": 7,
+                "temp": 14.1
+              },
+              {
+                "hour": 8,
+                "temp": 14.7
+              },
+              {
+                "hour": 9,
+                "temp": 16.5
+              },
+              {
+                "hour": 10,
+                "temp": 19.3
+              },
+              {
+                "hour": 11,
+                "temp": 20.5
+              },
+              {
+                "hour": 12,
+                "temp": 20.9
+              },
+              {
+                "hour": 13,
+                "temp": 21.1
+              },
+              {
+                "hour": 14,
+                "temp": 21.3
+              },
+              {
+                "hour": 15,
+                "temp": 20.9
+              },
+              {
+                "hour": 16,
+                "temp": 20.8
+              },
+              {
+                "hour": 17,
+                "temp": 20.3
+              },
+              {
+                "hour": 18,
+                "temp": 19.7
+              },
+              {
+                "hour": 19,
+                "temp": 18.4
+              },
+              {
+                "hour": 20,
+                "temp": 17.7
+              },
+              {
+                "hour": 21,
+                "temp": 16.6
+              },
+              {
+                "hour": 22,
+                "temp": 16.4
+              },
+              {
+                "hour": 23,
+                "temp": 17.3
+              }
+            ]
+          },
+          {
             "model": "GEM",
             "temp": 20,
             "pct": 8.5,
@@ -785,7 +1245,104 @@
             "hourly": []
           }
         ],
-        "hourly": [],
+        "hourly": [
+          {
+            "hour": 0,
+            "temp": 14.4
+          },
+          {
+            "hour": 1,
+            "temp": 13.9
+          },
+          {
+            "hour": 2,
+            "temp": 14.2
+          },
+          {
+            "hour": 3,
+            "temp": 14.4
+          },
+          {
+            "hour": 4,
+            "temp": 14.9
+          },
+          {
+            "hour": 5,
+            "temp": 14.7
+          },
+          {
+            "hour": 6,
+            "temp": 14.5
+          },
+          {
+            "hour": 7,
+            "temp": 14.1
+          },
+          {
+            "hour": 8,
+            "temp": 14.7
+          },
+          {
+            "hour": 9,
+            "temp": 16.5
+          },
+          {
+            "hour": 10,
+            "temp": 19.3
+          },
+          {
+            "hour": 11,
+            "temp": 20.5
+          },
+          {
+            "hour": 12,
+            "temp": 20.9
+          },
+          {
+            "hour": 13,
+            "temp": 21.1
+          },
+          {
+            "hour": 14,
+            "temp": 21.3
+          },
+          {
+            "hour": 15,
+            "temp": 20.9
+          },
+          {
+            "hour": 16,
+            "temp": 20.8
+          },
+          {
+            "hour": 17,
+            "temp": 20.3
+          },
+          {
+            "hour": 18,
+            "temp": 19.7
+          },
+          {
+            "hour": 19,
+            "temp": 18.4
+          },
+          {
+            "hour": 20,
+            "temp": 17.7
+          },
+          {
+            "hour": 21,
+            "temp": 16.6
+          },
+          {
+            "hour": 22,
+            "temp": 16.4
+          },
+          {
+            "hour": 23,
+            "temp": 17.3
+          }
+        ],
         "predicted_temp": "21°C",
         "predicted_prob": 50.5
       },
@@ -888,6 +1445,114 @@
         "noon_bj": 18,
         "forecasts": [
           {
+            "model": "GFS",
+            "temp": 14,
+            "pct": 48.5,
+            "url": null,
+            "max_hour_bj": 20,
+            "min_hour_bj": 7,
+            "wind_deg": 264,
+            "wind_kmh": 18.4,
+            "hourly": [
+              {
+                "hour": 0,
+                "temp": 14.4
+              },
+              {
+                "hour": 1,
+                "temp": 13.9
+              },
+              {
+                "hour": 2,
+                "temp": 14.2
+              },
+              {
+                "hour": 3,
+                "temp": 14.4
+              },
+              {
+                "hour": 4,
+                "temp": 14.9
+              },
+              {
+                "hour": 5,
+                "temp": 14.7
+              },
+              {
+                "hour": 6,
+                "temp": 14.5
+              },
+              {
+                "hour": 7,
+                "temp": 14.1
+              },
+              {
+                "hour": 8,
+                "temp": 14.7
+              },
+              {
+                "hour": 9,
+                "temp": 16.5
+              },
+              {
+                "hour": 10,
+                "temp": 19.3
+              },
+              {
+                "hour": 11,
+                "temp": 20.5
+              },
+              {
+                "hour": 12,
+                "temp": 20.9
+              },
+              {
+                "hour": 13,
+                "temp": 21.1
+              },
+              {
+                "hour": 14,
+                "temp": 21.3
+              },
+              {
+                "hour": 15,
+                "temp": 20.9
+              },
+              {
+                "hour": 16,
+                "temp": 20.8
+              },
+              {
+                "hour": 17,
+                "temp": 20.3
+              },
+              {
+                "hour": 18,
+                "temp": 19.7
+              },
+              {
+                "hour": 19,
+                "temp": 18.4
+              },
+              {
+                "hour": 20,
+                "temp": 17.7
+              },
+              {
+                "hour": 21,
+                "temp": 16.6
+              },
+              {
+                "hour": 22,
+                "temp": 16.4
+              },
+              {
+                "hour": 23,
+                "temp": 17.3
+              }
+            ]
+          },
+          {
             "model": "GEM",
             "temp": 12,
             "pct": 15.5,
@@ -932,7 +1597,104 @@
             "hourly": []
           }
         ],
-        "hourly": [],
+        "hourly": [
+          {
+            "hour": 0,
+            "temp": 14.4
+          },
+          {
+            "hour": 1,
+            "temp": 13.9
+          },
+          {
+            "hour": 2,
+            "temp": 14.2
+          },
+          {
+            "hour": 3,
+            "temp": 14.4
+          },
+          {
+            "hour": 4,
+            "temp": 14.9
+          },
+          {
+            "hour": 5,
+            "temp": 14.7
+          },
+          {
+            "hour": 6,
+            "temp": 14.5
+          },
+          {
+            "hour": 7,
+            "temp": 14.1
+          },
+          {
+            "hour": 8,
+            "temp": 14.7
+          },
+          {
+            "hour": 9,
+            "temp": 16.5
+          },
+          {
+            "hour": 10,
+            "temp": 19.3
+          },
+          {
+            "hour": 11,
+            "temp": 20.5
+          },
+          {
+            "hour": 12,
+            "temp": 20.9
+          },
+          {
+            "hour": 13,
+            "temp": 21.1
+          },
+          {
+            "hour": 14,
+            "temp": 21.3
+          },
+          {
+            "hour": 15,
+            "temp": 20.9
+          },
+          {
+            "hour": 16,
+            "temp": 20.8
+          },
+          {
+            "hour": 17,
+            "temp": 20.3
+          },
+          {
+            "hour": 18,
+            "temp": 19.7
+          },
+          {
+            "hour": 19,
+            "temp": 18.4
+          },
+          {
+            "hour": 20,
+            "temp": 17.7
+          },
+          {
+            "hour": 21,
+            "temp": 16.6
+          },
+          {
+            "hour": 22,
+            "temp": 16.4
+          },
+          {
+            "hour": 23,
+            "temp": 17.3
+          }
+        ],
         "predicted_temp": "16°C",
         "predicted_prob": 50.0
       }
@@ -7988,7 +8750,7 @@
             "temp": "25°C",
             "temp_value": 25.0,
             "temp_type": "below",
-            "yes_price": 0.001,
+            "yes_price": 0.0015,
             "yes_pct": 0.1
           },
           {
@@ -7996,8 +8758,8 @@
             "temp": "26°C",
             "temp_value": 26.0,
             "temp_type": "exact",
-            "yes_price": 0.009,
-            "yes_pct": 0.9
+            "yes_price": 0.003,
+            "yes_pct": 0.3
           },
           {
             "slug": "highest-temperature-in-beijing-on-september-2-2026-27c",
@@ -15630,56 +16392,56 @@
             "temp": "20°C",
             "temp_value": 20.0,
             "temp_type": "exact",
-            "yes_price": 0.35,
-            "yes_pct": 35.0
+            "yes_price": 0.355,
+            "yes_pct": 35.5
           },
           {
             "slug": "lowest-temperature-in-chengdu-on-september-2-2026-21c",
             "temp": "21°C",
             "temp_value": 21.0,
             "temp_type": "exact",
-            "yes_price": 0.455,
-            "yes_pct": 45.5
+            "yes_price": 0.46,
+            "yes_pct": 46.0
           },
           {
             "slug": "lowest-temperature-in-chengdu-on-september-2-2026-22c",
             "temp": "22°C",
             "temp_value": 22.0,
             "temp_type": "exact",
-            "yes_price": 0.53,
-            "yes_pct": 53.0
+            "yes_price": 0.525,
+            "yes_pct": 52.5
           },
           {
             "slug": "lowest-temperature-in-chengdu-on-september-2-2026-23c",
             "temp": "23°C",
             "temp_value": 23.0,
             "temp_type": "exact",
-            "yes_price": 0.35,
-            "yes_pct": 35.0
+            "yes_price": 0.355,
+            "yes_pct": 35.5
           },
           {
             "slug": "lowest-temperature-in-chengdu-on-september-2-2026-24c",
             "temp": "24°C",
             "temp_value": 24.0,
             "temp_type": "exact",
-            "yes_price": 0.35,
-            "yes_pct": 35.0
+            "yes_price": 0.355,
+            "yes_pct": 35.5
           },
           {
             "slug": "lowest-temperature-in-chengdu-on-september-2-2026-25c",
             "temp": "25°C",
             "temp_value": 25.0,
             "temp_type": "exact",
-            "yes_price": 0.35,
-            "yes_pct": 35.0
+            "yes_price": 0.355,
+            "yes_pct": 35.5
           },
           {
             "slug": "lowest-temperature-in-chengdu-on-september-2-2026-26c",
             "temp": "26°C",
             "temp_value": 26.0,
             "temp_type": "exact",
-            "yes_price": 0.1,
-            "yes_pct": 10.0
+            "yes_price": 0.075,
+            "yes_pct": 7.5
           },
           {
             "slug": "lowest-temperature-in-chengdu-on-september-2-2026-27corhigher",
@@ -15695,7 +16457,7 @@
           {
             "model": "GFS",
             "temp": 22,
-            "pct": 53.0,
+            "pct": 52.5,
             "url": null,
             "max_hour_bj": 15,
             "min_hour_bj": 7,
@@ -15814,7 +16576,7 @@
           {
             "model": "ICON",
             "temp": 24,
-            "pct": 35.0,
+            "pct": 35.5,
             "url": null,
             "max_hour_bj": 16,
             "min_hour_bj": 7,
@@ -15825,7 +16587,7 @@
           {
             "model": "METEO",
             "temp": 22,
-            "pct": 53.0,
+            "pct": 52.5,
             "url": "https://www.meteoblue.com/en/weather/week/chengdu-shuangliu-international-airport_china_6301392",
             "max_hour_bj": null,
             "min_hour_bj": null,
@@ -15836,7 +16598,7 @@
           {
             "model": "RP5",
             "temp": 24,
-            "pct": 35.0,
+            "pct": 35.5,
             "url": "https://rp5.ru/Weather_in_Chengdu_(airport)",
             "max_hour_bj": null,
             "min_hour_bj": null,
@@ -15944,7 +16706,7 @@
           }
         ],
         "predicted_temp": "22°C",
-        "predicted_prob": 53.0
+        "predicted_prob": 52.5
       }
     },
     {
@@ -27779,8 +28541,8 @@
             "temp": "30°C",
             "temp_value": 30.0,
             "temp_type": "exact",
-            "yes_price": 0.191,
-            "yes_pct": 19.1
+            "yes_price": 0.194,
+            "yes_pct": 19.4
           },
           {
             "slug": "lowest-temperature-in-hong-kong-on-august-31-2026-31corhigher",
@@ -28223,8 +28985,8 @@
             "temp": "25°C",
             "temp_value": 25.0,
             "temp_type": "exact",
-            "yes_price": 0.26,
-            "yes_pct": 26.0
+            "yes_price": 0.255,
+            "yes_pct": 25.5
           },
           {
             "slug": "lowest-temperature-in-hong-kong-on-september-1-2026-26c",
@@ -28239,8 +29001,8 @@
             "temp": "27°C",
             "temp_value": 27.0,
             "temp_type": "exact",
-            "yes_price": 0.075,
-            "yes_pct": 7.5
+            "yes_price": 0.2345,
+            "yes_pct": 23.4
           },
           {
             "slug": "lowest-temperature-in-hong-kong-on-september-1-2026-28c",
@@ -28396,7 +29158,7 @@
           {
             "model": "GEM",
             "temp": 25,
-            "pct": 26.0,
+            "pct": 25.5,
             "url": null,
             "max_hour_bj": 16,
             "min_hour_bj": 23,
@@ -28418,7 +29180,7 @@
           {
             "model": "METEO",
             "temp": 27,
-            "pct": 7.5,
+            "pct": 23.4,
             "url": "https://www.meteoblue.com/en/weather/week/chek-lap-kok-airport_hong-kong_6301089",
             "max_hour_bj": null,
             "min_hour_bj": null,
@@ -28458,7 +29220,7 @@
           {
             "model": "RP5",
             "temp": 27,
-            "pct": 7.5,
+            "pct": 23.4,
             "url": "https://rp5.ru/Weather_in_Hong_Kong_(airport)",
             "max_hour_bj": null,
             "min_hour_bj": null,
@@ -36497,16 +37259,16 @@
             "temp": "28°C",
             "temp_value": 28.0,
             "temp_type": "exact",
-            "yes_price": 0.007,
-            "yes_pct": 0.7
+            "yes_price": 0.0075,
+            "yes_pct": 0.8
           },
           {
             "slug": "lowest-temperature-in-karachi-on-september-1-2026-29c",
             "temp": "29°C",
             "temp_value": 29.0,
             "temp_type": "exact",
-            "yes_price": 0.0055,
-            "yes_pct": 0.5
+            "yes_price": 0.0065,
+            "yes_pct": 0.7
           },
           {
             "slug": "lowest-temperature-in-karachi-on-september-1-2026-30c",
@@ -47873,8 +48635,8 @@
             "temp": "21°C",
             "temp_value": 21.0,
             "temp_type": "below",
-            "yes_price": 0.045,
-            "yes_pct": 4.5
+            "yes_price": 0.055,
+            "yes_pct": 5.5
           },
           {
             "slug": "lowest-temperature-in-manila-on-september-2-2026-22c",
@@ -51384,6 +52146,17 @@
             "wind_deg": null,
             "wind_kmh": null,
             "hourly": []
+          },
+          {
+            "model": "RP5",
+            "temp": 91,
+            "pct": 62.0,
+            "url": "https://rp5.ru/Weather_in_Miami_(airport),_Florida",
+            "max_hour_bj": null,
+            "min_hour_bj": null,
+            "wind_deg": null,
+            "wind_kmh": null,
+            "hourly": []
           }
         ],
         "hourly": [
@@ -51720,6 +52493,17 @@
             "temp": 79,
             "pct": 53.0,
             "url": "https://www.meteoblue.com/en/weather/week/miami-international-airport_united-states_4164181",
+            "max_hour_bj": null,
+            "min_hour_bj": null,
+            "wind_deg": null,
+            "wind_kmh": null,
+            "hourly": []
+          },
+          {
+            "model": "RP5",
+            "temp": 79,
+            "pct": 53.0,
+            "url": "https://rp5.ru/Weather_in_Miami_(airport),_Florida",
             "max_hour_bj": null,
             "min_hour_bj": null,
             "wind_deg": null,
@@ -52075,6 +52859,17 @@
             "wind_deg": null,
             "wind_kmh": null,
             "hourly": []
+          },
+          {
+            "model": "RP5",
+            "temp": 93,
+            "pct": 29.5,
+            "url": "https://rp5.ru/Weather_in_Miami_(airport),_Florida",
+            "max_hour_bj": null,
+            "min_hour_bj": null,
+            "wind_deg": null,
+            "wind_kmh": null,
+            "hourly": []
           }
         ],
         "hourly": [
@@ -52411,6 +53206,17 @@
             "temp": 79,
             "pct": 50.0,
             "url": "https://www.meteoblue.com/en/weather/week/miami-international-airport_united-states_4164181",
+            "max_hour_bj": null,
+            "min_hour_bj": null,
+            "wind_deg": null,
+            "wind_kmh": null,
+            "hourly": []
+          },
+          {
+            "model": "RP5",
+            "temp": 81,
+            "pct": 39.5,
+            "url": "https://rp5.ru/Weather_in_Miami_(airport),_Florida",
             "max_hour_bj": null,
             "min_hour_bj": null,
             "wind_deg": null,
@@ -55269,8 +56075,8 @@
             "temp": "21°C",
             "temp_value": 21.0,
             "temp_type": "exact",
-            "yes_price": 0.465,
-            "yes_pct": 46.5
+            "yes_price": 0.46,
+            "yes_pct": 46.0
           },
           {
             "slug": "highest-temperature-in-moscow-on-september-2-2026-22c",
@@ -55301,8 +56107,8 @@
             "temp": "25°C",
             "temp_value": 25.0,
             "temp_type": "above",
-            "yes_price": 0.007,
-            "yes_pct": 0.7
+            "yes_price": 0.0075,
+            "yes_pct": 0.8
           }
         ],
         "noon_bj": 17,
@@ -55418,7 +56224,7 @@
           {
             "model": "GEM",
             "temp": 21,
-            "pct": 46.5,
+            "pct": 46.0,
             "url": null,
             "max_hour_bj": 19,
             "min_hour_bj": 4,
@@ -55429,7 +56235,7 @@
           {
             "model": "ICON",
             "temp": 21,
-            "pct": 46.5,
+            "pct": 46.0,
             "url": null,
             "max_hour_bj": 18,
             "min_hour_bj": 4,
@@ -55440,7 +56246,7 @@
           {
             "model": "METEO",
             "temp": 21,
-            "pct": 46.5,
+            "pct": 46.0,
             "url": "https://www.meteoblue.com/en/weather/week/vnukovo-international-airport_russia_6301018",
             "max_hour_bj": null,
             "min_hour_bj": null,
@@ -55559,7 +56365,7 @@
           }
         ],
         "predicted_temp": "21°C",
-        "predicted_prob": 46.5
+        "predicted_prob": 46.0
       },
       "lowest": {
         "city": "Moscow",
@@ -64146,6 +64952,17 @@
                 "temp": 18
               }
             ]
+          },
+          {
+            "model": "RP5",
+            "temp": 29,
+            "pct": 44.5,
+            "url": "https://rp5.ru/Weather_in_Qingdao_(airport)",
+            "max_hour_bj": null,
+            "min_hour_bj": null,
+            "wind_deg": null,
+            "wind_kmh": null,
+            "hourly": []
           }
         ],
         "hourly": [
@@ -64516,6 +65333,17 @@
                 "temp": 18
               }
             ]
+          },
+          {
+            "model": "RP5",
+            "temp": 19,
+            "pct": 0.1,
+            "url": "https://rp5.ru/Weather_in_Qingdao_(airport)",
+            "max_hour_bj": null,
+            "min_hour_bj": null,
+            "wind_deg": null,
+            "wind_kmh": null,
+            "hourly": []
           }
         ],
         "hourly": [
@@ -64866,6 +65694,17 @@
             "wind_deg": null,
             "wind_kmh": null,
             "hourly": []
+          },
+          {
+            "model": "RP5",
+            "temp": 29,
+            "pct": 60.0,
+            "url": "https://rp5.ru/Weather_in_Qingdao_(airport)",
+            "max_hour_bj": null,
+            "min_hour_bj": null,
+            "wind_deg": null,
+            "wind_kmh": null,
+            "hourly": []
           }
         ],
         "hourly": [
@@ -65202,6 +66041,17 @@
             "temp": 16,
             "pct": 25.5,
             "url": "https://www.meteoblue.com/en/weather/week/qingdao-liuting-international-airport_china_6301387",
+            "max_hour_bj": null,
+            "min_hour_bj": null,
+            "wind_deg": null,
+            "wind_kmh": null,
+            "hourly": []
+          },
+          {
+            "model": "RP5",
+            "temp": 17,
+            "pct": 25.5,
+            "url": "https://rp5.ru/Weather_in_Qingdao_(airport)",
             "max_hour_bj": null,
             "min_hour_bj": null,
             "wind_deg": null,
@@ -69342,8 +70192,8 @@
             "temp": null,
             "temp_value": null,
             "temp_type": null,
-            "yes_price": 0.485,
-            "yes_pct": 48.5
+            "yes_price": 0.44,
+            "yes_pct": 44.0
           },
           {
             "slug": "lowest-temperature-in-sao-paulo-on-september-2-2026-10c",
@@ -69358,8 +70208,8 @@
             "temp": "11°C",
             "temp_value": 11.0,
             "temp_type": "exact",
-            "yes_price": 0.41,
-            "yes_pct": 41.0
+            "yes_price": 0.415,
+            "yes_pct": 41.5
           },
           {
             "slug": "lowest-temperature-in-sao-paulo-on-september-2-2026-12c",
@@ -69374,8 +70224,8 @@
             "temp": "13°C",
             "temp_value": 13.0,
             "temp_type": "exact",
-            "yes_price": 0.515,
-            "yes_pct": 51.5
+            "yes_price": 0.52,
+            "yes_pct": 52.0
           },
           {
             "slug": "lowest-temperature-in-sao-paulo-on-september-2-2026-14c",
@@ -69414,8 +70264,8 @@
             "temp": "18°C",
             "temp_value": 18.0,
             "temp_type": "exact",
-            "yes_price": 0.41,
-            "yes_pct": 41.0
+            "yes_price": 0.415,
+            "yes_pct": 41.5
           },
           {
             "slug": "lowest-temperature-in-sao-paulo-on-september-2-2026-19corhigher",
@@ -69431,7 +70281,7 @@
           {
             "model": "GFS",
             "temp": 13,
-            "pct": 51.5,
+            "pct": 52.0,
             "url": null,
             "max_hour_bj": 23,
             "min_hour_bj": 10,
@@ -69561,7 +70411,7 @@
           {
             "model": "METEO",
             "temp": 13,
-            "pct": 51.5,
+            "pct": 52.0,
             "url": "https://www.meteoblue.com/en/weather/week/s%C3%A3o-paulo%E2%80%93guarulhos-international-airport_brazil_6300629",
             "max_hour_bj": null,
             "min_hour_bj": null,
@@ -69572,7 +70422,7 @@
           {
             "model": "RP5",
             "temp": 13,
-            "pct": 51.5,
+            "pct": 52.0,
             "url": "https://rp5.ru/Weather_in_Guarulhos_(airport)",
             "max_hour_bj": null,
             "min_hour_bj": null,
@@ -69680,7 +70530,7 @@
           }
         ],
         "predicted_temp": "13°C",
-        "predicted_prob": 51.5
+        "predicted_prob": 52.0
       }
     },
     {
@@ -74215,7 +75065,7 @@
             "temp": "24°C",
             "temp_value": 24.0,
             "temp_type": "exact",
-            "yes_price": 0.0035,
+            "yes_price": 0.004,
             "yes_pct": 0.4
           },
           {
@@ -75384,108 +76234,7 @@
         "predicted_temp": "30°C",
         "predicted_prob": 100.0
       },
-      "lowest": {
-        "city": "Shenzhen",
-        "date": "2026-08-31",
-        "date_display": "08/31",
-        "direction": "lowest",
-        "slug": "lowest-temperature-in-shenzhen-on-august-31-2026",
-        "markets": [
-          {
-            "slug": "lowest-temperature-in-shenzhen-on-august-31-2026-22corbelow",
-            "temp": "22°C",
-            "temp_value": 22.0,
-            "temp_type": "below",
-            "yes_price": 0.0,
-            "yes_pct": 0.0
-          },
-          {
-            "slug": "lowest-temperature-in-shenzhen-on-august-31-2026-23c",
-            "temp": "23°C",
-            "temp_value": 23.0,
-            "temp_type": "exact",
-            "yes_price": 0.0,
-            "yes_pct": 0.0
-          },
-          {
-            "slug": "lowest-temperature-in-shenzhen-on-august-31-2026-24c",
-            "temp": "24°C",
-            "temp_value": 24.0,
-            "temp_type": "exact",
-            "yes_price": 0.0,
-            "yes_pct": 0.0
-          },
-          {
-            "slug": "lowest-temperature-in-shenzhen-on-august-31-2026-25c",
-            "temp": "25°C",
-            "temp_value": 25.0,
-            "temp_type": "exact",
-            "yes_price": 0.0,
-            "yes_pct": 0.0
-          },
-          {
-            "slug": "lowest-temperature-in-shenzhen-on-august-31-2026-26c",
-            "temp": "26°C",
-            "temp_value": 26.0,
-            "temp_type": "exact",
-            "yes_price": 1.0,
-            "yes_pct": 100.0
-          },
-          {
-            "slug": "lowest-temperature-in-shenzhen-on-august-31-2026-27c",
-            "temp": "27°C",
-            "temp_value": 27.0,
-            "temp_type": "exact",
-            "yes_price": 0.0,
-            "yes_pct": 0.0
-          },
-          {
-            "slug": "lowest-temperature-in-shenzhen-on-august-31-2026-28c",
-            "temp": "28°C",
-            "temp_value": 28.0,
-            "temp_type": "exact",
-            "yes_price": 0.0,
-            "yes_pct": 0.0
-          },
-          {
-            "slug": "lowest-temperature-in-shenzhen-on-august-31-2026-29c",
-            "temp": "29°C",
-            "temp_value": 29.0,
-            "temp_type": "exact",
-            "yes_price": 0.0,
-            "yes_pct": 0.0
-          },
-          {
-            "slug": "lowest-temperature-in-shenzhen-on-august-31-2026-30c",
-            "temp": "30°C",
-            "temp_value": 30.0,
-            "temp_type": "exact",
-            "yes_price": 0.0,
-            "yes_pct": 0.0
-          },
-          {
-            "slug": "lowest-temperature-in-shenzhen-on-august-31-2026-31c",
-            "temp": "31°C",
-            "temp_value": 31.0,
-            "temp_type": "exact",
-            "yes_price": 0.0,
-            "yes_pct": 0.0
-          },
-          {
-            "slug": "lowest-temperature-in-shenzhen-on-august-31-2026-32corhigher",
-            "temp": "32°C",
-            "temp_value": 32.0,
-            "temp_type": "above",
-            "yes_price": 0.0,
-            "yes_pct": 0.0
-          }
-        ],
-        "noon_bj": 12,
-        "forecasts": [],
-        "hourly": [],
-        "predicted_temp": "26°C",
-        "predicted_prob": 100.0
-      }
+      "lowest": null
     },
     {
       "city": "Shenzhen",
@@ -80024,8 +80773,8 @@
             "temp": "21°C",
             "temp_value": 21.0,
             "temp_type": "below",
-            "yes_price": 0.415,
-            "yes_pct": 41.5
+            "yes_price": 0.44,
+            "yes_pct": 44.0
           },
           {
             "slug": "lowest-temperature-in-taipei-on-september-2-2026-22c",
@@ -80080,8 +80829,8 @@
             "temp": "28°C",
             "temp_value": 28.0,
             "temp_type": "exact",
-            "yes_price": 0.475,
-            "yes_pct": 47.5
+            "yes_price": 0.47,
+            "yes_pct": 47.0
           },
           {
             "slug": "lowest-temperature-in-taipei-on-september-2-2026-29c",
@@ -80254,7 +81003,7 @@
           {
             "model": "RP5",
             "temp": 28,
-            "pct": 47.5,
+            "pct": 47.0,
             "url": "https://rp5.ru/Weather_in_Taiwan_Taoyuan_(airport)",
             "max_hour_bj": null,
             "min_hour_bj": null,
@@ -82550,17 +83299,6 @@
                 "temp": 26
               }
             ]
-          },
-          {
-            "model": "RP5",
-            "temp": 28,
-            "pct": 40.5,
-            "url": "https://rp5.ru/Weather_in_Tokyo",
-            "max_hour_bj": null,
-            "min_hour_bj": null,
-            "wind_deg": null,
-            "wind_kmh": null,
-            "hourly": []
           }
         ],
         "hourly": [
@@ -82931,17 +83669,6 @@
                 "temp": 26
               }
             ]
-          },
-          {
-            "model": "RP5",
-            "temp": 25,
-            "pct": 0.4,
-            "url": "https://rp5.ru/Weather_in_Tokyo",
-            "max_hour_bj": null,
-            "min_hour_bj": null,
-            "wind_deg": null,
-            "wind_kmh": null,
-            "hourly": []
           }
         ],
         "hourly": [
@@ -83292,17 +84019,6 @@
             "wind_deg": null,
             "wind_kmh": null,
             "hourly": []
-          },
-          {
-            "model": "RP5",
-            "temp": 31,
-            "pct": 44.5,
-            "url": "https://rp5.ru/Weather_in_Tokyo",
-            "max_hour_bj": null,
-            "min_hour_bj": null,
-            "wind_deg": null,
-            "wind_kmh": null,
-            "hourly": []
           }
         ],
         "hourly": [
@@ -83639,17 +84355,6 @@
             "temp": 24,
             "pct": 31.5,
             "url": "https://www.meteoblue.com/en/weather/week/tokyo-international-airport_japan_6300412",
-            "max_hour_bj": null,
-            "min_hour_bj": null,
-            "wind_deg": null,
-            "wind_kmh": null,
-            "hourly": []
-          },
-          {
-            "model": "RP5",
-            "temp": 23,
-            "pct": 6.0,
-            "url": "https://rp5.ru/Weather_in_Tokyo",
             "max_hour_bj": null,
             "min_hour_bj": null,
             "wind_deg": null,
@@ -89593,32 +90298,32 @@
             "temp": "27°C",
             "temp_value": 27.0,
             "temp_type": "exact",
-            "yes_price": 0.255,
-            "yes_pct": 25.5
+            "yes_price": 0.33,
+            "yes_pct": 33.0
           },
           {
             "slug": "highest-temperature-in-wuhan-on-september-1-2026-28c",
             "temp": "28°C",
             "temp_value": 28.0,
             "temp_type": "exact",
-            "yes_price": 0.425,
-            "yes_pct": 42.5
+            "yes_price": 0.41,
+            "yes_pct": 41.0
           },
           {
             "slug": "highest-temperature-in-wuhan-on-september-1-2026-29c",
             "temp": "29°C",
             "temp_value": 29.0,
             "temp_type": "exact",
-            "yes_price": 0.24,
-            "yes_pct": 24.0
+            "yes_price": 0.215,
+            "yes_pct": 21.5
           },
           {
             "slug": "highest-temperature-in-wuhan-on-september-1-2026-30c",
             "temp": "30°C",
             "temp_value": 30.0,
             "temp_type": "exact",
-            "yes_price": 0.04,
-            "yes_pct": 4.0
+            "yes_price": 0.045,
+            "yes_pct": 4.5
           },
           {
             "slug": "highest-temperature-in-wuhan-on-september-1-2026-31c",
@@ -89633,8 +90338,8 @@
             "temp": "32°C",
             "temp_value": 32.0,
             "temp_type": "exact",
-            "yes_price": 0.0105,
-            "yes_pct": 1.1
+            "yes_price": 0.01,
+            "yes_pct": 1.0
           },
           {
             "slug": "highest-temperature-in-wuhan-on-september-1-2026-33corhigher",
@@ -89758,7 +90463,7 @@
           {
             "model": "GEM",
             "temp": 28,
-            "pct": 42.5,
+            "pct": 41.0,
             "url": null,
             "max_hour_bj": 11,
             "min_hour_bj": 22,
@@ -89769,7 +90474,7 @@
           {
             "model": "ICON",
             "temp": 29,
-            "pct": 24.0,
+            "pct": 21.5,
             "url": null,
             "max_hour_bj": 15,
             "min_hour_bj": 23,
@@ -89780,7 +90485,7 @@
           {
             "model": "METEO",
             "temp": 28,
-            "pct": 42.5,
+            "pct": 41.0,
             "url": "https://www.meteoblue.com/en/weather/week/wuhan-tianhe-international-airport_china_6301368",
             "max_hour_bj": null,
             "min_hour_bj": null,
@@ -89820,7 +90525,7 @@
           {
             "model": "RP5",
             "temp": 29,
-            "pct": 24.0,
+            "pct": 21.5,
             "url": "https://rp5.ru/Weather_in_Wuhan_(airport)",
             "max_hour_bj": null,
             "min_hour_bj": null,
@@ -89928,7 +90633,7 @@
           }
         ],
         "predicted_temp": "28°C",
-        "predicted_prob": 42.5
+        "predicted_prob": 41.0
       },
       "lowest": {
         "city": "Wuhan",
@@ -90332,8 +91037,8 @@
             "temp": "23°C",
             "temp_value": 23.0,
             "temp_type": "below",
-            "yes_price": 0.0025,
-            "yes_pct": 0.2
+            "yes_price": 0.003,
+            "yes_pct": 0.3
           },
           {
             "slug": "highest-temperature-in-wuhan-on-september-2-2026-24c",
@@ -90348,8 +91053,8 @@
             "temp": "25°C",
             "temp_value": 25.0,
             "temp_type": "exact",
-            "yes_price": 0.006,
-            "yes_pct": 0.6
+            "yes_price": 0.0055,
+            "yes_pct": 0.5
           },
           {
             "slug": "highest-temperature-in-wuhan-on-september-2-2026-26c",
@@ -90372,8 +91077,8 @@
             "temp": "28°C",
             "temp_value": 28.0,
             "temp_type": "exact",
-            "yes_price": 0.065,
-            "yes_pct": 6.5
+            "yes_price": 0.07,
+            "yes_pct": 7.0
           },
           {
             "slug": "highest-temperature-in-wuhan-on-september-2-2026-29c",
@@ -90404,8 +91109,8 @@
             "temp": "32°C",
             "temp_value": 32.0,
             "temp_type": "exact",
-            "yes_price": 0.0785,
-            "yes_pct": 7.8
+            "yes_price": 0.071,
+            "yes_pct": 7.1
           },
           {
             "slug": "highest-temperature-in-wuhan-on-september-2-2026-33corhigher",
@@ -90540,7 +91245,7 @@
           {
             "model": "ICON",
             "temp": 28,
-            "pct": 6.5,
+            "pct": 7.0,
             "url": null,
             "max_hour_bj": 13,
             "min_hour_bj": 23,
@@ -90562,7 +91267,7 @@
           {
             "model": "RP5",
             "temp": 28,
-            "pct": 6.5,
+            "pct": 7.0,
             "url": "https://rp5.ru/Weather_in_Wuhan_(airport)",
             "max_hour_bj": null,
             "min_hour_bj": null,
