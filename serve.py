@@ -236,29 +236,8 @@ def _parse_mb_page(html):
 
     is_f = any("\u00b0F" in (t.select_one(".tab-temp-max") or "").get_text() for t in tabs if t.select_one(".tab-temp-max"))
     
-    # Parse 3-hourly data from three-hourly-table
-    three_hourly = {}
-    table = soup.select_one(".three-hourly-table")
-    if table:
-        rows = table.select("tr")
-        if len(rows) >= 3:
-            headers = [c.get_text(strip=True) for c in rows[0].select("td, th")]
-            high_temps = [c.get_text(strip=True).replace("°", "") for c in rows[2].select("td")]
-            low_temps = [c.get_text(strip=True).replace("°", "") for c in rows[3].select("td")]
-            for h, ht, lt in zip(headers[1:], high_temps[1:], low_temps[1:]):
-                try:
-                    hour = int(h) // 100 if len(h) == 4 else int(h[:2])
-                    t_max = int(re.sub(r"[^\d-]", "", ht) or "0")
-                    t_min = int(re.sub(r"[^\d-]", "", lt) or "0")
-                    if is_f:
-                        t_max = round((t_max - 32) * 5.0 / 9.0)
-                        t_min = round((t_min - 32) * 5.0 / 9.0)
-                    three_hourly[hour] = {"max": t_max, "min": t_min}
-                except (ValueError, IndexError):
-                    pass
-    
     fc = {}
-    for t in tabs:
+    for i, t in enumerate(tabs):
         mx = t.select_one(".tab-temp-max"); mn = t.select_one(".tab-temp-min"); tm = t.select_one("time")
         if not mx or not mn or not tm: continue
         dt = tm.get("datetime", "").split("T")[0]
@@ -268,6 +247,29 @@ def _parse_mb_page(html):
         if is_f:
             mx_v = round((mx_v - 32) * 5.0 / 9.0)
             mn_v = round((mn_v - 32) * 5.0 / 9.0)
+        
+        # Parse 3-hourly data only for the first tab (today)
+        three_hourly = []
+        if i == 0:
+            table = soup.select_one(".three-hourly-table")
+            if table:
+                rows = table.select("tr")
+                if len(rows) >= 3:
+                    headers = [c.get_text(strip=True) for c in rows[0].select("td, th")]
+                    high_temps = [c.get_text(strip=True).replace("°", "") for c in rows[2].select("td")]
+                    low_temps = [c.get_text(strip=True).replace("°", "") for c in rows[3].select("td")]
+                    for h, ht, lt in zip(headers[1:], high_temps[1:], low_temps[1:]):
+                        try:
+                            hour = int(h) // 100 if len(h) == 4 else int(h[:2])
+                            t_max = int(re.sub(r"[^\d-]", "", ht) or "0")
+                            t_min = int(re.sub(r"[^\d-]", "", lt) or "0")
+                            if is_f:
+                                t_max = round((t_max - 32) * 5.0 / 9.0)
+                                t_min = round((t_min - 32) * 5.0 / 9.0)
+                            three_hourly.append({"hour": hour, "temp": round((t_max + t_min) / 2)})
+                        except (ValueError, IndexError):
+                            pass
+        
         fc[dt] = {"max": mx_v, "min": mn_v, "hourly": three_hourly}
     return fc
 
@@ -412,9 +414,6 @@ async def main():
                     e = r.get(dt, {})
                     if e.get("max") is not None:
                         hourly = e.get("hourly", [])
-                        # Convert meteoblue 3-hourly dict to list format
-                        if nm == "METEO" and isinstance(hourly, dict):
-                            hourly = [{"hour": h, "temp": (v["max"] + v["min"]) / 2} for h, v in sorted(hourly.items())]
                         models.append({"name": nm, "max": e["max"], "min": e["min"],
                                        "max_hour_bj": e.get("max_hour_bj"), "min_hour_bj": e.get("min_hour_bj"),
                                        "wind_deg": e.get("wind_deg"), "wind_kmh": e.get("wind_kmh"),
