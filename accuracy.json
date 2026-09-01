@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 888,
+ "n": 889,
  "mae": 0.8,
  "bias": -0.35,
  "rows": [
@@ -11536,12 +11536,25 @@
    "peak_local": "16:00"
   },
   {
+   "city": "Tokyo",
+   "date": "2026-09-01",
+   "date_display": "09/01",
+   "snap_date": "2026-09-01",
+   "time": "10:02",
+   "local_hhmm": "11:02",
+   "hour": 10,
+   "meteo": 28,
+   "actual": 28.0,
+   "err": 0.0,
+   "peak_local": "15:00"
+  },
+  {
    "city": "Panama City",
    "date": "2026-09-01",
    "date_display": "09/01",
    "snap_date": "2026-09-01",
-   "time": "15:08",
-   "local_hhmm": "02:08",
+   "time": "15:32",
+   "local_hhmm": "02:32",
    "hour": 15,
    "meteo": 31,
    "actual": 23.0,
@@ -12480,16 +12493,16 @@
   },
   {
    "city": "Tokyo",
-   "n": 16,
-   "mae": 0.62,
+   "n": 17,
+   "mae": 0.59,
    "periods": {
     "21-24": {
      "n": 2,
      "mae": 2.0
     },
     "09-12": {
-     "n": 5,
-     "mae": 0.4
+     "n": 6,
+     "mae": 0.33
     },
     "06-09": {
      "n": 6,
@@ -12500,7 +12513,7 @@
      "mae": 0.33
     }
    },
-   "best_period": "其他"
+   "best_period": "09-12"
   },
   {
    "city": "Toronto",

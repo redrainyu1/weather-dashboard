@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 493,
+ "n": 494,
  "mae": 0.77,
  "bias": -0.18,
  "rows": [
@@ -6401,6 +6401,19 @@
    "peak_local": "14:00"
   },
   {
+   "city": "Tokyo",
+   "date": "2026-09-01",
+   "date_display": "09/01",
+   "snap_date": "2026-09-01",
+   "time": "10:02",
+   "local_hhmm": "11:02",
+   "hour": 10,
+   "meteo": 28,
+   "actual": 28.0,
+   "err": 0.0,
+   "peak_local": "15:00"
+  },
+  {
    "city": "Wellington",
    "date": "2026-09-01",
    "date_display": "09/01",
@@ -6913,12 +6926,12 @@
   },
   {
    "city": "Tokyo",
-   "n": 11,
-   "mae": 0.45,
+   "n": 12,
+   "mae": 0.42,
    "periods": {
     "09-12": {
-     "n": 5,
-     "mae": 0.4
+     "n": 6,
+     "mae": 0.33
     },
     "06-09": {
      "n": 6,

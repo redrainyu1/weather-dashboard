@@ -4610,5 +4610,9 @@
  "highest-temperature-in-wellington-on-september-1-2026": {
   "temp": 14.0,
   "peak_bj": "2026-09-01 12:00"
+ },
+ "highest-temperature-in-tokyo-on-september-1-2026": {
+  "temp": 28.0,
+  "peak_bj": "2026-09-01 14:00"
  }
 }
