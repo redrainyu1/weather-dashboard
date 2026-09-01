@@ -243,6 +243,34 @@ def api_daydetail():
             except Exception:
                 continue
 
+    # 从 accuracy.json 补充 forecasts 数据（快照可能丢失）
+    for acc_file in ["accuracy.json", "accuracy_meteo.json", "accuracy_morning.json"]:
+        acc_path = os.path.join(SCRIPT_DIR, acc_file)
+        if not os.path.exists(acc_path):
+            continue
+        try:
+            with open(acc_path, 'r', encoding='utf-8') as f:
+                acc = json.load(f)
+            for row in acc.get("rows", []):
+                if row.get("city") == city and row.get("date") == date:
+                    for direction in ("highest", "lowest"):
+                        obj = result.get(direction)
+                        if obj and not obj.get("forecasts"):
+                            meteo_temp = row.get("meteo")
+                            actual_temp = row.get("actual")
+                            err = row.get("err")
+                            snap_time = row.get("local_hhmm", "")
+                            if meteo_temp is not None:
+                                obj["forecasts"] = [{"model": "METEO", "temp": meteo_temp, "pct": None, "url": None,
+                                                     "max_hour_bj": None, "min_hour_bj": None,
+                                                     "wind_deg": None, "wind_kmh": None, "hourly": []}]
+                                if actual_temp is not None:
+                                    obj["predicted_temp"] = str(int(meteo_temp)) + "°C"
+                                    obj["predicted_prob"] = None
+                    break
+        except Exception:
+            continue
+
     actuals_file = os.path.join(hist_dir, "actuals.json")
     if os.path.exists(actuals_file):
         try:
