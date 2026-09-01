@@ -4534,5 +4534,9 @@
  "highest-temperature-in-sao-paulo-on-august-31-2026": {
   "temp": 29.0,
   "peak_bj": "2026-09-01 01:00"
+ },
+ "highest-temperature-in-panama-city-on-august-29-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-08-30 05:00"
  }
 }

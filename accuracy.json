@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 869,
+ "n": 870,
  "mae": 0.79,
  "bias": -0.35,
  "rows": [
@@ -10119,6 +10119,19 @@
    "peak_local": "15:53"
   },
   {
+   "city": "Panama City",
+   "date": "2026-08-29",
+   "date_display": "08/29",
+   "snap_date": "2026-08-29",
+   "time": "01:02",
+   "local_hhmm": "12:02",
+   "hour": 1,
+   "meteo": 32,
+   "actual": 32.0,
+   "err": 0.0,
+   "peak_local": "16:00"
+  },
+  {
    "city": "Denver",
    "date": "2026-08-29",
    "date_display": "08/29",
@@ -11973,8 +11986,8 @@
   },
   {
    "city": "Panama City",
-   "n": 19,
-   "mae": 0.89,
+   "n": 20,
+   "mae": 0.85,
    "periods": {
     "21-24": {
      "n": 12,
@@ -11985,8 +11998,8 @@
      "mae": 0.0
     },
     "其他": {
-     "n": 4,
-     "mae": 1.25
+     "n": 5,
+     "mae": 1.0
     },
     "06-09": {
      "n": 1,
