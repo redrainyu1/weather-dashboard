@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 868,
+ "n": 869,
  "mae": 0.79,
  "bias": -0.35,
  "rows": [
@@ -11276,6 +11276,19 @@
    "peak_local": "09:00"
   },
   {
+   "city": "Sao Paulo",
+   "date": "2026-08-31",
+   "date_display": "08/31",
+   "snap_date": "2026-08-31",
+   "time": "21:02",
+   "local_hhmm": "10:02",
+   "hour": 21,
+   "meteo": 25,
+   "actual": 29.0,
+   "err": -4.0,
+   "peak_local": "14:00"
+  },
+  {
    "city": "Panama City",
    "date": "2026-08-31",
    "date_display": "08/31",
@@ -12044,12 +12057,12 @@
   },
   {
    "city": "Sao Paulo",
-   "n": 20,
-   "mae": 0.3,
+   "n": 21,
+   "mae": 0.48,
    "periods": {
     "21-24": {
-     "n": 19,
-     "mae": 0.32
+     "n": 20,
+     "mae": 0.5
     },
     "18-21": {
      "n": 1,
