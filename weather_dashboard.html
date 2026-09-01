@@ -143,7 +143,7 @@
     </div>
     <h3 style="color:#fff;margin:14px 0 8px;font-size:15px">每城市 <span style="color:#666;font-size:11px">点击城市弹出具体数据</span></h3>
     <table class="acc-table">
-      <thead><tr><th onclick="accSortBy('city')">城市</th><th onclick="accSortBy('n')">样本</th><th onclick="accSortBy('mae')">峰-1h MAE</th><th onclick="accSortBy('mae_4h')">峰-4~5h MAE</th></tr></thead>
+      <thead><tr><th onclick="accSortBy('city')">城市</th><th onclick="accSortBy('n')">样本</th><th onclick="accSortBy('mae')">峰-4h MAE</th></tr></thead>
       <tbody id="accTbody"></tbody>
     </table>
     <h3 style="color:#fff;margin:14px 0 8px;font-size:15px">逐日明细 <span style="color:#666;font-size:11px" id="accRowsInfo"></span></h3>
@@ -268,12 +268,11 @@ function accPeriod(p) {
 function renderAcc() {
   var d = pickAcc();
   if (!d) return;
-  document.getElementById('accNote').textContent = '数据口径：事件日当地当天、严格早于峰值、最接近"峰前1小时"（±1h容差）的预测；峰=实际最高温首次出现时刻（Wunderground / NOAA METAR 逐时观测）';
+  document.getElementById('accNote').textContent = '数据口径：事件日当地当天、严格早于峰值、最接近"峰前4小时"（±2h容差）的预测；峰=实际最高温首次出现时刻（Wunderground / NOAA METAR 逐时观测）';
   document.getElementById('accSummary').innerHTML =
     '<span class="item">样本<strong>' + d.n + '</strong></span>' +
     '<span class="item">平均误差<strong>' + d.mae + '°C</strong></span>' +
-    '<span class="item">偏差<strong style="color:' + (d.bias > 0 ? '#f59e0b' : '#60a5fa') + '">' + (d.bias > 0 ? '+' : '') + d.bias + '°C</strong></span>' +
-    (d.mae_4h != null ? '<span class="item" style="border-left:1px solid #374151;padding-left:12px;margin-left:4px"><strong style="color:#f59e0b">峰-4~5h</strong> 样本<strong>' + d.n_4h + '</strong> 误差<strong>' + d.mae_4h + '°C</strong></span>' : '');
+    '<span class="item">偏差<strong style="color:' + (d.bias > 0 ? '#f59e0b' : '#60a5fa') + '">' + (d.bias > 0 ? '+' : '') + d.bias + '°C</strong></span>';
   var cities = d.cities.slice();
   cities.sort(function(a, b) {
     var va = a[accSortField], vb = b[accSortField];
@@ -284,8 +283,7 @@ function renderAcc() {
   for (var i = 0; i < cities.length; i++) {
     var c = cities[i];
     var color = c.mae <= 1 ? '#22c55e' : (c.mae <= 2 ? '#eab308' : '#f87171');
-    var color4h = c.mae_4h != null ? (c.mae_4h <= 1 ? '#22c55e' : (c.mae_4h <= 2 ? '#eab308' : '#f87171')) : '#666';
-    html += '<tr onclick="accPick(\'' + c.city.replace(/'/g, "\\'") + '\')"><td>' + esc(c.city) + '</td><td>' + c.n + '</td><td style="color:' + color + ';font-weight:600">' + c.mae + '°C</td><td style="color:' + color4h + ';font-weight:600">' + (c.mae_4h != null ? c.mae_4h + '°C' : '-') + '</td></tr>';
+    html += '<tr onclick="accPick(\'' + c.city.replace(/'/g, "\\'") + '\')"><td>' + esc(c.city) + '</td><td>' + c.n + '</td><td style="color:' + color + ';font-weight:600">' + c.mae + '°C</td></tr>';
   }
   document.getElementById('accTbody').innerHTML = html;
   document.getElementById('accRowsInfo').textContent = '(' + d.rows.length + ' 条)';
@@ -297,8 +295,7 @@ function renderAccRows(rows) {
   for (var i = 0; i < rows.length; i++) {
     var r = rows[i];
     var cls = r.err > 0 ? 'err-pos' : (r.err < 0 ? 'err-neg' : '');
-    var cls4h = r.err_4h != null ? (r.err_4h > 0 ? 'err-pos' : (r.err_4h < 0 ? 'err-neg' : '')) : '';
-    rhtml += '<div>' + esc(r.date_display) + ' ' + esc(r.city) + ' &nbsp;预测于 ' + (r.snap_date ? esc(r.snap_date.slice(5)) : '') + (r.local_hhmm ? ' <span style="color:#777;font-size:10px">' + esc(r.local_hhmm) + '</span>' : '') + (r.peak_local ? ' &nbsp;<span style="color:#777;font-size:10px">峰 ' + esc(r.peak_local) + '</span>' : '') + ' &nbsp;预测 ' + r.meteo + '° &nbsp;实际 ' + r.actual + '° &nbsp;<span class="' + cls + '">' + (r.err > 0 ? '+' : '') + r.err + '°</span>' + (r.meteo_4h != null ? ' &nbsp;<span style="color:#f59e0b">4~5h 预测 ' + r.meteo_4h + '° 实际 ' + r.actual + '° <span class="' + cls4h + '">' + (r.err_4h > 0 ? '+' : '') + r.err_4h + '°</span></span>' : '') + '</div>';
+    rhtml += '<div>' + esc(r.date_display) + ' ' + esc(r.city) + ' &nbsp;预测于 ' + (r.snap_date ? esc(r.snap_date.slice(5)) : '') + (r.local_hhmm ? ' <span style="color:#777;font-size:10px">' + esc(r.local_hhmm) + '</span>' : '') + (r.peak_local ? ' &nbsp;<span style="color:#777;font-size:10px">峰 ' + esc(r.peak_local) + '</span>' : '') + ' &nbsp;预测 ' + r.meteo + '° &nbsp;实际 ' + r.actual + '° &nbsp;<span class="' + cls + '">' + (r.err > 0 ? '+' : '') + r.err + '°</span></div>';
   }
   document.getElementById('accDetail').innerHTML = rhtml;
 }
@@ -312,12 +309,10 @@ function accPick(city) {
   var rows = [];
   for (var i = 0; i < d.rows.length; i++) if (d.rows[i].city === city) rows.push(d.rows[i]);
   var color = sel.mae <= 1 ? '#22c55e' : (sel.mae <= 2 ? '#eab308' : '#f87171');
-  var color4h = sel.mae_4h != null ? (sel.mae_4h <= 1 ? '#22c55e' : (sel.mae_4h <= 2 ? '#eab308' : '#f87171')) : '#666';
   document.getElementById('accModalTitle').innerHTML =
     esc(city) + ' <span style="color:#666;font-size:12px">' + (d.period_name || '全部时段') + '</span>' +
     '<div style="font-size:12px;color:#aaa;margin-top:6px;font-weight:normal">样本 ' + sel.n +
-    ' &nbsp;峰-1h误差 <span style="color:' + color + ';font-weight:600">' + sel.mae + '°C</span>' +
-    (sel.mae_4h != null ? ' &nbsp;<span style="color:#f59e0b">峰-4~5h误差 <span style="font-weight:600">' + sel.mae_4h + '°C</span> (n=' + sel.n_4h + ')</span>' : '') +
+    ' &nbsp;峰-4h误差 <span style="color:' + color + ';font-weight:600">' + sel.mae + '°C</span>' +
     ' &nbsp;<span style="color:#666">预测=METEO 实际=Polymarket结算</span></div>';
   if (!rows.length) {
     document.getElementById('accModalBody').innerHTML = '<span style="color:#888">该城市暂无已结算样本</span>';
@@ -345,7 +340,6 @@ function accPick(city) {
     for (var i = 0; i < rows.length; i++) {
       var r = rows[i];
       var cls = r.err > 0 ? 'err-pos' : (r.err < 0 ? 'err-neg' : '');
-      var cls4h = r.err_4h != null ? (r.err_4h > 0 ? 'err-pos' : (r.err_4h < 0 ? 'err-neg' : '')) : '';
       rhtml += '<div style="border-bottom:1px solid #1a1d27;padding:4px 0;display:flex;align-items:center;gap:6px">' +
         '<span style="color:#aaa;flex-shrink:0">' + esc(r.date_display) + '</span>' +
         ' <span style="color:#666;font-size:11px;flex-shrink:0">预测于 ' + (r.snap_date ? esc(r.snap_date.slice(5)) : '') + (r.local_hhmm ? ' ' + esc(r.local_hhmm) : '') + '</span>' +
@@ -353,7 +347,6 @@ function accPick(city) {
         ' &nbsp;预测 <span style="color:#60a5fa;font-weight:600">' + r.meteo + '°</span>' +
         ' &nbsp;实际 <span style="color:#22c55e;font-weight:600">' + r.actual + '°</span>' +
         ' &nbsp;<span class="' + cls + '">' + (r.err > 0 ? '+' : '') + r.err + '°</span>' +
-        (r.meteo_4h != null ? ' &nbsp;<span style="color:#f59e0b">4~5h 预测 ' + r.meteo_4h + '° 实际 ' + r.actual + '° <span class="' + cls4h + '">' + (r.err_4h > 0 ? '+' : '') + r.err_4h + '°</span></span>' : '') +
         '<button onclick="event.stopPropagation();showDayDetail(\'' + esc(r.city).replace(/'/g,"\\'") + '\',\'' + esc(r.date) + '\')" style="margin-left:auto;flex-shrink:0;background:#334155;color:#94a3b8;border:none;border-radius:4px;padding:1px 8px;font-size:10px;cursor:pointer">详情</button>' +
         '</div>';
     }
