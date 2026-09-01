@@ -4550,5 +4550,9 @@
  "highest-temperature-in-toronto-on-august-31-2026": {
   "temp": 21.0,
   "peak_bj": "2026-09-01 07:00"
+ },
+ "highest-temperature-in-buenos-aires-on-august-31-2026": {
+  "temp": 19.0,
+  "peak_bj": "2026-09-01 02:00"
  }
 }
