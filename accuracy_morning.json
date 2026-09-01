@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 507,
+ "n": 508,
  "mae": 0.76,
  "bias": -0.18,
  "rows": [
@@ -6466,6 +6466,19 @@
    "peak_local": "15:00"
   },
   {
+   "city": "Lucknow",
+   "date": "2026-09-01",
+   "date_display": "09/01",
+   "snap_date": "2026-09-01",
+   "time": "11:32",
+   "local_hhmm": "09:32",
+   "hour": 11,
+   "meteo": 30,
+   "actual": 30.0,
+   "err": 0.0,
+   "peak_local": "15:00"
+  },
+  {
    "city": "Manila",
    "date": "2026-09-01",
    "date_display": "09/01",
@@ -6839,12 +6852,12 @@
   },
   {
    "city": "Lucknow",
-   "n": 13,
-   "mae": 0.23,
+   "n": 14,
+   "mae": 0.21,
    "periods": {
     "09-12": {
-     "n": 13,
-     "mae": 0.23
+     "n": 14,
+     "mae": 0.21
     }
    },
    "best_period": "09-12"

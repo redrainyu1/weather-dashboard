@@ -4666,5 +4666,9 @@
  "highest-temperature-in-singapore-on-september-1-2026": {
   "temp": 32.0,
   "peak_bj": "2026-09-01 16:00"
+ },
+ "highest-temperature-in-lucknow-on-september-1-2026": {
+  "temp": 30.0,
+  "peak_bj": "2026-09-01 17:00"
  }
 }
