@@ -1,5 +1,5 @@
 """Weather Dashboard - GFS GEM ICON meteoblue RP5 + Polymarket prices."""
-import json, re, asyncio, os, webbrowser
+import json, re, asyncio, os
 from datetime import datetime
 import httpx
 from bs4 import BeautifulSoup
@@ -480,7 +480,6 @@ async def main():
 
     fc_count = sum(1 for r in grouped for d in ("highest", "lowest") if r.get(d) and r[d].get("forecasts"))
     print(f"\nDone! {len(grouped)} rows, {fc_count} forecasts")
-    webbrowser.open("file:///" + OUTPUT_FILE.replace("\\", "/"))
 
 if __name__ == "__main__":
     asyncio.run(main())
