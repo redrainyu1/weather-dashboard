@@ -4590,5 +4590,17 @@
  "highest-temperature-in-seattle-on-august-31-2026": {
   "temp": 77.0,
   "peak_bj": "2026-09-01 07:53"
+ },
+ "highest-temperature-in-austin-on-august-31-2026": {
+  "temp": 99.0,
+  "peak_bj": "2026-09-01 06:53"
+ },
+ "highest-temperature-in-chicago-on-august-31-2026": {
+  "temp": 87.0,
+  "peak_bj": "2026-09-01 02:44"
+ },
+ "highest-temperature-in-miami-on-august-31-2026": {
+  "temp": 91.0,
+  "peak_bj": "2026-08-31 23:53"
  }
 }

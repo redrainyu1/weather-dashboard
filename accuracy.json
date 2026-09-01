@@ -1,7 +1,7 @@
 {
  "model": "METEO",
- "n": 883,
- "mae": 0.79,
+ "n": 886,
+ "mae": 0.8,
  "bias": -0.36,
  "rows": [
   {
@@ -11354,6 +11354,19 @@
    "peak_local": "16:52"
   },
   {
+   "city": "Miami",
+   "date": "2026-08-31",
+   "date_display": "08/31",
+   "snap_date": "2026-08-31",
+   "time": "20:02",
+   "local_hhmm": "08:02",
+   "hour": 20,
+   "meteo": 90,
+   "actual": 91.0,
+   "err": -1.0,
+   "peak_local": "11:53"
+  },
+  {
    "city": "Nyc",
    "date": "2026-08-31",
    "date_display": "08/31",
@@ -11378,6 +11391,32 @@
    "actual": 21.0,
    "err": 0.0,
    "peak_local": "19:00"
+  },
+  {
+   "city": "Austin",
+   "date": "2026-08-31",
+   "date_display": "08/31",
+   "snap_date": "2026-08-31",
+   "time": "02:02",
+   "local_hhmm": "13:02",
+   "hour": 2,
+   "meteo": 99,
+   "actual": 99.0,
+   "err": 0.0,
+   "peak_local": "17:53"
+  },
+  {
+   "city": "Chicago",
+   "date": "2026-08-31",
+   "date_display": "08/31",
+   "snap_date": "2026-08-31",
+   "time": "22:32",
+   "local_hhmm": "09:32",
+   "hour": 22,
+   "meteo": 84,
+   "actual": 87.0,
+   "err": -3.0,
+   "peak_local": "13:44"
   },
   {
    "city": "Dallas",
@@ -11551,16 +11590,16 @@
   },
   {
    "city": "Austin",
-   "n": 20,
-   "mae": 1.4,
+   "n": 21,
+   "mae": 1.33,
    "periods": {
     "21-24": {
      "n": 8,
      "mae": 1.88
     },
     "其他": {
-     "n": 12,
-     "mae": 1.08
+     "n": 13,
+     "mae": 1.0
     }
    },
    "best_period": "其他"
@@ -11671,12 +11710,12 @@
   },
   {
    "city": "Chicago",
-   "n": 19,
-   "mae": 0.95,
+   "n": 20,
+   "mae": 1.05,
    "periods": {
     "21-24": {
-     "n": 11,
-     "mae": 1.36
+     "n": 12,
+     "mae": 1.5
     },
     "其他": {
      "n": 8,
@@ -12043,8 +12082,8 @@
   },
   {
    "city": "Miami",
-   "n": 20,
-   "mae": 1.3,
+   "n": 21,
+   "mae": 1.29,
    "periods": {
     "21-24": {
      "n": 16,
@@ -12055,7 +12094,7 @@
      "mae": 0.0
     },
     "18-21": {
-     "n": 2,
+     "n": 3,
      "mae": 1.0
     },
     "12-15": {
@@ -12063,7 +12102,7 @@
      "mae": 1.0
     }
    },
-   "best_period": "21-24"
+   "best_period": "18-21"
   },
   {
    "city": "Milan",
