@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 870,
+ "n": 873,
  "mae": 0.79,
  "bias": -0.35,
  "rows": [
@@ -10964,6 +10964,19 @@
    "peak_local": "13:30"
   },
   {
+   "city": "Hong Kong",
+   "date": "2026-08-31",
+   "date_display": "08/31",
+   "snap_date": "2026-08-31",
+   "time": "07:02",
+   "local_hhmm": "07:02",
+   "hour": 7,
+   "meteo": 29,
+   "actual": 29.0,
+   "err": 0.0,
+   "peak_local": "11:00"
+  },
+  {
    "city": "Kuala Lumpur",
    "date": "2026-08-31",
    "date_display": "08/31",
@@ -11302,6 +11315,32 @@
    "peak_local": "14:00"
   },
   {
+   "city": "Nyc",
+   "date": "2026-08-31",
+   "date_display": "08/31",
+   "snap_date": "2026-08-31",
+   "time": "23:02",
+   "local_hhmm": "11:02",
+   "hour": 23,
+   "meteo": 77,
+   "actual": 77.0,
+   "err": 0.0,
+   "peak_local": "14:51"
+  },
+  {
+   "city": "Toronto",
+   "date": "2026-08-31",
+   "date_display": "08/31",
+   "snap_date": "2026-08-31",
+   "time": "03:02",
+   "local_hhmm": "15:02",
+   "hour": 3,
+   "meteo": 21,
+   "actual": 21.0,
+   "err": 0.0,
+   "peak_local": "19:00"
+  },
+  {
    "city": "Panama City",
    "date": "2026-08-31",
    "date_display": "08/31",
@@ -11622,8 +11661,8 @@
   },
   {
    "city": "Hong Kong",
-   "n": 13,
-   "mae": 1.08,
+   "n": 14,
+   "mae": 1.0,
    "periods": {
     "12-15": {
      "n": 5,
@@ -11634,8 +11673,8 @@
      "mae": 1.2
     },
     "06-09": {
-     "n": 3,
-     "mae": 1.67
+     "n": 4,
+     "mae": 1.25
     }
    },
    "best_period": "12-15"
@@ -11966,12 +12005,12 @@
   },
   {
    "city": "Nyc",
-   "n": 20,
-   "mae": 0.9,
+   "n": 21,
+   "mae": 0.86,
    "periods": {
     "21-24": {
-     "n": 10,
-     "mae": 1.2
+     "n": 11,
+     "mae": 1.09
     },
     "其他": {
      "n": 9,
@@ -12266,15 +12305,15 @@
   },
   {
    "city": "Toronto",
-   "n": 19,
-   "mae": 0.16,
+   "n": 20,
+   "mae": 0.15,
    "periods": {
     "21-24": {
      "n": 14,
      "mae": 0.21
     },
     "其他": {
-     "n": 5,
+     "n": 6,
      "mae": 0.0
     }
    },

@@ -4538,5 +4538,17 @@
  "highest-temperature-in-panama-city-on-august-29-2026": {
   "temp": 32.0,
   "peak_bj": "2026-08-30 05:00"
+ },
+ "highest-temperature-in-hong-kong-on-august-31-2026": {
+  "temp": 29.0,
+  "peak_bj": "2026-08-31 11:00"
+ },
+ "highest-temperature-in-nyc-on-august-31-2026": {
+  "temp": 77.0,
+  "peak_bj": "2026-09-01 02:51"
+ },
+ "highest-temperature-in-toronto-on-august-31-2026": {
+  "temp": 21.0,
+  "peak_bj": "2026-09-01 07:00"
  }
 }

@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 489,
+ "n": 490,
  "mae": 0.76,
  "bias": -0.18,
  "rows": [
@@ -6011,6 +6011,19 @@
    "peak_local": "16:50"
   },
   {
+   "city": "Hong Kong",
+   "date": "2026-08-31",
+   "date_display": "08/31",
+   "snap_date": "2026-08-31",
+   "time": "07:02",
+   "local_hhmm": "07:02",
+   "hour": 7,
+   "meteo": 29,
+   "actual": 29.0,
+   "err": 0.0,
+   "peak_local": "11:00"
+  },
+  {
    "city": "Istanbul",
    "date": "2026-08-31",
    "date_display": "08/31",
@@ -6505,16 +6518,16 @@
   },
   {
    "city": "Hong Kong",
-   "n": 12,
-   "mae": 1.17,
+   "n": 13,
+   "mae": 1.08,
    "periods": {
     "09-12": {
      "n": 9,
      "mae": 1.0
     },
     "06-09": {
-     "n": 3,
-     "mae": 1.67
+     "n": 4,
+     "mae": 1.25
     }
    },
    "best_period": "09-12"
