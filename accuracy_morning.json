@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 500,
+ "n": 502,
  "mae": 0.76,
  "bias": -0.19,
  "rows": [
@@ -6414,6 +6414,19 @@
    "peak_local": "16:30"
   },
   {
+   "city": "Busan",
+   "date": "2026-09-01",
+   "date_display": "09/01",
+   "snap_date": "2026-09-01",
+   "time": "06:32",
+   "local_hhmm": "07:32",
+   "hour": 6,
+   "meteo": 32,
+   "actual": 32.0,
+   "err": 0.0,
+   "peak_local": "12:00"
+  },
+  {
    "city": "Guangzhou",
    "date": "2026-09-01",
    "date_display": "09/01",
@@ -6503,6 +6516,19 @@
    "actual": 14.0,
    "err": -1.0,
    "peak_local": "16:00"
+  },
+  {
+   "city": "Zhengzhou",
+   "date": "2026-09-01",
+   "date_display": "09/01",
+   "snap_date": "2026-09-01",
+   "time": "11:32",
+   "local_hhmm": "03:32",
+   "hour": 11,
+   "meteo": 31,
+   "actual": 31.0,
+   "err": 0.0,
+   "peak_local": "08:00"
   }
  ],
  "cities": [
@@ -6556,15 +6582,15 @@
   },
   {
    "city": "Busan",
-   "n": 13,
-   "mae": 0.15,
+   "n": 14,
+   "mae": 0.14,
    "periods": {
     "09-12": {
      "n": 8,
      "mae": 0.25
     },
     "06-09": {
-     "n": 5,
+     "n": 6,
      "mae": 0.0
     }
    },
@@ -7064,12 +7090,12 @@
   },
   {
    "city": "Zhengzhou",
-   "n": 13,
-   "mae": 0.85,
+   "n": 14,
+   "mae": 0.79,
    "periods": {
     "09-12": {
-     "n": 13,
-     "mae": 0.85
+     "n": 14,
+     "mae": 0.79
     }
    },
    "best_period": "09-12"
