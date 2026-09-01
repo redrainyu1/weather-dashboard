@@ -328,13 +328,20 @@ def git_pull():
 
 @app.route('/api/refresh', methods=['POST'])
 def api_refresh():
-    """从 GitHub 仓库同步最新抓取数据"""
-    ok, msg = git_pull()
+    """本地抓取 meteoblue 数据并更新"""
+    if _bg_status["running"]:
+        return jsonify({"status": "busy", "error": "正在抓取中，请稍后"})
+    
+    python = sys.executable
+    serve_py = os.path.join(SCRIPT_DIR, "serve.py")
     try:
+        result = subprocess.run([python, serve_py], cwd=SCRIPT_DIR,
+                                capture_output=True, text=True, timeout=900,
+                                creationflags=subprocess.CREATE_NO_WINDOW)
+        # Reload data after fetch
         with open(_cache_file, 'r', encoding='utf-8') as f:
             data = json.load(f)
-        tail = [ln for ln in msg.strip().splitlines() if ln.strip()][-1:] or [""]
-        return jsonify({"status": "ok", "data": data, "sync": tail[0]})
+        return jsonify({"status": "ok", "data": data, "sync": "本地抓取完成"})
     except Exception as e:
         return jsonify({"status": "error", "error": str(e)})
 
