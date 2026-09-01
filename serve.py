@@ -1,5 +1,5 @@
 """Weather Dashboard - GFS GEM ICON meteoblue RP5 + Polymarket prices."""
-import json, re, asyncio, os
+import json, re, asyncio, os, time
 from datetime import datetime
 import httpx
 from bs4 import BeautifulSoup
@@ -13,6 +13,84 @@ load_dotenv(os.path.join(SCRIPT_DIR, ".env"))
 GAMMA_HOST = "https://gamma-api.polymarket.com"
 METEOC_API = "https://api.open-meteo.com/v1/forecast"
 PROXY_URL = os.getenv("PROXY_URL", "http://127.0.0.1:7897")
+
+# ── 数据校验 ──────────────────────────────────────────────────────────────────
+ERRORS = []  # 收集所有错误
+WARNINGS = []  # 收集所有警告
+
+def log_error(msg):
+    ERRORS.append(msg)
+    print(f"  [ERROR] {msg}")
+
+def log_warn(msg):
+    WARNINGS.append(msg)
+    print(f"  [WARN] {msg}")
+
+def validate_temp(city, temp, direction):
+    """校验温度是否在合理范围内"""
+    if temp is None:
+        return False
+    # 全球合理温度范围: -20°C ~ 60°C
+    if temp < -20 or temp > 60:
+        log_error(f"{city} {direction} 温度异常: {temp}°C (超出范围)")
+        return False
+    return True
+
+def validate_forecast_data(city, date, forecasts):
+    """校验预测数据完整性"""
+    if not forecasts:
+        log_warn(f"{city} {date} 无任何气象模型预测数据")
+        return False
+    
+    models = [f.get("model") for f in forecasts]
+    temps = [f.get("temp") for f in forecasts if f.get("temp") is not None]
+    
+    if not temps:
+        log_warn(f"{city} {date} 所有模型温度为空")
+        return False
+    
+    # 检查各模型温度偏差是否过大
+    if len(temps) >= 2:
+        avg = sum(temps) / len(temps)
+        for f in forecasts:
+            t = f.get("temp")
+            if t is not None and abs(t - avg) > 5:
+                log_warn(f"{city} {date} {f.get('model')} 温度偏差大: {t}°C (平均 {avg:.1f}°C)")
+    
+    return True
+
+def validate_price_data(city, date, markets):
+    """校验市场价格数据"""
+    if not markets:
+        log_warn(f"{city} {date} 无市场价格数据")
+        return False
+    
+    exact_prices = [m.get("yes_price") for m in markets if m.get("temp_type") == "exact" and m.get("yes_price") is not None]
+    if not exact_prices:
+        log_warn(f"{city} {date} 无精确匹配价格")
+        return False
+    
+    # 检查概率总和是否接近 100%
+    total_pct = sum(m.get("yes_pct", 0) for m in markets if m.get("temp_type") == "exact")
+    if total_pct < 80 or total_pct > 120:
+        log_warn(f"{city} {date} 概率总和异常: {total_pct:.1f}%")
+    
+    return True
+
+def retry_fetch(func, *args, retries=2, delay=2, **kwargs):
+    """带重试的抓取"""
+    for attempt in range(retries + 1):
+        try:
+            result = func(*args, **kwargs)
+            if result:
+                return result
+        except Exception as e:
+            if attempt < retries:
+                print(f"    重试 {attempt+1}/{retries}...")
+                time.sleep(delay)
+            else:
+                log_error(f"抓取失败 (重试{retries}次): {e}")
+    return None
 TEMPLATE_FILE = os.path.join(SCRIPT_DIR, "template.html")
 OUTPUT_FILE = os.path.join(SCRIPT_DIR, "weather_dashboard.html")
 
@@ -278,31 +356,38 @@ def scrape_meteoblue(city):
     icao = AIRPORT_CODES.get(city, "")
     search_city = METEO_CITY_NAMES.get(city, city)
 
-    try:
-        with httpx.Client(http1=True, http2=False, verify=False, timeout=20, proxy=(PROXY_URL or None), follow_redirects=True) as c:
-            # Direct URL override
-            if city in METEO_URL_OVERRIDE:
-                r = c.get(METEO_URL_OVERRIDE[city], headers=HEADERS)
-                if r.status_code == 200: return _parse_mb_page(r.text)
-                return {}
+    for attempt in range(3):
+        try:
+            with httpx.Client(http1=True, http2=False, verify=False, timeout=20, proxy=(PROXY_URL or None), follow_redirects=True) as c:
+                # Direct URL override
+                if city in METEO_URL_OVERRIDE:
+                    r = c.get(METEO_URL_OVERRIDE[city], headers=HEADERS)
+                    if r.status_code == 200:
+                        result = _parse_mb_page(r.text)
+                        if result:
+                            return result
+                        log_warn(f"{city} meteoblue 解析为空，重试...")
+                        time.sleep(2)
+                        continue
+                    return {}
 
-            city_pat = search_city.lower().replace(" ", "-")
+                city_pat = search_city.lower().replace(" ", "-")
 
-            # Try 1: city + ICAO
-            best = None
-            if icao:
-                r = c.get("https://www.meteoblue.com/en/weather/search/index", params={"query": f"{search_city} {icao}"}, headers=HEADERS)
-                if r.status_code == 200:
-                    links = re.findall(r'/en/weather/week/([^"]+)', r.text)
-                    for slug in links:
-                        if city_pat in slug.lower():
-                            best = slug
-                            if "international" in slug.lower() and "daxing" not in slug.lower():
-                                break
+                # Try 1: city + ICAO
+                best = None
+                if icao:
+                    r = c.get("https://www.meteoblue.com/en/weather/search/index", params={"query": f"{search_city} {icao}"}, headers=HEADERS)
+                    if r.status_code == 200:
+                        links = re.findall(r'/en/weather/week/([^"]+)', r.text)
+                        for slug in links:
+                            if city_pat in slug.lower():
+                                best = slug
+                                if "international" in slug.lower() and "daxing" not in slug.lower():
+                                    break
 
-            # Try 2: city name only
-            if not best:
-                r = c.get("https://www.meteoblue.com/en/weather/search/index", params={"query": search_city}, headers=HEADERS)
+                # Try 2: city name only
+                if not best:
+                    r = c.get("https://www.meteoblue.com/en/weather/search/index", params={"query": search_city}, headers=HEADERS)
                 if r.status_code == 200:
                     links = re.findall(r'/en/weather/week/([^"]+)', r.text)
                     for slug in links:
@@ -310,12 +395,36 @@ def scrape_meteoblue(city):
                             best = slug; break
                     if not best and links: best = links[0]
 
-            if not best: return {}
+            if not best:
+                if attempt < 2:
+                    log_warn(f"{city} 未找到meteoblue页面，重试...")
+                    time.sleep(2)
+                    continue
+                return {}
             url = f"https://www.meteoblue.com/en/weather/week/{best}"
             r2 = c.get(url, headers=HEADERS)
-            if r2.status_code != 200: return {}
-            return _parse_mb_page(r2.text)
-    except: return {}
+            if r2.status_code != 200:
+                if attempt < 2:
+                    log_warn(f"{city} meteoblue HTTP {r2.status_code}，重试...")
+                    time.sleep(2)
+                    continue
+                return {}
+            result = _parse_mb_page(r2.text)
+            if result:
+                return result
+            if attempt < 2:
+                log_warn(f"{city} meteoblue 解析为空，重试...")
+                time.sleep(2)
+                continue
+            return {}
+        except Exception as e:
+            if attempt < 2:
+                log_warn(f"{city} meteoblue 异常: {e}，重试...")
+                time.sleep(2)
+                continue
+            log_error(f"{city} meteoblue 抓取失败: {e}")
+            return {}
+    return {}
 
 async def fetch_meteoblue(client, city):
     for _ in range(2):
@@ -413,6 +522,11 @@ async def main():
                 for nm, r in zip(names, results):
                     e = r.get(dt, {})
                     if e.get("max") is not None:
+                        # 校验温度
+                        if not validate_temp(city, e.get("max"), "highest"):
+                            continue
+                        if not validate_temp(city, e.get("min"), "lowest"):
+                            continue
                         hourly = e.get("hourly", [])
                         models.append({"name": nm, "max": e["max"], "min": e["min"],
                                        "max_hour_bj": e.get("max_hour_bj"), "min_hour_bj": e.get("min_hour_bj"),
@@ -434,6 +548,9 @@ async def main():
             for m in fc:
                 raw = m["max"] if direction == "highest" else m["min"]
                 at = calc_temp(city, raw, direction)
+                # 校验转换后温度
+                if not validate_temp(city, at, direction):
+                    continue
                 matched = match_market(at, evt["markets"])
                 url = None
                 if m["name"] == "METEO":
@@ -448,6 +565,10 @@ async def main():
                            "hourly": mh})
                 if not hourly_data and mh:
                     hourly_data = mh
+            # 校验预测数据
+            validate_forecast_data(city, dt, mf)
+            # 校验价格数据
+            validate_price_data(city, dt, evt.get("markets", []))
             evt["forecasts"] = mf
             evt["hourly"] = hourly_data
         print(f"  Matched {sum(1 for e in pm if e.get('forecasts'))}/{len(pm)}")
@@ -479,6 +600,35 @@ async def main():
         json.dump(output, f, ensure_ascii=False, indent=2)
 
     fc_count = sum(1 for r in grouped for d in ("highest", "lowest") if r.get(d) and r[d].get("forecasts"))
+    forecast_count = sum(len(r.get(d, {}).get("forecasts", [])) for r in grouped for d in ("highest", "lowest"))
+    empty_count = sum(1 for r in grouped for d in ("highest", "lowest") if r.get(d) and not r[d].get("forecasts"))
+    
+    print(f"\n{'='*60}")
+    print(f"数据质量报告")
+    print(f"{'='*60}")
+    print(f"  总行数: {len(grouped)}")
+    print(f"  有预测的行: {fc_count}")
+    print(f"  无预测的行: {empty_count}")
+    print(f"  预测条目总数: {forecast_count}")
+    
+    if ERRORS:
+        print(f"\n  错误 ({len(ERRORS)}):")
+        for e in ERRORS[:10]:
+            print(f"    - {e}")
+        if len(ERRORS) > 10:
+            print(f"    ... 还有 {len(ERRORS)-10} 个错误")
+    
+    if WARNINGS:
+        print(f"\n  警告 ({len(WARNINGS)}):")
+        for w in WARNINGS[:10]:
+            print(f"    - {w}")
+        if len(WARNINGS) > 10:
+            print(f"    ... 还有 {len(WARNINGS)-10} 个警告")
+    
+    if not ERRORS and not WARNINGS:
+        print(f"\n  所有数据校验通过!")
+    
+    print(f"{'='*60}")
     print(f"\nDone! {len(grouped)} rows, {fc_count} forecasts")
 
 if __name__ == "__main__":
