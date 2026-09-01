@@ -4646,5 +4646,17 @@
  "highest-temperature-in-zhengzhou-on-september-1-2026": {
   "temp": 31.0,
   "peak_bj": "2026-09-01 16:00"
+ },
+ "highest-temperature-in-chengdu-on-september-1-2026": {
+  "temp": 34.0,
+  "peak_bj": "2026-09-01 17:00"
+ },
+ "highest-temperature-in-jinan-on-september-1-2026": {
+  "temp": 26.0,
+  "peak_bj": "2026-09-02 00:00"
+ },
+ "highest-temperature-in-manila-on-september-1-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-09-01 14:00"
  }
 }
