@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 508,
+ "n": 510,
  "mae": 0.76,
  "bias": -0.18,
  "rows": [
@@ -6401,6 +6401,19 @@
    "peak_local": "14:00"
   },
   {
+   "city": "Amsterdam",
+   "date": "2026-09-01",
+   "date_display": "09/01",
+   "snap_date": "2026-09-01",
+   "time": "11:32",
+   "local_hhmm": "05:32",
+   "hour": 11,
+   "meteo": 20,
+   "actual": 20.0,
+   "err": 0.0,
+   "peak_local": "17:55"
+  },
+  {
    "city": "Beijing",
    "date": "2026-09-01",
    "date_display": "09/01",
@@ -6425,6 +6438,19 @@
    "actual": 32.0,
    "err": 0.0,
    "peak_local": "12:00"
+  },
+  {
+   "city": "Cape Town",
+   "date": "2026-09-01",
+   "date_display": "09/01",
+   "snap_date": "2026-09-01",
+   "time": "11:32",
+   "local_hhmm": "05:32",
+   "hour": 11,
+   "meteo": 18,
+   "actual": 20.0,
+   "err": -2.0,
+   "peak_local": "15:00"
   },
   {
    "city": "Chengdu",
@@ -6612,12 +6638,12 @@
  "cities": [
   {
    "city": "Amsterdam",
-   "n": 13,
-   "mae": 0.85,
+   "n": 14,
+   "mae": 0.79,
    "periods": {
     "09-12": {
-     "n": 13,
-     "mae": 0.85
+     "n": 14,
+     "mae": 0.79
     }
    },
    "best_period": "09-12"
@@ -6676,12 +6702,12 @@
   },
   {
    "city": "Cape Town",
-   "n": 13,
-   "mae": 0.31,
+   "n": 14,
+   "mae": 0.43,
    "periods": {
     "09-12": {
-     "n": 13,
-     "mae": 0.31
+     "n": 14,
+     "mae": 0.43
     }
    },
    "best_period": "09-12"

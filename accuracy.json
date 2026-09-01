@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 903,
+ "n": 905,
  "mae": 0.8,
  "bias": -0.35,
  "rows": [
@@ -11705,6 +11705,32 @@
    "peak_local": "15:00"
   },
   {
+   "city": "Amsterdam",
+   "date": "2026-09-01",
+   "date_display": "09/01",
+   "snap_date": "2026-09-01",
+   "time": "20:05",
+   "local_hhmm": "14:05",
+   "hour": 20,
+   "meteo": 20,
+   "actual": 20.0,
+   "err": 0.0,
+   "peak_local": "17:55"
+  },
+  {
+   "city": "Cape Town",
+   "date": "2026-09-01",
+   "date_display": "09/01",
+   "snap_date": "2026-09-01",
+   "time": "17:02",
+   "local_hhmm": "11:02",
+   "hour": 17,
+   "meteo": 20,
+   "actual": 20.0,
+   "err": 0.0,
+   "peak_local": "15:00"
+  },
+  {
    "city": "Jinan",
    "date": "2026-09-01",
    "date_display": "09/01",
@@ -11747,7 +11773,7 @@
  "cities": [
   {
    "city": "Amsterdam",
-   "n": 18,
+   "n": 19,
    "mae": 0.11,
    "periods": {
     "21-24": {
@@ -11755,7 +11781,7 @@
      "mae": 0.2
     },
     "18-21": {
-     "n": 10,
+     "n": 11,
      "mae": 0.0
     },
     "12-15": {
@@ -11883,7 +11909,7 @@
   },
   {
    "city": "Cape Town",
-   "n": 16,
+   "n": 17,
    "mae": 0.12,
    "periods": {
     "21-24": {
@@ -11891,7 +11917,7 @@
      "mae": 1.0
     },
     "15-18": {
-     "n": 12,
+     "n": 13,
      "mae": 0.0
     },
     "18-21": {

@@ -4670,5 +4670,13 @@
  "highest-temperature-in-lucknow-on-september-1-2026": {
   "temp": 30.0,
   "peak_bj": "2026-09-01 17:00"
+ },
+ "highest-temperature-in-amsterdam-on-september-1-2026": {
+  "temp": 20.0,
+  "peak_bj": "2026-09-01 23:55"
+ },
+ "highest-temperature-in-cape-town-on-september-1-2026": {
+  "temp": 20.0,
+  "peak_bj": "2026-09-01 21:00"
  }
 }
