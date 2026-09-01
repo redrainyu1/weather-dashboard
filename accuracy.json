@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 890,
+ "n": 891,
  "mae": 0.8,
  "bias": -0.35,
  "rows": [
@@ -11562,12 +11562,25 @@
    "peak_local": "15:00"
   },
   {
+   "city": "Shenzhen",
+   "date": "2026-09-01",
+   "date_display": "09/01",
+   "snap_date": "2026-09-01",
+   "time": "12:02",
+   "local_hhmm": "12:02",
+   "hour": 12,
+   "meteo": 31,
+   "actual": 31.0,
+   "err": 0.0,
+   "peak_local": "16:00"
+  },
+  {
    "city": "Panama City",
    "date": "2026-09-01",
    "date_display": "09/01",
    "snap_date": "2026-09-01",
-   "time": "16:02",
-   "local_hhmm": "03:02",
+   "time": "16:32",
+   "local_hhmm": "03:32",
    "hour": 16,
    "meteo": 31,
    "actual": 23.0,
@@ -12418,8 +12431,8 @@
   },
   {
    "city": "Shenzhen",
-   "n": 14,
-   "mae": 0.36,
+   "n": 15,
+   "mae": 0.33,
    "periods": {
     "09-12": {
      "n": 7,
@@ -12430,7 +12443,7 @@
      "mae": 0.5
     },
     "12-15": {
-     "n": 2,
+     "n": 3,
      "mae": 0.0
     },
     "15-18": {
@@ -12438,7 +12451,7 @@
      "mae": 0.0
     }
    },
-   "best_period": "09-12"
+   "best_period": "12-15"
   },
   {
    "city": "Singapore",

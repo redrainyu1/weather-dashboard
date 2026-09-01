@@ -1,7 +1,7 @@
 {
  "model": "METEO",
- "n": 495,
- "mae": 0.77,
+ "n": 496,
+ "mae": 0.76,
  "bias": -0.18,
  "rows": [
   {
@@ -6414,6 +6414,19 @@
    "peak_local": "14:30"
   },
   {
+   "city": "Shenzhen",
+   "date": "2026-09-01",
+   "date_display": "09/01",
+   "snap_date": "2026-09-01",
+   "time": "11:32",
+   "local_hhmm": "11:32",
+   "hour": 11,
+   "meteo": 31,
+   "actual": 31.0,
+   "err": 0.0,
+   "peak_local": "16:00"
+  },
+  {
    "city": "Tokyo",
    "date": "2026-09-01",
    "date_display": "09/01",
@@ -6879,12 +6892,12 @@
   },
   {
    "city": "Shenzhen",
-   "n": 13,
-   "mae": 0.38,
+   "n": 14,
+   "mae": 0.36,
    "periods": {
     "09-12": {
-     "n": 9,
-     "mae": 0.33
+     "n": 10,
+     "mae": 0.3
     },
     "06-09": {
      "n": 4,
