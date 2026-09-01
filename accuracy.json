@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 874,
+ "n": 876,
  "mae": 0.79,
  "bias": -0.35,
  "rows": [
@@ -11354,6 +11354,32 @@
    "peak_local": "19:00"
   },
   {
+   "city": "Dallas",
+   "date": "2026-08-31",
+   "date_display": "08/31",
+   "snap_date": "2026-08-31",
+   "time": "02:02",
+   "local_hhmm": "13:02",
+   "hour": 2,
+   "meteo": 100,
+   "actual": 101.0,
+   "err": -1.0,
+   "peak_local": "17:53"
+  },
+  {
+   "city": "Houston",
+   "date": "2026-08-31",
+   "date_display": "08/31",
+   "snap_date": "2026-08-31",
+   "time": "01:02",
+   "local_hhmm": "12:02",
+   "hour": 1,
+   "meteo": 90,
+   "actual": 91.0,
+   "err": -1.0,
+   "peak_local": "15:53"
+  },
+  {
    "city": "Panama City",
    "date": "2026-08-31",
    "date_display": "08/31",
@@ -11594,15 +11620,15 @@
   },
   {
    "city": "Dallas",
-   "n": 20,
-   "mae": 1.15,
+   "n": 21,
+   "mae": 1.14,
    "periods": {
     "21-24": {
      "n": 8,
      "mae": 1.5
     },
     "其他": {
-     "n": 12,
+     "n": 13,
      "mae": 0.92
     }
    },
@@ -11694,16 +11720,16 @@
   },
   {
    "city": "Houston",
-   "n": 20,
-   "mae": 1.35,
+   "n": 21,
+   "mae": 1.33,
    "periods": {
     "21-24": {
      "n": 9,
      "mae": 2.67
     },
     "其他": {
-     "n": 11,
-     "mae": 0.27
+     "n": 12,
+     "mae": 0.33
     }
    },
    "best_period": "其他"

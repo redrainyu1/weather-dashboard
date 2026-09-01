@@ -4554,5 +4554,13 @@
  "highest-temperature-in-buenos-aires-on-august-31-2026": {
   "temp": 19.0,
   "peak_bj": "2026-09-01 02:00"
+ },
+ "highest-temperature-in-dallas-on-august-31-2026": {
+  "temp": 101.0,
+  "peak_bj": "2026-09-01 06:53"
+ },
+ "highest-temperature-in-houston-on-august-31-2026": {
+  "temp": 91.0,
+  "peak_bj": "2026-09-01 04:53"
  }
 }
