@@ -1,8 +1,8 @@
 {
  "model": "METEO",
- "n": 886,
+ "n": 887,
  "mae": 0.8,
- "bias": -0.36,
+ "bias": -0.35,
  "rows": [
   {
    "city": "London",
@@ -11521,6 +11521,19 @@
    "actual": 77.0,
    "err": -2.0,
    "peak_local": "16:53"
+  },
+  {
+   "city": "Panama City",
+   "date": "2026-09-01",
+   "date_display": "09/01",
+   "snap_date": "2026-09-01",
+   "time": "13:02",
+   "local_hhmm": "00:02",
+   "hour": 13,
+   "meteo": 31,
+   "actual": 23.0,
+   "err": 8.0,
+   "peak_local": "08:00"
   }
  ],
  "cities": [
@@ -12194,8 +12207,8 @@
   },
   {
    "city": "Panama City",
-   "n": 20,
-   "mae": 0.85,
+   "n": 21,
+   "mae": 1.19,
    "periods": {
     "21-24": {
      "n": 12,
@@ -12212,6 +12225,10 @@
     "06-09": {
      "n": 1,
      "mae": 7.0
+    },
+    "12-15": {
+     "n": 1,
+     "mae": 8.0
     }
    },
    "best_period": "21-24"

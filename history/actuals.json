@@ -4602,5 +4602,9 @@
  "highest-temperature-in-miami-on-august-31-2026": {
   "temp": 91.0,
   "peak_bj": "2026-08-31 23:53"
+ },
+ "highest-temperature-in-panama-city-on-september-1-2026": {
+  "temp": 23.0,
+  "peak_bj": "2026-09-01 21:00"
  }
 }
