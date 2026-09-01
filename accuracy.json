@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 887,
+ "n": 888,
  "mae": 0.8,
  "bias": -0.35,
  "rows": [
@@ -11523,13 +11523,26 @@
    "peak_local": "16:53"
   },
   {
+   "city": "Wellington",
+   "date": "2026-09-01",
+   "date_display": "09/01",
+   "snap_date": "2026-09-01",
+   "time": "08:02",
+   "local_hhmm": "12:02",
+   "hour": 8,
+   "meteo": 13,
+   "actual": 14.0,
+   "err": -1.0,
+   "peak_local": "16:00"
+  },
+  {
    "city": "Panama City",
    "date": "2026-09-01",
    "date_display": "09/01",
    "snap_date": "2026-09-01",
-   "time": "13:32",
-   "local_hhmm": "00:32",
-   "hour": 13,
+   "time": "14:02",
+   "local_hhmm": "01:02",
+   "hour": 14,
    "meteo": 31,
    "actual": 23.0,
    "err": 8.0,
@@ -12531,8 +12544,8 @@
   },
   {
    "city": "Wellington",
-   "n": 20,
-   "mae": 0.65,
+   "n": 21,
+   "mae": 0.67,
    "periods": {
     "21-24": {
      "n": 7,
@@ -12547,8 +12560,8 @@
      "mae": 0.0
     },
     "06-09": {
-     "n": 2,
-     "mae": 0.0
+     "n": 3,
+     "mae": 0.33
     }
    },
    "best_period": "09-12"
