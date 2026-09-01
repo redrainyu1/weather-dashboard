@@ -1,8 +1,8 @@
 {
  "model": "METEO",
- "n": 496,
+ "n": 500,
  "mae": 0.76,
- "bias": -0.18,
+ "bias": -0.19,
  "rows": [
   {
    "city": "Amsterdam",
@@ -6401,6 +6401,58 @@
    "peak_local": "14:00"
   },
   {
+   "city": "Beijing",
+   "date": "2026-09-01",
+   "date_display": "09/01",
+   "snap_date": "2026-09-01",
+   "time": "11:32",
+   "local_hhmm": "11:32",
+   "hour": 11,
+   "meteo": 30,
+   "actual": 30.0,
+   "err": 0.0,
+   "peak_local": "16:30"
+  },
+  {
+   "city": "Guangzhou",
+   "date": "2026-09-01",
+   "date_display": "09/01",
+   "snap_date": "2026-09-01",
+   "time": "11:32",
+   "local_hhmm": "11:32",
+   "hour": 11,
+   "meteo": 31,
+   "actual": 31.0,
+   "err": 0.0,
+   "peak_local": "15:30"
+  },
+  {
+   "city": "Kuala Lumpur",
+   "date": "2026-09-01",
+   "date_display": "09/01",
+   "snap_date": "2026-09-01",
+   "time": "11:02",
+   "local_hhmm": "11:02",
+   "hour": 11,
+   "meteo": 32,
+   "actual": 33.0,
+   "err": -1.0,
+   "peak_local": "15:00"
+  },
+  {
+   "city": "Qingdao",
+   "date": "2026-09-01",
+   "date_display": "09/01",
+   "snap_date": "2026-09-01",
+   "time": "10:02",
+   "local_hhmm": "10:02",
+   "hour": 10,
+   "meteo": 29,
+   "actual": 30.0,
+   "err": -1.0,
+   "peak_local": "14:00"
+  },
+  {
    "city": "Seoul",
    "date": "2026-09-01",
    "date_display": "09/01",
@@ -6480,12 +6532,12 @@
   },
   {
    "city": "Beijing",
-   "n": 13,
-   "mae": 0.31,
+   "n": 14,
+   "mae": 0.29,
    "periods": {
     "09-12": {
-     "n": 13,
-     "mae": 0.31
+     "n": 14,
+     "mae": 0.29
     }
    },
    "best_period": "09-12"
@@ -6572,12 +6624,12 @@
   },
   {
    "city": "Guangzhou",
-   "n": 13,
-   "mae": 0.23,
+   "n": 14,
+   "mae": 0.21,
    "periods": {
     "09-12": {
-     "n": 13,
-     "mae": 0.23
+     "n": 14,
+     "mae": 0.21
     }
    },
    "best_period": "09-12"
@@ -6660,12 +6712,12 @@
   },
   {
    "city": "Kuala Lumpur",
-   "n": 13,
-   "mae": 0.23,
+   "n": 14,
+   "mae": 0.29,
    "periods": {
     "09-12": {
-     "n": 13,
-     "mae": 0.23
+     "n": 14,
+     "mae": 0.29
     }
    },
    "best_period": "09-12"
@@ -6808,12 +6860,12 @@
   },
   {
    "city": "Qingdao",
-   "n": 13,
-   "mae": 1.08,
+   "n": 14,
+   "mae": 1.07,
    "periods": {
     "09-12": {
-     "n": 10,
-     "mae": 0.8
+     "n": 11,
+     "mae": 0.82
     },
     "06-09": {
      "n": 3,

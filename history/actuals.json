@@ -4622,5 +4622,21 @@
  "highest-temperature-in-shenzhen-on-september-1-2026": {
   "temp": 31.0,
   "peak_bj": "2026-09-01 16:00"
+ },
+ "highest-temperature-in-beijing-on-september-1-2026": {
+  "temp": 30.0,
+  "peak_bj": "2026-09-01 16:30"
+ },
+ "highest-temperature-in-guangzhou-on-september-1-2026": {
+  "temp": 31.0,
+  "peak_bj": "2026-09-01 15:30"
+ },
+ "highest-temperature-in-kuala-lumpur-on-september-1-2026": {
+  "temp": 33.0,
+  "peak_bj": "2026-09-01 15:00"
+ },
+ "highest-temperature-in-qingdao-on-september-1-2026": {
+  "temp": 30.0,
+  "peak_bj": "2026-09-01 14:00"
  }
 }
