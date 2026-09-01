@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 900,
+ "n": 902,
  "mae": 0.8,
  "bias": -0.35,
  "rows": [
@@ -11653,6 +11653,19 @@
    "peak_local": "14:00"
   },
   {
+   "city": "Shanghai",
+   "date": "2026-09-01",
+   "date_display": "09/01",
+   "snap_date": "2026-09-01",
+   "time": "10:02",
+   "local_hhmm": "10:02",
+   "hour": 10,
+   "meteo": 29,
+   "actual": 30.0,
+   "err": -1.0,
+   "peak_local": "14:00"
+  },
+  {
    "city": "Shenzhen",
    "date": "2026-09-01",
    "date_display": "09/01",
@@ -11666,12 +11679,25 @@
    "peak_local": "16:00"
   },
   {
+   "city": "Singapore",
+   "date": "2026-09-01",
+   "date_display": "09/01",
+   "snap_date": "2026-09-01",
+   "time": "12:02",
+   "local_hhmm": "12:02",
+   "hour": 12,
+   "meteo": 32,
+   "actual": 32.0,
+   "err": 0.0,
+   "peak_local": "16:00"
+  },
+  {
    "city": "Jinan",
    "date": "2026-09-01",
    "date_display": "09/01",
    "snap_date": "2026-09-01",
-   "time": "18:32",
-   "local_hhmm": "10:32",
+   "time": "18:47",
+   "local_hhmm": "10:47",
    "hour": 18,
    "meteo": 31,
    "actual": 26.0,
@@ -12524,8 +12550,8 @@
   },
   {
    "city": "Shanghai",
-   "n": 16,
-   "mae": 0.19,
+   "n": 17,
+   "mae": 0.24,
    "periods": {
     "21-24": {
      "n": 2,
@@ -12536,8 +12562,8 @@
      "mae": 0.0
     },
     "09-12": {
-     "n": 10,
-     "mae": 0.2
+     "n": 11,
+     "mae": 0.27
     },
     "06-09": {
      "n": 1,
@@ -12572,7 +12598,7 @@
   },
   {
    "city": "Singapore",
-   "n": 14,
+   "n": 15,
    "mae": 0.07,
    "periods": {
     "09-12": {
@@ -12580,7 +12606,7 @@
      "mae": 0.17
     },
     "12-15": {
-     "n": 5,
+     "n": 6,
      "mae": 0.0
     },
     "06-09": {

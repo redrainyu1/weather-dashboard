@@ -4658,5 +4658,13 @@
  "highest-temperature-in-manila-on-september-1-2026": {
   "temp": 32.0,
   "peak_bj": "2026-09-01 14:00"
+ },
+ "highest-temperature-in-shanghai-on-september-1-2026": {
+  "temp": 30.0,
+  "peak_bj": "2026-09-01 14:00"
+ },
+ "highest-temperature-in-singapore-on-september-1-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-09-01 16:00"
  }
 }
