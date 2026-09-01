@@ -229,8 +229,6 @@ def api_daydetail():
         for fn in sorted(os.listdir(hist_dir), reverse=True):
             if not fn.endswith('.json') or fn == 'actuals.json' or fn == 'actuals_backup.json':
                 continue
-            if not fn.startswith(date[:7]):
-                continue
             try:
                 fp = os.path.join(hist_dir, fn)
                 with open(fp, 'r', encoding='utf-8') as f:
