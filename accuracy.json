@@ -1,8 +1,8 @@
 {
  "model": "METEO",
- "n": 881,
+ "n": 883,
  "mae": 0.79,
- "bias": -0.35,
+ "bias": -0.36,
  "rows": [
   {
    "city": "London",
@@ -11419,6 +11419,19 @@
    "peak_local": "16:00"
   },
   {
+   "city": "Denver",
+   "date": "2026-08-31",
+   "date_display": "08/31",
+   "snap_date": "2026-08-31",
+   "time": "02:02",
+   "local_hhmm": "12:02",
+   "hour": 2,
+   "meteo": 84,
+   "actual": 87.0,
+   "err": -3.0,
+   "peak_local": "16:58"
+  },
+  {
    "city": "Mexico City",
    "date": "2026-08-31",
    "date_display": "08/31",
@@ -11456,6 +11469,19 @@
    "actual": 67.0,
    "err": -1.0,
    "peak_local": "16:56"
+  },
+  {
+   "city": "Seattle",
+   "date": "2026-08-31",
+   "date_display": "08/31",
+   "snap_date": "2026-08-31",
+   "time": "02:02",
+   "local_hhmm": "11:02",
+   "hour": 2,
+   "meteo": 75,
+   "actual": 77.0,
+   "err": -2.0,
+   "peak_local": "16:53"
   }
  ],
  "cities": [
@@ -11701,16 +11727,16 @@
   },
   {
    "city": "Denver",
-   "n": 19,
-   "mae": 2.74,
+   "n": 20,
+   "mae": 2.75,
    "periods": {
     "21-24": {
      "n": 9,
      "mae": 4.11
     },
     "其他": {
-     "n": 10,
-     "mae": 1.5
+     "n": 11,
+     "mae": 1.64
     }
    },
    "best_period": "其他"
@@ -12229,16 +12255,16 @@
   },
   {
    "city": "Seattle",
-   "n": 20,
-   "mae": 1.4,
+   "n": 21,
+   "mae": 1.43,
    "periods": {
     "21-24": {
      "n": 8,
      "mae": 1.62
     },
     "其他": {
-     "n": 12,
-     "mae": 1.25
+     "n": 13,
+     "mae": 1.31
     }
    },
    "best_period": "其他"
