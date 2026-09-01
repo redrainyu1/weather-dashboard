@@ -4678,5 +4678,53 @@
  "highest-temperature-in-cape-town-on-september-1-2026": {
   "temp": 20.0,
   "peak_bj": "2026-09-01 21:00"
+ },
+ "highest-temperature-in-ankara-on-september-1-2026": {
+  "temp": 30.0,
+  "peak_bj": "2026-09-01 23:20"
+ },
+ "highest-temperature-in-chongqing-on-september-1-2026": {
+  "temp": 34.0,
+  "peak_bj": "2026-09-01 17:00"
+ },
+ "highest-temperature-in-helsinki-on-september-1-2026": {
+  "temp": 20.0,
+  "peak_bj": "2026-09-01 23:20"
+ },
+ "highest-temperature-in-istanbul-on-september-1-2026": {
+  "temp": 26.0,
+  "peak_bj": "2026-09-01 21:50"
+ },
+ "highest-temperature-in-jeddah-on-september-1-2026": {
+  "temp": 37.0,
+  "peak_bj": "2026-09-01 22:00"
+ },
+ "highest-temperature-in-karachi-on-september-1-2026": {
+  "temp": 30.0,
+  "peak_bj": "2026-09-01 19:00"
+ },
+ "highest-temperature-in-moscow-on-september-1-2026": {
+  "temp": 25.0,
+  "peak_bj": "2026-09-01 20:30"
+ },
+ "highest-temperature-in-paris-on-september-1-2026": {
+  "temp": 25.0,
+  "peak_bj": "2026-09-01 23:30"
+ },
+ "highest-temperature-in-taipei-on-september-1-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-09-01 12:00"
+ },
+ "highest-temperature-in-tel-aviv-on-september-1-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-09-01 20:20"
+ },
+ "highest-temperature-in-warsaw-on-september-1-2026": {
+  "temp": 21.0,
+  "peak_bj": "2026-09-01 22:30"
+ },
+ "highest-temperature-in-wuhan-on-september-1-2026": {
+  "temp": 28.0,
+  "peak_bj": "2026-09-01 14:00"
  }
 }
