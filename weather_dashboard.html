@@ -454,6 +454,7 @@ function showDayDetail(city, date) {
             h += ' &nbsp;<span class="' + (diff > 0 ? 'err-pos' : (diff < 0 ? 'err-neg' : '')) + '">' + diffStr + '</span>';
           }
           h += '</div>';
+          // 显示3小时逐时数据
           var hourly = meteoFc.hourly || [];
           if (hourly.length > 0) {
             h += '<div style="margin-top:6px;display:flex;flex-wrap:wrap;gap:4px">';
