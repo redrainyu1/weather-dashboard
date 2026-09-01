@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 879,
+ "n": 881,
  "mae": 0.79,
  "bias": -0.35,
  "rows": [
@@ -11430,6 +11430,32 @@
    "actual": 24.0,
    "err": -1.0,
    "peak_local": "12:45"
+  },
+  {
+   "city": "Los Angeles",
+   "date": "2026-08-31",
+   "date_display": "08/31",
+   "snap_date": "2026-08-31",
+   "time": "23:02",
+   "local_hhmm": "08:02",
+   "hour": 23,
+   "meteo": 79,
+   "actual": 79.0,
+   "err": 0.0,
+   "peak_local": "11:53"
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-08-31",
+   "date_display": "08/31",
+   "snap_date": "2026-08-31",
+   "time": "02:02",
+   "local_hhmm": "11:02",
+   "hour": 2,
+   "meteo": 66,
+   "actual": 67.0,
+   "err": -1.0,
+   "peak_local": "16:56"
   }
  ],
  "cities": [
@@ -11903,12 +11929,12 @@
   },
   {
    "city": "Los Angeles",
-   "n": 20,
-   "mae": 1.6,
+   "n": 21,
+   "mae": 1.52,
    "periods": {
     "21-24": {
-     "n": 14,
-     "mae": 1.43
+     "n": 15,
+     "mae": 1.33
     },
     "其他": {
      "n": 6,
@@ -12171,15 +12197,15 @@
   },
   {
    "city": "San Francisco",
-   "n": 20,
-   "mae": 2.1,
+   "n": 21,
+   "mae": 2.05,
    "periods": {
     "21-24": {
      "n": 8,
      "mae": 3.75
     },
     "其他": {
-     "n": 12,
+     "n": 13,
      "mae": 1.0
     }
    },
