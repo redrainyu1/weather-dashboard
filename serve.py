@@ -229,12 +229,33 @@ async def _fetch_om(client, lat, lon, model):
 # ── Meteoblue ───────────────────────────────────────────────────────────────
 
 def _parse_mb_page(html):
-    """Parse meteoblue forecast page HTML -> {date: {max, min}} in Celsius."""
+    """Parse meteoblue forecast page HTML -> {date: {max, min, hourly}} in Celsius."""
     soup = BeautifulSoup(html, "html.parser")
     tabs = soup.select("#tabs .tab a")
     if not tabs: return {}
 
     is_f = any("\u00b0F" in (t.select_one(".tab-temp-max") or "").get_text() for t in tabs if t.select_one(".tab-temp-max"))
+    
+    # Parse 3-hourly data from three-hourly-table
+    three_hourly = {}
+    table = soup.select_one(".three-hourly-table")
+    if table:
+        rows = table.select("tr")
+        if len(rows) >= 3:
+            headers = [c.get_text(strip=True) for c in rows[0].select("td, th")]
+            high_temps = [c.get_text(strip=True).replace("°", "") for c in rows[2].select("td")]
+            low_temps = [c.get_text(strip=True).replace("°", "") for c in rows[3].select("td")]
+            for h, ht, lt in zip(headers[1:], high_temps[1:], low_temps[1:]):
+                try:
+                    hour = int(h) // 100 if len(h) == 4 else int(h[:2])
+                    t_max = int(re.sub(r"[^\d-]", "", ht) or "0")
+                    t_min = int(re.sub(r"[^\d-]", "", lt) or "0")
+                    if is_f:
+                        t_max = round((t_max - 32) * 5.0 / 9.0)
+                        t_min = round((t_min - 32) * 5.0 / 9.0)
+                    three_hourly[hour] = {"max": t_max, "min": t_min}
+                except (ValueError, IndexError):
+                    pass
     
     fc = {}
     for t in tabs:
@@ -247,7 +268,7 @@ def _parse_mb_page(html):
         if is_f:
             mx_v = round((mx_v - 32) * 5.0 / 9.0)
             mn_v = round((mn_v - 32) * 5.0 / 9.0)
-        fc[dt] = {"max": mx_v, "min": mn_v}
+        fc[dt] = {"max": mx_v, "min": mn_v, "hourly": three_hourly}
     return fc
 
 def scrape_meteoblue(city):
@@ -389,10 +410,15 @@ async def main():
                 models = []
                 for nm, r in zip(names, results):
                     e = r.get(dt, {})
-                    if e.get("max") is not None: models.append({"name": nm, "max": e["max"], "min": e["min"],
-                                                                  "max_hour_bj": e.get("max_hour_bj"), "min_hour_bj": e.get("min_hour_bj"),
-                                                                  "wind_deg": e.get("wind_deg"), "wind_kmh": e.get("wind_kmh"),
-                                                                  "hourly": e.get("hourly", [])})
+                    if e.get("max") is not None:
+                        hourly = e.get("hourly", [])
+                        # Convert meteoblue 3-hourly dict to list format
+                        if nm == "METEO" and isinstance(hourly, dict):
+                            hourly = [{"hour": h, "temp": (v["max"] + v["min"]) / 2} for h, v in sorted(hourly.items())]
+                        models.append({"name": nm, "max": e["max"], "min": e["min"],
+                                       "max_hour_bj": e.get("max_hour_bj"), "min_hour_bj": e.get("min_hour_bj"),
+                                       "wind_deg": e.get("wind_deg"), "wind_kmh": e.get("wind_kmh"),
+                                       "hourly": hourly})
                 if models: fc[dt] = {"models": models}
             forecasts[city] = {"off": res["off"], "days": fc}
             if (i+1) % 5 == 0: print(f"  {i+1}/{len(cities)}")
@@ -416,7 +442,7 @@ async def main():
                 elif m["name"] == "RP5":
                     from rp5_scraper import get_rp5_url
                     url = get_rp5_url(city)
-                mh = m.get("hourly", []) if m["name"] == "GFS" else []
+                mh = m.get("hourly", []) if m["name"] in ("GFS", "METEO") else []
                 mf.append({"model": m["name"], "temp": round(at), "pct": matched["yes_pct"] if matched else None, "url": url,
                            "max_hour_bj": m.get("max_hour_bj"), "min_hour_bj": m.get("min_hour_bj"),
                            "wind_deg": m.get("wind_deg"), "wind_kmh": m.get("wind_kmh"),
