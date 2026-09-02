@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 892,
+ "n": 893,
  "mae": 0.8,
  "bias": -0.36,
  "rows": [
@@ -11575,6 +11575,19 @@
    "peak_local": "16:00"
   },
   {
+   "city": "London",
+   "date": "2026-09-01",
+   "date_display": "09/01",
+   "snap_date": "2026-09-01",
+   "time": "20:32",
+   "local_hhmm": "13:32",
+   "hour": 20,
+   "meteo": 22,
+   "actual": 23.0,
+   "err": -1.0,
+   "peak_local": "17:20"
+  },
+  {
    "city": "Zhengzhou",
    "date": "2026-09-01",
    "date_display": "09/01",
@@ -12052,16 +12065,16 @@
   },
   {
    "city": "London",
-   "n": 20,
-   "mae": 0.55,
+   "n": 21,
+   "mae": 0.57,
    "periods": {
     "21-24": {
      "n": 10,
      "mae": 0.7
     },
     "18-21": {
-     "n": 8,
-     "mae": 0.38
+     "n": 9,
+     "mae": 0.44
     },
     "15-18": {
      "n": 2,
