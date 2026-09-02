@@ -375,6 +375,9 @@ def scrape_meteoblue(city):
     for attempt in range(3):
         try:
             with httpx.Client(http1=True, http2=False, verify=False, timeout=20, proxy=(PROXY_URL or None), follow_redirects=True) as c:
+                # 先访问主页获取cookie
+                c.get("https://www.meteoblue.com/en/weather", headers=HEADERS)
+
                 # Direct URL override
                 if city in METEO_URL_OVERRIDE:
                     r = c.get(METEO_URL_OVERRIDE[city], headers=HEADERS)
