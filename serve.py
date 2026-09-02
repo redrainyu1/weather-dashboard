@@ -30,10 +30,15 @@ def validate_temp(city, temp, direction):
     """校验温度是否在合理范围内"""
     if temp is None:
         return False
-    # 全球合理温度范围: -20°C ~ 60°C
-    if temp < -20 or temp > 60:
-        log_error(f"{city} {direction} 温度异常: {temp}°C (超出范围)")
-        return False
+    # 华氏城市范围: 0°F ~ 140°F，其他城市: -20°C ~ 60°C
+    if city in FAHRENHEIT_CITIES:
+        if temp < 0 or temp > 140:
+            log_error(f"{city} {direction} 温度异常: {temp}°F (超出范围)")
+            return False
+    else:
+        if temp < -20 or temp > 60:
+            log_error(f"{city} {direction} 温度异常: {temp}°C (超出范围)")
+            return False
     return True
 
 def validate_forecast_data(city, date, forecasts):
