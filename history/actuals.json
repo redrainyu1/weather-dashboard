@@ -4726,5 +4726,13 @@
  "highest-temperature-in-wuhan-on-september-1-2026": {
   "temp": 28.0,
   "peak_bj": "2026-09-01 14:00"
+ },
+ "highest-temperature-in-madrid-on-september-1-2026": {
+  "temp": 34.0,
+  "peak_bj": "2026-09-02 01:30"
+ },
+ "highest-temperature-in-munich-on-september-1-2026": {
+  "temp": 24.0,
+  "peak_bj": "2026-09-01 22:20"
  }
 }
