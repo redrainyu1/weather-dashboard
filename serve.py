@@ -103,7 +103,7 @@ HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
     'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
     'Accept-Language': 'en-US,en;q=0.9',
-    'Accept-Encoding': 'gzip, deflate, br',
+    'Accept-Encoding': 'gzip, deflate',
     'Connection': 'keep-alive',
     'Upgrade-Insecure-Requests': '1',
     'Sec-Fetch-Dest': 'document',
@@ -219,7 +219,7 @@ METEO_URL_OVERRIDE = {
 }
 
 def _client():
-    return httpx.AsyncClient(http1=True, http2=False, verify=False, timeout=30,
+    return httpx.AsyncClient(http2=True, verify=False, timeout=30,
                              proxy=(PROXY_URL or None), follow_redirects=True,
                              limits=httpx.Limits(max_keepalive_connections=5, keepalive_expiry=15))
 
@@ -374,13 +374,14 @@ def scrape_meteoblue(city):
 
     for attempt in range(3):
         try:
-            with httpx.Client(http1=True, http2=False, verify=False, timeout=20, proxy=(PROXY_URL or None), follow_redirects=True) as c:
+            with httpx.Client(http2=True, verify=False, timeout=20, proxy=(PROXY_URL or None), follow_redirects=True) as c:
                 # 先访问主页获取cookie
                 c.get("https://www.meteoblue.com/en/weather", headers=HEADERS)
 
                 # Direct URL override
                 if city in METEO_URL_OVERRIDE:
-                    r = c.get(METEO_URL_OVERRIDE[city], headers=HEADERS)
+                    forecast_headers = {**HEADERS, 'Referer': 'https://www.meteoblue.com/en/weather'}
+                    r = c.get(METEO_URL_OVERRIDE[city], headers=forecast_headers)
                     if r.status_code == 200:
                         result = _parse_mb_page(r.text)
                         if result:
