@@ -35,8 +35,6 @@ jobs:
         run: |
           python accuracy.py --out accuracy.json || echo "acc failed"
           python accuracy.py --period 6-12 --out accuracy_morning.json || echo "acc-morning failed"
-      - name: Cleanup history
-        run: python cleanup_history.py
       - name: Commit data
         run: |
           git config user.name "weather-bot"
