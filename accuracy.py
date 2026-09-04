@@ -375,14 +375,21 @@ async def main():
     out_file = args.out or f"accuracy_{args.model}{'_morning' if args.period == '6-12' else ''}.json"
     actuals = load_actuals()
     headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"}
-    async with httpx.AsyncClient(http1=True, http2=False, verify=False, timeout=30,
+    async with httpx.AsyncClient(http2=True, verify=False, timeout=30,
                                  proxy=(PROXY_URL or None), follow_redirects=True, headers=headers,
                                  limits=httpx.Limits(max_keepalive_connections=5)) as client:
         hist = load_history(period, model=args.model)
         noon_map = {slug: v.get("noon_bj") for (slug, _), v in hist.items()}
         city_map = {slug: v.get("city") for (slug, _), v in hist.items()}
         slugs = sorted({slug for slug, _ in hist.keys()})
-        todo = [s for s in slugs if s not in actuals]
+        # 跳过今天和昨天的未结算事件（Polymarket 通常需要 1-2 天结算）
+        from datetime import date, timedelta
+        cutoff = (date.today() - timedelta(days=1)).strftime("%B-%#d-%Y").lower().replace("-0", "-")
+        def slug_date_ok(s):
+            m = re.search(r'(\w+)-(\d{1,2})-(\d{4})$', s)
+            if not m: return True
+            return f"{m.group(1)}-{int(m.group(2))}-{m.group(3)}" <= cutoff
+        todo = [s for s in slugs if s not in actuals and slug_date_ok(s)]
         # 已存档但缺峰时刻的（wg/METAR 曾失败）全量补：Open-Meteo 直连（无需 gamma/noon_bj）
         missing_peak = [s for s in actuals
                         if not (isinstance(actuals[s], dict) and actuals[s].get("peak_bj"))]

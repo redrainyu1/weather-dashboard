@@ -54,7 +54,9 @@ def scrape_meteoblue_city(city):
 @app.route('/')
 def index():
     resp = send_from_directory(SCRIPT_DIR, 'template.html')
-    resp.headers['Cache-Control'] = 'no-cache'
+    resp.headers['Cache-Control'] = 'no-cache, no-store, must-revalidate'
+    resp.headers['Pragma'] = 'no-cache'
+    resp.headers['Expires'] = '0'
     return resp
 
 def _attach_actual_peaks(data):
@@ -354,22 +356,13 @@ def git_pull():
 
 @app.route('/api/refresh', methods=['POST'])
 def api_refresh():
-    """本地抓取 meteoblue 数据并更新"""
+    """本地抓取 meteoblue 数据并更新（后台线程）"""
     if _bg_status["running"]:
         return jsonify({"status": "busy", "error": "正在抓取中，请稍后"})
     
-    python = sys.executable
-    serve_py = os.path.join(SCRIPT_DIR, "serve.py")
-    try:
-        result = subprocess.run([python, serve_py], cwd=SCRIPT_DIR,
-                                capture_output=True, text=True, timeout=900,
-                                creationflags=subprocess.CREATE_NO_WINDOW)
-        # Reload data after fetch
-        with open(_cache_file, 'r', encoding='utf-8') as f:
-            data = json.load(f)
-        return jsonify({"status": "ok", "data": data, "sync": "本地抓取完成"})
-    except Exception as e:
-        return jsonify({"status": "error", "error": str(e)})
+    t = threading.Thread(target=_bg_fetch, daemon=True, name='refresh_fetch')
+    t.start()
+    return jsonify({"status": "started", "message": "抓取已启动，后台运行中"})
 
 import threading
 

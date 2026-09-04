@@ -528,22 +528,38 @@ async function loadData() {
 
 function doRefresh() {
   document.getElementById('btnRefresh').disabled = true;
-  document.getElementById('btnRefresh').textContent = '抓取中...';
-  document.getElementById('cardGrid').innerHTML = '<div class="loading">正在抓取 meteoblue 数据...</div>';
+  document.getElementById('btnRefresh').textContent = '启动中...';
+  document.getElementById('cardGrid').innerHTML = '<div class="loading">正在启动抓取...</div>';
   
   fetch('/api/refresh', { method: 'POST' }).then(function(r) { return r.json(); }).then(function(res) {
-    if (res.status === 'ok') {
-      ALL_DATA = res.data;
-      buildDateFilter();
-      renderCards();
-      updateSummary();
+    if (res.status === 'started' || res.status === 'ok') {
+      pollRefreshStatus();
+    } else {
+      document.getElementById('btnRefresh').disabled = false;
+      document.getElementById('btnRefresh').textContent = '刷新数据';
+      document.getElementById('cardGrid').innerHTML = '<div class="loading">' + (res.error || '启动失败') + '</div>';
     }
-    document.getElementById('btnRefresh').disabled = false;
-    document.getElementById('btnRefresh').textContent = '刷新数据';
   }).catch(function() {
     document.getElementById('btnRefresh').disabled = false;
     document.getElementById('btnRefresh').textContent = '刷新数据';
   });
+}
+
+function pollRefreshStatus() {
+  var btn = document.getElementById('btnRefresh');
+  btn.textContent = '抓取中...';
+  document.getElementById('cardGrid').innerHTML = '<div class="loading">正在抓取天气数据，请稍候...</div>';
+  
+  var poll = setInterval(function() {
+    fetch('/api/auto-status').then(function(r) { return r.json(); }).then(function(st) {
+      if (!st.running) {
+        clearInterval(poll);
+        btn.disabled = false;
+        btn.textContent = '刷新数据';
+        loadData();
+      }
+    }).catch(function() {});
+  }, 3000);
 }
 
 function buildDateFilter() {
