@@ -4738,5 +4738,369 @@
  "highest-temperature-in-london-on-september-1-2026": {
   "temp": 23.0,
   "peak_bj": "2026-09-02 00:20"
+ },
+ "highest-temperature-in-amsterdam-on-september-2-2026": {
+  "temp": 22.0,
+  "peak_bj": "2026-09-02 20:55"
+ },
+ "highest-temperature-in-amsterdam-on-september-3-2026": {
+  "temp": 22.0,
+  "peak_bj": "2026-09-04 00:55"
+ },
+ "highest-temperature-in-ankara-on-september-2-2026": {
+  "temp": 31.0,
+  "peak_bj": "2026-09-02 22:20"
+ },
+ "highest-temperature-in-ankara-on-september-3-2026": {
+  "temp": 30.0,
+  "peak_bj": "2026-09-03 21:20"
+ },
+ "highest-temperature-in-atlanta-on-september-2-2026": {
+  "temp": 95.0,
+  "peak_bj": "2026-09-03 02:52"
+ },
+ "highest-temperature-in-austin-on-september-2-2026": {
+  "temp": 101.0,
+  "peak_bj": "2026-09-03 07:53"
+ },
+ "highest-temperature-in-beijing-on-september-2-2026": {
+  "temp": 31.0,
+  "peak_bj": "2026-09-02 16:30"
+ },
+ "highest-temperature-in-beijing-on-september-3-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-09-03 16:30"
+ },
+ "highest-temperature-in-buenos-aires-on-september-1-2026": {
+  "temp": 21.0,
+  "peak_bj": "2026-09-02 03:00"
+ },
+ "highest-temperature-in-buenos-aires-on-september-2-2026": {
+  "temp": 24.0,
+  "peak_bj": "2026-09-03 04:00"
+ },
+ "highest-temperature-in-busan-on-september-2-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-09-02 15:00"
+ },
+ "highest-temperature-in-busan-on-september-3-2026": {
+  "temp": 31.0,
+  "peak_bj": "2026-09-03 13:00"
+ },
+ "highest-temperature-in-cape-town-on-september-2-2026": {
+  "temp": 19.0,
+  "peak_bj": "2026-09-02 21:00"
+ },
+ "highest-temperature-in-cape-town-on-september-3-2026": {
+  "temp": 17.0,
+  "peak_bj": "2026-09-03 17:00"
+ },
+ "highest-temperature-in-chengdu-on-september-2-2026": {
+  "temp": 33.0,
+  "peak_bj": "2026-09-02 16:00"
+ },
+ "highest-temperature-in-chengdu-on-september-3-2026": {
+  "temp": 28.0,
+  "peak_bj": "2026-09-03 19:00"
+ },
+ "highest-temperature-in-chicago-on-september-2-2026": {
+  "temp": 95.0,
+  "peak_bj": "2026-09-03 04:51"
+ },
+ "highest-temperature-in-chongqing-on-september-2-2026": {
+  "temp": 33.0,
+  "peak_bj": "2026-09-02 17:00"
+ },
+ "highest-temperature-in-chongqing-on-september-3-2026": {
+  "temp": 33.0,
+  "peak_bj": "2026-09-03 17:00"
+ },
+ "highest-temperature-in-dallas-on-september-2-2026": {
+  "temp": 101.0,
+  "peak_bj": "2026-09-03 05:53"
+ },
+ "highest-temperature-in-denver-on-september-2-2026": {
+  "temp": 89.0,
+  "peak_bj": "2026-09-03 04:58"
+ },
+ "highest-temperature-in-guangzhou-on-september-2-2026": {
+  "temp": 30.0,
+  "peak_bj": "2026-09-02 15:30"
+ },
+ "highest-temperature-in-guangzhou-on-september-3-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-09-03 14:30"
+ },
+ "highest-temperature-in-helsinki-on-september-2-2026": {
+  "temp": 20.0,
+  "peak_bj": "2026-09-02 23:50"
+ },
+ "highest-temperature-in-helsinki-on-september-3-2026": {
+  "temp": 19.0,
+  "peak_bj": "2026-09-03 19:50"
+ },
+ "highest-temperature-in-hong-kong-on-september-1-2026": {
+  "temp": 28.0,
+  "peak_bj": "2026-09-01 18:30"
+ },
+ "highest-temperature-in-hong-kong-on-september-2-2026": {
+  "temp": 31.0,
+  "peak_bj": "2026-09-02 18:00"
+ },
+ "highest-temperature-in-houston-on-september-2-2026": {
+  "temp": 95.0,
+  "peak_bj": "2026-09-03 05:53"
+ },
+ "highest-temperature-in-istanbul-on-september-2-2026": {
+  "temp": 26.0,
+  "peak_bj": "2026-09-02 20:50"
+ },
+ "highest-temperature-in-istanbul-on-september-3-2026": {
+  "temp": 25.0,
+  "peak_bj": "2026-09-03 22:50"
+ },
+ "highest-temperature-in-jeddah-on-september-2-2026": {
+  "temp": 37.0,
+  "peak_bj": "2026-09-02 16:00"
+ },
+ "highest-temperature-in-jeddah-on-september-3-2026": {
+  "temp": 37.0,
+  "peak_bj": "2026-09-03 19:00"
+ },
+ "highest-temperature-in-jinan-on-september-2-2026": {
+  "temp": 26.0,
+  "peak_bj": "2026-09-02 23:00"
+ },
+ "highest-temperature-in-jinan-on-september-3-2026": {
+  "temp": 26.0,
+  "peak_bj": "2026-09-04 01:00"
+ },
+ "highest-temperature-in-karachi-on-september-2-2026": {
+  "temp": 33.0,
+  "peak_bj": "2026-09-02 19:00"
+ },
+ "highest-temperature-in-karachi-on-september-3-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-09-03 18:00"
+ },
+ "highest-temperature-in-kuala-lumpur-on-september-2-2026": {
+  "temp": 34.0,
+  "peak_bj": "2026-09-02 14:00"
+ },
+ "highest-temperature-in-kuala-lumpur-on-september-3-2026": {
+  "temp": 33.0,
+  "peak_bj": "2026-09-03 17:00"
+ },
+ "highest-temperature-in-london-on-september-2-2026": {
+  "temp": 21.0,
+  "peak_bj": "2026-09-03 00:20"
+ },
+ "highest-temperature-in-london-on-september-3-2026": {
+  "temp": 26.0,
+  "peak_bj": "2026-09-04 00:20"
+ },
+ "highest-temperature-in-los-angeles-on-september-2-2026": {
+  "temp": 77.0,
+  "peak_bj": "2026-09-03 05:53"
+ },
+ "highest-temperature-in-lucknow-on-september-2-2026": {
+  "temp": 30.0,
+  "peak_bj": "2026-09-02 17:30"
+ },
+ "highest-temperature-in-lucknow-on-september-3-2026": {
+  "temp": 30.0,
+  "peak_bj": "2026-09-03 15:00"
+ },
+ "highest-temperature-in-madrid-on-september-2-2026": {
+  "temp": 36.0,
+  "peak_bj": "2026-09-03 00:30"
+ },
+ "highest-temperature-in-madrid-on-september-3-2026": {
+  "temp": 38.0,
+  "peak_bj": "2026-09-04 01:00"
+ },
+ "highest-temperature-in-manila-on-september-2-2026": {
+  "temp": 33.0,
+  "peak_bj": "2026-09-02 12:00"
+ },
+ "highest-temperature-in-manila-on-september-3-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-09-03 15:00"
+ },
+ "highest-temperature-in-mexico-city-on-september-1-2026": {
+  "temp": 23.0,
+  "peak_bj": "2026-09-02 03:48"
+ },
+ "highest-temperature-in-mexico-city-on-september-2-2026": {
+  "temp": 26.0,
+  "peak_bj": "2026-09-03 04:48"
+ },
+ "highest-temperature-in-miami-on-september-2-2026": {
+  "temp": 91.0,
+  "peak_bj": "2026-09-03 01:45"
+ },
+ "highest-temperature-in-milan-on-september-1-2026": {
+  "temp": 29.0,
+  "peak_bj": "2026-09-02 00:50"
+ },
+ "highest-temperature-in-milan-on-september-2-2026": {
+  "temp": 30.0,
+  "peak_bj": "2026-09-03 00:20"
+ },
+ "highest-temperature-in-milan-on-september-3-2026": {
+  "temp": 31.0,
+  "peak_bj": "2026-09-04 00:20"
+ },
+ "highest-temperature-in-moscow-on-september-2-2026": {
+  "temp": 20.0,
+  "peak_bj": "2026-09-02 21:30"
+ },
+ "highest-temperature-in-moscow-on-september-3-2026": {
+  "temp": 19.0,
+  "peak_bj": "2026-09-03 21:30"
+ },
+ "highest-temperature-in-munich-on-september-2-2026": {
+  "temp": 25.0,
+  "peak_bj": "2026-09-02 22:50"
+ },
+ "highest-temperature-in-munich-on-september-3-2026": {
+  "temp": 25.0,
+  "peak_bj": "2026-09-03 21:50"
+ },
+ "highest-temperature-in-nyc-on-september-2-2026": {
+  "temp": 75.0,
+  "peak_bj": "2026-09-03 02:26"
+ },
+ "highest-temperature-in-panama-city-on-september-2-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-09-03 02:00"
+ },
+ "highest-temperature-in-paris-on-september-2-2026": {
+  "temp": 26.0,
+  "peak_bj": "2026-09-03 00:00"
+ },
+ "highest-temperature-in-paris-on-september-3-2026": {
+  "temp": 27.0,
+  "peak_bj": "2026-09-04 01:00"
+ },
+ "highest-temperature-in-qingdao-on-september-2-2026": {
+  "temp": 29.0,
+  "peak_bj": "2026-09-02 16:00"
+ },
+ "highest-temperature-in-qingdao-on-september-3-2026": {
+  "temp": 30.0,
+  "peak_bj": "2026-09-03 17:00"
+ },
+ "highest-temperature-in-san-francisco-on-september-2-2026": {
+  "temp": 73.0,
+  "peak_bj": "2026-09-03 06:56"
+ },
+ "highest-temperature-in-sao-paulo-on-september-1-2026": {
+  "temp": 21.0,
+  "peak_bj": "2026-09-02 02:00"
+ },
+ "highest-temperature-in-sao-paulo-on-september-2-2026": {
+  "temp": 21.0,
+  "peak_bj": "2026-09-03 02:00"
+ },
+ "highest-temperature-in-seattle-on-september-2-2026": {
+  "temp": 69.0,
+  "peak_bj": "2026-09-03 02:53"
+ },
+ "highest-temperature-in-seoul-on-september-2-2026": {
+  "temp": 28.0,
+  "peak_bj": "2026-09-02 15:30"
+ },
+ "highest-temperature-in-seoul-on-september-3-2026": {
+  "temp": 31.0,
+  "peak_bj": "2026-09-03 15:00"
+ },
+ "highest-temperature-in-shanghai-on-september-2-2026": {
+  "temp": 30.0,
+  "peak_bj": "2026-09-02 12:00"
+ },
+ "highest-temperature-in-shanghai-on-september-3-2026": {
+  "temp": 31.0,
+  "peak_bj": "2026-09-03 15:00"
+ },
+ "highest-temperature-in-shenzhen-on-september-2-2026": {
+  "temp": 30.0,
+  "peak_bj": "2026-09-02 15:00"
+ },
+ "highest-temperature-in-shenzhen-on-september-3-2026": {
+  "temp": 30.0,
+  "peak_bj": "2026-09-03 16:00"
+ },
+ "highest-temperature-in-singapore-on-september-2-2026": {
+  "temp": 33.0,
+  "peak_bj": "2026-09-02 14:30"
+ },
+ "highest-temperature-in-singapore-on-september-3-2026": {
+  "temp": 33.0,
+  "peak_bj": "2026-09-03 16:00"
+ },
+ "highest-temperature-in-taipei-on-september-2-2026": {
+  "temp": 33.0,
+  "peak_bj": "2026-09-02 14:30"
+ },
+ "highest-temperature-in-taipei-on-september-3-2026": {
+  "temp": 30.0,
+  "peak_bj": "2026-09-03 12:30"
+ },
+ "highest-temperature-in-tel-aviv-on-september-2-2026": {
+  "temp": 33.0,
+  "peak_bj": "2026-09-02 19:50"
+ },
+ "highest-temperature-in-tel-aviv-on-september-3-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-09-03 20:50"
+ },
+ "highest-temperature-in-tokyo-on-september-2-2026": {
+  "temp": 31.0,
+  "peak_bj": "2026-09-02 13:30"
+ },
+ "highest-temperature-in-tokyo-on-september-3-2026": {
+  "temp": 31.0,
+  "peak_bj": "2026-09-03 14:30"
+ },
+ "highest-temperature-in-toronto-on-september-1-2026": {
+  "temp": 27.0,
+  "peak_bj": "2026-09-02 00:00"
+ },
+ "highest-temperature-in-toronto-on-september-2-2026": {
+  "temp": 28.0,
+  "peak_bj": "2026-09-03 02:44"
+ },
+ "highest-temperature-in-warsaw-on-september-2-2026": {
+  "temp": 22.0,
+  "peak_bj": "2026-09-02 23:00"
+ },
+ "highest-temperature-in-warsaw-on-september-3-2026": {
+  "temp": 23.0,
+  "peak_bj": "2026-09-03 21:30"
+ },
+ "highest-temperature-in-wellington-on-september-2-2026": {
+  "temp": 15.0,
+  "peak_bj": "2026-09-02 14:30"
+ },
+ "highest-temperature-in-wellington-on-september-3-2026": {
+  "temp": 17.0,
+  "peak_bj": "2026-09-03 08:30"
+ },
+ "highest-temperature-in-wuhan-on-september-2-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-09-02 15:00"
+ },
+ "highest-temperature-in-wuhan-on-september-3-2026": {
+  "temp": 27.0,
+  "peak_bj": "2026-09-03 15:00"
+ },
+ "highest-temperature-in-zhengzhou-on-september-2-2026": {
+  "temp": 30.0,
+  "peak_bj": "2026-09-02 16:00"
+ },
+ "highest-temperature-in-zhengzhou-on-september-3-2026": {
+  "temp": 29.0,
+  "peak_bj": "2026-09-03 17:00"
  }
 }
