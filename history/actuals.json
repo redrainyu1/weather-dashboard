@@ -5698,5 +5698,9 @@
  "highest-temperature-in-houston-on-september-6-2026": {
   "temp": 89.0,
   "peak_bj": "2026-09-07 04:53"
+ },
+ "highest-temperature-in-mexico-city-on-september-6-2026": {
+  "temp": 24.0,
+  "peak_bj": "2026-09-07 05:40"
  }
 }

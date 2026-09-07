@@ -1,7 +1,7 @@
 {
  "model": "METEO",
- "n": 1132,
- "mae": 0.93,
+ "n": 1133,
+ "mae": 0.92,
  "bias": -0.48,
  "rows": [
   {
@@ -14719,6 +14719,19 @@
    "actual": 31.0,
    "err": -2.0,
    "peak_local": "14:00"
+  },
+  {
+   "city": "Mexico City",
+   "date": "2026-09-06",
+   "date_display": "09/06",
+   "snap_date": "2026-09-06",
+   "time": "22:05",
+   "local_hhmm": "08:05",
+   "hour": 22,
+   "meteo": 24,
+   "actual": 24.0,
+   "err": 0.0,
+   "peak_local": "15:40"
   }
  ],
  "cities": [
@@ -15348,12 +15361,12 @@
   },
   {
    "city": "Mexico City",
-   "n": 25,
-   "mae": 0.72,
+   "n": 26,
+   "mae": 0.69,
    "periods": {
     "21-24": {
-     "n": 14,
-     "mae": 1.21
+     "n": 15,
+     "mae": 1.13
     },
     "其他": {
      "n": 10,
