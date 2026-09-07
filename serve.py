@@ -3,6 +3,12 @@ import json, re, asyncio, os, time
 from datetime import datetime
 import httpx
 from bs4 import BeautifulSoup
+
+try:
+    import h2
+    HTTP2 = True
+except ImportError:
+    HTTP2 = False
 from dotenv import load_dotenv
 from city_coords import CITY_COORDS, FAHRENHEIT_CITIES
 from rp5_scraper import scrape_rp5
@@ -219,7 +225,7 @@ METEO_URL_OVERRIDE = {
 }
 
 def _client():
-    return httpx.AsyncClient(http2=True, verify=False, timeout=30,
+    return httpx.AsyncClient(http1=not HTTP2, http2=HTTP2, verify=False, timeout=30,
                              proxy=(PROXY_URL or None), follow_redirects=True,
                              limits=httpx.Limits(max_keepalive_connections=5, keepalive_expiry=15))
 
@@ -374,7 +380,7 @@ def scrape_meteoblue(city):
 
     for attempt in range(3):
         try:
-            with httpx.Client(http2=True, verify=False, timeout=20, proxy=(PROXY_URL or None), follow_redirects=True) as c:
+            with httpx.Client(http1=not HTTP2, http2=HTTP2, verify=False, timeout=20, proxy=(PROXY_URL or None), follow_redirects=True) as c:
                 # 先访问主页获取cookie
                 c.get("https://www.meteoblue.com/en/weather", headers=HEADERS)
 

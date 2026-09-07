@@ -24,7 +24,7 @@ jobs:
         with:
           python-version: '3.12'
       - name: Install deps
-        run: pip install httpx beautifulsoup4 flask python-dotenv lxml
+        run: pip install httpx[http2] beautifulsoup4 flask python-dotenv lxml
       - name: Run serve.py
         env:
           PROXY_URL: ''

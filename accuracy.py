@@ -3,6 +3,12 @@ import json, os, glob, sys, asyncio, argparse, re
 import httpx
 from city_coords import CITY_COORDS
 
+try:
+    import h2
+    HTTP2 = True
+except ImportError:
+    HTTP2 = False
+
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 PROXY_URL = os.getenv("PROXY_URL", "http://127.0.0.1:7897")
 GAMMA_HOST = "https://gamma-api.polymarket.com"
@@ -375,7 +381,7 @@ async def main():
     out_file = args.out or f"accuracy_{args.model}{'_morning' if args.period == '6-12' else ''}.json"
     actuals = load_actuals()
     headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"}
-    async with httpx.AsyncClient(http2=True, verify=False, timeout=30,
+    async with httpx.AsyncClient(http1=not HTTP2, http2=HTTP2, verify=False, timeout=30,
                                  proxy=(PROXY_URL or None), follow_redirects=True, headers=headers,
                                  limits=httpx.Limits(max_keepalive_connections=5)) as client:
         hist = load_history(period, model=args.model)
