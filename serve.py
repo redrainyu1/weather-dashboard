@@ -82,7 +82,7 @@ def validate_price_data(city, date, markets):
         return False
     
     # 检查概率总和是否接近 100%
-    total_pct = sum(m.get("yes_pct", 0) for m in markets if m.get("temp_type") == "exact")
+    total_pct = sum((m.get("yes_pct") or 0) for m in markets if m.get("temp_type") == "exact")
     if total_pct < 80 or total_pct > 120:
         log_warn(f"{city} {date} 概率总和异常: {total_pct:.1f}%")
     
