@@ -2,6 +2,7 @@
 .env
 *.log
 weather_page_cache.html
+data.json
 venv/
 .venv/
 __pycache__/
