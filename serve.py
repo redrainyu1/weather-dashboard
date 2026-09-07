@@ -546,7 +546,7 @@ async def main():
             for dt in sorted(all_dates):
                 models = []
                 for nm, r in zip(names, results):
-                    e = r.get(dt, {})
+                    e = r.get(dt) or {}
                     if e.get("max") is not None:
                         # 校验温度
                         if not validate_temp(city, e.get("max"), "highest"):
@@ -565,10 +565,10 @@ async def main():
         print("\n--- Matching ---")
         for evt in pm:
             city, dt, direction = evt["city"], evt["date"], evt["direction"]
-            fcd = forecasts.get(city, {})
+            fcd = forecasts.get(city) or {}
             off = fcd.get("off")
             evt["noon_bj"] = ((12 * 3600 - off + 8 * 3600) % 86400) // 3600 if off is not None else None
-            fc = fcd.get("days", {}).get(dt, {}).get("models", [])
+            fc = ((fcd.get("days") or {}).get(dt) or {}).get("models", [])
             mf = []
             hourly_data = []
             for m in fc:

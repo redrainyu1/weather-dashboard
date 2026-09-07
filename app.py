@@ -334,8 +334,8 @@ def api_hourly():
                         "hourly": "temperature_2m"},
                 headers=HEADERS)
             data = r.json()
-            temps = data.get("hourly", {}).get("temperature_2m", [])
-            times = data.get("hourly", {}).get("time", [])
+            temps = (data.get("hourly") or {}).get("temperature_2m", [])
+            times = (data.get("hourly") or {}).get("time", [])
             result = []
             for i, t in enumerate(times):
                 if i < len(temps) and temps[i] is not None:
