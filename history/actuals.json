@@ -5670,5 +5670,17 @@
  "highest-temperature-in-zhengzhou-on-september-6-2026": {
   "temp": 32.0,
   "peak_bj": "2026-09-06 15:00"
+ },
+ "highest-temperature-in-atlanta-on-september-6-2026": {
+  "temp": 95.0,
+  "peak_bj": "2026-09-07 06:52"
+ },
+ "highest-temperature-in-nyc-on-september-6-2026": {
+  "temp": 75.0,
+  "peak_bj": "2026-09-07 03:51"
+ },
+ "highest-temperature-in-panama-city-on-september-6-2026": {
+  "temp": 31.0,
+  "peak_bj": "2026-09-07 03:00"
  }
 }

@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 1125,
+ "n": 1128,
  "mae": 0.92,
  "bias": -0.48,
  "rows": [
@@ -14604,6 +14604,19 @@
    "peak_local": "02:00"
   },
   {
+   "city": "Atlanta",
+   "date": "2026-09-06",
+   "date_display": "09/06",
+   "snap_date": "2026-09-06",
+   "time": "22:05",
+   "local_hhmm": "10:05",
+   "hour": 22,
+   "meteo": 93,
+   "actual": 95.0,
+   "err": -2.0,
+   "peak_local": "18:52"
+  },
+  {
    "city": "Miami",
    "date": "2026-09-06",
    "date_display": "09/06",
@@ -14617,6 +14630,19 @@
    "peak_local": "13:13"
   },
   {
+   "city": "Nyc",
+   "date": "2026-09-06",
+   "date_display": "09/06",
+   "snap_date": "2026-09-06",
+   "time": "22:05",
+   "local_hhmm": "10:05",
+   "hour": 22,
+   "meteo": 77,
+   "actual": 75.0,
+   "err": 2.0,
+   "peak_local": "15:51"
+  },
+  {
    "city": "Toronto",
    "date": "2026-09-06",
    "date_display": "09/06",
@@ -14628,6 +14654,19 @@
    "actual": 22.0,
    "err": 0.0,
    "peak_local": "13:00"
+  },
+  {
+   "city": "Panama City",
+   "date": "2026-09-06",
+   "date_display": "09/06",
+   "snap_date": "2026-09-06",
+   "time": "22:05",
+   "local_hhmm": "09:05",
+   "hour": 22,
+   "meteo": 29,
+   "actual": 31.0,
+   "err": -2.0,
+   "peak_local": "14:00"
   }
  ],
  "cities": [
@@ -14693,12 +14732,12 @@
   },
   {
    "city": "Atlanta",
-   "n": 23,
-   "mae": 1.09,
+   "n": 24,
+   "mae": 1.12,
    "periods": {
     "21-24": {
-     "n": 12,
-     "mae": 1.25
+     "n": 13,
+     "mae": 1.31
     },
     "其他": {
      "n": 10,
@@ -15381,12 +15420,12 @@
   },
   {
    "city": "Nyc",
-   "n": 24,
-   "mae": 1.08,
+   "n": 25,
+   "mae": 1.12,
    "periods": {
     "21-24": {
-     "n": 13,
-     "mae": 1.31
+     "n": 14,
+     "mae": 1.36
     },
     "其他": {
      "n": 9,
@@ -15401,12 +15440,12 @@
   },
   {
    "city": "Panama City",
-   "n": 24,
-   "mae": 1.12,
+   "n": 25,
+   "mae": 1.16,
    "periods": {
     "21-24": {
-     "n": 14,
-     "mae": 0.5
+     "n": 15,
+     "mae": 0.6
     },
     "18-21": {
      "n": 3,
