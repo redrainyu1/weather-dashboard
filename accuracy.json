@@ -1,7 +1,7 @@
 {
  "model": "METEO",
- "n": 1128,
- "mae": 0.92,
+ "n": 1132,
+ "mae": 0.93,
  "bias": -0.48,
  "rows": [
   {
@@ -14656,6 +14656,58 @@
    "peak_local": "13:00"
   },
   {
+   "city": "Austin",
+   "date": "2026-09-06",
+   "date_display": "09/06",
+   "snap_date": "2026-09-06",
+   "time": "22:05",
+   "local_hhmm": "09:05",
+   "hour": 22,
+   "meteo": 95,
+   "actual": 97.0,
+   "err": -2.0,
+   "peak_local": "14:53"
+  },
+  {
+   "city": "Chicago",
+   "date": "2026-09-06",
+   "date_display": "09/06",
+   "snap_date": "2026-09-06",
+   "time": "22:05",
+   "local_hhmm": "09:05",
+   "hour": 22,
+   "meteo": 77,
+   "actual": 79.0,
+   "err": -2.0,
+   "peak_local": "15:51"
+  },
+  {
+   "city": "Dallas",
+   "date": "2026-09-06",
+   "date_display": "09/06",
+   "snap_date": "2026-09-06",
+   "time": "22:05",
+   "local_hhmm": "09:05",
+   "hour": 22,
+   "meteo": 99,
+   "actual": 99.0,
+   "err": 0.0,
+   "peak_local": "17:53"
+  },
+  {
+   "city": "Houston",
+   "date": "2026-09-06",
+   "date_display": "09/06",
+   "snap_date": "2026-09-06",
+   "time": "22:05",
+   "local_hhmm": "09:05",
+   "hour": 22,
+   "meteo": 91,
+   "actual": 89.0,
+   "err": 2.0,
+   "peak_local": "15:53"
+  },
+  {
    "city": "Panama City",
    "date": "2026-09-06",
    "date_display": "09/06",
@@ -14752,12 +14804,12 @@
   },
   {
    "city": "Austin",
-   "n": 24,
-   "mae": 1.38,
+   "n": 25,
+   "mae": 1.4,
    "periods": {
     "21-24": {
-     "n": 10,
-     "mae": 1.6
+     "n": 11,
+     "mae": 1.64
     },
     "其他": {
      "n": 12,
@@ -14888,12 +14940,12 @@
   },
   {
    "city": "Chicago",
-   "n": 23,
-   "mae": 1.09,
+   "n": 24,
+   "mae": 1.12,
    "periods": {
     "21-24": {
-     "n": 15,
-     "mae": 1.47
+     "n": 16,
+     "mae": 1.5
     },
     "其他": {
      "n": 7,
@@ -14932,12 +14984,12 @@
   },
   {
    "city": "Dallas",
-   "n": 24,
-   "mae": 1.62,
+   "n": 25,
+   "mae": 1.56,
    "periods": {
     "21-24": {
-     "n": 11,
-     "mae": 2.18
+     "n": 12,
+     "mae": 2.0
     },
     "其他": {
      "n": 12,
@@ -15048,12 +15100,12 @@
   },
   {
    "city": "Houston",
-   "n": 24,
-   "mae": 1.75,
+   "n": 25,
+   "mae": 1.76,
    "periods": {
     "21-24": {
-     "n": 12,
-     "mae": 3.17
+     "n": 13,
+     "mae": 3.08
     },
     "其他": {
      "n": 11,
