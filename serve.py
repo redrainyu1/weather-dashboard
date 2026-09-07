@@ -626,7 +626,7 @@ async def main():
         json.dump(output, f, ensure_ascii=False, indent=2)
 
     fc_count = sum(1 for r in grouped for d in ("highest", "lowest") if r.get(d) and r[d].get("forecasts"))
-    forecast_count = sum(len(r.get(d, {}).get("forecasts", [])) for r in grouped for d in ("highest", "lowest"))
+    forecast_count = sum(len((r.get(d) or {}).get("forecasts", [])) for r in grouped for d in ("highest", "lowest"))
     empty_count = sum(1 for r in grouped for d in ("highest", "lowest") if r.get(d) and not r[d].get("forecasts"))
     
     print(f"\n{'='*60}")
