@@ -225,7 +225,7 @@ METEO_URL_OVERRIDE = {
 }
 
 def _client():
-    return httpx.AsyncClient(http1=not HTTP2, http2=HTTP2, verify=False, timeout=30,
+    return httpx.AsyncClient(http1=True, http2=False, verify=False, timeout=30,
                              proxy=(PROXY_URL or None), follow_redirects=True,
                              limits=httpx.Limits(max_keepalive_connections=5, keepalive_expiry=15))
 
@@ -554,8 +554,19 @@ async def main():
                         if not validate_temp(city, e.get("min"), "lowest"):
                             continue
                         hourly = e.get("hourly", [])
+                        mhb = e.get("max_hour_bj")
+                        mnb = e.get("min_hour_bj")
+                        if mhb is None and hourly and res["off"] is not None:
+                            try:
+                                off = res["off"]
+                                best_h = max(hourly, key=lambda h: h.get("temp", -999))
+                                worst_h = min(hourly, key=lambda h: h.get("temp", 999))
+                                mhb = ((best_h["hour"] * 3600 - off + 8 * 3600) % 86400) // 3600
+                                mnb = ((worst_h["hour"] * 3600 - off + 8 * 3600) % 86400) // 3600
+                            except Exception:
+                                pass
                         models.append({"name": nm, "max": e["max"], "min": e["min"],
-                                       "max_hour_bj": e.get("max_hour_bj"), "min_hour_bj": e.get("min_hour_bj"),
+                                       "max_hour_bj": mhb, "min_hour_bj": mnb,
                                        "wind_deg": e.get("wind_deg"), "wind_kmh": e.get("wind_kmh"),
                                        "hourly": hourly})
                 if models: fc[dt] = {"models": models}
