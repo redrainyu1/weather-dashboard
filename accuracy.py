@@ -390,11 +390,15 @@ async def main():
         slugs = sorted({slug for slug, _ in hist.keys()})
         # 跳过今天和昨天的未结算事件（Polymarket 通常需要 1-2 天结算）
         from datetime import date, timedelta
-        cutoff = (date.today() - timedelta(days=1)).strftime("%B-%#d-%Y").lower().replace("-0", "-")
+        cutoff_date = date.today() - timedelta(days=1)
         def slug_date_ok(s):
             m = re.search(r'(\w+)-(\d{1,2})-(\d{4})$', s)
             if not m: return True
-            return f"{m.group(1)}-{int(m.group(2))}-{m.group(3)}" <= cutoff
+            try:
+                d = date(int(m.group(3)), datetime.strptime(m.group(1), "%B").month, int(m.group(2)))
+                return d <= cutoff_date
+            except Exception:
+                return True
         todo = [s for s in slugs if s not in actuals and slug_date_ok(s)]
         # 已存档但缺峰时刻的（wg/METAR 曾失败）全量补：Open-Meteo 直连（无需 gamma/noon_bj）
         missing_peak = [s for s in actuals
