@@ -5854,5 +5854,217 @@
  "highest-temperature-in-zhengzhou-on-september-10-2026": {
   "temp": 27.0,
   "peak_bj": "2026-09-10 14:00"
+ },
+ "highest-temperature-in-amsterdam-on-september-7-2026": {
+  "temp": 26.0,
+  "peak_bj": "2026-09-07 19:25"
+ },
+ "highest-temperature-in-amsterdam-on-september-8-2026": {
+  "temp": 19.0,
+  "peak_bj": "2026-09-08 08:25"
+ },
+ "highest-temperature-in-amsterdam-on-september-9-2026": {
+  "temp": 18.0,
+  "peak_bj": "2026-09-09 23:25"
+ },
+ "highest-temperature-in-ankara-on-september-7-2026": {
+  "temp": 24.0,
+  "peak_bj": "2026-09-07 21:50"
+ },
+ "highest-temperature-in-ankara-on-september-8-2026": {
+  "temp": 23.0,
+  "peak_bj": "2026-09-08 22:20"
+ },
+ "highest-temperature-in-ankara-on-september-9-2026": {
+  "temp": 27.0,
+  "peak_bj": "2026-09-09 21:50"
+ },
+ "highest-temperature-in-atlanta-on-september-8-2026": {
+  "temp": 89.0,
+  "peak_bj": "2026-09-09 04:52"
+ },
+ "highest-temperature-in-atlanta-on-september-9-2026": {
+  "temp": 89.0,
+  "peak_bj": "2026-09-10 03:52"
+ },
+ "highest-temperature-in-austin-on-september-8-2026": {
+  "temp": 101.0,
+  "peak_bj": "2026-09-09 05:53"
+ },
+ "highest-temperature-in-austin-on-september-9-2026": {
+  "temp": 99.0,
+  "peak_bj": "2026-09-10 04:53"
+ },
+ "highest-temperature-in-beijing-on-september-7-2026": {
+  "temp": 29.0,
+  "peak_bj": "2026-09-07 15:30"
+ },
+ "highest-temperature-in-beijing-on-september-8-2026": {
+  "temp": 25.0,
+  "peak_bj": "2026-09-08 16:30"
+ },
+ "highest-temperature-in-beijing-on-september-9-2026": {
+  "temp": 27.0,
+  "peak_bj": "2026-09-09 14:00"
+ },
+ "highest-temperature-in-buenos-aires-on-september-7-2026": {
+  "temp": 13.0,
+  "peak_bj": "2026-09-08 04:00"
+ },
+ "highest-temperature-in-buenos-aires-on-september-8-2026": {
+  "temp": 19.0,
+  "peak_bj": "2026-09-09 04:00"
+ },
+ "highest-temperature-in-buenos-aires-on-september-9-2026": {
+  "temp": 20.0,
+  "peak_bj": "2026-09-10 01:00"
+ },
+ "highest-temperature-in-busan-on-september-7-2026": {
+  "temp": 29.0,
+  "peak_bj": "2026-09-07 15:00"
+ },
+ "highest-temperature-in-busan-on-september-8-2026": {
+  "temp": 30.0,
+  "peak_bj": "2026-09-08 13:00"
+ },
+ "highest-temperature-in-busan-on-september-9-2026": {
+  "temp": 26.0,
+  "peak_bj": "2026-09-09 11:00"
+ },
+ "highest-temperature-in-cape-town-on-september-7-2026": {
+  "temp": 29.0,
+  "peak_bj": "2026-09-07 21:00"
+ },
+ "highest-temperature-in-cape-town-on-september-8-2026": {
+  "temp": 29.0,
+  "peak_bj": "2026-09-08 19:00"
+ },
+ "highest-temperature-in-cape-town-on-september-9-2026": {
+  "temp": 17.0,
+  "peak_bj": "2026-09-09 22:00"
+ },
+ "highest-temperature-in-chengdu-on-september-7-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-09-07 17:00"
+ },
+ "highest-temperature-in-chengdu-on-september-8-2026": {
+  "temp": 29.0,
+  "peak_bj": "2026-09-08 18:00"
+ },
+ "highest-temperature-in-chengdu-on-september-9-2026": {
+  "temp": 27.0,
+  "peak_bj": "2026-09-09 00:00"
+ },
+ "highest-temperature-in-chicago-on-september-8-2026": {
+  "temp": 85.0,
+  "peak_bj": "2026-09-09 05:51"
+ },
+ "highest-temperature-in-chicago-on-september-9-2026": {
+  "temp": 79.0,
+  "peak_bj": "2026-09-10 06:51"
+ },
+ "highest-temperature-in-chongqing-on-september-7-2026": {
+  "temp": 37.0,
+  "peak_bj": "2026-09-07 16:00"
+ },
+ "highest-temperature-in-chongqing-on-september-8-2026": {
+  "temp": 37.0,
+  "peak_bj": "2026-09-08 15:00"
+ },
+ "highest-temperature-in-chongqing-on-september-9-2026": {
+  "temp": 36.0,
+  "peak_bj": "2026-09-09 17:00"
+ },
+ "highest-temperature-in-dallas-on-september-8-2026": {
+  "temp": 101.0,
+  "peak_bj": "2026-09-09 05:53"
+ },
+ "highest-temperature-in-dallas-on-september-9-2026": {
+  "temp": 101.0,
+  "peak_bj": "2026-09-10 05:53"
+ },
+ "highest-temperature-in-denver-on-september-8-2026": {
+  "temp": 87.0,
+  "peak_bj": "2026-09-09 05:58"
+ },
+ "highest-temperature-in-denver-on-september-9-2026": {
+  "temp": 83.0,
+  "peak_bj": "2026-09-10 06:58"
+ },
+ "highest-temperature-in-guangzhou-on-september-7-2026": {
+  "temp": 35.0,
+  "peak_bj": "2026-09-07 16:00"
+ },
+ "highest-temperature-in-guangzhou-on-september-8-2026": {
+  "temp": 35.0,
+  "peak_bj": "2026-09-08 16:30"
+ },
+ "highest-temperature-in-guangzhou-on-september-9-2026": {
+  "temp": 35.0,
+  "peak_bj": "2026-09-09 15:30"
+ },
+ "highest-temperature-in-helsinki-on-september-7-2026": {
+  "temp": 17.0,
+  "peak_bj": "2026-09-07 22:20"
+ },
+ "highest-temperature-in-helsinki-on-september-8-2026": {
+  "temp": 17.0,
+  "peak_bj": "2026-09-08 23:20"
+ },
+ "highest-temperature-in-helsinki-on-september-9-2026": {
+  "temp": 18.0,
+  "peak_bj": "2026-09-09 17:20"
+ },
+ "highest-temperature-in-hong-kong-on-september-7-2026": {
+  "temp": 30.0,
+  "peak_bj": "2026-09-07 15:00"
+ },
+ "highest-temperature-in-hong-kong-on-september-8-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-09-08 14:30"
+ },
+ "highest-temperature-in-hong-kong-on-september-9-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-09-09 16:00"
+ },
+ "highest-temperature-in-houston-on-september-8-2026": {
+  "temp": 93.0,
+  "peak_bj": "2026-09-09 00:53"
+ },
+ "highest-temperature-in-houston-on-september-9-2026": {
+  "temp": 91.0,
+  "peak_bj": "2026-09-10 04:53"
+ },
+ "highest-temperature-in-istanbul-on-september-7-2026": {
+  "temp": 26.0,
+  "peak_bj": "2026-09-07 18:20"
+ },
+ "highest-temperature-in-istanbul-on-september-8-2026": {
+  "temp": 24.0,
+  "peak_bj": "2026-09-08 22:20"
+ },
+ "highest-temperature-in-istanbul-on-september-9-2026": {
+  "temp": 25.0,
+  "peak_bj": "2026-09-09 21:20"
+ },
+ "highest-temperature-in-jeddah-on-september-7-2026": {
+  "temp": 36.0,
+  "peak_bj": "2026-09-07 19:00"
+ },
+ "highest-temperature-in-jeddah-on-september-8-2026": {
+  "temp": 38.0,
+  "peak_bj": "2026-09-08 17:00"
+ },
+ "highest-temperature-in-jeddah-on-september-9-2026": {
+  "temp": 38.0,
+  "peak_bj": "2026-09-09 21:00"
+ },
+ "highest-temperature-in-jinan-on-september-7-2026": {
+  "temp": 26.0,
+  "peak_bj": "2026-09-08 00:00"
+ },
+ "highest-temperature-in-jinan-on-september-8-2026": {
+  "temp": 23.0,
+  "peak_bj": null
  }
 }
