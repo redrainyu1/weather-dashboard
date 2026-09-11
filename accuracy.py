@@ -260,6 +260,11 @@ def load_history(period=None, model="meteo", peak_off_map=None):
                 continue
             # 只用事件日当地当天生成的预测（快照换算到当地日期后须等于事件日）
             nb = h.get("noon_bj")
+            if nb is None:
+                lat, lon = CITY_COORDS.get(row["city"], (0, 0))
+                if lon != 0:
+                    tz_off = round(lon / 15)
+                    nb = ((12 * 3600 - tz_off * 3600 + 8 * 3600) % 86400) // 3600
             if nb is not None:
                 tstr = snapshot_time(f)
                 mm = int(tstr[3:5]) if len(tstr) >= 5 else 0
@@ -285,7 +290,7 @@ def load_history(period=None, model="meteo", peak_off_map=None):
                  "date_display": row.get("date_display", ""),
                  "time": snapshot_time(f), "snap_bj": snap_date,
                  "local_date": local_date, "local_hhmm": local_hhmm,
-                 "hour": hour, "noon_bj": h.get("noon_bj")})
+                 "hour": hour, "noon_bj": nb})
     res = {}
     res_4h = {}
     for (slug, local_date), lst in out.items():
