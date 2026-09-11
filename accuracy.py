@@ -280,9 +280,6 @@ def load_history(period=None, model="meteo", peak_off_map=None):
                     break
             if temp is None:
                 continue
-            # 跳过 noon_bj 为空的条目（数据不完整）
-            if h.get("noon_bj") is None:
-                continue
             out.setdefault((h["slug"], local_date), []).append(
                 {"city": row["city"], "date": h["date"], "temp": temp,
                  "date_display": row.get("date_display", ""),
