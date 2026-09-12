@@ -6698,5 +6698,17 @@
  "highest-temperature-in-panama-city-on-september-11-2026": {
   "temp": 32.0,
   "peak_bj": "2026-09-12 01:00"
+ },
+ "highest-temperature-in-austin-on-september-11-2026": {
+  "temp": 103.0,
+  "peak_bj": "2026-09-12 04:53"
+ },
+ "highest-temperature-in-chicago-on-september-11-2026": {
+  "temp": 83.0,
+  "peak_bj": "2026-09-12 03:51"
+ },
+ "highest-temperature-in-houston-on-september-11-2026": {
+  "temp": 95.0,
+  "peak_bj": "2026-09-12 03:53"
  }
 }

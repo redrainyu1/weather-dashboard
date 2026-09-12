@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 1322,
+ "n": 1325,
  "mae": 0.97,
  "bias": -0.56,
  "rows": [
@@ -17178,6 +17178,45 @@
    "peak_local": "15:00"
   },
   {
+   "city": "Austin",
+   "date": "2026-09-11",
+   "date_display": "09/11",
+   "snap_date": "2026-09-11",
+   "time": "01:03",
+   "local_hhmm": "12:03",
+   "hour": 1,
+   "meteo": 102,
+   "actual": 103.0,
+   "err": -1.0,
+   "peak_local": "15:53"
+  },
+  {
+   "city": "Chicago",
+   "date": "2026-09-11",
+   "date_display": "09/11",
+   "snap_date": "2026-09-11",
+   "time": "00:03",
+   "local_hhmm": "11:03",
+   "hour": 0,
+   "meteo": 82,
+   "actual": 83.0,
+   "err": -1.0,
+   "peak_local": "14:51"
+  },
+  {
+   "city": "Houston",
+   "date": "2026-09-11",
+   "date_display": "09/11",
+   "snap_date": "2026-09-11",
+   "time": "21:29",
+   "local_hhmm": "08:29",
+   "hour": 21,
+   "meteo": 90,
+   "actual": 95.0,
+   "err": -5.0,
+   "peak_local": "14:53"
+  },
+  {
    "city": "Panama City",
    "date": "2026-09-11",
    "date_display": "09/11",
@@ -17278,15 +17317,15 @@
   },
   {
    "city": "Austin",
-   "n": 28,
-   "mae": 1.54,
+   "n": 29,
+   "mae": 1.52,
    "periods": {
     "21-24": {
      "n": 14,
      "mae": 1.86
     },
     "其他": {
-     "n": 12,
+     "n": 13,
      "mae": 1.0
     },
     "06-09": {
@@ -17414,16 +17453,16 @@
   },
   {
    "city": "Chicago",
-   "n": 27,
-   "mae": 1.26,
+   "n": 28,
+   "mae": 1.25,
    "periods": {
     "21-24": {
      "n": 19,
      "mae": 1.63
     },
     "其他": {
-     "n": 7,
-     "mae": 0.43
+     "n": 8,
+     "mae": 0.5
     },
     "18-21": {
      "n": 1,
@@ -17574,12 +17613,12 @@
   },
   {
    "city": "Houston",
-   "n": 28,
-   "mae": 1.64,
+   "n": 29,
+   "mae": 1.76,
    "periods": {
     "21-24": {
-     "n": 16,
-     "mae": 2.62
+     "n": 17,
+     "mae": 2.76
     },
     "其他": {
      "n": 11,
