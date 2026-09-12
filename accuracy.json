@@ -1,8 +1,8 @@
 {
  "model": "METEO",
- "n": 1318,
- "mae": 0.96,
- "bias": -0.55,
+ "n": 1322,
+ "mae": 0.97,
+ "bias": -0.56,
  "rows": [
   {
    "city": "London",
@@ -17126,6 +17126,45 @@
    "peak_local": "16:00"
   },
   {
+   "city": "Atlanta",
+   "date": "2026-09-11",
+   "date_display": "09/11",
+   "snap_date": "2026-09-11",
+   "time": "22:03",
+   "local_hhmm": "10:03",
+   "hour": 22,
+   "meteo": 88,
+   "actual": 89.0,
+   "err": -1.0,
+   "peak_local": "13:52"
+  },
+  {
+   "city": "Miami",
+   "date": "2026-09-11",
+   "date_display": "09/11",
+   "snap_date": "2026-09-11",
+   "time": "21:29",
+   "local_hhmm": "09:29",
+   "hour": 21,
+   "meteo": 84,
+   "actual": 89.0,
+   "err": -5.0,
+   "peak_local": "16:27"
+  },
+  {
+   "city": "Nyc",
+   "date": "2026-09-11",
+   "date_display": "09/11",
+   "snap_date": "2026-09-11",
+   "time": "03:33",
+   "local_hhmm": "15:33",
+   "hour": 3,
+   "meteo": 81,
+   "actual": 81.0,
+   "err": 0.0,
+   "peak_local": "15:51"
+  },
+  {
    "city": "Toronto",
    "date": "2026-09-11",
    "date_display": "09/11",
@@ -17137,6 +17176,19 @@
    "actual": 23.0,
    "err": 0.0,
    "peak_local": "15:00"
+  },
+  {
+   "city": "Panama City",
+   "date": "2026-09-11",
+   "date_display": "09/11",
+   "snap_date": "2026-09-11",
+   "time": "20:54",
+   "local_hhmm": "07:54",
+   "hour": 20,
+   "meteo": 31,
+   "actual": 32.0,
+   "err": -1.0,
+   "peak_local": "12:00"
   }
  ],
  "cities": [
@@ -17206,12 +17258,12 @@
   },
   {
    "city": "Atlanta",
-   "n": 27,
+   "n": 28,
    "mae": 1.11,
    "periods": {
     "21-24": {
-     "n": 16,
-     "mae": 1.25
+     "n": 17,
+     "mae": 1.24
     },
     "其他": {
      "n": 10,
@@ -17794,12 +17846,12 @@
   },
   {
    "city": "Miami",
-   "n": 27,
-   "mae": 1.67,
+   "n": 28,
+   "mae": 1.79,
    "periods": {
     "21-24": {
-     "n": 19,
-     "mae": 1.79
+     "n": 20,
+     "mae": 1.95
     },
     "其他": {
      "n": 1,
@@ -17898,16 +17950,16 @@
   },
   {
    "city": "Nyc",
-   "n": 27,
-   "mae": 1.11,
+   "n": 28,
+   "mae": 1.07,
    "periods": {
     "21-24": {
      "n": 16,
      "mae": 1.31
     },
     "其他": {
-     "n": 9,
-     "mae": 0.56
+     "n": 10,
+     "mae": 0.5
     },
     "18-21": {
      "n": 2,
@@ -17918,7 +17970,7 @@
   },
   {
    "city": "Panama City",
-   "n": 27,
+   "n": 28,
    "mae": 1.07,
    "periods": {
     "21-24": {
@@ -17926,8 +17978,8 @@
      "mae": 0.53
     },
     "18-21": {
-     "n": 3,
-     "mae": 0.0
+     "n": 4,
+     "mae": 0.25
     },
     "其他": {
      "n": 5,
