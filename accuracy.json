@@ -17052,13 +17052,13 @@
    "date": "2026-09-11",
    "date_display": "09/11",
    "snap_date": "2026-09-11",
-   "time": "20:54",
-   "local_hhmm": "14:54",
+   "time": "20:19",
+   "local_hhmm": "14:19",
    "hour": 20,
    "meteo": 17,
    "actual": 17.0,
    "err": 0.0,
-   "peak_local": null
+   "peak_local": "14:30"
   },
   {
    "city": "Wuhan",
