@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 1372,
+ "n": 1375,
  "mae": 0.95,
  "bias": -0.55,
  "rows": [
@@ -17776,6 +17776,19 @@
    "peak_local": "18:52"
   },
   {
+   "city": "Austin",
+   "date": "2026-09-12",
+   "date_display": "09/12",
+   "snap_date": "2026-09-12",
+   "time": "01:03",
+   "local_hhmm": "12:03",
+   "hour": 1,
+   "meteo": 100,
+   "actual": 101.0,
+   "err": -1.0,
+   "peak_local": "15:53"
+  },
+  {
    "city": "Tel Aviv",
    "date": "2026-09-12",
    "date_display": "09/12",
@@ -17787,6 +17800,19 @@
    "actual": 32.0,
    "err": 0.0,
    "peak_local": "13:50"
+  },
+  {
+   "city": "Houston",
+   "date": "2026-09-12",
+   "date_display": "09/12",
+   "snap_date": "2026-09-12",
+   "time": "23:33",
+   "local_hhmm": "10:33",
+   "hour": 23,
+   "meteo": 97,
+   "actual": 97.0,
+   "err": 0.0,
+   "peak_local": "14:53"
   },
   {
    "city": "Miami",
@@ -17839,6 +17865,19 @@
    "actual": 25.0,
    "err": 0.0,
    "peak_local": "15:00"
+  },
+  {
+   "city": "Dallas",
+   "date": "2026-09-12",
+   "date_display": "09/12",
+   "snap_date": "2026-09-12",
+   "time": "21:19",
+   "local_hhmm": "08:19",
+   "hour": 21,
+   "meteo": 100,
+   "actual": 101.0,
+   "err": -1.0,
+   "peak_local": "16:53"
   }
  ],
  "cities": [
@@ -17928,15 +17967,15 @@
   },
   {
    "city": "Austin",
-   "n": 29,
-   "mae": 1.52,
+   "n": 30,
+   "mae": 1.5,
    "periods": {
     "21-24": {
      "n": 14,
      "mae": 1.86
     },
     "其他": {
-     "n": 13,
+     "n": 14,
      "mae": 1.0
     },
     "06-09": {
@@ -18112,12 +18151,12 @@
   },
   {
    "city": "Dallas",
-   "n": 29,
-   "mae": 1.55,
+   "n": 30,
+   "mae": 1.53,
    "periods": {
     "21-24": {
-     "n": 15,
-     "mae": 2.0
+     "n": 16,
+     "mae": 1.94
     },
     "其他": {
      "n": 13,
@@ -18228,12 +18267,12 @@
   },
   {
    "city": "Houston",
-   "n": 29,
-   "mae": 1.76,
+   "n": 30,
+   "mae": 1.7,
    "periods": {
     "21-24": {
-     "n": 17,
-     "mae": 2.76
+     "n": 18,
+     "mae": 2.61
     },
     "其他": {
      "n": 11,
