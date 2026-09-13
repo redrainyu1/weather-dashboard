@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 854,
+ "n": 855,
  "mae": 0.96,
  "bias": -0.43,
  "rows": [
@@ -11029,6 +11029,19 @@
    "peak_local": "17:00"
   },
   {
+   "city": "Buenos Aires",
+   "date": "2026-09-12",
+   "date_display": "09/12",
+   "snap_date": "2026-09-12",
+   "time": "11:33",
+   "local_hhmm": "00:33",
+   "hour": 11,
+   "meteo": 13,
+   "actual": 12.0,
+   "err": 1.0,
+   "peak_local": "02:00"
+  },
+  {
    "city": "London",
    "date": "2026-09-12",
    "date_display": "09/12",
@@ -11162,12 +11175,12 @@
   },
   {
    "city": "Buenos Aires",
-   "n": 21,
-   "mae": 1.67,
+   "n": 22,
+   "mae": 1.64,
    "periods": {
     "09-12": {
-     "n": 21,
-     "mae": 1.67
+     "n": 22,
+     "mae": 1.64
     }
    },
    "best_period": "09-12"

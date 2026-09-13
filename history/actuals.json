@@ -6870,5 +6870,9 @@
  "highest-temperature-in-zhengzhou-on-september-12-2026": {
   "temp": 27.0,
   "peak_bj": "2026-09-12 16:00"
+ },
+ "highest-temperature-in-buenos-aires-on-september-12-2026": {
+  "temp": 12.0,
+  "peak_bj": "2026-09-12 13:00"
  }
 }
