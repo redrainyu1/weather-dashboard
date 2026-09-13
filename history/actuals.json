@@ -6922,5 +6922,9 @@
  "highest-temperature-in-seattle-on-september-12-2026": {
   "temp": 67.0,
   "peak_bj": "2026-09-13 07:53"
+ },
+ "highest-temperature-in-san-francisco-on-september-12-2026": {
+  "temp": 71.0,
+  "peak_bj": "2026-09-13 03:56"
  }
 }
