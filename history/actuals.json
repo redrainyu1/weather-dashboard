@@ -6910,5 +6910,17 @@
  "highest-temperature-in-houston-on-september-12-2026": {
   "temp": 97.0,
   "peak_bj": "2026-09-13 03:53"
+ },
+ "highest-temperature-in-denver-on-september-12-2026": {
+  "temp": 81.0,
+  "peak_bj": "2026-09-13 05:58"
+ },
+ "highest-temperature-in-mexico-city-on-september-12-2026": {
+  "temp": 26.0,
+  "peak_bj": "2026-09-13 04:40"
+ },
+ "highest-temperature-in-seattle-on-september-12-2026": {
+  "temp": 67.0,
+  "peak_bj": "2026-09-13 07:53"
  }
 }

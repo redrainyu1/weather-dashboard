@@ -1,7 +1,7 @@
 {
  "model": "METEO",
- "n": 1375,
- "mae": 0.95,
+ "n": 1378,
+ "mae": 0.96,
  "bias": -0.55,
  "rows": [
   {
@@ -17802,6 +17802,19 @@
    "peak_local": "13:50"
   },
   {
+   "city": "Denver",
+   "date": "2026-09-12",
+   "date_display": "09/12",
+   "snap_date": "2026-09-12",
+   "time": "01:33",
+   "local_hhmm": "11:33",
+   "hour": 1,
+   "meteo": 79,
+   "actual": 81.0,
+   "err": -2.0,
+   "peak_local": "15:58"
+  },
+  {
    "city": "Houston",
    "date": "2026-09-12",
    "date_display": "09/12",
@@ -17813,6 +17826,19 @@
    "actual": 97.0,
    "err": 0.0,
    "peak_local": "14:53"
+  },
+  {
+   "city": "Mexico City",
+   "date": "2026-09-12",
+   "date_display": "09/12",
+   "snap_date": "2026-09-12",
+   "time": "21:19",
+   "local_hhmm": "07:19",
+   "hour": 21,
+   "meteo": 24,
+   "actual": 26.0,
+   "err": -2.0,
+   "peak_local": "14:40"
   },
   {
    "city": "Miami",
@@ -17876,6 +17902,19 @@
    "hour": 21,
    "meteo": 100,
    "actual": 101.0,
+   "err": -1.0,
+   "peak_local": "16:53"
+  },
+  {
+   "city": "Seattle",
+   "date": "2026-09-12",
+   "date_display": "09/12",
+   "snap_date": "2026-09-12",
+   "time": "22:33",
+   "local_hhmm": "07:33",
+   "hour": 22,
+   "meteo": 66,
+   "actual": 67.0,
    "err": -1.0,
    "peak_local": "16:53"
   }
@@ -18171,16 +18210,16 @@
   },
   {
    "city": "Denver",
-   "n": 28,
-   "mae": 2.89,
+   "n": 29,
+   "mae": 2.86,
    "periods": {
     "21-24": {
      "n": 16,
      "mae": 3.88
     },
     "其他": {
-     "n": 11,
-     "mae": 1.55
+     "n": 12,
+     "mae": 1.58
     },
     "18-21": {
      "n": 1,
@@ -18523,12 +18562,12 @@
   },
   {
    "city": "Mexico City",
-   "n": 29,
-   "mae": 0.69,
+   "n": 30,
+   "mae": 0.73,
    "periods": {
     "21-24": {
-     "n": 17,
-     "mae": 1.06
+     "n": 18,
+     "mae": 1.11
     },
     "其他": {
      "n": 10,
@@ -18791,12 +18830,12 @@
   },
   {
    "city": "Seattle",
-   "n": 28,
-   "mae": 1.61,
+   "n": 29,
+   "mae": 1.59,
    "periods": {
     "21-24": {
-     "n": 11,
-     "mae": 1.91
+     "n": 12,
+     "mae": 1.83
     },
     "其他": {
      "n": 14,
