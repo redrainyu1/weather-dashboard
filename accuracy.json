@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 1368,
+ "n": 1370,
  "mae": 0.95,
  "bias": -0.55,
  "rows": [
@@ -17763,6 +17763,19 @@
    "peak_local": "08:00"
   },
   {
+   "city": "Atlanta",
+   "date": "2026-09-12",
+   "date_display": "09/12",
+   "snap_date": "2026-09-12",
+   "time": "03:03",
+   "local_hhmm": "15:03",
+   "hour": 3,
+   "meteo": 84,
+   "actual": 85.0,
+   "err": -1.0,
+   "peak_local": "18:52"
+  },
+  {
    "city": "Tel Aviv",
    "date": "2026-09-12",
    "date_display": "09/12",
@@ -17774,6 +17787,19 @@
    "actual": 32.0,
    "err": 0.0,
    "peak_local": "13:50"
+  },
+  {
+   "city": "Miami",
+   "date": "2026-09-12",
+   "date_display": "09/12",
+   "snap_date": "2026-09-12",
+   "time": "21:19",
+   "local_hhmm": "09:19",
+   "hour": 21,
+   "meteo": 91,
+   "actual": 93.0,
+   "err": -2.0,
+   "peak_local": "13:53"
   },
   {
    "city": "Toronto",
@@ -17856,15 +17882,15 @@
   },
   {
    "city": "Atlanta",
-   "n": 28,
-   "mae": 1.11,
+   "n": 29,
+   "mae": 1.1,
    "periods": {
     "21-24": {
      "n": 17,
      "mae": 1.24
     },
     "其他": {
-     "n": 10,
+     "n": 11,
      "mae": 1.0
     },
     "18-21": {
@@ -18456,11 +18482,11 @@
   },
   {
    "city": "Miami",
-   "n": 28,
+   "n": 29,
    "mae": 1.79,
    "periods": {
     "21-24": {
-     "n": 20,
+     "n": 21,
      "mae": 1.95
     },
     "其他": {
