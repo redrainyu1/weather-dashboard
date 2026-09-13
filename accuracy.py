@@ -413,7 +413,11 @@ async def main():
                 client.get(f"{GAMMA_HOST}/events/slug/{s}") for s in batch
             ], return_exceptions=True)
             for s, r in zip(batch, rs):
-                if isinstance(r, Exception) or r.status_code != 200:
+                if isinstance(r, Exception):
+                    print(f"  [ERR] {s}: {r}")
+                    continue
+                if r.status_code != 200:
+                    print(f"  [ERR] {s}: HTTP {r.status_code}")
                     continue
                 evt = r.json()
                 t = get_actual_temp(s, evt)
