@@ -1,7 +1,7 @@
 {
  "model": "METEO",
- "n": 1379,
- "mae": 0.96,
+ "n": 1381,
+ "mae": 0.95,
  "bias": -0.55,
  "rows": [
   {
@@ -17789,6 +17789,19 @@
    "peak_local": "15:53"
   },
   {
+   "city": "Chicago",
+   "date": "2026-09-12",
+   "date_display": "09/12",
+   "snap_date": "2026-09-12",
+   "time": "01:03",
+   "local_hhmm": "12:03",
+   "hour": 1,
+   "meteo": 88,
+   "actual": 87.0,
+   "err": 1.0,
+   "peak_local": "15:51"
+  },
+  {
    "city": "Tel Aviv",
    "date": "2026-09-12",
    "date_display": "09/12",
@@ -17826,6 +17839,19 @@
    "actual": 97.0,
    "err": 0.0,
    "peak_local": "14:53"
+  },
+  {
+   "city": "Los Angeles",
+   "date": "2026-09-12",
+   "date_display": "09/12",
+   "snap_date": "2026-09-12",
+   "time": "01:33",
+   "local_hhmm": "10:33",
+   "hour": 1,
+   "meteo": 81,
+   "actual": 81.0,
+   "err": 0.0,
+   "peak_local": "13:53"
   },
   {
    "city": "Mexico City",
@@ -18159,16 +18185,16 @@
   },
   {
    "city": "Chicago",
-   "n": 28,
-   "mae": 1.25,
+   "n": 29,
+   "mae": 1.24,
    "periods": {
     "21-24": {
      "n": 19,
      "mae": 1.63
     },
     "其他": {
-     "n": 8,
-     "mae": 0.5
+     "n": 9,
+     "mae": 0.56
     },
     "18-21": {
      "n": 1,
@@ -18487,16 +18513,16 @@
   },
   {
    "city": "Los Angeles",
-   "n": 28,
-   "mae": 1.61,
+   "n": 29,
+   "mae": 1.55,
    "periods": {
     "21-24": {
      "n": 20,
      "mae": 1.45
     },
     "其他": {
-     "n": 7,
-     "mae": 2.0
+     "n": 8,
+     "mae": 1.75
     },
     "18-21": {
      "n": 1,
