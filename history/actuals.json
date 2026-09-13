@@ -6878,5 +6878,9 @@
  "highest-temperature-in-sao-paulo-on-september-12-2026": {
   "temp": 20.0,
   "peak_bj": "2026-09-13 04:00"
+ },
+ "highest-temperature-in-toronto-on-september-12-2026": {
+  "temp": 25.0,
+  "peak_bj": "2026-09-13 03:00"
  }
 }
