@@ -6874,5 +6874,9 @@
  "highest-temperature-in-buenos-aires-on-september-12-2026": {
   "temp": 12.0,
   "peak_bj": "2026-09-12 13:00"
+ },
+ "highest-temperature-in-sao-paulo-on-september-12-2026": {
+  "temp": 20.0,
+  "peak_bj": "2026-09-13 04:00"
  }
 }
