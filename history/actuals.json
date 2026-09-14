@@ -7094,5 +7094,9 @@
  "highest-temperature-in-toronto-on-september-13-2026": {
   "temp": 28.0,
   "peak_bj": "2026-09-14 03:00"
+ },
+ "highest-temperature-in-atlanta-on-september-13-2026": {
+  "temp": 91.0,
+  "peak_bj": "2026-09-14 04:52"
  }
 }
