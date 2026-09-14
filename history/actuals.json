@@ -7106,5 +7106,9 @@
  "highest-temperature-in-chicago-on-september-13-2026": {
   "temp": 75.0,
   "peak_bj": "2026-09-14 00:51"
+ },
+ "highest-temperature-in-mexico-city-on-september-13-2026": {
+  "temp": 25.0,
+  "peak_bj": "2026-09-14 04:50"
  }
 }
