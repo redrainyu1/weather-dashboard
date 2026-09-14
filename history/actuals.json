@@ -7070,5 +7070,17 @@
  "highest-temperature-in-zhengzhou-on-september-13-2026": {
   "temp": 30.0,
   "peak_bj": "2026-09-13 15:00"
+ },
+ "highest-temperature-in-hong-kong-on-september-11-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-09-11 15:00"
+ },
+ "highest-temperature-in-hong-kong-on-september-12-2026": {
+  "temp": 33.0,
+  "peak_bj": "2026-09-12 16:00"
+ },
+ "highest-temperature-in-hong-kong-on-september-13-2026": {
+  "temp": 31.0,
+  "peak_bj": "2026-09-13 14:30"
  }
 }

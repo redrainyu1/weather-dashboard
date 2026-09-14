@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 889,
+ "n": 892,
  "mae": 0.95,
  "bias": -0.43,
  "rows": [
@@ -10314,6 +10314,19 @@
    "peak_local": "17:20"
   },
   {
+   "city": "Hong Kong",
+   "date": "2026-09-11",
+   "date_display": "09/11",
+   "snap_date": "2026-09-11",
+   "time": "10:47",
+   "local_hhmm": "10:47",
+   "hour": 10,
+   "meteo": 32,
+   "actual": 32.0,
+   "err": 0.0,
+   "peak_local": "15:00"
+  },
+  {
    "city": "Istanbul",
    "date": "2026-09-11",
    "date_display": "09/11",
@@ -10767,6 +10780,19 @@
    "actual": 17.0,
    "err": -1.0,
    "peak_local": "15:20"
+  },
+  {
+   "city": "Hong Kong",
+   "date": "2026-09-12",
+   "date_display": "09/12",
+   "snap_date": "2026-09-12",
+   "time": "11:33",
+   "local_hhmm": "11:33",
+   "hour": 11,
+   "meteo": 34,
+   "actual": 33.0,
+   "err": 1.0,
+   "peak_local": "16:00"
   },
   {
    "city": "Istanbul",
@@ -11549,6 +11575,19 @@
    "peak_local": "18:20"
   },
   {
+   "city": "Hong Kong",
+   "date": "2026-09-13",
+   "date_display": "09/13",
+   "snap_date": "2026-09-13",
+   "time": "10:35",
+   "local_hhmm": "10:35",
+   "hour": 10,
+   "meteo": 32,
+   "actual": 31.0,
+   "err": 1.0,
+   "peak_local": "14:30"
+  },
+  {
    "city": "Seoul",
    "date": "2026-09-13",
    "date_display": "09/13",
@@ -11713,12 +11752,12 @@
   },
   {
    "city": "Hong Kong",
-   "n": 22,
-   "mae": 0.95,
+   "n": 25,
+   "mae": 0.92,
    "periods": {
     "09-12": {
-     "n": 19,
-     "mae": 0.95
+     "n": 22,
+     "mae": 0.91
     },
     "06-09": {
      "n": 3,
