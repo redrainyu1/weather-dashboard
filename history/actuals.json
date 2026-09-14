@@ -7098,5 +7098,13 @@
  "highest-temperature-in-atlanta-on-september-13-2026": {
   "temp": 91.0,
   "peak_bj": "2026-09-14 04:52"
+ },
+ "highest-temperature-in-austin-on-september-13-2026": {
+  "temp": 101.0,
+  "peak_bj": "2026-09-14 04:53"
+ },
+ "highest-temperature-in-chicago-on-september-13-2026": {
+  "temp": 75.0,
+  "peak_bj": "2026-09-14 00:51"
  }
 }
