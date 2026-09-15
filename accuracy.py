@@ -351,7 +351,10 @@ def get_actual_temp(slug, event):
             prices = json.loads(m.get("outcomePrices", "[]"))
         except Exception:
             continue
-        if prices and (prices[0] == 1 or prices[0] == "1"):
+        if not prices:
+            continue
+        p0 = float(prices[0])
+        if p0 >= 0.99:
             # 从 market slug 解析温度档
             import re
             mt = re.search(r'-(\d{2,3}(?:pt\d+)?)[cf](?:orbelow|orhigher)?$', m.get("slug", ""))
@@ -422,6 +425,9 @@ async def main():
                 evt = r.json()
                 t = get_actual_temp(s, evt)
                 if t is None:
+                    markets = evt.get("markets", [])
+                    resolved = sum(1 for m in markets if m.get("resolved"))
+                    print(f"  [MISS] {s}: markets={len(markets)} resolved={resolved}")
                     continue
                 ev_date = evt.get("eventDate", "")
                 pb = await fetch_wg_peak(client, evt.get("resolutionSource"), ev_date, noon_map.get(s))
