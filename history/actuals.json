@@ -7262,5 +7262,73 @@
  "highest-temperature-in-zhengzhou-on-september-14-2026": {
   "temp": 31.0,
   "peak_bj": "2026-09-14 16:00"
+ },
+ "highest-temperature-in-atlanta-on-september-14-2026": {
+  "temp": 93.0,
+  "peak_bj": "2026-09-15 05:52"
+ },
+ "highest-temperature-in-austin-on-september-14-2026": {
+  "temp": 101.0,
+  "peak_bj": "2026-09-15 05:53"
+ },
+ "highest-temperature-in-buenos-aires-on-september-14-2026": {
+  "temp": 16.0,
+  "peak_bj": "2026-09-15 03:00"
+ },
+ "highest-temperature-in-chicago-on-september-14-2026": {
+  "temp": 71.0,
+  "peak_bj": "2026-09-15 06:51"
+ },
+ "highest-temperature-in-dallas-on-september-14-2026": {
+  "temp": 99.0,
+  "peak_bj": "2026-09-15 06:53"
+ },
+ "highest-temperature-in-denver-on-september-14-2026": {
+  "temp": 87.0,
+  "peak_bj": "2026-09-15 05:58"
+ },
+ "highest-temperature-in-hong-kong-on-september-14-2026": {
+  "temp": 28.0,
+  "peak_bj": "2026-09-14 10:30"
+ },
+ "highest-temperature-in-houston-on-september-14-2026": {
+  "temp": 95.0,
+  "peak_bj": "2026-09-15 03:53"
+ },
+ "highest-temperature-in-los-angeles-on-september-14-2026": {
+  "temp": 79.0,
+  "peak_bj": "2026-09-15 04:53"
+ },
+ "highest-temperature-in-mexico-city-on-september-14-2026": {
+  "temp": 24.0,
+  "peak_bj": "2026-09-15 04:45"
+ },
+ "highest-temperature-in-miami-on-september-14-2026": {
+  "temp": 89.0,
+  "peak_bj": "2026-09-15 04:53"
+ },
+ "highest-temperature-in-nyc-on-september-14-2026": {
+  "temp": 77.0,
+  "peak_bj": "2026-09-14 13:51"
+ },
+ "highest-temperature-in-panama-city-on-september-14-2026": {
+  "temp": 31.0,
+  "peak_bj": "2026-09-15 04:00"
+ },
+ "highest-temperature-in-san-francisco-on-september-14-2026": {
+  "temp": 75.0,
+  "peak_bj": "2026-09-15 04:56"
+ },
+ "highest-temperature-in-sao-paulo-on-september-14-2026": {
+  "temp": 16.0,
+  "peak_bj": "2026-09-15 00:00"
+ },
+ "highest-temperature-in-seattle-on-september-14-2026": {
+  "temp": 67.0,
+  "peak_bj": "2026-09-15 07:53"
+ },
+ "highest-temperature-in-toronto-on-september-14-2026": {
+  "temp": 19.0,
+  "peak_bj": "2026-09-15 06:00"
  }
 }
