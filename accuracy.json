@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 1576,
+ "n": 1577,
  "mae": 0.93,
  "bias": -0.53,
  "rows": [
@@ -19944,7 +19944,7 @@
    "meteo": 32,
    "actual": 32.0,
    "err": 0.0,
-   "peak_local": null
+   "peak_local": "15:00"
   },
   {
    "city": "Mexico City",
@@ -20152,7 +20152,7 @@
    "meteo": 28,
    "actual": 28.0,
    "err": 0.0,
-   "peak_local": null
+   "peak_local": "15:50"
   },
   {
    "city": "Warsaw",
@@ -20315,8 +20315,8 @@
    "date": "2026-09-16",
    "date_display": "09/16",
    "snap_date": "2026-09-16",
-   "time": "00:03",
-   "local_hhmm": "11:03",
+   "time": "00:22",
+   "local_hhmm": "11:22",
    "hour": 0,
    "meteo": 99,
    "actual": 99.0,
@@ -20465,6 +20465,19 @@
    "actual": 25.0,
    "err": -1.0,
    "peak_local": "15:00"
+  },
+  {
+   "city": "Seattle",
+   "date": "2026-09-16",
+   "date_display": "09/16",
+   "snap_date": "2026-09-16",
+   "time": "18:03",
+   "local_hhmm": "03:03",
+   "hour": 18,
+   "meteo": 73,
+   "actual": 75.0,
+   "err": -2.0,
+   "peak_local": "16:53"
   },
   {
    "city": "Los Angeles",
@@ -21428,8 +21441,8 @@
   },
   {
    "city": "Seattle",
-   "n": 32,
-   "mae": 1.5,
+   "n": 33,
+   "mae": 1.52,
    "periods": {
     "21-24": {
      "n": 12,
@@ -21444,8 +21457,8 @@
      "mae": 2.5
     },
     "18-21": {
-     "n": 1,
-     "mae": 1.0
+     "n": 2,
+     "mae": 1.5
     }
    },
    "best_period": "其他"
