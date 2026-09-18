@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 1627,
+ "n": 1626,
  "mae": 0.92,
  "bias": -0.52,
  "rows": [
@@ -20991,8 +20991,8 @@
    "date": "2026-09-17",
    "date_display": "09/17",
    "snap_date": "2026-09-17",
-   "time": "00:03",
-   "local_hhmm": "12:03",
+   "time": "00:33",
+   "local_hhmm": "12:33",
    "hour": 0,
    "meteo": 90,
    "actual": 89.0,
@@ -21004,8 +21004,8 @@
    "date": "2026-09-17",
    "date_display": "09/17",
    "snap_date": "2026-09-17",
-   "time": "00:03",
-   "local_hhmm": "11:03",
+   "time": "00:33",
+   "local_hhmm": "11:33",
    "hour": 0,
    "meteo": 97,
    "actual": 97.0,
@@ -21102,19 +21102,6 @@
    "actual": 85.0,
    "err": -1.0,
    "peak_local": "13:51"
-  },
-  {
-   "city": "Panama City",
-   "date": "2026-09-17",
-   "date_display": "09/17",
-   "snap_date": "2026-09-17",
-   "time": "19:15",
-   "local_hhmm": "06:15",
-   "hour": 19,
-   "meteo": 32,
-   "actual": 32.0,
-   "err": 0.0,
-   "peak_local": null
   },
   {
    "city": "Sao Paulo",
@@ -21979,16 +21966,16 @@
   },
   {
    "city": "Panama City",
-   "n": 33,
-   "mae": 0.94,
+   "n": 32,
+   "mae": 0.97,
    "periods": {
     "21-24": {
      "n": 20,
      "mae": 0.5
     },
     "18-21": {
-     "n": 5,
-     "mae": 0.2
+     "n": 4,
+     "mae": 0.25
     },
     "其他": {
      "n": 6,
