@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 1627,
+ "n": 1628,
  "mae": 0.92,
  "bias": -0.52,
  "rows": [
@@ -20991,9 +20991,9 @@
    "date": "2026-09-17",
    "date_display": "09/17",
    "snap_date": "2026-09-17",
-   "time": "00:45",
-   "local_hhmm": "12:45",
-   "hour": 0,
+   "time": "01:03",
+   "local_hhmm": "13:03",
+   "hour": 1,
    "meteo": 90,
    "actual": 89.0,
    "err": 1.0,
@@ -21004,9 +21004,9 @@
    "date": "2026-09-17",
    "date_display": "09/17",
    "snap_date": "2026-09-17",
-   "time": "00:45",
-   "local_hhmm": "11:45",
-   "hour": 0,
+   "time": "01:03",
+   "local_hhmm": "12:03",
+   "hour": 1,
    "meteo": 97,
    "actual": 97.0,
    "err": 0.0,
@@ -21115,6 +21115,19 @@
    "actual": 85.0,
    "err": -1.0,
    "peak_local": "13:51"
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-09-17",
+   "date_display": "09/17",
+   "snap_date": "2026-09-17",
+   "time": "19:15",
+   "local_hhmm": "04:15",
+   "hour": 19,
+   "meteo": 68,
+   "actual": 71.0,
+   "err": -3.0,
+   "peak_local": "16:56"
   },
   {
    "city": "Sao Paulo",
@@ -22055,8 +22068,8 @@
   },
   {
    "city": "San Francisco",
-   "n": 34,
-   "mae": 1.94,
+   "n": 35,
+   "mae": 1.97,
    "periods": {
     "21-24": {
      "n": 17,
@@ -22067,8 +22080,8 @@
      "mae": 1.0
     },
     "18-21": {
-     "n": 1,
-     "mae": 1.0
+     "n": 2,
+     "mae": 2.0
     }
    },
    "best_period": "其他"
