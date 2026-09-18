@@ -7934,5 +7934,9 @@
  "highest-temperature-in-zhengzhou-on-september-17-2026": {
   "temp": 25.0,
   "peak_bj": "2026-09-17 14:00"
+ },
+ "highest-temperature-in-denver-on-september-17-2026": {
+  "temp": 81.0,
+  "peak_bj": "2026-09-18 05:58"
  }
 }
