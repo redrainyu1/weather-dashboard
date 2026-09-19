@@ -8134,5 +8134,9 @@
  "highest-temperature-in-zhengzhou-on-september-18-2026": {
   "temp": 28.0,
   "peak_bj": "2026-09-18 13:00"
+ },
+ "highest-temperature-in-miami-on-september-18-2026": {
+  "temp": 89.0,
+  "peak_bj": "2026-09-18 23:46"
  }
 }
