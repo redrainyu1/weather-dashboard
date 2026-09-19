@@ -8142,5 +8142,9 @@
  "highest-temperature-in-seattle-on-september-18-2026": {
   "temp": 69.0,
   "peak_bj": "2026-09-19 08:53"
+ },
+ "highest-temperature-in-los-angeles-on-september-18-2026": {
+  "temp": 77.0,
+  "peak_bj": "2026-09-19 05:53"
  }
 }
