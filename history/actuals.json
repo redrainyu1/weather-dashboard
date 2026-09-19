@@ -8138,5 +8138,9 @@
  "highest-temperature-in-miami-on-september-18-2026": {
   "temp": 89.0,
   "peak_bj": "2026-09-18 23:46"
+ },
+ "highest-temperature-in-seattle-on-september-18-2026": {
+  "temp": 69.0,
+  "peak_bj": "2026-09-19 08:53"
  }
 }

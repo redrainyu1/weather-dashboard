@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 1676,
+ "n": 1677,
  "mae": 0.91,
  "bias": -0.51,
  "rows": [
@@ -21641,8 +21641,8 @@
    "date": "2026-09-18",
    "date_display": "09/18",
    "snap_date": "2026-09-18",
-   "time": "01:03",
-   "local_hhmm": "12:03",
+   "time": "01:33",
+   "local_hhmm": "12:33",
    "hour": 1,
    "meteo": 97,
    "actual": 97.0,
@@ -21654,8 +21654,8 @@
    "date": "2026-09-18",
    "date_display": "09/18",
    "snap_date": "2026-09-18",
-   "time": "01:03",
-   "local_hhmm": "12:03",
+   "time": "01:33",
+   "local_hhmm": "12:33",
    "hour": 1,
    "meteo": 72,
    "actual": 71.0,
@@ -21791,6 +21791,19 @@
    "actual": 69.0,
    "err": -1.0,
    "peak_local": "14:56"
+  },
+  {
+   "city": "Seattle",
+   "date": "2026-09-18",
+   "date_display": "09/18",
+   "snap_date": "2026-09-18",
+   "time": "01:03",
+   "local_hhmm": "10:03",
+   "hour": 1,
+   "meteo": 66,
+   "actual": 69.0,
+   "err": -3.0,
+   "peak_local": "17:53"
   }
  ],
  "cities": [
@@ -22748,16 +22761,16 @@
   },
   {
    "city": "Seattle",
-   "n": 34,
-   "mae": 1.53,
+   "n": 35,
+   "mae": 1.57,
    "periods": {
     "21-24": {
      "n": 12,
      "mae": 1.83
     },
     "其他": {
-     "n": 19,
-     "mae": 1.26
+     "n": 20,
+     "mae": 1.35
     },
     "06-09": {
      "n": 2,
