@@ -14166,12 +14166,12 @@
    "date": "2026-09-19",
    "date_display": "09/19",
    "snap_date": "2026-09-19",
-   "time": "08:29",
-   "local_hhmm": "17:29",
-   "hour": 8,
-   "meteo": 61,
+   "time": "06:33",
+   "local_hhmm": "15:33",
+   "hour": 6,
+   "meteo": 64,
    "actual": 63.0,
-   "err": -2.0,
+   "err": 1.0,
    "peak_local": "17:53"
   }
  ],
@@ -14607,11 +14607,11 @@
   {
    "city": "Seattle",
    "n": 13,
-   "mae": 1.85,
+   "mae": 1.77,
    "periods": {
     "06-09": {
      "n": 13,
-     "mae": 1.85
+     "mae": 1.77
     }
    },
    "best_period": "06-09"
