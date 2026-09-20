@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 1722,
+ "n": 1724,
  "mae": 0.91,
  "bias": -0.51,
  "rows": [
@@ -22265,8 +22265,8 @@
    "date": "2026-09-19",
    "date_display": "09/19",
    "snap_date": "2026-09-19",
-   "time": "00:03",
-   "local_hhmm": "12:03",
+   "time": "00:33",
+   "local_hhmm": "12:33",
    "hour": 0,
    "meteo": 91,
    "actual": 91.0,
@@ -22291,8 +22291,8 @@
    "date": "2026-09-19",
    "date_display": "09/19",
    "snap_date": "2026-09-19",
-   "time": "00:03",
-   "local_hhmm": "11:03",
+   "time": "00:33",
+   "local_hhmm": "11:33",
    "hour": 0,
    "meteo": 97,
    "actual": 97.0,
@@ -22317,13 +22317,13 @@
    "date": "2026-09-19",
    "date_display": "09/19",
    "snap_date": "2026-09-19",
-   "time": "21:11",
-   "local_hhmm": "07:11",
-   "hour": 21,
-   "meteo": 95,
+   "time": "00:33",
+   "local_hhmm": "11:33",
+   "hour": 0,
+   "meteo": 97,
    "actual": 97.0,
-   "err": -2.0,
-   "peak_local": "15:53"
+   "err": 0.0,
+   "peak_local": "16:53"
   },
   {
    "city": "Houston",
@@ -22365,6 +22365,19 @@
    "peak_local": "15:00"
   },
   {
+   "city": "Denver",
+   "date": "2026-09-19",
+   "date_display": "09/19",
+   "snap_date": "2026-09-19",
+   "time": "21:11",
+   "local_hhmm": "07:11",
+   "hour": 21,
+   "meteo": 73,
+   "actual": 77.0,
+   "err": -4.0,
+   "peak_local": "16:58"
+  },
+  {
    "city": "London",
    "date": "2026-09-19",
    "date_display": "09/19",
@@ -22389,6 +22402,19 @@
    "actual": 77.0,
    "err": 0.0,
    "peak_local": "13:53"
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-09-19",
+   "date_display": "09/19",
+   "snap_date": "2026-09-19",
+   "time": "21:11",
+   "local_hhmm": "06:11",
+   "hour": 21,
+   "meteo": 66,
+   "actual": 67.0,
+   "err": -1.0,
+   "peak_local": "12:56"
   }
  ],
  "cities": [
@@ -22671,15 +22697,15 @@
   {
    "city": "Dallas",
    "n": 37,
-   "mae": 1.41,
+   "mae": 1.35,
    "periods": {
     "21-24": {
-     "n": 18,
-     "mae": 1.83
+     "n": 17,
+     "mae": 1.82
     },
     "其他": {
-     "n": 16,
-     "mae": 0.69
+     "n": 17,
+     "mae": 0.65
     },
     "18-21": {
      "n": 3,
@@ -22690,12 +22716,12 @@
   },
   {
    "city": "Denver",
-   "n": 35,
-   "mae": 2.8,
+   "n": 36,
+   "mae": 2.83,
    "periods": {
     "21-24": {
-     "n": 17,
-     "mae": 3.71
+     "n": 18,
+     "mae": 3.72
     },
     "其他": {
      "n": 17,
@@ -23298,12 +23324,12 @@
   },
   {
    "city": "San Francisco",
-   "n": 36,
-   "mae": 1.89,
+   "n": 37,
+   "mae": 1.86,
    "periods": {
     "21-24": {
-     "n": 17,
-     "mae": 2.88
+     "n": 18,
+     "mae": 2.78
     },
     "其他": {
      "n": 18,
