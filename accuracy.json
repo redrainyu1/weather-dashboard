@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 1724,
+ "n": 1725,
  "mae": 0.91,
  "bias": -0.51,
  "rows": [
@@ -22291,13 +22291,26 @@
    "date": "2026-09-19",
    "date_display": "09/19",
    "snap_date": "2026-09-19",
-   "time": "02:33",
-   "local_hhmm": "13:33",
-   "hour": 2,
+   "time": "03:03",
+   "local_hhmm": "14:03",
+   "hour": 3,
    "meteo": 97,
    "actual": 97.0,
    "err": 0.0,
    "peak_local": "17:53"
+  },
+  {
+   "city": "Chicago",
+   "date": "2026-09-19",
+   "date_display": "09/19",
+   "snap_date": "2026-09-19",
+   "time": "03:03",
+   "local_hhmm": "14:03",
+   "hour": 3,
+   "meteo": 70,
+   "actual": 71.0,
+   "err": -1.0,
+   "peak_local": "17:51"
   },
   {
    "city": "Mexico City",
@@ -22644,16 +22657,16 @@
   },
   {
    "city": "Chicago",
-   "n": 35,
-   "mae": 1.23,
+   "n": 36,
+   "mae": 1.22,
    "periods": {
     "21-24": {
      "n": 20,
      "mae": 1.65
     },
     "其他": {
-     "n": 13,
-     "mae": 0.62
+     "n": 14,
+     "mae": 0.64
     },
     "18-21": {
      "n": 2,
