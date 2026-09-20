@@ -91,7 +91,7 @@ def _attach_forecast_peaks(data):
         
         async def fetch_all():
             peaks = {}
-            async with httpx.AsyncClient(timeout=15) as client:
+            async with httpx.AsyncClient(http1=True, http2=False, timeout=15) as client:
                 tasks = []
                 cities = set()
                 for row in data.get("rows", []):
