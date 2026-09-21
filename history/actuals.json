@@ -8514,5 +8514,9 @@
  "highest-temperature-in-san-francisco-on-september-20-2026": {
   "temp": 65.0,
   "peak_bj": "2026-09-21 06:09"
+ },
+ "highest-temperature-in-los-angeles-on-september-20-2026": {
+  "temp": 77.0,
+  "peak_bj": "2026-09-21 03:53"
  }
 }
