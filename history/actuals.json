@@ -8342,5 +8342,173 @@
  "highest-temperature-in-seattle-on-september-19-2026": {
   "temp": 63.0,
   "peak_bj": "2026-09-20 08:53"
+ },
+ "highest-temperature-in-amsterdam-on-september-20-2026": {
+  "temp": 19.0,
+  "peak_bj": "2026-09-20 20:55"
+ },
+ "highest-temperature-in-ankara-on-september-20-2026": {
+  "temp": 25.0,
+  "peak_bj": "2026-09-20 21:20"
+ },
+ "highest-temperature-in-atlanta-on-september-20-2026": {
+  "temp": 89.0,
+  "peak_bj": "2026-09-21 05:52"
+ },
+ "highest-temperature-in-austin-on-september-20-2026": {
+  "temp": 97.0,
+  "peak_bj": "2026-09-21 06:53"
+ },
+ "highest-temperature-in-beijing-on-september-20-2026": {
+  "temp": 28.0,
+  "peak_bj": "2026-09-20 14:30"
+ },
+ "highest-temperature-in-buenos-aires-on-september-20-2026": {
+  "temp": 25.0,
+  "peak_bj": "2026-09-21 01:00"
+ },
+ "highest-temperature-in-busan-on-september-20-2026": {
+  "temp": 28.0,
+  "peak_bj": "2026-09-20 15:00"
+ },
+ "highest-temperature-in-cape-town-on-september-20-2026": {
+  "temp": 26.0,
+  "peak_bj": "2026-09-20 19:00"
+ },
+ "highest-temperature-in-chengdu-on-september-20-2026": {
+  "temp": 27.0,
+  "peak_bj": "2026-09-20 17:00"
+ },
+ "highest-temperature-in-chicago-on-september-20-2026": {
+  "temp": 71.0,
+  "peak_bj": "2026-09-20 15:45"
+ },
+ "highest-temperature-in-chongqing-on-september-20-2026": {
+  "temp": 25.0,
+  "peak_bj": "2026-09-20 16:00"
+ },
+ "highest-temperature-in-guangzhou-on-september-20-2026": {
+  "temp": 36.0,
+  "peak_bj": "2026-09-20 15:00"
+ },
+ "highest-temperature-in-helsinki-on-september-20-2026": {
+  "temp": 17.0,
+  "peak_bj": "2026-09-20 18:50"
+ },
+ "highest-temperature-in-hong-kong-on-september-20-2026": {
+  "temp": 33.0,
+  "peak_bj": "2026-09-20 16:30"
+ },
+ "highest-temperature-in-istanbul-on-september-20-2026": {
+  "temp": 24.0,
+  "peak_bj": "2026-09-20 22:20"
+ },
+ "highest-temperature-in-jeddah-on-september-20-2026": {
+  "temp": 36.0,
+  "peak_bj": "2026-09-20 17:00"
+ },
+ "highest-temperature-in-jinan-on-september-20-2026": {
+  "temp": 26.0,
+  "peak_bj": "2026-09-20 23:00"
+ },
+ "highest-temperature-in-karachi-on-september-20-2026": {
+  "temp": 37.0,
+  "peak_bj": "2026-09-20 19:00"
+ },
+ "highest-temperature-in-kuala-lumpur-on-september-20-2026": {
+  "temp": 33.0,
+  "peak_bj": "2026-09-20 14:00"
+ },
+ "highest-temperature-in-london-on-september-20-2026": {
+  "temp": 20.0,
+  "peak_bj": "2026-09-21 01:20"
+ },
+ "highest-temperature-in-lucknow-on-september-20-2026": {
+  "temp": 33.0,
+  "peak_bj": "2026-09-20 20:00"
+ },
+ "highest-temperature-in-madrid-on-september-20-2026": {
+  "temp": 31.0,
+  "peak_bj": "2026-09-20 23:00"
+ },
+ "highest-temperature-in-manila-on-september-20-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-09-20 12:00"
+ },
+ "highest-temperature-in-mexico-city-on-september-20-2026": {
+  "temp": 26.0,
+  "peak_bj": "2026-09-21 06:50"
+ },
+ "highest-temperature-in-miami-on-september-20-2026": {
+  "temp": 89.0,
+  "peak_bj": "2026-09-21 02:14"
+ },
+ "highest-temperature-in-milan-on-september-20-2026": {
+  "temp": 27.0,
+  "peak_bj": "2026-09-20 23:50"
+ },
+ "highest-temperature-in-moscow-on-september-20-2026": {
+  "temp": 19.0,
+  "peak_bj": "2026-09-20 20:30"
+ },
+ "highest-temperature-in-munich-on-september-20-2026": {
+  "temp": 24.0,
+  "peak_bj": "2026-09-20 22:50"
+ },
+ "highest-temperature-in-panama-city-on-september-20-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-09-21 03:00"
+ },
+ "highest-temperature-in-paris-on-september-20-2026": {
+  "temp": 24.0,
+  "peak_bj": "2026-09-20 20:30"
+ },
+ "highest-temperature-in-qingdao-on-september-20-2026": {
+  "temp": 29.0,
+  "peak_bj": "2026-09-20 14:00"
+ },
+ "highest-temperature-in-seoul-on-september-20-2026": {
+  "temp": 26.0,
+  "peak_bj": "2026-09-20 14:00"
+ },
+ "highest-temperature-in-shanghai-on-september-20-2026": {
+  "temp": 28.0,
+  "peak_bj": "2026-09-20 14:30"
+ },
+ "highest-temperature-in-shenzhen-on-september-20-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-09-20 16:00"
+ },
+ "highest-temperature-in-singapore-on-september-20-2026": {
+  "temp": 31.0,
+  "peak_bj": "2026-09-20 13:14"
+ },
+ "highest-temperature-in-taipei-on-september-20-2026": {
+  "temp": 33.0,
+  "peak_bj": "2026-09-20 12:00"
+ },
+ "highest-temperature-in-tel-aviv-on-september-20-2026": {
+  "temp": 31.0,
+  "peak_bj": "2026-09-20 17:50"
+ },
+ "highest-temperature-in-tokyo-on-september-20-2026": {
+  "temp": 23.0,
+  "peak_bj": "2026-09-20 21:00"
+ },
+ "highest-temperature-in-toronto-on-september-20-2026": {
+  "temp": 21.0,
+  "peak_bj": "2026-09-21 03:00"
+ },
+ "highest-temperature-in-wellington-on-september-20-2026": {
+  "temp": 15.0,
+  "peak_bj": "2026-09-20 00:00"
+ },
+ "highest-temperature-in-wuhan-on-september-20-2026": {
+  "temp": 27.0,
+  "peak_bj": "2026-09-20 16:00"
+ },
+ "highest-temperature-in-zhengzhou-on-september-20-2026": {
+  "temp": 23.0,
+  "peak_bj": "2026-09-20 20:00"
  }
 }
