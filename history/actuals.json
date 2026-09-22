@@ -8678,5 +8678,17 @@
  "highest-temperature-in-wuhan-on-september-21-2026": {
   "temp": 25.0,
   "peak_bj": "2026-09-21 17:00"
+ },
+ "highest-temperature-in-denver-on-september-21-2026": {
+  "temp": 77.0,
+  "peak_bj": "2026-09-22 04:58"
+ },
+ "highest-temperature-in-mexico-city-on-september-21-2026": {
+  "temp": 26.0,
+  "peak_bj": "2026-09-22 06:45"
+ },
+ "highest-temperature-in-seattle-on-september-21-2026": {
+  "temp": 67.0,
+  "peak_bj": "2026-09-22 07:53"
  }
 }
