@@ -419,6 +419,9 @@ async def main():
                 if isinstance(r, Exception):
                     print(f"  [ERR] {s}: {r}")
                     continue
+                if r.status_code == 404:
+                    print(f"  [404] {s}: event not found on gamma")
+                    continue
                 if r.status_code != 200:
                     print(f"  [ERR] {s}: HTTP {r.status_code}")
                     continue
