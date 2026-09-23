@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 1854,
+ "n": 1855,
  "mae": 0.89,
  "bias": -0.5,
  "rows": [
@@ -24105,6 +24105,19 @@
    "actual": 85.0,
    "err": -3.0,
    "peak_local": "14:58"
+  },
+  {
+   "city": "Los Angeles",
+   "date": "2026-09-22",
+   "date_display": "09/22",
+   "snap_date": "2026-09-22",
+   "time": "01:34",
+   "local_hhmm": "10:34",
+   "hour": 1,
+   "meteo": 75,
+   "actual": 77.0,
+   "err": -2.0,
+   "peak_local": "11:53"
   }
  ],
  "cities": [
@@ -24694,16 +24707,16 @@
   },
   {
    "city": "Los Angeles",
-   "n": 37,
-   "mae": 1.54,
+   "n": 38,
+   "mae": 1.55,
    "periods": {
     "21-24": {
      "n": 25,
      "mae": 1.4
     },
     "其他": {
-     "n": 10,
-     "mae": 1.6
+     "n": 11,
+     "mae": 1.64
     },
     "18-21": {
      "n": 2,
