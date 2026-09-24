@@ -1,8 +1,8 @@
 {
  "model": "METEO",
- "n": 1902,
- "mae": 0.89,
- "bias": -0.5,
+ "n": 1904,
+ "mae": 0.9,
+ "bias": -0.51,
  "rows": [
   {
    "city": "London",
@@ -24718,6 +24718,32 @@
    "peak_local": "15:47"
   },
   {
+   "city": "San Francisco",
+   "date": "2026-09-23",
+   "date_display": "09/23",
+   "snap_date": "2026-09-23",
+   "time": "18:03",
+   "local_hhmm": "03:03",
+   "hour": 18,
+   "meteo": 72,
+   "actual": 77.0,
+   "err": -5.0,
+   "peak_local": "16:56"
+  },
+  {
+   "city": "Seattle",
+   "date": "2026-09-23",
+   "date_display": "09/23",
+   "snap_date": "2026-09-23",
+   "time": "21:03",
+   "local_hhmm": "06:03",
+   "hour": 21,
+   "meteo": 63,
+   "actual": 67.0,
+   "err": -4.0,
+   "peak_local": "16:53"
+  },
+  {
    "city": "Toronto",
    "date": "2026-09-23",
    "date_display": "09/23",
@@ -25698,8 +25724,8 @@
   },
   {
    "city": "San Francisco",
-   "n": 40,
-   "mae": 1.85,
+   "n": 41,
+   "mae": 1.93,
    "periods": {
     "21-24": {
      "n": 19,
@@ -25710,8 +25736,8 @@
      "mae": 1.0
     },
     "18-21": {
-     "n": 1,
-     "mae": 1.0
+     "n": 2,
+     "mae": 3.0
     }
    },
    "best_period": "其他"
@@ -25742,12 +25768,12 @@
   },
   {
    "city": "Seattle",
-   "n": 38,
-   "mae": 1.63,
+   "n": 39,
+   "mae": 1.69,
    "periods": {
     "21-24": {
-     "n": 13,
-     "mae": 1.77
+     "n": 14,
+     "mae": 1.93
     },
     "其他": {
      "n": 22,
