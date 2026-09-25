@@ -9194,5 +9194,9 @@
  "highest-temperature-in-zhengzhou-on-september-24-2026": {
   "temp": 24.0,
   "peak_bj": "2026-09-24 10:00"
+ },
+ "highest-temperature-in-toronto-on-september-24-2026": {
+  "temp": 19.0,
+  "peak_bj": "2026-09-25 04:00"
  }
 }
