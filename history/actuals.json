@@ -9394,5 +9394,9 @@
  "highest-temperature-in-seattle-on-september-25-2026": {
   "temp": 63.0,
   "peak_bj": "2026-09-26 06:53"
+ },
+ "highest-temperature-in-denver-on-september-25-2026": {
+  "temp": 75.0,
+  "peak_bj": "2026-09-26 03:58"
  }
 }
