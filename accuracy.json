@@ -2,7 +2,7 @@
  "model": "METEO",
  "n": 2033,
  "mae": 0.88,
- "bias": -0.51,
+ "bias": -0.5,
  "rows": [
   {
    "city": "London",
@@ -26217,8 +26217,8 @@
    "date": "2026-09-26",
    "date_display": "09/26",
    "snap_date": "2026-09-26",
-   "time": "01:03",
-   "local_hhmm": "13:03",
+   "time": "01:19",
+   "local_hhmm": "13:19",
    "hour": 1,
    "meteo": 81,
    "actual": 81.0,
@@ -26256,8 +26256,8 @@
    "date": "2026-09-26",
    "date_display": "09/26",
    "snap_date": "2026-09-26",
-   "time": "01:03",
-   "local_hhmm": "12:03",
+   "time": "01:19",
+   "local_hhmm": "12:19",
    "hour": 1,
    "meteo": 91,
    "actual": 93.0,
@@ -26386,12 +26386,12 @@
    "date": "2026-09-26",
    "date_display": "09/26",
    "snap_date": "2026-09-26",
-   "time": "22:33",
-   "local_hhmm": "07:33",
-   "hour": 22,
-   "meteo": 61,
+   "time": "01:19",
+   "local_hhmm": "10:19",
+   "hour": 1,
+   "meteo": 63,
    "actual": 65.0,
-   "err": -4.0,
+   "err": -2.0,
    "peak_local": "15:53"
   },
   {
@@ -26412,12 +26412,12 @@
    "date": "2026-09-26",
    "date_display": "09/26",
    "snap_date": "2026-09-26",
-   "time": "20:33",
-   "local_hhmm": "05:33",
-   "hour": 20,
-   "meteo": 66,
+   "time": "01:19",
+   "local_hhmm": "10:19",
+   "hour": 1,
+   "meteo": 70,
    "actual": 69.0,
-   "err": -3.0,
+   "err": 1.0,
    "peak_local": "13:56"
   },
   {
@@ -27418,19 +27418,19 @@
   {
    "city": "San Francisco",
    "n": 44,
-   "mae": 1.91,
+   "mae": 1.86,
    "periods": {
     "21-24": {
      "n": 19,
      "mae": 2.79
     },
     "其他": {
-     "n": 23,
+     "n": 24,
      "mae": 1.17
     },
     "18-21": {
-     "n": 2,
-     "mae": 2.0
+     "n": 1,
+     "mae": 1.0
     }
    },
    "best_period": "其他"
@@ -27462,15 +27462,15 @@
   {
    "city": "Seattle",
    "n": 42,
-   "mae": 1.69,
+   "mae": 1.64,
    "periods": {
     "21-24": {
-     "n": 14,
-     "mae": 1.93
+     "n": 13,
+     "mae": 1.77
     },
     "其他": {
-     "n": 24,
-     "mae": 1.5
+     "n": 25,
+     "mae": 1.52
     },
     "06-09": {
      "n": 2,
