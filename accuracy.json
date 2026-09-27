@@ -1,8 +1,8 @@
 {
  "model": "METEO",
- "n": 2032,
+ "n": 2033,
  "mae": 0.88,
- "bias": -0.5,
+ "bias": -0.51,
  "rows": [
   {
    "city": "London",
@@ -26217,8 +26217,8 @@
    "date": "2026-09-26",
    "date_display": "09/26",
    "snap_date": "2026-09-26",
-   "time": "00:03",
-   "local_hhmm": "12:03",
+   "time": "00:33",
+   "local_hhmm": "12:33",
    "hour": 0,
    "meteo": 81,
    "actual": 81.0,
@@ -26256,8 +26256,8 @@
    "date": "2026-09-26",
    "date_display": "09/26",
    "snap_date": "2026-09-26",
-   "time": "00:03",
-   "local_hhmm": "11:03",
+   "time": "00:33",
+   "local_hhmm": "11:33",
    "hour": 0,
    "meteo": 91,
    "actual": 93.0,
@@ -26302,6 +26302,19 @@
    "actual": 95.0,
    "err": -2.0,
    "peak_local": "16:53"
+  },
+  {
+   "city": "Denver",
+   "date": "2026-09-26",
+   "date_display": "09/26",
+   "snap_date": "2026-09-26",
+   "time": "22:33",
+   "local_hhmm": "08:33",
+   "hour": 22,
+   "meteo": 81,
+   "actual": 83.0,
+   "err": -2.0,
+   "peak_local": "16:58"
   },
   {
    "city": "Houston",
@@ -26732,12 +26745,12 @@
   },
   {
    "city": "Denver",
-   "n": 41,
-   "mae": 2.76,
+   "n": 42,
+   "mae": 2.74,
    "periods": {
     "21-24": {
-     "n": 18,
-     "mae": 3.72
+     "n": 19,
+     "mae": 3.63
     },
     "其他": {
      "n": 20,
