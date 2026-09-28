@@ -378,7 +378,19 @@ def _bg_fetch():
                                 capture_output=True, text=True, timeout=900,
                                 creationflags=subprocess.CREATE_NO_WINDOW)
         _bg_status["log"] = result.stdout[-500:] if result.stdout else (result.stderr[-500:] if result.stderr else "done")
-        subprocess.run(["git", "add", "history", "data.json"], cwd=SCRIPT_DIR, capture_output=True)
+        # 同时更新结算数据（云端 cron 延迟时的本地兜底）
+        acc_py = os.path.join(SCRIPT_DIR, "accuracy.py")
+        try:
+            subprocess.run([python, acc_py, "--out", "accuracy.json"], cwd=SCRIPT_DIR,
+                           capture_output=True, text=True, timeout=600,
+                           creationflags=subprocess.CREATE_NO_WINDOW)
+            subprocess.run([python, acc_py, "--period", "6-12", "--out", "accuracy_morning.json"], cwd=SCRIPT_DIR,
+                           capture_output=True, text=True, timeout=600,
+                           creationflags=subprocess.CREATE_NO_WINDOW)
+        except Exception:
+            pass
+        subprocess.run(["git", "add", "history", "accuracy.json", "accuracy_morning.json"], cwd=SCRIPT_DIR, capture_output=True)
+        subprocess.run(["git", "add", "-f", "data.json"], cwd=SCRIPT_DIR, capture_output=True)
         subprocess.run(["git", "commit", "-m", "auto: local fetch", "--no-gpg-sign"],
                        cwd=SCRIPT_DIR, capture_output=True)
         subprocess.run(["git", "pull", "--rebase", "origin", "main"], cwd=SCRIPT_DIR, capture_output=True, timeout=180)
