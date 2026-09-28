@@ -9742,5 +9742,9 @@
  "highest-temperature-in-zhengzhou-on-september-27-2026": {
   "temp": 24.0,
   "peak_bj": "2026-09-27 15:00"
+ },
+ "highest-temperature-in-nyc-on-september-27-2026": {
+  "temp": 65.0,
+  "peak_bj": "2026-09-28 04:51"
  }
 }
