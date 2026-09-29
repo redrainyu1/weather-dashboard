@@ -9906,5 +9906,13 @@
  "highest-temperature-in-zhengzhou-on-september-28-2026": {
   "temp": 22.0,
   "peak_bj": "2026-09-28 17:00"
+ },
+ "highest-temperature-in-austin-on-september-28-2026": {
+  "temp": 97.0,
+  "peak_bj": "2026-09-29 05:53"
+ },
+ "highest-temperature-in-chicago-on-september-28-2026": {
+  "temp": 73.0,
+  "peak_bj": "2026-09-29 03:51"
  }
 }
