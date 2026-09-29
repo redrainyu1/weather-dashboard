@@ -82,34 +82,39 @@ def _attach_actual_peaks(data):
     except Exception:
         pass
 
+_forecast_peaks_cache = {"peaks": None, "ts": 0}
+
 def _attach_forecast_peaks(data):
-    """给快照行附预测峰值时刻（来自 Open-Meteo Forecast API）"""
+    """给快照行附预测峰值时刻（来自 Open-Meteo Forecast API，30分钟缓存）"""
     try:
-        import asyncio
-        from forecast_peak import get_forecast_peak
-        import httpx
-        
-        async def fetch_all():
-            peaks = {}
-            async with httpx.AsyncClient(http1=True, http2=False, timeout=15) as client:
-                tasks = []
-                cities = set()
-                for row in data.get("rows", []):
-                    city = row.get("city")
-                    if city:
-                        cities.add(city)
-                
-                for city in cities:
-                    tasks.append(get_forecast_peak(client, city))
-                
-                results = await asyncio.gather(*tasks, return_exceptions=True)
-                for r in results:
-                    if isinstance(r, dict) and r.get("city"):
-                        peaks[r["city"]] = r
-            return peaks
-        
-        peaks = asyncio.run(fetch_all())
-        
+        import time as _time
+        now = _time.time()
+        if _forecast_peaks_cache["peaks"] is None or now - _forecast_peaks_cache["ts"] > 1800:
+            import asyncio
+            from forecast_peak import get_forecast_peak
+            import httpx
+
+            async def fetch_all():
+                peaks = {}
+                async with httpx.AsyncClient(http1=True, http2=False, timeout=15) as client:
+                    tasks = []
+                    cities = set()
+                    for row in data.get("rows", []):
+                        city = row.get("city")
+                        if city:
+                            cities.add(city)
+                    for city in cities:
+                        tasks.append(get_forecast_peak(client, city))
+                    results = await asyncio.gather(*tasks, return_exceptions=True)
+                    for r in results:
+                        if isinstance(r, dict) and r.get("city"):
+                            peaks[r["city"]] = r
+                return peaks
+
+            _forecast_peaks_cache["peaks"] = asyncio.run(fetch_all())
+            _forecast_peaks_cache["ts"] = now
+
+        peaks = _forecast_peaks_cache["peaks"]
         for row in data.get("rows", []):
             city = row.get("city")
             if city in peaks:
