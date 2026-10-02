@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 2250,
+ "n": 2251,
  "mae": 0.9,
  "bias": -0.53,
  "rows": [
@@ -29253,6 +29253,19 @@
    "actual": 73.0,
    "err": 0.0,
    "peak_local": "14:56"
+  },
+  {
+   "city": "Seattle",
+   "date": "2026-10-01",
+   "date_display": "10/01",
+   "snap_date": "2026-10-01",
+   "time": "22:23",
+   "local_hhmm": "07:23",
+   "hour": 22,
+   "meteo": 66,
+   "actual": 67.0,
+   "err": -1.0,
+   "peak_local": "16:53"
   }
  ],
  "cities": [
@@ -30326,12 +30339,12 @@
   },
   {
    "city": "Seattle",
-   "n": 44,
-   "mae": 1.68,
+   "n": 45,
+   "mae": 1.67,
    "periods": {
     "21-24": {
-     "n": 14,
-     "mae": 1.93
+     "n": 15,
+     "mae": 1.87
     },
     "其他": {
      "n": 26,

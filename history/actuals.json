@@ -10498,5 +10498,9 @@
  "highest-temperature-in-zhengzhou-on-october-1-2026": {
   "temp": 22.0,
   "peak_bj": "2026-10-01 15:00"
+ },
+ "highest-temperature-in-seattle-on-october-1-2026": {
+  "temp": 67.0,
+  "peak_bj": "2026-10-02 07:53"
  }
 }
