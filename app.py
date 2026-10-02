@@ -1,5 +1,5 @@
 """Simple Flask server - serves static dashboard + fix missing data."""
-import subprocess, sys, os, json, re, asyncio, time
+import subprocess, sys, os, json, re, asyncio, time, glob
 from datetime import datetime
 from flask import Flask, jsonify, send_from_directory, request
 
@@ -137,6 +137,18 @@ def api_data():
         return jsonify({"status": "ready", "data": data, "updated_at": data.get("updated_at"), "errors": []})
     except FileNotFoundError:
         return jsonify({"status": "no_data", "data": None})
+    except json.JSONDecodeError:
+        try:
+            snaps = sorted(glob.glob(os.path.join(SCRIPT_DIR, "history", "2026-*.json")), reverse=True)
+            if snaps:
+                with open(snaps[0], 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                _attach_actual_peaks(data)
+                _attach_forecast_peaks(data)
+                return jsonify({"status": "ready", "data": data, "updated_at": data.get("updated_at"), "errors": ["restored from snapshot"]})
+        except Exception:
+            pass
+        return jsonify({"status": "corrupted", "data": None}), 500
 
 def find_missing():
     """Analyze data.json and return list of cities with missing models."""
@@ -218,8 +230,17 @@ def api_accuracy():
     acc_file = os.path.join(SCRIPT_DIR, fname)
     if not os.path.exists(acc_file):
         return jsonify({"status": "not_found"})
-    with open(acc_file, 'r', encoding='utf-8') as f:
-        return jsonify(json.load(f))
+    try:
+        with open(acc_file, 'r', encoding='utf-8') as f:
+            return jsonify(json.load(f))
+    except json.JSONDecodeError:
+        try:
+            subprocess.run(["git", "checkout", "origin/main", "--", fname],
+                           cwd=SCRIPT_DIR, capture_output=True, timeout=30)
+            with open(acc_file, 'r', encoding='utf-8') as f:
+                return jsonify(json.load(f))
+        except Exception:
+            return jsonify({"status": "corrupted", "message": f"{fname} corrupted"}), 500
 
 @app.route('/api/daydetail')
 def api_daydetail():
