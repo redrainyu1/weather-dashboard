@@ -10754,5 +10754,77 @@
  "highest-temperature-in-wuhan-on-october-3-2026": {
   "temp": 19.0,
   "peak_bj": "2026-10-03 14:00"
+ },
+ "highest-temperature-in-amsterdam-on-october-4-2026": {
+  "temp": 20.0,
+  "peak_bj": "2026-10-04 22:55"
+ },
+ "highest-temperature-in-ankara-on-october-4-2026": {
+  "temp": 19.0,
+  "peak_bj": "2026-10-04 21:50"
+ },
+ "highest-temperature-in-atlanta-on-october-4-2026": {
+  "temp": 77.0,
+  "peak_bj": "2026-10-05 01:52"
+ },
+ "highest-temperature-in-austin-on-october-4-2026": {
+  "temp": 77.0,
+  "peak_bj": "2026-10-05 08:02"
+ },
+ "highest-temperature-in-beijing-on-october-4-2026": {
+  "temp": 21.0,
+  "peak_bj": "2026-10-04 15:30"
+ },
+ "highest-temperature-in-buenos-aires-on-october-4-2026": {
+  "temp": 24.0,
+  "peak_bj": "2026-10-05 04:00"
+ },
+ "highest-temperature-in-busan-on-october-4-2026": {
+  "temp": 26.0,
+  "peak_bj": "2026-10-04 13:30"
+ },
+ "highest-temperature-in-cape-town-on-october-4-2026": {
+  "temp": 28.0,
+  "peak_bj": "2026-10-04 21:00"
+ },
+ "highest-temperature-in-chengdu-on-october-4-2026": {
+  "temp": 26.0,
+  "peak_bj": "2026-10-04 16:00"
+ },
+ "highest-temperature-in-chicago-on-october-4-2026": {
+  "temp": 73.0,
+  "peak_bj": "2026-10-05 04:51"
+ },
+ "highest-temperature-in-dallas-on-october-4-2026": {
+  "temp": 79.0,
+  "peak_bj": "2026-10-05 07:53"
+ },
+ "highest-temperature-in-istanbul-on-october-4-2026": {
+  "temp": 19.0,
+  "peak_bj": "2026-10-04 21:50"
+ },
+ "highest-temperature-in-los-angeles-on-october-4-2026": {
+  "temp": 101.0,
+  "peak_bj": "2026-10-05 03:53"
+ },
+ "highest-temperature-in-mexico-city-on-october-4-2026": {
+  "temp": 20.0,
+  "peak_bj": "2026-10-05 02:50"
+ },
+ "highest-temperature-in-miami-on-october-4-2026": {
+  "temp": 89.0,
+  "peak_bj": "2026-10-05 02:53"
+ },
+ "highest-temperature-in-nyc-on-october-4-2026": {
+  "temp": 63.0,
+  "peak_bj": "2026-10-05 00:51"
+ },
+ "highest-temperature-in-panama-city-on-october-4-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-10-05 05:00"
+ },
+ "highest-temperature-in-toronto-on-october-4-2026": {
+  "temp": 22.0,
+  "peak_bj": "2026-10-05 05:00"
  }
 }
