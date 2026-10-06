@@ -10826,5 +10826,73 @@
  "highest-temperature-in-toronto-on-october-4-2026": {
   "temp": 22.0,
   "peak_bj": "2026-10-05 05:00"
+ },
+ "highest-temperature-in-amsterdam-on-october-5-2026": {
+  "temp": 20.0,
+  "peak_bj": "2026-10-05 22:55"
+ },
+ "highest-temperature-in-ankara-on-october-5-2026": {
+  "temp": 22.0,
+  "peak_bj": "2026-10-05 20:20"
+ },
+ "highest-temperature-in-atlanta-on-october-5-2026": {
+  "temp": 75.0,
+  "peak_bj": "2026-10-06 04:49"
+ },
+ "highest-temperature-in-austin-on-october-5-2026": {
+  "temp": 89.0,
+  "peak_bj": "2026-10-06 05:53"
+ },
+ "highest-temperature-in-beijing-on-october-5-2026": {
+  "temp": 25.0,
+  "peak_bj": "2026-10-05 16:30"
+ },
+ "highest-temperature-in-buenos-aires-on-october-5-2026": {
+  "temp": 25.0,
+  "peak_bj": "2026-10-06 02:00"
+ },
+ "highest-temperature-in-busan-on-october-5-2026": {
+  "temp": 25.0,
+  "peak_bj": "2026-10-05 13:00"
+ },
+ "highest-temperature-in-cape-town-on-october-5-2026": {
+  "temp": 27.0,
+  "peak_bj": "2026-10-05 20:00"
+ },
+ "highest-temperature-in-chengdu-on-october-5-2026": {
+  "temp": 21.0,
+  "peak_bj": "2026-10-05 15:00"
+ },
+ "highest-temperature-in-chicago-on-october-5-2026": {
+  "temp": 69.0,
+  "peak_bj": "2026-10-06 02:51"
+ },
+ "highest-temperature-in-hong-kong-on-october-5-2026": {
+  "temp": 31.0,
+  "peak_bj": "2026-10-05 15:30"
+ },
+ "highest-temperature-in-karachi-on-october-5-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-10-05 18:30"
+ },
+ "highest-temperature-in-kuala-lumpur-on-october-5-2026": {
+  "temp": 33.0,
+  "peak_bj": "2026-10-05 15:30"
+ },
+ "highest-temperature-in-manila-on-october-5-2026": {
+  "temp": 33.0,
+  "peak_bj": "2026-10-05 15:00"
+ },
+ "highest-temperature-in-seoul-on-october-5-2026": {
+  "temp": 20.0,
+  "peak_bj": "2026-10-05 15:30"
+ },
+ "highest-temperature-in-tokyo-on-october-5-2026": {
+  "temp": 22.0,
+  "peak_bj": "2026-10-05 18:30"
+ },
+ "highest-temperature-in-wuhan-on-october-5-2026": {
+  "temp": 26.0,
+  "peak_bj": "2026-10-05 16:00"
  }
 }
