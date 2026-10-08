@@ -11034,5 +11034,89 @@
  "highest-temperature-in-warsaw-on-october-6-2026": {
   "temp": 21.0,
   "peak_bj": "2026-10-06 22:30"
+ },
+ "highest-temperature-in-amsterdam-on-october-7-2026": {
+  "temp": 22.0,
+  "peak_bj": "2026-10-07 21:25"
+ },
+ "highest-temperature-in-ankara-on-october-7-2026": {
+  "temp": 20.0,
+  "peak_bj": "2026-10-07 22:20"
+ },
+ "highest-temperature-in-atlanta-on-october-7-2026": {
+  "temp": 79.0,
+  "peak_bj": "2026-10-08 05:52"
+ },
+ "highest-temperature-in-austin-on-october-7-2026": {
+  "temp": 91.0,
+  "peak_bj": "2026-10-08 05:53"
+ },
+ "highest-temperature-in-beijing-on-october-7-2026": {
+  "temp": 27.0,
+  "peak_bj": "2026-10-07 15:30"
+ },
+ "highest-temperature-in-buenos-aires-on-october-7-2026": {
+  "temp": 18.0,
+  "peak_bj": "2026-10-08 06:00"
+ },
+ "highest-temperature-in-busan-on-october-7-2026": {
+  "temp": 24.0,
+  "peak_bj": "2026-10-07 15:00"
+ },
+ "highest-temperature-in-cape-town-on-october-7-2026": {
+  "temp": 20.0,
+  "peak_bj": "2026-10-07 19:00"
+ },
+ "highest-temperature-in-chengdu-on-october-7-2026": {
+  "temp": 25.0,
+  "peak_bj": "2026-10-07 16:00"
+ },
+ "highest-temperature-in-chicago-on-october-7-2026": {
+  "temp": 79.0,
+  "peak_bj": "2026-10-08 03:51"
+ },
+ "highest-temperature-in-chongqing-on-october-7-2026": {
+  "temp": 29.0,
+  "peak_bj": "2026-10-07 17:00"
+ },
+ "highest-temperature-in-dallas-on-october-7-2026": {
+  "temp": 89.0,
+  "peak_bj": "2026-10-08 05:53"
+ },
+ "highest-temperature-in-denver-on-october-7-2026": {
+  "temp": 81.0,
+  "peak_bj": "2026-10-08 04:58"
+ },
+ "highest-temperature-in-houston-on-october-7-2026": {
+  "temp": 91.0,
+  "peak_bj": "2026-10-08 03:53"
+ },
+ "highest-temperature-in-london-on-october-7-2026": {
+  "temp": 16.0,
+  "peak_bj": "2026-10-07 16:50"
+ },
+ "highest-temperature-in-los-angeles-on-october-7-2026": {
+  "temp": 85.0,
+  "peak_bj": "2026-10-08 01:53"
+ },
+ "highest-temperature-in-panama-city-on-october-7-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-10-08 02:00"
+ },
+ "highest-temperature-in-qingdao-on-october-7-2026": {
+  "temp": 26.0,
+  "peak_bj": "2026-10-07 15:00"
+ },
+ "highest-temperature-in-san-francisco-on-october-7-2026": {
+  "temp": 75.0,
+  "peak_bj": "2026-10-08 05:56"
+ },
+ "highest-temperature-in-seattle-on-october-7-2026": {
+  "temp": 67.0,
+  "peak_bj": "2026-10-08 07:53"
+ },
+ "highest-temperature-in-warsaw-on-october-7-2026": {
+  "temp": 21.0,
+  "peak_bj": "2026-10-07 21:30"
  }
 }
