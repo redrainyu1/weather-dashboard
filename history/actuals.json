@@ -11118,5 +11118,161 @@
  "highest-temperature-in-warsaw-on-october-7-2026": {
   "temp": 21.0,
   "peak_bj": "2026-10-07 21:30"
+ },
+ "highest-temperature-in-amsterdam-on-october-8-2026": {
+  "temp": 15.0,
+  "peak_bj": "2026-10-08 22:55"
+ },
+ "highest-temperature-in-ankara-on-october-8-2026": {
+  "temp": 23.0,
+  "peak_bj": "2026-10-08 20:20"
+ },
+ "highest-temperature-in-atlanta-on-october-8-2026": {
+  "temp": 85.0,
+  "peak_bj": "2026-10-09 03:52"
+ },
+ "highest-temperature-in-austin-on-october-8-2026": {
+  "temp": 91.0,
+  "peak_bj": "2026-10-09 05:53"
+ },
+ "highest-temperature-in-beijing-on-october-8-2026": {
+  "temp": 26.0,
+  "peak_bj": "2026-10-08 16:00"
+ },
+ "highest-temperature-in-buenos-aires-on-october-8-2026": {
+  "temp": 17.0,
+  "peak_bj": "2026-10-08 23:00"
+ },
+ "highest-temperature-in-busan-on-october-8-2026": {
+  "temp": 25.0,
+  "peak_bj": "2026-10-08 14:00"
+ },
+ "highest-temperature-in-cape-town-on-october-8-2026": {
+  "temp": 19.0,
+  "peak_bj": "2026-10-08 20:00"
+ },
+ "highest-temperature-in-chengdu-on-october-8-2026": {
+  "temp": 25.0,
+  "peak_bj": "2026-10-08 17:00"
+ },
+ "highest-temperature-in-chicago-on-october-8-2026": {
+  "temp": 73.0,
+  "peak_bj": "2026-10-09 04:51"
+ },
+ "highest-temperature-in-chongqing-on-october-8-2026": {
+  "temp": 28.0,
+  "peak_bj": "2026-10-08 15:00"
+ },
+ "highest-temperature-in-dallas-on-october-8-2026": {
+  "temp": 91.0,
+  "peak_bj": "2026-10-09 05:53"
+ },
+ "highest-temperature-in-guangzhou-on-october-8-2026": {
+  "temp": 31.0,
+  "peak_bj": "2026-10-08 16:00"
+ },
+ "highest-temperature-in-helsinki-on-october-8-2026": {
+  "temp": 13.0,
+  "peak_bj": "2026-10-09 03:20"
+ },
+ "highest-temperature-in-hong-kong-on-october-8-2026": {
+  "temp": 29.0,
+  "peak_bj": "2026-10-08 16:30"
+ },
+ "highest-temperature-in-houston-on-october-8-2026": {
+  "temp": 91.0,
+  "peak_bj": "2026-10-09 02:53"
+ },
+ "highest-temperature-in-istanbul-on-october-8-2026": {
+  "temp": 22.0,
+  "peak_bj": "2026-10-08 21:50"
+ },
+ "highest-temperature-in-jeddah-on-october-8-2026": {
+  "temp": 36.0,
+  "peak_bj": "2026-10-09 03:00"
+ },
+ "highest-temperature-in-karachi-on-october-8-2026": {
+  "temp": 34.0,
+  "peak_bj": "2026-10-08 18:30"
+ },
+ "highest-temperature-in-kuala-lumpur-on-october-8-2026": {
+  "temp": 33.0,
+  "peak_bj": "2026-10-08 16:00"
+ },
+ "highest-temperature-in-london-on-october-8-2026": {
+  "temp": 15.0,
+  "peak_bj": "2026-10-09 00:50"
+ },
+ "highest-temperature-in-lucknow-on-october-8-2026": {
+  "temp": 29.0,
+  "peak_bj": "2026-10-08 19:00"
+ },
+ "highest-temperature-in-madrid-on-october-8-2026": {
+  "temp": 20.0,
+  "peak_bj": "2026-10-08 23:00"
+ },
+ "highest-temperature-in-manila-on-october-8-2026": {
+  "temp": 31.0,
+  "peak_bj": "2026-10-08 14:00"
+ },
+ "highest-temperature-in-milan-on-october-8-2026": {
+  "temp": 20.0,
+  "peak_bj": "2026-10-08 21:50"
+ },
+ "highest-temperature-in-moscow-on-october-8-2026": {
+  "temp": 13.0,
+  "peak_bj": "2026-10-08 20:30"
+ },
+ "highest-temperature-in-nyc-on-october-8-2026": {
+  "temp": 77.0,
+  "peak_bj": "2026-10-09 03:51"
+ },
+ "highest-temperature-in-panama-city-on-october-8-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-10-09 02:00"
+ },
+ "highest-temperature-in-paris-on-october-8-2026": {
+  "temp": 17.0,
+  "peak_bj": "2026-10-08 21:30"
+ },
+ "highest-temperature-in-qingdao-on-october-8-2026": {
+  "temp": 26.0,
+  "peak_bj": "2026-10-08 12:00"
+ },
+ "highest-temperature-in-sao-paulo-on-october-8-2026": {
+  "temp": 33.0,
+  "peak_bj": "2026-10-09 03:00"
+ },
+ "highest-temperature-in-seoul-on-october-8-2026": {
+  "temp": 22.0,
+  "peak_bj": "2026-10-08 15:00"
+ },
+ "highest-temperature-in-shanghai-on-october-8-2026": {
+  "temp": 26.0,
+  "peak_bj": "2026-10-08 13:00"
+ },
+ "highest-temperature-in-singapore-on-october-8-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-10-08 16:30"
+ },
+ "highest-temperature-in-taipei-on-october-8-2026": {
+  "temp": 28.0,
+  "peak_bj": "2026-10-08 13:30"
+ },
+ "highest-temperature-in-tel-aviv-on-october-8-2026": {
+  "temp": 29.0,
+  "peak_bj": "2026-10-08 20:50"
+ },
+ "highest-temperature-in-tokyo-on-october-8-2026": {
+  "temp": 23.0,
+  "peak_bj": "2026-10-08 15:30"
+ },
+ "highest-temperature-in-warsaw-on-october-8-2026": {
+  "temp": 20.0,
+  "peak_bj": "2026-10-08 22:00"
+ },
+ "highest-temperature-in-wuhan-on-october-8-2026": {
+  "temp": 28.0,
+  "peak_bj": "2026-10-08 16:00"
  }
 }
