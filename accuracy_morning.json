@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 1519,
+ "n": 1526,
  "mae": 0.92,
  "bias": -0.48,
  "rows": [
@@ -19750,37 +19750,128 @@
    "actual": 28.0,
    "err": 0.0,
    "peak_local": "15:00"
+  },
+  {
+   "city": "Amsterdam",
+   "date": "2026-10-09",
+   "date_display": "10/09",
+   "snap_date": "2026-10-09",
+   "time": "06:36",
+   "local_hhmm": "00:36",
+   "hour": 6,
+   "meteo": 17,
+   "actual": 18.0,
+   "err": -1.0,
+   "peak_local": "19:55"
+  },
+  {
+   "city": "Ankara",
+   "date": "2026-10-09",
+   "date_display": "10/09",
+   "snap_date": "2026-10-09",
+   "time": "06:36",
+   "local_hhmm": "01:36",
+   "hour": 6,
+   "meteo": 21,
+   "actual": 23.0,
+   "err": -2.0,
+   "peak_local": "15:50"
+  },
+  {
+   "city": "Beijing",
+   "date": "2026-10-09",
+   "date_display": "10/09",
+   "snap_date": "2026-10-09",
+   "time": "06:36",
+   "local_hhmm": "06:36",
+   "hour": 6,
+   "meteo": 25,
+   "actual": 26.0,
+   "err": -1.0,
+   "peak_local": "16:00"
+  },
+  {
+   "city": "Busan",
+   "date": "2026-10-09",
+   "date_display": "10/09",
+   "snap_date": "2026-10-09",
+   "time": "06:36",
+   "local_hhmm": "07:36",
+   "hour": 6,
+   "meteo": 26,
+   "actual": 26.0,
+   "err": 0.0,
+   "peak_local": "14:00"
+  },
+  {
+   "city": "Cape Town",
+   "date": "2026-10-09",
+   "date_display": "10/09",
+   "snap_date": "2026-10-09",
+   "time": "06:36",
+   "local_hhmm": "00:36",
+   "hour": 6,
+   "meteo": 20,
+   "actual": 21.0,
+   "err": -1.0,
+   "peak_local": "17:00"
+  },
+  {
+   "city": "Chengdu",
+   "date": "2026-10-09",
+   "date_display": "10/09",
+   "snap_date": "2026-10-09",
+   "time": "06:36",
+   "local_hhmm": "06:36",
+   "hour": 6,
+   "meteo": 23,
+   "actual": 23.0,
+   "err": 0.0,
+   "peak_local": "14:00"
+  },
+  {
+   "city": "Moscow",
+   "date": "2026-10-09",
+   "date_display": "10/09",
+   "snap_date": "2026-10-09",
+   "time": "06:36",
+   "local_hhmm": "01:36",
+   "hour": 6,
+   "meteo": 17,
+   "actual": 18.0,
+   "err": -1.0,
+   "peak_local": "17:00"
   }
  ],
  "cities": [
   {
    "city": "Amsterdam",
-   "n": 50,
-   "mae": 0.64,
+   "n": 51,
+   "mae": 0.65,
    "periods": {
     "09-12": {
      "n": 45,
      "mae": 0.64
     },
     "06-09": {
-     "n": 5,
-     "mae": 0.6
+     "n": 6,
+     "mae": 0.67
     }
    },
-   "best_period": "06-09"
+   "best_period": "09-12"
   },
   {
    "city": "Ankara",
-   "n": 50,
-   "mae": 1.02,
+   "n": 51,
+   "mae": 1.04,
    "periods": {
     "09-12": {
      "n": 46,
      "mae": 0.98
     },
     "06-09": {
-     "n": 4,
-     "mae": 1.5
+     "n": 5,
+     "mae": 1.6
     }
    },
    "best_period": "09-12"
@@ -19799,16 +19890,16 @@
   },
   {
    "city": "Beijing",
-   "n": 50,
-   "mae": 0.74,
+   "n": 51,
+   "mae": 0.75,
    "periods": {
     "09-12": {
      "n": 45,
      "mae": 0.73
     },
     "06-09": {
-     "n": 5,
-     "mae": 0.8
+     "n": 6,
+     "mae": 0.83
     }
    },
    "best_period": "09-12"
@@ -19827,23 +19918,23 @@
   },
   {
    "city": "Busan",
-   "n": 49,
-   "mae": 0.31,
+   "n": 50,
+   "mae": 0.3,
    "periods": {
     "09-12": {
      "n": 29,
      "mae": 0.34
     },
     "06-09": {
-     "n": 20,
-     "mae": 0.25
+     "n": 21,
+     "mae": 0.24
     }
    },
    "best_period": "06-09"
   },
   {
    "city": "Cape Town",
-   "n": 49,
+   "n": 50,
    "mae": 0.88,
    "periods": {
     "09-12": {
@@ -19851,24 +19942,24 @@
      "mae": 0.89
     },
     "06-09": {
-     "n": 4,
-     "mae": 0.75
+     "n": 5,
+     "mae": 0.8
     }
    },
    "best_period": "06-09"
   },
   {
    "city": "Chengdu",
-   "n": 49,
-   "mae": 0.37,
+   "n": 50,
+   "mae": 0.36,
    "periods": {
     "09-12": {
      "n": 45,
      "mae": 0.38
     },
     "06-09": {
-     "n": 4,
-     "mae": 0.25
+     "n": 5,
+     "mae": 0.2
     }
    },
    "best_period": "06-09"
@@ -20135,7 +20226,7 @@
   },
   {
    "city": "Moscow",
-   "n": 38,
+   "n": 39,
    "mae": 1.03,
    "periods": {
     "09-12": {
@@ -20143,7 +20234,7 @@
      "mae": 1.03
     },
     "06-09": {
-     "n": 3,
+     "n": 4,
      "mae": 1.0
     }
    },
