@@ -11326,5 +11326,85 @@
  "highest-temperature-in-toronto-on-october-9-2026": {
   "temp": 20.0,
   "peak_bj": "2026-10-10 04:00"
+ },
+ "highest-temperature-in-amsterdam-on-october-10-2026": {
+  "temp": 14.0,
+  "peak_bj": "2026-10-10 22:25"
+ },
+ "highest-temperature-in-ankara-on-october-10-2026": {
+  "temp": 24.0,
+  "peak_bj": "2026-10-10 22:20"
+ },
+ "highest-temperature-in-atlanta-on-october-10-2026": {
+  "temp": 69.0,
+  "peak_bj": "2026-10-11 04:52"
+ },
+ "highest-temperature-in-austin-on-october-10-2026": {
+  "temp": 93.0,
+  "peak_bj": "2026-10-11 05:53"
+ },
+ "highest-temperature-in-beijing-on-october-10-2026": {
+  "temp": 27.0,
+  "peak_bj": "2026-10-10 15:00"
+ },
+ "highest-temperature-in-buenos-aires-on-october-10-2026": {
+  "temp": 16.0,
+  "peak_bj": "2026-10-11 02:00"
+ },
+ "highest-temperature-in-busan-on-october-10-2026": {
+  "temp": 28.0,
+  "peak_bj": "2026-10-10 12:00"
+ },
+ "highest-temperature-in-cape-town-on-october-10-2026": {
+  "temp": 25.0,
+  "peak_bj": "2026-10-10 18:00"
+ },
+ "highest-temperature-in-chengdu-on-october-10-2026": {
+  "temp": 20.0,
+  "peak_bj": "2026-10-10 18:00"
+ },
+ "highest-temperature-in-chicago-on-october-10-2026": {
+  "temp": 81.0,
+  "peak_bj": "2026-10-11 04:51"
+ },
+ "highest-temperature-in-chongqing-on-october-10-2026": {
+  "temp": 22.0,
+  "peak_bj": "2026-10-10 18:00"
+ },
+ "highest-temperature-in-hong-kong-on-october-10-2026": {
+  "temp": 31.0,
+  "peak_bj": "2026-10-10 16:00"
+ },
+ "highest-temperature-in-houston-on-october-10-2026": {
+  "temp": 87.0,
+  "peak_bj": "2026-10-11 04:53"
+ },
+ "highest-temperature-in-miami-on-october-10-2026": {
+  "temp": 91.0,
+  "peak_bj": "2026-10-11 02:53"
+ },
+ "highest-temperature-in-munich-on-october-10-2026": {
+  "temp": 13.0,
+  "peak_bj": "2026-10-11 00:20"
+ },
+ "highest-temperature-in-qingdao-on-october-10-2026": {
+  "temp": 26.0,
+  "peak_bj": "2026-10-10 15:00"
+ },
+ "highest-temperature-in-seoul-on-october-10-2026": {
+  "temp": 24.0,
+  "peak_bj": "2026-10-10 13:30"
+ },
+ "highest-temperature-in-taipei-on-october-10-2026": {
+  "temp": 30.0,
+  "peak_bj": "2026-10-10 13:30"
+ },
+ "highest-temperature-in-tel-aviv-on-october-10-2026": {
+  "temp": 29.0,
+  "peak_bj": "2026-10-10 20:20"
+ },
+ "highest-temperature-in-wuhan-on-october-10-2026": {
+  "temp": 29.0,
+  "peak_bj": "2026-10-10 17:00"
  }
 }
