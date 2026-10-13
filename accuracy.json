@@ -1,8 +1,8 @@
 {
  "model": "METEO",
- "n": 2513,
+ "n": 2512,
  "mae": 0.88,
- "bias": -0.53,
+ "bias": -0.54,
  "rows": [
   {
    "city": "London",
@@ -32427,19 +32427,6 @@
    "peak_local": "11:00"
   },
   {
-   "city": "Cape Town",
-   "date": "2026-10-12",
-   "date_display": "10/12",
-   "snap_date": "2026-10-12",
-   "time": "13:30",
-   "local_hhmm": "07:30",
-   "hour": 13,
-   "meteo": 18,
-   "actual": 18.0,
-   "err": 0.0,
-   "peak_local": null
-  },
-  {
    "city": "Chicago",
    "date": "2026-10-12",
    "date_display": "10/12",
@@ -32873,7 +32860,7 @@
   },
   {
    "city": "Cape Town",
-   "n": 56,
+   "n": 55,
    "mae": 0.38,
    "periods": {
     "21-24": {
@@ -32893,8 +32880,8 @@
      "mae": 1.5
     },
     "12-15": {
-     "n": 7,
-     "mae": 1.14
+     "n": 6,
+     "mae": 1.33
     }
    },
    "best_period": "18-21"
