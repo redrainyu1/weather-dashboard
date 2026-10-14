@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 2546,
+ "n": 2547,
  "mae": 0.88,
  "bias": -0.54,
  "rows": [
@@ -33077,6 +33077,19 @@
    "peak_local": "17:00"
   },
   {
+   "city": "Nyc",
+   "date": "2026-10-13",
+   "date_display": "10/13",
+   "snap_date": "2026-10-13",
+   "time": "22:33",
+   "local_hhmm": "10:33",
+   "hour": 22,
+   "meteo": 72,
+   "actual": 73.0,
+   "err": -1.0,
+   "peak_local": "22:51"
+  },
+  {
    "city": "Panama City",
    "date": "2026-10-13",
    "date_display": "10/13",
@@ -34038,11 +34051,11 @@
   },
   {
    "city": "Nyc",
-   "n": 48,
+   "n": 49,
    "mae": 0.92,
    "periods": {
     "21-24": {
-     "n": 24,
+     "n": 25,
      "mae": 1.08
     },
     "其他": {
