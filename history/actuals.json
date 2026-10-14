@@ -11566,5 +11566,149 @@
  "highest-temperature-in-toronto-on-october-12-2026": {
   "temp": 22.0,
   "peak_bj": "2026-10-13 03:00"
+ },
+ "highest-temperature-in-amsterdam-on-october-13-2026": {
+  "temp": 20.0,
+  "peak_bj": "2026-10-13 21:55"
+ },
+ "highest-temperature-in-ankara-on-october-13-2026": {
+  "temp": 21.0,
+  "peak_bj": "2026-10-13 20:20"
+ },
+ "highest-temperature-in-atlanta-on-october-13-2026": {
+  "temp": 87.0,
+  "peak_bj": "2026-10-14 04:52"
+ },
+ "highest-temperature-in-austin-on-october-13-2026": {
+  "temp": 95.0,
+  "peak_bj": "2026-10-14 06:53"
+ },
+ "highest-temperature-in-beijing-on-october-13-2026": {
+  "temp": 23.0,
+  "peak_bj": "2026-10-13 14:30"
+ },
+ "highest-temperature-in-buenos-aires-on-october-13-2026": {
+  "temp": 19.0,
+  "peak_bj": "2026-10-14 04:00"
+ },
+ "highest-temperature-in-busan-on-october-13-2026": {
+  "temp": 26.0,
+  "peak_bj": "2026-10-13 13:41"
+ },
+ "highest-temperature-in-cape-town-on-october-13-2026": {
+  "temp": 21.0,
+  "peak_bj": "2026-10-13 21:00"
+ },
+ "highest-temperature-in-chengdu-on-october-13-2026": {
+  "temp": 29.0,
+  "peak_bj": "2026-10-13 16:00"
+ },
+ "highest-temperature-in-chicago-on-october-13-2026": {
+  "temp": 79.0,
+  "peak_bj": "2026-10-14 03:51"
+ },
+ "highest-temperature-in-chongqing-on-october-13-2026": {
+  "temp": 26.0,
+  "peak_bj": "2026-10-13 16:00"
+ },
+ "highest-temperature-in-dallas-on-october-13-2026": {
+  "temp": 95.0,
+  "peak_bj": "2026-10-14 04:53"
+ },
+ "highest-temperature-in-denver-on-october-13-2026": {
+  "temp": 65.0,
+  "peak_bj": "2026-10-14 05:58"
+ },
+ "highest-temperature-in-guangzhou-on-october-13-2026": {
+  "temp": 34.0,
+  "peak_bj": "2026-10-13 16:30"
+ },
+ "highest-temperature-in-houston-on-october-13-2026": {
+  "temp": 93.0,
+  "peak_bj": "2026-10-14 01:53"
+ },
+ "highest-temperature-in-istanbul-on-october-13-2026": {
+  "temp": 19.0,
+  "peak_bj": "2026-10-13 05:50"
+ },
+ "highest-temperature-in-karachi-on-october-13-2026": {
+  "temp": 38.0,
+  "peak_bj": "2026-10-13 17:30"
+ },
+ "highest-temperature-in-london-on-october-13-2026": {
+  "temp": 20.0,
+  "peak_bj": "2026-10-13 23:50"
+ },
+ "highest-temperature-in-los-angeles-on-october-13-2026": {
+  "temp": 73.0,
+  "peak_bj": "2026-10-14 03:53"
+ },
+ "highest-temperature-in-manila-on-october-13-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-10-13 12:00"
+ },
+ "highest-temperature-in-mexico-city-on-october-13-2026": {
+  "temp": 26.0,
+  "peak_bj": "2026-10-14 05:45"
+ },
+ "highest-temperature-in-miami-on-october-13-2026": {
+  "temp": 89.0,
+  "peak_bj": "2026-10-14 03:53"
+ },
+ "highest-temperature-in-milan-on-october-13-2026": {
+  "temp": 21.0,
+  "peak_bj": "2026-10-13 22:20"
+ },
+ "highest-temperature-in-munich-on-october-13-2026": {
+  "temp": 15.0,
+  "peak_bj": "2026-10-13 22:20"
+ },
+ "highest-temperature-in-panama-city-on-october-13-2026": {
+  "temp": 30.0,
+  "peak_bj": "2026-10-14 04:00"
+ },
+ "highest-temperature-in-paris-on-october-13-2026": {
+  "temp": 24.0,
+  "peak_bj": "2026-10-13 22:00"
+ },
+ "highest-temperature-in-san-francisco-on-october-13-2026": {
+  "temp": 75.0,
+  "peak_bj": "2026-10-14 05:56"
+ },
+ "highest-temperature-in-sao-paulo-on-october-13-2026": {
+  "temp": 25.0,
+  "peak_bj": "2026-10-13 23:00"
+ },
+ "highest-temperature-in-seattle-on-october-13-2026": {
+  "temp": 61.0,
+  "peak_bj": "2026-10-14 06:53"
+ },
+ "highest-temperature-in-seoul-on-october-13-2026": {
+  "temp": 21.0,
+  "peak_bj": "2026-10-13 16:00"
+ },
+ "highest-temperature-in-shenzhen-on-october-13-2026": {
+  "temp": 32.0,
+  "peak_bj": "2026-10-13 14:00"
+ },
+ "highest-temperature-in-singapore-on-october-13-2026": {
+  "temp": 33.0,
+  "peak_bj": "2026-10-13 12:30"
+ },
+ "highest-temperature-in-taipei-on-october-13-2026": {
+  "temp": 31.0,
+  "peak_bj": "2026-10-13 14:00"
+ },
+ "highest-temperature-in-tel-aviv-on-october-13-2026": {
+  "temp": 30.0,
+  "peak_bj": "2026-10-13 17:50"
+ },
+ "highest-temperature-in-toronto-on-october-13-2026": {
+  "temp": 28.0,
+  "peak_bj": "2026-10-14 05:00"
+ },
+ "highest-temperature-in-wuhan-on-october-13-2026": {
+  "temp": 27.0,
+  "peak_bj": "2026-10-13 16:00"
  }
 }
