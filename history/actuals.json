@@ -11966,5 +11966,25 @@
  "highest-temperature-in-wuhan-on-october-15-2026": {
   "temp": 23.0,
   "peak_bj": "2026-10-15 00:00"
+ },
+ "highest-temperature-in-chicago-on-october-15-2026": {
+  "temp": 67.0,
+  "peak_bj": "2026-10-16 10:17"
+ },
+ "highest-temperature-in-los-angeles-on-october-15-2026": {
+  "temp": 87.0,
+  "peak_bj": "2026-10-16 03:53"
+ },
+ "highest-temperature-in-san-francisco-on-october-15-2026": {
+  "temp": 81.0,
+  "peak_bj": "2026-10-16 07:56"
+ },
+ "highest-temperature-in-seattle-on-october-15-2026": {
+  "temp": 67.0,
+  "peak_bj": "2026-10-16 07:53"
+ },
+ "highest-temperature-in-toronto-on-october-15-2026": {
+  "temp": 12.0,
+  "peak_bj": "2026-10-16 11:00"
  }
 }
