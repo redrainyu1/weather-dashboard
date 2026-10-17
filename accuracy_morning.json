@@ -1,8 +1,8 @@
 {
  "model": "METEO",
- "n": 1569,
+ "n": 1577,
  "mae": 0.9,
- "bias": -0.47,
+ "bias": -0.48,
  "rows": [
   {
    "city": "Amsterdam",
@@ -20400,17 +20400,121 @@
    "actual": 29.0,
    "err": 0.0,
    "peak_local": "13:00"
+  },
+  {
+   "city": "Amsterdam",
+   "date": "2026-10-16",
+   "date_display": "10/16",
+   "snap_date": "2026-10-16",
+   "time": "09:39",
+   "local_hhmm": "03:39",
+   "hour": 9,
+   "meteo": 18,
+   "actual": 19.0,
+   "err": -1.0,
+   "peak_local": "12:55"
+  },
+  {
+   "city": "Beijing",
+   "date": "2026-10-16",
+   "date_display": "10/16",
+   "snap_date": "2026-10-16",
+   "time": "09:39",
+   "local_hhmm": "09:39",
+   "hour": 9,
+   "meteo": 19,
+   "actual": 20.0,
+   "err": -1.0,
+   "peak_local": "10:30"
+  },
+  {
+   "city": "Busan",
+   "date": "2026-10-16",
+   "date_display": "10/16",
+   "snap_date": "2026-10-16",
+   "time": "09:39",
+   "local_hhmm": "10:39",
+   "hour": 9,
+   "meteo": 25,
+   "actual": 25.0,
+   "err": 0.0,
+   "peak_local": "15:00"
+  },
+  {
+   "city": "Cape Town",
+   "date": "2026-10-16",
+   "date_display": "10/16",
+   "snap_date": "2026-10-16",
+   "time": "09:39",
+   "local_hhmm": "03:39",
+   "hour": 9,
+   "meteo": 21,
+   "actual": 22.0,
+   "err": -1.0,
+   "peak_local": "15:00"
+  },
+  {
+   "city": "Chengdu",
+   "date": "2026-10-16",
+   "date_display": "10/16",
+   "snap_date": "2026-10-16",
+   "time": "09:39",
+   "local_hhmm": "09:39",
+   "hour": 9,
+   "meteo": 21,
+   "actual": 21.0,
+   "err": 0.0,
+   "peak_local": "18:00"
+  },
+  {
+   "city": "Chongqing",
+   "date": "2026-10-16",
+   "date_display": "10/16",
+   "snap_date": "2026-10-16",
+   "time": "09:39",
+   "local_hhmm": "09:39",
+   "hour": 9,
+   "meteo": 24,
+   "actual": 24.0,
+   "err": 0.0,
+   "peak_local": "17:00"
+  },
+  {
+   "city": "Seoul",
+   "date": "2026-10-16",
+   "date_display": "10/16",
+   "snap_date": "2026-10-16",
+   "time": "09:39",
+   "local_hhmm": "10:39",
+   "hour": 9,
+   "meteo": 22,
+   "actual": 23.0,
+   "err": -1.0,
+   "peak_local": "14:00"
+  },
+  {
+   "city": "Taipei",
+   "date": "2026-10-16",
+   "date_display": "10/16",
+   "snap_date": "2026-10-16",
+   "time": "09:39",
+   "local_hhmm": "09:39",
+   "hour": 9,
+   "meteo": 31,
+   "actual": 33.0,
+   "err": -2.0,
+   "peak_local": "13:30"
   }
  ],
  "cities": [
   {
    "city": "Amsterdam",
-   "n": 56,
+   "n": 57,
    "mae": 0.68,
    "periods": {
     "09-12": {
-     "n": 49,
-     "mae": 0.67
+     "n": 50,
+     "mae": 0.68
     },
     "06-09": {
      "n": 7,
@@ -20449,12 +20553,12 @@
   },
   {
    "city": "Beijing",
-   "n": 56,
+   "n": 57,
    "mae": 0.68,
    "periods": {
     "09-12": {
-     "n": 49,
-     "mae": 0.67
+     "n": 50,
+     "mae": 0.68
     },
     "06-09": {
      "n": 7,
@@ -20477,12 +20581,12 @@
   },
   {
    "city": "Busan",
-   "n": 55,
+   "n": 56,
    "mae": 0.29,
    "periods": {
     "09-12": {
-     "n": 33,
-     "mae": 0.33
+     "n": 34,
+     "mae": 0.32
     },
     "06-09": {
      "n": 22,
@@ -20493,11 +20597,11 @@
   },
   {
    "city": "Cape Town",
-   "n": 55,
-   "mae": 0.85,
+   "n": 56,
+   "mae": 0.86,
    "periods": {
     "09-12": {
-     "n": 49,
+     "n": 50,
      "mae": 0.86
     },
     "06-09": {
@@ -20509,12 +20613,12 @@
   },
   {
    "city": "Chengdu",
-   "n": 55,
-   "mae": 0.33,
+   "n": 56,
+   "mae": 0.32,
    "periods": {
     "09-12": {
-     "n": 49,
-     "mae": 0.35
+     "n": 50,
+     "mae": 0.34
     },
     "06-09": {
      "n": 6,
@@ -20537,11 +20641,11 @@
   },
   {
    "city": "Chongqing",
-   "n": 46,
-   "mae": 0.41,
+   "n": 47,
+   "mae": 0.4,
    "periods": {
     "09-12": {
-     "n": 39,
+     "n": 40,
      "mae": 0.38
     },
     "06-09": {
@@ -20897,12 +21001,12 @@
   },
   {
    "city": "Seoul",
-   "n": 41,
-   "mae": 0.49,
+   "n": 42,
+   "mae": 0.5,
    "periods": {
     "09-12": {
-     "n": 30,
-     "mae": 0.53
+     "n": 31,
+     "mae": 0.55
     },
     "06-09": {
      "n": 11,
@@ -20961,12 +21065,12 @@
   },
   {
    "city": "Taipei",
-   "n": 41,
-   "mae": 1.63,
+   "n": 42,
+   "mae": 1.64,
    "periods": {
     "09-12": {
-     "n": 25,
-     "mae": 1.72
+     "n": 26,
+     "mae": 1.73
     },
     "06-09": {
      "n": 16,
