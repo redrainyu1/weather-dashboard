@@ -12394,5 +12394,13 @@
  "highest-temperature-in-toronto-on-october-19-2026": {
   "temp": 21.0,
   "peak_bj": "2026-10-20 04:00"
+ },
+ "highest-temperature-in-atlanta-on-october-20-2026": {
+  "temp": 75.0,
+  "peak_bj": "2026-10-21 04:52"
+ },
+ "highest-temperature-in-chicago-on-october-20-2026": {
+  "temp": 69.0,
+  "peak_bj": "2026-10-21 04:51"
  }
 }
