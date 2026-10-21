@@ -12422,5 +12422,25 @@
  "highest-temperature-in-seattle-on-october-20-2026": {
   "temp": 63.0,
   "peak_bj": "2026-10-21 06:53"
+ },
+ "highest-temperature-in-amsterdam-on-october-20-2026": {
+  "temp": 12.0,
+  "peak_bj": "2026-10-20 22:55"
+ },
+ "highest-temperature-in-chongqing-on-october-20-2026": {
+  "temp": 20.0,
+  "peak_bj": "2026-10-20 14:00"
+ },
+ "highest-temperature-in-dallas-on-october-20-2026": {
+  "temp": 79.0,
+  "peak_bj": "2026-10-21 05:53"
+ },
+ "highest-temperature-in-guangzhou-on-october-20-2026": {
+  "temp": 35.0,
+  "peak_bj": "2026-10-20 14:00"
+ },
+ "highest-temperature-in-paris-on-october-20-2026": {
+  "temp": 14.0,
+  "peak_bj": "2026-10-20 21:30"
  }
 }

@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 1597,
+ "n": 1600,
  "mae": 0.89,
  "bias": -0.47,
  "rows": [
@@ -20764,17 +20764,56 @@
    "actual": 27.0,
    "err": 0.0,
    "peak_local": "13:30"
+  },
+  {
+   "city": "Amsterdam",
+   "date": "2026-10-20",
+   "date_display": "10/20",
+   "snap_date": "2026-10-20",
+   "time": "11:20",
+   "local_hhmm": "05:20",
+   "hour": 11,
+   "meteo": 12,
+   "actual": 12.0,
+   "err": 0.0,
+   "peak_local": "16:55"
+  },
+  {
+   "city": "Chongqing",
+   "date": "2026-10-20",
+   "date_display": "10/20",
+   "snap_date": "2026-10-20",
+   "time": "11:20",
+   "local_hhmm": "11:20",
+   "hour": 11,
+   "meteo": 20,
+   "actual": 20.0,
+   "err": 0.0,
+   "peak_local": "14:00"
+  },
+  {
+   "city": "Paris",
+   "date": "2026-10-20",
+   "date_display": "10/20",
+   "snap_date": "2026-10-20",
+   "time": "11:20",
+   "local_hhmm": "05:20",
+   "hour": 11,
+   "meteo": 14,
+   "actual": 14.0,
+   "err": 0.0,
+   "peak_local": "15:30"
   }
  ],
  "cities": [
   {
    "city": "Amsterdam",
-   "n": 60,
-   "mae": 0.65,
+   "n": 61,
+   "mae": 0.64,
    "periods": {
     "09-12": {
-     "n": 52,
-     "mae": 0.65
+     "n": 53,
+     "mae": 0.64
     },
     "06-09": {
      "n": 8,
@@ -20901,12 +20940,12 @@
   },
   {
    "city": "Chongqing",
-   "n": 47,
+   "n": 48,
    "mae": 0.4,
    "periods": {
     "09-12": {
-     "n": 40,
-     "mae": 0.38
+     "n": 41,
+     "mae": 0.37
     },
     "06-09": {
      "n": 7,
@@ -21193,12 +21232,12 @@
   },
   {
    "city": "Paris",
-   "n": 41,
-   "mae": 0.76,
+   "n": 42,
+   "mae": 0.74,
    "periods": {
     "09-12": {
-     "n": 37,
-     "mae": 0.73
+     "n": 38,
+     "mae": 0.71
     },
     "06-09": {
      "n": 4,
