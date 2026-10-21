@@ -12402,5 +12402,25 @@
  "highest-temperature-in-chicago-on-october-20-2026": {
   "temp": 69.0,
   "peak_bj": "2026-10-21 04:51"
+ },
+ "highest-temperature-in-austin-on-october-20-2026": {
+  "temp": 83.0,
+  "peak_bj": "2026-10-21 05:53"
+ },
+ "highest-temperature-in-denver-on-october-20-2026": {
+  "temp": 71.0,
+  "peak_bj": "2026-10-21 05:58"
+ },
+ "highest-temperature-in-houston-on-october-20-2026": {
+  "temp": 83.0,
+  "peak_bj": "2026-10-21 05:53"
+ },
+ "highest-temperature-in-san-francisco-on-october-20-2026": {
+  "temp": 67.0,
+  "peak_bj": "2026-10-21 06:56"
+ },
+ "highest-temperature-in-seattle-on-october-20-2026": {
+  "temp": 63.0,
+  "peak_bj": "2026-10-21 06:53"
  }
 }
