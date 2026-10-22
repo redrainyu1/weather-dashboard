@@ -12442,5 +12442,29 @@
  "highest-temperature-in-paris-on-october-20-2026": {
   "temp": 14.0,
   "peak_bj": "2026-10-20 21:30"
+ },
+ "highest-temperature-in-atlanta-on-october-21-2026": {
+  "temp": 75.0,
+  "peak_bj": "2026-10-22 04:52"
+ },
+ "highest-temperature-in-busan-on-october-21-2026": {
+  "temp": 22.0,
+  "peak_bj": "2026-10-21 12:00"
+ },
+ "highest-temperature-in-chicago-on-october-21-2026": {
+  "temp": 71.0,
+  "peak_bj": "2026-10-22 04:51"
+ },
+ "highest-temperature-in-miami-on-october-21-2026": {
+  "temp": 85.0,
+  "peak_bj": "2026-10-22 02:53"
+ },
+ "highest-temperature-in-milan-on-october-21-2026": {
+  "temp": 18.0,
+  "peak_bj": "2026-10-21 20:20"
+ },
+ "highest-temperature-in-nyc-on-october-21-2026": {
+  "temp": 63.0,
+  "peak_bj": "2026-10-22 04:51"
  }
 }
