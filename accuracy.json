@@ -35414,7 +35414,7 @@
    "meteo": 22,
    "actual": 22.0,
    "err": 0.0,
-   "peak_local": null
+   "peak_local": "16:00"
   },
   {
    "city": "Guangzhou",
