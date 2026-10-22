@@ -12466,5 +12466,21 @@
  "highest-temperature-in-nyc-on-october-21-2026": {
   "temp": 63.0,
   "peak_bj": "2026-10-22 04:51"
+ },
+ "highest-temperature-in-austin-on-october-21-2026": {
+  "temp": 85.0,
+  "peak_bj": "2026-10-22 05:53"
+ },
+ "highest-temperature-in-dallas-on-october-21-2026": {
+  "temp": 83.0,
+  "peak_bj": "2026-10-22 04:53"
+ },
+ "highest-temperature-in-denver-on-october-21-2026": {
+  "temp": 77.0,
+  "peak_bj": "2026-10-22 04:58"
+ },
+ "highest-temperature-in-los-angeles-on-october-21-2026": {
+  "temp": 73.0,
+  "peak_bj": "2026-10-22 01:53"
  }
 }
