@@ -12550,5 +12550,25 @@
  "highest-temperature-in-warsaw-on-october-21-2026": {
   "temp": 16.0,
   "peak_bj": "2026-10-21 22:00"
+ },
+ "highest-temperature-in-beijing-on-october-21-2026": {
+  "temp": 17.0,
+  "peak_bj": "2026-10-21 16:36"
+ },
+ "highest-temperature-in-chongqing-on-october-21-2026": {
+  "temp": 22.0,
+  "peak_bj": "2026-10-21 16:00"
+ },
+ "highest-temperature-in-guangzhou-on-october-21-2026": {
+  "temp": 35.0,
+  "peak_bj": "2026-10-21 13:30"
+ },
+ "highest-temperature-in-moscow-on-october-21-2026": {
+  "temp": 12.0,
+  "peak_bj": "2026-10-21 20:00"
+ },
+ "highest-temperature-in-toronto-on-october-21-2026": {
+  "temp": 15.0,
+  "peak_bj": "2026-10-22 05:00"
  }
 }

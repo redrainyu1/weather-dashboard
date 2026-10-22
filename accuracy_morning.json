@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 1609,
+ "n": 1612,
  "mae": 0.89,
  "bias": -0.48,
  "rows": [
@@ -20909,6 +20909,19 @@
    "peak_local": "15:20"
   },
   {
+   "city": "Beijing",
+   "date": "2026-10-21",
+   "date_display": "10/21",
+   "snap_date": "2026-10-21",
+   "time": "06:30",
+   "local_hhmm": "06:30",
+   "hour": 6,
+   "meteo": 16,
+   "actual": 17.0,
+   "err": -1.0,
+   "peak_local": "16:36"
+  },
+  {
    "city": "Busan",
    "date": "2026-10-21",
    "date_display": "10/21",
@@ -20920,6 +20933,32 @@
    "actual": 22.0,
    "err": 0.0,
    "peak_local": "13:00"
+  },
+  {
+   "city": "Chongqing",
+   "date": "2026-10-21",
+   "date_display": "10/21",
+   "snap_date": "2026-10-21",
+   "time": "06:30",
+   "local_hhmm": "06:30",
+   "hour": 6,
+   "meteo": 21,
+   "actual": 22.0,
+   "err": -1.0,
+   "peak_local": "16:00"
+  },
+  {
+   "city": "Moscow",
+   "date": "2026-10-21",
+   "date_display": "10/21",
+   "snap_date": "2026-10-21",
+   "time": "06:30",
+   "local_hhmm": "01:30",
+   "hour": 6,
+   "meteo": 11,
+   "actual": 12.0,
+   "err": -1.0,
+   "peak_local": "15:00"
   }
  ],
  "cities": [
@@ -20969,7 +21008,7 @@
   },
   {
    "city": "Beijing",
-   "n": 61,
+   "n": 62,
    "mae": 0.69,
    "periods": {
     "09-12": {
@@ -20977,8 +21016,8 @@
      "mae": 0.68
     },
     "06-09": {
-     "n": 8,
-     "mae": 0.75
+     "n": 9,
+     "mae": 0.78
     }
    },
    "best_period": "09-12"
@@ -21057,16 +21096,16 @@
   },
   {
    "city": "Chongqing",
-   "n": 48,
-   "mae": 0.4,
+   "n": 49,
+   "mae": 0.41,
    "periods": {
     "09-12": {
      "n": 41,
      "mae": 0.37
     },
     "06-09": {
-     "n": 7,
-     "mae": 0.57
+     "n": 8,
+     "mae": 0.62
     }
    },
    "best_period": "09-12"
@@ -21305,15 +21344,15 @@
   },
   {
    "city": "Moscow",
-   "n": 39,
-   "mae": 1.03,
+   "n": 40,
+   "mae": 1.02,
    "periods": {
     "09-12": {
      "n": 35,
      "mae": 1.03
     },
     "06-09": {
-     "n": 4,
+     "n": 5,
      "mae": 1.0
     }
    },
