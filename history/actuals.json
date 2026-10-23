@@ -12690,5 +12690,25 @@
  "highest-temperature-in-toronto-on-october-22-2026": {
   "temp": 18.0,
   "peak_bj": "2026-10-23 05:00"
+ },
+ "highest-temperature-in-cape-town-on-october-22-2026": {
+  "temp": 19.0,
+  "peak_bj": "2026-10-22 22:00"
+ },
+ "highest-temperature-in-chengdu-on-october-22-2026": {
+  "temp": 17.0,
+  "peak_bj": "2026-10-22 23:00"
+ },
+ "highest-temperature-in-chongqing-on-october-22-2026": {
+  "temp": 19.0,
+  "peak_bj": "2026-10-22 16:00"
+ },
+ "highest-temperature-in-guangzhou-on-october-22-2026": {
+  "temp": 30.0,
+  "peak_bj": "2026-10-22 15:30"
+ },
+ "highest-temperature-in-san-francisco-on-october-22-2026": {
+  "temp": 63.0,
+  "peak_bj": "2026-10-23 08:35"
  }
 }

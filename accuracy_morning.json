@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 1617,
+ "n": 1621,
  "mae": 0.89,
  "bias": -0.48,
  "rows": [
@@ -21024,6 +21024,58 @@
    "actual": 19.0,
    "err": 0.0,
    "peak_local": "15:00"
+  },
+  {
+   "city": "Cape Town",
+   "date": "2026-10-22",
+   "date_display": "10/22",
+   "snap_date": "2026-10-22",
+   "time": "09:37",
+   "local_hhmm": "03:37",
+   "hour": 9,
+   "meteo": 18,
+   "actual": 19.0,
+   "err": -1.0,
+   "peak_local": "16:00"
+  },
+  {
+   "city": "Chengdu",
+   "date": "2026-10-22",
+   "date_display": "10/22",
+   "snap_date": "2026-10-22",
+   "time": "09:37",
+   "local_hhmm": "09:37",
+   "hour": 9,
+   "meteo": 17,
+   "actual": 17.0,
+   "err": 0.0,
+   "peak_local": "23:00"
+  },
+  {
+   "city": "Chongqing",
+   "date": "2026-10-22",
+   "date_display": "10/22",
+   "snap_date": "2026-10-22",
+   "time": "09:37",
+   "local_hhmm": "09:37",
+   "hour": 9,
+   "meteo": 19,
+   "actual": 19.0,
+   "err": 0.0,
+   "peak_local": "16:00"
+  },
+  {
+   "city": "Guangzhou",
+   "date": "2026-10-22",
+   "date_display": "10/22",
+   "snap_date": "2026-10-22",
+   "time": "09:37",
+   "local_hhmm": "09:37",
+   "hour": 9,
+   "meteo": 30,
+   "actual": 30.0,
+   "err": 0.0,
+   "peak_local": "15:30"
   }
  ],
  "cities": [
@@ -21117,11 +21169,11 @@
   },
   {
    "city": "Cape Town",
-   "n": 60,
-   "mae": 0.88,
+   "n": 61,
+   "mae": 0.89,
    "periods": {
     "09-12": {
-     "n": 53,
+     "n": 54,
      "mae": 0.87
     },
     "06-09": {
@@ -21133,12 +21185,12 @@
   },
   {
    "city": "Chengdu",
-   "n": 60,
+   "n": 61,
    "mae": 0.3,
    "periods": {
     "09-12": {
-     "n": 53,
-     "mae": 0.32
+     "n": 54,
+     "mae": 0.31
     },
     "06-09": {
      "n": 7,
@@ -21161,12 +21213,12 @@
   },
   {
    "city": "Chongqing",
-   "n": 49,
-   "mae": 0.41,
+   "n": 50,
+   "mae": 0.4,
    "periods": {
     "09-12": {
-     "n": 41,
-     "mae": 0.37
+     "n": 42,
+     "mae": 0.36
     },
     "06-09": {
      "n": 8,
@@ -21177,12 +21229,12 @@
   },
   {
    "city": "Guangzhou",
-   "n": 44,
-   "mae": 0.93,
+   "n": 45,
+   "mae": 0.91,
    "periods": {
     "09-12": {
-     "n": 40,
-     "mae": 0.93
+     "n": 41,
+     "mae": 0.9
     },
     "06-09": {
      "n": 4,
