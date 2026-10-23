@@ -12570,5 +12570,77 @@
  "highest-temperature-in-toronto-on-october-21-2026": {
   "temp": 15.0,
   "peak_bj": "2026-10-22 05:00"
+ },
+ "highest-temperature-in-amsterdam-on-october-22-2026": {
+  "temp": 14.0,
+  "peak_bj": "2026-10-22 22:25"
+ },
+ "highest-temperature-in-ankara-on-october-22-2026": {
+  "temp": 20.0,
+  "peak_bj": "2026-10-22 20:50"
+ },
+ "highest-temperature-in-atlanta-on-october-22-2026": {
+  "temp": 75.0,
+  "peak_bj": "2026-10-23 04:52"
+ },
+ "highest-temperature-in-austin-on-october-22-2026": {
+  "temp": 87.0,
+  "peak_bj": "2026-10-23 04:53"
+ },
+ "highest-temperature-in-beijing-on-october-22-2026": {
+  "temp": 17.0,
+  "peak_bj": "2026-10-22 15:30"
+ },
+ "highest-temperature-in-busan-on-october-22-2026": {
+  "temp": 19.0,
+  "peak_bj": "2026-10-22 14:00"
+ },
+ "highest-temperature-in-chicago-on-october-22-2026": {
+  "temp": 73.0,
+  "peak_bj": "2026-10-23 04:51"
+ },
+ "highest-temperature-in-dallas-on-october-22-2026": {
+  "temp": 83.0,
+  "peak_bj": "2026-10-23 04:53"
+ },
+ "highest-temperature-in-houston-on-october-22-2026": {
+  "temp": 85.0,
+  "peak_bj": "2026-10-23 04:53"
+ },
+ "highest-temperature-in-kuala-lumpur-on-october-22-2026": {
+  "temp": 34.0,
+  "peak_bj": "2026-10-22 13:30"
+ },
+ "highest-temperature-in-madrid-on-october-22-2026": {
+  "temp": 20.0,
+  "peak_bj": "2026-10-23 00:00"
+ },
+ "highest-temperature-in-mexico-city-on-october-22-2026": {
+  "temp": 21.0,
+  "peak_bj": "2026-10-23 05:40"
+ },
+ "highest-temperature-in-milan-on-october-22-2026": {
+  "temp": 19.0,
+  "peak_bj": "2026-10-22 22:50"
+ },
+ "highest-temperature-in-paris-on-october-22-2026": {
+  "temp": 16.0,
+  "peak_bj": "2026-10-22 23:00"
+ },
+ "highest-temperature-in-qingdao-on-october-22-2026": {
+  "temp": 18.0,
+  "peak_bj": "2026-10-22 14:00"
+ },
+ "highest-temperature-in-seattle-on-october-22-2026": {
+  "temp": 61.0,
+  "peak_bj": "2026-10-23 05:53"
+ },
+ "highest-temperature-in-tel-aviv-on-october-22-2026": {
+  "temp": 30.0,
+  "peak_bj": "2026-10-22 20:50"
+ },
+ "highest-temperature-in-warsaw-on-october-22-2026": {
+  "temp": 14.0,
+  "peak_bj": "2026-10-22 21:00"
  }
 }

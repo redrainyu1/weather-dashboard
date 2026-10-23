@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 1612,
+ "n": 1616,
  "mae": 0.89,
  "bias": -0.48,
  "rows": [
@@ -20959,17 +20959,69 @@
    "actual": 12.0,
    "err": -1.0,
    "peak_local": "15:00"
+  },
+  {
+   "city": "Amsterdam",
+   "date": "2026-10-22",
+   "date_display": "10/22",
+   "snap_date": "2026-10-22",
+   "time": "09:37",
+   "local_hhmm": "03:37",
+   "hour": 9,
+   "meteo": 12,
+   "actual": 14.0,
+   "err": -2.0,
+   "peak_local": "16:25"
+  },
+  {
+   "city": "Ankara",
+   "date": "2026-10-22",
+   "date_display": "10/22",
+   "snap_date": "2026-10-22",
+   "time": "09:37",
+   "local_hhmm": "04:37",
+   "hour": 9,
+   "meteo": 19,
+   "actual": 20.0,
+   "err": -1.0,
+   "peak_local": "15:50"
+  },
+  {
+   "city": "Beijing",
+   "date": "2026-10-22",
+   "date_display": "10/22",
+   "snap_date": "2026-10-22",
+   "time": "09:37",
+   "local_hhmm": "09:37",
+   "hour": 9,
+   "meteo": 17,
+   "actual": 17.0,
+   "err": 0.0,
+   "peak_local": "15:30"
+  },
+  {
+   "city": "Busan",
+   "date": "2026-10-22",
+   "date_display": "10/22",
+   "snap_date": "2026-10-22",
+   "time": "09:37",
+   "local_hhmm": "10:37",
+   "hour": 9,
+   "meteo": 19,
+   "actual": 19.0,
+   "err": 0.0,
+   "peak_local": "15:00"
   }
  ],
  "cities": [
   {
    "city": "Amsterdam",
-   "n": 62,
-   "mae": 0.63,
+   "n": 63,
+   "mae": 0.65,
    "periods": {
     "09-12": {
-     "n": 53,
-     "mae": 0.64
+     "n": 54,
+     "mae": 0.67
     },
     "06-09": {
      "n": 9,
@@ -20980,11 +21032,11 @@
   },
   {
    "city": "Ankara",
-   "n": 61,
+   "n": 62,
    "mae": 0.98,
    "periods": {
     "09-12": {
-     "n": 53,
+     "n": 54,
      "mae": 0.91
     },
     "06-09": {
@@ -21008,12 +21060,12 @@
   },
   {
    "city": "Beijing",
-   "n": 62,
-   "mae": 0.69,
+   "n": 63,
+   "mae": 0.68,
    "periods": {
     "09-12": {
-     "n": 53,
-     "mae": 0.68
+     "n": 54,
+     "mae": 0.67
     },
     "06-09": {
      "n": 9,
@@ -21036,12 +21088,12 @@
   },
   {
    "city": "Busan",
-   "n": 60,
-   "mae": 0.27,
+   "n": 61,
+   "mae": 0.26,
    "periods": {
     "09-12": {
-     "n": 36,
-     "mae": 0.31
+     "n": 37,
+     "mae": 0.3
     },
     "06-09": {
      "n": 24,
