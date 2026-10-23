@@ -12710,5 +12710,9 @@
  "highest-temperature-in-san-francisco-on-october-22-2026": {
   "temp": 63.0,
   "peak_bj": "2026-10-23 08:35"
+ },
+ "highest-temperature-in-munich-on-october-22-2026": {
+  "temp": 13.0,
+  "peak_bj": "2026-10-22 22:20"
  }
 }
