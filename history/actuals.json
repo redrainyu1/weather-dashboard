@@ -12714,5 +12714,73 @@
  "highest-temperature-in-munich-on-october-22-2026": {
   "temp": 13.0,
   "peak_bj": "2026-10-22 22:20"
+ },
+ "highest-temperature-in-amsterdam-on-october-23-2026": {
+  "temp": 13.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-ankara-on-october-23-2026": {
+  "temp": 22.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-atlanta-on-october-23-2026": {
+  "temp": 73.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-austin-on-october-23-2026": {
+  "temp": 87.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-beijing-on-october-23-2026": {
+  "temp": 16.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-buenos-aires-on-october-23-2026": {
+  "temp": 24.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-busan-on-october-23-2026": {
+  "temp": 22.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-cape-town-on-october-23-2026": {
+  "temp": 24.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-chengdu-on-october-23-2026": {
+  "temp": 20.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-chicago-on-october-23-2026": {
+  "temp": 71.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-chongqing-on-october-23-2026": {
+  "temp": 21.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-dallas-on-october-23-2026": {
+  "temp": 85.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-denver-on-october-23-2026": {
+  "temp": 77.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-guangzhou-on-october-23-2026": {
+  "temp": 32.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-houston-on-october-23-2026": {
+  "temp": 87.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-paris-on-october-23-2026": {
+  "temp": 14.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-tokyo-on-october-23-2026": {
+  "temp": 20.0,
+  "peak_bj": null
  }
 }
