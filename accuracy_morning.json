@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 1637,
+ "n": 1638,
  "mae": 0.89,
  "bias": -0.48,
  "rows": [
@@ -20649,6 +20649,19 @@
    "peak_local": "10:02"
   },
   {
+   "city": "Cape Town",
+   "date": "2026-10-18",
+   "date_display": "10/18",
+   "snap_date": "2026-10-18",
+   "time": "08:50",
+   "local_hhmm": "02:50",
+   "hour": 8,
+   "meteo": 16,
+   "actual": 16.0,
+   "err": 0.0,
+   "peak_local": "07:28"
+  },
+  {
    "city": "Chengdu",
    "date": "2026-10-18",
    "date_display": "10/18",
@@ -21377,16 +21390,16 @@
   },
   {
    "city": "Cape Town",
-   "n": 63,
-   "mae": 0.89,
+   "n": 64,
+   "mae": 0.88,
    "periods": {
     "09-12": {
      "n": 54,
      "mae": 0.87
     },
     "06-09": {
-     "n": 9,
-     "mae": 1.0
+     "n": 10,
+     "mae": 0.9
     }
    },
    "best_period": "09-12"

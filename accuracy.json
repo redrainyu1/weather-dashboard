@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 2813,
+ "n": 2814,
  "mae": 0.86,
  "bias": -0.54,
  "rows": [
@@ -34728,6 +34728,19 @@
    "peak_local": "16:50"
   },
   {
+   "city": "Cape Town",
+   "date": "2026-10-18",
+   "date_display": "10/18",
+   "snap_date": "2026-10-18",
+   "time": "08:50",
+   "local_hhmm": "02:50",
+   "hour": 8,
+   "meteo": 16,
+   "actual": 16.0,
+   "err": 0.0,
+   "peak_local": "07:28"
+  },
+  {
    "city": "Atlanta",
    "date": "2026-10-18",
    "date_display": "10/18",
@@ -36781,8 +36794,8 @@
   },
   {
    "city": "Cape Town",
-   "n": 66,
-   "mae": 0.32,
+   "n": 67,
+   "mae": 0.31,
    "periods": {
     "21-24": {
      "n": 2,
@@ -36803,6 +36816,10 @@
     "12-15": {
      "n": 8,
      "mae": 1.0
+    },
+    "06-09": {
+     "n": 1,
+     "mae": 0.0
     }
    },
    "best_period": "18-21"

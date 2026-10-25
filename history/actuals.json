@@ -12854,5 +12854,9 @@
  "highest-temperature-in-sao-paulo-on-october-24-2026": {
   "temp": 26.0,
   "peak_bj": null
+ },
+ "highest-temperature-in-cape-town-on-october-18-2026": {
+  "temp": 16.0,
+  "peak_bj": "2026-10-18 13:28"
  }
 }
