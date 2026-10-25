@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 2811,
+ "n": 2813,
  "mae": 0.86,
  "bias": -0.54,
  "rows": [
@@ -36546,6 +36546,32 @@
    "actual": 83.0,
    "err": -1.0,
    "peak_local": null
+  },
+  {
+   "city": "Denver",
+   "date": "2026-10-24",
+   "date_display": "10/24",
+   "snap_date": "2026-10-24",
+   "time": "23:37",
+   "local_hhmm": "09:37",
+   "hour": 23,
+   "meteo": 57,
+   "actual": 59.0,
+   "err": -2.0,
+   "peak_local": null
+  },
+  {
+   "city": "Sao Paulo",
+   "date": "2026-10-24",
+   "date_display": "10/24",
+   "snap_date": "2026-10-24",
+   "time": "01:34",
+   "local_hhmm": "14:34",
+   "hour": 1,
+   "meteo": 26,
+   "actual": 26.0,
+   "err": 0.0,
+   "peak_local": null
   }
  ],
  "cities": [
@@ -36895,12 +36921,12 @@
   },
   {
    "city": "Denver",
-   "n": 56,
-   "mae": 2.66,
+   "n": 57,
+   "mae": 2.65,
    "periods": {
     "21-24": {
-     "n": 23,
-     "mae": 3.39
+     "n": 24,
+     "mae": 3.33
     },
     "其他": {
      "n": 26,
@@ -37631,8 +37657,8 @@
   },
   {
    "city": "Sao Paulo",
-   "n": 53,
-   "mae": 0.57,
+   "n": 54,
+   "mae": 0.56,
    "periods": {
     "21-24": {
      "n": 33,
@@ -37647,7 +37673,7 @@
      "mae": 1.0
     },
     "其他": {
-     "n": 2,
+     "n": 3,
      "mae": 0.0
     },
     "12-15": {
@@ -37659,7 +37685,7 @@
      "mae": 0.0
     }
    },
-   "best_period": "18-21"
+   "best_period": "其他"
   },
   {
    "city": "Seattle",

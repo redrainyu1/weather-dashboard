@@ -12846,5 +12846,13 @@
  "highest-temperature-in-helsinki-on-october-24-2026": {
   "temp": 12.0,
   "peak_bj": null
+ },
+ "highest-temperature-in-denver-on-october-24-2026": {
+  "temp": 59.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-sao-paulo-on-october-24-2026": {
+  "temp": 26.0,
+  "peak_bj": null
  }
 }
