@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 2840,
+ "n": 2867,
  "mae": 0.86,
  "bias": -0.54,
  "rows": [
@@ -36834,6 +36834,71 @@
    "peak_local": null
   },
   {
+   "city": "Beijing",
+   "date": "2026-10-26",
+   "date_display": "10/26",
+   "snap_date": "2026-10-26",
+   "time": "10:28",
+   "local_hhmm": "10:28",
+   "hour": 10,
+   "meteo": 18,
+   "actual": 19.0,
+   "err": -1.0,
+   "peak_local": null
+  },
+  {
+   "city": "Busan",
+   "date": "2026-10-26",
+   "date_display": "10/26",
+   "snap_date": "2026-10-26",
+   "time": "10:28",
+   "local_hhmm": "11:28",
+   "hour": 10,
+   "meteo": 21,
+   "actual": 21.0,
+   "err": 0.0,
+   "peak_local": null
+  },
+  {
+   "city": "Chengdu",
+   "date": "2026-10-26",
+   "date_display": "10/26",
+   "snap_date": "2026-10-26",
+   "time": "10:28",
+   "local_hhmm": "10:28",
+   "hour": 10,
+   "meteo": 20,
+   "actual": 20.0,
+   "err": 0.0,
+   "peak_local": null
+  },
+  {
+   "city": "Chongqing",
+   "date": "2026-10-26",
+   "date_display": "10/26",
+   "snap_date": "2026-10-26",
+   "time": "10:28",
+   "local_hhmm": "10:28",
+   "hour": 10,
+   "meteo": 21,
+   "actual": 21.0,
+   "err": 0.0,
+   "peak_local": null
+  },
+  {
+   "city": "Kuala Lumpur",
+   "date": "2026-10-26",
+   "date_display": "10/26",
+   "snap_date": "2026-10-26",
+   "time": "00:04",
+   "local_hhmm": "00:04",
+   "hour": 0,
+   "meteo": 30,
+   "actual": 32.0,
+   "err": -2.0,
+   "peak_local": null
+  },
+  {
    "city": "Los Angeles",
    "date": "2026-10-25",
    "date_display": "10/25",
@@ -36844,6 +36909,19 @@
    "meteo": 77,
    "actual": 77.0,
    "err": 0.0,
+   "peak_local": null
+  },
+  {
+   "city": "Manila",
+   "date": "2026-10-26",
+   "date_display": "10/26",
+   "snap_date": "2026-10-26",
+   "time": "00:04",
+   "local_hhmm": "00:04",
+   "hour": 0,
+   "meteo": 32,
+   "actual": 35.0,
+   "err": -3.0,
    "peak_local": null
   },
   {
@@ -36886,6 +36964,19 @@
    "peak_local": null
   },
   {
+   "city": "Qingdao",
+   "date": "2026-10-26",
+   "date_display": "10/26",
+   "snap_date": "2026-10-26",
+   "time": "00:04",
+   "local_hhmm": "00:04",
+   "hour": 0,
+   "meteo": 20,
+   "actual": 18.0,
+   "err": 2.0,
+   "peak_local": null
+  },
+  {
    "city": "San Francisco",
    "date": "2026-10-25",
    "date_display": "10/25",
@@ -36912,6 +37003,32 @@
    "peak_local": null
   },
   {
+   "city": "Shenzhen",
+   "date": "2026-10-26",
+   "date_display": "10/26",
+   "snap_date": "2026-10-26",
+   "time": "00:04",
+   "local_hhmm": "00:04",
+   "hour": 0,
+   "meteo": 30,
+   "actual": 30.0,
+   "err": 0.0,
+   "peak_local": null
+  },
+  {
+   "city": "Tokyo",
+   "date": "2026-10-26",
+   "date_display": "10/26",
+   "snap_date": "2026-10-26",
+   "time": "00:04",
+   "local_hhmm": "01:04",
+   "hour": 0,
+   "meteo": 21,
+   "actual": 21.0,
+   "err": 0.0,
+   "peak_local": null
+  },
+  {
    "city": "Seattle",
    "date": "2026-10-25",
    "date_display": "10/25",
@@ -36923,12 +37040,246 @@
    "actual": 59.0,
    "err": -4.0,
    "peak_local": null
+  },
+  {
+   "city": "Amsterdam",
+   "date": "2026-10-26",
+   "date_display": "10/26",
+   "snap_date": "2026-10-26",
+   "time": "16:57",
+   "local_hhmm": "09:57",
+   "hour": 16,
+   "meteo": 13,
+   "actual": 13.0,
+   "err": 0.0,
+   "peak_local": null
+  },
+  {
+   "city": "Ankara",
+   "date": "2026-10-26",
+   "date_display": "10/26",
+   "snap_date": "2026-10-26",
+   "time": "16:57",
+   "local_hhmm": "11:57",
+   "hour": 16,
+   "meteo": 19,
+   "actual": 20.0,
+   "err": -1.0,
+   "peak_local": null
+  },
+  {
+   "city": "Cape Town",
+   "date": "2026-10-26",
+   "date_display": "10/26",
+   "snap_date": "2026-10-26",
+   "time": "16:57",
+   "local_hhmm": "10:57",
+   "hour": 16,
+   "meteo": 21,
+   "actual": 21.0,
+   "err": 0.0,
+   "peak_local": null
+  },
+  {
+   "city": "Guangzhou",
+   "date": "2026-10-26",
+   "date_display": "10/26",
+   "snap_date": "2026-10-26",
+   "time": "10:28",
+   "local_hhmm": "10:28",
+   "hour": 10,
+   "meteo": 32,
+   "actual": 32.0,
+   "err": 0.0,
+   "peak_local": null
+  },
+  {
+   "city": "Shanghai",
+   "date": "2026-10-26",
+   "date_display": "10/26",
+   "snap_date": "2026-10-26",
+   "time": "10:28",
+   "local_hhmm": "10:28",
+   "hour": 10,
+   "meteo": 23,
+   "actual": 24.0,
+   "err": -1.0,
+   "peak_local": null
+  },
+  {
+   "city": "Atlanta",
+   "date": "2026-10-26",
+   "date_display": "10/26",
+   "snap_date": "2026-10-26",
+   "time": "21:34",
+   "local_hhmm": "09:34",
+   "hour": 21,
+   "meteo": 70,
+   "actual": 71.0,
+   "err": -1.0,
+   "peak_local": null
+  },
+  {
+   "city": "Austin",
+   "date": "2026-10-26",
+   "date_display": "10/26",
+   "snap_date": "2026-10-26",
+   "time": "00:46",
+   "local_hhmm": "11:46",
+   "hour": 0,
+   "meteo": 79,
+   "actual": 79.0,
+   "err": 0.0,
+   "peak_local": null
+  },
+  {
+   "city": "Buenos Aires",
+   "date": "2026-10-26",
+   "date_display": "10/26",
+   "snap_date": "2026-10-26",
+   "time": "21:34",
+   "local_hhmm": "10:34",
+   "hour": 21,
+   "meteo": 17,
+   "actual": 18.0,
+   "err": -1.0,
+   "peak_local": null
+  },
+  {
+   "city": "Chicago",
+   "date": "2026-10-26",
+   "date_display": "10/26",
+   "snap_date": "2026-10-26",
+   "time": "00:46",
+   "local_hhmm": "11:46",
+   "hour": 0,
+   "meteo": 63,
+   "actual": 63.0,
+   "err": 0.0,
+   "peak_local": null
+  },
+  {
+   "city": "Dallas",
+   "date": "2026-10-26",
+   "date_display": "10/26",
+   "snap_date": "2026-10-26",
+   "time": "00:46",
+   "local_hhmm": "11:46",
+   "hour": 0,
+   "meteo": 79,
+   "actual": 79.0,
+   "err": 0.0,
+   "peak_local": null
+  },
+  {
+   "city": "Denver",
+   "date": "2026-10-26",
+   "date_display": "10/26",
+   "snap_date": "2026-10-26",
+   "time": "21:34",
+   "local_hhmm": "07:34",
+   "hour": 21,
+   "meteo": 54,
+   "actual": 55.0,
+   "err": -1.0,
+   "peak_local": null
+  },
+  {
+   "city": "Houston",
+   "date": "2026-10-26",
+   "date_display": "10/26",
+   "snap_date": "2026-10-26",
+   "time": "21:34",
+   "local_hhmm": "08:34",
+   "hour": 21,
+   "meteo": 82,
+   "actual": 83.0,
+   "err": -1.0,
+   "peak_local": null
+  },
+  {
+   "city": "Los Angeles",
+   "date": "2026-10-26",
+   "date_display": "10/26",
+   "snap_date": "2026-10-26",
+   "time": "21:34",
+   "local_hhmm": "06:34",
+   "hour": 21,
+   "meteo": 77,
+   "actual": 77.0,
+   "err": 0.0,
+   "peak_local": null
+  },
+  {
+   "city": "Madrid",
+   "date": "2026-10-26",
+   "date_display": "10/26",
+   "snap_date": "2026-10-26",
+   "time": "21:34",
+   "local_hhmm": "14:34",
+   "hour": 21,
+   "meteo": 24,
+   "actual": 24.0,
+   "err": 0.0,
+   "peak_local": null
+  },
+  {
+   "city": "Miami",
+   "date": "2026-10-26",
+   "date_display": "10/26",
+   "snap_date": "2026-10-26",
+   "time": "21:34",
+   "local_hhmm": "09:34",
+   "hour": 21,
+   "meteo": 82,
+   "actual": 83.0,
+   "err": -1.0,
+   "peak_local": null
+  },
+  {
+   "city": "Munich",
+   "date": "2026-10-26",
+   "date_display": "10/26",
+   "snap_date": "2026-10-26",
+   "time": "21:34",
+   "local_hhmm": "14:34",
+   "hour": 21,
+   "meteo": 12,
+   "actual": 12.0,
+   "err": 0.0,
+   "peak_local": null
+  },
+  {
+   "city": "Nyc",
+   "date": "2026-10-26",
+   "date_display": "10/26",
+   "snap_date": "2026-10-26",
+   "time": "21:34",
+   "local_hhmm": "09:34",
+   "hour": 21,
+   "meteo": 72,
+   "actual": 71.0,
+   "err": 1.0,
+   "peak_local": null
+  },
+  {
+   "city": "Seattle",
+   "date": "2026-10-26",
+   "date_display": "10/26",
+   "snap_date": "2026-10-26",
+   "time": "21:34",
+   "local_hhmm": "06:34",
+   "hour": 21,
+   "meteo": 57,
+   "actual": 59.0,
+   "err": -2.0,
+   "peak_local": null
   }
  ],
  "cities": [
   {
    "city": "Amsterdam",
-   "n": 73,
+   "n": 74,
    "mae": 0.23,
    "periods": {
     "21-24": {
@@ -36948,8 +37299,8 @@
      "mae": 0.17
     },
     "15-18": {
-     "n": 22,
-     "mae": 0.41
+     "n": 23,
+     "mae": 0.39
     },
     "09-12": {
      "n": 1,
@@ -36964,16 +37315,16 @@
   },
   {
    "city": "Ankara",
-   "n": 69,
-   "mae": 0.28,
+   "n": 70,
+   "mae": 0.29,
    "periods": {
     "21-24": {
      "n": 4,
      "mae": 0.25
     },
     "15-18": {
-     "n": 33,
-     "mae": 0.36
+     "n": 34,
+     "mae": 0.38
     },
     "18-21": {
      "n": 27,
@@ -36992,11 +37343,11 @@
   },
   {
    "city": "Atlanta",
-   "n": 72,
+   "n": 73,
    "mae": 0.93,
    "periods": {
     "21-24": {
-     "n": 29,
+     "n": 30,
      "mae": 1.1
     },
     "其他": {
@@ -37016,16 +37367,16 @@
   },
   {
    "city": "Austin",
-   "n": 73,
-   "mae": 1.01,
+   "n": 74,
+   "mae": 1.0,
    "periods": {
     "21-24": {
      "n": 21,
      "mae": 1.38
     },
     "其他": {
-     "n": 47,
-     "mae": 0.66
+     "n": 48,
+     "mae": 0.65
     },
     "06-09": {
      "n": 1,
@@ -37044,7 +37395,7 @@
   },
   {
    "city": "Beijing",
-   "n": 67,
+   "n": 68,
    "mae": 0.57,
    "periods": {
     "12-15": {
@@ -37052,8 +37403,8 @@
      "mae": 0.41
     },
     "09-12": {
-     "n": 27,
-     "mae": 0.74
+     "n": 28,
+     "mae": 0.75
     },
     "其他": {
      "n": 3,
@@ -37076,12 +37427,12 @@
   },
   {
    "city": "Buenos Aires",
-   "n": 74,
+   "n": 75,
    "mae": 1.36,
    "periods": {
     "21-24": {
-     "n": 59,
-     "mae": 1.49
+     "n": 60,
+     "mae": 1.48
     },
     "其他": {
      "n": 8,
@@ -37100,16 +37451,16 @@
   },
   {
    "city": "Busan",
-   "n": 68,
-   "mae": 0.31,
+   "n": 69,
+   "mae": 0.3,
    "periods": {
     "21-24": {
      "n": 2,
      "mae": 2.0
     },
     "09-12": {
-     "n": 35,
-     "mae": 0.29
+     "n": 36,
+     "mae": 0.28
     },
     "06-09": {
      "n": 19,
@@ -37132,15 +37483,15 @@
   },
   {
    "city": "Cape Town",
-   "n": 68,
-   "mae": 0.31,
+   "n": 69,
+   "mae": 0.3,
    "periods": {
     "21-24": {
      "n": 2,
      "mae": 1.0
     },
     "15-18": {
-     "n": 41,
+     "n": 42,
      "mae": 0.17
     },
     "18-21": {
@@ -37164,7 +37515,7 @@
   },
   {
    "city": "Chengdu",
-   "n": 66,
+   "n": 67,
    "mae": 0.24,
    "periods": {
     "12-15": {
@@ -37172,8 +37523,8 @@
      "mae": 0.13
     },
     "09-12": {
-     "n": 21,
-     "mae": 0.38
+     "n": 22,
+     "mae": 0.36
     },
     "其他": {
      "n": 1,
@@ -37192,16 +37543,16 @@
   },
   {
    "city": "Chicago",
-   "n": 70,
-   "mae": 1.17,
+   "n": 71,
+   "mae": 1.15,
    "periods": {
     "21-24": {
      "n": 31,
      "mae": 1.39
     },
     "其他": {
-     "n": 34,
-     "mae": 0.85
+     "n": 35,
+     "mae": 0.83
     },
     "18-21": {
      "n": 2,
@@ -37216,8 +37567,8 @@
   },
   {
    "city": "Chongqing",
-   "n": 59,
-   "mae": 0.31,
+   "n": 60,
+   "mae": 0.3,
    "periods": {
     "12-15": {
      "n": 28,
@@ -37228,8 +37579,8 @@
      "mae": 0.25
     },
     "09-12": {
-     "n": 17,
-     "mae": 0.47
+     "n": 18,
+     "mae": 0.44
     },
     "15-18": {
      "n": 3,
@@ -37248,16 +37599,16 @@
   },
   {
    "city": "Dallas",
-   "n": 61,
-   "mae": 1.44,
+   "n": 62,
+   "mae": 1.42,
    "periods": {
     "21-24": {
      "n": 23,
      "mae": 1.65
     },
     "其他": {
-     "n": 27,
-     "mae": 0.78
+     "n": 28,
+     "mae": 0.75
     },
     "18-21": {
      "n": 5,
@@ -37276,12 +37627,12 @@
   },
   {
    "city": "Denver",
-   "n": 57,
-   "mae": 2.65,
+   "n": 58,
+   "mae": 2.62,
    "periods": {
     "21-24": {
-     "n": 24,
-     "mae": 3.33
+     "n": 25,
+     "mae": 3.24
     },
     "其他": {
      "n": 26,
@@ -37304,12 +37655,12 @@
   },
   {
    "city": "Guangzhou",
-   "n": 54,
-   "mae": 0.81,
+   "n": 55,
+   "mae": 0.8,
    "periods": {
     "09-12": {
-     "n": 31,
-     "mae": 0.84
+     "n": 32,
+     "mae": 0.81
     },
     "12-15": {
      "n": 14,
@@ -37392,12 +37743,12 @@
   },
   {
    "city": "Houston",
-   "n": 56,
-   "mae": 1.57,
+   "n": 57,
+   "mae": 1.56,
    "periods": {
     "21-24": {
-     "n": 28,
-     "mae": 2.32
+     "n": 29,
+     "mae": 2.28
     },
     "其他": {
      "n": 19,
@@ -37532,8 +37883,8 @@
   },
   {
    "city": "Kuala Lumpur",
-   "n": 48,
-   "mae": 0.75,
+   "n": 49,
+   "mae": 0.78,
    "periods": {
     "09-12": {
      "n": 21,
@@ -37552,7 +37903,7 @@
      "mae": 0.0
     },
     "其他": {
-     "n": 2,
+     "n": 3,
      "mae": 2.0
     }
    },
@@ -37592,12 +37943,12 @@
   },
   {
    "city": "Los Angeles",
-   "n": 54,
-   "mae": 1.41,
+   "n": 55,
+   "mae": 1.38,
    "periods": {
     "21-24": {
-     "n": 27,
-     "mae": 1.33
+     "n": 28,
+     "mae": 1.29
     },
     "其他": {
      "n": 19,
@@ -37648,12 +37999,12 @@
   },
   {
    "city": "Madrid",
-   "n": 56,
-   "mae": 0.66,
+   "n": 57,
+   "mae": 0.65,
    "periods": {
     "21-24": {
-     "n": 23,
-     "mae": 0.61
+     "n": 24,
+     "mae": 0.58
     },
     "其他": {
      "n": 1,
@@ -37684,8 +38035,8 @@
   },
   {
    "city": "Manila",
-   "n": 48,
-   "mae": 0.48,
+   "n": 49,
+   "mae": 0.53,
    "periods": {
     "09-12": {
      "n": 26,
@@ -37704,8 +38055,8 @@
      "mae": 0.0
     },
     "其他": {
-     "n": 4,
-     "mae": 1.0
+     "n": 5,
+     "mae": 1.4
     }
    },
    "best_period": "12-15"
@@ -37744,12 +38095,12 @@
   },
   {
    "city": "Miami",
-   "n": 55,
-   "mae": 1.58,
+   "n": 56,
+   "mae": 1.57,
    "periods": {
     "21-24": {
-     "n": 28,
-     "mae": 1.71
+     "n": 29,
+     "mae": 1.69
     },
     "其他": {
      "n": 8,
@@ -37840,12 +38191,12 @@
   },
   {
    "city": "Munich",
-   "n": 51,
-   "mae": 0.45,
+   "n": 52,
+   "mae": 0.44,
    "periods": {
     "21-24": {
-     "n": 10,
-     "mae": 0.1
+     "n": 11,
+     "mae": 0.09
     },
     "18-21": {
      "n": 21,
@@ -37872,11 +38223,11 @@
   },
   {
    "city": "Nyc",
-   "n": 56,
+   "n": 57,
    "mae": 0.95,
    "periods": {
     "21-24": {
-     "n": 27,
+     "n": 28,
      "mae": 1.07
     },
     "其他": {
@@ -37964,8 +38315,8 @@
   },
   {
    "city": "Qingdao",
-   "n": 49,
-   "mae": 1.47,
+   "n": 50,
+   "mae": 1.48,
    "periods": {
     "09-12": {
      "n": 24,
@@ -37976,8 +38327,8 @@
      "mae": 2.0
     },
     "其他": {
-     "n": 6,
-     "mae": 1.83
+     "n": 7,
+     "mae": 1.86
     },
     "12-15": {
      "n": 9,
@@ -38044,12 +38395,12 @@
   },
   {
    "city": "Seattle",
-   "n": 56,
+   "n": 57,
    "mae": 1.75,
    "periods": {
     "21-24": {
-     "n": 17,
-     "mae": 1.76
+     "n": 18,
+     "mae": 1.78
     },
     "其他": {
      "n": 31,
@@ -38100,16 +38451,16 @@
   },
   {
    "city": "Shanghai",
-   "n": 49,
-   "mae": 0.55,
+   "n": 50,
+   "mae": 0.56,
    "periods": {
     "21-24": {
      "n": 2,
      "mae": 0.0
     },
     "09-12": {
-     "n": 30,
-     "mae": 0.5
+     "n": 31,
+     "mae": 0.52
     },
     "06-09": {
      "n": 7,
@@ -38128,8 +38479,8 @@
   },
   {
    "city": "Shenzhen",
-   "n": 47,
-   "mae": 0.47,
+   "n": 48,
+   "mae": 0.46,
    "periods": {
     "09-12": {
      "n": 22,
@@ -38148,8 +38499,8 @@
      "mae": 0.0
     },
     "其他": {
-     "n": 3,
-     "mae": 0.67
+     "n": 4,
+     "mae": 0.5
     }
    },
    "best_period": "12-15"
@@ -38240,8 +38591,8 @@
   },
   {
    "city": "Tokyo",
-   "n": 49,
-   "mae": 0.73,
+   "n": 50,
+   "mae": 0.72,
    "periods": {
     "21-24": {
      "n": 5,
@@ -38256,8 +38607,8 @@
      "mae": 0.82
     },
     "其他": {
-     "n": 9,
-     "mae": 0.67
+     "n": 10,
+     "mae": 0.6
     },
     "15-18": {
      "n": 2,
@@ -38272,7 +38623,7 @@
      "mae": 0.75
     }
    },
-   "best_period": "09-12"
+   "best_period": "其他"
   },
   {
    "city": "Toronto",
