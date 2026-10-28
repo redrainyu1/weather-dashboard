@@ -13070,5 +13070,113 @@
  "highest-temperature-in-tokyo-on-october-26-2026": {
   "temp": 21.0,
   "peak_bj": null
+ },
+ "highest-temperature-in-amsterdam-on-october-27-2026": {
+  "temp": 16.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-ankara-on-october-27-2026": {
+  "temp": 18.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-atlanta-on-october-27-2026": {
+  "temp": 75.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-austin-on-october-27-2026": {
+  "temp": 83.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-beijing-on-october-27-2026": {
+  "temp": 15.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-buenos-aires-on-october-27-2026": {
+  "temp": 19.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-busan-on-october-27-2026": {
+  "temp": 19.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-cape-town-on-october-27-2026": {
+  "temp": 23.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-chengdu-on-october-27-2026": {
+  "temp": 19.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-chicago-on-october-27-2026": {
+  "temp": 69.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-chongqing-on-october-27-2026": {
+  "temp": 19.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-dallas-on-october-27-2026": {
+  "temp": 83.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-denver-on-october-27-2026": {
+  "temp": 63.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-guangzhou-on-october-27-2026": {
+  "temp": 32.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-helsinki-on-october-27-2026": {
+  "temp": 11.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-hong-kong-on-october-27-2026": {
+  "temp": 29.0,
+  "peak_bj": "2026-10-27 14:30"
+ },
+ "highest-temperature-in-istanbul-on-october-27-2026": {
+  "temp": 15.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-jeddah-on-october-27-2026": {
+  "temp": 38.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-karachi-on-october-27-2026": {
+  "temp": 38.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-kuala-lumpur-on-october-27-2026": {
+  "temp": 31.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-lucknow-on-october-27-2026": {
+  "temp": 32.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-manila-on-october-27-2026": {
+  "temp": 33.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-seoul-on-october-27-2026": {
+  "temp": 16.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-shanghai-on-october-27-2026": {
+  "temp": 21.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-shenzhen-on-october-27-2026": {
+  "temp": 31.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-taipei-on-october-27-2026": {
+  "temp": 27.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-tel-aviv-on-october-27-2026": {
+  "temp": 29.0,
+  "peak_bj": null
  }
 }
