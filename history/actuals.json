@@ -13474,5 +13474,101 @@
  "highest-temperature-in-warsaw-on-october-29-2026": {
   "temp": 10.0,
   "peak_bj": null
+ },
+ "highest-temperature-in-amsterdam-on-october-30-2026": {
+  "temp": 13.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-ankara-on-october-30-2026": {
+  "temp": 17.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-atlanta-on-october-30-2026": {
+  "temp": 81.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-austin-on-october-30-2026": {
+  "temp": 71.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-beijing-on-october-30-2026": {
+  "temp": 22.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-buenos-aires-on-october-30-2026": {
+  "temp": 24.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-busan-on-october-30-2026": {
+  "temp": 21.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-cape-town-on-october-30-2026": {
+  "temp": 25.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-chengdu-on-october-30-2026": {
+  "temp": 23.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-chicago-on-october-30-2026": {
+  "temp": 59.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-chongqing-on-october-30-2026": {
+  "temp": 20.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-dallas-on-october-30-2026": {
+  "temp": 75.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-denver-on-october-30-2026": {
+  "temp": 63.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-los-angeles-on-october-30-2026": {
+  "temp": 71.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-mexico-city-on-october-30-2026": {
+  "temp": 24.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-miami-on-october-30-2026": {
+  "temp": 87.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-nyc-on-october-30-2026": {
+  "temp": 71.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-panama-city-on-october-30-2026": {
+  "temp": 30.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-qingdao-on-october-30-2026": {
+  "temp": 23.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-san-francisco-on-october-30-2026": {
+  "temp": 67.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-sao-paulo-on-october-30-2026": {
+  "temp": 25.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-seattle-on-october-30-2026": {
+  "temp": 49.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-seoul-on-october-30-2026": {
+  "temp": 19.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-taipei-on-october-30-2026": {
+  "temp": 29.0,
+  "peak_bj": null
  }
 }
