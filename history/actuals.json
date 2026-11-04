@@ -13810,5 +13810,93 @@
  "highest-temperature-in-chicago-on-november-2-2026": {
   "temp": 61.0,
   "peak_bj": null
+ },
+ "highest-temperature-in-amsterdam-on-november-3-2026": {
+  "temp": 11.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-ankara-on-november-3-2026": {
+  "temp": 17.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-atlanta-on-november-3-2026": {
+  "temp": 71.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-austin-on-november-3-2026": {
+  "temp": 83.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-beijing-on-november-3-2026": {
+  "temp": 19.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-buenos-aires-on-november-3-2026": {
+  "temp": 23.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-busan-on-november-3-2026": {
+  "temp": 19.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-cape-town-on-november-3-2026": {
+  "temp": 25.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-chengdu-on-november-3-2026": {
+  "temp": 17.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-chicago-on-november-3-2026": {
+  "temp": 71.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-chongqing-on-november-3-2026": {
+  "temp": 16.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-dallas-on-november-3-2026": {
+  "temp": 77.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-denver-on-november-3-2026": {
+  "temp": 55.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-guangzhou-on-november-3-2026": {
+  "temp": 30.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-houston-on-november-3-2026": {
+  "temp": 87.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-karachi-on-november-3-2026": {
+  "temp": 36.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-lucknow-on-november-3-2026": {
+  "temp": 31.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-mexico-city-on-november-3-2026": {
+  "temp": 26.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-paris-on-november-3-2026": {
+  "temp": 10.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-sao-paulo-on-november-3-2026": {
+  "temp": 31.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-tel-aviv-on-november-3-2026": {
+  "temp": 28.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-warsaw-on-november-3-2026": {
+  "temp": 10.0,
+  "peak_bj": null
  }
 }
