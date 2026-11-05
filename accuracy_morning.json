@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 1727,
+ "n": 1735,
  "mae": 0.87,
  "bias": -0.47,
  "rows": [
@@ -22454,17 +22454,121 @@
    "actual": 10.0,
    "err": -1.0,
    "peak_local": null
+  },
+  {
+   "city": "Amsterdam",
+   "date": "2026-11-04",
+   "date_display": "11/04",
+   "snap_date": "2026-11-04",
+   "time": "11:30",
+   "local_hhmm": "04:30",
+   "hour": 11,
+   "meteo": 10,
+   "actual": 10.0,
+   "err": 0.0,
+   "peak_local": null
+  },
+  {
+   "city": "Ankara",
+   "date": "2026-11-04",
+   "date_display": "11/04",
+   "snap_date": "2026-11-04",
+   "time": "11:30",
+   "local_hhmm": "06:30",
+   "hour": 11,
+   "meteo": 15,
+   "actual": 16.0,
+   "err": -1.0,
+   "peak_local": null
+  },
+  {
+   "city": "Beijing",
+   "date": "2026-11-04",
+   "date_display": "11/04",
+   "snap_date": "2026-11-04",
+   "time": "11:30",
+   "local_hhmm": "11:30",
+   "hour": 11,
+   "meteo": 13,
+   "actual": 13.0,
+   "err": 0.0,
+   "peak_local": null
+  },
+  {
+   "city": "Buenos Aires",
+   "date": "2026-11-04",
+   "date_display": "11/04",
+   "snap_date": "2026-11-04",
+   "time": "11:30",
+   "local_hhmm": "00:30",
+   "hour": 11,
+   "meteo": 24,
+   "actual": 26.0,
+   "err": -2.0,
+   "peak_local": null
+  },
+  {
+   "city": "Busan",
+   "date": "2026-11-04",
+   "date_display": "11/04",
+   "snap_date": "2026-11-04",
+   "time": "11:30",
+   "local_hhmm": "12:30",
+   "hour": 11,
+   "meteo": 15,
+   "actual": 15.0,
+   "err": 0.0,
+   "peak_local": null
+  },
+  {
+   "city": "Cape Town",
+   "date": "2026-11-04",
+   "date_display": "11/04",
+   "snap_date": "2026-11-04",
+   "time": "11:30",
+   "local_hhmm": "05:30",
+   "hour": 11,
+   "meteo": 28,
+   "actual": 30.0,
+   "err": -2.0,
+   "peak_local": null
+  },
+  {
+   "city": "Chengdu",
+   "date": "2026-11-04",
+   "date_display": "11/04",
+   "snap_date": "2026-11-04",
+   "time": "11:30",
+   "local_hhmm": "11:30",
+   "hour": 11,
+   "meteo": 21,
+   "actual": 21.0,
+   "err": 0.0,
+   "peak_local": null
+  },
+  {
+   "city": "Chongqing",
+   "date": "2026-11-04",
+   "date_display": "11/04",
+   "snap_date": "2026-11-04",
+   "time": "11:30",
+   "local_hhmm": "11:30",
+   "hour": 11,
+   "meteo": 19,
+   "actual": 19.0,
+   "err": 0.0,
+   "peak_local": null
   }
  ],
  "cities": [
   {
    "city": "Amsterdam",
-   "n": 70,
-   "mae": 0.67,
+   "n": 71,
+   "mae": 0.66,
    "periods": {
     "09-12": {
-     "n": 58,
-     "mae": 0.66
+     "n": 59,
+     "mae": 0.64
     },
     "06-09": {
      "n": 12,
@@ -22475,11 +22579,11 @@
   },
   {
    "city": "Ankara",
-   "n": 74,
+   "n": 75,
    "mae": 0.99,
    "periods": {
     "09-12": {
-     "n": 58,
+     "n": 59,
      "mae": 0.9
     },
     "06-09": {
@@ -22503,12 +22607,12 @@
   },
   {
    "city": "Beijing",
-   "n": 75,
-   "mae": 0.6,
+   "n": 76,
+   "mae": 0.59,
    "periods": {
     "09-12": {
-     "n": 58,
-     "mae": 0.64
+     "n": 59,
+     "mae": 0.63
     },
     "06-09": {
      "n": 17,
@@ -22519,23 +22623,23 @@
   },
   {
    "city": "Buenos Aires",
-   "n": 43,
-   "mae": 1.79,
+   "n": 44,
+   "mae": 1.8,
    "periods": {
     "09-12": {
-     "n": 43,
-     "mae": 1.79
+     "n": 44,
+     "mae": 1.8
     }
    },
    "best_period": "09-12"
   },
   {
    "city": "Busan",
-   "n": 73,
-   "mae": 0.25,
+   "n": 74,
+   "mae": 0.24,
    "periods": {
     "09-12": {
-     "n": 41,
+     "n": 42,
      "mae": 0.29
     },
     "06-09": {
@@ -22547,12 +22651,12 @@
   },
   {
    "city": "Cape Town",
-   "n": 74,
-   "mae": 0.85,
+   "n": 75,
+   "mae": 0.87,
    "periods": {
     "09-12": {
-     "n": 58,
-     "mae": 0.86
+     "n": 59,
+     "mae": 0.88
     },
     "06-09": {
      "n": 16,
@@ -22563,11 +22667,11 @@
   },
   {
    "city": "Chengdu",
-   "n": 73,
+   "n": 74,
    "mae": 0.27,
    "periods": {
     "09-12": {
-     "n": 58,
+     "n": 59,
      "mae": 0.29
     },
     "06-09": {
@@ -22591,12 +22695,12 @@
   },
   {
    "city": "Chongqing",
-   "n": 62,
-   "mae": 0.39,
+   "n": 63,
+   "mae": 0.38,
    "periods": {
     "09-12": {
-     "n": 46,
-     "mae": 0.33
+     "n": 47,
+     "mae": 0.32
     },
     "06-09": {
      "n": 16,
