@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 3147,
+ "n": 3148,
  "mae": 0.85,
  "bias": -0.55,
  "rows": [
@@ -40864,6 +40864,19 @@
    "peak_local": null
   },
   {
+   "city": "Austin",
+   "date": "2026-11-08",
+   "date_display": "11/08",
+   "snap_date": "2026-11-08",
+   "time": "01:56",
+   "local_hhmm": "11:56",
+   "hour": 1,
+   "meteo": 63,
+   "actual": 63.0,
+   "err": 0.0,
+   "peak_local": null
+  },
+  {
    "city": "Chicago",
    "date": "2026-11-08",
    "date_display": "11/08",
@@ -41011,16 +41024,16 @@
   },
   {
    "city": "Austin",
-   "n": 86,
-   "mae": 0.99,
+   "n": 87,
+   "mae": 0.98,
    "periods": {
     "21-24": {
      "n": 25,
      "mae": 1.36
     },
     "其他": {
-     "n": 56,
-     "mae": 0.66
+     "n": 57,
+     "mae": 0.65
     },
     "06-09": {
      "n": 1,
