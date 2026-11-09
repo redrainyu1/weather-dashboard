@@ -14134,5 +14134,61 @@
  "highest-temperature-in-paris-on-november-7-2026": {
   "temp": 10.0,
   "peak_bj": null
+ },
+ "highest-temperature-in-amsterdam-on-november-8-2026": {
+  "temp": 10.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-atlanta-on-november-8-2026": {
+  "temp": 71.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-beijing-on-november-8-2026": {
+  "temp": 10.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-buenos-aires-on-november-8-2026": {
+  "temp": 23.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-busan-on-november-8-2026": {
+  "temp": 15.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-cape-town-on-november-8-2026": {
+  "temp": 28.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-chengdu-on-november-8-2026": {
+  "temp": 17.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-chicago-on-november-8-2026": {
+  "temp": 61.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-chongqing-on-november-8-2026": {
+  "temp": 17.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-dallas-on-november-8-2026": {
+  "temp": 71.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-denver-on-november-8-2026": {
+  "temp": 69.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-guangzhou-on-november-8-2026": {
+  "temp": 33.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-panama-city-on-november-8-2026": {
+  "temp": 31.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-tokyo-on-november-8-2026": {
+  "temp": 18.0,
+  "peak_bj": null
  }
 }
