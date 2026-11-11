@@ -14286,5 +14286,109 @@
  "highest-temperature-in-seattle-on-november-9-2026": {
   "temp": 55.0,
   "peak_bj": null
+ },
+ "highest-temperature-in-atlanta-on-november-10-2026": {
+  "temp": 75.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-austin-on-november-10-2026": {
+  "temp": 69.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-beijing-on-november-10-2026": {
+  "temp": 16.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-buenos-aires-on-november-10-2026": {
+  "temp": 25.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-busan-on-november-10-2026": {
+  "temp": 17.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-cape-town-on-november-10-2026": {
+  "temp": 26.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-chengdu-on-november-10-2026": {
+  "temp": 17.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-chicago-on-november-10-2026": {
+  "temp": 65.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-chongqing-on-november-10-2026": {
+  "temp": 16.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-dallas-on-november-10-2026": {
+  "temp": 79.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-denver-on-november-10-2026": {
+  "temp": 69.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-houston-on-november-10-2026": {
+  "temp": 77.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-istanbul-on-november-10-2026": {
+  "temp": 13.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-jeddah-on-november-10-2026": {
+  "temp": 31.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-los-angeles-on-november-10-2026": {
+  "temp": 83.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-madrid-on-november-10-2026": {
+  "temp": 19.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-mexico-city-on-november-10-2026": {
+  "temp": 24.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-miami-on-november-10-2026": {
+  "temp": 85.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-milan-on-november-10-2026": {
+  "temp": 13.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-nyc-on-november-10-2026": {
+  "temp": 63.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-panama-city-on-november-10-2026": {
+  "temp": 33.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-paris-on-november-10-2026": {
+  "temp": 12.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-san-francisco-on-november-10-2026": {
+  "temp": 73.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-sao-paulo-on-november-10-2026": {
+  "temp": 23.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-seattle-on-november-10-2026": {
+  "temp": 59.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-tel-aviv-on-november-10-2026": {
+  "temp": 23.0,
+  "peak_bj": null
  }
 }
