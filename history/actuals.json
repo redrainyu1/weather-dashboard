@@ -14490,5 +14490,41 @@
  "highest-temperature-in-chongqing-on-november-12-2026": {
   "temp": 16.0,
   "peak_bj": null
+ },
+ "highest-temperature-in-atlanta-on-november-12-2026": {
+  "temp": 67.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-austin-on-november-12-2026": {
+  "temp": 79.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-buenos-aires-on-november-12-2026": {
+  "temp": 31.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-chicago-on-november-12-2026": {
+  "temp": 47.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-dallas-on-november-12-2026": {
+  "temp": 79.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-manila-on-november-12-2026": {
+  "temp": 32.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-mexico-city-on-november-12-2026": {
+  "temp": 20.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-miami-on-november-12-2026": {
+  "temp": 87.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-seoul-on-november-12-2026": {
+  "temp": 16.0,
+  "peak_bj": null
  }
 }
