@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 1785,
+ "n": 1798,
  "mae": 0.85,
  "bias": -0.47,
  "rows": [
@@ -23208,6 +23208,175 @@
    "actual": 24.0,
    "err": -1.0,
    "peak_local": null
+  },
+  {
+   "city": "Ankara",
+   "date": "2026-11-15",
+   "date_display": "11/15",
+   "snap_date": "2026-11-15",
+   "time": "07:10",
+   "local_hhmm": "01:10",
+   "hour": 7,
+   "meteo": 12,
+   "actual": 15.0,
+   "err": -3.0,
+   "peak_local": null
+  },
+  {
+   "city": "Beijing",
+   "date": "2026-11-15",
+   "date_display": "11/15",
+   "snap_date": "2026-11-15",
+   "time": "07:10",
+   "local_hhmm": "07:10",
+   "hour": 7,
+   "meteo": 13,
+   "actual": 14.0,
+   "err": -1.0,
+   "peak_local": null
+  },
+  {
+   "city": "Busan",
+   "date": "2026-11-15",
+   "date_display": "11/15",
+   "snap_date": "2026-11-15",
+   "time": "07:10",
+   "local_hhmm": "08:10",
+   "hour": 7,
+   "meteo": 17,
+   "actual": 18.0,
+   "err": -1.0,
+   "peak_local": null
+  },
+  {
+   "city": "Cape Town",
+   "date": "2026-11-15",
+   "date_display": "11/15",
+   "snap_date": "2026-11-15",
+   "time": "07:10",
+   "local_hhmm": "00:10",
+   "hour": 7,
+   "meteo": 24,
+   "actual": 24.0,
+   "err": 0.0,
+   "peak_local": null
+  },
+  {
+   "city": "Chengdu",
+   "date": "2026-11-15",
+   "date_display": "11/15",
+   "snap_date": "2026-11-15",
+   "time": "07:10",
+   "local_hhmm": "06:10",
+   "hour": 7,
+   "meteo": 18,
+   "actual": 18.0,
+   "err": 0.0,
+   "peak_local": null
+  },
+  {
+   "city": "Chongqing",
+   "date": "2026-11-15",
+   "date_display": "11/15",
+   "snap_date": "2026-11-15",
+   "time": "07:10",
+   "local_hhmm": "06:10",
+   "hour": 7,
+   "meteo": 17,
+   "actual": 17.0,
+   "err": 0.0,
+   "peak_local": null
+  },
+  {
+   "city": "Guangzhou",
+   "date": "2026-11-15",
+   "date_display": "11/15",
+   "snap_date": "2026-11-15",
+   "time": "07:10",
+   "local_hhmm": "07:10",
+   "hour": 7,
+   "meteo": 26,
+   "actual": 27.0,
+   "err": -1.0,
+   "peak_local": null
+  },
+  {
+   "city": "Hong Kong",
+   "date": "2026-11-15",
+   "date_display": "11/15",
+   "snap_date": "2026-11-15",
+   "time": "07:10",
+   "local_hhmm": "07:10",
+   "hour": 7,
+   "meteo": 26,
+   "actual": 25.0,
+   "err": 1.0,
+   "peak_local": "17:00"
+  },
+  {
+   "city": "Istanbul",
+   "date": "2026-11-15",
+   "date_display": "11/15",
+   "snap_date": "2026-11-15",
+   "time": "07:10",
+   "local_hhmm": "02:10",
+   "hour": 7,
+   "meteo": 12,
+   "actual": 13.0,
+   "err": -1.0,
+   "peak_local": null
+  },
+  {
+   "city": "Jeddah",
+   "date": "2026-11-15",
+   "date_display": "11/15",
+   "snap_date": "2026-11-15",
+   "time": "07:10",
+   "local_hhmm": "02:10",
+   "hour": 7,
+   "meteo": 34,
+   "actual": 35.0,
+   "err": -1.0,
+   "peak_local": null
+  },
+  {
+   "city": "Karachi",
+   "date": "2026-11-15",
+   "date_display": "11/15",
+   "snap_date": "2026-11-15",
+   "time": "07:10",
+   "local_hhmm": "04:10",
+   "hour": 7,
+   "meteo": 32,
+   "actual": 33.0,
+   "err": -1.0,
+   "peak_local": null
+  },
+  {
+   "city": "Kuala Lumpur",
+   "date": "2026-11-15",
+   "date_display": "11/15",
+   "snap_date": "2026-11-15",
+   "time": "07:10",
+   "local_hhmm": "07:10",
+   "hour": 7,
+   "meteo": 29,
+   "actual": 30.0,
+   "err": -1.0,
+   "peak_local": null
+  },
+  {
+   "city": "Lucknow",
+   "date": "2026-11-15",
+   "date_display": "11/15",
+   "snap_date": "2026-11-15",
+   "time": "07:10",
+   "local_hhmm": "05:10",
+   "hour": 7,
+   "meteo": 29,
+   "actual": 29.0,
+   "err": 0.0,
+   "peak_local": null
   }
  ],
  "cities": [
@@ -23229,16 +23398,16 @@
   },
   {
    "city": "Ankara",
-   "n": 80,
-   "mae": 1.01,
+   "n": 81,
+   "mae": 1.04,
    "periods": {
     "09-12": {
      "n": 61,
      "mae": 0.93
     },
     "06-09": {
-     "n": 19,
-     "mae": 1.26
+     "n": 20,
+     "mae": 1.35
     }
    },
    "best_period": "09-12"
@@ -23257,7 +23426,7 @@
   },
   {
    "city": "Beijing",
-   "n": 83,
+   "n": 84,
    "mae": 0.57,
    "periods": {
     "09-12": {
@@ -23265,8 +23434,8 @@
      "mae": 0.6
     },
     "06-09": {
-     "n": 20,
-     "mae": 0.45
+     "n": 21,
+     "mae": 0.48
     }
    },
    "best_period": "06-09"
@@ -23285,48 +23454,48 @@
   },
   {
    "city": "Busan",
-   "n": 82,
-   "mae": 0.22,
+   "n": 83,
+   "mae": 0.23,
    "periods": {
     "09-12": {
      "n": 47,
      "mae": 0.26
     },
     "06-09": {
-     "n": 35,
-     "mae": 0.17
+     "n": 36,
+     "mae": 0.19
     }
    },
    "best_period": "06-09"
   },
   {
    "city": "Cape Town",
-   "n": 83,
-   "mae": 0.86,
+   "n": 84,
+   "mae": 0.85,
    "periods": {
     "09-12": {
      "n": 64,
      "mae": 0.84
     },
     "06-09": {
-     "n": 19,
-     "mae": 0.89
+     "n": 20,
+     "mae": 0.85
     }
    },
    "best_period": "09-12"
   },
   {
    "city": "Chengdu",
-   "n": 82,
-   "mae": 0.26,
+   "n": 83,
+   "mae": 0.25,
    "periods": {
     "09-12": {
      "n": 64,
      "mae": 0.27
     },
     "06-09": {
-     "n": 18,
-     "mae": 0.22
+     "n": 19,
+     "mae": 0.21
     }
    },
    "best_period": "06-09"
@@ -23345,23 +23514,23 @@
   },
   {
    "city": "Chongqing",
-   "n": 71,
-   "mae": 0.34,
+   "n": 72,
+   "mae": 0.33,
    "periods": {
     "09-12": {
      "n": 52,
      "mae": 0.29
     },
     "06-09": {
-     "n": 19,
-     "mae": 0.47
+     "n": 20,
+     "mae": 0.45
     }
    },
    "best_period": "09-12"
   },
   {
    "city": "Guangzhou",
-   "n": 53,
+   "n": 54,
    "mae": 0.87,
    "periods": {
     "09-12": {
@@ -23369,8 +23538,8 @@
      "mae": 0.89
     },
     "06-09": {
-     "n": 8,
-     "mae": 0.75
+     "n": 9,
+     "mae": 0.78
     }
    },
    "best_period": "06-09"
@@ -23393,7 +23562,7 @@
   },
   {
    "city": "Hong Kong",
-   "n": 45,
+   "n": 46,
    "mae": 0.89,
    "periods": {
     "09-12": {
@@ -23401,7 +23570,7 @@
      "mae": 0.85
     },
     "06-09": {
-     "n": 11,
+     "n": 12,
      "mae": 1.0
     }
    },
@@ -23409,32 +23578,32 @@
   },
   {
    "city": "Istanbul",
-   "n": 44,
-   "mae": 0.55,
+   "n": 45,
+   "mae": 0.56,
    "periods": {
     "09-12": {
      "n": 38,
      "mae": 0.53
     },
     "06-09": {
-     "n": 6,
-     "mae": 0.67
+     "n": 7,
+     "mae": 0.71
     }
    },
    "best_period": "09-12"
   },
   {
    "city": "Jeddah",
-   "n": 43,
-   "mae": 0.63,
+   "n": 44,
+   "mae": 0.64,
    "periods": {
     "09-12": {
      "n": 40,
      "mae": 0.62
     },
     "06-09": {
-     "n": 3,
-     "mae": 0.67
+     "n": 4,
+     "mae": 0.75
     }
    },
    "best_period": "09-12"
@@ -23457,7 +23626,7 @@
   },
   {
    "city": "Karachi",
-   "n": 44,
+   "n": 45,
    "mae": 1.07,
    "periods": {
     "09-12": {
@@ -23465,24 +23634,24 @@
      "mae": 1.05
     },
     "06-09": {
-     "n": 7,
-     "mae": 1.14
+     "n": 8,
+     "mae": 1.12
     }
    },
    "best_period": "09-12"
   },
   {
    "city": "Kuala Lumpur",
-   "n": 44,
-   "mae": 0.7,
+   "n": 45,
+   "mae": 0.71,
    "periods": {
     "09-12": {
      "n": 30,
      "mae": 0.8
     },
     "06-09": {
-     "n": 14,
-     "mae": 0.5
+     "n": 15,
+     "mae": 0.53
     }
    },
    "best_period": "06-09"
@@ -23517,16 +23686,16 @@
   },
   {
    "city": "Lucknow",
-   "n": 39,
-   "mae": 0.74,
+   "n": 40,
+   "mae": 0.72,
    "periods": {
     "09-12": {
      "n": 32,
      "mae": 0.81
     },
     "06-09": {
-     "n": 7,
-     "mae": 0.43
+     "n": 8,
+     "mae": 0.38
     }
    },
    "best_period": "06-09"

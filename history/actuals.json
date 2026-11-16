@@ -14674,5 +14674,101 @@
  "highest-temperature-in-shenzhen-on-november-14-2026": {
   "temp": 24.0,
   "peak_bj": null
+ },
+ "highest-temperature-in-ankara-on-november-15-2026": {
+  "temp": 15.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-atlanta-on-november-15-2026": {
+  "temp": 55.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-austin-on-november-15-2026": {
+  "temp": 55.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-beijing-on-november-15-2026": {
+  "temp": 14.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-buenos-aires-on-november-15-2026": {
+  "temp": 29.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-busan-on-november-15-2026": {
+  "temp": 18.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-cape-town-on-november-15-2026": {
+  "temp": 24.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-chengdu-on-november-15-2026": {
+  "temp": 18.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-chicago-on-november-15-2026": {
+  "temp": 53.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-chongqing-on-november-15-2026": {
+  "temp": 17.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-dallas-on-november-15-2026": {
+  "temp": 53.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-denver-on-november-15-2026": {
+  "temp": 57.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-guangzhou-on-november-15-2026": {
+  "temp": 27.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-hong-kong-on-november-15-2026": {
+  "temp": 25.0,
+  "peak_bj": "2026-11-15 17:00"
+ },
+ "highest-temperature-in-houston-on-november-15-2026": {
+  "temp": 65.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-istanbul-on-november-15-2026": {
+  "temp": 13.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-jeddah-on-november-15-2026": {
+  "temp": 35.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-karachi-on-november-15-2026": {
+  "temp": 33.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-kuala-lumpur-on-november-15-2026": {
+  "temp": 30.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-lucknow-on-november-15-2026": {
+  "temp": 29.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-manila-on-november-15-2026": {
+  "temp": 33.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-sao-paulo-on-november-15-2026": {
+  "temp": 31.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-shenzhen-on-november-15-2026": {
+  "temp": 27.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-taipei-on-november-15-2026": {
+  "temp": 25.0,
+  "peak_bj": null
  }
 }
