@@ -14770,5 +14770,77 @@
  "highest-temperature-in-taipei-on-november-15-2026": {
   "temp": 25.0,
   "peak_bj": null
+ },
+ "highest-temperature-in-amsterdam-on-november-16-2026": {
+  "temp": 10.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-ankara-on-november-16-2026": {
+  "temp": 13.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-atlanta-on-november-16-2026": {
+  "temp": 59.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-austin-on-november-16-2026": {
+  "temp": 63.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-buenos-aires-on-november-16-2026": {
+  "temp": 30.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-busan-on-november-16-2026": {
+  "temp": 18.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-cape-town-on-november-16-2026": {
+  "temp": 25.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-chengdu-on-november-16-2026": {
+  "temp": 15.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-chicago-on-november-16-2026": {
+  "temp": 53.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-chongqing-on-november-16-2026": {
+  "temp": 15.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-dallas-on-november-16-2026": {
+  "temp": 63.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-denver-on-november-16-2026": {
+  "temp": 63.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-guangzhou-on-november-16-2026": {
+  "temp": 29.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-hong-kong-on-november-16-2026": {
+  "temp": 27.0,
+  "peak_bj": "2026-11-16 16:07"
+ },
+ "highest-temperature-in-houston-on-november-16-2026": {
+  "temp": 65.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-shenzhen-on-november-16-2026": {
+  "temp": 27.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-taipei-on-november-16-2026": {
+  "temp": 26.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-tokyo-on-november-16-2026": {
+  "temp": 20.0,
+  "peak_bj": null
  }
 }
