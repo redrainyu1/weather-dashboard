@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 1829,
+ "n": 1833,
  "mae": 0.85,
  "bias": -0.47,
  "rows": [
@@ -23780,6 +23780,58 @@
    "actual": 12.0,
    "err": 0.0,
    "peak_local": null
+  },
+  {
+   "city": "Ankara",
+   "date": "2026-11-20",
+   "date_display": "11/20",
+   "snap_date": "2026-11-20",
+   "time": "06:51",
+   "local_hhmm": "01:51",
+   "hour": 6,
+   "meteo": 16,
+   "actual": 17.0,
+   "err": -1.0,
+   "peak_local": null
+  },
+  {
+   "city": "Cape Town",
+   "date": "2026-11-20",
+   "date_display": "11/20",
+   "snap_date": "2026-11-20",
+   "time": "06:51",
+   "local_hhmm": "00:51",
+   "hour": 6,
+   "meteo": 22,
+   "actual": 23.0,
+   "err": -1.0,
+   "peak_local": null
+  },
+  {
+   "city": "Chengdu",
+   "date": "2026-11-20",
+   "date_display": "11/20",
+   "snap_date": "2026-11-20",
+   "time": "06:51",
+   "local_hhmm": "06:51",
+   "hour": 6,
+   "meteo": 20,
+   "actual": 20.0,
+   "err": 0.0,
+   "peak_local": null
+  },
+  {
+   "city": "Chongqing",
+   "date": "2026-11-20",
+   "date_display": "11/20",
+   "snap_date": "2026-11-20",
+   "time": "06:51",
+   "local_hhmm": "06:51",
+   "hour": 6,
+   "meteo": 16,
+   "actual": 17.0,
+   "err": -1.0,
+   "peak_local": null
   }
  ],
  "cities": [
@@ -23801,16 +23853,16 @@
   },
   {
    "city": "Ankara",
-   "n": 85,
-   "mae": 1.04,
+   "n": 86,
+   "mae": 1.03,
    "periods": {
     "09-12": {
      "n": 63,
      "mae": 0.92
     },
     "06-09": {
-     "n": 22,
-     "mae": 1.36
+     "n": 23,
+     "mae": 1.35
     }
    },
    "best_period": "09-12"
@@ -23873,7 +23925,7 @@
   },
   {
    "city": "Cape Town",
-   "n": 88,
+   "n": 89,
    "mae": 0.88,
    "periods": {
     "09-12": {
@@ -23881,7 +23933,7 @@
      "mae": 0.86
     },
     "06-09": {
-     "n": 22,
+     "n": 23,
      "mae": 0.91
     }
    },
@@ -23889,7 +23941,7 @@
   },
   {
    "city": "Chengdu",
-   "n": 87,
+   "n": 88,
    "mae": 0.26,
    "periods": {
     "09-12": {
@@ -23897,8 +23949,8 @@
      "mae": 0.27
     },
     "06-09": {
-     "n": 21,
-     "mae": 0.24
+     "n": 22,
+     "mae": 0.23
     }
    },
    "best_period": "06-09"
@@ -23917,16 +23969,16 @@
   },
   {
    "city": "Chongqing",
-   "n": 76,
-   "mae": 0.33,
+   "n": 77,
+   "mae": 0.34,
    "periods": {
     "09-12": {
      "n": 54,
      "mae": 0.28
     },
     "06-09": {
-     "n": 22,
-     "mae": 0.45
+     "n": 23,
+     "mae": 0.48
     }
    },
    "best_period": "09-12"
