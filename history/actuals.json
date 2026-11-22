@@ -15122,5 +15122,25 @@
  "highest-temperature-in-shenzhen-on-november-21-2026": {
   "temp": 22.0,
   "peak_bj": null
+ },
+ "highest-temperature-in-atlanta-on-november-21-2026": {
+  "temp": 63.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-austin-on-november-21-2026": {
+  "temp": 75.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-chicago-on-november-21-2026": {
+  "temp": 69.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-dallas-on-november-21-2026": {
+  "temp": 73.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-houston-on-november-21-2026": {
+  "temp": 77.0,
+  "peak_bj": null
  }
 }
