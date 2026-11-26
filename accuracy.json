@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 3427,
+ "n": 3428,
  "mae": 0.84,
  "bias": -0.55,
  "rows": [
@@ -44543,6 +44543,19 @@
    "peak_local": null
   },
   {
+   "city": "Chicago",
+   "date": "2026-11-25",
+   "date_display": "11/25",
+   "snap_date": "2026-11-25",
+   "time": "02:48",
+   "local_hhmm": "12:48",
+   "hour": 2,
+   "meteo": 41,
+   "actual": 43.0,
+   "err": -2.0,
+   "peak_local": null
+  },
+  {
    "city": "Dallas",
    "date": "2026-11-25",
    "date_display": "11/25",
@@ -44831,16 +44844,16 @@
   },
   {
    "city": "Chicago",
-   "n": 97,
-   "mae": 1.06,
+   "n": 98,
+   "mae": 1.07,
    "periods": {
     "21-24": {
      "n": 39,
      "mae": 1.31
     },
     "其他": {
-     "n": 53,
-     "mae": 0.79
+     "n": 54,
+     "mae": 0.81
     },
     "18-21": {
      "n": 2,
