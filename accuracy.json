@@ -1,6 +1,6 @@
 {
  "model": "METEO",
- "n": 3419,
+ "n": 3427,
  "mae": 0.84,
  "bias": -0.55,
  "rows": [
@@ -44439,6 +44439,45 @@
    "peak_local": null
   },
   {
+   "city": "Busan",
+   "date": "2026-11-25",
+   "date_display": "11/25",
+   "snap_date": "2026-11-25",
+   "time": "10:25",
+   "local_hhmm": "11:25",
+   "hour": 10,
+   "meteo": 10,
+   "actual": 10.0,
+   "err": 0.0,
+   "peak_local": null
+  },
+  {
+   "city": "Chengdu",
+   "date": "2026-11-25",
+   "date_display": "11/25",
+   "snap_date": "2026-11-25",
+   "time": "10:25",
+   "local_hhmm": "10:25",
+   "hour": 10,
+   "meteo": 16,
+   "actual": 16.0,
+   "err": 0.0,
+   "peak_local": null
+  },
+  {
+   "city": "Chongqing",
+   "date": "2026-11-25",
+   "date_display": "11/25",
+   "snap_date": "2026-11-25",
+   "time": "10:25",
+   "local_hhmm": "10:25",
+   "hour": 10,
+   "meteo": 17,
+   "actual": 17.0,
+   "err": 0.0,
+   "peak_local": null
+  },
+  {
    "city": "Dallas",
    "date": "2026-11-24",
    "date_display": "11/24",
@@ -44448,6 +44487,71 @@
    "hour": 1,
    "meteo": 46,
    "actual": 47.0,
+   "err": -1.0,
+   "peak_local": null
+  },
+  {
+   "city": "Cape Town",
+   "date": "2026-11-25",
+   "date_display": "11/25",
+   "snap_date": "2026-11-25",
+   "time": "20:08",
+   "local_hhmm": "14:08",
+   "hour": 20,
+   "meteo": 24,
+   "actual": 24.0,
+   "err": 0.0,
+   "peak_local": null
+  },
+  {
+   "city": "Atlanta",
+   "date": "2026-11-25",
+   "date_display": "11/25",
+   "snap_date": "2026-11-25",
+   "time": "02:48",
+   "local_hhmm": "13:48",
+   "hour": 2,
+   "meteo": 54,
+   "actual": 55.0,
+   "err": -1.0,
+   "peak_local": null
+  },
+  {
+   "city": "Austin",
+   "date": "2026-11-25",
+   "date_display": "11/25",
+   "snap_date": "2026-11-25",
+   "time": "02:48",
+   "local_hhmm": "12:48",
+   "hour": 2,
+   "meteo": 57,
+   "actual": 57.0,
+   "err": 0.0,
+   "peak_local": null
+  },
+  {
+   "city": "Buenos Aires",
+   "date": "2026-11-25",
+   "date_display": "11/25",
+   "snap_date": "2026-11-25",
+   "time": "20:08",
+   "local_hhmm": "09:08",
+   "hour": 20,
+   "meteo": 30,
+   "actual": 30.0,
+   "err": 0.0,
+   "peak_local": null
+  },
+  {
+   "city": "Dallas",
+   "date": "2026-11-25",
+   "date_display": "11/25",
+   "snap_date": "2026-11-25",
+   "time": "02:48",
+   "local_hhmm": "12:48",
+   "hour": 2,
+   "meteo": 54,
+   "actual": 55.0,
    "err": -1.0,
    "peak_local": null
   }
@@ -44527,7 +44631,7 @@
   },
   {
    "city": "Atlanta",
-   "n": 102,
+   "n": 103,
    "mae": 0.93,
    "periods": {
     "21-24": {
@@ -44535,8 +44639,8 @@
      "mae": 1.09
     },
     "其他": {
-     "n": 57,
-     "mae": 0.82
+     "n": 58,
+     "mae": 0.83
     },
     "18-21": {
      "n": 1,
@@ -44551,16 +44655,16 @@
   },
   {
    "city": "Austin",
-   "n": 103,
-   "mae": 0.93,
+   "n": 104,
+   "mae": 0.92,
    "periods": {
     "21-24": {
      "n": 30,
      "mae": 1.33
     },
     "其他": {
-     "n": 68,
-     "mae": 0.62
+     "n": 69,
+     "mae": 0.61
     },
     "06-09": {
      "n": 1,
@@ -44611,8 +44715,8 @@
   },
   {
    "city": "Buenos Aires",
-   "n": 103,
-   "mae": 1.38,
+   "n": 104,
+   "mae": 1.37,
    "periods": {
     "21-24": {
      "n": 77,
@@ -44623,8 +44727,8 @@
      "mae": 1.0
     },
     "18-21": {
-     "n": 8,
-     "mae": 1.38
+     "n": 9,
+     "mae": 1.22
     },
     "12-15": {
      "n": 2,
@@ -44635,7 +44739,7 @@
   },
   {
    "city": "Busan",
-   "n": 95,
+   "n": 96,
    "mae": 0.27,
    "periods": {
     "21-24": {
@@ -44643,7 +44747,7 @@
      "mae": 2.0
     },
     "09-12": {
-     "n": 48,
+     "n": 49,
      "mae": 0.27
     },
     "06-09": {
@@ -44667,7 +44771,7 @@
   },
   {
    "city": "Cape Town",
-   "n": 97,
+   "n": 98,
    "mae": 0.33,
    "periods": {
     "21-24": {
@@ -44679,7 +44783,7 @@
      "mae": 0.15
     },
     "18-21": {
-     "n": 23,
+     "n": 24,
      "mae": 0.04
     },
     "09-12": {
@@ -44699,7 +44803,7 @@
   },
   {
    "city": "Chengdu",
-   "n": 96,
+   "n": 97,
    "mae": 0.25,
    "periods": {
     "12-15": {
@@ -44707,8 +44811,8 @@
      "mae": 0.13
     },
     "09-12": {
-     "n": 35,
-     "mae": 0.29
+     "n": 36,
+     "mae": 0.28
     },
     "其他": {
      "n": 2,
@@ -44751,7 +44855,7 @@
   },
   {
    "city": "Chongqing",
-   "n": 89,
+   "n": 90,
    "mae": 0.22,
    "periods": {
     "12-15": {
@@ -44763,8 +44867,8 @@
      "mae": 0.25
     },
     "09-12": {
-     "n": 31,
-     "mae": 0.26
+     "n": 32,
+     "mae": 0.25
     },
     "15-18": {
      "n": 4,
@@ -44783,7 +44887,7 @@
   },
   {
    "city": "Dallas",
-   "n": 91,
+   "n": 92,
    "mae": 1.25,
    "periods": {
     "21-24": {
@@ -44791,8 +44895,8 @@
      "mae": 1.5
     },
     "其他": {
-     "n": 48,
-     "mae": 0.77
+     "n": 49,
+     "mae": 0.78
     },
     "18-21": {
      "n": 5,
