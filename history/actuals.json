@@ -15378,5 +15378,101 @@
  "highest-temperature-in-seattle-on-november-26-2026": {
   "temp": 55.0,
   "peak_bj": null
+ },
+ "highest-temperature-in-ankara-on-november-27-2026": {
+  "temp": 12.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-atlanta-on-november-27-2026": {
+  "temp": 51.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-austin-on-november-27-2026": {
+  "temp": 69.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-beijing-on-november-27-2026": {
+  "temp": 11.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-buenos-aires-on-november-27-2026": {
+  "temp": 33.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-busan-on-november-27-2026": {
+  "temp": 20.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-cape-town-on-november-27-2026": {
+  "temp": 24.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-chengdu-on-november-27-2026": {
+  "temp": 21.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-chicago-on-november-27-2026": {
+  "temp": 47.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-chongqing-on-november-27-2026": {
+  "temp": 19.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-dallas-on-november-27-2026": {
+  "temp": 69.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-denver-on-november-27-2026": {
+  "temp": 63.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-guangzhou-on-november-27-2026": {
+  "temp": 27.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-hong-kong-on-november-27-2026": {
+  "temp": 25.0,
+  "peak_bj": "2026-11-27 16:30"
+ },
+ "highest-temperature-in-karachi-on-november-27-2026": {
+  "temp": 29.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-kuala-lumpur-on-november-27-2026": {
+  "temp": 32.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-lucknow-on-november-27-2026": {
+  "temp": 25.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-qingdao-on-november-27-2026": {
+  "temp": 14.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-seoul-on-november-27-2026": {
+  "temp": 16.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-shanghai-on-november-27-2026": {
+  "temp": 21.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-shenzhen-on-november-27-2026": {
+  "temp": 25.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-singapore-on-november-27-2026": {
+  "temp": 32.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-tokyo-on-november-27-2026": {
+  "temp": 17.0,
+  "peak_bj": null
+ },
+ "highest-temperature-in-wuhan-on-november-27-2026": {
+  "temp": 19.0,
+  "peak_bj": null
  }
 }
